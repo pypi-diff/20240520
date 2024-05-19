@@ -160,3 +160,30 @@
 [2024-05-20 00:12:08] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.0b0.tar.gz]
 [2024-05-20 00:12:08] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
 [2024-05-20 00:12:08] INFO root fetch - main [MainThread]: Store serial: [23281531]
+[2024-05-20 00:14:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281531]
+[2024-05-20 00:14:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 00:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zensols.calamr
+[2024-05-20 00:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linkedit
+[2024-05-20 00:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: file-renamer
+[2024-05-20 00:14:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lipidicz
+[2024-05-20 00:14:16] WARNING root fetch - processPackages [zensols.calamr]: Skipping, unable to determine old version
+[2024-05-20 00:14:16] INFO root fetch - main [MainThread]: End processing [zensols.calamr] error
+[2024-05-20 00:14:16] INFO root fetch - processPackages [file-renamer]: New version: [1.0.5.1] Old Version: [1.0.4]
+[2024-05-20 00:14:16] WARNING root fetch - processPackages [lipidicz]: Skipping, unable to determine old version
+[2024-05-20 00:14:16] INFO root fetch - main [MainThread]: End processing [lipidicz] error
+[2024-05-20 00:14:16] INFO root fetch - processPackages [linkedit]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-20 00:14:17] INFO root fetch - processPackages [file-renamer]: Downloading https://files.pythonhosted.org/packages/6a/06/65fe1021c69a2fedcb5ae777311abe95366c2d4caf318c9f75c559d3a0eb/file_renamer-1.0.4.tar.gz
+[2024-05-20 00:14:17] INFO root fetch - processPackages [linkedit]: Downloading https://files.pythonhosted.org/packages/d7/7c/cb12daa11d39fe7553181b9b7425fbf4a208b5519e4cd03434a2c95a25e9/linkedit-1.0.1.tar.gz
+[2024-05-20 00:14:17] INFO root fetch - processPackages [linkedit]: Downloading https://files.pythonhosted.org/packages/62/af/10e0af643380f3880d1349b3a792aa62ed3d3a248ea664a40da06e610756/linkedit-1.0.2.tar.gz
+[2024-05-20 00:14:17] INFO root fetch - processPackages [file-renamer]: Downloading https://files.pythonhosted.org/packages/c2/af/60ab6da90cb3d081b37bcd8ccfbcd89554fe799e12b510f70d7d52e95052/file_renamer-1.0.5.1.tar.gz
+[2024-05-20 00:14:17] INFO root fetch - processPackages [linkedit]: executing diffoscope
+[2024-05-20 00:14:17] INFO root fetch - processPackages [linkedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedit-1.0.1.tar.gz tmp/linkedit-1.0.2.tar.gz --markdown 20240520/l/linkedit/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-20 00:14:17] INFO root fetch - processPackages [file-renamer]: executing diffoscope
+[2024-05-20 00:14:17] INFO root fetch - processPackages [file-renamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file_renamer-1.0.4.tar.gz tmp/file_renamer-1.0.5.1.tar.gz --markdown 20240520/f/file-renamer/1.0.4-1.0.5.1/README.md --exclude *.pyd
+[2024-05-20 00:14:18] INFO root fetch - processPackages [linkedit]: Remove: archive file [/home/abi/fetcher/tmp/linkedit-1.0.1.tar.gz]
+[2024-05-20 00:14:18] INFO root fetch - processPackages [linkedit]: Remove: archive file [/home/abi/fetcher/tmp/linkedit-1.0.2.tar.gz]
+[2024-05-20 00:14:18] INFO root fetch - main [MainThread]: End processing [linkedit]: success
+[2024-05-20 00:14:18] INFO root fetch - processPackages [file-renamer]: Remove: archive file [/home/abi/fetcher/tmp/file_renamer-1.0.4.tar.gz]
+[2024-05-20 00:14:18] INFO root fetch - processPackages [file-renamer]: Remove: archive file [/home/abi/fetcher/tmp/file_renamer-1.0.5.1.tar.gz]
+[2024-05-20 00:14:18] INFO root fetch - main [MainThread]: End processing [file-renamer]: success
+[2024-05-20 00:14:18] INFO root fetch - main [MainThread]: Store serial: [23281545]

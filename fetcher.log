@@ -403,3 +403,58 @@
 [2024-05-20 00:31:50] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo_json_config-4.638.24140.tar.gz]
 [2024-05-20 00:31:50] INFO root fetch - main [MainThread]: End processing [mo-json-config]: success
 [2024-05-20 00:31:50] INFO root fetch - main [MainThread]: Store serial: [23281651]
+[2024-05-20 00:33:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281651]
+[2024-05-20 00:33:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 00:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs-events
+[2024-05-20 00:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OZI
+[2024-05-20 00:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gizai
+[2024-05-20 00:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plone-sphinx-theme
+[2024-05-20 00:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gizai
+[2024-05-20 00:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smp
+[2024-05-20 00:33:58] INFO root fetch - processPackages [gizai]: New version: [5.9.1] Old Version: [5.6.1]
+[2024-05-20 00:33:58] INFO root fetch - processPackages [gizai]: New version: [5.9.1] Old Version: [5.6.1]
+[2024-05-20 00:33:58] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/01/83/b0110f05b1480d30f378d727382dac2b2e091afab0e8b384fd19699747f7/gizai-5.6.1.tar.gz
+[2024-05-20 00:33:58] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/01/83/b0110f05b1480d30f378d727382dac2b2e091afab0e8b384fd19699747f7/gizai-5.6.1.tar.gz
+[2024-05-20 00:33:58] INFO root fetch - processPackages [plone-sphinx-theme]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 00:33:58] INFO root fetch - processPackages [cs-events]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-20 00:33:58] INFO root fetch - processPackages [smp]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-20 00:33:58] INFO root fetch - processPackages [OZI]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-05-20 00:33:59] INFO root fetch - processPackages [plone-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/5c/ee/016eefd9fe28f8ee99745fa8d9d8c12ab04c980980925dd76e5d93c3b1b1/plone_sphinx_theme-0.0.2.tar.gz
+[2024-05-20 00:33:59] INFO root fetch - processPackages [cs-events]: Downloading https://files.pythonhosted.org/packages/73/a9/2ae2e526613deecb9cf1d2453dba8a8a984d8c2ce4c6952d0cbb0205bba8/cs_events-0.4.1.tar.gz
+[2024-05-20 00:33:59] INFO root fetch - processPackages [smp]: Downloading https://files.pythonhosted.org/packages/b2/f3/a65ff8b3b3e1eff5affd5e1a727c14e99255c4d2f3167ac1530e6b34966c/smp-1.0.0.tar.gz
+[2024-05-20 00:33:59] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/82/d7/97f190dbeccb76ff40111fcda50eaf8c2ace4904d1b423bea51e36ae5e7f/OZI-1.8.1.tar.gz
+[2024-05-20 00:33:59] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/bd/e0/e34a72b06da9054a2c2be6561feb68d8df248f033dea7576bd6df6bb25a9/gizai-5.9.1.tar.gz
+[2024-05-20 00:33:59] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/bd/e0/e34a72b06da9054a2c2be6561feb68d8df248f033dea7576bd6df6bb25a9/gizai-5.9.1.tar.gz
+[2024-05-20 00:33:59] INFO root fetch - processPackages [gizai]: executing diffoscope
+[2024-05-20 00:33:59] INFO root fetch - processPackages [gizai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gizai-5.6.1.tar.gz tmp/gizai-5.9.1.tar.gz --markdown 20240520/g/gizai/5.6.1-5.9.1/README.md --exclude *.pyd
+[2024-05-20 00:33:59] INFO root fetch - processPackages [gizai]: executing diffoscope
+[2024-05-20 00:33:59] INFO root fetch - processPackages [gizai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gizai-5.6.1.tar.gz tmp/gizai-5.9.1.tar.gz --markdown 20240520/g/gizai/5.6.1-5.9.1/README.md --exclude *.pyd
+[2024-05-20 00:33:59] INFO root fetch - processPackages [cs-events]: Downloading https://files.pythonhosted.org/packages/c6/06/b0c092039e877f85a4db8e6524a17a5fa426f03fc3370d52990a913c6020/cs_events-0.5.0.tar.gz
+[2024-05-20 00:33:59] INFO root fetch - processPackages [plone-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/37/e6/34231c74a1b59040edfb4c25c242983dc06873bed53498001ce76fcaebf7/plone_sphinx_theme-0.0.3.tar.gz
+[2024-05-20 00:33:59] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/c6/cb/5dac4598f47184791051f7445ec85cedee97479d18ee76d3654676f4498e/OZI-1.8.2.tar.gz
+[2024-05-20 00:33:59] INFO root fetch - processPackages [smp]: Downloading https://files.pythonhosted.org/packages/ec/ed/26203a0ad32c8151227f7849422c4bcea1c8c2fd31ebeaebd95f796b3c50/smp-1.0.1.tar.gz
+[2024-05-20 00:33:59] INFO root fetch - processPackages [cs-events]: executing diffoscope
+[2024-05-20 00:33:59] INFO root fetch - processPackages [cs-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs_events-0.4.1.tar.gz tmp/cs_events-0.5.0.tar.gz --markdown 20240520/c/cs-events/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-20 00:33:59] INFO root fetch - processPackages [plone-sphinx-theme]: executing diffoscope
+[2024-05-20 00:33:59] INFO root fetch - processPackages [plone-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone_sphinx_theme-0.0.2.tar.gz tmp/plone_sphinx_theme-0.0.3.tar.gz --markdown 20240520/p/plone-sphinx-theme/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 00:33:59] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-20 00:33:59] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.8.1.tar.gz tmp/OZI-1.8.2.tar.gz --markdown 20240520/O/OZI/1.8.1-1.8.2/README.md --exclude *.pyd
+[2024-05-20 00:33:59] INFO root fetch - processPackages [smp]: executing diffoscope
+[2024-05-20 00:33:59] INFO root fetch - processPackages [smp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smp-1.0.0.tar.gz tmp/smp-1.0.1.tar.gz --markdown 20240520/s/smp/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-20 00:33:59] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.6.1.tar.gz]
+[2024-05-20 00:33:59] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.9.1.tar.gz]
+[2024-05-20 00:33:59] INFO root fetch - main [MainThread]: End processing [gizai]: success
+[2024-05-20 00:34:00] INFO root fetch - main [MainThread]: End processing [gizai]: success
+[2024-05-20 00:34:00] INFO root fetch - processPackages [cs-events]: Remove: archive file [/home/abi/fetcher/tmp/cs_events-0.4.1.tar.gz]
+[2024-05-20 00:34:00] INFO root fetch - processPackages [cs-events]: Remove: archive file [/home/abi/fetcher/tmp/cs_events-0.5.0.tar.gz]
+[2024-05-20 00:34:00] INFO root fetch - main [MainThread]: End processing [cs-events]: success
+[2024-05-20 00:34:00] INFO root fetch - processPackages [smp]: Remove: archive file [/home/abi/fetcher/tmp/smp-1.0.0.tar.gz]
+[2024-05-20 00:34:00] INFO root fetch - processPackages [smp]: Remove: archive file [/home/abi/fetcher/tmp/smp-1.0.1.tar.gz]
+[2024-05-20 00:34:00] INFO root fetch - main [MainThread]: End processing [smp]: success
+[2024-05-20 00:34:00] INFO root fetch - processPackages [plone-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/plone_sphinx_theme-0.0.2.tar.gz]
+[2024-05-20 00:34:00] INFO root fetch - processPackages [plone-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/plone_sphinx_theme-0.0.3.tar.gz]
+[2024-05-20 00:34:00] INFO root fetch - main [MainThread]: End processing [plone-sphinx-theme]: success
+[2024-05-20 00:34:00] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.8.1.tar.gz]
+[2024-05-20 00:34:00] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.8.2.tar.gz]
+[2024-05-20 00:34:00] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-20 00:34:00] INFO root fetch - main [MainThread]: Store serial: [23281671]

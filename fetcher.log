@@ -281,3 +281,12 @@
 [2024-05-20 00:23:05] INFO root fetch - processPackages [finmarketpy]: Remove: archive file [/home/abi/fetcher/tmp/finmarketpy-0.11.9.tar.gz]
 [2024-05-20 00:23:05] INFO root fetch - main [MainThread]: End processing [finmarketpy]: success
 [2024-05-20 00:23:05] INFO root fetch - main [MainThread]: Store serial: [23281572]
+[2024-05-20 00:25:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281572]
+[2024-05-20 00:25:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 00:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bepillz
+[2024-05-20 00:25:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Package-KNN-Kmeans
+[2024-05-20 00:25:13] WARNING root fetch - processPackages [bepillz]: Skipping, unable to determine old version
+[2024-05-20 00:25:13] INFO root fetch - main [MainThread]: End processing [bepillz] error
+[2024-05-20 00:25:13] WARNING root fetch - processPackages [Package-KNN-Kmeans]: Skipping, unable to determine old version
+[2024-05-20 00:25:13] INFO root fetch - main [MainThread]: End processing [Package-KNN-Kmeans] error
+[2024-05-20 00:25:13] INFO root fetch - main [MainThread]: Store serial: [23281581]

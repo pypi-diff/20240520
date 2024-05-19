@@ -1745,3 +1745,57 @@
 [2024-05-20 01:33:47] INFO root fetch - processPackages [baseapp-pages]: Remove: archive file [/home/abi/fetcher/tmp/baseapp_pages-0.2.2.tar.gz]
 [2024-05-20 01:33:47] INFO root fetch - main [MainThread]: End processing [baseapp-pages]: success
 [2024-05-20 01:33:47] INFO root fetch - main [MainThread]: Store serial: [23282328]
+[2024-05-20 01:35:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282328]
+[2024-05-20 01:35:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 01:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyboiler-anonoei
+[2024-05-20 01:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: s5learn
+[2024-05-20 01:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cxxbuild
+[2024-05-20 01:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: REVHubInterface
+[2024-05-20 01:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nntool
+[2024-05-20 01:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ununderstandablez
+[2024-05-20 01:35:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eras
+[2024-05-20 01:35:56] INFO root fetch - processPackages [cxxbuild]: New version: [1.6.0] Old Version: [1.5.2]
+[2024-05-20 01:35:56] INFO root fetch - processPackages [s5learn]: New version: [0.8] Old Version: [0.7]
+[2024-05-20 01:35:56] INFO root fetch - processPackages [REVHubInterface]: New version: [1.3.3.dev9] Old Version: [1.3.3.dev8]
+[2024-05-20 01:35:56] INFO root fetch - processPackages [cxxbuild]: Downloading https://files.pythonhosted.org/packages/ed/0a/81ce12ef64c241b8dd322491077db75abc8ae67a042312d7187f7df7e2e6/cxxbuild-1.5.2.tar.gz
+[2024-05-20 01:35:56] WARNING root fetch - processPackages [nntool]: Skipping, unable to determine old version
+[2024-05-20 01:35:56] INFO root fetch - main [MainThread]: End processing [nntool] error
+[2024-05-20 01:35:56] INFO root fetch - processPackages [pyboiler-anonoei]: New version: [0.3.0] Old Version: [0.0.5]
+[2024-05-20 01:35:56] INFO root fetch - processPackages [eras]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-20 01:35:56] WARNING root fetch - processPackages [ununderstandablez]: Skipping, unable to determine old version
+[2024-05-20 01:35:56] INFO root fetch - processPackages [s5learn]: Downloading https://files.pythonhosted.org/packages/75/89/52d6d25d6d9453019bf3500ee06e810cfd9b2415600a365ce6529e5b4e67/s5learn-0.7.tar.gz
+[2024-05-20 01:35:56] INFO root fetch - main [MainThread]: End processing [ununderstandablez] error
+[2024-05-20 01:35:56] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/0d/90/3c74a9c7310ba2da2e673cb67d3e8c65e5460209759ef2fa291efce82ab5/revhubinterface-1.3.3.dev8.tar.gz
+[2024-05-20 01:35:56] INFO root fetch - processPackages [cxxbuild]: Downloading https://files.pythonhosted.org/packages/04/a6/9873e3ee2b88cf2e3772f14d4ced4dfaaad07fd3acade8960113b8c935b3/cxxbuild-1.6.0.tar.gz
+[2024-05-20 01:35:56] INFO root fetch - processPackages [pyboiler-anonoei]: Downloading https://files.pythonhosted.org/packages/b1/fc/6b5cf14a42361d618ae1e34f9ad56d32bb2d1b101b2ba5af344d9841982a/pyboiler_anonoei-0.0.5.tar.gz
+[2024-05-20 01:35:56] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/07/d1/ea653a987ac6b36ebfed177c915a0b34b783c74539b272e918c461dd3ea8/eras-0.1.5.tar.gz
+[2024-05-20 01:35:56] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/47/93/e2ab5da20dcdca793ff04faa5aa5f38bb3f149e7bf70c77c15ac7d127689/revhubinterface-1.3.3.dev9.tar.gz
+[2024-05-20 01:35:56] INFO root fetch - processPackages [s5learn]: Downloading https://files.pythonhosted.org/packages/37/77/6c5cfa8a72c2d85a54d8a333af81feb457d2c866e8a487d8926ff7796e19/s5learn-0.8.tar.gz
+[2024-05-20 01:35:56] INFO root fetch - processPackages [cxxbuild]: executing diffoscope
+[2024-05-20 01:35:56] INFO root fetch - processPackages [cxxbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxxbuild-1.5.2.tar.gz tmp/cxxbuild-1.6.0.tar.gz --markdown 20240520/c/cxxbuild/1.5.2-1.6.0/README.md --exclude *.pyd
+[2024-05-20 01:35:56] INFO root fetch - processPackages [s5learn]: executing diffoscope
+[2024-05-20 01:35:56] INFO root fetch - processPackages [s5learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s5learn-0.7.tar.gz tmp/s5learn-0.8.tar.gz --markdown 20240520/s/s5learn/0.7-0.8/README.md --exclude *.pyd
+[2024-05-20 01:35:56] INFO root fetch - processPackages [REVHubInterface]: executing diffoscope
+[2024-05-20 01:35:56] INFO root fetch - processPackages [REVHubInterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revhubinterface-1.3.3.dev8.tar.gz tmp/revhubinterface-1.3.3.dev9.tar.gz --markdown 20240520/R/REVHubInterface/1.3.3.dev8-1.3.3.dev9/README.md --exclude *.pyd
+[2024-05-20 01:35:57] INFO root fetch - processPackages [pyboiler-anonoei]: Downloading https://files.pythonhosted.org/packages/8f/93/e8e2e8ade5dd8ca367864dc88a180245b996d0447b6cffa72e043ee34733/pyboiler_anonoei-0.3.0.tar.gz
+[2024-05-20 01:35:57] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/b8/5c/948043ee8a0c771bd9eae842ba7b14b605d1899c8bc45492d05391fadd51/eras-0.2.0.tar.gz
+[2024-05-20 01:35:57] INFO root fetch - processPackages [pyboiler-anonoei]: executing diffoscope
+[2024-05-20 01:35:57] INFO root fetch - processPackages [pyboiler-anonoei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyboiler_anonoei-0.0.5.tar.gz tmp/pyboiler_anonoei-0.3.0.tar.gz --markdown 20240520/p/pyboiler-anonoei/0.0.5-0.3.0/README.md --exclude *.pyd
+[2024-05-20 01:35:57] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-20 01:35:57] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.1.5.tar.gz tmp/eras-0.2.0.tar.gz --markdown 20240520/e/eras/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-20 01:35:57] INFO root fetch - processPackages [s5learn]: Remove: archive file [/home/abi/fetcher/tmp/s5learn-0.7.tar.gz]
+[2024-05-20 01:35:57] INFO root fetch - processPackages [s5learn]: Remove: archive file [/home/abi/fetcher/tmp/s5learn-0.8.tar.gz]
+[2024-05-20 01:35:57] INFO root fetch - main [MainThread]: End processing [s5learn]: success
+[2024-05-20 01:35:57] INFO root fetch - processPackages [cxxbuild]: Remove: archive file [/home/abi/fetcher/tmp/cxxbuild-1.5.2.tar.gz]
+[2024-05-20 01:35:57] INFO root fetch - processPackages [cxxbuild]: Remove: archive file [/home/abi/fetcher/tmp/cxxbuild-1.6.0.tar.gz]
+[2024-05-20 01:35:57] INFO root fetch - main [MainThread]: End processing [cxxbuild]: success
+[2024-05-20 01:35:57] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev8.tar.gz]
+[2024-05-20 01:35:57] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev9.tar.gz]
+[2024-05-20 01:35:57] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
+[2024-05-20 01:35:57] INFO root fetch - processPackages [pyboiler-anonoei]: Remove: archive file [/home/abi/fetcher/tmp/pyboiler_anonoei-0.0.5.tar.gz]
+[2024-05-20 01:35:57] INFO root fetch - processPackages [pyboiler-anonoei]: Remove: archive file [/home/abi/fetcher/tmp/pyboiler_anonoei-0.3.0.tar.gz]
+[2024-05-20 01:35:57] INFO root fetch - main [MainThread]: End processing [pyboiler-anonoei]: success
+[2024-05-20 01:35:58] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.1.5.tar.gz]
+[2024-05-20 01:35:58] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.2.0.tar.gz]
+[2024-05-20 01:35:58] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-20 01:35:58] INFO root fetch - main [MainThread]: Store serial: [23282353]

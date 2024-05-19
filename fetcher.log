@@ -641,3 +641,30 @@
 [2024-05-20 00:44:58] INFO root fetch - processPackages [pybigtools]: Remove: archive file [/home/abi/fetcher/tmp/pybigtools-0.1.4-cp312-cp312-manylinux_2_28_aarch64.whl.zip]
 [2024-05-20 00:44:58] INFO root fetch - main [MainThread]: End processing [pybigtools]: success
 [2024-05-20 00:44:58] INFO root fetch - main [MainThread]: Store serial: [23281778]
+[2024-05-20 00:47:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281778]
+[2024-05-20 00:47:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 00:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s5learn
+[2024-05-20 00:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blue-plugin
+[2024-05-20 00:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blue-plugin
+[2024-05-20 00:47:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytranscript
+[2024-05-20 00:47:06] WARNING root fetch - processPackages [blue-plugin]: Skipping, unable to determine old version
+[2024-05-20 00:47:06] INFO root fetch - processPackages [s5learn]: New version: [0.7] Old Version: [0.6]
+[2024-05-20 00:47:06] INFO root fetch - main [MainThread]: End processing [blue-plugin] error
+[2024-05-20 00:47:06] WARNING root fetch - processPackages [blue-plugin]: Skipping, unable to determine old version
+[2024-05-20 00:47:06] INFO root fetch - main [MainThread]: End processing [blue-plugin] error
+[2024-05-20 00:47:07] INFO root fetch - processPackages [s5learn]: Downloading https://files.pythonhosted.org/packages/49/6c/5f4a40fa04386592c0e70db6780785200b4526ff8bb9dce5bc2f73bd4c0c/s5learn-0.6.tar.gz
+[2024-05-20 00:47:07] INFO root fetch - processPackages [pytranscript]: New version: [0.2.1] Old Version: [0.1.1]
+[2024-05-20 00:47:07] INFO root fetch - processPackages [pytranscript]: Downloading https://files.pythonhosted.org/packages/0d/16/7d4b00ed27877f1b1f29e17a1b7960ddae723dd115eab265fdb89dacee8d/pytranscript-0.1.1.tar.gz
+[2024-05-20 00:47:07] INFO root fetch - processPackages [s5learn]: Downloading https://files.pythonhosted.org/packages/75/89/52d6d25d6d9453019bf3500ee06e810cfd9b2415600a365ce6529e5b4e67/s5learn-0.7.tar.gz
+[2024-05-20 00:47:07] INFO root fetch - processPackages [s5learn]: executing diffoscope
+[2024-05-20 00:47:07] INFO root fetch - processPackages [s5learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s5learn-0.6.tar.gz tmp/s5learn-0.7.tar.gz --markdown 20240520/s/s5learn/0.6-0.7/README.md --exclude *.pyd
+[2024-05-20 00:47:07] INFO root fetch - processPackages [pytranscript]: Downloading https://files.pythonhosted.org/packages/81/71/8e37fa5d7dd7a18c398faab66350f763b0c5454fed8d5c9612000814846c/pytranscript-0.2.1.tar.gz
+[2024-05-20 00:47:07] INFO root fetch - processPackages [s5learn]: Remove: archive file [/home/abi/fetcher/tmp/s5learn-0.6.tar.gz]
+[2024-05-20 00:47:07] INFO root fetch - processPackages [s5learn]: Remove: archive file [/home/abi/fetcher/tmp/s5learn-0.7.tar.gz]
+[2024-05-20 00:47:07] INFO root fetch - main [MainThread]: End processing [s5learn]: success
+[2024-05-20 00:47:08] INFO root fetch - processPackages [pytranscript]: executing diffoscope
+[2024-05-20 00:47:08] INFO root fetch - processPackages [pytranscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytranscript-0.1.1.tar.gz tmp/pytranscript-0.2.1.tar.gz --markdown 20240520/p/pytranscript/0.1.1-0.2.1/README.md --exclude *.pyd
+[2024-05-20 00:47:08] INFO root fetch - processPackages [pytranscript]: Remove: archive file [/home/abi/fetcher/tmp/pytranscript-0.1.1.tar.gz]
+[2024-05-20 00:47:08] INFO root fetch - processPackages [pytranscript]: Remove: archive file [/home/abi/fetcher/tmp/pytranscript-0.2.1.tar.gz]
+[2024-05-20 00:47:08] INFO root fetch - main [MainThread]: End processing [pytranscript]: success
+[2024-05-20 00:47:08] INFO root fetch - main [MainThread]: Store serial: [23281817]

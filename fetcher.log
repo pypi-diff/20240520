@@ -608,3 +608,36 @@
 [2024-05-20 00:42:46] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.1b6.tar.gz]
 [2024-05-20 00:42:46] INFO root fetch - main [MainThread]: End processing [notolog]: success
 [2024-05-20 00:42:46] INFO root fetch - main [MainThread]: Store serial: [23281743]
+[2024-05-20 00:44:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281743]
+[2024-05-20 00:44:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-auto
+[2024-05-20 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blue-plugin
+[2024-05-20 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-solar-forecast
+[2024-05-20 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bvg-python
+[2024-05-20 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: muttonchopz
+[2024-05-20 00:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pybigtools
+[2024-05-20 00:44:54] WARNING root fetch - processPackages [py-solar-forecast]: Skipping, unable to determine old version
+[2024-05-20 00:44:54] INFO root fetch - main [MainThread]: End processing [py-solar-forecast] error
+[2024-05-20 00:44:54] WARNING root fetch - processPackages [blue-plugin]: Skipping, unable to determine old version
+[2024-05-20 00:44:54] INFO root fetch - main [MainThread]: End processing [blue-plugin] error
+[2024-05-20 00:44:54] INFO root fetch - processPackages [pih-auto]: New version: [0.22] Old Version: [0.21]
+[2024-05-20 00:44:54] WARNING root fetch - processPackages [bvg-python]: Skipping, unable to determine old version
+[2024-05-20 00:44:54] INFO root fetch - main [MainThread]: End processing [bvg-python] error
+[2024-05-20 00:44:54] WARNING root fetch - processPackages [muttonchopz]: Skipping, unable to determine old version
+[2024-05-20 00:44:54] INFO root fetch - main [MainThread]: End processing [muttonchopz] error
+[2024-05-20 00:44:55] INFO root fetch - processPackages [pybigtools]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-20 00:44:55] INFO root fetch - processPackages [pih-auto]: Downloading https://files.pythonhosted.org/packages/96/37/7e17f3be4ecbc07801086a4ea859a072aff4c80566c1c95b19823a3acf41/pih-auto-0.21.tar.gz
+[2024-05-20 00:44:55] INFO root fetch - processPackages [pybigtools]: Downloading https://files.pythonhosted.org/packages/bd/99/9e3423f65a9f2c0a44cb56f371f250d8bf74dc5f82cd4de41d27f6f6b4ae/pybigtools-0.1.3.tar.gz
+[2024-05-20 00:44:55] INFO root fetch - processPackages [pih-auto]: Downloading https://files.pythonhosted.org/packages/7d/a4/37b338c3c1b3193b9d3774e78920c412bdd292b0e09e522f3909c8eaa3f0/pih-auto-0.22.tar.gz
+[2024-05-20 00:44:55] INFO root fetch - processPackages [pih-auto]: executing diffoscope
+[2024-05-20 00:44:55] INFO root fetch - processPackages [pih-auto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-auto-0.21.tar.gz tmp/pih-auto-0.22.tar.gz --markdown 20240520/p/pih-auto/0.21-0.22/README.md --exclude *.pyd
+[2024-05-20 00:44:55] INFO root fetch - processPackages [pybigtools]: Downloading https://files.pythonhosted.org/packages/fb/0f/f045e53aefa4f4fbb5637617d816417a3205ecf4cd7a0a9e1b0d8c35cab7/pybigtools-0.1.4-cp312-cp312-manylinux_2_28_aarch64.whl
+[2024-05-20 00:44:56] INFO root fetch - processPackages [pih-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-auto-0.21.tar.gz]
+[2024-05-20 00:44:56] INFO root fetch - processPackages [pih-auto]: Remove: archive file [/home/abi/fetcher/tmp/pih-auto-0.22.tar.gz]
+[2024-05-20 00:44:56] INFO root fetch - main [MainThread]: End processing [pih-auto]: success
+[2024-05-20 00:44:57] INFO root fetch - processPackages [pybigtools]: executing diffoscope
+[2024-05-20 00:44:57] INFO root fetch - processPackages [pybigtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybigtools-0.1.3.tar.gz tmp/pybigtools-0.1.4-cp312-cp312-manylinux_2_28_aarch64.whl.zip --markdown 20240520/p/pybigtools/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-20 00:44:58] INFO root fetch - processPackages [pybigtools]: Remove: archive file [/home/abi/fetcher/tmp/pybigtools-0.1.3.tar.gz]
+[2024-05-20 00:44:58] INFO root fetch - processPackages [pybigtools]: Remove: archive file [/home/abi/fetcher/tmp/pybigtools-0.1.4-cp312-cp312-manylinux_2_28_aarch64.whl.zip]
+[2024-05-20 00:44:58] INFO root fetch - main [MainThread]: End processing [pybigtools]: success
+[2024-05-20 00:44:58] INFO root fetch - main [MainThread]: Store serial: [23281778]

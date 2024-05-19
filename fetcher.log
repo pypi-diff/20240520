@@ -668,3 +668,39 @@
 [2024-05-20 00:47:08] INFO root fetch - processPackages [pytranscript]: Remove: archive file [/home/abi/fetcher/tmp/pytranscript-0.2.1.tar.gz]
 [2024-05-20 00:47:08] INFO root fetch - main [MainThread]: End processing [pytranscript]: success
 [2024-05-20 00:47:08] INFO root fetch - main [MainThread]: Store serial: [23281817]
+[2024-05-20 00:49:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281817]
+[2024-05-20 00:49:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 00:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytranscript
+[2024-05-20 00:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentier-glossary
+[2024-05-20 00:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih
+[2024-05-20 00:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linkedit
+[2024-05-20 00:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cisdb
+[2024-05-20 00:49:17] INFO root fetch - processPackages [pytranscript]: New version: [0.2.1] Old Version: [0.1.1]
+[2024-05-20 00:49:17] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-05-20 00:49:17] WARNING root fetch - processPackages [cisdb]: Skipping, unable to determine old version
+[2024-05-20 00:49:17] INFO root fetch - main [MainThread]: End processing [cisdb] error
+[2024-05-20 00:49:17] INFO root fetch - processPackages [linkedit]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 00:49:17] WARNING root fetch - processPackages [sentier-glossary]: Skipping, unable to determine old version
+[2024-05-20 00:49:17] INFO root fetch - main [MainThread]: End processing [sentier-glossary] error
+[2024-05-20 00:49:17] INFO root fetch - processPackages [pytranscript]: Downloading https://files.pythonhosted.org/packages/0d/16/7d4b00ed27877f1b1f29e17a1b7960ddae723dd115eab265fdb89dacee8d/pytranscript-0.1.1.tar.gz
+[2024-05-20 00:49:17] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-05-20 00:49:17] INFO root fetch - processPackages [pytranscript]: Downloading https://files.pythonhosted.org/packages/81/71/8e37fa5d7dd7a18c398faab66350f763b0c5454fed8d5c9612000814846c/pytranscript-0.2.1.tar.gz
+[2024-05-20 00:49:17] INFO root fetch - processPackages [linkedit]: Downloading https://files.pythonhosted.org/packages/62/af/10e0af643380f3880d1349b3a792aa62ed3d3a248ea664a40da06e610756/linkedit-1.0.2.tar.gz
+[2024-05-20 00:49:17] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-05-20 00:49:17] INFO root fetch - processPackages [pytranscript]: executing diffoscope
+[2024-05-20 00:49:17] INFO root fetch - processPackages [pytranscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytranscript-0.1.1.tar.gz tmp/pytranscript-0.2.1.tar.gz --markdown 20240520/p/pytranscript/0.1.1-0.2.1/README.md --exclude *.pyd
+[2024-05-20 00:49:17] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-05-20 00:49:17] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240520/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-05-20 00:49:18] INFO root fetch - processPackages [linkedit]: Downloading https://files.pythonhosted.org/packages/8e/91/271347c077e90a975ed780afe533131df3346e6c742402b3788ec130a959/linkedit-1.0.3.tar.gz
+[2024-05-20 00:49:18] INFO root fetch - processPackages [linkedit]: executing diffoscope
+[2024-05-20 00:49:18] INFO root fetch - processPackages [linkedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedit-1.0.2.tar.gz tmp/linkedit-1.0.3.tar.gz --markdown 20240520/l/linkedit/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 00:49:18] INFO root fetch - processPackages [pytranscript]: Remove: archive file [/home/abi/fetcher/tmp/pytranscript-0.1.1.tar.gz]
+[2024-05-20 00:49:18] INFO root fetch - processPackages [pytranscript]: Remove: archive file [/home/abi/fetcher/tmp/pytranscript-0.2.1.tar.gz]
+[2024-05-20 00:49:18] INFO root fetch - main [MainThread]: End processing [pytranscript]: success
+[2024-05-20 00:49:18] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-05-20 00:49:18] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-05-20 00:49:18] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-05-20 00:49:18] INFO root fetch - processPackages [linkedit]: Remove: archive file [/home/abi/fetcher/tmp/linkedit-1.0.2.tar.gz]
+[2024-05-20 00:49:18] INFO root fetch - processPackages [linkedit]: Remove: archive file [/home/abi/fetcher/tmp/linkedit-1.0.3.tar.gz]
+[2024-05-20 00:49:18] INFO root fetch - main [MainThread]: End processing [linkedit]: success
+[2024-05-20 00:49:18] INFO root fetch - main [MainThread]: Store serial: [23281836]

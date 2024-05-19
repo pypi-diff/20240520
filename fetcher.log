@@ -1,0 +1,48 @@
+[2024-05-20 00:01:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281475]
+[2024-05-20 00:01:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langroid
+[2024-05-20 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-iterable
+[2024-05-20 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atmospy
+[2024-05-20 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pbf
+[2024-05-20 00:01:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Package-G2
+[2024-05-20 00:01:12] INFO root fetch - processPackages [pbf]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-20 00:01:12] INFO root fetch - processPackages [airbyte-source-iterable]: New version: [0.5.1.dev202405190244] Old Version: [0.5.1.dev202405182050]
+[2024-05-20 00:01:12] INFO root fetch - processPackages [airbyte-source-iterable]: Downloading https://files.pythonhosted.org/packages/d8/ea/472dfdfb8aab7078bccd63efcc655bf07d6d9dbd7ee6891f41a1514dcfaa/airbyte_source_iterable-0.5.1.dev202405182050.tar.gz
+[2024-05-20 00:01:12] INFO root fetch - processPackages [Package-G2]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-20 00:01:12] INFO root fetch - processPackages [atmospy]: New version: [0.1.1] Old Version: [0.1.0a6]
+[2024-05-20 00:01:12] INFO root fetch - processPackages [langroid]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-20 00:01:12] INFO root fetch - processPackages [pbf]: Downloading https://files.pythonhosted.org/packages/d5/7c/9f1a5e06efd263a563f01e1e092e8f15afa965c93697dba3b9264e44594b/pbf-0.0.0.tar.gz
+[2024-05-20 00:01:13] INFO root fetch - processPackages [airbyte-source-iterable]: Downloading https://files.pythonhosted.org/packages/37/62/0a7644718b967e48f8c70a5babcaf152627a45499f60139cf8dbbf30dd46/airbyte_source_iterable-0.5.1.dev202405190244.tar.gz
+[2024-05-20 00:01:13] INFO root fetch - processPackages [Package-G2]: Downloading https://files.pythonhosted.org/packages/13/f4/0d3cd6ecc04a37bc9ed8a47f2d99f5264619b823b53982f94f845fb78d81/Package_G2-1.0.0.tar.gz
+[2024-05-20 00:01:13] INFO root fetch - processPackages [atmospy]: Downloading https://files.pythonhosted.org/packages/b3/74/1ead742b110206c7998ef9b728e766d34ba5e74a43ccf4332ec335ae2d9d/atmospy-0.1.0a6.tar.gz
+[2024-05-20 00:01:13] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/ab/bb/220d2ce35d659c9c3f621a8e92246d4d25420d75def80d96d19a8abf2b62/langroid-0.1.98.tar.gz
+[2024-05-20 00:01:13] INFO root fetch - processPackages [airbyte-source-iterable]: executing diffoscope
+[2024-05-20 00:01:13] INFO root fetch - processPackages [airbyte-source-iterable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_iterable-0.5.1.dev202405182050.tar.gz tmp/airbyte_source_iterable-0.5.1.dev202405190244.tar.gz --markdown 20240520/a/airbyte-source-iterable/0.5.1.dev202405182050-0.5.1.dev202405190244/README.md --exclude *.pyd
+[2024-05-20 00:01:13] INFO root fetch - processPackages [Package-G2]: Downloading https://files.pythonhosted.org/packages/1e/d3/67f7b793fb3458048dbe5a0ee6acb69bee46ee0358983b1cdb755b830234/Package_G2-1.0.1.tar.gz
+[2024-05-20 00:01:13] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/e0/31/f66ec6ea338a8eb66884a575a589c46c9cda101c179d652dccf9a12f918f/langroid-0.1.99.tar.gz
+[2024-05-20 00:01:13] INFO root fetch - processPackages [Package-G2]: executing diffoscope
+[2024-05-20 00:01:13] INFO root fetch - processPackages [Package-G2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Package_G2-1.0.0.tar.gz tmp/Package_G2-1.0.1.tar.gz --markdown 20240520/P/Package-G2/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-20 00:01:13] INFO root fetch - processPackages [atmospy]: Downloading https://files.pythonhosted.org/packages/67/cd/4cc47cb98e1b9188e4f6429048afe0e30e5d2400d7b3fc728775144013ac/atmospy-0.1.1.tar.gz
+[2024-05-20 00:01:13] INFO root fetch - processPackages [pbf]: Downloading https://files.pythonhosted.org/packages/5b/ff/b603df439f670e712221d4082f920665fb2f37469d7ea1d19b2e7333ad03/pbf-0.0.1.tar.gz
+[2024-05-20 00:01:13] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2024-05-20 00:01:13] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.98.tar.gz tmp/langroid-0.1.99.tar.gz --markdown 20240520/l/langroid/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-20 00:01:13] INFO root fetch - processPackages [airbyte-source-iterable]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_iterable-0.5.1.dev202405182050.tar.gz]
+[2024-05-20 00:01:13] INFO root fetch - processPackages [airbyte-source-iterable]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_iterable-0.5.1.dev202405190244.tar.gz]
+[2024-05-20 00:01:13] INFO root fetch - main [MainThread]: End processing [airbyte-source-iterable]: success
+[2024-05-20 00:01:13] INFO root fetch - processPackages [atmospy]: executing diffoscope
+[2024-05-20 00:01:13] INFO root fetch - processPackages [atmospy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atmospy-0.1.0a6.tar.gz tmp/atmospy-0.1.1.tar.gz --markdown 20240520/a/atmospy/0.1.0a6-0.1.1/README.md --exclude *.pyd
+[2024-05-20 00:01:13] INFO root fetch - processPackages [pbf]: executing diffoscope
+[2024-05-20 00:01:13] INFO root fetch - processPackages [pbf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbf-0.0.0.tar.gz tmp/pbf-0.0.1.tar.gz --markdown 20240520/p/pbf/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-20 00:01:14] INFO root fetch - processPackages [Package-G2]: Remove: archive file [/home/abi/fetcher/tmp/Package_G2-1.0.0.tar.gz]
+[2024-05-20 00:01:14] INFO root fetch - processPackages [Package-G2]: Remove: archive file [/home/abi/fetcher/tmp/Package_G2-1.0.1.tar.gz]
+[2024-05-20 00:01:14] INFO root fetch - main [MainThread]: End processing [Package-G2]: success
+[2024-05-20 00:01:14] INFO root fetch - processPackages [atmospy]: Remove: archive file [/home/abi/fetcher/tmp/atmospy-0.1.0a6.tar.gz]
+[2024-05-20 00:01:14] INFO root fetch - processPackages [atmospy]: Remove: archive file [/home/abi/fetcher/tmp/atmospy-0.1.1.tar.gz]
+[2024-05-20 00:01:14] INFO root fetch - main [MainThread]: End processing [atmospy]: success
+[2024-05-20 00:01:14] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.98.tar.gz]
+[2024-05-20 00:01:14] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.99.tar.gz]
+[2024-05-20 00:01:14] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2024-05-20 00:01:16] INFO root fetch - processPackages [pbf]: Remove: archive file [/home/abi/fetcher/tmp/pbf-0.0.0.tar.gz]
+[2024-05-20 00:01:16] INFO root fetch - processPackages [pbf]: Remove: archive file [/home/abi/fetcher/tmp/pbf-0.0.1.tar.gz]
+[2024-05-20 00:01:16] INFO root fetch - main [MainThread]: End processing [pbf]: success
+[2024-05-20 00:01:16] INFO root fetch - main [MainThread]: Store serial: [23281490]

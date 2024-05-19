@@ -1515,3 +1515,72 @@
 [2024-05-20 01:20:41] INFO root fetch - main [MainThread]: End processing [eqmdkneosdngvvni]: success
 [2024-05-20 01:20:41] INFO root fetch - main [MainThread]: End processing [eqmdkneosdngvvni]: success
 [2024-05-20 01:20:41] INFO root fetch - main [MainThread]: Store serial: [23282183]
+[2024-05-20 01:22:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282183]
+[2024-05-20 01:22:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 01:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih
+[2024-05-20 01:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OZI
+[2024-05-20 01:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amazon-orders
+[2024-05-20 01:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lamindb
+[2024-05-20 01:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mimllearning
+[2024-05-20 01:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roofAI
+[2024-05-20 01:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cygv
+[2024-05-20 01:22:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cxxbuild
+[2024-05-20 01:22:53] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-05-20 01:22:53] INFO root fetch - processPackages [roofAI]: New version: [4.19.1] Old Version: [4.18.1]
+[2024-05-20 01:22:53] INFO root fetch - processPackages [mimllearning]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-20 01:22:53] INFO root fetch - processPackages [OZI]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-05-20 01:22:53] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-05-20 01:22:53] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/ac/bc/99255d20507b05bbacfe0a7175f794ff08c571dd9749ef6d7a9752997e49/roofai-4.18.1.tar.gz
+[2024-05-20 01:22:53] INFO root fetch - processPackages [amazon-orders]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-20 01:22:53] WARNING root fetch - processPackages [cygv]: Skipping, unable to determine old version
+[2024-05-20 01:22:53] INFO root fetch - main [MainThread]: End processing [cygv] error
+[2024-05-20 01:22:53] INFO root fetch - processPackages [cxxbuild]: New version: [1.6.0] Old Version: [1.5.2]
+[2024-05-20 01:22:53] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/66/ea/d789263cd559dda77cf4ff6d31e163d98fa57b9d81d50e0ff647d44bef82/mimllearning-0.5.0.tar.gz
+[2024-05-20 01:22:53] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/82/d7/97f190dbeccb76ff40111fcda50eaf8c2ace4904d1b423bea51e36ae5e7f/OZI-1.8.1.tar.gz
+[2024-05-20 01:22:53] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2024-05-20 01:22:54] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-05-20 01:22:54] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/e0/60/2bf306e7fffab7fcdf62a0a765e79844370720c1faae5b1813d807416d7e/roofai-4.19.1.tar.gz
+[2024-05-20 01:22:54] INFO root fetch - processPackages [amazon-orders]: Downloading https://files.pythonhosted.org/packages/38/be/442bfeff5edc0d05d05552fb87da119feffc7e6507a87cb77e792e34deda/amazon-orders-1.1.1.tar.gz
+[2024-05-20 01:22:54] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2024-05-20 01:22:54] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/c6/cb/5dac4598f47184791051f7445ec85cedee97479d18ee76d3654676f4498e/OZI-1.8.2.tar.gz
+[2024-05-20 01:22:54] INFO root fetch - processPackages [cxxbuild]: Downloading https://files.pythonhosted.org/packages/ed/0a/81ce12ef64c241b8dd322491077db75abc8ae67a042312d7187f7df7e2e6/cxxbuild-1.5.2.tar.gz
+[2024-05-20 01:22:54] INFO root fetch - processPackages [roofAI]: executing diffoscope
+[2024-05-20 01:22:54] INFO root fetch - processPackages [roofAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roofai-4.18.1.tar.gz tmp/roofai-4.19.1.tar.gz --markdown 20240520/r/roofAI/4.18.1-4.19.1/README.md --exclude *.pyd
+[2024-05-20 01:22:54] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-05-20 01:22:54] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240520/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-05-20 01:22:54] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-20 01:22:54] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.8.1.tar.gz tmp/OZI-1.8.2.tar.gz --markdown 20240520/O/OZI/1.8.1-1.8.2/README.md --exclude *.pyd
+[2024-05-20 01:22:54] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/fd/4f/ed175d9290f3837eb5c45eb04d2db59cbb02ada90d66730716ec1752cdff/mimllearning-0.5.1.tar.gz
+[2024-05-20 01:22:54] INFO root fetch - processPackages [amazon-orders]: Downloading https://files.pythonhosted.org/packages/5c/48/531eb8f4bd29de4c8248730c11181bebe0987a710b603e72c79469735f59/amazon_orders-1.1.2.tar.gz
+[2024-05-20 01:22:54] INFO root fetch - processPackages [cxxbuild]: Downloading https://files.pythonhosted.org/packages/04/a6/9873e3ee2b88cf2e3772f14d4ced4dfaaad07fd3acade8960113b8c935b3/cxxbuild-1.6.0.tar.gz
+[2024-05-20 01:22:54] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2024-05-20 01:22:54] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-20 01:22:54] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.5.0.tar.gz tmp/mimllearning-0.5.1.tar.gz --markdown 20240520/m/mimllearning/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-20 01:22:54] INFO root fetch - processPackages [amazon-orders]: executing diffoscope
+[2024-05-20 01:22:54] INFO root fetch - processPackages [amazon-orders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-orders-1.1.1.tar.gz tmp/amazon_orders-1.1.2.tar.gz --markdown 20240520/a/amazon-orders/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-20 01:22:54] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2024-05-20 01:22:54] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20240520/l/lamindb/0.9.4-0.9.6/README.md --exclude *.pyd
+[2024-05-20 01:22:54] INFO root fetch - processPackages [cxxbuild]: executing diffoscope
+[2024-05-20 01:22:54] INFO root fetch - processPackages [cxxbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxxbuild-1.5.2.tar.gz tmp/cxxbuild-1.6.0.tar.gz --markdown 20240520/c/cxxbuild/1.5.2-1.6.0/README.md --exclude *.pyd
+[2024-05-20 01:22:54] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofai-4.18.1.tar.gz]
+[2024-05-20 01:22:54] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofai-4.19.1.tar.gz]
+[2024-05-20 01:22:54] INFO root fetch - main [MainThread]: End processing [roofAI]: success
+[2024-05-20 01:22:55] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-05-20 01:22:55] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-05-20 01:22:55] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-05-20 01:22:55] INFO root fetch - processPackages [amazon-orders]: Remove: archive file [/home/abi/fetcher/tmp/amazon-orders-1.1.1.tar.gz]
+[2024-05-20 01:22:55] INFO root fetch - processPackages [amazon-orders]: Remove: archive file [/home/abi/fetcher/tmp/amazon_orders-1.1.2.tar.gz]
+[2024-05-20 01:22:55] INFO root fetch - main [MainThread]: End processing [amazon-orders]: success
+[2024-05-20 01:22:55] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.8.1.tar.gz]
+[2024-05-20 01:22:55] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.8.2.tar.gz]
+[2024-05-20 01:22:55] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-20 01:22:55] INFO root fetch - processPackages [cxxbuild]: Remove: archive file [/home/abi/fetcher/tmp/cxxbuild-1.5.2.tar.gz]
+[2024-05-20 01:22:55] INFO root fetch - processPackages [cxxbuild]: Remove: archive file [/home/abi/fetcher/tmp/cxxbuild-1.6.0.tar.gz]
+[2024-05-20 01:22:55] INFO root fetch - main [MainThread]: End processing [cxxbuild]: success
+[2024-05-20 01:22:55] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.5.0.tar.gz]
+[2024-05-20 01:22:55] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.5.1.tar.gz]
+[2024-05-20 01:22:55] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-20 01:22:55] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2024-05-20 01:22:55] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2024-05-20 01:22:55] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2024-05-20 01:22:55] INFO root fetch - main [MainThread]: Store serial: [23282217]

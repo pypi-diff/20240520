@@ -1384,3 +1384,134 @@
 [2024-05-20 01:18:18] INFO root fetch - processPackages [hot-spot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/hot_spot_analysis-1.0.2.tar.gz]
 [2024-05-20 01:18:18] INFO root fetch - main [MainThread]: End processing [hot-spot-analysis]: success
 [2024-05-20 01:18:18] INFO root fetch - main [MainThread]: Store serial: [23282128]
+[2024-05-20 01:20:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282128]
+[2024-05-20 01:20:27] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-05-20 01:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dt-extensions-models
+[2024-05-20 01:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liumqjyadmznbhco
+[2024-05-20 01:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ycwongrvrvecyvvn
+[2024-05-20 01:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roofAI
+[2024-05-20 01:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ycwongrvrvecyvvn
+[2024-05-20 01:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: liabedekaerfvnhe
+[2024-05-20 01:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ycwongrvrvecyvvn
+[2024-05-20 01:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: liabedekaerfvnhe
+[2024-05-20 01:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gckxzmxkzxczoblp
+[2024-05-20 01:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gckxzmxkzxczoblp
+[2024-05-20 01:20:27] INFO root fetch - processPackages [roofAI]: New version: [4.17.1] Old Version: [4.16.1]
+[2024-05-20 01:20:27] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/ed/b5/8b4b1292d55e972c8ff951a819c40a9f5f0516145faa7e4394bc27f351d2/roofai-4.16.1.tar.gz
+[2024-05-20 01:20:27] INFO root fetch - processPackages [dt-extensions-models]: New version: [0.0.13] Old Version: [0.0.12]
+[2024-05-20 01:20:27] INFO root fetch - processPackages [ycwongrvrvecyvvn]: New version: [1.10000.10002] Old Version: [1.10000.10001]
+[2024-05-20 01:20:27] INFO root fetch - processPackages [ycwongrvrvecyvvn]: New version: [1.10000.10002] Old Version: [1.10000.10001]
+[2024-05-20 01:20:27] INFO root fetch - processPackages [ycwongrvrvecyvvn]: New version: [1.10000.10002] Old Version: [1.10000.10001]
+[2024-05-20 01:20:27] WARNING root fetch - processPackages [liumqjyadmznbhco]: Skipping, unable to determine old version
+[2024-05-20 01:20:27] INFO root fetch - processPackages [liumqjyadmznbhco]: Start processing: roofAI
+[2024-05-20 01:20:27] INFO root fetch - main [MainThread]: End processing [liumqjyadmznbhco] error
+[2024-05-20 01:20:27] INFO root fetch - processPackages [gckxzmxkzxczoblp]: New version: [1.10000.10006] Old Version: [1.10000.10005]
+[2024-05-20 01:20:27] INFO root fetch - processPackages [gckxzmxkzxczoblp]: New version: [1.10000.10006] Old Version: [1.10000.10005]
+[2024-05-20 01:20:27] INFO root fetch - processPackages [liabedekaerfvnhe]: New version: [1.10000.10002] Old Version: [1.10000.10001]
+[2024-05-20 01:20:27] INFO root fetch - processPackages [liabedekaerfvnhe]: New version: [1.10000.10002] Old Version: [1.10000.10001]
+[2024-05-20 01:20:27] INFO root fetch - processPackages [roofAI]: New version: [4.19.1] Old Version: [4.18.1]
+[2024-05-20 01:20:27] INFO root fetch - processPackages [ycwongrvrvecyvvn]: Downloading https://files.pythonhosted.org/packages/f8/e3/dbe5420a95edff197c8502248442071e8e52900b5dd20676e691307b4987/ycwongrvrvecyvvn-1.10000.10001.tar.gz
+[2024-05-20 01:20:27] INFO root fetch - processPackages [ycwongrvrvecyvvn]: Downloading https://files.pythonhosted.org/packages/f8/e3/dbe5420a95edff197c8502248442071e8e52900b5dd20676e691307b4987/ycwongrvrvecyvvn-1.10000.10001.tar.gz
+[2024-05-20 01:20:27] INFO root fetch - processPackages [ycwongrvrvecyvvn]: Downloading https://files.pythonhosted.org/packages/f8/e3/dbe5420a95edff197c8502248442071e8e52900b5dd20676e691307b4987/ycwongrvrvecyvvn-1.10000.10001.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [gckxzmxkzxczoblp]: Downloading https://files.pythonhosted.org/packages/ca/fd/8ee47affc93fbd0db12b27463699dc5858e6d5d07d0c682cff4ff1ddd3cc/gckxzmxkzxczoblp-1.10000.10005.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [gckxzmxkzxczoblp]: Downloading https://files.pythonhosted.org/packages/ca/fd/8ee47affc93fbd0db12b27463699dc5858e6d5d07d0c682cff4ff1ddd3cc/gckxzmxkzxczoblp-1.10000.10005.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [liabedekaerfvnhe]: Downloading https://files.pythonhosted.org/packages/44/6c/87a9cc8596b4f499cc4745fd014248fa78cd6e70ba7e66d050b8dd68bcdb/liabedekaerfvnhe-1.10000.10001.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [liabedekaerfvnhe]: Downloading https://files.pythonhosted.org/packages/44/6c/87a9cc8596b4f499cc4745fd014248fa78cd6e70ba7e66d050b8dd68bcdb/liabedekaerfvnhe-1.10000.10001.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [dt-extensions-models]: Downloading https://files.pythonhosted.org/packages/a1/91/b5f61ef53203c9b89b2717947b349c7dcd1177eeecc56b32ecf1a6e6594c/dt_extensions_models-0.0.12.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/ac/bc/99255d20507b05bbacfe0a7175f794ff08c571dd9749ef6d7a9752997e49/roofai-4.18.1.tar.gz
+[2024-05-20 01:20:28] WARNING root fetch - processPackages [ycwongrvrvecyvvn]: Skipping package: exceeds size limit 15087797>=10485760
+[2024-05-20 01:20:28] INFO root fetch - processPackages [ycwongrvrvecyvvn]: Start processing: eqmdkneosdngvvni
+[2024-05-20 01:20:28] WARNING root fetch - processPackages [ycwongrvrvecyvvn]: Skipping package: exceeds size limit 15087797>=10485760
+[2024-05-20 01:20:28] INFO root fetch - main [MainThread]: End processing [ycwongrvrvecyvvn] error
+[2024-05-20 01:20:28] INFO root fetch - processPackages [ycwongrvrvecyvvn]: Start processing: baseapp-comments
+[2024-05-20 01:20:28] INFO root fetch - main [MainThread]: End processing [ycwongrvrvecyvvn] error
+[2024-05-20 01:20:28] WARNING root fetch - processPackages [ycwongrvrvecyvvn]: Skipping package: exceeds size limit 15087797>=10485760
+[2024-05-20 01:20:28] INFO root fetch - processPackages [ycwongrvrvecyvvn]: Start processing: gckxzmxkzxczoblp
+[2024-05-20 01:20:28] INFO root fetch - main [MainThread]: End processing [ycwongrvrvecyvvn] error
+[2024-05-20 01:20:28] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/67/4b/df47c9b8d47acf41a8aaf808c313479b53f3dd64d4508b68e7169b9d5de4/roofai-4.17.1.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [gckxzmxkzxczoblp]: New version: [1.10000.10006] Old Version: [1.10000.10005]
+[2024-05-20 01:20:28] WARNING root fetch - processPackages [gckxzmxkzxczoblp]: Skipping package: exceeds size limit 95034080>=10485760
+[2024-05-20 01:20:28] INFO root fetch - processPackages [gckxzmxkzxczoblp]: Start processing: gckxzmxkzxczoblp
+[2024-05-20 01:20:28] INFO root fetch - main [MainThread]: End processing [gckxzmxkzxczoblp] error
+[2024-05-20 01:20:28] WARNING root fetch - processPackages [gckxzmxkzxczoblp]: Skipping package: exceeds size limit 95034080>=10485760
+[2024-05-20 01:20:28] INFO root fetch - processPackages [gckxzmxkzxczoblp]: Start processing: eqmdkneosdngvvni
+[2024-05-20 01:20:28] INFO root fetch - main [MainThread]: End processing [gckxzmxkzxczoblp] error
+[2024-05-20 01:20:28] INFO root fetch - processPackages [eqmdkneosdngvvni]: New version: [1.10000.10004] Old Version: [1.10000.10003]
+[2024-05-20 01:20:28] INFO root fetch - processPackages [baseapp-comments]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-20 01:20:28] INFO root fetch - processPackages [gckxzmxkzxczoblp]: New version: [1.10000.10006] Old Version: [1.10000.10005]
+[2024-05-20 01:20:28] INFO root fetch - processPackages [eqmdkneosdngvvni]: New version: [1.10000.10004] Old Version: [1.10000.10003]
+[2024-05-20 01:20:28] INFO root fetch - processPackages [gckxzmxkzxczoblp]: Downloading https://files.pythonhosted.org/packages/ca/fd/8ee47affc93fbd0db12b27463699dc5858e6d5d07d0c682cff4ff1ddd3cc/gckxzmxkzxczoblp-1.10000.10005.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [roofAI]: executing diffoscope
+[2024-05-20 01:20:28] INFO root fetch - processPackages [roofAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roofai-4.16.1.tar.gz tmp/roofai-4.17.1.tar.gz --markdown 20240520/r/roofAI/4.16.1-4.17.1/README.md --exclude *.pyd
+[2024-05-20 01:20:28] WARNING root fetch - processPackages [gckxzmxkzxczoblp]: Skipping package: exceeds size limit 95034080>=10485760
+[2024-05-20 01:20:28] INFO root fetch - processPackages [gckxzmxkzxczoblp]: Start processing: intrastatez
+[2024-05-20 01:20:28] INFO root fetch - main [MainThread]: End processing [gckxzmxkzxczoblp] error
+[2024-05-20 01:20:28] INFO root fetch - processPackages [gckxzmxkzxczoblp]: Downloading https://files.pythonhosted.org/packages/ca/fd/8ee47affc93fbd0db12b27463699dc5858e6d5d07d0c682cff4ff1ddd3cc/gckxzmxkzxczoblp-1.10000.10005.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [liabedekaerfvnhe]: Downloading https://files.pythonhosted.org/packages/89/12/0d7e94c1780e9cc080be20927aeb3b848fd5cdf0fa8909dc8b02f904c107/liabedekaerfvnhe-1.10000.10002.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [liabedekaerfvnhe]: Downloading https://files.pythonhosted.org/packages/89/12/0d7e94c1780e9cc080be20927aeb3b848fd5cdf0fa8909dc8b02f904c107/liabedekaerfvnhe-1.10000.10002.tar.gz
+[2024-05-20 01:20:28] WARNING root fetch - processPackages [gckxzmxkzxczoblp]: Skipping package: exceeds size limit 95034080>=10485760
+[2024-05-20 01:20:28] INFO root fetch - processPackages [gckxzmxkzxczoblp]: Start processing: hynidkluahgvfyml
+[2024-05-20 01:20:28] INFO root fetch - main [MainThread]: End processing [gckxzmxkzxczoblp] error
+[2024-05-20 01:20:28] INFO root fetch - processPackages [dt-extensions-models]: Downloading https://files.pythonhosted.org/packages/83/f8/3d67f7c2a39022625ce74020ba47644f0ea5890bcd53f1365c085f43196c/dt_extensions_models-0.0.13.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [eqmdkneosdngvvni]: Downloading https://files.pythonhosted.org/packages/be/07/acc39ddbbf04c6f38531c0280f7ba95c6ac62b065b90c3fead2e5165933b/eqmdkneosdngvvni-1.10000.10003.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/e0/60/2bf306e7fffab7fcdf62a0a765e79844370720c1faae5b1813d807416d7e/roofai-4.19.1.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [eqmdkneosdngvvni]: Downloading https://files.pythonhosted.org/packages/be/07/acc39ddbbf04c6f38531c0280f7ba95c6ac62b065b90c3fead2e5165933b/eqmdkneosdngvvni-1.10000.10003.tar.gz
+[2024-05-20 01:20:28] WARNING root fetch - processPackages [intrastatez]: Skipping, unable to determine old version
+[2024-05-20 01:20:28] INFO root fetch - processPackages [intrastatez]: Start processing: hynidkluahgvfyml
+[2024-05-20 01:20:28] INFO root fetch - main [MainThread]: End processing [intrastatez] error
+[2024-05-20 01:20:28] INFO root fetch - processPackages [baseapp-comments]: Downloading https://files.pythonhosted.org/packages/f7/16/3ef89b4120a2ebcbb9ca881f47cd60297569e7c9a266604f3d844d8d2610/baseapp_comments-0.1.4.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [liabedekaerfvnhe]: executing diffoscope
+[2024-05-20 01:20:28] INFO root fetch - processPackages [liabedekaerfvnhe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liabedekaerfvnhe-1.10000.10001.tar.gz tmp/liabedekaerfvnhe-1.10000.10002.tar.gz --markdown 20240520/l/liabedekaerfvnhe/1.10000.10001-1.10000.10002/README.md --exclude *.pyd
+[2024-05-20 01:20:28] INFO root fetch - processPackages [dt-extensions-models]: executing diffoscope
+[2024-05-20 01:20:28] INFO root fetch - processPackages [dt-extensions-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dt_extensions_models-0.0.12.tar.gz tmp/dt_extensions_models-0.0.13.tar.gz --markdown 20240520/d/dt-extensions-models/0.0.12-0.0.13/README.md --exclude *.pyd
+[2024-05-20 01:20:28] INFO root fetch - processPackages [hynidkluahgvfyml]: New version: [1.10000.10008] Old Version: [1.10000.10007]
+[2024-05-20 01:20:28] INFO root fetch - processPackages [hynidkluahgvfyml]: New version: [1.10000.10008] Old Version: [1.10000.10007]
+[2024-05-20 01:20:28] INFO root fetch - processPackages [liabedekaerfvnhe]: executing diffoscope
+[2024-05-20 01:20:28] INFO root fetch - processPackages [liabedekaerfvnhe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liabedekaerfvnhe-1.10000.10001.tar.gz tmp/liabedekaerfvnhe-1.10000.10002.tar.gz --markdown 20240520/l/liabedekaerfvnhe/1.10000.10001-1.10000.10002/README.md --exclude *.pyd
+[2024-05-20 01:20:28] INFO root fetch - processPackages [roofAI]: executing diffoscope
+[2024-05-20 01:20:28] INFO root fetch - processPackages [roofAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roofai-4.18.1.tar.gz tmp/roofai-4.19.1.tar.gz --markdown 20240520/r/roofAI/4.18.1-4.19.1/README.md --exclude *.pyd
+[2024-05-20 01:20:28] INFO root fetch - processPackages [hynidkluahgvfyml]: Downloading https://files.pythonhosted.org/packages/bc/29/e6fe69d41744e11e4b994ededbf56598d478b67196acdb899cd60e620d5b/hynidkluahgvfyml-1.10000.10007.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [hynidkluahgvfyml]: Downloading https://files.pythonhosted.org/packages/bc/29/e6fe69d41744e11e4b994ededbf56598d478b67196acdb899cd60e620d5b/hynidkluahgvfyml-1.10000.10007.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [eqmdkneosdngvvni]: Downloading https://files.pythonhosted.org/packages/f3/a6/eee9695599a72c531bcde03af7c5744010abd6ef9592ec113233711ac354/eqmdkneosdngvvni-1.10000.10004.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [eqmdkneosdngvvni]: Downloading https://files.pythonhosted.org/packages/f3/a6/eee9695599a72c531bcde03af7c5744010abd6ef9592ec113233711ac354/eqmdkneosdngvvni-1.10000.10004.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [baseapp-comments]: Downloading https://files.pythonhosted.org/packages/b8/2f/5676a7fd757d856cc8c61b9108b4dfa1fe74f988a00174cd97e86ae01883/baseapp_comments-0.1.5.tar.gz
+[2024-05-20 01:20:28] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofai-4.16.1.tar.gz]
+[2024-05-20 01:20:28] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofai-4.17.1.tar.gz]
+[2024-05-20 01:20:28] INFO root fetch - processPackages [roofAI]: Start processing: pih
+[2024-05-20 01:20:28] INFO root fetch - main [MainThread]: End processing [roofAI]: success
+[2024-05-20 01:20:29] INFO root fetch - processPackages [pih]: New version: [0.36.9] Old Version: [0.36.8]
+[2024-05-20 01:20:29] WARNING root fetch - processPackages [hynidkluahgvfyml]: Skipping package: exceeds size limit 50065061>=10485760
+[2024-05-20 01:20:29] INFO root fetch - main [MainThread]: End processing [hynidkluahgvfyml] error
+[2024-05-20 01:20:29] WARNING root fetch - processPackages [hynidkluahgvfyml]: Skipping package: exceeds size limit 50065061>=10485760
+[2024-05-20 01:20:29] INFO root fetch - main [MainThread]: End processing [hynidkluahgvfyml] error
+[2024-05-20 01:20:29] INFO root fetch - processPackages [baseapp-comments]: executing diffoscope
+[2024-05-20 01:20:29] INFO root fetch - processPackages [baseapp-comments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseapp_comments-0.1.4.tar.gz tmp/baseapp_comments-0.1.5.tar.gz --markdown 20240520/b/baseapp-comments/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-20 01:20:29] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/e3/22ec9d9aa00889ba5428e575aec5461f921ebc7cd055bcbe8a4d08c33218/pih-0.36.8.tar.gz
+[2024-05-20 01:20:29] INFO root fetch - processPackages [eqmdkneosdngvvni]: executing diffoscope
+[2024-05-20 01:20:29] INFO root fetch - processPackages [eqmdkneosdngvvni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eqmdkneosdngvvni-1.10000.10003.tar.gz tmp/eqmdkneosdngvvni-1.10000.10004.tar.gz --markdown 20240520/e/eqmdkneosdngvvni/1.10000.10003-1.10000.10004/README.md --exclude *.pyd
+[2024-05-20 01:20:29] INFO root fetch - processPackages [eqmdkneosdngvvni]: executing diffoscope
+[2024-05-20 01:20:29] INFO root fetch - processPackages [eqmdkneosdngvvni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eqmdkneosdngvvni-1.10000.10003.tar.gz tmp/eqmdkneosdngvvni-1.10000.10004.tar.gz --markdown 20240520/e/eqmdkneosdngvvni/1.10000.10003-1.10000.10004/README.md --exclude *.pyd
+[2024-05-20 01:20:29] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofai-4.18.1.tar.gz]
+[2024-05-20 01:20:29] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofai-4.19.1.tar.gz]
+[2024-05-20 01:20:29] INFO root fetch - main [MainThread]: End processing [roofAI]: success
+[2024-05-20 01:20:29] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/68/1a/6491ba90ae40918db4f8dc253ce837f95f5404e51728f862a2c86457d528/pih-0.36.9.tar.gz
+[2024-05-20 01:20:29] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-05-20 01:20:29] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.8.tar.gz tmp/pih-0.36.9.tar.gz --markdown 20240520/p/pih/0.36.8-0.36.9/README.md --exclude *.pyd
+[2024-05-20 01:20:29] INFO root fetch - processPackages [dt-extensions-models]: Remove: archive file [/home/abi/fetcher/tmp/dt_extensions_models-0.0.12.tar.gz]
+[2024-05-20 01:20:29] INFO root fetch - processPackages [dt-extensions-models]: Remove: archive file [/home/abi/fetcher/tmp/dt_extensions_models-0.0.13.tar.gz]
+[2024-05-20 01:20:29] INFO root fetch - main [MainThread]: End processing [dt-extensions-models]: success
+[2024-05-20 01:20:29] INFO root fetch - processPackages [baseapp-comments]: Remove: archive file [/home/abi/fetcher/tmp/baseapp_comments-0.1.4.tar.gz]
+[2024-05-20 01:20:29] INFO root fetch - processPackages [baseapp-comments]: Remove: archive file [/home/abi/fetcher/tmp/baseapp_comments-0.1.5.tar.gz]
+[2024-05-20 01:20:29] INFO root fetch - main [MainThread]: End processing [baseapp-comments]: success
+[2024-05-20 01:20:30] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.8.tar.gz]
+[2024-05-20 01:20:30] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.9.tar.gz]
+[2024-05-20 01:20:30] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-05-20 01:20:41] INFO root fetch - processPackages [liabedekaerfvnhe]: Remove: archive file [/home/abi/fetcher/tmp/liabedekaerfvnhe-1.10000.10001.tar.gz]
+[2024-05-20 01:20:41] INFO root fetch - processPackages [liabedekaerfvnhe]: Remove: archive file [/home/abi/fetcher/tmp/liabedekaerfvnhe-1.10000.10002.tar.gz]
+[2024-05-20 01:20:41] INFO root fetch - main [MainThread]: End processing [liabedekaerfvnhe]: success
+[2024-05-20 01:20:41] INFO root fetch - main [MainThread]: End processing [liabedekaerfvnhe]: success
+[2024-05-20 01:20:41] INFO root fetch - processPackages [eqmdkneosdngvvni]: Remove: archive file [/home/abi/fetcher/tmp/eqmdkneosdngvvni-1.10000.10003.tar.gz]
+[2024-05-20 01:20:41] INFO root fetch - processPackages [eqmdkneosdngvvni]: Remove: archive file [/home/abi/fetcher/tmp/eqmdkneosdngvvni-1.10000.10004.tar.gz]
+[2024-05-20 01:20:41] INFO root fetch - main [MainThread]: End processing [eqmdkneosdngvvni]: success
+[2024-05-20 01:20:41] INFO root fetch - main [MainThread]: End processing [eqmdkneosdngvvni]: success
+[2024-05-20 01:20:41] INFO root fetch - main [MainThread]: Store serial: [23282183]

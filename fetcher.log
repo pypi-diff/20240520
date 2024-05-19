@@ -1922,3 +1922,30 @@
 [2024-05-20 01:48:57] INFO root fetch - processPackages [npDoseResponse]: Remove: archive file [/home/abi/fetcher/tmp/npdoseresponse-0.0.4.tar.gz]
 [2024-05-20 01:48:57] INFO root fetch - main [MainThread]: End processing [npDoseResponse]: success
 [2024-05-20 01:48:57] INFO root fetch - main [MainThread]: Store serial: [23282395]
+[2024-05-20 01:51:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282395]
+[2024-05-20 01:51:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 01:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: impart
+[2024-05-20 01:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eras
+[2024-05-20 01:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GazooResearchUtils
+[2024-05-20 01:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: subepiglottalz
+[2024-05-20 01:51:05] WARNING root fetch - processPackages [impart]: Skipping, unable to determine old version
+[2024-05-20 01:51:05] INFO root fetch - main [MainThread]: End processing [impart] error
+[2024-05-20 01:51:05] INFO root fetch - processPackages [GazooResearchUtils]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-05-20 01:51:05] INFO root fetch - processPackages [eras]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-20 01:51:05] INFO root fetch - processPackages [GazooResearchUtils]: Downloading https://files.pythonhosted.org/packages/cb/98/6219d01bad48b5b256f8f4f1bfc2d0bef39ed148468758d568398c98f0c9/GazooResearchUtils-1.5.4.tar.gz
+[2024-05-20 01:51:05] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/b8/5c/948043ee8a0c771bd9eae842ba7b14b605d1899c8bc45492d05391fadd51/eras-0.2.0.tar.gz
+[2024-05-20 01:51:05] WARNING root fetch - processPackages [subepiglottalz]: Skipping, unable to determine old version
+[2024-05-20 01:51:05] INFO root fetch - main [MainThread]: End processing [subepiglottalz] error
+[2024-05-20 01:51:06] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/a5/15/0955fce431f1187bc74281207daf34b04b8d97c94632c9e4c799724c76f3/eras-0.2.1.tar.gz
+[2024-05-20 01:51:06] INFO root fetch - processPackages [GazooResearchUtils]: Downloading https://files.pythonhosted.org/packages/99/bf/41dc3d34a7618cd3783d79d5b99794021c0f3ec41eb24fb94bf230f34ca0/GazooResearchUtils-1.5.5.tar.gz
+[2024-05-20 01:51:06] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-20 01:51:06] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.2.0.tar.gz tmp/eras-0.2.1.tar.gz --markdown 20240520/e/eras/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-20 01:51:06] INFO root fetch - processPackages [GazooResearchUtils]: executing diffoscope
+[2024-05-20 01:51:06] INFO root fetch - processPackages [GazooResearchUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GazooResearchUtils-1.5.4.tar.gz tmp/GazooResearchUtils-1.5.5.tar.gz --markdown 20240520/G/GazooResearchUtils/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-05-20 01:51:06] INFO root fetch - processPackages [GazooResearchUtils]: Remove: archive file [/home/abi/fetcher/tmp/GazooResearchUtils-1.5.4.tar.gz]
+[2024-05-20 01:51:06] INFO root fetch - processPackages [GazooResearchUtils]: Remove: archive file [/home/abi/fetcher/tmp/GazooResearchUtils-1.5.5.tar.gz]
+[2024-05-20 01:51:06] INFO root fetch - main [MainThread]: End processing [GazooResearchUtils]: success
+[2024-05-20 01:51:06] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.2.0.tar.gz]
+[2024-05-20 01:51:06] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.2.1.tar.gz]
+[2024-05-20 01:51:06] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-20 01:51:06] INFO root fetch - main [MainThread]: Store serial: [23282407]

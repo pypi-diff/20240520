@@ -1949,3 +1949,15 @@
 [2024-05-20 01:51:06] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.2.1.tar.gz]
 [2024-05-20 01:51:06] INFO root fetch - main [MainThread]: End processing [eras]: success
 [2024-05-20 01:51:06] INFO root fetch - main [MainThread]: Store serial: [23282407]
+[2024-05-20 01:53:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282407]
+[2024-05-20 01:53:15] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 01:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: g4f
+[2024-05-20 01:53:15] INFO root fetch - processPackages [g4f]: New version: [0.3.1.7] Old Version: [0.3.1.6]
+[2024-05-20 01:53:15] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/0d/3a/3a2aa9d2555d4e2109b4a8bd65754076a8532dc61879de7f6ddcaf955cae/g4f-0.3.1.6.tar.gz
+[2024-05-20 01:53:15] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/26/ec/d8abc70ab216b04385dcbd735493379c00f4d0f447315d66c7152d9380ca/g4f-0.3.1.7.tar.gz
+[2024-05-20 01:53:15] INFO root fetch - processPackages [g4f]: executing diffoscope
+[2024-05-20 01:53:15] INFO root fetch - processPackages [g4f]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g4f-0.3.1.6.tar.gz tmp/g4f-0.3.1.7.tar.gz --markdown 20240520/g/g4f/0.3.1.6-0.3.1.7/README.md --exclude *.pyd
+[2024-05-20 01:53:17] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.3.1.6.tar.gz]
+[2024-05-20 01:53:17] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.3.1.7.tar.gz]
+[2024-05-20 01:53:17] INFO root fetch - main [MainThread]: End processing [g4f]: success
+[2024-05-20 01:53:17] INFO root fetch - main [MainThread]: Store serial: [23282410]

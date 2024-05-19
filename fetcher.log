@@ -85,3 +85,24 @@
 [2024-05-20 00:05:36] INFO root fetch - processPackages [grep-ast]: Remove: archive file [/home/abi/fetcher/tmp/grep_ast-0.3.1-py3-none-any.whl.zip]
 [2024-05-20 00:05:36] INFO root fetch - main [MainThread]: End processing [grep-ast]: success
 [2024-05-20 00:05:36] INFO root fetch - main [MainThread]: Store serial: [23281504]
+[2024-05-20 00:07:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281504]
+[2024-05-20 00:07:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 00:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grep-ast
+[2024-05-20 00:07:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytubefix
+[2024-05-20 00:07:44] INFO root fetch - processPackages [grep-ast]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-20 00:07:44] INFO root fetch - processPackages [pytubefix]: New version: [5.6rc2] Old Version: [5.6rc1]
+[2024-05-20 00:07:45] INFO root fetch - processPackages [grep-ast]: Downloading https://files.pythonhosted.org/packages/5f/f9/8d75567c1394b5387a92a9d2ec3e943bf77686203489177f4f5668ce60a1/grep_ast-0.3.0.tar.gz
+[2024-05-20 00:07:45] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/1d/05/789364caffed63dc8b1439bb814b5d02b2d884992c492e621502e604a9be/pytubefix-5.6rc1.tar.gz
+[2024-05-20 00:07:45] INFO root fetch - processPackages [grep-ast]: Downloading https://files.pythonhosted.org/packages/49/e7/8cf1a9b20c48af8c919375717825957664b8ba37af7ba322ee7a90784b81/grep_ast-0.3.1-py3-none-any.whl
+[2024-05-20 00:07:45] INFO root fetch - processPackages [grep-ast]: executing diffoscope
+[2024-05-20 00:07:45] INFO root fetch - processPackages [grep-ast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grep_ast-0.3.0.tar.gz tmp/grep_ast-0.3.1-py3-none-any.whl.zip --markdown 20240520/g/grep-ast/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-20 00:07:45] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/20/56/33cd1e75cd2aa51e4f07fbaf746080834469f3f67fb1e22e60ff80dba5b2/pytubefix-5.6rc2.tar.gz
+[2024-05-20 00:07:45] INFO root fetch - processPackages [pytubefix]: executing diffoscope
+[2024-05-20 00:07:45] INFO root fetch - processPackages [pytubefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubefix-5.6rc1.tar.gz tmp/pytubefix-5.6rc2.tar.gz --markdown 20240520/p/pytubefix/5.6rc1-5.6rc2/README.md --exclude *.pyd
+[2024-05-20 00:07:45] INFO root fetch - processPackages [grep-ast]: Remove: archive file [/home/abi/fetcher/tmp/grep_ast-0.3.0.tar.gz]
+[2024-05-20 00:07:45] INFO root fetch - processPackages [grep-ast]: Remove: archive file [/home/abi/fetcher/tmp/grep_ast-0.3.1-py3-none-any.whl.zip]
+[2024-05-20 00:07:45] INFO root fetch - main [MainThread]: End processing [grep-ast]: success
+[2024-05-20 00:07:46] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.6rc1.tar.gz]
+[2024-05-20 00:07:46] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.6rc2.tar.gz]
+[2024-05-20 00:07:46] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
+[2024-05-20 00:07:46] INFO root fetch - main [MainThread]: Store serial: [23281514]

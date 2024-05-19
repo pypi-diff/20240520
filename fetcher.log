@@ -106,3 +106,36 @@
 [2024-05-20 00:07:46] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-5.6rc2.tar.gz]
 [2024-05-20 00:07:46] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
 [2024-05-20 00:07:46] INFO root fetch - main [MainThread]: Store serial: [23281514]
+[2024-05-20 00:09:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281514]
+[2024-05-20 00:09:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: betterschema
+[2024-05-20 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hpp2plantuml
+[2024-05-20 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: superannuatez
+[2024-05-20 00:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-amphi
+[2024-05-20 00:09:54] INFO root fetch - processPackages [betterschema]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 00:09:54] INFO root fetch - processPackages [betterschema]: Downloading https://files.pythonhosted.org/packages/1e/38/c4454b42d2fdf99df61a25551a6a06ccb4ca66e340946fe223ee1ab9c001/betterschema-0.1.8.tar.gz
+[2024-05-20 00:09:54] INFO root fetch - processPackages [hpp2plantuml]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-20 00:09:54] INFO root fetch - processPackages [jupyterlab-amphi]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-20 00:09:54] WARNING root fetch - processPackages [superannuatez]: Skipping, unable to determine old version
+[2024-05-20 00:09:54] INFO root fetch - main [MainThread]: End processing [superannuatez] error
+[2024-05-20 00:09:54] INFO root fetch - processPackages [betterschema]: Downloading https://files.pythonhosted.org/packages/9f/0d/826ff1e3b4772c505194babfcc2ab7784bd5f7f13f65bfb0aa861b1c63c0/betterschema-0.1.9.tar.gz
+[2024-05-20 00:09:54] INFO root fetch - processPackages [hpp2plantuml]: Downloading https://files.pythonhosted.org/packages/11/9e/215737dc411a9339ed4105e82b92461661774f324049398a190710c8ca2b/hpp2plantuml-0.8.3-py2.py3-none-any.whl
+[2024-05-20 00:09:54] INFO root fetch - processPackages [jupyterlab-amphi]: Downloading https://files.pythonhosted.org/packages/9d/6c/ee3ef6eed2c806d58f8ef6f1b13935ab37b91ee242953b194dcccd70f800/jupyterlab_amphi-0.3.2.tar.gz
+[2024-05-20 00:09:54] INFO root fetch - processPackages [betterschema]: executing diffoscope
+[2024-05-20 00:09:54] INFO root fetch - processPackages [betterschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterschema-0.1.8.tar.gz tmp/betterschema-0.1.9.tar.gz --markdown 20240520/b/betterschema/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 00:09:54] INFO root fetch - processPackages [hpp2plantuml]: Downloading https://files.pythonhosted.org/packages/1e/a1/40ec006cd49ab0ba6772af29bbafbb807f278cac5328bb9d68dc4352f002/hpp2plantuml-0.8.4-py2.py3-none-any.whl
+[2024-05-20 00:09:55] INFO root fetch - processPackages [hpp2plantuml]: executing diffoscope
+[2024-05-20 00:09:55] INFO root fetch - processPackages [hpp2plantuml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpp2plantuml-0.8.3-py2.py3-none-any.whl.zip tmp/hpp2plantuml-0.8.4-py2.py3-none-any.whl.zip --markdown 20240520/h/hpp2plantuml/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-20 00:09:55] INFO root fetch - processPackages [jupyterlab-amphi]: Downloading https://files.pythonhosted.org/packages/f3/29/8c11168848afca7c56ca66e0821f5eb2cfdc2602fb36d3e4b740d3a61741/jupyterlab_amphi-0.3.3.tar.gz
+[2024-05-20 00:09:55] INFO root fetch - processPackages [betterschema]: Remove: archive file [/home/abi/fetcher/tmp/betterschema-0.1.8.tar.gz]
+[2024-05-20 00:09:55] INFO root fetch - processPackages [betterschema]: Remove: archive file [/home/abi/fetcher/tmp/betterschema-0.1.9.tar.gz]
+[2024-05-20 00:09:55] INFO root fetch - main [MainThread]: End processing [betterschema]: success
+[2024-05-20 00:09:55] INFO root fetch - processPackages [jupyterlab-amphi]: executing diffoscope
+[2024-05-20 00:09:55] INFO root fetch - processPackages [jupyterlab-amphi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_amphi-0.3.2.tar.gz tmp/jupyterlab_amphi-0.3.3.tar.gz --markdown 20240520/j/jupyterlab-amphi/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-20 00:09:55] INFO root fetch - processPackages [hpp2plantuml]: Remove: archive file [/home/abi/fetcher/tmp/hpp2plantuml-0.8.3-py2.py3-none-any.whl.zip]
+[2024-05-20 00:09:55] INFO root fetch - processPackages [hpp2plantuml]: Remove: archive file [/home/abi/fetcher/tmp/hpp2plantuml-0.8.4-py2.py3-none-any.whl.zip]
+[2024-05-20 00:09:55] INFO root fetch - main [MainThread]: End processing [hpp2plantuml]: success
+[2024-05-20 00:09:57] INFO root fetch - processPackages [jupyterlab-amphi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_amphi-0.3.2.tar.gz]
+[2024-05-20 00:09:57] INFO root fetch - processPackages [jupyterlab-amphi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_amphi-0.3.3.tar.gz]
+[2024-05-20 00:09:57] INFO root fetch - main [MainThread]: End processing [jupyterlab-amphi]: success
+[2024-05-20 00:09:57] INFO root fetch - main [MainThread]: Store serial: [23281525]

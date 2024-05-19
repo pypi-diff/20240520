@@ -569,3 +569,42 @@
 [2024-05-20 00:40:34] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1716157110.tar.gz]
 [2024-05-20 00:40:34] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2024-05-20 00:40:34] INFO root fetch - main [MainThread]: Store serial: [23281720]
+[2024-05-20 00:42:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281720]
+[2024-05-20 00:42:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plateforme
+[2024-05-20 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-sql-parsing
+[2024-05-20 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowstep
+[2024-05-20 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notolog
+[2024-05-20 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wttech-aem
+[2024-05-20 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mini-pandas
+[2024-05-20 00:42:43] WARNING root fetch - processPackages [plateforme]: Skipping, unable to determine old version
+[2024-05-20 00:42:43] INFO root fetch - main [MainThread]: End processing [plateforme] error
+[2024-05-20 00:42:43] WARNING root fetch - processPackages [flowstep]: Skipping, unable to determine old version
+[2024-05-20 00:42:43] INFO root fetch - main [MainThread]: End processing [flowstep] error
+[2024-05-20 00:42:43] INFO root fetch - processPackages [wttech-aem]: New version: [0.1.1] Old Version: [0.0.2]
+[2024-05-20 00:42:43] WARNING root fetch - processPackages [mini-pandas]: Skipping, unable to determine old version
+[2024-05-20 00:42:43] INFO root fetch - main [MainThread]: End processing [mini-pandas] error
+[2024-05-20 00:42:43] INFO root fetch - processPackages [mo-sql-parsing]: New version: [9.628.24135] Old Version: [9.581.24094]
+[2024-05-20 00:42:43] INFO root fetch - processPackages [notolog]: New version: [0.9.1b6] Old Version: [0.9.1b4]
+[2024-05-20 00:42:43] INFO root fetch - processPackages [wttech-aem]: Downloading https://files.pythonhosted.org/packages/12/52/aba69d962580dc0c22b6038efda2ba3f046ce70052a55e056659dd79cd88/wttech_aem-0.0.2.tar.gz
+[2024-05-20 00:42:43] INFO root fetch - processPackages [notolog]: Downloading https://files.pythonhosted.org/packages/e2/13/781c89d52619545e074d663abdaa92242ad39b8217d7b64cda30504908bf/notolog-0.9.1b4.tar.gz
+[2024-05-20 00:42:43] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/80/51/a0777be40340953e399babce6a42fbf82dc2aeaa5e02d3759814191913ba/mo-sql-parsing-9.581.24094.tar.gz
+[2024-05-20 00:42:44] INFO root fetch - processPackages [wttech-aem]: Downloading https://files.pythonhosted.org/packages/eb/9e/efe1d60269d78f6f7a0aad065a2311cf40554b2c27eb3951cf3060dda934/wttech_aem-0.1.1.tar.gz
+[2024-05-20 00:42:44] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/c0/a3/5c973dd21458f0b2d810e99dc69af69267f20f012262a8e7b0dada5408b5/mo_sql_parsing-9.628.24135.tar.gz
+[2024-05-20 00:42:44] INFO root fetch - processPackages [notolog]: Downloading https://files.pythonhosted.org/packages/0c/8b/dc5bba8aa806f5328687954b8fb655113e40817a261a846c610f6587c9d8/notolog-0.9.1b6.tar.gz
+[2024-05-20 00:42:44] INFO root fetch - processPackages [wttech-aem]: executing diffoscope
+[2024-05-20 00:42:44] INFO root fetch - processPackages [wttech-aem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wttech_aem-0.0.2.tar.gz tmp/wttech_aem-0.1.1.tar.gz --markdown 20240520/w/wttech-aem/0.0.2-0.1.1/README.md --exclude *.pyd
+[2024-05-20 00:42:44] INFO root fetch - processPackages [mo-sql-parsing]: executing diffoscope
+[2024-05-20 00:42:44] INFO root fetch - processPackages [mo-sql-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-sql-parsing-9.581.24094.tar.gz tmp/mo_sql_parsing-9.628.24135.tar.gz --markdown 20240520/m/mo-sql-parsing/9.581.24094-9.628.24135/README.md --exclude *.pyd
+[2024-05-20 00:42:44] INFO root fetch - processPackages [notolog]: executing diffoscope
+[2024-05-20 00:42:44] INFO root fetch - processPackages [notolog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notolog-0.9.1b4.tar.gz tmp/notolog-0.9.1b6.tar.gz --markdown 20240520/n/notolog/0.9.1b4-0.9.1b6/README.md --exclude *.pyd
+[2024-05-20 00:42:44] INFO root fetch - processPackages [wttech-aem]: Remove: archive file [/home/abi/fetcher/tmp/wttech_aem-0.0.2.tar.gz]
+[2024-05-20 00:42:44] INFO root fetch - processPackages [wttech-aem]: Remove: archive file [/home/abi/fetcher/tmp/wttech_aem-0.1.1.tar.gz]
+[2024-05-20 00:42:44] INFO root fetch - main [MainThread]: End processing [wttech-aem]: success
+[2024-05-20 00:42:44] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo-sql-parsing-9.581.24094.tar.gz]
+[2024-05-20 00:42:44] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.628.24135.tar.gz]
+[2024-05-20 00:42:44] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
+[2024-05-20 00:42:46] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.1b4.tar.gz]
+[2024-05-20 00:42:46] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.1b6.tar.gz]
+[2024-05-20 00:42:46] INFO root fetch - main [MainThread]: End processing [notolog]: success
+[2024-05-20 00:42:46] INFO root fetch - main [MainThread]: Store serial: [23281743]

@@ -1254,3 +1254,92 @@
 [2024-05-20 01:13:43] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.80.0.tar.gz]
 [2024-05-20 01:13:43] INFO root fetch - main [MainThread]: End processing [dvcx]: success
 [2024-05-20 01:13:43] INFO root fetch - main [MainThread]: Store serial: [23282062]
+[2024-05-20 01:15:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282062]
+[2024-05-20 01:15:51] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-20 01:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kjzuurvlmuukeqeu
+[2024-05-20 01:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qurbuvttsompvbhz
+[2024-05-20 01:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qurbuvttsompvbhz
+[2024-05-20 01:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mliumudyhiqlvqcu
+[2024-05-20 01:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qurbuvttsompvbhz
+[2024-05-20 01:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adoptionz
+[2024-05-20 01:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mliumudyhiqlvqcu
+[2024-05-20 01:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nupmzytokurznqla
+[2024-05-20 01:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nupmzytokurznqla
+[2024-05-20 01:15:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sfbuymbbpknnbaum
+[2024-05-20 01:15:51] WARNING root fetch - processPackages [adoptionz]: Skipping, unable to determine old version
+[2024-05-20 01:15:51] INFO root fetch - processPackages [adoptionz]: Start processing: nupmzytokurznqla
+[2024-05-20 01:15:51] INFO root fetch - main [MainThread]: End processing [adoptionz] error
+[2024-05-20 01:15:51] WARNING root fetch - processPackages [kjzuurvlmuukeqeu]: Skipping, unable to determine old version
+[2024-05-20 01:15:51] INFO root fetch - processPackages [kjzuurvlmuukeqeu]: Start processing: nupmzytokurznqla
+[2024-05-20 01:15:51] INFO root fetch - processPackages [qurbuvttsompvbhz]: New version: [1.10000.10002] Old Version: [1.10000.10001]
+[2024-05-20 01:15:51] INFO root fetch - main [MainThread]: End processing [kjzuurvlmuukeqeu] error
+[2024-05-20 01:15:51] INFO root fetch - processPackages [qurbuvttsompvbhz]: New version: [1.10000.10002] Old Version: [1.10000.10001]
+[2024-05-20 01:15:51] INFO root fetch - processPackages [qurbuvttsompvbhz]: New version: [1.10000.10002] Old Version: [1.10000.10001]
+[2024-05-20 01:15:52] INFO root fetch - processPackages [mliumudyhiqlvqcu]: New version: [1.10000.10002] Old Version: [1.10000.10001]
+[2024-05-20 01:15:52] INFO root fetch - processPackages [mliumudyhiqlvqcu]: New version: [1.10000.10002] Old Version: [1.10000.10001]
+[2024-05-20 01:15:52] INFO root fetch - processPackages [nupmzytokurznqla]: New version: [1.10000.10006] Old Version: [1.10000.10005]
+[2024-05-20 01:15:52] INFO root fetch - processPackages [nupmzytokurznqla]: New version: [1.10000.10006] Old Version: [1.10000.10005]
+[2024-05-20 01:15:52] INFO root fetch - processPackages [sfbuymbbpknnbaum]: New version: [1.10000.10004] Old Version: [1.10000.10003]
+[2024-05-20 01:15:52] INFO root fetch - processPackages [nupmzytokurznqla]: New version: [1.10000.10006] Old Version: [1.10000.10005]
+[2024-05-20 01:15:52] INFO root fetch - processPackages [nupmzytokurznqla]: New version: [1.10000.10006] Old Version: [1.10000.10005]
+[2024-05-20 01:15:52] INFO root fetch - processPackages [qurbuvttsompvbhz]: Downloading https://files.pythonhosted.org/packages/95/d6/0f4b01c6fe75f19cdd70078947a2e5f5bb867f8316d5e611ac439b580e7f/qurbuvttsompvbhz-1.10000.10001.tar.gz
+[2024-05-20 01:15:52] INFO root fetch - processPackages [qurbuvttsompvbhz]: Downloading https://files.pythonhosted.org/packages/95/d6/0f4b01c6fe75f19cdd70078947a2e5f5bb867f8316d5e611ac439b580e7f/qurbuvttsompvbhz-1.10000.10001.tar.gz
+[2024-05-20 01:15:52] INFO root fetch - processPackages [qurbuvttsompvbhz]: Downloading https://files.pythonhosted.org/packages/95/d6/0f4b01c6fe75f19cdd70078947a2e5f5bb867f8316d5e611ac439b580e7f/qurbuvttsompvbhz-1.10000.10001.tar.gz
+[2024-05-20 01:15:52] INFO root fetch - processPackages [nupmzytokurznqla]: Downloading https://files.pythonhosted.org/packages/40/04/54ff1ab347f69feb12e8c87cba9a99a9782e08e9847d0d03618b830d6543/nupmzytokurznqla-1.10000.10005.tar.gz
+[2024-05-20 01:15:52] INFO root fetch - processPackages [sfbuymbbpknnbaum]: Downloading https://files.pythonhosted.org/packages/da/cf/8153654e2f71fab2f5196c9bd820f033023922577b04d5f23fa4fcea767a/sfbuymbbpknnbaum-1.10000.10003.tar.gz
+[2024-05-20 01:15:52] INFO root fetch - processPackages [mliumudyhiqlvqcu]: Downloading https://files.pythonhosted.org/packages/d0/3a/bc654ca2cd29cb0e01f308874bc68e25bdcedbc2694c4a1e67832d81ca21/mliumudyhiqlvqcu-1.10000.10001.tar.gz
+[2024-05-20 01:15:52] INFO root fetch - processPackages [mliumudyhiqlvqcu]: Downloading https://files.pythonhosted.org/packages/d0/3a/bc654ca2cd29cb0e01f308874bc68e25bdcedbc2694c4a1e67832d81ca21/mliumudyhiqlvqcu-1.10000.10001.tar.gz
+[2024-05-20 01:15:52] INFO root fetch - processPackages [nupmzytokurznqla]: Downloading https://files.pythonhosted.org/packages/40/04/54ff1ab347f69feb12e8c87cba9a99a9782e08e9847d0d03618b830d6543/nupmzytokurznqla-1.10000.10005.tar.gz
+[2024-05-20 01:15:52] INFO root fetch - processPackages [nupmzytokurznqla]: Downloading https://files.pythonhosted.org/packages/40/04/54ff1ab347f69feb12e8c87cba9a99a9782e08e9847d0d03618b830d6543/nupmzytokurznqla-1.10000.10005.tar.gz
+[2024-05-20 01:15:52] INFO root fetch - processPackages [nupmzytokurznqla]: Downloading https://files.pythonhosted.org/packages/40/04/54ff1ab347f69feb12e8c87cba9a99a9782e08e9847d0d03618b830d6543/nupmzytokurznqla-1.10000.10005.tar.gz
+[2024-05-20 01:15:52] WARNING root fetch - processPackages [nupmzytokurznqla]: Skipping package: exceeds size limit 95034078>=10485760
+[2024-05-20 01:15:52] INFO root fetch - processPackages [nupmzytokurznqla]: Start processing: sfbuymbbpknnbaum
+[2024-05-20 01:15:52] INFO root fetch - main [MainThread]: End processing [nupmzytokurznqla] error
+[2024-05-20 01:15:52] INFO root fetch - processPackages [sfbuymbbpknnbaum]: New version: [1.10000.10004] Old Version: [1.10000.10003]
+[2024-05-20 01:15:52] WARNING root fetch - processPackages [nupmzytokurznqla]: Skipping package: exceeds size limit 95034078>=10485760
+[2024-05-20 01:15:52] INFO root fetch - processPackages [nupmzytokurznqla]: Start processing: wvsvvqekehgezwbo
+[2024-05-20 01:15:52] INFO root fetch - main [MainThread]: End processing [nupmzytokurznqla] error
+[2024-05-20 01:15:52] WARNING root fetch - processPackages [nupmzytokurznqla]: Skipping package: exceeds size limit 95034078>=10485760
+[2024-05-20 01:15:52] WARNING root fetch - processPackages [nupmzytokurznqla]: Skipping package: exceeds size limit 95034078>=10485760
+[2024-05-20 01:15:52] INFO root fetch - processPackages [nupmzytokurznqla]: Start processing: lwwpjkupzdaatanb
+[2024-05-20 01:15:52] INFO root fetch - processPackages [nupmzytokurznqla]: Start processing: wvsvvqekehgezwbo
+[2024-05-20 01:15:52] INFO root fetch - main [MainThread]: End processing [nupmzytokurznqla] error
+[2024-05-20 01:15:52] INFO root fetch - main [MainThread]: End processing [nupmzytokurznqla] error
+[2024-05-20 01:15:52] WARNING root fetch - processPackages [qurbuvttsompvbhz]: Skipping package: exceeds size limit 15087799>=10485760
+[2024-05-20 01:15:52] INFO root fetch - main [MainThread]: End processing [qurbuvttsompvbhz] error
+[2024-05-20 01:15:52] WARNING root fetch - processPackages [qurbuvttsompvbhz]: Skipping package: exceeds size limit 15087799>=10485760
+[2024-05-20 01:15:52] WARNING root fetch - processPackages [qurbuvttsompvbhz]: Skipping package: exceeds size limit 15087799>=10485760
+[2024-05-20 01:15:52] INFO root fetch - main [MainThread]: End processing [qurbuvttsompvbhz] error
+[2024-05-20 01:15:52] INFO root fetch - main [MainThread]: End processing [qurbuvttsompvbhz] error
+[2024-05-20 01:15:52] INFO root fetch - processPackages [wvsvvqekehgezwbo]: New version: [1.10000.10008] Old Version: [1.10000.10007]
+[2024-05-20 01:15:52] INFO root fetch - processPackages [wvsvvqekehgezwbo]: New version: [1.10000.10008] Old Version: [1.10000.10007]
+[2024-05-20 01:15:52] INFO root fetch - processPackages [sfbuymbbpknnbaum]: Downloading https://files.pythonhosted.org/packages/da/cf/8153654e2f71fab2f5196c9bd820f033023922577b04d5f23fa4fcea767a/sfbuymbbpknnbaum-1.10000.10003.tar.gz
+[2024-05-20 01:15:52] WARNING root fetch - processPackages [lwwpjkupzdaatanb]: Skipping, unable to determine old version
+[2024-05-20 01:15:52] INFO root fetch - main [MainThread]: End processing [lwwpjkupzdaatanb] error
+[2024-05-20 01:15:52] INFO root fetch - processPackages [wvsvvqekehgezwbo]: Downloading https://files.pythonhosted.org/packages/05/b1/83cdc1663b7682773d3837b72b5c01bcdf97c1b9cb4c573d19d64dec870e/wvsvvqekehgezwbo-1.10000.10007.tar.gz
+[2024-05-20 01:15:52] INFO root fetch - processPackages [wvsvvqekehgezwbo]: Downloading https://files.pythonhosted.org/packages/05/b1/83cdc1663b7682773d3837b72b5c01bcdf97c1b9cb4c573d19d64dec870e/wvsvvqekehgezwbo-1.10000.10007.tar.gz
+[2024-05-20 01:15:52] INFO root fetch - processPackages [sfbuymbbpknnbaum]: Downloading https://files.pythonhosted.org/packages/53/a5/90fa5a81fa3be6c81cdd2f1080e44f5101937fb70930c2d7280474f834f8/sfbuymbbpknnbaum-1.10000.10004.tar.gz
+[2024-05-20 01:15:52] INFO root fetch - processPackages [sfbuymbbpknnbaum]: Downloading https://files.pythonhosted.org/packages/53/a5/90fa5a81fa3be6c81cdd2f1080e44f5101937fb70930c2d7280474f834f8/sfbuymbbpknnbaum-1.10000.10004.tar.gz
+[2024-05-20 01:15:52] WARNING root fetch - processPackages [wvsvvqekehgezwbo]: Skipping package: exceeds size limit 50065061>=10485760
+[2024-05-20 01:15:52] INFO root fetch - main [MainThread]: End processing [wvsvvqekehgezwbo] error
+[2024-05-20 01:15:52] WARNING root fetch - processPackages [wvsvvqekehgezwbo]: Skipping package: exceeds size limit 50065061>=10485760
+[2024-05-20 01:15:52] INFO root fetch - main [MainThread]: End processing [wvsvvqekehgezwbo] error
+[2024-05-20 01:15:52] INFO root fetch - processPackages [mliumudyhiqlvqcu]: Downloading https://files.pythonhosted.org/packages/0e/c9/336629dd9b24fb9e1715a224b094b93f4557760df93301e806bd678e73fc/mliumudyhiqlvqcu-1.10000.10002.tar.gz
+[2024-05-20 01:15:52] INFO root fetch - processPackages [mliumudyhiqlvqcu]: Downloading https://files.pythonhosted.org/packages/0e/c9/336629dd9b24fb9e1715a224b094b93f4557760df93301e806bd678e73fc/mliumudyhiqlvqcu-1.10000.10002.tar.gz
+[2024-05-20 01:15:52] INFO root fetch - processPackages [sfbuymbbpknnbaum]: executing diffoscope
+[2024-05-20 01:15:52] INFO root fetch - processPackages [sfbuymbbpknnbaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfbuymbbpknnbaum-1.10000.10003.tar.gz tmp/sfbuymbbpknnbaum-1.10000.10004.tar.gz --markdown 20240520/s/sfbuymbbpknnbaum/1.10000.10003-1.10000.10004/README.md --exclude *.pyd
+[2024-05-20 01:15:53] INFO root fetch - processPackages [sfbuymbbpknnbaum]: executing diffoscope
+[2024-05-20 01:15:53] INFO root fetch - processPackages [sfbuymbbpknnbaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfbuymbbpknnbaum-1.10000.10003.tar.gz tmp/sfbuymbbpknnbaum-1.10000.10004.tar.gz --markdown 20240520/s/sfbuymbbpknnbaum/1.10000.10003-1.10000.10004/README.md --exclude *.pyd
+[2024-05-20 01:15:53] INFO root fetch - processPackages [mliumudyhiqlvqcu]: executing diffoscope
+[2024-05-20 01:15:53] INFO root fetch - processPackages [mliumudyhiqlvqcu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mliumudyhiqlvqcu-1.10000.10001.tar.gz tmp/mliumudyhiqlvqcu-1.10000.10002.tar.gz --markdown 20240520/m/mliumudyhiqlvqcu/1.10000.10001-1.10000.10002/README.md --exclude *.pyd
+[2024-05-20 01:15:53] INFO root fetch - processPackages [mliumudyhiqlvqcu]: executing diffoscope
+[2024-05-20 01:15:53] INFO root fetch - processPackages [mliumudyhiqlvqcu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mliumudyhiqlvqcu-1.10000.10001.tar.gz tmp/mliumudyhiqlvqcu-1.10000.10002.tar.gz --markdown 20240520/m/mliumudyhiqlvqcu/1.10000.10001-1.10000.10002/README.md --exclude *.pyd
+[2024-05-20 01:16:05] INFO root fetch - processPackages [sfbuymbbpknnbaum]: Remove: archive file [/home/abi/fetcher/tmp/sfbuymbbpknnbaum-1.10000.10003.tar.gz]
+[2024-05-20 01:16:05] INFO root fetch - processPackages [sfbuymbbpknnbaum]: Remove: archive file [/home/abi/fetcher/tmp/sfbuymbbpknnbaum-1.10000.10004.tar.gz]
+[2024-05-20 01:16:05] INFO root fetch - main [MainThread]: End processing [sfbuymbbpknnbaum]: success
+[2024-05-20 01:16:05] INFO root fetch - main [MainThread]: End processing [sfbuymbbpknnbaum]: success
+[2024-05-20 01:16:05] INFO root fetch - processPackages [mliumudyhiqlvqcu]: Remove: archive file [/home/abi/fetcher/tmp/mliumudyhiqlvqcu-1.10000.10001.tar.gz]
+[2024-05-20 01:16:05] INFO root fetch - processPackages [mliumudyhiqlvqcu]: Remove: archive file [/home/abi/fetcher/tmp/mliumudyhiqlvqcu-1.10000.10002.tar.gz]
+[2024-05-20 01:16:05] INFO root fetch - main [MainThread]: End processing [mliumudyhiqlvqcu]: success
+[2024-05-20 01:16:05] INFO root fetch - main [MainThread]: End processing [mliumudyhiqlvqcu]: success
+[2024-05-20 01:16:05] INFO root fetch - main [MainThread]: Store serial: [23282110]

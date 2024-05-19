@@ -1343,3 +1343,44 @@
 [2024-05-20 01:16:05] INFO root fetch - main [MainThread]: End processing [mliumudyhiqlvqcu]: success
 [2024-05-20 01:16:05] INFO root fetch - main [MainThread]: End processing [mliumudyhiqlvqcu]: success
 [2024-05-20 01:16:05] INFO root fetch - main [MainThread]: Store serial: [23282110]
+[2024-05-20 01:18:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282110]
+[2024-05-20 01:18:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 01:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wvsvvqekehgezwbo
+[2024-05-20 01:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lwwpjkupzdaatanb
+[2024-05-20 01:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: froge
+[2024-05-20 01:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: staging-cacao-accounting-desktop
+[2024-05-20 01:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hot-spot-analysis
+[2024-05-20 01:18:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roofAI
+[2024-05-20 01:18:17] INFO root fetch - processPackages [staging-cacao-accounting-desktop]: New version: [2024.5.7] Old Version: [2024.5.5]
+[2024-05-20 01:18:17] INFO root fetch - processPackages [roofAI]: New version: [4.16.1] Old Version: [4.15.1]
+[2024-05-20 01:18:17] WARNING root fetch - processPackages [lwwpjkupzdaatanb]: Skipping, unable to determine old version
+[2024-05-20 01:18:17] INFO root fetch - main [MainThread]: End processing [lwwpjkupzdaatanb] error
+[2024-05-20 01:18:17] INFO root fetch - processPackages [wvsvvqekehgezwbo]: New version: [1.10000.10008] Old Version: [1.10000.10007]
+[2024-05-20 01:18:17] INFO root fetch - processPackages [hot-spot-analysis]: New version: [1.0.2] Old Version: [0.1.4]
+[2024-05-20 01:18:17] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/3b/d9/9057bf0dcf7b8c266151a18c2bb03ccc910a8dc47b32c7d3786056553236/roofai-4.15.1.tar.gz
+[2024-05-20 01:18:17] INFO root fetch - processPackages [staging-cacao-accounting-desktop]: Downloading https://files.pythonhosted.org/packages/70/6a/1bc4d285a22b1734ec98fb5fb8dba4eb63f426cd544039684a0abdc5a6bd/staging_cacao_accounting_desktop-2024.5.5.tar.gz
+[2024-05-20 01:18:17] INFO root fetch - processPackages [wvsvvqekehgezwbo]: Downloading https://files.pythonhosted.org/packages/05/b1/83cdc1663b7682773d3837b72b5c01bcdf97c1b9cb4c573d19d64dec870e/wvsvvqekehgezwbo-1.10000.10007.tar.gz
+[2024-05-20 01:18:17] WARNING root fetch - processPackages [froge]: Skipping, unable to determine old version
+[2024-05-20 01:18:17] INFO root fetch - main [MainThread]: End processing [froge] error
+[2024-05-20 01:18:17] WARNING root fetch - processPackages [wvsvvqekehgezwbo]: Skipping package: exceeds size limit 50065061>=10485760
+[2024-05-20 01:18:17] INFO root fetch - main [MainThread]: End processing [wvsvvqekehgezwbo] error
+[2024-05-20 01:18:17] INFO root fetch - processPackages [hot-spot-analysis]: Downloading https://files.pythonhosted.org/packages/f0/7d/7c5b059af9319295531a8231846704332199b02ed57c33d6d815e4cee859/hot_spot_analysis-0.1.4.tar.gz
+[2024-05-20 01:18:17] INFO root fetch - processPackages [staging-cacao-accounting-desktop]: Downloading https://files.pythonhosted.org/packages/80/72/e3d007ceca3f5d64beaefee2f06ea97da2951de3e9317c074739317de06b/staging_cacao_accounting_desktop-2024.5.7.tar.gz
+[2024-05-20 01:18:17] INFO root fetch - processPackages [roofAI]: Downloading https://files.pythonhosted.org/packages/ed/b5/8b4b1292d55e972c8ff951a819c40a9f5f0516145faa7e4394bc27f351d2/roofai-4.16.1.tar.gz
+[2024-05-20 01:18:17] INFO root fetch - processPackages [staging-cacao-accounting-desktop]: executing diffoscope
+[2024-05-20 01:18:17] INFO root fetch - processPackages [staging-cacao-accounting-desktop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staging_cacao_accounting_desktop-2024.5.5.tar.gz tmp/staging_cacao_accounting_desktop-2024.5.7.tar.gz --markdown 20240520/s/staging-cacao-accounting-desktop/2024.5.5-2024.5.7/README.md --exclude *.pyd
+[2024-05-20 01:18:17] INFO root fetch - processPackages [roofAI]: executing diffoscope
+[2024-05-20 01:18:17] INFO root fetch - processPackages [roofAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roofai-4.15.1.tar.gz tmp/roofai-4.16.1.tar.gz --markdown 20240520/r/roofAI/4.15.1-4.16.1/README.md --exclude *.pyd
+[2024-05-20 01:18:18] INFO root fetch - processPackages [hot-spot-analysis]: Downloading https://files.pythonhosted.org/packages/8d/d0/5c9251ad5f0d3bd2cb52c21372b312306f93f70c134d06ca3247376654a5/hot_spot_analysis-1.0.2.tar.gz
+[2024-05-20 01:18:18] INFO root fetch - processPackages [hot-spot-analysis]: executing diffoscope
+[2024-05-20 01:18:18] INFO root fetch - processPackages [hot-spot-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hot_spot_analysis-0.1.4.tar.gz tmp/hot_spot_analysis-1.0.2.tar.gz --markdown 20240520/h/hot-spot-analysis/0.1.4-1.0.2/README.md --exclude *.pyd
+[2024-05-20 01:18:18] INFO root fetch - processPackages [staging-cacao-accounting-desktop]: Remove: archive file [/home/abi/fetcher/tmp/staging_cacao_accounting_desktop-2024.5.5.tar.gz]
+[2024-05-20 01:18:18] INFO root fetch - processPackages [staging-cacao-accounting-desktop]: Remove: archive file [/home/abi/fetcher/tmp/staging_cacao_accounting_desktop-2024.5.7.tar.gz]
+[2024-05-20 01:18:18] INFO root fetch - main [MainThread]: End processing [staging-cacao-accounting-desktop]: success
+[2024-05-20 01:18:18] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofai-4.15.1.tar.gz]
+[2024-05-20 01:18:18] INFO root fetch - processPackages [roofAI]: Remove: archive file [/home/abi/fetcher/tmp/roofai-4.16.1.tar.gz]
+[2024-05-20 01:18:18] INFO root fetch - main [MainThread]: End processing [roofAI]: success
+[2024-05-20 01:18:18] INFO root fetch - processPackages [hot-spot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/hot_spot_analysis-0.1.4.tar.gz]
+[2024-05-20 01:18:18] INFO root fetch - processPackages [hot-spot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/hot_spot_analysis-1.0.2.tar.gz]
+[2024-05-20 01:18:18] INFO root fetch - main [MainThread]: End processing [hot-spot-analysis]: success
+[2024-05-20 01:18:18] INFO root fetch - main [MainThread]: Store serial: [23282128]

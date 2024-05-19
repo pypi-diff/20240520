@@ -139,3 +139,24 @@
 [2024-05-20 00:09:57] INFO root fetch - processPackages [jupyterlab-amphi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_amphi-0.3.3.tar.gz]
 [2024-05-20 00:09:57] INFO root fetch - main [MainThread]: End processing [jupyterlab-amphi]: success
 [2024-05-20 00:09:57] INFO root fetch - main [MainThread]: Store serial: [23281525]
+[2024-05-20 00:12:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281525]
+[2024-05-20 00:12:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 00:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcicutils
+[2024-05-20 00:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mimllearning
+[2024-05-20 00:12:06] INFO root fetch - processPackages [mimllearning]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-05-20 00:12:06] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/84/bd/958d70b5217227bc933005c3bb746e70ea6d2a534843b2e0f6a0e93e2c98/mimllearning-0.4.9.tar.gz
+[2024-05-20 00:12:06] INFO root fetch - processPackages [dcicutils]: New version: [8.9.0.0b0] Old Version: [8.8.4.1b9]
+[2024-05-20 00:12:06] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/ab/80/64152621f2e387ed0dff6f4fbf31f5b2e11f4dfe300d598bbfb27dfd25b5/dcicutils-8.8.4.1b9.tar.gz
+[2024-05-20 00:12:06] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/66/ea/d789263cd559dda77cf4ff6d31e163d98fa57b9d81d50e0ff647d44bef82/mimllearning-0.5.0.tar.gz
+[2024-05-20 00:12:07] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-20 00:12:07] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.4.9.tar.gz tmp/mimllearning-0.5.0.tar.gz --markdown 20240520/m/mimllearning/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-05-20 00:12:07] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/5b/de/ac87d1c9583f507046be7724343035a3e363814633eea93612ca13f3adba/dcicutils-8.9.0.0b0.tar.gz
+[2024-05-20 00:12:07] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-05-20 00:12:07] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.4.1b9.tar.gz tmp/dcicutils-8.9.0.0b0.tar.gz --markdown 20240520/d/dcicutils/8.8.4.1b9-8.9.0.0b0/README.md --exclude *.pyd
+[2024-05-20 00:12:07] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.9.tar.gz]
+[2024-05-20 00:12:07] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.5.0.tar.gz]
+[2024-05-20 00:12:07] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-20 00:12:08] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.4.1b9.tar.gz]
+[2024-05-20 00:12:08] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.0b0.tar.gz]
+[2024-05-20 00:12:08] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-05-20 00:12:08] INFO root fetch - main [MainThread]: Store serial: [23281531]

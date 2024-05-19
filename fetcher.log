@@ -801,3 +801,87 @@
 [2024-05-20 00:55:50] INFO root fetch - processPackages [powercli]: Remove: archive file [/home/abi/fetcher/tmp/powercli-0.3.0.tar.gz]
 [2024-05-20 00:55:50] INFO root fetch - main [MainThread]: End processing [powercli]: success
 [2024-05-20 00:55:50] INFO root fetch - main [MainThread]: Store serial: [23281878]
+[2024-05-20 00:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281878]
+[2024-05-20 00:57:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-20 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: impart
+[2024-05-20 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymodins
+[2024-05-20 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notebooks-and-scripts
+[2024-05-20 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qctrl-qua
+[2024-05-20 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qctrl-mloop
+[2024-05-20 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qctrl-experiment-scheduler
+[2024-05-20 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: notebooks-and-scripts
+[2024-05-20 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: transcribe-me
+[2024-05-20 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-artifactory
+[2024-05-20 00:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: leapseconddata
+[2024-05-20 00:57:58] WARNING root fetch - processPackages [impart]: Skipping, unable to determine old version
+[2024-05-20 00:57:58] INFO root fetch - processPackages [impart]: Start processing: HiggsML
+[2024-05-20 00:57:58] INFO root fetch - main [MainThread]: End processing [impart] error
+[2024-05-20 00:57:58] INFO root fetch - processPackages [transcribe-me]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-20 00:57:58] WARNING root fetch - processPackages [notebooks-and-scripts]: Skipping, unable to determine old version
+[2024-05-20 00:57:58] INFO root fetch - main [MainThread]: End processing [notebooks-and-scripts] error
+[2024-05-20 00:57:58] WARNING root fetch - processPackages [notebooks-and-scripts]: Skipping, unable to determine old version
+[2024-05-20 00:57:58] INFO root fetch - main [MainThread]: End processing [notebooks-and-scripts] error
+[2024-05-20 00:57:58] INFO root fetch - processPackages [HiggsML]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-20 00:57:58] INFO root fetch - processPackages [qctrl-experiment-scheduler]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-20 00:57:58] INFO root fetch - processPackages [pulumi-artifactory]: New version: [6.8.0a1716157110] Old Version: [6.8.0a1715922877]
+[2024-05-20 00:57:58] INFO root fetch - processPackages [qctrl-qua]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-20 00:57:58] INFO root fetch - processPackages [transcribe-me]: Downloading https://files.pythonhosted.org/packages/55/ff/e5dba4faa144b750286ca8f97e066aab175fd8871fa420f41d975799e1ba/transcribe_me-0.2.0.tar.gz
+[2024-05-20 00:57:58] INFO root fetch - processPackages [pymodins]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-20 00:57:58] INFO root fetch - processPackages [qctrl-mloop]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-05-20 00:57:58] INFO root fetch - processPackages [leapseconddata]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-05-20 00:57:58] INFO root fetch - processPackages [HiggsML]: Downloading https://files.pythonhosted.org/packages/85/c8/c226dcd51cf455dd046e12fcb7f03c64b733a8cb73c4bcd519458574eb6a/higgsml-0.0.3.tar.gz
+[2024-05-20 00:57:58] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/9c/a8/dda78542b67a1b108e86dc876bf04531223c3d6624882033d98c0b2e25c6/pulumi_artifactory-6.8.0a1715922877.tar.gz
+[2024-05-20 00:57:58] INFO root fetch - processPackages [qctrl-experiment-scheduler]: Downloading https://files.pythonhosted.org/packages/2a/09/2e99cfe217432e24e0e1d65bf1cd0e2941af087c3e526919f35e5e96b9e9/qctrl_experiment_scheduler-0.4.0.tar.gz
+[2024-05-20 00:57:58] INFO root fetch - processPackages [qctrl-mloop]: Downloading https://files.pythonhosted.org/packages/29/2c/40d96077c3e4a8876801355aab8fa177a37884027feccd47a7f69bd2a1ca/qctrl_mloop-4.0.0.tar.gz
+[2024-05-20 00:57:58] INFO root fetch - processPackages [qctrl-qua]: Downloading https://files.pythonhosted.org/packages/dd/e5/08d4b0056c451cc5704222ac70f78298e2aa798429b9db4900385e57f0cb/qctrl_qua-0.4.1.tar.gz
+[2024-05-20 00:57:59] INFO root fetch - processPackages [transcribe-me]: Downloading https://files.pythonhosted.org/packages/c0/79/0b31e41617a7666bfe503e85e6316a7bfc17516dd7f007f1574a675892da/transcribe_me-0.2.1.tar.gz
+[2024-05-20 00:57:59] INFO root fetch - processPackages [pymodins]: Downloading https://files.pythonhosted.org/packages/e6/65/399ec955e0d1d1636b61d23dccf04ec4bcd3f6444c15869b8a1eb93ed974/pymodins-0.1.6.tar.gz
+[2024-05-20 00:57:59] INFO root fetch - processPackages [leapseconddata]: Downloading https://files.pythonhosted.org/packages/fb/df/d4d1667f593df31883f2d0899f8dfba678825cd0bc7bda2d5eccf47a7459/leapseconddata-2.1.1.tar.gz
+[2024-05-20 00:57:59] INFO root fetch - processPackages [transcribe-me]: executing diffoscope
+[2024-05-20 00:57:59] INFO root fetch - processPackages [transcribe-me]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transcribe_me-0.2.0.tar.gz tmp/transcribe_me-0.2.1.tar.gz --markdown 20240520/t/transcribe-me/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-20 00:57:59] INFO root fetch - processPackages [HiggsML]: Downloading https://files.pythonhosted.org/packages/0a/d8/c03db0876afdd47381de390a55c6e317d1292411e1196b7cb36e8e858861/higgsml-0.0.4.tar.gz
+[2024-05-20 00:57:59] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/5b/7a/e90980b71c78d717f93b4b53fbc599776676d978513318c186fce311c235/pulumi_artifactory-6.8.0a1716157110.tar.gz
+[2024-05-20 00:57:59] INFO root fetch - processPackages [qctrl-experiment-scheduler]: Downloading https://files.pythonhosted.org/packages/25/d5/857988f370ebfa8b1f810f45f3e1a4724c6af33cec963c3580b07a01af5b/qctrl_experiment_scheduler-0.5.0.tar.gz
+[2024-05-20 00:57:59] INFO root fetch - processPackages [qctrl-qua]: Downloading https://files.pythonhosted.org/packages/09/07/2795009c445e2e12c5c6ea4ce54a70f216c5a22184f6ec5fa55fd4e8758d/qctrl_qua-0.5.0.tar.gz
+[2024-05-20 00:57:59] INFO root fetch - processPackages [HiggsML]: executing diffoscope
+[2024-05-20 00:57:59] INFO root fetch - processPackages [HiggsML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/higgsml-0.0.3.tar.gz tmp/higgsml-0.0.4.tar.gz --markdown 20240520/H/HiggsML/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-20 00:57:59] INFO root fetch - processPackages [leapseconddata]: Downloading https://files.pythonhosted.org/packages/0f/3e/b49d961dbbc3e062d0c11389ba24bc89db8a44ed38c093acd9ccf21460f0/leapseconddata-2.2.0.tar.gz
+[2024-05-20 00:57:59] INFO root fetch - processPackages [qctrl-mloop]: Downloading https://files.pythonhosted.org/packages/a1/bf/65221efbe014ef03c6f9b891a9b094825f05d4e3ad38353478da5166e741/qctrl_mloop-4.1.0.tar.gz
+[2024-05-20 00:57:59] INFO root fetch - processPackages [qctrl-qua]: executing diffoscope
+[2024-05-20 00:57:59] INFO root fetch - processPackages [qctrl-qua]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_qua-0.4.1.tar.gz tmp/qctrl_qua-0.5.0.tar.gz --markdown 20240520/q/qctrl-qua/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-20 00:57:59] INFO root fetch - processPackages [pymodins]: Downloading https://files.pythonhosted.org/packages/c6/e8/53e9ef4844dfc9401a28e6f8368c4a171d223b3128872e4e369560cae652/pymodins-0.1.7.tar.gz
+[2024-05-20 00:57:59] INFO root fetch - processPackages [qctrl-experiment-scheduler]: executing diffoscope
+[2024-05-20 00:57:59] INFO root fetch - processPackages [qctrl-experiment-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_experiment_scheduler-0.4.0.tar.gz tmp/qctrl_experiment_scheduler-0.5.0.tar.gz --markdown 20240520/q/qctrl-experiment-scheduler/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-20 00:57:59] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2024-05-20 00:57:59] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-6.8.0a1715922877.tar.gz tmp/pulumi_artifactory-6.8.0a1716157110.tar.gz --markdown 20240520/p/pulumi-artifactory/6.8.0a1715922877-6.8.0a1716157110/README.md --exclude *.pyd
+[2024-05-20 00:57:59] INFO root fetch - processPackages [qctrl-mloop]: executing diffoscope
+[2024-05-20 00:57:59] INFO root fetch - processPackages [qctrl-mloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctrl_mloop-4.0.0.tar.gz tmp/qctrl_mloop-4.1.0.tar.gz --markdown 20240520/q/qctrl-mloop/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-05-20 00:57:59] INFO root fetch - processPackages [leapseconddata]: executing diffoscope
+[2024-05-20 00:57:59] INFO root fetch - processPackages [leapseconddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leapseconddata-2.1.1.tar.gz tmp/leapseconddata-2.2.0.tar.gz --markdown 20240520/l/leapseconddata/2.1.1-2.2.0/README.md --exclude *.pyd
+[2024-05-20 00:57:59] INFO root fetch - processPackages [pymodins]: executing diffoscope
+[2024-05-20 00:57:59] INFO root fetch - processPackages [pymodins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodins-0.1.6.tar.gz tmp/pymodins-0.1.7.tar.gz --markdown 20240520/p/pymodins/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-20 00:57:59] INFO root fetch - processPackages [transcribe-me]: Remove: archive file [/home/abi/fetcher/tmp/transcribe_me-0.2.0.tar.gz]
+[2024-05-20 00:57:59] INFO root fetch - processPackages [transcribe-me]: Remove: archive file [/home/abi/fetcher/tmp/transcribe_me-0.2.1.tar.gz]
+[2024-05-20 00:57:59] INFO root fetch - main [MainThread]: End processing [transcribe-me]: success
+[2024-05-20 00:58:00] INFO root fetch - processPackages [HiggsML]: Remove: archive file [/home/abi/fetcher/tmp/higgsml-0.0.3.tar.gz]
+[2024-05-20 00:58:00] INFO root fetch - processPackages [HiggsML]: Remove: archive file [/home/abi/fetcher/tmp/higgsml-0.0.4.tar.gz]
+[2024-05-20 00:58:00] INFO root fetch - main [MainThread]: End processing [HiggsML]: success
+[2024-05-20 00:58:00] INFO root fetch - processPackages [qctrl-qua]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_qua-0.4.1.tar.gz]
+[2024-05-20 00:58:00] INFO root fetch - processPackages [qctrl-qua]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_qua-0.5.0.tar.gz]
+[2024-05-20 00:58:00] INFO root fetch - main [MainThread]: End processing [qctrl-qua]: success
+[2024-05-20 00:58:00] INFO root fetch - processPackages [qctrl-mloop]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_mloop-4.0.0.tar.gz]
+[2024-05-20 00:58:00] INFO root fetch - processPackages [qctrl-mloop]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_mloop-4.1.0.tar.gz]
+[2024-05-20 00:58:00] INFO root fetch - main [MainThread]: End processing [qctrl-mloop]: success
+[2024-05-20 00:58:00] INFO root fetch - processPackages [pymodins]: Remove: archive file [/home/abi/fetcher/tmp/pymodins-0.1.6.tar.gz]
+[2024-05-20 00:58:00] INFO root fetch - processPackages [pymodins]: Remove: archive file [/home/abi/fetcher/tmp/pymodins-0.1.7.tar.gz]
+[2024-05-20 00:58:00] INFO root fetch - main [MainThread]: End processing [pymodins]: success
+[2024-05-20 00:58:00] INFO root fetch - processPackages [qctrl-experiment-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_experiment_scheduler-0.4.0.tar.gz]
+[2024-05-20 00:58:00] INFO root fetch - processPackages [qctrl-experiment-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_experiment_scheduler-0.5.0.tar.gz]
+[2024-05-20 00:58:00] INFO root fetch - main [MainThread]: End processing [qctrl-experiment-scheduler]: success
+[2024-05-20 00:58:00] INFO root fetch - processPackages [leapseconddata]: Remove: archive file [/home/abi/fetcher/tmp/leapseconddata-2.1.1.tar.gz]
+[2024-05-20 00:58:00] INFO root fetch - processPackages [leapseconddata]: Remove: archive file [/home/abi/fetcher/tmp/leapseconddata-2.2.0.tar.gz]
+[2024-05-20 00:58:00] INFO root fetch - main [MainThread]: End processing [leapseconddata]: success
+[2024-05-20 00:58:02] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1715922877.tar.gz]
+[2024-05-20 00:58:02] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1716157110.tar.gz]
+[2024-05-20 00:58:02] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2024-05-20 00:58:02] INFO root fetch - main [MainThread]: Store serial: [23281911]

@@ -187,3 +187,24 @@
 [2024-05-20 00:14:18] INFO root fetch - processPackages [file-renamer]: Remove: archive file [/home/abi/fetcher/tmp/file_renamer-1.0.5.1.tar.gz]
 [2024-05-20 00:14:18] INFO root fetch - main [MainThread]: End processing [file-renamer]: success
 [2024-05-20 00:14:18] INFO root fetch - main [MainThread]: Store serial: [23281545]
+[2024-05-20 00:16:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281545]
+[2024-05-20 00:16:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 00:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kbitools
+[2024-05-20 00:16:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: colalamo
+[2024-05-20 00:16:26] INFO root fetch - processPackages [kbitools]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 00:16:27] INFO root fetch - processPackages [colalamo]: New version: [0.1.2101] Old Version: [0.1.21]
+[2024-05-20 00:16:27] INFO root fetch - processPackages [kbitools]: Downloading https://files.pythonhosted.org/packages/56/17/b2a72afdf3b03a14e5aea72bdb7f615da9faad2f0c453dafa0895cc2f185/kbitools-0.1.0.tar.gz
+[2024-05-20 00:16:27] INFO root fetch - processPackages [colalamo]: Downloading https://files.pythonhosted.org/packages/c3/2d/8d340506bf8aca38388c2aaf2e2451954605370192a12a225476125075bb/colalamo-0.1.21.tar.gz
+[2024-05-20 00:16:27] INFO root fetch - processPackages [kbitools]: Downloading https://files.pythonhosted.org/packages/b8/64/f09295850e41f147b5badfa255d91c8044d4069193eb32a4f970a84749b8/kbitools-0.1.1.tar.gz
+[2024-05-20 00:16:27] INFO root fetch - processPackages [colalamo]: Downloading https://files.pythonhosted.org/packages/34/1a/dc806cf5866be47db577dc91a945592c6af2d3147b4ba3c91cdcb8eee90a/colalamo-0.1.2101.tar.gz
+[2024-05-20 00:16:27] INFO root fetch - processPackages [kbitools]: executing diffoscope
+[2024-05-20 00:16:27] INFO root fetch - processPackages [kbitools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kbitools-0.1.0.tar.gz tmp/kbitools-0.1.1.tar.gz --markdown 20240520/k/kbitools/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 00:16:28] INFO root fetch - processPackages [colalamo]: executing diffoscope
+[2024-05-20 00:16:28] INFO root fetch - processPackages [colalamo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colalamo-0.1.21.tar.gz tmp/colalamo-0.1.2101.tar.gz --markdown 20240520/c/colalamo/0.1.21-0.1.2101/README.md --exclude *.pyd
+[2024-05-20 00:16:28] INFO root fetch - processPackages [kbitools]: Remove: archive file [/home/abi/fetcher/tmp/kbitools-0.1.0.tar.gz]
+[2024-05-20 00:16:28] INFO root fetch - processPackages [kbitools]: Remove: archive file [/home/abi/fetcher/tmp/kbitools-0.1.1.tar.gz]
+[2024-05-20 00:16:28] INFO root fetch - main [MainThread]: End processing [kbitools]: success
+[2024-05-20 00:16:28] INFO root fetch - processPackages [colalamo]: Remove: archive file [/home/abi/fetcher/tmp/colalamo-0.1.21.tar.gz]
+[2024-05-20 00:16:28] INFO root fetch - processPackages [colalamo]: Remove: archive file [/home/abi/fetcher/tmp/colalamo-0.1.2101.tar.gz]
+[2024-05-20 00:16:28] INFO root fetch - main [MainThread]: End processing [colalamo]: success
+[2024-05-20 00:16:28] INFO root fetch - main [MainThread]: Store serial: [23281548]

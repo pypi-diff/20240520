@@ -972,3 +972,18 @@
 [2024-05-20 01:02:22] INFO root fetch - processPackages [schema-agents]: Remove: archive file [/home/abi/fetcher/tmp/schema-agents-0.1.8.tar.gz]
 [2024-05-20 01:02:22] INFO root fetch - main [MainThread]: End processing [schema-agents]: success
 [2024-05-20 01:02:22] INFO root fetch - main [MainThread]: Store serial: [23281951]
+[2024-05-20 01:04:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281951]
+[2024-05-20 01:04:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 01:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roofAI
+[2024-05-20 01:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yxr-porn-core
+[2024-05-20 01:04:31] WARNING root fetch - processPackages [roofAI]: Skipping, unable to determine old version
+[2024-05-20 01:04:31] INFO root fetch - main [MainThread]: End processing [roofAI] error
+[2024-05-20 01:04:31] INFO root fetch - processPackages [yxr-porn-core]: New version: [0.0.1.9] Old Version: [0.0.1.8]
+[2024-05-20 01:04:31] INFO root fetch - processPackages [yxr-porn-core]: Downloading https://files.pythonhosted.org/packages/de/db/1a28f0a263f01506ae7162b247071be946a632b2f6bd4baf294aaf896394/yxr_porn_core-0.0.1.8.tar.gz
+[2024-05-20 01:04:31] INFO root fetch - processPackages [yxr-porn-core]: Downloading https://files.pythonhosted.org/packages/f6/99/3bcc7d81e5ee12eb8d460f0d4a9b3cde10bb8808d9dd4955cf3ddb42be74/yxr_porn_core-0.0.1.9.tar.gz
+[2024-05-20 01:04:31] INFO root fetch - processPackages [yxr-porn-core]: executing diffoscope
+[2024-05-20 01:04:31] INFO root fetch - processPackages [yxr-porn-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yxr_porn_core-0.0.1.8.tar.gz tmp/yxr_porn_core-0.0.1.9.tar.gz --markdown 20240520/y/yxr-porn-core/0.0.1.8-0.0.1.9/README.md --exclude *.pyd
+[2024-05-20 01:04:32] INFO root fetch - processPackages [yxr-porn-core]: Remove: archive file [/home/abi/fetcher/tmp/yxr_porn_core-0.0.1.8.tar.gz]
+[2024-05-20 01:04:32] INFO root fetch - processPackages [yxr-porn-core]: Remove: archive file [/home/abi/fetcher/tmp/yxr_porn_core-0.0.1.9.tar.gz]
+[2024-05-20 01:04:32] INFO root fetch - main [MainThread]: End processing [yxr-porn-core]: success
+[2024-05-20 01:04:32] INFO root fetch - main [MainThread]: Store serial: [23281958]

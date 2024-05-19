@@ -458,3 +458,57 @@
 [2024-05-20 00:34:00] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.8.2.tar.gz]
 [2024-05-20 00:34:00] INFO root fetch - main [MainThread]: End processing [OZI]: success
 [2024-05-20 00:34:00] INFO root fetch - main [MainThread]: Store serial: [23281671]
+[2024-05-20 00:36:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281671]
+[2024-05-20 00:36:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 00:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chiropractorsz
+[2024-05-20 00:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-streams
+[2024-05-20 00:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: athvavavav
+[2024-05-20 00:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-signalfx
+[2024-05-20 00:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unusualwhales-python-client
+[2024-05-20 00:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: normcap
+[2024-05-20 00:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abcli
+[2024-05-20 00:36:09] INFO root fetch - processPackages [abcli]: New version: [8.186.1] Old Version: [8.185.1]
+[2024-05-20 00:36:09] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/74/ff/169627edd7f32565fe20033963a6660ec7a079a4a9ad5c214fda4a453393/abcli-8.185.1.tar.gz
+[2024-05-20 00:36:09] WARNING root fetch - processPackages [chiropractorsz]: Skipping, unable to determine old version
+[2024-05-20 00:36:09] INFO root fetch - main [MainThread]: End processing [chiropractorsz] error
+[2024-05-20 00:36:09] INFO root fetch - processPackages [unusualwhales-python-client]: New version: [4.2.3] Old Version: [4.2.2]
+[2024-05-20 00:36:09] INFO root fetch - processPackages [normcap]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-05-20 00:36:09] WARNING root fetch - processPackages [athvavavav]: Skipping, unable to determine old version
+[2024-05-20 00:36:09] INFO root fetch - main [MainThread]: End processing [athvavavav] error
+[2024-05-20 00:36:09] INFO root fetch - processPackages [mo-streams]: New version: [1.638.24140] Old Version: [1.625.24125]
+[2024-05-20 00:36:09] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1716157100] Old Version: [7.2.0a1715928253]
+[2024-05-20 00:36:09] INFO root fetch - processPackages [normcap]: Downloading https://files.pythonhosted.org/packages/96/d4/d143840786d989d8dfd205e1b7394ef44636ba7fd27eef4ac11d2418036e/normcap-0.5.7.tar.gz
+[2024-05-20 00:36:09] INFO root fetch - processPackages [mo-streams]: Downloading https://files.pythonhosted.org/packages/d0/30/8530be6614aff7ded521a0035337264b34a4070e1856c9401de7a7f2df3c/mo_streams-1.625.24125.tar.gz
+[2024-05-20 00:36:09] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/58/d7/eaf1243fee6e7a49d9c6fbefb32a932dd3df4d1f0a6bb135077325e9a734/pulumi_signalfx-7.2.0a1715928253.tar.gz
+[2024-05-20 00:36:09] INFO root fetch - processPackages [unusualwhales-python-client]: Downloading https://files.pythonhosted.org/packages/59/2a/abdf4f23d473704dd0bdda2c17674853035726839516cbcdd536d41e0a59/unusualwhales_python_client-4.2.2.tar.gz
+[2024-05-20 00:36:09] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/b5/d1/da7535318e019922f3368823fd1ba7d3706c2401bb686f24db92aa77fe92/abcli-8.186.1.tar.gz
+[2024-05-20 00:36:09] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-05-20 00:36:09] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-8.185.1.tar.gz tmp/abcli-8.186.1.tar.gz --markdown 20240520/a/abcli/8.185.1-8.186.1/README.md --exclude *.pyd
+[2024-05-20 00:36:10] INFO root fetch - processPackages [unusualwhales-python-client]: Downloading https://files.pythonhosted.org/packages/4f/9b/153890b4ab9ed016da0ffe66b5f423fddafe17826549661819053b218995/unusualwhales_python_client-4.2.3.tar.gz
+[2024-05-20 00:36:10] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/78/5f/b9c1516b3268485bff0eda227c2e301501ee75e0d882c36cc6a1cc7f3c05/pulumi_signalfx-7.2.0a1716157100.tar.gz
+[2024-05-20 00:36:10] INFO root fetch - processPackages [mo-streams]: Downloading https://files.pythonhosted.org/packages/17/fa/89021df25344ca080685aab0518256ea3fda1b9f1ee06a9d4bfde92e7579/mo_streams-1.638.24140.tar.gz
+[2024-05-20 00:36:10] INFO root fetch - processPackages [unusualwhales-python-client]: executing diffoscope
+[2024-05-20 00:36:10] INFO root fetch - processPackages [unusualwhales-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unusualwhales_python_client-4.2.2.tar.gz tmp/unusualwhales_python_client-4.2.3.tar.gz --markdown 20240520/u/unusualwhales-python-client/4.2.2-4.2.3/README.md --exclude *.pyd
+[2024-05-20 00:36:10] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-05-20 00:36:10] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1715928253.tar.gz tmp/pulumi_signalfx-7.2.0a1716157100.tar.gz --markdown 20240520/p/pulumi-signalfx/7.2.0a1715928253-7.2.0a1716157100/README.md --exclude *.pyd
+[2024-05-20 00:36:10] INFO root fetch - processPackages [mo-streams]: executing diffoscope
+[2024-05-20 00:36:10] INFO root fetch - processPackages [mo-streams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_streams-1.625.24125.tar.gz tmp/mo_streams-1.638.24140.tar.gz --markdown 20240520/m/mo-streams/1.625.24125-1.638.24140/README.md --exclude *.pyd
+[2024-05-20 00:36:10] INFO root fetch - processPackages [normcap]: Downloading https://files.pythonhosted.org/packages/b8/ec/6a7b6aa2853c0994465e01d475b1fe725105cfd3d59df88d3982709cd17b/normcap-0.5.8.tar.gz
+[2024-05-20 00:36:10] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.185.1.tar.gz]
+[2024-05-20 00:36:10] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.186.1.tar.gz]
+[2024-05-20 00:36:10] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-05-20 00:36:10] INFO root fetch - processPackages [normcap]: executing diffoscope
+[2024-05-20 00:36:10] INFO root fetch - processPackages [normcap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/normcap-0.5.7.tar.gz tmp/normcap-0.5.8.tar.gz --markdown 20240520/n/normcap/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-05-20 00:36:11] INFO root fetch - processPackages [mo-streams]: Remove: archive file [/home/abi/fetcher/tmp/mo_streams-1.625.24125.tar.gz]
+[2024-05-20 00:36:11] INFO root fetch - processPackages [mo-streams]: Remove: archive file [/home/abi/fetcher/tmp/mo_streams-1.638.24140.tar.gz]
+[2024-05-20 00:36:11] INFO root fetch - main [MainThread]: End processing [mo-streams]: success
+[2024-05-20 00:36:11] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1715928253.tar.gz]
+[2024-05-20 00:36:11] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1716157100.tar.gz]
+[2024-05-20 00:36:11] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-05-20 00:36:11] INFO root fetch - processPackages [unusualwhales-python-client]: Remove: archive file [/home/abi/fetcher/tmp/unusualwhales_python_client-4.2.2.tar.gz]
+[2024-05-20 00:36:11] INFO root fetch - processPackages [unusualwhales-python-client]: Remove: archive file [/home/abi/fetcher/tmp/unusualwhales_python_client-4.2.3.tar.gz]
+[2024-05-20 00:36:11] INFO root fetch - main [MainThread]: End processing [unusualwhales-python-client]: success
+[2024-05-20 00:36:12] INFO root fetch - processPackages [normcap]: Remove: archive file [/home/abi/fetcher/tmp/normcap-0.5.7.tar.gz]
+[2024-05-20 00:36:12] INFO root fetch - processPackages [normcap]: Remove: archive file [/home/abi/fetcher/tmp/normcap-0.5.8.tar.gz]
+[2024-05-20 00:36:12] INFO root fetch - main [MainThread]: End processing [normcap]: success
+[2024-05-20 00:36:12] INFO root fetch - main [MainThread]: Store serial: [23281696]

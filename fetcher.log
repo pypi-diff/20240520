@@ -322,3 +322,45 @@
 [2024-05-20 00:27:24] INFO root fetch - processPackages [astroid]: Remove: archive file [/home/abi/fetcher/tmp/astroid-3.2.1.tar.gz]
 [2024-05-20 00:27:24] INFO root fetch - main [MainThread]: End processing [astroid]: success
 [2024-05-20 00:27:24] INFO root fetch - main [MainThread]: Store serial: [23281623]
+[2024-05-20 00:29:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281623]
+[2024-05-20 00:29:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 00:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-files
+[2024-05-20 00:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: authwa
+[2024-05-20 00:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ethyca-fides
+[2024-05-20 00:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandorasat
+[2024-05-20 00:29:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stylopidz
+[2024-05-20 00:29:33] INFO root fetch - processPackages [mo-files]: New version: [6.637.24140] Old Version: [6.636.24140]
+[2024-05-20 00:29:33] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/60/af/b1adfd2550e638a45c1db56b3e6ce68bf1c238679734ac4027f61b5a7c81/mo_files-6.636.24140.tar.gz
+[2024-05-20 00:29:33] INFO root fetch - processPackages [authwa]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-20 00:29:33] INFO root fetch - processPackages [pandorasat]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-20 00:29:33] WARNING root fetch - processPackages [stylopidz]: Skipping, unable to determine old version
+[2024-05-20 00:29:33] INFO root fetch - main [MainThread]: End processing [stylopidz] error
+[2024-05-20 00:29:33] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-20 00:29:33] INFO root fetch - processPackages [pandorasat]: Downloading https://files.pythonhosted.org/packages/e9/03/33ccbe5955637c887961b19fa47165f7fc563fc714b08cfbe8433169c0a4/pandorasat-0.5.8.tar.gz
+[2024-05-20 00:29:33] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/ef/3f/942a69666f63b9bf850889b7918f5f6711b2c1e109b7a94c44acf9f87f34/authwa-0.3.8.tar.gz
+[2024-05-20 00:29:33] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-05-20 00:29:33] INFO root fetch - processPackages [mo-files]: Downloading https://files.pythonhosted.org/packages/24/ea/66b71a923b8c391ad697df01f18a532f9222a1b78adcb29a848ed14aeb41/mo_files-6.637.24140.tar.gz
+[2024-05-20 00:29:33] INFO root fetch - processPackages [mo-files]: executing diffoscope
+[2024-05-20 00:29:33] INFO root fetch - processPackages [mo-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_files-6.636.24140.tar.gz tmp/mo_files-6.637.24140.tar.gz --markdown 20240520/m/mo-files/6.636.24140-6.637.24140/README.md --exclude *.pyd
+[2024-05-20 00:29:33] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/eb/8e/24ba062d1d809b08a8907c7b16cb3bb2a774774312578dfffcf7102874cc/authwa-0.3.9.tar.gz
+[2024-05-20 00:29:33] INFO root fetch - processPackages [pandorasat]: Downloading https://files.pythonhosted.org/packages/6e/7f/fad7f2abafc034c096bae639835a53d880ffa596d25ddb1e43dbea00fcf9/pandorasat-0.5.9.tar.gz
+[2024-05-20 00:29:34] INFO root fetch - processPackages [authwa]: executing diffoscope
+[2024-05-20 00:29:34] INFO root fetch - processPackages [authwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authwa-0.3.8.tar.gz tmp/authwa-0.3.9.tar.gz --markdown 20240520/a/authwa/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-20 00:29:34] INFO root fetch - processPackages [pandorasat]: executing diffoscope
+[2024-05-20 00:29:34] INFO root fetch - processPackages [pandorasat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandorasat-0.5.8.tar.gz tmp/pandorasat-0.5.9.tar.gz --markdown 20240520/p/pandorasat/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-20 00:29:34] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.636.24140.tar.gz]
+[2024-05-20 00:29:34] INFO root fetch - processPackages [mo-files]: Remove: archive file [/home/abi/fetcher/tmp/mo_files-6.637.24140.tar.gz]
+[2024-05-20 00:29:34] INFO root fetch - main [MainThread]: End processing [mo-files]: success
+[2024-05-20 00:29:34] INFO root fetch - processPackages [pandorasat]: Remove: archive file [/home/abi/fetcher/tmp/pandorasat-0.5.8.tar.gz]
+[2024-05-20 00:29:34] INFO root fetch - processPackages [pandorasat]: Remove: archive file [/home/abi/fetcher/tmp/pandorasat-0.5.9.tar.gz]
+[2024-05-20 00:29:34] INFO root fetch - main [MainThread]: End processing [pandorasat]: success
+[2024-05-20 00:29:34] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.8.tar.gz]
+[2024-05-20 00:29:34] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.9.tar.gz]
+[2024-05-20 00:29:34] INFO root fetch - main [MainThread]: End processing [authwa]: success
+[2024-05-20 00:29:35] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-05-20 00:29:37] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-05-20 00:29:37] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240520/e/ethyca-fides/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-20 00:29:40] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-05-20 00:29:40] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-05-20 00:29:40] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-05-20 00:29:40] INFO root fetch - main [MainThread]: Store serial: [23281639]

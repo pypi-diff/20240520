@@ -786,3 +786,18 @@
 [2024-05-20 00:53:40] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.1b6.tar.gz]
 [2024-05-20 00:53:40] INFO root fetch - main [MainThread]: End processing [notolog]: success
 [2024-05-20 00:53:40] INFO root fetch - main [MainThread]: Store serial: [23281869]
+[2024-05-20 00:55:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281869]
+[2024-05-20 00:55:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 00:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: powercli
+[2024-05-20 00:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unsepulchredz
+[2024-05-20 00:55:48] INFO root fetch - processPackages [powercli]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-20 00:55:48] WARNING root fetch - processPackages [unsepulchredz]: Skipping, unable to determine old version
+[2024-05-20 00:55:48] INFO root fetch - main [MainThread]: End processing [unsepulchredz] error
+[2024-05-20 00:55:49] INFO root fetch - processPackages [powercli]: Downloading https://files.pythonhosted.org/packages/d2/1d/3cb5632eeb5542e0a7ef900a4f4ec95789939d3ad6f43c5d8854b5966648/powercli-0.2.1.tar.gz
+[2024-05-20 00:55:49] INFO root fetch - processPackages [powercli]: Downloading https://files.pythonhosted.org/packages/9e/c1/4ff92977ac5d212bd2c7e7714ec4137f7b42967eb1af65d02ca36c0adba8/powercli-0.3.0.tar.gz
+[2024-05-20 00:55:49] INFO root fetch - processPackages [powercli]: executing diffoscope
+[2024-05-20 00:55:49] INFO root fetch - processPackages [powercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powercli-0.2.1.tar.gz tmp/powercli-0.3.0.tar.gz --markdown 20240520/p/powercli/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-20 00:55:50] INFO root fetch - processPackages [powercli]: Remove: archive file [/home/abi/fetcher/tmp/powercli-0.2.1.tar.gz]
+[2024-05-20 00:55:50] INFO root fetch - processPackages [powercli]: Remove: archive file [/home/abi/fetcher/tmp/powercli-0.3.0.tar.gz]
+[2024-05-20 00:55:50] INFO root fetch - main [MainThread]: End processing [powercli]: success
+[2024-05-20 00:55:50] INFO root fetch - main [MainThread]: Store serial: [23281878]

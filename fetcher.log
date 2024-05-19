@@ -885,3 +885,66 @@
 [2024-05-20 00:58:02] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1716157110.tar.gz]
 [2024-05-20 00:58:02] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
 [2024-05-20 00:58:02] INFO root fetch - main [MainThread]: Store serial: [23281911]
+[2024-05-20 01:00:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281911]
+[2024-05-20 01:00:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 01:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: async-bakalari-api
+[2024-05-20 01:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notebooks-and-scripts
+[2024-05-20 01:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tautulli
+[2024-05-20 01:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blue-plugin
+[2024-05-20 01:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit_pandera
+[2024-05-20 01:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dc2host
+[2024-05-20 01:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: enneahedraz
+[2024-05-20 01:00:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-20 01:00:10] INFO root fetch - processPackages [blue-plugin]: New version: [2.167.1] Old Version: [2.166.1]
+[2024-05-20 01:00:10] INFO root fetch - processPackages [notebooks-and-scripts]: New version: [4.446.1] Old Version: [4.445.1]
+[2024-05-20 01:00:10] INFO root fetch - processPackages [streamlit_pandera]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 01:00:10] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.21a1716157484] Old Version: [0.0.21a1716143882]
+[2024-05-20 01:00:10] WARNING root fetch - processPackages [dc2host]: Skipping, unable to determine old version
+[2024-05-20 01:00:10] INFO root fetch - main [MainThread]: End processing [dc2host] error
+[2024-05-20 01:00:10] INFO root fetch - processPackages [async-bakalari-api]: New version: [0.3.1] Old Version: [0.3]
+[2024-05-20 01:00:10] WARNING root fetch - processPackages [enneahedraz]: Skipping, unable to determine old version
+[2024-05-20 01:00:10] INFO root fetch - main [MainThread]: End processing [enneahedraz] error
+[2024-05-20 01:00:10] INFO root fetch - processPackages [tautulli]: New version: [4.2.2.2140b0] Old Version: [4.2.1.2140b0]
+[2024-05-20 01:00:10] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/39/56/fea77346601bf58768d29258e642dde035765f04a3cb90334fc8b42f490b/pulumi_kubernetes_the_hard_way-0.0.21a1716143882.tar.gz
+[2024-05-20 01:00:11] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/4b/b1/bf79e7eb019b6ba4e7615fee5c59b134724fda88f6327848c81407e12fc8/blue_plugin-2.166.1.tar.gz
+[2024-05-20 01:00:11] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/8e/68/f9a96a136ebee8c0936619082bbd46667b8cb38f25089eff27fa13d81a14/notebooks_and_scripts-4.445.1.tar.gz
+[2024-05-20 01:00:11] INFO root fetch - processPackages [streamlit_pandera]: Downloading https://files.pythonhosted.org/packages/1f/55/c9ca2573401d4bf0a084176f835ac553c177842909a93e268dccbd8aae78/streamlit_pandera-0.1.0.tar.gz
+[2024-05-20 01:00:11] INFO root fetch - processPackages [async-bakalari-api]: Downloading https://files.pythonhosted.org/packages/4a/38/61edaa0a44fc585fd113bae410ecaed796ee4ecfeaf4e079b82d9bcabd12/async_bakalari_api-0.3.tar.gz
+[2024-05-20 01:00:11] INFO root fetch - processPackages [tautulli]: Downloading https://files.pythonhosted.org/packages/ab/3e/3a2595a0476db29c39d44457b38dcf5d6b043d3f30ec66d4208a70176bf8/tautulli-4.2.1.2140b0.tar.gz
+[2024-05-20 01:00:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/a7/20/0be435f2f4a1491a2c3eba5cbd5f129e775316f1f221233896f4c7fbbb26/pulumi_kubernetes_the_hard_way-0.0.21a1716157484.tar.gz
+[2024-05-20 01:00:11] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/01/25/92eaae4877e2932eccc6d87259de886a90f2b6fd9e8736cd029d0b157ca1/notebooks_and_scripts-4.446.1.tar.gz
+[2024-05-20 01:00:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-20 01:00:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.21a1716143882.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.21a1716157484.tar.gz --markdown 20240520/p/pulumi-kubernetes-the-hard-way/0.0.21a1716143882-0.0.21a1716157484/README.md --exclude *.pyd
+[2024-05-20 01:00:11] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/9b/64/686956af03eaa49dc927479cc1ac4451a2ed6a6fe1c9f0a175799a4af59d/blue_plugin-2.167.1.tar.gz
+[2024-05-20 01:00:11] INFO root fetch - processPackages [streamlit_pandera]: Downloading https://files.pythonhosted.org/packages/d1/60/91f0621e9162f7fa9ec5103d97c5fbce01e3c2b8ff024c3b23fd6563aa15/streamlit_pandera-0.1.1.tar.gz
+[2024-05-20 01:00:11] INFO root fetch - processPackages [async-bakalari-api]: Downloading https://files.pythonhosted.org/packages/9a/35/512b94c4344cdec5ee2d02cd4a817b4bb0878f5a061effab173e4aacb969/async_bakalari_api-0.3.1.tar.gz
+[2024-05-20 01:00:11] INFO root fetch - processPackages [notebooks-and-scripts]: executing diffoscope
+[2024-05-20 01:00:11] INFO root fetch - processPackages [notebooks-and-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebooks_and_scripts-4.445.1.tar.gz tmp/notebooks_and_scripts-4.446.1.tar.gz --markdown 20240520/n/notebooks-and-scripts/4.445.1-4.446.1/README.md --exclude *.pyd
+[2024-05-20 01:00:11] INFO root fetch - processPackages [tautulli]: Downloading https://files.pythonhosted.org/packages/21/a1/1996e6835aab86c21a1d23761b73d0e343e48574826e426ca09625f4abd3/tautulli-4.2.2.2140b0.tar.gz
+[2024-05-20 01:00:11] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-20 01:00:11] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-2.166.1.tar.gz tmp/blue_plugin-2.167.1.tar.gz --markdown 20240520/b/blue-plugin/2.166.1-2.167.1/README.md --exclude *.pyd
+[2024-05-20 01:00:11] INFO root fetch - processPackages [streamlit_pandera]: executing diffoscope
+[2024-05-20 01:00:11] INFO root fetch - processPackages [streamlit_pandera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_pandera-0.1.0.tar.gz tmp/streamlit_pandera-0.1.1.tar.gz --markdown 20240520/s/streamlit_pandera/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 01:00:11] INFO root fetch - processPackages [async-bakalari-api]: executing diffoscope
+[2024-05-20 01:00:11] INFO root fetch - processPackages [async-bakalari-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_bakalari_api-0.3.tar.gz tmp/async_bakalari_api-0.3.1.tar.gz --markdown 20240520/a/async-bakalari-api/0.3-0.3.1/README.md --exclude *.pyd
+[2024-05-20 01:00:11] INFO root fetch - processPackages [tautulli]: executing diffoscope
+[2024-05-20 01:00:11] INFO root fetch - processPackages [tautulli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tautulli-4.2.1.2140b0.tar.gz tmp/tautulli-4.2.2.2140b0.tar.gz --markdown 20240520/t/tautulli/4.2.1.2140b0-4.2.2.2140b0/README.md --exclude *.pyd
+[2024-05-20 01:00:12] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.445.1.tar.gz]
+[2024-05-20 01:00:12] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.446.1.tar.gz]
+[2024-05-20 01:00:12] INFO root fetch - main [MainThread]: End processing [notebooks-and-scripts]: success
+[2024-05-20 01:00:12] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-2.166.1.tar.gz]
+[2024-05-20 01:00:12] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-2.167.1.tar.gz]
+[2024-05-20 01:00:12] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-20 01:00:12] INFO root fetch - processPackages [streamlit_pandera]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_pandera-0.1.0.tar.gz]
+[2024-05-20 01:00:12] INFO root fetch - processPackages [streamlit_pandera]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_pandera-0.1.1.tar.gz]
+[2024-05-20 01:00:12] INFO root fetch - main [MainThread]: End processing [streamlit_pandera]: success
+[2024-05-20 01:00:12] INFO root fetch - processPackages [async-bakalari-api]: Remove: archive file [/home/abi/fetcher/tmp/async_bakalari_api-0.3.tar.gz]
+[2024-05-20 01:00:12] INFO root fetch - processPackages [async-bakalari-api]: Remove: archive file [/home/abi/fetcher/tmp/async_bakalari_api-0.3.1.tar.gz]
+[2024-05-20 01:00:12] INFO root fetch - main [MainThread]: End processing [async-bakalari-api]: success
+[2024-05-20 01:00:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1716143882.tar.gz]
+[2024-05-20 01:00:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1716157484.tar.gz]
+[2024-05-20 01:00:12] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-20 01:00:12] INFO root fetch - processPackages [tautulli]: Remove: archive file [/home/abi/fetcher/tmp/tautulli-4.2.1.2140b0.tar.gz]
+[2024-05-20 01:00:12] INFO root fetch - processPackages [tautulli]: Remove: archive file [/home/abi/fetcher/tmp/tautulli-4.2.2.2140b0.tar.gz]
+[2024-05-20 01:00:12] INFO root fetch - main [MainThread]: End processing [tautulli]: success
+[2024-05-20 01:00:12] INFO root fetch - main [MainThread]: Store serial: [23281938]

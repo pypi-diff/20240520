@@ -948,3 +948,27 @@
 [2024-05-20 01:00:12] INFO root fetch - processPackages [tautulli]: Remove: archive file [/home/abi/fetcher/tmp/tautulli-4.2.2.2140b0.tar.gz]
 [2024-05-20 01:00:12] INFO root fetch - main [MainThread]: End processing [tautulli]: success
 [2024-05-20 01:00:12] INFO root fetch - main [MainThread]: Store serial: [23281938]
+[2024-05-20 01:02:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281938]
+[2024-05-20 01:02:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 01:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: schema-agents
+[2024-05-20 01:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notebooks-and-scripts
+[2024-05-20 01:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roofAI
+[2024-05-20 01:02:21] INFO root fetch - processPackages [notebooks-and-scripts]: New version: [4.447.1] Old Version: [4.446.1]
+[2024-05-20 01:02:21] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/01/25/92eaae4877e2932eccc6d87259de886a90f2b6fd9e8736cd029d0b157ca1/notebooks_and_scripts-4.446.1.tar.gz
+[2024-05-20 01:02:21] WARNING root fetch - processPackages [roofAI]: Skipping, unable to determine old version
+[2024-05-20 01:02:21] INFO root fetch - main [MainThread]: End processing [roofAI] error
+[2024-05-20 01:02:21] INFO root fetch - processPackages [schema-agents]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-20 01:02:21] INFO root fetch - processPackages [schema-agents]: Downloading https://files.pythonhosted.org/packages/39/f5/f12f7d0b2a7beec8382af5ee1c4f0a856f79a9a19bc85737fe39ee9d74f4/schema-agents-0.1.7.tar.gz
+[2024-05-20 01:02:21] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/9b/9c/119b749a05b5fcd16e5379f98c2728682c851e1484c8326b0bb3f0c71020/notebooks_and_scripts-4.447.1.tar.gz
+[2024-05-20 01:02:21] INFO root fetch - processPackages [notebooks-and-scripts]: executing diffoscope
+[2024-05-20 01:02:21] INFO root fetch - processPackages [notebooks-and-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebooks_and_scripts-4.446.1.tar.gz tmp/notebooks_and_scripts-4.447.1.tar.gz --markdown 20240520/n/notebooks-and-scripts/4.446.1-4.447.1/README.md --exclude *.pyd
+[2024-05-20 01:02:21] INFO root fetch - processPackages [schema-agents]: Downloading https://files.pythonhosted.org/packages/84/04/a30d7eb5ed4cc5024144190776629d7f818cb11a311d1c5e740e801bb722/schema-agents-0.1.8.tar.gz
+[2024-05-20 01:02:21] INFO root fetch - processPackages [schema-agents]: executing diffoscope
+[2024-05-20 01:02:21] INFO root fetch - processPackages [schema-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schema-agents-0.1.7.tar.gz tmp/schema-agents-0.1.8.tar.gz --markdown 20240520/s/schema-agents/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-20 01:02:22] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.446.1.tar.gz]
+[2024-05-20 01:02:22] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.447.1.tar.gz]
+[2024-05-20 01:02:22] INFO root fetch - main [MainThread]: End processing [notebooks-and-scripts]: success
+[2024-05-20 01:02:22] INFO root fetch - processPackages [schema-agents]: Remove: archive file [/home/abi/fetcher/tmp/schema-agents-0.1.7.tar.gz]
+[2024-05-20 01:02:22] INFO root fetch - processPackages [schema-agents]: Remove: archive file [/home/abi/fetcher/tmp/schema-agents-0.1.8.tar.gz]
+[2024-05-20 01:02:22] INFO root fetch - main [MainThread]: End processing [schema-agents]: success
+[2024-05-20 01:02:22] INFO root fetch - main [MainThread]: Store serial: [23281951]

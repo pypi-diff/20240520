@@ -545,3 +545,27 @@
 [2024-05-20 00:38:22] INFO root fetch - processPackages [mo-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_parsing-8.639.24140.tar.gz]
 [2024-05-20 00:38:22] INFO root fetch - main [MainThread]: End processing [mo-parsing]: success
 [2024-05-20 00:38:22] INFO root fetch - main [MainThread]: Store serial: [23281710]
+[2024-05-20 00:40:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281710]
+[2024-05-20 00:40:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 00:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-artifactory
+[2024-05-20 00:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: s5learn
+[2024-05-20 00:40:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: majoristz
+[2024-05-20 00:40:31] INFO root fetch - processPackages [s5learn]: New version: [0.6] Old Version: [0.5]
+[2024-05-20 00:40:31] INFO root fetch - processPackages [s5learn]: Downloading https://files.pythonhosted.org/packages/1b/c9/84ea5011f2c584b6ecca3da82a7c4f91007c89201c20f576161738a32d06/s5learn-0.5.tar.gz
+[2024-05-20 00:40:31] WARNING root fetch - processPackages [majoristz]: Skipping, unable to determine old version
+[2024-05-20 00:40:31] INFO root fetch - main [MainThread]: End processing [majoristz] error
+[2024-05-20 00:40:31] INFO root fetch - processPackages [pulumi-artifactory]: New version: [6.8.0a1716157110] Old Version: [6.8.0a1715922877]
+[2024-05-20 00:40:31] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/9c/a8/dda78542b67a1b108e86dc876bf04531223c3d6624882033d98c0b2e25c6/pulumi_artifactory-6.8.0a1715922877.tar.gz
+[2024-05-20 00:40:31] INFO root fetch - processPackages [s5learn]: Downloading https://files.pythonhosted.org/packages/49/6c/5f4a40fa04386592c0e70db6780785200b4526ff8bb9dce5bc2f73bd4c0c/s5learn-0.6.tar.gz
+[2024-05-20 00:40:31] INFO root fetch - processPackages [s5learn]: executing diffoscope
+[2024-05-20 00:40:31] INFO root fetch - processPackages [s5learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s5learn-0.5.tar.gz tmp/s5learn-0.6.tar.gz --markdown 20240520/s/s5learn/0.5-0.6/README.md --exclude *.pyd
+[2024-05-20 00:40:32] INFO root fetch - processPackages [pulumi-artifactory]: Downloading https://files.pythonhosted.org/packages/5b/7a/e90980b71c78d717f93b4b53fbc599776676d978513318c186fce311c235/pulumi_artifactory-6.8.0a1716157110.tar.gz
+[2024-05-20 00:40:32] INFO root fetch - processPackages [pulumi-artifactory]: executing diffoscope
+[2024-05-20 00:40:32] INFO root fetch - processPackages [pulumi-artifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_artifactory-6.8.0a1715922877.tar.gz tmp/pulumi_artifactory-6.8.0a1716157110.tar.gz --markdown 20240520/p/pulumi-artifactory/6.8.0a1715922877-6.8.0a1716157110/README.md --exclude *.pyd
+[2024-05-20 00:40:32] INFO root fetch - processPackages [s5learn]: Remove: archive file [/home/abi/fetcher/tmp/s5learn-0.5.tar.gz]
+[2024-05-20 00:40:32] INFO root fetch - processPackages [s5learn]: Remove: archive file [/home/abi/fetcher/tmp/s5learn-0.6.tar.gz]
+[2024-05-20 00:40:32] INFO root fetch - main [MainThread]: End processing [s5learn]: success
+[2024-05-20 00:40:34] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1715922877.tar.gz]
+[2024-05-20 00:40:34] INFO root fetch - processPackages [pulumi-artifactory]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_artifactory-6.8.0a1716157110.tar.gz]
+[2024-05-20 00:40:34] INFO root fetch - main [MainThread]: End processing [pulumi-artifactory]: success
+[2024-05-20 00:40:34] INFO root fetch - main [MainThread]: Store serial: [23281720]

@@ -1715,3 +1715,33 @@
 [2024-05-20 01:31:37] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-1.0.6-py3-none-any.whl.zip]
 [2024-05-20 01:31:37] INFO root fetch - main [MainThread]: End processing [appmesh]: success
 [2024-05-20 01:31:37] INFO root fetch - main [MainThread]: Store serial: [23282320]
+[2024-05-20 01:33:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282320]
+[2024-05-20 01:33:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 01:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iudex
+[2024-05-20 01:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baseapp-pages
+[2024-05-20 01:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inquirer3
+[2024-05-20 01:33:46] INFO root fetch - processPackages [inquirer3]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-05-20 01:33:46] INFO root fetch - processPackages [baseapp-pages]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-20 01:33:46] INFO root fetch - processPackages [iudex]: New version: [0.6.0] Old Version: [0.5.5]
+[2024-05-20 01:33:46] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/a0/80/d34e6b9a46b98602ff1928f1369bc86f1e846f39cc6b09c412f01445d484/iudex-0.5.5.tar.gz
+[2024-05-20 01:33:46] INFO root fetch - processPackages [baseapp-pages]: Downloading https://files.pythonhosted.org/packages/eb/90/031ecfd7451289a38c0fd106ecc1b89655b7343fe1b3c2239077d7b56118/baseapp_pages-0.2.1.tar.gz
+[2024-05-20 01:33:46] INFO root fetch - processPackages [inquirer3]: Downloading https://files.pythonhosted.org/packages/2f/f1/6e5d6c9f1c0d91538dfe854575e5c85d3ff27f18b221d3b44904ea35723b/inquirer3-0.5.1.tar.gz
+[2024-05-20 01:33:46] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/97/4c/1aa1a30178067924853e01a85fcdad6dff01a1f713a0600ab090c95aea61/iudex-0.6.0.tar.gz
+[2024-05-20 01:33:46] INFO root fetch - processPackages [inquirer3]: Downloading https://files.pythonhosted.org/packages/71/81/73095f8c865a08595e7c021865c770164083dd9cf3e742856d47b30a3bc3/inquirer3-0.6.0.tar.gz
+[2024-05-20 01:33:46] INFO root fetch - processPackages [baseapp-pages]: Downloading https://files.pythonhosted.org/packages/62/74/feb282cc04d151a4a02c0e84851cb90079d3765664846458ed33a11e5928/baseapp_pages-0.2.2.tar.gz
+[2024-05-20 01:33:47] INFO root fetch - processPackages [iudex]: executing diffoscope
+[2024-05-20 01:33:47] INFO root fetch - processPackages [iudex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iudex-0.5.5.tar.gz tmp/iudex-0.6.0.tar.gz --markdown 20240520/i/iudex/0.5.5-0.6.0/README.md --exclude *.pyd
+[2024-05-20 01:33:47] INFO root fetch - processPackages [inquirer3]: executing diffoscope
+[2024-05-20 01:33:47] INFO root fetch - processPackages [inquirer3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inquirer3-0.5.1.tar.gz tmp/inquirer3-0.6.0.tar.gz --markdown 20240520/i/inquirer3/0.5.1-0.6.0/README.md --exclude *.pyd
+[2024-05-20 01:33:47] INFO root fetch - processPackages [baseapp-pages]: executing diffoscope
+[2024-05-20 01:33:47] INFO root fetch - processPackages [baseapp-pages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseapp_pages-0.2.1.tar.gz tmp/baseapp_pages-0.2.2.tar.gz --markdown 20240520/b/baseapp-pages/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-20 01:33:47] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.5.5.tar.gz]
+[2024-05-20 01:33:47] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.6.0.tar.gz]
+[2024-05-20 01:33:47] INFO root fetch - main [MainThread]: End processing [iudex]: success
+[2024-05-20 01:33:47] INFO root fetch - processPackages [inquirer3]: Remove: archive file [/home/abi/fetcher/tmp/inquirer3-0.5.1.tar.gz]
+[2024-05-20 01:33:47] INFO root fetch - processPackages [inquirer3]: Remove: archive file [/home/abi/fetcher/tmp/inquirer3-0.6.0.tar.gz]
+[2024-05-20 01:33:47] INFO root fetch - main [MainThread]: End processing [inquirer3]: success
+[2024-05-20 01:33:47] INFO root fetch - processPackages [baseapp-pages]: Remove: archive file [/home/abi/fetcher/tmp/baseapp_pages-0.2.1.tar.gz]
+[2024-05-20 01:33:47] INFO root fetch - processPackages [baseapp-pages]: Remove: archive file [/home/abi/fetcher/tmp/baseapp_pages-0.2.2.tar.gz]
+[2024-05-20 01:33:47] INFO root fetch - main [MainThread]: End processing [baseapp-pages]: success
+[2024-05-20 01:33:47] INFO root fetch - main [MainThread]: Store serial: [23282328]

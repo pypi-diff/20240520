@@ -1680,3 +1680,23 @@
 [2024-05-20 01:27:17] INFO root fetch - processPackages [baidu-apollo-proto]: Remove: archive file [/home/abi/fetcher/tmp/baidu_apollo_proto-0.1.1.tar.gz]
 [2024-05-20 01:27:17] INFO root fetch - main [MainThread]: End processing [baidu-apollo-proto]: success
 [2024-05-20 01:27:17] INFO root fetch - main [MainThread]: Store serial: [23282304]
+[2024-05-20 01:29:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282304]
+[2024-05-20 01:29:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 01:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbbdl
+[2024-05-20 01:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: impart
+[2024-05-20 01:29:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emdbva
+[2024-05-20 01:29:26] WARNING root fetch - processPackages [impart]: Skipping, unable to determine old version
+[2024-05-20 01:29:26] INFO root fetch - main [MainThread]: End processing [impart] error
+[2024-05-20 01:29:26] INFO root fetch - processPackages [emdbva]: New version: [0.1.2.dev1] Old Version: [0.0.1.dev8]
+[2024-05-20 01:29:26] INFO root fetch - processPackages [bbbdl]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-20 01:29:26] INFO root fetch - processPackages [bbbdl]: Downloading https://files.pythonhosted.org/packages/f9/19/08960fc9131436bc54cd40749c27b4cf639a8fe8e81b1b870c78ebf23a8f/bbbdl-1.3.0.tar.gz
+[2024-05-20 01:29:26] INFO root fetch - processPackages [emdbva]: Downloading https://files.pythonhosted.org/packages/0b/ed/819c08dea6ffadd882526d30413daac295d755fe2e50a8f10693c7467495/emdbva-0.0.1.dev8.tar.gz
+[2024-05-20 01:29:26] INFO root fetch - processPackages [bbbdl]: Downloading https://files.pythonhosted.org/packages/90/d1/3ba2b134b2e5646d8c9d60715fef257150ba395d27841e5bc48b7fecbde7/bbbdl-1.3.1.tar.gz
+[2024-05-20 01:29:27] INFO root fetch - processPackages [bbbdl]: executing diffoscope
+[2024-05-20 01:29:27] INFO root fetch - processPackages [bbbdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbbdl-1.3.0.tar.gz tmp/bbbdl-1.3.1.tar.gz --markdown 20240520/b/bbbdl/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-20 01:29:27] WARNING root fetch - processPackages [emdbva]: Skipping package: exceeds size limit 25862942>=10485760
+[2024-05-20 01:29:27] INFO root fetch - main [MainThread]: End processing [emdbva] error
+[2024-05-20 01:29:27] INFO root fetch - processPackages [bbbdl]: Remove: archive file [/home/abi/fetcher/tmp/bbbdl-1.3.0.tar.gz]
+[2024-05-20 01:29:27] INFO root fetch - processPackages [bbbdl]: Remove: archive file [/home/abi/fetcher/tmp/bbbdl-1.3.1.tar.gz]
+[2024-05-20 01:29:27] INFO root fetch - main [MainThread]: End processing [bbbdl]: success
+[2024-05-20 01:29:27] INFO root fetch - main [MainThread]: Store serial: [23282314]

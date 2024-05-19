@@ -227,3 +227,18 @@
 [2024-05-20 00:18:38] INFO root fetch - main [MainThread]: End processing [colalamo]: success
 [2024-05-20 00:18:38] INFO root fetch - main [MainThread]: End processing [colalamo]: success
 [2024-05-20 00:18:38] INFO root fetch - main [MainThread]: Store serial: [23281555]
+[2024-05-20 00:20:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281555]
+[2024-05-20 00:20:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 00:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ladlersz
+[2024-05-20 00:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmuxradio
+[2024-05-20 00:20:46] INFO root fetch - processPackages [tmuxradio]: New version: [0.2.33] Old Version: [0.2.31]
+[2024-05-20 00:20:46] WARNING root fetch - processPackages [ladlersz]: Skipping, unable to determine old version
+[2024-05-20 00:20:46] INFO root fetch - main [MainThread]: End processing [ladlersz] error
+[2024-05-20 00:20:46] INFO root fetch - processPackages [tmuxradio]: Downloading https://files.pythonhosted.org/packages/48/88/ac8c5956d6cc4c3e5abff4401d9f0e6bf67135242edc4dbcf324aeac4ed5/tmuxradio-0.2.31.tar.gz
+[2024-05-20 00:20:47] INFO root fetch - processPackages [tmuxradio]: Downloading https://files.pythonhosted.org/packages/7b/46/3ec70037c19f9cc8f025c1d2f571f3ec0e9fc8c9aebd655e0db56a5abfc7/tmuxradio-0.2.33.tar.gz
+[2024-05-20 00:20:47] INFO root fetch - processPackages [tmuxradio]: executing diffoscope
+[2024-05-20 00:20:47] INFO root fetch - processPackages [tmuxradio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmuxradio-0.2.31.tar.gz tmp/tmuxradio-0.2.33.tar.gz --markdown 20240520/t/tmuxradio/0.2.31-0.2.33/README.md --exclude *.pyd
+[2024-05-20 00:20:53] INFO root fetch - processPackages [tmuxradio]: Remove: archive file [/home/abi/fetcher/tmp/tmuxradio-0.2.31.tar.gz]
+[2024-05-20 00:20:53] INFO root fetch - processPackages [tmuxradio]: Remove: archive file [/home/abi/fetcher/tmp/tmuxradio-0.2.33.tar.gz]
+[2024-05-20 00:20:53] INFO root fetch - main [MainThread]: End processing [tmuxradio]: success
+[2024-05-20 00:20:53] INFO root fetch - main [MainThread]: Store serial: [23281561]

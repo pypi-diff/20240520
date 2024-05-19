@@ -704,3 +704,61 @@
 [2024-05-20 00:49:18] INFO root fetch - processPackages [linkedit]: Remove: archive file [/home/abi/fetcher/tmp/linkedit-1.0.3.tar.gz]
 [2024-05-20 00:49:18] INFO root fetch - main [MainThread]: End processing [linkedit]: success
 [2024-05-20 00:49:18] INFO root fetch - main [MainThread]: Store serial: [23281836]
+[2024-05-20 00:51:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281836]
+[2024-05-20 00:51:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 00:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adducez
+[2024-05-20 00:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyslth
+[2024-05-20 00:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lnschema_core
+[2024-05-20 00:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-signalfx
+[2024-05-20 00:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blue-plugin
+[2024-05-20 00:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blue-plugin
+[2024-05-20 00:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-20 00:51:27] INFO root fetch - processPackages [pulumi-signalfx]: New version: [7.2.0a1716157100] Old Version: [7.2.0a1715928253]
+[2024-05-20 00:51:27] INFO root fetch - processPackages [pyslth]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-20 00:51:27] INFO root fetch - processPackages [blue-plugin]: New version: [2.165.1] Old Version: [2.164.1]
+[2024-05-20 00:51:27] INFO root fetch - processPackages [blue-plugin]: New version: [2.165.1] Old Version: [2.164.1]
+[2024-05-20 00:51:27] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.21a1716143882] Old Version: [0.0.21a1716139671]
+[2024-05-20 00:51:27] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-20 00:51:27] WARNING root fetch - processPackages [adducez]: Skipping, unable to determine old version
+[2024-05-20 00:51:27] INFO root fetch - main [MainThread]: End processing [adducez] error
+[2024-05-20 00:51:27] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/58/d7/eaf1243fee6e7a49d9c6fbefb32a932dd3df4d1f0a6bb135077325e9a734/pulumi_signalfx-7.2.0a1715928253.tar.gz
+[2024-05-20 00:51:27] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/2f/55/173aaddf30562a50f3194d81955e13a8b4e7dd638f98e0a23f38a7bbfa4a/pyslth-0.4.0.tar.gz
+[2024-05-20 00:51:27] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/69/f6/cbe741afa9e1b2ad180ab6eafcd1ca3be2cca84deedfd30ea36bac5309d1/pulumi_kubernetes_the_hard_way-0.0.21a1716139671.tar.gz
+[2024-05-20 00:51:27] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/34/8d/066698cb3dabe6a2dd2eb98e1273aa0172135fae1ee23847c1a153deecf9/blue_plugin-2.164.1.tar.gz
+[2024-05-20 00:51:27] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/34/8d/066698cb3dabe6a2dd2eb98e1273aa0172135fae1ee23847c1a153deecf9/blue_plugin-2.164.1.tar.gz
+[2024-05-20 00:51:27] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2024-05-20 00:51:27] INFO root fetch - processPackages [pulumi-signalfx]: Downloading https://files.pythonhosted.org/packages/78/5f/b9c1516b3268485bff0eda227c2e301501ee75e0d882c36cc6a1cc7f3c05/pulumi_signalfx-7.2.0a1716157100.tar.gz
+[2024-05-20 00:51:27] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/39/56/fea77346601bf58768d29258e642dde035765f04a3cb90334fc8b42f490b/pulumi_kubernetes_the_hard_way-0.0.21a1716143882.tar.gz
+[2024-05-20 00:51:27] INFO root fetch - processPackages [pulumi-signalfx]: executing diffoscope
+[2024-05-20 00:51:27] INFO root fetch - processPackages [pulumi-signalfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_signalfx-7.2.0a1715928253.tar.gz tmp/pulumi_signalfx-7.2.0a1716157100.tar.gz --markdown 20240520/p/pulumi-signalfx/7.2.0a1715928253-7.2.0a1716157100/README.md --exclude *.pyd
+[2024-05-20 00:51:27] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/2d/6a/93ecdaf6dada5dcb0c0722972c44d2cd1bf5af95b66f0506dd7fa0f55d3b/pyslth-0.4.1.tar.gz
+[2024-05-20 00:51:27] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2024-05-20 00:51:27] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/35/02/bef1bcb040c7f2099de7a40b1f18ddefa68675e3f5a41d984944573ae552/blue_plugin-2.165.1.tar.gz
+[2024-05-20 00:51:27] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/35/02/bef1bcb040c7f2099de7a40b1f18ddefa68675e3f5a41d984944573ae552/blue_plugin-2.165.1.tar.gz
+[2024-05-20 00:51:27] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-20 00:51:27] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.21a1716139671.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.21a1716143882.tar.gz --markdown 20240520/p/pulumi-kubernetes-the-hard-way/0.0.21a1716139671-0.0.21a1716143882/README.md --exclude *.pyd
+[2024-05-20 00:51:27] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2024-05-20 00:51:27] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20240520/l/lnschema_core/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-20 00:51:28] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-20 00:51:28] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-2.164.1.tar.gz tmp/blue_plugin-2.165.1.tar.gz --markdown 20240520/b/blue-plugin/2.164.1-2.165.1/README.md --exclude *.pyd
+[2024-05-20 00:51:28] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-20 00:51:28] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-2.164.1.tar.gz tmp/blue_plugin-2.165.1.tar.gz --markdown 20240520/b/blue-plugin/2.164.1-2.165.1/README.md --exclude *.pyd
+[2024-05-20 00:51:28] INFO root fetch - processPackages [pyslth]: executing diffoscope
+[2024-05-20 00:51:28] INFO root fetch - processPackages [pyslth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslth-0.4.0.tar.gz tmp/pyslth-0.4.1.tar.gz --markdown 20240520/p/pyslth/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-20 00:51:28] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-2.164.1.tar.gz]
+[2024-05-20 00:51:28] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-2.165.1.tar.gz]
+[2024-05-20 00:51:28] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-20 00:51:28] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1715928253.tar.gz]
+[2024-05-20 00:51:28] INFO root fetch - processPackages [pulumi-signalfx]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_signalfx-7.2.0a1716157100.tar.gz]
+[2024-05-20 00:51:28] INFO root fetch - main [MainThread]: End processing [pulumi-signalfx]: success
+[2024-05-20 00:51:28] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-20 00:51:28] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1716139671.tar.gz]
+[2024-05-20 00:51:28] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1716143882.tar.gz]
+[2024-05-20 00:51:28] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-20 00:51:29] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2024-05-20 00:51:29] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2024-05-20 00:51:29] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2024-05-20 00:51:29] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.0.tar.gz]
+[2024-05-20 00:51:29] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.1.tar.gz]
+[2024-05-20 00:51:29] INFO root fetch - main [MainThread]: End processing [pyslth]: success
+[2024-05-20 00:51:29] INFO root fetch - main [MainThread]: Store serial: [23281857]

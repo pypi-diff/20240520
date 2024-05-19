@@ -762,3 +762,27 @@
 [2024-05-20 00:51:29] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.1.tar.gz]
 [2024-05-20 00:51:29] INFO root fetch - main [MainThread]: End processing [pyslth]: success
 [2024-05-20 00:51:29] INFO root fetch - main [MainThread]: Store serial: [23281857]
+[2024-05-20 00:53:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281857]
+[2024-05-20 00:53:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 00:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gizai
+[2024-05-20 00:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notebooks-and-scripts
+[2024-05-20 00:53:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notolog
+[2024-05-20 00:53:38] INFO root fetch - processPackages [notolog]: New version: [0.9.1b6] Old Version: [0.9.1b4]
+[2024-05-20 00:53:38] INFO root fetch - processPackages [gizai]: New version: [5.9.1] Old Version: [5.6.1]
+[2024-05-20 00:53:38] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/01/83/b0110f05b1480d30f378d727382dac2b2e091afab0e8b384fd19699747f7/gizai-5.6.1.tar.gz
+[2024-05-20 00:53:38] WARNING root fetch - processPackages [notebooks-and-scripts]: Skipping, unable to determine old version
+[2024-05-20 00:53:38] INFO root fetch - main [MainThread]: End processing [notebooks-and-scripts] error
+[2024-05-20 00:53:38] INFO root fetch - processPackages [notolog]: Downloading https://files.pythonhosted.org/packages/e2/13/781c89d52619545e074d663abdaa92242ad39b8217d7b64cda30504908bf/notolog-0.9.1b4.tar.gz
+[2024-05-20 00:53:38] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/bd/e0/e34a72b06da9054a2c2be6561feb68d8df248f033dea7576bd6df6bb25a9/gizai-5.9.1.tar.gz
+[2024-05-20 00:53:38] INFO root fetch - processPackages [gizai]: executing diffoscope
+[2024-05-20 00:53:38] INFO root fetch - processPackages [gizai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gizai-5.6.1.tar.gz tmp/gizai-5.9.1.tar.gz --markdown 20240520/g/gizai/5.6.1-5.9.1/README.md --exclude *.pyd
+[2024-05-20 00:53:38] INFO root fetch - processPackages [notolog]: Downloading https://files.pythonhosted.org/packages/0c/8b/dc5bba8aa806f5328687954b8fb655113e40817a261a846c610f6587c9d8/notolog-0.9.1b6.tar.gz
+[2024-05-20 00:53:38] INFO root fetch - processPackages [notolog]: executing diffoscope
+[2024-05-20 00:53:38] INFO root fetch - processPackages [notolog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notolog-0.9.1b4.tar.gz tmp/notolog-0.9.1b6.tar.gz --markdown 20240520/n/notolog/0.9.1b4-0.9.1b6/README.md --exclude *.pyd
+[2024-05-20 00:53:39] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.6.1.tar.gz]
+[2024-05-20 00:53:39] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.9.1.tar.gz]
+[2024-05-20 00:53:39] INFO root fetch - main [MainThread]: End processing [gizai]: success
+[2024-05-20 00:53:40] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.1b4.tar.gz]
+[2024-05-20 00:53:40] INFO root fetch - processPackages [notolog]: Remove: archive file [/home/abi/fetcher/tmp/notolog-0.9.1b6.tar.gz]
+[2024-05-20 00:53:40] INFO root fetch - main [MainThread]: End processing [notolog]: success
+[2024-05-20 00:53:40] INFO root fetch - main [MainThread]: Store serial: [23281869]

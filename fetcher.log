@@ -1865,3 +1865,24 @@
 [2024-05-20 01:42:28] INFO root fetch - processPackages [conductor-python]: Remove: archive file [/home/abi/fetcher/tmp/conductor_python-1.1.6.tar.gz]
 [2024-05-20 01:42:28] INFO root fetch - main [MainThread]: End processing [conductor-python]: success
 [2024-05-20 01:42:28] INFO root fetch - main [MainThread]: Store serial: [23282373]
+[2024-05-20 01:44:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282373]
+[2024-05-20 01:44:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 01:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eras
+[2024-05-20 01:44:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: s5learn
+[2024-05-20 01:44:36] INFO root fetch - processPackages [s5learn]: New version: [0.8.1] Old Version: [0.8]
+[2024-05-20 01:44:36] INFO root fetch - processPackages [eras]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-20 01:44:36] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/07/d1/ea653a987ac6b36ebfed177c915a0b34b783c74539b272e918c461dd3ea8/eras-0.1.5.tar.gz
+[2024-05-20 01:44:36] INFO root fetch - processPackages [s5learn]: Downloading https://files.pythonhosted.org/packages/37/77/6c5cfa8a72c2d85a54d8a333af81feb457d2c866e8a487d8926ff7796e19/s5learn-0.8.tar.gz
+[2024-05-20 01:44:37] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/b8/5c/948043ee8a0c771bd9eae842ba7b14b605d1899c8bc45492d05391fadd51/eras-0.2.0.tar.gz
+[2024-05-20 01:44:37] INFO root fetch - processPackages [s5learn]: Downloading https://files.pythonhosted.org/packages/90/69/ff8190abc84a253d89680c986f1aefaffda83dc9705f8ce1126c10f0d277/s5learn-0.8.1.tar.gz
+[2024-05-20 01:44:37] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-20 01:44:37] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.1.5.tar.gz tmp/eras-0.2.0.tar.gz --markdown 20240520/e/eras/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-20 01:44:37] INFO root fetch - processPackages [s5learn]: executing diffoscope
+[2024-05-20 01:44:37] INFO root fetch - processPackages [s5learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s5learn-0.8.tar.gz tmp/s5learn-0.8.1.tar.gz --markdown 20240520/s/s5learn/0.8-0.8.1/README.md --exclude *.pyd
+[2024-05-20 01:44:37] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.1.5.tar.gz]
+[2024-05-20 01:44:37] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.2.0.tar.gz]
+[2024-05-20 01:44:37] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-20 01:44:37] INFO root fetch - processPackages [s5learn]: Remove: archive file [/home/abi/fetcher/tmp/s5learn-0.8.tar.gz]
+[2024-05-20 01:44:37] INFO root fetch - processPackages [s5learn]: Remove: archive file [/home/abi/fetcher/tmp/s5learn-0.8.1.tar.gz]
+[2024-05-20 01:44:37] INFO root fetch - main [MainThread]: End processing [s5learn]: success
+[2024-05-20 01:44:37] INFO root fetch - main [MainThread]: Store serial: [23282379]

@@ -987,3 +987,54 @@
 [2024-05-20 01:04:32] INFO root fetch - processPackages [yxr-porn-core]: Remove: archive file [/home/abi/fetcher/tmp/yxr_porn_core-0.0.1.9.tar.gz]
 [2024-05-20 01:04:32] INFO root fetch - main [MainThread]: End processing [yxr-porn-core]: success
 [2024-05-20 01:04:32] INFO root fetch - main [MainThread]: Store serial: [23281958]
+[2024-05-20 01:06:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23281958]
+[2024-05-20 01:06:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 01:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: schismaz
+[2024-05-20 01:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-xero
+[2024-05-20 01:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmnt
+[2024-05-20 01:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitman
+[2024-05-20 01:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flwr-nightly
+[2024-05-20 01:06:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: notebooks-and-scripts
+[2024-05-20 01:06:41] INFO root fetch - processPackages [notebooks-and-scripts]: New version: [4.448.1] Old Version: [4.447.1]
+[2024-05-20 01:06:41] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240518] Old Version: [0.7.52b20240517]
+[2024-05-20 01:06:41] WARNING root fetch - processPackages [schismaz]: Skipping, unable to determine old version
+[2024-05-20 01:06:41] INFO root fetch - main [MainThread]: End processing [schismaz] error
+[2024-05-20 01:06:41] INFO root fetch - processPackages [gitman]: New version: [3.5.1] Old Version: [3.5]
+[2024-05-20 01:06:41] INFO root fetch - processPackages [airbyte-source-xero]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-20 01:06:41] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/9b/9c/119b749a05b5fcd16e5379f98c2728682c851e1484c8326b0bb3f0c71020/notebooks_and_scripts-4.447.1.tar.gz
+[2024-05-20 01:06:41] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240519] Old Version: [1.9.0.dev20240517]
+[2024-05-20 01:06:41] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/ac/39/df3651a939fb5d60190803344334c01114e6ebe480cfcc76cc3f3d9619ee/tmnt-0.7.52b20240517.tar.gz
+[2024-05-20 01:06:41] INFO root fetch - processPackages [gitman]: Downloading https://files.pythonhosted.org/packages/48/7e/65bdd05bccd3fa8c9e7ba3472c651afc959c3ef4faf9fd76bf1f88a4581d/gitman-3.5.tar.gz
+[2024-05-20 01:06:41] INFO root fetch - processPackages [airbyte-source-xero]: Downloading https://files.pythonhosted.org/packages/6d/37/aa610666d3ee4929c7acab7729ae84fdebc02f52a8c12a89a9c90470876b/airbyte-source-xero-0.2.5.tar.gz
+[2024-05-20 01:06:41] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/83/ff/72633a6feab1f6f10eba308c053e14daa0d1f6743aae05393f698808ad2b/flwr_nightly-1.9.0.dev20240517.tar.gz
+[2024-05-20 01:06:41] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/8e/ae/840d3c19656b93be2daeea1f56c486942766410d2045cd35cf0b205bceb6/notebooks_and_scripts-4.448.1.tar.gz
+[2024-05-20 01:06:41] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/f2/aa/3b184c75fe6c379caa97032fd983e3ddba54af04f8aba28ff7f611323fdb/tmnt-0.7.52b20240518.tar.gz
+[2024-05-20 01:06:41] INFO root fetch - processPackages [notebooks-and-scripts]: executing diffoscope
+[2024-05-20 01:06:41] INFO root fetch - processPackages [notebooks-and-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebooks_and_scripts-4.447.1.tar.gz tmp/notebooks_and_scripts-4.448.1.tar.gz --markdown 20240520/n/notebooks-and-scripts/4.447.1-4.448.1/README.md --exclude *.pyd
+[2024-05-20 01:06:41] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-20 01:06:41] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240517.tar.gz tmp/tmnt-0.7.52b20240518.tar.gz --markdown 20240520/t/tmnt/0.7.52b20240517-0.7.52b20240518/README.md --exclude *.pyd
+[2024-05-20 01:06:41] INFO root fetch - processPackages [gitman]: Downloading https://files.pythonhosted.org/packages/70/01/ad4aa72c2ca190ffd7f5afef77ad747a0bb8d9890484fe976512b49fde9f/gitman-3.5.1.tar.gz
+[2024-05-20 01:06:42] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/db/ec/f641890c54a5366530e5b4c7ac4f6c8fa50fcdcb383969c8b0d60319c264/flwr_nightly-1.9.0.dev20240519.tar.gz
+[2024-05-20 01:06:42] INFO root fetch - processPackages [airbyte-source-xero]: Downloading https://files.pythonhosted.org/packages/06/b3/1abfce84b2e2600132335d3891a6e4aa8bb3bef2143f53b9318c27e44b0a/airbyte_source_xero-0.2.6.tar.gz
+[2024-05-20 01:06:42] INFO root fetch - processPackages [gitman]: executing diffoscope
+[2024-05-20 01:06:42] INFO root fetch - processPackages [gitman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitman-3.5.tar.gz tmp/gitman-3.5.1.tar.gz --markdown 20240520/g/gitman/3.5-3.5.1/README.md --exclude *.pyd
+[2024-05-20 01:06:42] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-05-20 01:06:42] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240517.tar.gz tmp/flwr_nightly-1.9.0.dev20240519.tar.gz --markdown 20240520/f/flwr-nightly/1.9.0.dev20240517-1.9.0.dev20240519/README.md --exclude *.pyd
+[2024-05-20 01:06:42] INFO root fetch - processPackages [airbyte-source-xero]: executing diffoscope
+[2024-05-20 01:06:42] INFO root fetch - processPackages [airbyte-source-xero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-xero-0.2.5.tar.gz tmp/airbyte_source_xero-0.2.6.tar.gz --markdown 20240520/a/airbyte-source-xero/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-20 01:06:42] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.447.1.tar.gz]
+[2024-05-20 01:06:42] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.448.1.tar.gz]
+[2024-05-20 01:06:42] INFO root fetch - main [MainThread]: End processing [notebooks-and-scripts]: success
+[2024-05-20 01:06:42] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240517.tar.gz]
+[2024-05-20 01:06:42] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240518.tar.gz]
+[2024-05-20 01:06:42] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-20 01:06:42] INFO root fetch - processPackages [gitman]: Remove: archive file [/home/abi/fetcher/tmp/gitman-3.5.tar.gz]
+[2024-05-20 01:06:42] INFO root fetch - processPackages [gitman]: Remove: archive file [/home/abi/fetcher/tmp/gitman-3.5.1.tar.gz]
+[2024-05-20 01:06:42] INFO root fetch - main [MainThread]: End processing [gitman]: success
+[2024-05-20 01:06:42] INFO root fetch - processPackages [airbyte-source-xero]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-xero-0.2.5.tar.gz]
+[2024-05-20 01:06:42] INFO root fetch - processPackages [airbyte-source-xero]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_xero-0.2.6.tar.gz]
+[2024-05-20 01:06:42] INFO root fetch - main [MainThread]: End processing [airbyte-source-xero]: success
+[2024-05-20 01:06:43] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240517.tar.gz]
+[2024-05-20 01:06:43] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240519.tar.gz]
+[2024-05-20 01:06:43] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-05-20 01:06:43] INFO root fetch - main [MainThread]: Store serial: [23281977]

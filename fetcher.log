@@ -1973,3 +1973,18 @@
 [2024-05-20 01:55:27] INFO root fetch - processPackages [ioxplugin]: Remove: archive file [/home/abi/fetcher/tmp/ioxplugin-1.1.1.tar.gz]
 [2024-05-20 01:55:27] INFO root fetch - main [MainThread]: End processing [ioxplugin]: success
 [2024-05-20 01:55:27] INFO root fetch - main [MainThread]: Store serial: [23282413]
+[2024-05-20 01:57:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282413]
+[2024-05-20 01:57:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 01:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: innominataz
+[2024-05-20 01:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omniblack.secret
+[2024-05-20 01:57:35] INFO root fetch - processPackages [omniblack.secret]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 01:57:35] INFO root fetch - processPackages [omniblack.secret]: Downloading https://files.pythonhosted.org/packages/20/d9/dbe157b8f5e62b4798d277cbc2d55e8703526d6789b8a505c40044842512/omniblack_secret-0.0.2.tar.gz
+[2024-05-20 01:57:35] WARNING root fetch - processPackages [innominataz]: Skipping, unable to determine old version
+[2024-05-20 01:57:35] INFO root fetch - main [MainThread]: End processing [innominataz] error
+[2024-05-20 01:57:36] INFO root fetch - processPackages [omniblack.secret]: Downloading https://files.pythonhosted.org/packages/04/77/288408df1c5d2798a3b6183bbae7695cb8aa61f0081401d217513a0a28a5/omniblack_secret-0.0.3.tar.gz
+[2024-05-20 01:57:36] INFO root fetch - processPackages [omniblack.secret]: executing diffoscope
+[2024-05-20 01:57:36] INFO root fetch - processPackages [omniblack.secret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniblack_secret-0.0.2.tar.gz tmp/omniblack_secret-0.0.3.tar.gz --markdown 20240520/o/omniblack.secret/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 01:57:36] INFO root fetch - processPackages [omniblack.secret]: Remove: archive file [/home/abi/fetcher/tmp/omniblack_secret-0.0.2.tar.gz]
+[2024-05-20 01:57:36] INFO root fetch - processPackages [omniblack.secret]: Remove: archive file [/home/abi/fetcher/tmp/omniblack_secret-0.0.3.tar.gz]
+[2024-05-20 01:57:36] INFO root fetch - main [MainThread]: End processing [omniblack.secret]: success
+[2024-05-20 01:57:36] INFO root fetch - main [MainThread]: Store serial: [23282421]

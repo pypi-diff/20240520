@@ -1635,3 +1635,48 @@
 [2024-05-20 01:25:05] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
 [2024-05-20 01:25:05] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
 [2024-05-20 01:25:05] INFO root fetch - main [MainThread]: Store serial: [23282284]
+[2024-05-20 01:27:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282284]
+[2024-05-20 01:27:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 01:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devolatilizez
+[2024-05-20 01:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RNAkinetics
+[2024-05-20 01:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bvg-python
+[2024-05-20 01:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: json-extracter
+[2024-05-20 01:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: my-cpp-package
+[2024-05-20 01:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: baidu-apollo-proto
+[2024-05-20 01:27:14] INFO root fetch - processPackages [json-extracter]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 01:27:14] INFO root fetch - processPackages [json-extracter]: Downloading https://files.pythonhosted.org/packages/b8/28/3f39d0b71a8bd3f2aa331095a66c0fc2d9624d0196a887fb57b595cca184/json_extracter-1.0.2.tar.gz
+[2024-05-20 01:27:14] WARNING root fetch - processPackages [my-cpp-package]: Skipping, unable to determine old version
+[2024-05-20 01:27:14] INFO root fetch - main [MainThread]: End processing [my-cpp-package] error
+[2024-05-20 01:27:14] INFO root fetch - processPackages [bvg-python]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-05-20 01:27:14] INFO root fetch - processPackages [baidu-apollo-proto]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 01:27:14] WARNING root fetch - processPackages [devolatilizez]: Skipping, unable to determine old version
+[2024-05-20 01:27:14] INFO root fetch - main [MainThread]: End processing [devolatilizez] error
+[2024-05-20 01:27:14] INFO root fetch - processPackages [RNAkinetics]: New version: [0.2.4] Old Version: [0.1]
+[2024-05-20 01:27:14] INFO root fetch - processPackages [json-extracter]: Downloading https://files.pythonhosted.org/packages/b6/d0/eacb5cc7fda15fb1cf41a75a6822c9b22e7afafbfd89f843fcde7c78d301/json_extracter-1.0.3.tar.gz
+[2024-05-20 01:27:14] INFO root fetch - processPackages [bvg-python]: Downloading https://files.pythonhosted.org/packages/30/0b/1ec117a4691bf07c276d50832d69c3e71a8a0b56b7719ae1ec7286a694c9/bvg-python-1.0.0.tar.gz
+[2024-05-20 01:27:14] INFO root fetch - processPackages [baidu-apollo-proto]: Downloading https://files.pythonhosted.org/packages/71/d5/54d6bc5147cd308fa3cf0c17a20672368bb0b4f713ffd5f8c4ab426cb193/baidu_apollo_proto-0.1.0.tar.gz
+[2024-05-20 01:27:14] INFO root fetch - processPackages [RNAkinetics]: Downloading https://files.pythonhosted.org/packages/2b/5b/bb0f8a5693fed6ee98e1de830154ecccf43cf113cf964a3dc281493ad816/RNAkinetics-0.1.tar.gz
+[2024-05-20 01:27:14] INFO root fetch - processPackages [json-extracter]: executing diffoscope
+[2024-05-20 01:27:14] INFO root fetch - processPackages [json-extracter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_extracter-1.0.2.tar.gz tmp/json_extracter-1.0.3.tar.gz --markdown 20240520/j/json-extracter/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 01:27:15] INFO root fetch - processPackages [bvg-python]: Downloading https://files.pythonhosted.org/packages/0d/73/9b4b4bb1605400745cbec124c550723c491ea1f5d1a10aa7ab0c41f8c448/bvg_python-1.0.2.tar.gz
+[2024-05-20 01:27:15] INFO root fetch - processPackages [RNAkinetics]: Downloading https://files.pythonhosted.org/packages/ae/6f/d8523c7db144bec3cc27c3fedeebc6e2018c2e832d03e7f692635a73bf80/RNAkinetics-0.2.4.tar.gz
+[2024-05-20 01:27:15] INFO root fetch - processPackages [bvg-python]: executing diffoscope
+[2024-05-20 01:27:15] INFO root fetch - processPackages [bvg-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bvg-python-1.0.0.tar.gz tmp/bvg_python-1.0.2.tar.gz --markdown 20240520/b/bvg-python/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-05-20 01:27:15] INFO root fetch - processPackages [baidu-apollo-proto]: Downloading https://files.pythonhosted.org/packages/21/cb/93e31a7913460e08675df8168d2984553a377ec5f135f8abddf421300206/baidu_apollo_proto-0.1.1.tar.gz
+[2024-05-20 01:27:15] INFO root fetch - processPackages [RNAkinetics]: executing diffoscope
+[2024-05-20 01:27:15] INFO root fetch - processPackages [RNAkinetics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RNAkinetics-0.1.tar.gz tmp/RNAkinetics-0.2.4.tar.gz --markdown 20240520/R/RNAkinetics/0.1-0.2.4/README.md --exclude *.pyd
+[2024-05-20 01:27:15] INFO root fetch - processPackages [baidu-apollo-proto]: executing diffoscope
+[2024-05-20 01:27:15] INFO root fetch - processPackages [baidu-apollo-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baidu_apollo_proto-0.1.0.tar.gz tmp/baidu_apollo_proto-0.1.1.tar.gz --markdown 20240520/b/baidu-apollo-proto/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 01:27:15] INFO root fetch - processPackages [json-extracter]: Remove: archive file [/home/abi/fetcher/tmp/json_extracter-1.0.2.tar.gz]
+[2024-05-20 01:27:15] INFO root fetch - processPackages [json-extracter]: Remove: archive file [/home/abi/fetcher/tmp/json_extracter-1.0.3.tar.gz]
+[2024-05-20 01:27:15] INFO root fetch - main [MainThread]: End processing [json-extracter]: success
+[2024-05-20 01:27:15] INFO root fetch - processPackages [RNAkinetics]: Remove: archive file [/home/abi/fetcher/tmp/RNAkinetics-0.1.tar.gz]
+[2024-05-20 01:27:15] INFO root fetch - processPackages [RNAkinetics]: Remove: archive file [/home/abi/fetcher/tmp/RNAkinetics-0.2.4.tar.gz]
+[2024-05-20 01:27:15] INFO root fetch - main [MainThread]: End processing [RNAkinetics]: success
+[2024-05-20 01:27:15] INFO root fetch - processPackages [bvg-python]: Remove: archive file [/home/abi/fetcher/tmp/bvg-python-1.0.0.tar.gz]
+[2024-05-20 01:27:15] INFO root fetch - processPackages [bvg-python]: Remove: archive file [/home/abi/fetcher/tmp/bvg_python-1.0.2.tar.gz]
+[2024-05-20 01:27:15] INFO root fetch - main [MainThread]: End processing [bvg-python]: success
+[2024-05-20 01:27:17] INFO root fetch - processPackages [baidu-apollo-proto]: Remove: archive file [/home/abi/fetcher/tmp/baidu_apollo_proto-0.1.0.tar.gz]
+[2024-05-20 01:27:17] INFO root fetch - processPackages [baidu-apollo-proto]: Remove: archive file [/home/abi/fetcher/tmp/baidu_apollo_proto-0.1.1.tar.gz]
+[2024-05-20 01:27:17] INFO root fetch - main [MainThread]: End processing [baidu-apollo-proto]: success
+[2024-05-20 01:27:17] INFO root fetch - main [MainThread]: Store serial: [23282304]

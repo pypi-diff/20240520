@@ -1799,3 +1799,42 @@
 [2024-05-20 01:35:58] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.2.0.tar.gz]
 [2024-05-20 01:35:58] INFO root fetch - main [MainThread]: End processing [eras]: success
 [2024-05-20 01:35:58] INFO root fetch - main [MainThread]: Store serial: [23282353]
+[2024-05-20 01:38:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282353]
+[2024-05-20 01:38:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 01:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iudex
+[2024-05-20 01:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: REVHubInterface
+[2024-05-20 01:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uniondiff
+[2024-05-20 01:38:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GazooResearchUtils
+[2024-05-20 01:38:06] INFO root fetch - processPackages [REVHubInterface]: New version: [1.3.3.dev9] Old Version: [1.3.3.dev8]
+[2024-05-20 01:38:06] INFO root fetch - processPackages [iudex]: New version: [0.6.0] Old Version: [0.5.5]
+[2024-05-20 01:38:07] INFO root fetch - processPackages [uniondiff]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 01:38:07] INFO root fetch - processPackages [GazooResearchUtils]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-05-20 01:38:07] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/a0/80/d34e6b9a46b98602ff1928f1369bc86f1e846f39cc6b09c412f01445d484/iudex-0.5.5.tar.gz
+[2024-05-20 01:38:07] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/0d/90/3c74a9c7310ba2da2e673cb67d3e8c65e5460209759ef2fa291efce82ab5/revhubinterface-1.3.3.dev8.tar.gz
+[2024-05-20 01:38:07] INFO root fetch - processPackages [uniondiff]: Downloading https://files.pythonhosted.org/packages/bc/83/42ed9074d347b6fe5ce117020b466c08834eb1afa84871ba1e2b47c1588e/uniondiff-0.1.0.tar.gz
+[2024-05-20 01:38:07] INFO root fetch - processPackages [iudex]: Downloading https://files.pythonhosted.org/packages/97/4c/1aa1a30178067924853e01a85fcdad6dff01a1f713a0600ab090c95aea61/iudex-0.6.0.tar.gz
+[2024-05-20 01:38:07] INFO root fetch - processPackages [GazooResearchUtils]: Downloading https://files.pythonhosted.org/packages/18/f0/61dc3531b3e77387a2197697661b3063ea2de00e6ea04bb1cbb02353b16b/GazooResearchUtils-1.5.3.tar.gz
+[2024-05-20 01:38:07] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/47/93/e2ab5da20dcdca793ff04faa5aa5f38bb3f149e7bf70c77c15ac7d127689/revhubinterface-1.3.3.dev9.tar.gz
+[2024-05-20 01:38:07] INFO root fetch - processPackages [iudex]: executing diffoscope
+[2024-05-20 01:38:07] INFO root fetch - processPackages [iudex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iudex-0.5.5.tar.gz tmp/iudex-0.6.0.tar.gz --markdown 20240520/i/iudex/0.5.5-0.6.0/README.md --exclude *.pyd
+[2024-05-20 01:38:07] INFO root fetch - processPackages [REVHubInterface]: executing diffoscope
+[2024-05-20 01:38:07] INFO root fetch - processPackages [REVHubInterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revhubinterface-1.3.3.dev8.tar.gz tmp/revhubinterface-1.3.3.dev9.tar.gz --markdown 20240520/R/REVHubInterface/1.3.3.dev8-1.3.3.dev9/README.md --exclude *.pyd
+[2024-05-20 01:38:07] INFO root fetch - processPackages [GazooResearchUtils]: Downloading https://files.pythonhosted.org/packages/cb/98/6219d01bad48b5b256f8f4f1bfc2d0bef39ed148468758d568398c98f0c9/GazooResearchUtils-1.5.4.tar.gz
+[2024-05-20 01:38:07] INFO root fetch - processPackages [uniondiff]: Downloading https://files.pythonhosted.org/packages/b1/10/28d7fa95a7d2cde16dd3fd797d9285f6ff9b2a429be4c30927a6042e6b24/uniondiff-0.1.1.tar.gz
+[2024-05-20 01:38:07] INFO root fetch - processPackages [uniondiff]: executing diffoscope
+[2024-05-20 01:38:07] INFO root fetch - processPackages [uniondiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniondiff-0.1.0.tar.gz tmp/uniondiff-0.1.1.tar.gz --markdown 20240520/u/uniondiff/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 01:38:07] INFO root fetch - processPackages [GazooResearchUtils]: executing diffoscope
+[2024-05-20 01:38:07] INFO root fetch - processPackages [GazooResearchUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GazooResearchUtils-1.5.3.tar.gz tmp/GazooResearchUtils-1.5.4.tar.gz --markdown 20240520/G/GazooResearchUtils/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-05-20 01:38:08] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev8.tar.gz]
+[2024-05-20 01:38:08] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev9.tar.gz]
+[2024-05-20 01:38:08] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
+[2024-05-20 01:38:08] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.5.5.tar.gz]
+[2024-05-20 01:38:08] INFO root fetch - processPackages [iudex]: Remove: archive file [/home/abi/fetcher/tmp/iudex-0.6.0.tar.gz]
+[2024-05-20 01:38:08] INFO root fetch - main [MainThread]: End processing [iudex]: success
+[2024-05-20 01:38:08] INFO root fetch - processPackages [GazooResearchUtils]: Remove: archive file [/home/abi/fetcher/tmp/GazooResearchUtils-1.5.3.tar.gz]
+[2024-05-20 01:38:08] INFO root fetch - processPackages [GazooResearchUtils]: Remove: archive file [/home/abi/fetcher/tmp/GazooResearchUtils-1.5.4.tar.gz]
+[2024-05-20 01:38:08] INFO root fetch - main [MainThread]: End processing [GazooResearchUtils]: success
+[2024-05-20 01:38:08] INFO root fetch - processPackages [uniondiff]: Remove: archive file [/home/abi/fetcher/tmp/uniondiff-0.1.0.tar.gz]
+[2024-05-20 01:38:08] INFO root fetch - processPackages [uniondiff]: Remove: archive file [/home/abi/fetcher/tmp/uniondiff-0.1.1.tar.gz]
+[2024-05-20 01:38:08] INFO root fetch - main [MainThread]: End processing [uniondiff]: success
+[2024-05-20 01:38:08] INFO root fetch - main [MainThread]: Store serial: [23282364]

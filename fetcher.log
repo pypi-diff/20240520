@@ -1215,3 +1215,42 @@
 [2024-05-20 01:11:30] INFO root fetch - main [MainThread]: End processing [nnrwcxpbphunoimn]: success
 [2024-05-20 01:11:30] INFO root fetch - main [MainThread]: End processing [nnrwcxpbphunoimn]: success
 [2024-05-20 01:11:30] INFO root fetch - main [MainThread]: Store serial: [23282050]
+[2024-05-20 01:13:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282050]
+[2024-05-20 01:13:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 01:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dvcx
+[2024-05-20 01:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transcribe-me
+[2024-05-20 01:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: surfkit
+[2024-05-20 01:13:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: json-extracter
+[2024-05-20 01:13:41] INFO root fetch - processPackages [transcribe-me]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-20 01:13:41] INFO root fetch - processPackages [json-extracter]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 01:13:41] INFO root fetch - processPackages [dvcx]: New version: [0.80.0] Old Version: [0.79.0]
+[2024-05-20 01:13:41] INFO root fetch - processPackages [surfkit]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-20 01:13:41] INFO root fetch - processPackages [transcribe-me]: Downloading https://files.pythonhosted.org/packages/38/ea/ef2b11bdb19eb8a08503add1dfacb0e8e1470ce131e401213f1b3e538704/transcribe_me-0.2.2.tar.gz
+[2024-05-20 01:13:41] INFO root fetch - processPackages [json-extracter]: Downloading https://files.pythonhosted.org/packages/b8/28/3f39d0b71a8bd3f2aa331095a66c0fc2d9624d0196a887fb57b595cca184/json_extracter-1.0.2.tar.gz
+[2024-05-20 01:13:41] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/22/38/e0d8818811e86cd1439121b9981a09f9be9fb20d3565e11ee6fe25dcec7f/dvcx-0.79.0.tar.gz
+[2024-05-20 01:13:41] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/c2/e4/d9d6efb4013a22047e07b2174dc8716a86fe2b3fe0652e6e1edddbde177b/surfkit-0.1.98.tar.gz
+[2024-05-20 01:13:41] INFO root fetch - processPackages [transcribe-me]: Downloading https://files.pythonhosted.org/packages/64/8c/1b4a1e83d7d021da9e449c5d8b7e81a321e82e302b349b9a0d954d9410b3/transcribe_me-0.2.3.tar.gz
+[2024-05-20 01:13:41] INFO root fetch - processPackages [json-extracter]: Downloading https://files.pythonhosted.org/packages/b6/d0/eacb5cc7fda15fb1cf41a75a6822c9b22e7afafbfd89f843fcde7c78d301/json_extracter-1.0.3.tar.gz
+[2024-05-20 01:13:41] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/96/7a/bf0ce0b86ae55a61e728e38fcf440113d5a222e3e379d6ec83d42eedd3ea/dvcx-0.80.0.tar.gz
+[2024-05-20 01:13:41] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/65/a8/bfc822b58240522d18c4cf24a25a6f2476da037058406af11377393fa476/surfkit-0.1.99.tar.gz
+[2024-05-20 01:13:41] INFO root fetch - processPackages [transcribe-me]: executing diffoscope
+[2024-05-20 01:13:41] INFO root fetch - processPackages [transcribe-me]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transcribe_me-0.2.2.tar.gz tmp/transcribe_me-0.2.3.tar.gz --markdown 20240520/t/transcribe-me/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-20 01:13:41] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-05-20 01:13:41] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.79.0.tar.gz tmp/dvcx-0.80.0.tar.gz --markdown 20240520/d/dvcx/0.79.0-0.80.0/README.md --exclude *.pyd
+[2024-05-20 01:13:41] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-05-20 01:13:41] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.98.tar.gz tmp/surfkit-0.1.99.tar.gz --markdown 20240520/s/surfkit/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-20 01:13:41] INFO root fetch - processPackages [json-extracter]: executing diffoscope
+[2024-05-20 01:13:41] INFO root fetch - processPackages [json-extracter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_extracter-1.0.2.tar.gz tmp/json_extracter-1.0.3.tar.gz --markdown 20240520/j/json-extracter/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 01:13:42] INFO root fetch - processPackages [json-extracter]: Remove: archive file [/home/abi/fetcher/tmp/json_extracter-1.0.2.tar.gz]
+[2024-05-20 01:13:42] INFO root fetch - processPackages [json-extracter]: Remove: archive file [/home/abi/fetcher/tmp/json_extracter-1.0.3.tar.gz]
+[2024-05-20 01:13:42] INFO root fetch - main [MainThread]: End processing [json-extracter]: success
+[2024-05-20 01:13:42] INFO root fetch - processPackages [transcribe-me]: Remove: archive file [/home/abi/fetcher/tmp/transcribe_me-0.2.2.tar.gz]
+[2024-05-20 01:13:42] INFO root fetch - processPackages [transcribe-me]: Remove: archive file [/home/abi/fetcher/tmp/transcribe_me-0.2.3.tar.gz]
+[2024-05-20 01:13:42] INFO root fetch - main [MainThread]: End processing [transcribe-me]: success
+[2024-05-20 01:13:42] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.98.tar.gz]
+[2024-05-20 01:13:42] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
+[2024-05-20 01:13:42] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-05-20 01:13:43] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.79.0.tar.gz]
+[2024-05-20 01:13:43] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.80.0.tar.gz]
+[2024-05-20 01:13:43] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-05-20 01:13:43] INFO root fetch - main [MainThread]: Store serial: [23282062]

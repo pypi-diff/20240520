@@ -1910,3 +1910,15 @@
 [2024-05-20 01:46:47] INFO root fetch - processPackages [mlfab]: Remove: archive file [/home/abi/fetcher/tmp/mlfab-0.1.9.tar.gz]
 [2024-05-20 01:46:47] INFO root fetch - main [MainThread]: End processing [mlfab]: success
 [2024-05-20 01:46:47] INFO root fetch - main [MainThread]: Store serial: [23282389]
+[2024-05-20 01:48:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282389]
+[2024-05-20 01:48:56] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 01:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: npDoseResponse
+[2024-05-20 01:48:56] INFO root fetch - processPackages [npDoseResponse]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-20 01:48:56] INFO root fetch - processPackages [npDoseResponse]: Downloading https://files.pythonhosted.org/packages/3f/3b/595e41bb792101eae363baed5475593ed404fad33e8d0b04bfe2bbf01e4d/npdoseresponse-0.0.3.tar.gz
+[2024-05-20 01:48:56] INFO root fetch - processPackages [npDoseResponse]: Downloading https://files.pythonhosted.org/packages/12/c2/a749e1f8f9ba3242e11f9b12100ee220be4fab38761798cc4e6f159940e4/npdoseresponse-0.0.4.tar.gz
+[2024-05-20 01:48:56] INFO root fetch - processPackages [npDoseResponse]: executing diffoscope
+[2024-05-20 01:48:56] INFO root fetch - processPackages [npDoseResponse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npdoseresponse-0.0.3.tar.gz tmp/npdoseresponse-0.0.4.tar.gz --markdown 20240520/n/npDoseResponse/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-20 01:48:57] INFO root fetch - processPackages [npDoseResponse]: Remove: archive file [/home/abi/fetcher/tmp/npdoseresponse-0.0.3.tar.gz]
+[2024-05-20 01:48:57] INFO root fetch - processPackages [npDoseResponse]: Remove: archive file [/home/abi/fetcher/tmp/npdoseresponse-0.0.4.tar.gz]
+[2024-05-20 01:48:57] INFO root fetch - main [MainThread]: End processing [npDoseResponse]: success
+[2024-05-20 01:48:57] INFO root fetch - main [MainThread]: Store serial: [23282395]

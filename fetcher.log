@@ -1584,3 +1584,54 @@
 [2024-05-20 01:22:55] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
 [2024-05-20 01:22:55] INFO root fetch - main [MainThread]: End processing [lamindb]: success
 [2024-05-20 01:22:55] INFO root fetch - main [MainThread]: Store serial: [23282217]
+[2024-05-20 01:24:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282217]
+[2024-05-20 01:25:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 01:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-resources
+[2024-05-20 01:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robyn
+[2024-05-20 01:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: okn-py-updater
+[2024-05-20 01:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlglot
+[2024-05-20 01:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-fabric
+[2024-05-20 01:25:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mevals
+[2024-05-20 01:25:03] INFO root fetch - processPackages [okn-py-updater]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-05-20 01:25:04] INFO root fetch - processPackages [okn-py-updater]: Downloading https://files.pythonhosted.org/packages/cd/d6/9e69354410c14f27a6e2a5d23ba37f7f334ceb871d141203dbd9435f6124/okn_py_updater-2.0.6.tar.gz
+[2024-05-20 01:25:04] INFO root fetch - processPackages [fastapi-resources]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-05-20 01:25:04] WARNING root fetch - processPackages [mevals]: Skipping, unable to determine old version
+[2024-05-20 01:25:04] INFO root fetch - main [MainThread]: End processing [mevals] error
+[2024-05-20 01:25:04] INFO root fetch - processPackages [dbt-fabric]: New version: [1.8.4] Old Version: [1.8.3]
+[2024-05-20 01:25:04] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2024-05-20 01:25:04] INFO root fetch - processPackages [robyn]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-20 01:25:04] INFO root fetch - processPackages [fastapi-resources]: Downloading https://files.pythonhosted.org/packages/4f/2e/641ea15aeb5c0d92e0c14315e07dfc26f121280faba45562a37e12708e05/fastapi_resources-0.4.9.tar.gz
+[2024-05-20 01:25:04] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2024-05-20 01:25:04] INFO root fetch - processPackages [dbt-fabric]: Downloading https://files.pythonhosted.org/packages/3d/be/68ec41f9c78c0ac85feb6b2e9aa3f72605629cadbd18643854d7385b220c/dbt-fabric-1.8.3.tar.gz
+[2024-05-20 01:25:04] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/db/e8/d0c20074330916a3895c96c270b171a9247666e837b1deb1ff2efb953da5/robyn-0.8.1.tar.gz
+[2024-05-20 01:25:04] INFO root fetch - processPackages [okn-py-updater]: Downloading https://files.pythonhosted.org/packages/d5/15/7c274e571e4f0730f26b5a74d7a54a9d3da2dfe33e9c17f976bd19ceffc9/okn_py_updater-2.0.7.tar.gz
+[2024-05-20 01:25:04] INFO root fetch - processPackages [okn-py-updater]: executing diffoscope
+[2024-05-20 01:25:04] INFO root fetch - processPackages [okn-py-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okn_py_updater-2.0.6.tar.gz tmp/okn_py_updater-2.0.7.tar.gz --markdown 20240520/o/okn-py-updater/2.0.6-2.0.7/README.md --exclude *.pyd
+[2024-05-20 01:25:04] INFO root fetch - processPackages [fastapi-resources]: Downloading https://files.pythonhosted.org/packages/7f/dc/118e71fb18bb7fb68d729fa3e63c0941d17cba21ae4247369119a71f0684/fastapi_resources-0.5.0.tar.gz
+[2024-05-20 01:25:04] INFO root fetch - processPackages [dbt-fabric]: Downloading https://files.pythonhosted.org/packages/b8/fd/9cd44d50086d970e9e0ad5f9768d65e037a798b8a42ee43e075ab2774a89/dbt-fabric-1.8.4.tar.gz
+[2024-05-20 01:25:04] INFO root fetch - processPackages [fastapi-resources]: executing diffoscope
+[2024-05-20 01:25:04] INFO root fetch - processPackages [fastapi-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_resources-0.4.9.tar.gz tmp/fastapi_resources-0.5.0.tar.gz --markdown 20240520/f/fastapi-resources/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-05-20 01:25:04] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2024-05-20 01:25:04] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/9e/05/799d2992e229948de022111c077e3db76a1ebca39c6bf7f3ab9043b7a8e3/robyn-0.9.0.tar.gz
+[2024-05-20 01:25:04] INFO root fetch - processPackages [dbt-fabric]: executing diffoscope
+[2024-05-20 01:25:04] INFO root fetch - processPackages [dbt-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-fabric-1.8.3.tar.gz tmp/dbt-fabric-1.8.4.tar.gz --markdown 20240520/d/dbt-fabric/1.8.3-1.8.4/README.md --exclude *.pyd
+[2024-05-20 01:25:04] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2024-05-20 01:25:04] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20240520/s/sqlglot/9.0.5-9.0.6/README.md --exclude *.pyd
+[2024-05-20 01:25:04] INFO root fetch - processPackages [robyn]: executing diffoscope
+[2024-05-20 01:25:04] INFO root fetch - processPackages [robyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robyn-0.8.1.tar.gz tmp/robyn-0.9.0.tar.gz --markdown 20240520/r/robyn/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-20 01:25:05] INFO root fetch - processPackages [okn-py-updater]: Remove: archive file [/home/abi/fetcher/tmp/okn_py_updater-2.0.6.tar.gz]
+[2024-05-20 01:25:05] INFO root fetch - processPackages [okn-py-updater]: Remove: archive file [/home/abi/fetcher/tmp/okn_py_updater-2.0.7.tar.gz]
+[2024-05-20 01:25:05] INFO root fetch - main [MainThread]: End processing [okn-py-updater]: success
+[2024-05-20 01:25:05] INFO root fetch - processPackages [fastapi-resources]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_resources-0.4.9.tar.gz]
+[2024-05-20 01:25:05] INFO root fetch - processPackages [fastapi-resources]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_resources-0.5.0.tar.gz]
+[2024-05-20 01:25:05] INFO root fetch - main [MainThread]: End processing [fastapi-resources]: success
+[2024-05-20 01:25:05] INFO root fetch - processPackages [dbt-fabric]: Remove: archive file [/home/abi/fetcher/tmp/dbt-fabric-1.8.3.tar.gz]
+[2024-05-20 01:25:05] INFO root fetch - processPackages [dbt-fabric]: Remove: archive file [/home/abi/fetcher/tmp/dbt-fabric-1.8.4.tar.gz]
+[2024-05-20 01:25:05] INFO root fetch - main [MainThread]: End processing [dbt-fabric]: success
+[2024-05-20 01:25:05] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.8.1.tar.gz]
+[2024-05-20 01:25:05] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.9.0.tar.gz]
+[2024-05-20 01:25:05] INFO root fetch - main [MainThread]: End processing [robyn]: success
+[2024-05-20 01:25:05] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.5.tar.gz]
+[2024-05-20 01:25:05] INFO root fetch - processPackages [sqlglot]: Remove: archive file [/home/abi/fetcher/tmp/sqlglot-9.0.6.tar.gz]
+[2024-05-20 01:25:05] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2024-05-20 01:25:05] INFO root fetch - main [MainThread]: Store serial: [23282284]

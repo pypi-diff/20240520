@@ -1850,3 +1850,18 @@
 [2024-05-20 01:40:17] INFO root fetch - processPackages [GazooResearchUtils]: Remove: archive file [/home/abi/fetcher/tmp/GazooResearchUtils-1.5.4.tar.gz]
 [2024-05-20 01:40:17] INFO root fetch - main [MainThread]: End processing [GazooResearchUtils]: success
 [2024-05-20 01:40:17] INFO root fetch - main [MainThread]: Store serial: [23282366]
+[2024-05-20 01:42:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282366]
+[2024-05-20 01:42:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 01:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elenchticalz
+[2024-05-20 01:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: conductor-python
+[2024-05-20 01:42:27] WARNING root fetch - processPackages [elenchticalz]: Skipping, unable to determine old version
+[2024-05-20 01:42:27] INFO root fetch - main [MainThread]: End processing [elenchticalz] error
+[2024-05-20 01:42:27] INFO root fetch - processPackages [conductor-python]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-20 01:42:27] INFO root fetch - processPackages [conductor-python]: Downloading https://files.pythonhosted.org/packages/a8/82/54858b80a8492eed5c4c10cfec8431ad2b92f451538dfc6ec099b943cb6a/conductor_python-1.1.5.tar.gz
+[2024-05-20 01:42:27] INFO root fetch - processPackages [conductor-python]: Downloading https://files.pythonhosted.org/packages/fe/89/2fa7123506c4bf04d9479d524d13ccf4569b4b4bb300fa1afb0a5e4e87cc/conductor_python-1.1.6.tar.gz
+[2024-05-20 01:42:27] INFO root fetch - processPackages [conductor-python]: executing diffoscope
+[2024-05-20 01:42:27] INFO root fetch - processPackages [conductor-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conductor_python-1.1.5.tar.gz tmp/conductor_python-1.1.6.tar.gz --markdown 20240520/c/conductor-python/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-20 01:42:28] INFO root fetch - processPackages [conductor-python]: Remove: archive file [/home/abi/fetcher/tmp/conductor_python-1.1.5.tar.gz]
+[2024-05-20 01:42:28] INFO root fetch - processPackages [conductor-python]: Remove: archive file [/home/abi/fetcher/tmp/conductor_python-1.1.6.tar.gz]
+[2024-05-20 01:42:28] INFO root fetch - main [MainThread]: End processing [conductor-python]: success
+[2024-05-20 01:42:28] INFO root fetch - main [MainThread]: Store serial: [23282373]

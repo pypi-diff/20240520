@@ -13009,3 +13009,57 @@
 [2024-05-20 11:53:55] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2024-05-20 11:53:55] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2024-05-20 11:53:55] INFO root fetch - main [MainThread]: Store serial: [23287771]
+[2024-05-20 11:55:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287771]
+[2024-05-20 11:56:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 11:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mad-notifications
+[2024-05-20 11:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: syntrac-sdk
+[2024-05-20 11:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gm
+[2024-05-20 11:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: concretedz
+[2024-05-20 11:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gene4mvcf
+[2024-05-20 11:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multibotkit
+[2024-05-20 11:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigflow
+[2024-05-20 11:56:03] WARNING root fetch - processPackages [gene4mvcf]: Skipping, unable to determine old version
+[2024-05-20 11:56:03] INFO root fetch - main [MainThread]: End processing [gene4mvcf] error
+[2024-05-20 11:56:03] INFO root fetch - processPackages [mad-notifications]: New version: [2.3.0] Old Version: [2.2.3]
+[2024-05-20 11:56:04] INFO root fetch - processPackages [multibotkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 11:56:04] INFO root fetch - processPackages [mad-notifications]: Downloading https://files.pythonhosted.org/packages/15/4f/b2c17390ce5fd0f913ca24d584ba5314877f2799257c426fc059e99ad9f5/mad_notifications-2.2.3.tar.gz
+[2024-05-20 11:56:04] WARNING root fetch - processPackages [concretedz]: Skipping, unable to determine old version
+[2024-05-20 11:56:04] INFO root fetch - main [MainThread]: End processing [concretedz] error
+[2024-05-20 11:56:04] INFO root fetch - processPackages [syntrac-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 11:56:04] INFO root fetch - processPackages [gm]: New version: [3.0.166] Old Version: [3.0.165]
+[2024-05-20 11:56:04] INFO root fetch - processPackages [bigflow]: New version: [1.9.0.dev1] Old Version: [1.9.0]
+[2024-05-20 11:56:04] INFO root fetch - processPackages [multibotkit]: Downloading https://files.pythonhosted.org/packages/ba/32/dd4d3ba8adc4d378d5de1bf897d7a3ee7f76db1634791bf14c77523d3e78/multibotkit-0.1.8.tar.gz
+[2024-05-20 11:56:04] INFO root fetch - processPackages [bigflow]: Downloading https://files.pythonhosted.org/packages/6e/cd/e583af7da13dea3fbb304ee7c2f54287e3a96c49a51b6c56ac0d6428fb5e/bigflow-1.9.0.tar.gz
+[2024-05-20 11:56:04] INFO root fetch - processPackages [gm]: Downloading https://files.pythonhosted.org/packages/db/c5/4368446572ae5444719bc533cc6b729659f8facfbd3a80a7e8e4c026ddb4/gm-3.0.165-cp39-cp39-win_amd64.whl
+[2024-05-20 11:56:04] INFO root fetch - processPackages [syntrac-sdk]: Downloading https://files.pythonhosted.org/packages/12/06/2483c9f3160c69ded539017aae36b09ce2e93ce6d7263c1778cf90f8498b/syntrac_sdk-0.0.8.tar.gz
+[2024-05-20 11:56:04] INFO root fetch - processPackages [mad-notifications]: Downloading https://files.pythonhosted.org/packages/9d/a5/d0b3daccf08fdb716fb7fd49a46487cbcf95981ae5ab5aff684b7c1f5d9c/mad_notifications-2.3.0.tar.gz
+[2024-05-20 11:56:04] INFO root fetch - processPackages [mad-notifications]: executing diffoscope
+[2024-05-20 11:56:04] INFO root fetch - processPackages [mad-notifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mad_notifications-2.2.3.tar.gz tmp/mad_notifications-2.3.0.tar.gz --markdown 20240520/m/mad-notifications/2.2.3-2.3.0/README.md --exclude *.pyd
+[2024-05-20 11:56:04] INFO root fetch - processPackages [multibotkit]: Downloading https://files.pythonhosted.org/packages/ba/fd/98feb2af8adf32a4682746334a2195fa6774dcc8693ba9f7f8de8a8b8546/multibotkit-0.1.9.tar.gz
+[2024-05-20 11:56:04] INFO root fetch - processPackages [syntrac-sdk]: Downloading https://files.pythonhosted.org/packages/c9/07/5f237ff74c59375a8932ad01c4053f310c64d14031d5866b82336d9fc317/syntrac_sdk-0.0.9.tar.gz
+[2024-05-20 11:56:04] INFO root fetch - processPackages [multibotkit]: executing diffoscope
+[2024-05-20 11:56:04] INFO root fetch - processPackages [multibotkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multibotkit-0.1.8.tar.gz tmp/multibotkit-0.1.9.tar.gz --markdown 20240520/m/multibotkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 11:56:04] INFO root fetch - processPackages [bigflow]: Downloading https://files.pythonhosted.org/packages/97/ca/bba065ac1fee80f20e9a4e910509b1360d346ce5d9dc553ed5ed97832082/bigflow-1.9.0.dev1.tar.gz
+[2024-05-20 11:56:04] INFO root fetch - processPackages [syntrac-sdk]: executing diffoscope
+[2024-05-20 11:56:04] INFO root fetch - processPackages [syntrac-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_sdk-0.0.8.tar.gz tmp/syntrac_sdk-0.0.9.tar.gz --markdown 20240520/s/syntrac-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 11:56:04] INFO root fetch - processPackages [bigflow]: executing diffoscope
+[2024-05-20 11:56:04] INFO root fetch - processPackages [bigflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigflow-1.9.0.tar.gz tmp/bigflow-1.9.0.dev1.tar.gz --markdown 20240520/b/bigflow/1.9.0-1.9.0.dev1/README.md --exclude *.pyd
+[2024-05-20 11:56:04] INFO root fetch - processPackages [gm]: Downloading https://files.pythonhosted.org/packages/ed/9c/b495211b50350b525a7e1d5a217a4208328775a092281ed08e9e2289c966/gm-3.0.166-cp39-cp39-win_amd64.whl
+[2024-05-20 11:56:05] INFO root fetch - processPackages [mad-notifications]: Remove: archive file [/home/abi/fetcher/tmp/mad_notifications-2.2.3.tar.gz]
+[2024-05-20 11:56:05] INFO root fetch - processPackages [mad-notifications]: Remove: archive file [/home/abi/fetcher/tmp/mad_notifications-2.3.0.tar.gz]
+[2024-05-20 11:56:05] INFO root fetch - main [MainThread]: End processing [mad-notifications]: success
+[2024-05-20 11:56:05] INFO root fetch - processPackages [multibotkit]: Remove: archive file [/home/abi/fetcher/tmp/multibotkit-0.1.8.tar.gz]
+[2024-05-20 11:56:05] INFO root fetch - processPackages [multibotkit]: Remove: archive file [/home/abi/fetcher/tmp/multibotkit-0.1.9.tar.gz]
+[2024-05-20 11:56:05] INFO root fetch - main [MainThread]: End processing [multibotkit]: success
+[2024-05-20 11:56:05] INFO root fetch - processPackages [syntrac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_sdk-0.0.8.tar.gz]
+[2024-05-20 11:56:05] INFO root fetch - processPackages [syntrac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_sdk-0.0.9.tar.gz]
+[2024-05-20 11:56:05] INFO root fetch - main [MainThread]: End processing [syntrac-sdk]: success
+[2024-05-20 11:56:05] INFO root fetch - processPackages [gm]: executing diffoscope
+[2024-05-20 11:56:05] INFO root fetch - processPackages [gm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gm-3.0.165-cp39-cp39-win_amd64.whl.zip tmp/gm-3.0.166-cp39-cp39-win_amd64.whl.zip --markdown 20240520/g/gm/3.0.165-3.0.166/README.md --exclude *.pyd
+[2024-05-20 11:56:05] INFO root fetch - processPackages [bigflow]: Remove: archive file [/home/abi/fetcher/tmp/bigflow-1.9.0.tar.gz]
+[2024-05-20 11:56:05] INFO root fetch - processPackages [bigflow]: Remove: archive file [/home/abi/fetcher/tmp/bigflow-1.9.0.dev1.tar.gz]
+[2024-05-20 11:56:05] INFO root fetch - main [MainThread]: End processing [bigflow]: success
+[2024-05-20 11:56:39] INFO root fetch - processPackages [gm]: Remove: archive file [/home/abi/fetcher/tmp/gm-3.0.165-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 11:56:39] INFO root fetch - processPackages [gm]: Remove: archive file [/home/abi/fetcher/tmp/gm-3.0.166-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 11:56:39] INFO root fetch - main [MainThread]: End processing [gm]: success
+[2024-05-20 11:56:39] INFO root fetch - main [MainThread]: Store serial: [23287814]

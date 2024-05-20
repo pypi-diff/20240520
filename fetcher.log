@@ -6386,3 +6386,9 @@
 [2024-05-20 06:21:25] INFO root fetch - processPackages [gmspy]: Remove: archive file [/home/abi/fetcher/tmp/gmspy-0.0.5.tar.gz]
 [2024-05-20 06:21:25] INFO root fetch - main [MainThread]: End processing [gmspy]: success
 [2024-05-20 06:21:25] INFO root fetch - main [MainThread]: Store serial: [23284404]
+[2024-05-20 06:23:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284404]
+[2024-05-20 06:23:33] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 06:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invigourz
+[2024-05-20 06:23:34] WARNING root fetch - processPackages [invigourz]: Skipping, unable to determine old version
+[2024-05-20 06:23:34] INFO root fetch - main [MainThread]: End processing [invigourz] error
+[2024-05-20 06:23:34] INFO root fetch - main [MainThread]: Store serial: [23284408]

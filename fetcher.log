@@ -15822,3 +15822,54 @@ EOFError: EOF read where object expected
 [2024-05-20 13:47:56] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
 [2024-05-20 13:47:56] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-20 13:47:56] INFO root fetch - main [MainThread]: Store serial: [23288930]
+[2024-05-20 13:50:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288930]
+[2024-05-20 13:50:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 13:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audiconnectpy
+[2024-05-20 13:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tablemaster
+[2024-05-20 13:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uspekpy
+[2024-05-20 13:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vvspy
+[2024-05-20 13:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rdatapp
+[2024-05-20 13:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: olas-operate-middleware
+[2024-05-20 13:50:05] INFO root fetch - processPackages [vvspy]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2024-05-20 13:50:05] INFO root fetch - processPackages [audiconnectpy]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-20 13:50:05] INFO root fetch - processPackages [rdatapp]: New version: [0.6a0] Old Version: [0.5]
+[2024-05-20 13:50:05] INFO root fetch - processPackages [vvspy]: Downloading https://files.pythonhosted.org/packages/5a/87/b377eb17a69c05bd5785e82dd343567dfd1155e98cf4aeb518404a99f32a/vvspy-2.0.0b2.tar.gz
+[2024-05-20 13:50:05] WARNING root fetch - processPackages [uspekpy]: Skipping, unable to determine old version
+[2024-05-20 13:50:05] INFO root fetch - main [MainThread]: End processing [uspekpy] error
+[2024-05-20 13:50:05] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/77/0f/7724d10789f066a16650b293d1edfd101161be442140bab9d6f20b2f2e22/audiconnectpy-2.2.0.tar.gz
+[2024-05-20 13:50:05] INFO root fetch - processPackages [rdatapp]: Downloading https://files.pythonhosted.org/packages/18/29/3d02d56b210d2200dfdb605d71a6f9b622980e8bd0b034db450246887c6f/rdatapp-0.5.tar.gz
+[2024-05-20 13:50:05] INFO root fetch - processPackages [tablemaster]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-20 13:50:05] INFO root fetch - processPackages [olas-operate-middleware]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2024-05-20 13:50:06] INFO root fetch - processPackages [rdatapp]: Downloading https://files.pythonhosted.org/packages/8d/ac/304f12664f2cbce2a4609e40de95592fbb3bba421f11a6504c69e17c037c/rdatapp-0.6a0.tar.gz
+[2024-05-20 13:50:06] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/34/95/6456a1359674a87ebf356ff79208828be421253b88fc871d55f4067d7f19/tablemaster-1.2.1.tar.gz
+[2024-05-20 13:50:06] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/d2/22/dc91171f9f5c12f72fbef4ec6b6962b4e66e69f3a3fde86b4f32a9648c5c/olas_operate_middleware-0.1.0rc8.tar.gz
+[2024-05-20 13:50:06] INFO root fetch - processPackages [rdatapp]: executing diffoscope
+[2024-05-20 13:50:06] INFO root fetch - processPackages [rdatapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdatapp-0.5.tar.gz tmp/rdatapp-0.6a0.tar.gz --markdown 20240520/r/rdatapp/0.5-0.6a0/README.md --exclude *.pyd
+[2024-05-20 13:50:06] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/91/4c/19a4bbab8d65059b459fdf5ea5534a3fa04f1e7395ae102d8ae2f6ef3d8e/audiconnectpy-2.2.1.tar.gz
+[2024-05-20 13:50:06] INFO root fetch - processPackages [vvspy]: Downloading https://files.pythonhosted.org/packages/da/26/8c83ca924702519007eb0fa68eb4dcfaa1ebd6c771a5c069cd885091c2f3/vvspy-2.0.1.tar.gz
+[2024-05-20 13:50:06] INFO root fetch - processPackages [audiconnectpy]: executing diffoscope
+[2024-05-20 13:50:06] INFO root fetch - processPackages [audiconnectpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiconnectpy-2.2.0.tar.gz tmp/audiconnectpy-2.2.1.tar.gz --markdown 20240520/a/audiconnectpy/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-20 13:50:06] INFO root fetch - processPackages [tablemaster]: Downloading https://files.pythonhosted.org/packages/50/15/ed3a03ce102d3833fd362818976174bb17dd06058c10f419369749ce17e7/tablemaster-1.2.2.tar.gz
+[2024-05-20 13:50:06] INFO root fetch - processPackages [vvspy]: executing diffoscope
+[2024-05-20 13:50:06] INFO root fetch - processPackages [vvspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vvspy-2.0.0b2.tar.gz tmp/vvspy-2.0.1.tar.gz --markdown 20240520/v/vvspy/2.0.0b2-2.0.1/README.md --exclude *.pyd
+[2024-05-20 13:50:06] INFO root fetch - processPackages [tablemaster]: executing diffoscope
+[2024-05-20 13:50:06] INFO root fetch - processPackages [tablemaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablemaster-1.2.1.tar.gz tmp/tablemaster-1.2.2.tar.gz --markdown 20240520/t/tablemaster/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-20 13:50:06] INFO root fetch - processPackages [olas-operate-middleware]: Downloading https://files.pythonhosted.org/packages/8f/69/3a83cbcad75fcbdca3d7a77b5edfa7b4511dea20e87d2aacfe22a9188bc8/olas_operate_middleware-0.1.0rc9.tar.gz
+[2024-05-20 13:50:06] INFO root fetch - processPackages [olas-operate-middleware]: executing diffoscope
+[2024-05-20 13:50:06] INFO root fetch - processPackages [olas-operate-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olas_operate_middleware-0.1.0rc8.tar.gz tmp/olas_operate_middleware-0.1.0rc9.tar.gz --markdown 20240520/o/olas-operate-middleware/0.1.0rc8-0.1.0rc9/README.md --exclude *.pyd
+[2024-05-20 13:50:06] INFO root fetch - processPackages [rdatapp]: Remove: archive file [/home/abi/fetcher/tmp/rdatapp-0.5.tar.gz]
+[2024-05-20 13:50:06] INFO root fetch - processPackages [rdatapp]: Remove: archive file [/home/abi/fetcher/tmp/rdatapp-0.6a0.tar.gz]
+[2024-05-20 13:50:06] INFO root fetch - main [MainThread]: End processing [rdatapp]: success
+[2024-05-20 13:50:06] INFO root fetch - processPackages [audiconnectpy]: Remove: archive file [/home/abi/fetcher/tmp/audiconnectpy-2.2.0.tar.gz]
+[2024-05-20 13:50:06] INFO root fetch - processPackages [audiconnectpy]: Remove: archive file [/home/abi/fetcher/tmp/audiconnectpy-2.2.1.tar.gz]
+[2024-05-20 13:50:06] INFO root fetch - main [MainThread]: End processing [audiconnectpy]: success
+[2024-05-20 13:50:07] INFO root fetch - processPackages [tablemaster]: Remove: archive file [/home/abi/fetcher/tmp/tablemaster-1.2.1.tar.gz]
+[2024-05-20 13:50:07] INFO root fetch - processPackages [tablemaster]: Remove: archive file [/home/abi/fetcher/tmp/tablemaster-1.2.2.tar.gz]
+[2024-05-20 13:50:07] INFO root fetch - main [MainThread]: End processing [tablemaster]: success
+[2024-05-20 13:50:07] INFO root fetch - processPackages [vvspy]: Remove: archive file [/home/abi/fetcher/tmp/vvspy-2.0.0b2.tar.gz]
+[2024-05-20 13:50:07] INFO root fetch - processPackages [vvspy]: Remove: archive file [/home/abi/fetcher/tmp/vvspy-2.0.1.tar.gz]
+[2024-05-20 13:50:07] INFO root fetch - main [MainThread]: End processing [vvspy]: success
+[2024-05-20 13:50:07] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc8.tar.gz]
+[2024-05-20 13:50:07] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
+[2024-05-20 13:50:07] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
+[2024-05-20 13:50:07] INFO root fetch - main [MainThread]: Store serial: [23288981]

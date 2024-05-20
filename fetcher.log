@@ -23410,3 +23410,105 @@ EOFError: EOF read where object expected
 [2024-05-20 18:23:11] INFO root fetch - processPackages [gen-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/gen_wrappers-0.4.3.tar.gz]
 [2024-05-20 18:23:11] INFO root fetch - main [MainThread]: End processing [gen-wrappers]: success
 [2024-05-20 18:23:11] INFO root fetch - main [MainThread]: Store serial: [23292378]
+[2024-05-20 18:25:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292378]
+[2024-05-20 18:25:20] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-20 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cowayaio
+[2024-05-20 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: automatic-code-review-commons
+[2024-05-20 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: svsa
+[2024-05-20 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shakemap-modules
+[2024-05-20 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perseverationz
+[2024-05-20 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unfolding-linear
+[2024-05-20 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edc-model
+[2024-05-20 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: malwoverview
+[2024-05-20 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MulensModel
+[2024-05-20 18:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-gitlab
+[2024-05-20 18:25:20] INFO root fetch - processPackages [svsa]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-05-20 18:25:20] INFO root fetch - processPackages [svsa]: Downloading https://files.pythonhosted.org/packages/be/d5/d5cac030ca3cad6ed0fac5c05c5806ea1aa049741370026b5c70e756e73a/svsa-0.0.6.tar.gz
+[2024-05-20 18:25:20] INFO root fetch - processPackages [cowayaio]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 18:25:20] INFO root fetch - processPackages [automatic-code-review-commons]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 18:25:20] INFO root fetch - processPackages [shakemap-modules]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 18:25:20] INFO root fetch - processPackages [edc-model]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-20 18:25:20] WARNING root fetch - processPackages [perseverationz]: Skipping, unable to determine old version
+[2024-05-20 18:25:20] INFO root fetch - processPackages [perseverationz]: Start processing: EasyDonateClient
+[2024-05-20 18:25:20] INFO root fetch - main [MainThread]: End processing [perseverationz] error
+[2024-05-20 18:25:20] WARNING root fetch - processPackages [unfolding-linear]: Skipping, unable to determine old version
+[2024-05-20 18:25:20] INFO root fetch - processPackages [unfolding-linear]: Start processing: italian-ats-evaluator
+[2024-05-20 18:25:20] INFO root fetch - main [MainThread]: End processing [unfolding-linear] error
+[2024-05-20 18:25:20] INFO root fetch - processPackages [malwoverview]: New version: [5.4.3] Old Version: [5.4.2]
+[2024-05-20 18:25:20] INFO root fetch - processPackages [MulensModel]: New version: [2.8.1] Old Version: [2.7.2]
+[2024-05-20 18:25:20] INFO root fetch - processPackages [pulumi-gitlab]: New version: [7.0.0] Old Version: [6.9.0a1708340471]
+[2024-05-20 18:25:20] WARNING root fetch - processPackages [EasyDonateClient]: Skipping, unable to determine old version
+[2024-05-20 18:25:20] INFO root fetch - processPackages [EasyDonateClient]: Start processing: radprompter
+[2024-05-20 18:25:20] INFO root fetch - main [MainThread]: End processing [EasyDonateClient] error
+[2024-05-20 18:25:20] INFO root fetch - processPackages [italian-ats-evaluator]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-20 18:25:20] INFO root fetch - processPackages [automatic-code-review-commons]: Downloading https://files.pythonhosted.org/packages/89/f2/720397a4fbb290bec015dfbdb9f586990c23f1e6506faa60049126b4db30/automatic-code-review-commons-1.0.2.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [cowayaio]: Downloading https://files.pythonhosted.org/packages/05/95/03af1d7b18e04ee1d7857b157b3e3a0ba2953dcbfa70516a54afb168be83/cowayaio-0.1.8.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [shakemap-modules]: Downloading https://files.pythonhosted.org/packages/7a/86/0bd74cdf6c15a6a0dcaa5e1abc2971c8c36f1be33ee30c11b3e30292a63e/shakemap-modules-1.0.8.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [italian-ats-evaluator]: Downloading https://files.pythonhosted.org/packages/57/08/f1fbd8cbe339b37819458037211ce20601883f1008b483c823bd90338c73/italian_ats_evaluator-2.0.1.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [radprompter]: New version: [1.1.5] Old Version: [1.1.3]
+[2024-05-20 18:25:21] INFO root fetch - processPackages [svsa]: Downloading https://files.pythonhosted.org/packages/6f/89/eba0ad1ff3506a06fc8ff461a72a73e508dded1b4c131bd433a2115436cd/svsa-0.0.8.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [edc-model]: Downloading https://files.pythonhosted.org/packages/2f/50/3f093f49f84fdca943092a526df4af7162f963b74ba735c31e895648d975/edc_model-0.3.8-py3-none-any.whl
+[2024-05-20 18:25:21] INFO root fetch - processPackages [MulensModel]: Downloading https://files.pythonhosted.org/packages/eb/77/fdd12bd51f343c0953af1cd100c830be774b3b6272f706bd2de270c0ea98/MulensModel-2.7.2.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [malwoverview]: Downloading https://files.pythonhosted.org/packages/a7/07/3f267d879cd5daae7382d5dde3ae4eba4ed31b95d848928a5a67b06bbc57/malwoverview-5.4.2.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/ec/de/e27b5fc2f3f3a7a5f878850b1b8d0f82d5624c70b642a39146c756ea3d5c/pulumi_gitlab-6.9.0a1708340471.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [svsa]: executing diffoscope
+[2024-05-20 18:25:21] INFO root fetch - processPackages [svsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svsa-0.0.6.tar.gz tmp/svsa-0.0.8.tar.gz --markdown 20240520/s/svsa/0.0.6-0.0.8/README.md --exclude *.pyd
+[2024-05-20 18:25:21] INFO root fetch - processPackages [radprompter]: Downloading https://files.pythonhosted.org/packages/c7/0f/763e6fac8ccd84cfb778d873437c393597793fea51befab2a51fd76981ff/radprompter-1.1.3.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [automatic-code-review-commons]: Downloading https://files.pythonhosted.org/packages/5f/b0/482ea3716b08451bf683341df7f09392487f8558e11da16c93453c1933b4/automatic-code-review-commons-1.0.3.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [cowayaio]: Downloading https://files.pythonhosted.org/packages/40/c4/4129be66801cf4c03fe32e9842360bf5c48f4e903898f0fc0595f80ebf0e/cowayaio-0.1.9.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [shakemap-modules]: Downloading https://files.pythonhosted.org/packages/ba/c2/96f54a2d014612a52000ed209b562d2f7bbe8ba6d887a69c358c4f5d5213/shakemap-modules-1.0.9.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [edc-model]: Downloading https://files.pythonhosted.org/packages/22/c1/0520252af45753682431977db2a79bf94298e33d9063bd1f7d801159fbad/edc_model-0.3.9-py3-none-any.whl
+[2024-05-20 18:25:21] INFO root fetch - processPackages [automatic-code-review-commons]: executing diffoscope
+[2024-05-20 18:25:21] INFO root fetch - processPackages [automatic-code-review-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automatic-code-review-commons-1.0.2.tar.gz tmp/automatic-code-review-commons-1.0.3.tar.gz --markdown 20240520/a/automatic-code-review-commons/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 18:25:21] INFO root fetch - processPackages [cowayaio]: executing diffoscope
+[2024-05-20 18:25:21] INFO root fetch - processPackages [cowayaio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cowayaio-0.1.8.tar.gz tmp/cowayaio-0.1.9.tar.gz --markdown 20240520/c/cowayaio/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 18:25:21] INFO root fetch - processPackages [italian-ats-evaluator]: Downloading https://files.pythonhosted.org/packages/1c/31/e0bab940a0dfb439d9d0cd5a16bf339b27ac09e4ff99a746acc0f524c475/italian_ats_evaluator-2.0.2.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [malwoverview]: Downloading https://files.pythonhosted.org/packages/3b/2b/11a7715c3e6553891d7194242dafda655aec7763a01d53374ed0dc0215f3/malwoverview-5.4.3.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [shakemap-modules]: executing diffoscope
+[2024-05-20 18:25:21] INFO root fetch - processPackages [shakemap-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakemap-modules-1.0.8.tar.gz tmp/shakemap-modules-1.0.9.tar.gz --markdown 20240520/s/shakemap-modules/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 18:25:21] INFO root fetch - processPackages [edc-model]: executing diffoscope
+[2024-05-20 18:25:21] INFO root fetch - processPackages [edc-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_model-0.3.8-py3-none-any.whl.zip tmp/edc_model-0.3.9-py3-none-any.whl.zip --markdown 20240520/e/edc-model/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-20 18:25:21] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/69/19/5a7ca5cd32edb2cd624c550f61a10948a8ddc27cd4d046e2fd299da832ab/pulumi_gitlab-7.0.0.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [italian-ats-evaluator]: executing diffoscope
+[2024-05-20 18:25:21] INFO root fetch - processPackages [italian-ats-evaluator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/italian_ats_evaluator-2.0.1.tar.gz tmp/italian_ats_evaluator-2.0.2.tar.gz --markdown 20240520/i/italian-ats-evaluator/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-20 18:25:21] INFO root fetch - processPackages [radprompter]: Downloading https://files.pythonhosted.org/packages/f1/8a/29d98f6238f0b4eaad9fac04ae3d4f12b67bbe34cefe18299015c7cfd5be/radprompter-1.1.5.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [MulensModel]: Downloading https://files.pythonhosted.org/packages/ff/7f/45899cc29af1b1f2cad2f266a4a80b43828cf320e5cc33e8e75dd455946b/MulensModel-2.8.1.tar.gz
+[2024-05-20 18:25:21] INFO root fetch - processPackages [malwoverview]: executing diffoscope
+[2024-05-20 18:25:21] INFO root fetch - processPackages [malwoverview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malwoverview-5.4.2.tar.gz tmp/malwoverview-5.4.3.tar.gz --markdown 20240520/m/malwoverview/5.4.2-5.4.3/README.md --exclude *.pyd
+[2024-05-20 18:25:21] INFO root fetch - processPackages [svsa]: Remove: archive file [/home/abi/fetcher/tmp/svsa-0.0.6.tar.gz]
+[2024-05-20 18:25:21] INFO root fetch - processPackages [svsa]: Remove: archive file [/home/abi/fetcher/tmp/svsa-0.0.8.tar.gz]
+[2024-05-20 18:25:21] INFO root fetch - main [MainThread]: End processing [svsa]: success
+[2024-05-20 18:25:21] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2024-05-20 18:25:21] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz tmp/pulumi_gitlab-7.0.0.tar.gz --markdown 20240520/p/pulumi-gitlab/6.9.0a1708340471-7.0.0/README.md --exclude *.pyd
+[2024-05-20 18:25:21] INFO root fetch - processPackages [radprompter]: executing diffoscope
+[2024-05-20 18:25:21] INFO root fetch - processPackages [radprompter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radprompter-1.1.3.tar.gz tmp/radprompter-1.1.5.tar.gz --markdown 20240520/r/radprompter/1.1.3-1.1.5/README.md --exclude *.pyd
+[2024-05-20 18:25:22] INFO root fetch - processPackages [MulensModel]: executing diffoscope
+[2024-05-20 18:25:22] INFO root fetch - processPackages [MulensModel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MulensModel-2.7.2.tar.gz tmp/MulensModel-2.8.1.tar.gz --markdown 20240520/M/MulensModel/2.7.2-2.8.1/README.md --exclude *.pyd
+[2024-05-20 18:25:22] INFO root fetch - processPackages [automatic-code-review-commons]: Remove: archive file [/home/abi/fetcher/tmp/automatic-code-review-commons-1.0.2.tar.gz]
+[2024-05-20 18:25:22] INFO root fetch - processPackages [automatic-code-review-commons]: Remove: archive file [/home/abi/fetcher/tmp/automatic-code-review-commons-1.0.3.tar.gz]
+[2024-05-20 18:25:22] INFO root fetch - main [MainThread]: End processing [automatic-code-review-commons]: success
+[2024-05-20 18:25:22] INFO root fetch - processPackages [cowayaio]: Remove: archive file [/home/abi/fetcher/tmp/cowayaio-0.1.8.tar.gz]
+[2024-05-20 18:25:22] INFO root fetch - processPackages [cowayaio]: Remove: archive file [/home/abi/fetcher/tmp/cowayaio-0.1.9.tar.gz]
+[2024-05-20 18:25:22] INFO root fetch - main [MainThread]: End processing [cowayaio]: success
+[2024-05-20 18:25:22] INFO root fetch - processPackages [italian-ats-evaluator]: Remove: archive file [/home/abi/fetcher/tmp/italian_ats_evaluator-2.0.1.tar.gz]
+[2024-05-20 18:25:22] INFO root fetch - processPackages [italian-ats-evaluator]: Remove: archive file [/home/abi/fetcher/tmp/italian_ats_evaluator-2.0.2.tar.gz]
+[2024-05-20 18:25:22] INFO root fetch - main [MainThread]: End processing [italian-ats-evaluator]: success
+[2024-05-20 18:25:22] INFO root fetch - processPackages [edc-model]: Remove: archive file [/home/abi/fetcher/tmp/edc_model-0.3.8-py3-none-any.whl.zip]
+[2024-05-20 18:25:22] INFO root fetch - processPackages [edc-model]: Remove: archive file [/home/abi/fetcher/tmp/edc_model-0.3.9-py3-none-any.whl.zip]
+[2024-05-20 18:25:22] INFO root fetch - main [MainThread]: End processing [edc-model]: success
+[2024-05-20 18:25:22] INFO root fetch - processPackages [malwoverview]: Remove: archive file [/home/abi/fetcher/tmp/malwoverview-5.4.2.tar.gz]
+[2024-05-20 18:25:22] INFO root fetch - processPackages [malwoverview]: Remove: archive file [/home/abi/fetcher/tmp/malwoverview-5.4.3.tar.gz]
+[2024-05-20 18:25:22] INFO root fetch - main [MainThread]: End processing [malwoverview]: success
+[2024-05-20 18:25:22] INFO root fetch - processPackages [radprompter]: Remove: archive file [/home/abi/fetcher/tmp/radprompter-1.1.3.tar.gz]
+[2024-05-20 18:25:22] INFO root fetch - processPackages [radprompter]: Remove: archive file [/home/abi/fetcher/tmp/radprompter-1.1.5.tar.gz]
+[2024-05-20 18:25:22] INFO root fetch - main [MainThread]: End processing [radprompter]: success
+[2024-05-20 18:25:23] INFO root fetch - processPackages [shakemap-modules]: Remove: archive file [/home/abi/fetcher/tmp/shakemap-modules-1.0.8.tar.gz]
+[2024-05-20 18:25:23] INFO root fetch - processPackages [shakemap-modules]: Remove: archive file [/home/abi/fetcher/tmp/shakemap-modules-1.0.9.tar.gz]
+[2024-05-20 18:25:23] INFO root fetch - main [MainThread]: End processing [shakemap-modules]: success
+[2024-05-20 18:25:23] INFO root fetch - processPackages [MulensModel]: Remove: archive file [/home/abi/fetcher/tmp/MulensModel-2.7.2.tar.gz]
+[2024-05-20 18:25:23] INFO root fetch - processPackages [MulensModel]: Remove: archive file [/home/abi/fetcher/tmp/MulensModel-2.8.1.tar.gz]
+[2024-05-20 18:25:23] INFO root fetch - main [MainThread]: End processing [MulensModel]: success
+[2024-05-20 18:25:24] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.9.0a1708340471.tar.gz]
+[2024-05-20 18:25:24] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-7.0.0.tar.gz]
+[2024-05-20 18:25:24] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2024-05-20 18:25:24] INFO root fetch - main [MainThread]: Store serial: [23292431]

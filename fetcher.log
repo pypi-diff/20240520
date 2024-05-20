@@ -6130,3 +6130,15 @@
 [2024-05-20 05:56:43] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-1.1.0.tar.gz]
 [2024-05-20 05:56:43] INFO root fetch - main [MainThread]: End processing [ca-vntl-helper]: success
 [2024-05-20 05:56:43] INFO root fetch - main [MainThread]: Store serial: [23284301]
+[2024-05-20 05:58:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284301]
+[2024-05-20 05:58:52] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 05:58:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py50
+[2024-05-20 05:58:52] INFO root fetch - processPackages [py50]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-20 05:58:52] INFO root fetch - processPackages [py50]: Downloading https://files.pythonhosted.org/packages/af/94/9ecb346c9763c21442a8906a0c30b15ab94c58a9d1cbf78e6d7e69454b23/py50-1.0.4.tar.gz
+[2024-05-20 05:58:52] INFO root fetch - processPackages [py50]: Downloading https://files.pythonhosted.org/packages/e6/53/8347df2e68635487264c60139aafb5f3fbe0d99c302e587109e5508ab444/py50-1.0.5.tar.gz
+[2024-05-20 05:58:52] INFO root fetch - processPackages [py50]: executing diffoscope
+[2024-05-20 05:58:52] INFO root fetch - processPackages [py50]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py50-1.0.4.tar.gz tmp/py50-1.0.5.tar.gz --markdown 20240520/p/py50/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-20 05:58:53] INFO root fetch - processPackages [py50]: Remove: archive file [/home/abi/fetcher/tmp/py50-1.0.4.tar.gz]
+[2024-05-20 05:58:53] INFO root fetch - processPackages [py50]: Remove: archive file [/home/abi/fetcher/tmp/py50-1.0.5.tar.gz]
+[2024-05-20 05:58:53] INFO root fetch - main [MainThread]: End processing [py50]: success
+[2024-05-20 05:58:53] INFO root fetch - main [MainThread]: Store serial: [23284305]

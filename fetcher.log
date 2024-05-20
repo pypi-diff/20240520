@@ -19643,3 +19643,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 16:05:47] INFO root fetch - processPackages [pwebarc-wrrarms]: Remove: archive file [/home/abi/fetcher/tmp/pwebarc-wrrarms-0.9.0.tar.gz]
 [2024-05-20 16:05:47] INFO root fetch - main [MainThread]: End processing [pwebarc-wrrarms]: success
 [2024-05-20 16:05:47] INFO root fetch - main [MainThread]: Store serial: [23290794]
+[2024-05-20 16:07:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290794]
+[2024-05-20 16:07:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-20 16:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2024-05-20 16:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beignet
+[2024-05-20 16:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zcbot-web-core
+[2024-05-20 16:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: batch-framework
+[2024-05-20 16:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: utilmy
+[2024-05-20 16:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: review-ingest-app
+[2024-05-20 16:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bert-intent-slot-can
+[2024-05-20 16:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PepperPepper
+[2024-05-20 16:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metaphor-connectors
+[2024-05-20 16:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pycrtbp
+[2024-05-20 16:07:59] INFO root fetch - processPackages [batch-framework]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-20 16:07:59] INFO root fetch - processPackages [beignet]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 16:07:59] WARNING root fetch - processPackages [pycrtbp]: Skipping, unable to determine old version
+[2024-05-20 16:07:59] INFO root fetch - processPackages [pycrtbp]: Start processing: octue-openfast
+[2024-05-20 16:07:59] INFO root fetch - main [MainThread]: End processing [pycrtbp] error
+[2024-05-20 16:07:59] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-20 16:07:59] WARNING root fetch - processPackages [review-ingest-app]: Skipping, unable to determine old version
+[2024-05-20 16:07:59] INFO root fetch - processPackages [review-ingest-app]: Start processing: multi-interface
+[2024-05-20 16:07:59] INFO root fetch - main [MainThread]: End processing [review-ingest-app] error
+[2024-05-20 16:07:59] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-20 16:07:59] INFO root fetch - processPackages [utilmy]: New version: [0.1.17162036] Old Version: [0.1.17161284]
+[2024-05-20 16:07:59] WARNING root fetch - processPackages [bert-intent-slot-can]: Skipping, unable to determine old version
+[2024-05-20 16:07:59] INFO root fetch - main [MainThread]: End processing [bert-intent-slot-can] error
+[2024-05-20 16:07:59] INFO root fetch - processPackages [zcbot-web-core]: New version: [1.9] Old Version: [1.8]
+[2024-05-20 16:07:59] INFO root fetch - processPackages [batch-framework]: Downloading https://files.pythonhosted.org/packages/ef/09/e8f40d6988d5da3456e1cc038c268cffb78137cd143bfe9054254692531d/batch-framework-0.2.1.tar.gz
+[2024-05-20 16:07:59] INFO root fetch - processPackages [beignet]: Downloading https://files.pythonhosted.org/packages/9c/10/582bf77318b9384ef346f1db1492dbf3b3d3e8241b0882ff8e8c83b84d7d/beignet-0.0.2.tar.gz
+[2024-05-20 16:07:59] WARNING root fetch - processPackages [octue-openfast]: Skipping, unable to determine old version
+[2024-05-20 16:07:59] INFO root fetch - main [MainThread]: End processing [octue-openfast] error
+[2024-05-20 16:07:59] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/a2/6a/fc1e17ed8249aa662d736747b383ab6c49c7144dc000f01a9057721c3218/pepperpepper-0.0.7.8.tar.gz
+[2024-05-20 16:07:59] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-20 16:07:59] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/b8/08/f8c81382e22e715bd6eb099abafe0a6d5d1961787f2c89d2175255635d1a/utilmy-0.1.17161284.tar.gz
+[2024-05-20 16:07:59] WARNING root fetch - processPackages [multi-interface]: Skipping, unable to determine old version
+[2024-05-20 16:07:59] INFO root fetch - main [MainThread]: End processing [multi-interface] error
+[2024-05-20 16:07:59] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-20 16:07:59] INFO root fetch - processPackages [zcbot-web-core]: Downloading https://files.pythonhosted.org/packages/8e/1b/c708c5a5d6c6afabb6fa37d532cdd71b40696e7474f521fc148af547e058/zcbot-web-core-1.8.tar.gz
+[2024-05-20 16:07:59] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/bd/bd/74c69c2a57615281d2dab96af6ddca9210d7c0be7e2ab04c6f559e1aea99/pepperpepper-0.0.7.9.tar.gz
+[2024-05-20 16:07:59] INFO root fetch - processPackages [beignet]: Downloading https://files.pythonhosted.org/packages/83/8e/1b39bdc678a3352d236180e3bbf5a863973b990b5e438cdc99d5d068773f/beignet-0.0.3.tar.gz
+[2024-05-20 16:07:59] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2024-05-20 16:07:59] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-20 16:07:59] INFO root fetch - processPackages [batch-framework]: Downloading https://files.pythonhosted.org/packages/7a/9a/583f3e14d368efc404973e8b46059b26cf58d13e9f9b4b483d9581a67a87/batch-framework-0.2.2.tar.gz
+[2024-05-20 16:08:00] INFO root fetch - processPackages [beignet]: executing diffoscope
+[2024-05-20 16:08:00] INFO root fetch - processPackages [beignet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beignet-0.0.2.tar.gz tmp/beignet-0.0.3.tar.gz --markdown 20240520/b/beignet/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 16:08:00] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-20 16:08:00] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.8.tar.gz tmp/pepperpepper-0.0.7.9.tar.gz --markdown 20240520/P/PepperPepper/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-20 16:08:00] INFO root fetch - processPackages [batch-framework]: executing diffoscope
+[2024-05-20 16:08:00] INFO root fetch - processPackages [batch-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batch-framework-0.2.1.tar.gz tmp/batch-framework-0.2.2.tar.gz --markdown 20240520/b/batch-framework/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-20 16:08:00] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-20 16:08:00] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240520/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-20 16:08:00] INFO root fetch - processPackages [zcbot-web-core]: Downloading https://files.pythonhosted.org/packages/e2/ee/ee6c1ef3025adbd2050fce3f3af6f7be8f5f4e3e78736755de8cbe8feb98/zcbot-web-core-1.9.tar.gz
+[2024-05-20 16:08:00] INFO root fetch - processPackages [zcbot-web-core]: executing diffoscope
+[2024-05-20 16:08:00] INFO root fetch - processPackages [zcbot-web-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-web-core-1.8.tar.gz tmp/zcbot-web-core-1.9.tar.gz --markdown 20240520/z/zcbot-web-core/1.8-1.9/README.md --exclude *.pyd
+[2024-05-20 16:08:00] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2024-05-20 16:08:00] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/d9/02/3af2757c12ecfe1565659fbc9c6b8831a725d5e6ba55b1e6cfae185d4639/utilmy-0.1.17162036.tar.gz
+[2024-05-20 16:08:00] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2024-05-20 16:08:00] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20240520/m/metaphor-connectors/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-20 16:08:00] INFO root fetch - processPackages [beignet]: Remove: archive file [/home/abi/fetcher/tmp/beignet-0.0.2.tar.gz]
+[2024-05-20 16:08:00] INFO root fetch - processPackages [beignet]: Remove: archive file [/home/abi/fetcher/tmp/beignet-0.0.3.tar.gz]
+[2024-05-20 16:08:00] INFO root fetch - main [MainThread]: End processing [beignet]: success
+[2024-05-20 16:08:00] INFO root fetch - processPackages [batch-framework]: Remove: archive file [/home/abi/fetcher/tmp/batch-framework-0.2.1.tar.gz]
+[2024-05-20 16:08:00] INFO root fetch - processPackages [batch-framework]: Remove: archive file [/home/abi/fetcher/tmp/batch-framework-0.2.2.tar.gz]
+[2024-05-20 16:08:00] INFO root fetch - main [MainThread]: End processing [batch-framework]: success
+[2024-05-20 16:08:00] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.8.tar.gz]
+[2024-05-20 16:08:00] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
+[2024-05-20 16:08:00] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-20 16:08:00] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-20 16:08:00] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-20 16:08:00] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-20 16:08:00] INFO root fetch - processPackages [utilmy]: executing diffoscope
+[2024-05-20 16:08:00] INFO root fetch - processPackages [utilmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilmy-0.1.17161284.tar.gz tmp/utilmy-0.1.17162036.tar.gz --markdown 20240520/u/utilmy/0.1.17161284-0.1.17162036/README.md --exclude *.pyd
+[2024-05-20 16:08:01] INFO root fetch - processPackages [zcbot-web-core]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-web-core-1.8.tar.gz]
+[2024-05-20 16:08:01] INFO root fetch - processPackages [zcbot-web-core]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-web-core-1.9.tar.gz]
+[2024-05-20 16:08:01] INFO root fetch - main [MainThread]: End processing [zcbot-web-core]: success
+[2024-05-20 16:08:01] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2024-05-20 16:08:01] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2024-05-20 16:08:01] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2024-05-20 16:08:13] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17161284.tar.gz]
+[2024-05-20 16:08:13] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17162036.tar.gz]
+[2024-05-20 16:08:13] INFO root fetch - main [MainThread]: End processing [utilmy]: success
+[2024-05-20 16:08:13] INFO root fetch - main [MainThread]: Store serial: [23290839]

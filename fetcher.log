@@ -11991,3 +11991,52 @@
 [2024-05-20 11:12:21] INFO root fetch - processPackages [cads-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cads_api_client-1.0.3.tar.gz]
 [2024-05-20 11:12:21] INFO root fetch - main [MainThread]: End processing [cads-api-client]: success
 [2024-05-20 11:12:21] INFO root fetch - main [MainThread]: Store serial: [23287370]
+[2024-05-20 11:14:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287370]
+[2024-05-20 11:14:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 11:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-superapp
+[2024-05-20 11:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wizata-dsapi
+[2024-05-20 11:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sais-notify-test
+[2024-05-20 11:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anagrammedz
+[2024-05-20 11:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wizata-dsapi
+[2024-05-20 11:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mountain-chicken
+[2024-05-20 11:14:30] INFO root fetch - processPackages [django-superapp]: New version: [1.0.4] Old Version: [1.0.0]
+[2024-05-20 11:14:30] INFO root fetch - processPackages [mountain-chicken]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-20 11:14:30] INFO root fetch - processPackages [sais-notify-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 11:14:30] INFO root fetch - processPackages [django-superapp]: Downloading https://files.pythonhosted.org/packages/78/de/1f5c2f85daecea970a5042136703f2f3c2174846ecf95cec5fbc923c373b/django_superapp-1.0.0.tar.gz
+[2024-05-20 11:14:30] INFO root fetch - processPackages [mountain-chicken]: Downloading https://files.pythonhosted.org/packages/d7/c6/fdc370966ad7bc7cb25818ca8261a97e74c8950336b3dcc7586c4374ffe8/mountain_chicken-0.1.6.tar.gz
+[2024-05-20 11:14:30] WARNING root fetch - processPackages [anagrammedz]: Skipping, unable to determine old version
+[2024-05-20 11:14:30] INFO root fetch - main [MainThread]: End processing [anagrammedz] error
+[2024-05-20 11:14:30] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/94/42/07c0e25844ffdc6494e7447658dc084d6435c7343816264387d435ddb98d/sais_notify_test-0.0.8.tar.gz
+[2024-05-20 11:14:30] INFO root fetch - processPackages [wizata-dsapi]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-20 11:14:30] INFO root fetch - processPackages [wizata-dsapi]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-20 11:14:31] INFO root fetch - processPackages [django-superapp]: Downloading https://files.pythonhosted.org/packages/81/b3/24751056a3ea9b5a1eb305d52f5cffea5a9d4d0220e7270c1de063bfe6b2/django_superapp-1.0.4.tar.gz
+[2024-05-20 11:14:31] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/af/7a/ac17f0daa7ab738fe2f5e638d62f2cb8c0c1f86f8cadd5913ea740c174aa/sais_notify_test-0.0.9.tar.gz
+[2024-05-20 11:14:31] INFO root fetch - processPackages [django-superapp]: executing diffoscope
+[2024-05-20 11:14:31] INFO root fetch - processPackages [django-superapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_superapp-1.0.0.tar.gz tmp/django_superapp-1.0.4.tar.gz --markdown 20240520/d/django-superapp/1.0.0-1.0.4/README.md --exclude *.pyd
+[2024-05-20 11:14:31] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/31/b9/642d3bb62da98cc25253d924a94d95d33b01dcb06e718a57455cf5442e7c/wizata_dsapi-1.0.3.tar.gz
+[2024-05-20 11:14:31] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/31/b9/642d3bb62da98cc25253d924a94d95d33b01dcb06e718a57455cf5442e7c/wizata_dsapi-1.0.3.tar.gz
+[2024-05-20 11:14:31] INFO root fetch - processPackages [mountain-chicken]: Downloading https://files.pythonhosted.org/packages/ce/4b/fa7843758e6b238af1406a88f3b488e8d350d236ea8ed520627ffb8ecfa5/mountain_chicken-0.1.7.tar.gz
+[2024-05-20 11:14:31] INFO root fetch - processPackages [sais-notify-test]: executing diffoscope
+[2024-05-20 11:14:31] INFO root fetch - processPackages [sais-notify-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify_test-0.0.8.tar.gz tmp/sais_notify_test-0.0.9.tar.gz --markdown 20240520/s/sais-notify-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 11:14:31] INFO root fetch - processPackages [mountain-chicken]: executing diffoscope
+[2024-05-20 11:14:31] INFO root fetch - processPackages [mountain-chicken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mountain_chicken-0.1.6.tar.gz tmp/mountain_chicken-0.1.7.tar.gz --markdown 20240520/m/mountain-chicken/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-20 11:14:31] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/03/21/3aba3b958f54d7fba757bc5c5e635414bac546cab394d7fc2edec3052eb5/wizata_dsapi-1.0.4.tar.gz
+[2024-05-20 11:14:31] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/03/21/3aba3b958f54d7fba757bc5c5e635414bac546cab394d7fc2edec3052eb5/wizata_dsapi-1.0.4.tar.gz
+[2024-05-20 11:14:31] INFO root fetch - processPackages [django-superapp]: Remove: archive file [/home/abi/fetcher/tmp/django_superapp-1.0.0.tar.gz]
+[2024-05-20 11:14:31] INFO root fetch - processPackages [django-superapp]: Remove: archive file [/home/abi/fetcher/tmp/django_superapp-1.0.4.tar.gz]
+[2024-05-20 11:14:31] INFO root fetch - main [MainThread]: End processing [django-superapp]: success
+[2024-05-20 11:14:31] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2024-05-20 11:14:31] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata_dsapi-1.0.3.tar.gz tmp/wizata_dsapi-1.0.4.tar.gz --markdown 20240520/w/wizata-dsapi/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-20 11:14:31] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2024-05-20 11:14:31] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata_dsapi-1.0.3.tar.gz tmp/wizata_dsapi-1.0.4.tar.gz --markdown 20240520/w/wizata-dsapi/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-20 11:14:31] INFO root fetch - processPackages [mountain-chicken]: Remove: archive file [/home/abi/fetcher/tmp/mountain_chicken-0.1.6.tar.gz]
+[2024-05-20 11:14:31] INFO root fetch - processPackages [mountain-chicken]: Remove: archive file [/home/abi/fetcher/tmp/mountain_chicken-0.1.7.tar.gz]
+[2024-05-20 11:14:31] INFO root fetch - main [MainThread]: End processing [mountain-chicken]: success
+[2024-05-20 11:14:31] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.8.tar.gz]
+[2024-05-20 11:14:31] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.9.tar.gz]
+[2024-05-20 11:14:31] INFO root fetch - main [MainThread]: End processing [sais-notify-test]: success
+[2024-05-20 11:14:32] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata_dsapi-1.0.3.tar.gz]
+[2024-05-20 11:14:32] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata_dsapi-1.0.4.tar.gz]
+[2024-05-20 11:14:32] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2024-05-20 11:14:32] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2024-05-20 11:14:32] INFO root fetch - main [MainThread]: Store serial: [23287400]

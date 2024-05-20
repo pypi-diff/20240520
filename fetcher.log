@@ -8899,3 +8899,44 @@
 [2024-05-20 08:54:07] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc9.tar.gz]
 [2024-05-20 08:54:07] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2024-05-20 08:54:07] INFO root fetch - main [MainThread]: Store serial: [23285842]
+[2024-05-20 08:56:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285842]
+[2024-05-20 08:56:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: azure-mgmt-sql
+[2024-05-20 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: example-package-chaoren2
+[2024-05-20 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: renify
+[2024-05-20 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: toolheadsz
+[2024-05-20 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PipeGraphPy
+[2024-05-20 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdkms-cli
+[2024-05-20 08:56:17] INFO root fetch - processPackages [azure-mgmt-sql]: New version: [4.0.0b9] Old Version: [4.0.0b8]
+[2024-05-20 08:56:17] INFO root fetch - processPackages [renify]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 08:56:17] WARNING root fetch - processPackages [example-package-chaoren2]: Skipping, unable to determine old version
+[2024-05-20 08:56:17] INFO root fetch - main [MainThread]: End processing [example-package-chaoren2] error
+[2024-05-20 08:56:17] INFO root fetch - processPackages [sdkms-cli]: New version: [4.9.2084] Old Version: [4.8.2070]
+[2024-05-20 08:56:17] WARNING root fetch - processPackages [toolheadsz]: Skipping, unable to determine old version
+[2024-05-20 08:56:17] INFO root fetch - main [MainThread]: End processing [toolheadsz] error
+[2024-05-20 08:56:17] INFO root fetch - processPackages [PipeGraphPy]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 08:56:17] INFO root fetch - processPackages [azure-mgmt-sql]: Downloading https://files.pythonhosted.org/packages/b5/4f/a5dfd452b1c4969300a38d0ee5fce4f2f24d7e935afb1cc33c3ee78c0302/azure-mgmt-sql-4.0.0b8.zip
+[2024-05-20 08:56:17] INFO root fetch - processPackages [renify]: Downloading https://files.pythonhosted.org/packages/0c/f0/06d02d68b3c9a79a677de1cbbbb5e97ac8e5061fe7038e4282d3a6b85fed/renify-0.1.0.tar.gz
+[2024-05-20 08:56:17] INFO root fetch - processPackages [PipeGraphPy]: Downloading https://files.pythonhosted.org/packages/ac/37/96d2d6b3c91b0597b28d9a3c23d4fca2cfefec589be454e341aa065f7be2/pipegraphpy-1.0.8.tar.gz
+[2024-05-20 08:56:17] INFO root fetch - processPackages [sdkms-cli]: Downloading https://files.pythonhosted.org/packages/ce/df/888a73dc14736bafe467cac490c2a231c34270ef4a248dc7e95c23a21cc6/sdkms_cli-4.8.2070-py2.py3-none-any.whl
+[2024-05-20 08:56:17] WARNING root fetch - processPackages [PipeGraphPy]: Skipping package: exceeds size limit 14474483>=10485760
+[2024-05-20 08:56:17] INFO root fetch - main [MainThread]: End processing [PipeGraphPy] error
+[2024-05-20 08:56:17] INFO root fetch - processPackages [sdkms-cli]: Downloading https://files.pythonhosted.org/packages/1d/ab/2ce96f7ea033e0563c2cf90b1912ff4248926a3362c7af09515ba3b6c790/sdkms_cli-4.9.2084-py3-none-any.whl
+[2024-05-20 08:56:17] INFO root fetch - processPackages [azure-mgmt-sql]: Downloading https://files.pythonhosted.org/packages/87/bf/8641af0272d36dd2e3c709f6331087efbccb34475cce793b767db5791f90/azure-mgmt-sql-4.0.0b9.zip
+[2024-05-20 08:56:17] INFO root fetch - processPackages [sdkms-cli]: executing diffoscope
+[2024-05-20 08:56:17] INFO root fetch - processPackages [sdkms-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkms_cli-4.8.2070-py2.py3-none-any.whl.zip tmp/sdkms_cli-4.9.2084-py3-none-any.whl.zip --markdown 20240520/s/sdkms-cli/4.8.2070-4.9.2084/README.md --exclude *.pyd
+[2024-05-20 08:56:17] INFO root fetch - processPackages [renify]: Downloading https://files.pythonhosted.org/packages/69/27/af74f748bc50525626ed719dd59ab83dce615cd1b0d6edc0fd4683e8ccaf/renify-0.1.1.tar.gz
+[2024-05-20 08:56:18] INFO root fetch - processPackages [azure-mgmt-sql]: executing diffoscope
+[2024-05-20 08:56:18] INFO root fetch - processPackages [azure-mgmt-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-sql-4.0.0b8.zip tmp/azure-mgmt-sql-4.0.0b9.zip --markdown 20240520/a/azure-mgmt-sql/4.0.0b8-4.0.0b9/README.md --exclude *.pyd
+[2024-05-20 08:56:18] INFO root fetch - processPackages [renify]: executing diffoscope
+[2024-05-20 08:56:18] INFO root fetch - processPackages [renify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renify-0.1.0.tar.gz tmp/renify-0.1.1.tar.gz --markdown 20240520/r/renify/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 08:56:18] INFO root fetch - processPackages [sdkms-cli]: Remove: archive file [/home/abi/fetcher/tmp/sdkms_cli-4.8.2070-py2.py3-none-any.whl.zip]
+[2024-05-20 08:56:18] INFO root fetch - processPackages [sdkms-cli]: Remove: archive file [/home/abi/fetcher/tmp/sdkms_cli-4.9.2084-py3-none-any.whl.zip]
+[2024-05-20 08:56:18] INFO root fetch - main [MainThread]: End processing [sdkms-cli]: success
+[2024-05-20 08:56:19] INFO root fetch - processPackages [renify]: Remove: archive file [/home/abi/fetcher/tmp/renify-0.1.0.tar.gz]
+[2024-05-20 08:56:19] INFO root fetch - processPackages [renify]: Remove: archive file [/home/abi/fetcher/tmp/renify-0.1.1.tar.gz]
+[2024-05-20 08:56:19] INFO root fetch - main [MainThread]: End processing [renify]: success
+[2024-05-20 08:56:23] INFO root fetch - processPackages [azure-mgmt-sql]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-sql-4.0.0b8.zip]
+[2024-05-20 08:56:23] INFO root fetch - processPackages [azure-mgmt-sql]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-sql-4.0.0b9.zip]
+[2024-05-20 08:56:23] INFO root fetch - main [MainThread]: End processing [azure-mgmt-sql]: success
+[2024-05-20 08:56:23] INFO root fetch - main [MainThread]: Store serial: [23285870]

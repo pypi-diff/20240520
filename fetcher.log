@@ -14752,3 +14752,36 @@
 [2024-05-20 13:06:04] INFO root fetch - processPackages [schemaorg-lite]: Remove: archive file [/home/abi/fetcher/tmp/schemaorg_lite-0.1.9.tar.gz]
 [2024-05-20 13:06:04] INFO root fetch - main [MainThread]: End processing [schemaorg-lite]: success
 [2024-05-20 13:06:04] INFO root fetch - main [MainThread]: Store serial: [23288526]
+[2024-05-20 13:08:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288526]
+[2024-05-20 13:08:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 13:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poyntillz
+[2024-05-20 13:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rdatapp
+[2024-05-20 13:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alita-sdk
+[2024-05-20 13:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: starlette-async-jinja
+[2024-05-20 13:08:13] INFO root fetch - processPackages [alita-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 13:08:13] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/58/77/699a43c7f5d3229ed63ff8d8eaba7999323921fbe9a94d3dd2d8b0f9b7a6/alita_sdk-0.1.8.tar.gz
+[2024-05-20 13:08:13] WARNING root fetch - processPackages [poyntillz]: Skipping, unable to determine old version
+[2024-05-20 13:08:13] INFO root fetch - main [MainThread]: End processing [poyntillz] error
+[2024-05-20 13:08:13] INFO root fetch - processPackages [rdatapp]: New version: [0.6a0] Old Version: [0.5]
+[2024-05-20 13:08:13] INFO root fetch - processPackages [starlette-async-jinja]: New version: [1.7.6] Old Version: [1.7.5]
+[2024-05-20 13:08:13] INFO root fetch - processPackages [rdatapp]: Downloading https://files.pythonhosted.org/packages/18/29/3d02d56b210d2200dfdb605d71a6f9b622980e8bd0b034db450246887c6f/rdatapp-0.5.tar.gz
+[2024-05-20 13:08:13] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/6d/5f/08f7caedc136fde13091ef88ae35349e7285ef4b9c181b34fb1c4dffd4ba/alita_sdk-0.1.9.tar.gz
+[2024-05-20 13:08:13] INFO root fetch - processPackages [starlette-async-jinja]: Downloading https://files.pythonhosted.org/packages/70/bd/f66c62d5a3ac05cb7fb9056b1591a670f552056129809756410f86d0a8f0/starlette_async_jinja-1.7.5.tar.gz
+[2024-05-20 13:08:13] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-05-20 13:08:13] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.1.8.tar.gz tmp/alita_sdk-0.1.9.tar.gz --markdown 20240520/a/alita-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 13:08:13] INFO root fetch - processPackages [rdatapp]: Downloading https://files.pythonhosted.org/packages/8d/ac/304f12664f2cbce2a4609e40de95592fbb3bba421f11a6504c69e17c037c/rdatapp-0.6a0.tar.gz
+[2024-05-20 13:08:13] INFO root fetch - processPackages [starlette-async-jinja]: Downloading https://files.pythonhosted.org/packages/49/ee/672095329e6aaabbee820a2a89ffd79dce1186012913d07802290117c3b2/starlette_async_jinja-1.7.6.tar.gz
+[2024-05-20 13:08:14] INFO root fetch - processPackages [rdatapp]: executing diffoscope
+[2024-05-20 13:08:14] INFO root fetch - processPackages [rdatapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdatapp-0.5.tar.gz tmp/rdatapp-0.6a0.tar.gz --markdown 20240520/r/rdatapp/0.5-0.6a0/README.md --exclude *.pyd
+[2024-05-20 13:08:14] INFO root fetch - processPackages [starlette-async-jinja]: executing diffoscope
+[2024-05-20 13:08:14] INFO root fetch - processPackages [starlette-async-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_async_jinja-1.7.5.tar.gz tmp/starlette_async_jinja-1.7.6.tar.gz --markdown 20240520/s/starlette-async-jinja/1.7.5-1.7.6/README.md --exclude *.pyd
+[2024-05-20 13:08:14] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.8.tar.gz]
+[2024-05-20 13:08:14] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.9.tar.gz]
+[2024-05-20 13:08:14] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-05-20 13:08:14] INFO root fetch - processPackages [rdatapp]: Remove: archive file [/home/abi/fetcher/tmp/rdatapp-0.5.tar.gz]
+[2024-05-20 13:08:14] INFO root fetch - processPackages [rdatapp]: Remove: archive file [/home/abi/fetcher/tmp/rdatapp-0.6a0.tar.gz]
+[2024-05-20 13:08:14] INFO root fetch - main [MainThread]: End processing [rdatapp]: success
+[2024-05-20 13:08:14] INFO root fetch - processPackages [starlette-async-jinja]: Remove: archive file [/home/abi/fetcher/tmp/starlette_async_jinja-1.7.5.tar.gz]
+[2024-05-20 13:08:14] INFO root fetch - processPackages [starlette-async-jinja]: Remove: archive file [/home/abi/fetcher/tmp/starlette_async_jinja-1.7.6.tar.gz]
+[2024-05-20 13:08:14] INFO root fetch - main [MainThread]: End processing [starlette-async-jinja]: success
+[2024-05-20 13:08:14] INFO root fetch - main [MainThread]: Store serial: [23288540]

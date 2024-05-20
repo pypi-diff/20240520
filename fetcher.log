@@ -6005,3 +6005,37 @@
 [2024-05-20 05:45:52] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.1.0.tar.gz]
 [2024-05-20 05:45:52] INFO root fetch - main [MainThread]: End processing [ventures]: success
 [2024-05-20 05:45:52] INFO root fetch - main [MainThread]: Store serial: [23284210]
+[2024-05-20 05:47:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284210]
+[2024-05-20 05:48:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 05:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sonicsz
+[2024-05-20 05:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anycrc
+[2024-05-20 05:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ventures
+[2024-05-20 05:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codeguessr
+[2024-05-20 05:48:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ventures
+[2024-05-20 05:48:01] INFO root fetch - processPackages [ventures]: New version: [1.1.2] Old Version: [1.1.0]
+[2024-05-20 05:48:01] INFO root fetch - processPackages [ventures]: New version: [1.1.2] Old Version: [1.1.0]
+[2024-05-20 05:48:01] WARNING root fetch - processPackages [sonicsz]: Skipping, unable to determine old version
+[2024-05-20 05:48:01] INFO root fetch - main [MainThread]: End processing [sonicsz] error
+[2024-05-20 05:48:01] WARNING root fetch - processPackages [codeguessr]: Skipping, unable to determine old version
+[2024-05-20 05:48:01] INFO root fetch - main [MainThread]: End processing [codeguessr] error
+[2024-05-20 05:48:01] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/7f/55/71814ef77eb6efa2bbc6946b756175dd176ab88325be170fabcbcb39ba18/ventures-1.1.0.tar.gz
+[2024-05-20 05:48:01] INFO root fetch - processPackages [anycrc]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-20 05:48:01] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/7f/55/71814ef77eb6efa2bbc6946b756175dd176ab88325be170fabcbcb39ba18/ventures-1.1.0.tar.gz
+[2024-05-20 05:48:02] INFO root fetch - processPackages [anycrc]: Downloading https://files.pythonhosted.org/packages/8f/a3/75ee4b3041b95eeb5eff168021976754510742517f5aa52d4cfb54e11153/anycrc-0.7.3.tar.gz
+[2024-05-20 05:48:02] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/06/41/b5e2c6d0d86a06b188dd89a34c2b3c12daeefd37c77bf6878a6a5def8c03/ventures-1.1.2.tar.gz
+[2024-05-20 05:48:02] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/06/41/b5e2c6d0d86a06b188dd89a34c2b3c12daeefd37c77bf6878a6a5def8c03/ventures-1.1.2.tar.gz
+[2024-05-20 05:48:02] INFO root fetch - processPackages [ventures]: executing diffoscope
+[2024-05-20 05:48:02] INFO root fetch - processPackages [ventures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ventures-1.1.0.tar.gz tmp/ventures-1.1.2.tar.gz --markdown 20240520/v/ventures/1.1.0-1.1.2/README.md --exclude *.pyd
+[2024-05-20 05:48:02] INFO root fetch - processPackages [anycrc]: Downloading https://files.pythonhosted.org/packages/39/67/f7411816ee4117465ff82c8680095f1915c13b281aeedc5f457ba45bd367/anycrc-0.7.4.tar.gz
+[2024-05-20 05:48:02] INFO root fetch - processPackages [ventures]: executing diffoscope
+[2024-05-20 05:48:02] INFO root fetch - processPackages [ventures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ventures-1.1.0.tar.gz tmp/ventures-1.1.2.tar.gz --markdown 20240520/v/ventures/1.1.0-1.1.2/README.md --exclude *.pyd
+[2024-05-20 05:48:02] INFO root fetch - processPackages [anycrc]: executing diffoscope
+[2024-05-20 05:48:02] INFO root fetch - processPackages [anycrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anycrc-0.7.3.tar.gz tmp/anycrc-0.7.4.tar.gz --markdown 20240520/a/anycrc/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-20 05:48:03] INFO root fetch - processPackages [anycrc]: Remove: archive file [/home/abi/fetcher/tmp/anycrc-0.7.3.tar.gz]
+[2024-05-20 05:48:03] INFO root fetch - processPackages [anycrc]: Remove: archive file [/home/abi/fetcher/tmp/anycrc-0.7.4.tar.gz]
+[2024-05-20 05:48:03] INFO root fetch - main [MainThread]: End processing [anycrc]: success
+[2024-05-20 05:48:03] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.1.0.tar.gz]
+[2024-05-20 05:48:03] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.1.2.tar.gz]
+[2024-05-20 05:48:03] INFO root fetch - main [MainThread]: End processing [ventures]: success
+[2024-05-20 05:48:03] INFO root fetch - main [MainThread]: End processing [ventures]: success
+[2024-05-20 05:48:03] INFO root fetch - main [MainThread]: Store serial: [23284271]

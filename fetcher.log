@@ -20746,3 +20746,69 @@ EOFError: EOF read where object expected
 [2024-05-20 16:41:37] INFO root fetch - processPackages [xingu]: Remove: archive file [/home/abi/fetcher/tmp/xingu-1.7.3.tar.gz]
 [2024-05-20 16:41:37] INFO root fetch - main [MainThread]: End processing [xingu]: success
 [2024-05-20 16:41:37] INFO root fetch - main [MainThread]: Store serial: [23291228]
+[2024-05-20 16:43:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291228]
+[2024-05-20 16:43:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 16:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ofdcomparer
+[2024-05-20 16:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logger-aux
+[2024-05-20 16:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xspace-dl
+[2024-05-20 16:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: espy-contact
+[2024-05-20 16:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyter-server-globbing
+[2024-05-20 16:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-solc-x
+[2024-05-20 16:43:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vanna
+[2024-05-20 16:43:46] INFO root fetch - processPackages [xspace-dl]: New version: [0.2.21] Old Version: [0.2.2]
+[2024-05-20 16:43:46] INFO root fetch - processPackages [jupyter-server-globbing]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-20 16:43:46] INFO root fetch - processPackages [logger-aux]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-20 16:43:46] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/1a/0b/19c90e2db9403b78d1ce7dc5f7139c3f99acaa0a65df8b05de81b9a08659/xspace-dl-0.2.2.tar.gz
+[2024-05-20 16:43:46] INFO root fetch - processPackages [espy-contact]: New version: [0.9] Old Version: [0.8]
+[2024-05-20 16:43:46] INFO root fetch - processPackages [vanna]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-20 16:43:46] INFO root fetch - processPackages [logger-aux]: Downloading https://files.pythonhosted.org/packages/4d/f0/4ad0cf7b7d9ba23997cee3b5f6ce6d5c28b44c72b2b15aaee83ff05ef803/logger_aux-0.0.7.tar.gz
+[2024-05-20 16:43:46] INFO root fetch - processPackages [ofdcomparer]: New version: [1.5.44] Old Version: [1.5.43]
+[2024-05-20 16:43:46] INFO root fetch - processPackages [py-solc-x]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-20 16:43:46] INFO root fetch - processPackages [jupyter-server-globbing]: Downloading https://files.pythonhosted.org/packages/a5/9b/b536cb6fa0bbb19dc678eceecbc1274a7787f6e93efe9a8248e2c6a66e10/jupyter_server_globbing-0.1.3.tar.gz
+[2024-05-20 16:43:46] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/07/4c/6d6ed1c239b72208f165ce670dcdc6ffc30e2eb8f70f1f7e5b6106e832a0/espy_contact-0.8.tar.gz
+[2024-05-20 16:43:46] INFO root fetch - processPackages [logger-aux]: Downloading https://files.pythonhosted.org/packages/a7/49/9c54723b3b36525f91c726f2c290fcc7fdcf8e611df1523c9eed3db490b4/logger_aux-0.0.8.tar.gz
+[2024-05-20 16:43:46] INFO root fetch - processPackages [ofdcomparer]: Downloading https://files.pythonhosted.org/packages/74/d1/fe38cc0d7fcdea2e4b1f6c605fff723f65947b33a57c800d58f10f647696/ofdcomparer-1.5.43.tar.gz
+[2024-05-20 16:43:46] INFO root fetch - processPackages [py-solc-x]: Downloading https://files.pythonhosted.org/packages/87/a8/052d2deb96070f139620d9638ce41b335302a8f0a19bc44795c91e0b20ce/py-solc-x-2.0.2.tar.gz
+[2024-05-20 16:43:46] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/b6/d7/bfcca29d122cd16271bdd026bbee15d792991629bc04f9a998ba5b47c1e6/vanna-0.5.4.tar.gz
+[2024-05-20 16:43:46] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/1f/2b/0e660be4b277c9c47879ec9b1dd121ddc104acff082e585f2748639ef2e1/xspace-dl-0.2.21.tar.gz
+[2024-05-20 16:43:46] INFO root fetch - processPackages [logger-aux]: executing diffoscope
+[2024-05-20 16:43:46] INFO root fetch - processPackages [logger-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger_aux-0.0.7.tar.gz tmp/logger_aux-0.0.8.tar.gz --markdown 20240520/l/logger-aux/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-20 16:43:46] INFO root fetch - processPackages [xspace-dl]: executing diffoscope
+[2024-05-20 16:43:46] INFO root fetch - processPackages [xspace-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspace-dl-0.2.2.tar.gz tmp/xspace-dl-0.2.21.tar.gz --markdown 20240520/x/xspace-dl/0.2.2-0.2.21/README.md --exclude *.pyd
+[2024-05-20 16:43:46] INFO root fetch - processPackages [jupyter-server-globbing]: Downloading https://files.pythonhosted.org/packages/1f/41/fd15eeeb7f5c1d2cac97620fd161172607ab3d253be04e0586b970d12783/jupyter_server_globbing-0.1.4.tar.gz
+[2024-05-20 16:43:46] INFO root fetch - processPackages [espy-contact]: Downloading https://files.pythonhosted.org/packages/1f/a2/722fe00e34c488a1e91c9eb0ebe6b27115da9bc5c6d0311da983b6ab22d9/espy_contact-0.9.tar.gz
+[2024-05-20 16:43:46] INFO root fetch - processPackages [ofdcomparer]: Downloading https://files.pythonhosted.org/packages/75/2e/24dac05d1a14a226b19437fd00c3b755e52f5f464b736e4c4ed8dc20c376/ofdcomparer-1.5.44.tar.gz
+[2024-05-20 16:43:46] INFO root fetch - processPackages [jupyter-server-globbing]: executing diffoscope
+[2024-05-20 16:43:46] INFO root fetch - processPackages [jupyter-server-globbing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_server_globbing-0.1.3.tar.gz tmp/jupyter_server_globbing-0.1.4.tar.gz --markdown 20240520/j/jupyter-server-globbing/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-20 16:43:46] INFO root fetch - processPackages [py-solc-x]: Downloading https://files.pythonhosted.org/packages/2a/42/60f33a2d32b1308656b9f1e49a478ea81e294d9aaba4404f83dc20e1d60e/py-solc-x-2.0.3.tar.gz
+[2024-05-20 16:43:46] INFO root fetch - processPackages [espy-contact]: executing diffoscope
+[2024-05-20 16:43:46] INFO root fetch - processPackages [espy-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espy_contact-0.8.tar.gz tmp/espy_contact-0.9.tar.gz --markdown 20240520/e/espy-contact/0.8-0.9/README.md --exclude *.pyd
+[2024-05-20 16:43:46] INFO root fetch - processPackages [ofdcomparer]: executing diffoscope
+[2024-05-20 16:43:46] INFO root fetch - processPackages [ofdcomparer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofdcomparer-1.5.43.tar.gz tmp/ofdcomparer-1.5.44.tar.gz --markdown 20240520/o/ofdcomparer/1.5.43-1.5.44/README.md --exclude *.pyd
+[2024-05-20 16:43:47] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/dd/f5/44546bf7b31dd650ec5645088863e104776324d3511a807a99e34b5f512e/vanna-0.5.5.tar.gz
+[2024-05-20 16:43:47] INFO root fetch - processPackages [py-solc-x]: executing diffoscope
+[2024-05-20 16:43:47] INFO root fetch - processPackages [py-solc-x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-solc-x-2.0.2.tar.gz tmp/py-solc-x-2.0.3.tar.gz --markdown 20240520/p/py-solc-x/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-20 16:43:47] INFO root fetch - processPackages [vanna]: executing diffoscope
+[2024-05-20 16:43:47] INFO root fetch - processPackages [vanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanna-0.5.4.tar.gz tmp/vanna-0.5.5.tar.gz --markdown 20240520/v/vanna/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-20 16:43:47] INFO root fetch - processPackages [logger-aux]: Remove: archive file [/home/abi/fetcher/tmp/logger_aux-0.0.7.tar.gz]
+[2024-05-20 16:43:47] INFO root fetch - processPackages [logger-aux]: Remove: archive file [/home/abi/fetcher/tmp/logger_aux-0.0.8.tar.gz]
+[2024-05-20 16:43:47] INFO root fetch - main [MainThread]: End processing [logger-aux]: success
+[2024-05-20 16:43:47] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.2.2.tar.gz]
+[2024-05-20 16:43:47] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.2.21.tar.gz]
+[2024-05-20 16:43:47] INFO root fetch - main [MainThread]: End processing [xspace-dl]: success
+[2024-05-20 16:43:47] INFO root fetch - processPackages [jupyter-server-globbing]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_server_globbing-0.1.3.tar.gz]
+[2024-05-20 16:43:47] INFO root fetch - processPackages [jupyter-server-globbing]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_server_globbing-0.1.4.tar.gz]
+[2024-05-20 16:43:47] INFO root fetch - main [MainThread]: End processing [jupyter-server-globbing]: success
+[2024-05-20 16:43:47] INFO root fetch - processPackages [ofdcomparer]: Remove: archive file [/home/abi/fetcher/tmp/ofdcomparer-1.5.43.tar.gz]
+[2024-05-20 16:43:47] INFO root fetch - processPackages [ofdcomparer]: Remove: archive file [/home/abi/fetcher/tmp/ofdcomparer-1.5.44.tar.gz]
+[2024-05-20 16:43:47] INFO root fetch - main [MainThread]: End processing [ofdcomparer]: success
+[2024-05-20 16:43:47] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.8.tar.gz]
+[2024-05-20 16:43:47] INFO root fetch - processPackages [espy-contact]: Remove: archive file [/home/abi/fetcher/tmp/espy_contact-0.9.tar.gz]
+[2024-05-20 16:43:47] INFO root fetch - main [MainThread]: End processing [espy-contact]: success
+[2024-05-20 16:43:48] INFO root fetch - processPackages [py-solc-x]: Remove: archive file [/home/abi/fetcher/tmp/py-solc-x-2.0.2.tar.gz]
+[2024-05-20 16:43:48] INFO root fetch - processPackages [py-solc-x]: Remove: archive file [/home/abi/fetcher/tmp/py-solc-x-2.0.3.tar.gz]
+[2024-05-20 16:43:48] INFO root fetch - main [MainThread]: End processing [py-solc-x]: success
+[2024-05-20 16:43:48] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.5.4.tar.gz]
+[2024-05-20 16:43:48] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.5.5.tar.gz]
+[2024-05-20 16:43:48] INFO root fetch - main [MainThread]: End processing [vanna]: success
+[2024-05-20 16:43:48] INFO root fetch - main [MainThread]: Store serial: [23291248]

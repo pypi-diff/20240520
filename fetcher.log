@@ -13434,3 +13434,51 @@
 [2024-05-20 12:12:00] INFO root fetch - processPackages [seqslab-cli]: Remove: archive file [/home/abi/fetcher/tmp/seqslab-cli-3.3.3.tar.gz]
 [2024-05-20 12:12:00] INFO root fetch - main [MainThread]: End processing [seqslab-cli]: success
 [2024-05-20 12:12:00] INFO root fetch - main [MainThread]: Store serial: [23287979]
+[2024-05-20 12:14:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287979]
+[2024-05-20 12:14:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: markdown_convert
+[2024-05-20 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tanu
+[2024-05-20 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: napari-PHILOW
+[2024-05-20 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai4free
+[2024-05-20 12:14:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PepperPepper
+[2024-05-20 12:14:09] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-20 12:14:09] INFO root fetch - processPackages [markdown_convert]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-20 12:14:09] INFO root fetch - processPackages [napari-PHILOW]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-20 12:14:09] INFO root fetch - processPackages [ai4free]: New version: [0.7] Old Version: [0.6]
+[2024-05-20 12:14:09] INFO root fetch - processPackages [tanu]: New version: [0.1.4.5] Old Version: [0.1.4.4]
+[2024-05-20 12:14:09] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/a2/6a/fc1e17ed8249aa662d736747b383ab6c49c7144dc000f01a9057721c3218/pepperpepper-0.0.7.8.tar.gz
+[2024-05-20 12:14:09] INFO root fetch - processPackages [markdown_convert]: Downloading https://files.pythonhosted.org/packages/d0/04/9d4d92b816eb9a2b26381d4cddfac1d3cbafe61fc8b4dde38cdf988eaab8/markdown_convert-1.1.8.tar.gz
+[2024-05-20 12:14:09] INFO root fetch - processPackages [napari-PHILOW]: Downloading https://files.pythonhosted.org/packages/1e/c3/7f2d08f154dc7ff4eb25919e3d99632fd97d01aa2b4055d1a10ede1d45ca/napari-PHILOW-0.1.1.tar.gz
+[2024-05-20 12:14:09] INFO root fetch - processPackages [ai4free]: Downloading https://files.pythonhosted.org/packages/c3/ba/3880d4de1a582c160899123e65e4527ad3fdb29e7ff5581edddfaeb582b5/ai4free-0.6.tar.gz
+[2024-05-20 12:14:09] INFO root fetch - processPackages [tanu]: Downloading https://files.pythonhosted.org/packages/5e/bd/ac73010fc2c7715f8a74a5d2ba36e1f22ce4cfef35ba454e601fec73daf0/tanu-0.1.4.4.tar.gz
+[2024-05-20 12:14:10] INFO root fetch - processPackages [markdown_convert]: Downloading https://files.pythonhosted.org/packages/7f/3d/07d814752ab89819f913c5a6c52d49c14f5a1e8189fa36bbf63dfebb1118/markdown_convert-1.1.9.tar.gz
+[2024-05-20 12:14:10] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/bd/bd/74c69c2a57615281d2dab96af6ddca9210d7c0be7e2ab04c6f559e1aea99/pepperpepper-0.0.7.9.tar.gz
+[2024-05-20 12:14:10] INFO root fetch - processPackages [markdown_convert]: executing diffoscope
+[2024-05-20 12:14:10] INFO root fetch - processPackages [markdown_convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_convert-1.1.8.tar.gz tmp/markdown_convert-1.1.9.tar.gz --markdown 20240520/m/markdown_convert/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-20 12:14:10] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-20 12:14:10] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.8.tar.gz tmp/pepperpepper-0.0.7.9.tar.gz --markdown 20240520/P/PepperPepper/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-20 12:14:10] INFO root fetch - processPackages [tanu]: Downloading https://files.pythonhosted.org/packages/ac/3c/834ccdb1e5ecc2a13a4cecf83dd67411f206c5c5b7de301478c3484c2fdb/tanu-0.1.4.5.tar.gz
+[2024-05-20 12:14:10] INFO root fetch - processPackages [ai4free]: Downloading https://files.pythonhosted.org/packages/ee/64/95227b91060bcfe5346808955c1a158d5faa95415ef9f974c053c12d19c8/ai4free-0.7.tar.gz
+[2024-05-20 12:14:10] INFO root fetch - processPackages [napari-PHILOW]: Downloading https://files.pythonhosted.org/packages/b4/c8/cd66ca7c5d428225324dd01fa2656e254542bf2f6e950d9aa4f62470ce17/napari_philow-0.2.0.tar.gz
+[2024-05-20 12:14:10] INFO root fetch - processPackages [tanu]: executing diffoscope
+[2024-05-20 12:14:10] INFO root fetch - processPackages [tanu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tanu-0.1.4.4.tar.gz tmp/tanu-0.1.4.5.tar.gz --markdown 20240520/t/tanu/0.1.4.4-0.1.4.5/README.md --exclude *.pyd
+[2024-05-20 12:14:10] INFO root fetch - processPackages [napari-PHILOW]: executing diffoscope
+[2024-05-20 12:14:10] INFO root fetch - processPackages [napari-PHILOW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-PHILOW-0.1.1.tar.gz tmp/napari_philow-0.2.0.tar.gz --markdown 20240520/n/napari-PHILOW/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-20 12:14:10] INFO root fetch - processPackages [ai4free]: executing diffoscope
+[2024-05-20 12:14:10] INFO root fetch - processPackages [ai4free]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai4free-0.6.tar.gz tmp/ai4free-0.7.tar.gz --markdown 20240520/a/ai4free/0.6-0.7/README.md --exclude *.pyd
+[2024-05-20 12:14:10] INFO root fetch - processPackages [markdown_convert]: Remove: archive file [/home/abi/fetcher/tmp/markdown_convert-1.1.8.tar.gz]
+[2024-05-20 12:14:10] INFO root fetch - processPackages [markdown_convert]: Remove: archive file [/home/abi/fetcher/tmp/markdown_convert-1.1.9.tar.gz]
+[2024-05-20 12:14:10] INFO root fetch - main [MainThread]: End processing [markdown_convert]: success
+[2024-05-20 12:14:10] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.8.tar.gz]
+[2024-05-20 12:14:10] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
+[2024-05-20 12:14:10] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-20 12:14:11] INFO root fetch - processPackages [tanu]: Remove: archive file [/home/abi/fetcher/tmp/tanu-0.1.4.4.tar.gz]
+[2024-05-20 12:14:11] INFO root fetch - processPackages [tanu]: Remove: archive file [/home/abi/fetcher/tmp/tanu-0.1.4.5.tar.gz]
+[2024-05-20 12:14:11] INFO root fetch - main [MainThread]: End processing [tanu]: success
+[2024-05-20 12:14:11] INFO root fetch - processPackages [napari-PHILOW]: Remove: archive file [/home/abi/fetcher/tmp/napari-PHILOW-0.1.1.tar.gz]
+[2024-05-20 12:14:11] INFO root fetch - processPackages [napari-PHILOW]: Remove: archive file [/home/abi/fetcher/tmp/napari_philow-0.2.0.tar.gz]
+[2024-05-20 12:14:11] INFO root fetch - main [MainThread]: End processing [napari-PHILOW]: success
+[2024-05-20 12:14:11] INFO root fetch - processPackages [ai4free]: Remove: archive file [/home/abi/fetcher/tmp/ai4free-0.6.tar.gz]
+[2024-05-20 12:14:11] INFO root fetch - processPackages [ai4free]: Remove: archive file [/home/abi/fetcher/tmp/ai4free-0.7.tar.gz]
+[2024-05-20 12:14:11] INFO root fetch - main [MainThread]: End processing [ai4free]: success
+[2024-05-20 12:14:11] INFO root fetch - main [MainThread]: Store serial: [23287995]

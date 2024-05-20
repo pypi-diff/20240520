@@ -4256,3 +4256,9 @@
 [2024-05-20 03:32:13] INFO root fetch - processPackages [subsetter]: Remove: archive file [/home/abi/fetcher/tmp/subsetter-0.3.1.tar.gz]
 [2024-05-20 03:32:13] INFO root fetch - main [MainThread]: End processing [subsetter]: success
 [2024-05-20 03:32:13] INFO root fetch - main [MainThread]: Store serial: [23283378]
+[2024-05-20 03:34:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283378]
+[2024-05-20 03:34:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 03:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: noninfectiouslyz
+[2024-05-20 03:34:22] WARNING root fetch - processPackages [noninfectiouslyz]: Skipping, unable to determine old version
+[2024-05-20 03:34:22] INFO root fetch - main [MainThread]: End processing [noninfectiouslyz] error
+[2024-05-20 03:34:22] INFO root fetch - main [MainThread]: Store serial: [23283382]

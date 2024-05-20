@@ -8377,3 +8377,54 @@
 [2024-05-20 08:29:41] INFO root fetch - processPackages [Dans-Diffraction]: Remove: archive file [/home/abi/fetcher/tmp/dans_diffraction-3.2.1.tar.gz]
 [2024-05-20 08:29:41] INFO root fetch - main [MainThread]: End processing [Dans-Diffraction]: success
 [2024-05-20 08:29:41] INFO root fetch - main [MainThread]: Store serial: [23285470]
+[2024-05-20 08:31:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285470]
+[2024-05-20 08:31:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 08:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: animalhoodz
+[2024-05-20 08:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vistudio
+[2024-05-20 08:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pr-agent
+[2024-05-20 08:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandas-indexing
+[2024-05-20 08:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: why-tools
+[2024-05-20 08:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zensvi
+[2024-05-20 08:31:50] INFO root fetch - processPackages [why-tools]: New version: [0.0.2b9] Old Version: [0.0.2b8]
+[2024-05-20 08:31:50] INFO root fetch - processPackages [vistudio]: New version: [1.0.1.7] Old Version: [1.0.1.6]
+[2024-05-20 08:31:50] INFO root fetch - processPackages [why-tools]: Downloading https://files.pythonhosted.org/packages/26/41/0a4c14de71ef08daa69fb8efe27b5d0a1bae4b5bd2be13cbb8dbd71c1b44/why-tools-0.0.2b8.tar.gz
+[2024-05-20 08:31:50] INFO root fetch - processPackages [vistudio]: Downloading https://files.pythonhosted.org/packages/75/48/0004194a8ff303c3c9b69e583872218499f273947b4e9b0e6aa557ee6182/vistudio-1.0.1.6-py3-none-any.whl
+[2024-05-20 08:31:50] WARNING root fetch - processPackages [animalhoodz]: Skipping, unable to determine old version
+[2024-05-20 08:31:50] INFO root fetch - main [MainThread]: End processing [animalhoodz] error
+[2024-05-20 08:31:50] INFO root fetch - processPackages [pr-agent]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-20 08:31:50] INFO root fetch - processPackages [zensvi]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-20 08:31:50] INFO root fetch - processPackages [pandas-indexing]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-20 08:31:50] INFO root fetch - processPackages [pandas-indexing]: Downloading https://files.pythonhosted.org/packages/b5/dd/d3ae36ea59d6b557c0f61457669f6d5371403603663a38c14a04b18c4706/pandas-indexing-0.5.0.tar.gz
+[2024-05-20 08:31:50] INFO root fetch - processPackages [why-tools]: Downloading https://files.pythonhosted.org/packages/7e/90/f8c3b43451c5bdbcb89f4973d10d742000829e74fc2f754dedede3c1bf43/why-tools-0.0.2b9.tar.gz
+[2024-05-20 08:31:50] INFO root fetch - processPackages [pr-agent]: Downloading https://files.pythonhosted.org/packages/d8/9a/6b0513debf4acc71b8459406c7d837e494a895a597eca99d4266070ff4e1/pr-agent-0.2.1.tar.gz
+[2024-05-20 08:31:50] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/c4/b3/5f6efb302a54041edfdb7cee7e64caaad9afec14cd8770bb2ceb8f6b6fc8/zensvi-0.9.7.tar.gz
+[2024-05-20 08:31:50] INFO root fetch - processPackages [vistudio]: Downloading https://files.pythonhosted.org/packages/e6/19/d638934151d2d096863590aaddd88040911e6dffe98c7efa52350bc2ad30/vistudio-1.0.1.7-py3-none-any.whl
+[2024-05-20 08:31:51] INFO root fetch - processPackages [why-tools]: executing diffoscope
+[2024-05-20 08:31:51] INFO root fetch - processPackages [why-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/why-tools-0.0.2b8.tar.gz tmp/why-tools-0.0.2b9.tar.gz --markdown 20240520/w/why-tools/0.0.2b8-0.0.2b9/README.md --exclude *.pyd
+[2024-05-20 08:31:51] INFO root fetch - processPackages [vistudio]: executing diffoscope
+[2024-05-20 08:31:51] INFO root fetch - processPackages [vistudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vistudio-1.0.1.6-py3-none-any.whl.zip tmp/vistudio-1.0.1.7-py3-none-any.whl.zip --markdown 20240520/v/vistudio/1.0.1.6-1.0.1.7/README.md --exclude *.pyd
+[2024-05-20 08:31:51] INFO root fetch - processPackages [pandas-indexing]: Downloading https://files.pythonhosted.org/packages/3b/1c/85e861de098c77258254295927d974d2680fbb52b3238d1aa33e779f316a/pandas_indexing-0.5.1.tar.gz
+[2024-05-20 08:31:51] INFO root fetch - processPackages [pr-agent]: Downloading https://files.pythonhosted.org/packages/0d/2c/4236049e66f5ba5e1076a57b7cd023b846b8d6776501ed5bcb5abe4d6e92/pr_agent-0.2.2.tar.gz
+[2024-05-20 08:31:51] INFO root fetch - processPackages [pandas-indexing]: executing diffoscope
+[2024-05-20 08:31:51] INFO root fetch - processPackages [pandas-indexing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-indexing-0.5.0.tar.gz tmp/pandas_indexing-0.5.1.tar.gz --markdown 20240520/p/pandas-indexing/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-20 08:31:51] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/58/a0/fa16c5167950fd72ac2b9de84f31f095275d7e96dede1c5f126683fca082/zensvi-0.9.8.tar.gz
+[2024-05-20 08:31:51] INFO root fetch - processPackages [pr-agent]: executing diffoscope
+[2024-05-20 08:31:51] INFO root fetch - processPackages [pr-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr-agent-0.2.1.tar.gz tmp/pr_agent-0.2.2.tar.gz --markdown 20240520/p/pr-agent/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-20 08:31:51] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2024-05-20 08:31:51] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.9.7.tar.gz tmp/zensvi-0.9.8.tar.gz --markdown 20240520/z/zensvi/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-20 08:31:51] INFO root fetch - processPackages [why-tools]: Remove: archive file [/home/abi/fetcher/tmp/why-tools-0.0.2b8.tar.gz]
+[2024-05-20 08:31:51] INFO root fetch - processPackages [why-tools]: Remove: archive file [/home/abi/fetcher/tmp/why-tools-0.0.2b9.tar.gz]
+[2024-05-20 08:31:51] INFO root fetch - main [MainThread]: End processing [why-tools]: success
+[2024-05-20 08:31:51] INFO root fetch - processPackages [vistudio]: Remove: archive file [/home/abi/fetcher/tmp/vistudio-1.0.1.6-py3-none-any.whl.zip]
+[2024-05-20 08:31:51] INFO root fetch - processPackages [vistudio]: Remove: archive file [/home/abi/fetcher/tmp/vistudio-1.0.1.7-py3-none-any.whl.zip]
+[2024-05-20 08:31:51] INFO root fetch - main [MainThread]: End processing [vistudio]: success
+[2024-05-20 08:31:52] INFO root fetch - processPackages [pandas-indexing]: Remove: archive file [/home/abi/fetcher/tmp/pandas-indexing-0.5.0.tar.gz]
+[2024-05-20 08:31:52] INFO root fetch - processPackages [pandas-indexing]: Remove: archive file [/home/abi/fetcher/tmp/pandas_indexing-0.5.1.tar.gz]
+[2024-05-20 08:31:52] INFO root fetch - main [MainThread]: End processing [pandas-indexing]: success
+[2024-05-20 08:31:52] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.7.tar.gz]
+[2024-05-20 08:31:52] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.8.tar.gz]
+[2024-05-20 08:31:52] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2024-05-20 08:31:52] INFO root fetch - processPackages [pr-agent]: Remove: archive file [/home/abi/fetcher/tmp/pr-agent-0.2.1.tar.gz]
+[2024-05-20 08:31:52] INFO root fetch - processPackages [pr-agent]: Remove: archive file [/home/abi/fetcher/tmp/pr_agent-0.2.2.tar.gz]
+[2024-05-20 08:31:52] INFO root fetch - main [MainThread]: End processing [pr-agent]: success
+[2024-05-20 08:31:52] INFO root fetch - main [MainThread]: Store serial: [23285487]

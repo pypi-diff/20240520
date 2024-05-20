@@ -16510,3 +16510,50 @@ EOFError: EOF read where object expected
 [2024-05-20 14:20:41] INFO root fetch - processPackages [salientsdk]: Remove: archive file [/home/abi/fetcher/tmp/salientsdk-0.2.1.tar.gz]
 [2024-05-20 14:20:41] INFO root fetch - main [MainThread]: End processing [salientsdk]: success
 [2024-05-20 14:20:41] INFO root fetch - main [MainThread]: Store serial: [23289385]
+[2024-05-20 14:22:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289385]
+[2024-05-20 14:22:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 14:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cltcache
+[2024-05-20 14:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unitxt
+[2024-05-20 14:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ethoscopy
+[2024-05-20 14:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-router
+[2024-05-20 14:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flurriedz
+[2024-05-20 14:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyopenhc
+[2024-05-20 14:22:51] INFO root fetch - processPackages [unitxt]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-20 14:22:51] WARNING root fetch - processPackages [flurriedz]: Skipping, unable to determine old version
+[2024-05-20 14:22:51] INFO root fetch - main [MainThread]: End processing [flurriedz] error
+[2024-05-20 14:22:51] INFO root fetch - processPackages [pyopenhc]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 14:22:51] INFO root fetch - processPackages [cltcache]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-20 14:22:51] INFO root fetch - processPackages [ethoscopy]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-20 14:22:51] INFO root fetch - processPackages [rapid-router]: New version: [5.9.3] Old Version: [5.9.2]
+[2024-05-20 14:22:51] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/cf/47/2c4684544ff10770059aa0841f7c1c9f3749c5b0af58854b4199cf75c724/unitxt-1.8.1.tar.gz
+[2024-05-20 14:22:51] INFO root fetch - processPackages [cltcache]: Downloading https://files.pythonhosted.org/packages/f1/58/89e245349c8ff77a7758e340d6c75d4a75fd5217c927ef941896093f716d/cltcache-1.2.1.tar.gz
+[2024-05-20 14:22:51] INFO root fetch - processPackages [pyopenhc]: Downloading https://files.pythonhosted.org/packages/b2/6e/9b4e89ab2019dab65ea7a5f591626b4ae80e43083d3aac84e46681193548/pyopenhc-0.1.0-py3-none-win_amd64.whl
+[2024-05-20 14:22:51] INFO root fetch - processPackages [ethoscopy]: Downloading https://files.pythonhosted.org/packages/e0/80/5b29d68b8f3db688f4f208226fedf9818ff53eb930e8f415163e8c2e4a80/ethoscopy-1.3.7.tar.gz
+[2024-05-20 14:22:51] INFO root fetch - processPackages [rapid-router]: Downloading https://files.pythonhosted.org/packages/f2/b8/68b5b8a7d7fdf50b63afbafdc617d1f70f0f450a0ccb6301247f610fa8df/rapid-router-5.9.2.tar.gz
+[2024-05-20 14:22:51] WARNING root fetch - processPackages [ethoscopy]: Skipping package: exceeds size limit 13479216>=10485760
+[2024-05-20 14:22:51] INFO root fetch - main [MainThread]: End processing [ethoscopy] error
+[2024-05-20 14:22:52] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/e2/98/69dd3bc53ec1d69f15725badf2b4d09e4f59c880d31d391b77e87271e189/unitxt-1.9.0.tar.gz
+[2024-05-20 14:22:52] INFO root fetch - processPackages [cltcache]: Downloading https://files.pythonhosted.org/packages/7a/1e/492b1a4751be4536131920a2b01d7b178d48ab1b86f75b82512e23c36e09/cltcache-1.2.2.tar.gz
+[2024-05-20 14:22:52] INFO root fetch - processPackages [pyopenhc]: Downloading https://files.pythonhosted.org/packages/26/f7/910ce6018321c02f17e94783ad80bad8e260d6a43bfd9ecf021f52736854/pyopenhc-0.1.1-py3-none-macosx_14_0_universal2.whl
+[2024-05-20 14:22:52] INFO root fetch - processPackages [unitxt]: executing diffoscope
+[2024-05-20 14:22:52] INFO root fetch - processPackages [unitxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitxt-1.8.1.tar.gz tmp/unitxt-1.9.0.tar.gz --markdown 20240520/u/unitxt/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-20 14:22:52] INFO root fetch - processPackages [pyopenhc]: executing diffoscope
+[2024-05-20 14:22:52] INFO root fetch - processPackages [pyopenhc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopenhc-0.1.0-py3-none-win_amd64.whl.zip tmp/pyopenhc-0.1.1-py3-none-macosx_14_0_universal2.whl.zip --markdown 20240520/p/pyopenhc/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 14:22:52] INFO root fetch - processPackages [cltcache]: executing diffoscope
+[2024-05-20 14:22:52] INFO root fetch - processPackages [cltcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cltcache-1.2.1.tar.gz tmp/cltcache-1.2.2.tar.gz --markdown 20240520/c/cltcache/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-20 14:22:52] INFO root fetch - processPackages [cltcache]: Remove: archive file [/home/abi/fetcher/tmp/cltcache-1.2.1.tar.gz]
+[2024-05-20 14:22:52] INFO root fetch - processPackages [cltcache]: Remove: archive file [/home/abi/fetcher/tmp/cltcache-1.2.2.tar.gz]
+[2024-05-20 14:22:52] INFO root fetch - main [MainThread]: End processing [cltcache]: success
+[2024-05-20 14:22:52] INFO root fetch - processPackages [pyopenhc]: Remove: archive file [/home/abi/fetcher/tmp/pyopenhc-0.1.0-py3-none-win_amd64.whl.zip]
+[2024-05-20 14:22:52] INFO root fetch - processPackages [pyopenhc]: Remove: archive file [/home/abi/fetcher/tmp/pyopenhc-0.1.1-py3-none-macosx_14_0_universal2.whl.zip]
+[2024-05-20 14:22:52] INFO root fetch - main [MainThread]: End processing [pyopenhc]: success
+[2024-05-20 14:22:53] INFO root fetch - processPackages [rapid-router]: Downloading https://files.pythonhosted.org/packages/cc/02/30f72d97397793614a152d21e24caef108d45b449a77d52d121c9cfbf808/rapid-router-5.9.3.tar.gz
+[2024-05-20 14:22:54] INFO root fetch - processPackages [rapid-router]: executing diffoscope
+[2024-05-20 14:22:54] INFO root fetch - processPackages [rapid-router]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid-router-5.9.2.tar.gz tmp/rapid-router-5.9.3.tar.gz --markdown 20240520/r/rapid-router/5.9.2-5.9.3/README.md --exclude *.pyd
+[2024-05-20 14:22:54] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.8.1.tar.gz]
+[2024-05-20 14:22:54] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.9.0.tar.gz]
+[2024-05-20 14:22:54] INFO root fetch - main [MainThread]: End processing [unitxt]: success
+[2024-05-20 14:22:58] INFO root fetch - processPackages [rapid-router]: Remove: archive file [/home/abi/fetcher/tmp/rapid-router-5.9.2.tar.gz]
+[2024-05-20 14:22:58] INFO root fetch - processPackages [rapid-router]: Remove: archive file [/home/abi/fetcher/tmp/rapid-router-5.9.3.tar.gz]
+[2024-05-20 14:22:58] INFO root fetch - main [MainThread]: End processing [rapid-router]: success
+[2024-05-20 14:22:58] INFO root fetch - main [MainThread]: Store serial: [23289414]

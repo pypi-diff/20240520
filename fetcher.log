@@ -17069,3 +17069,62 @@ EOFError: EOF read where object expected
 [2024-05-20 14:44:59] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.6.dev0.tar.gz]
 [2024-05-20 14:44:59] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
 [2024-05-20 14:44:59] INFO root fetch - main [MainThread]: Store serial: [23289680]
+[2024-05-20 14:47:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289680]
+[2024-05-20 14:47:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 14:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Lires
+[2024-05-20 14:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorcircuit-nightly
+[2024-05-20 14:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-multi-regex
+[2024-05-20 14:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xspace-dl
+[2024-05-20 14:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audiconnectpy
+[2024-05-20 14:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mal-simulator
+[2024-05-20 14:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: digitalhub
+[2024-05-20 14:47:08] INFO root fetch - processPackages [fast-multi-regex]: New version: [0.9] Old Version: [0.8]
+[2024-05-20 14:47:08] WARNING root fetch - processPackages [xspace-dl]: Skipping, unable to determine old version
+[2024-05-20 14:47:08] INFO root fetch - main [MainThread]: End processing [xspace-dl] error
+[2024-05-20 14:47:08] INFO root fetch - processPackages [audiconnectpy]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-20 14:47:08] INFO root fetch - processPackages [Lires]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-05-20 14:47:08] INFO root fetch - processPackages [fast-multi-regex]: Downloading https://files.pythonhosted.org/packages/77/60/18107bb203fe25038d06e2031e5363af72108ddf2031504aa1330a907b00/fast_multi_regex-0.8.tar.gz
+[2024-05-20 14:47:08] INFO root fetch - processPackages [mal-simulator]: New version: [0.0.23] Old Version: [0.0.22]
+[2024-05-20 14:47:08] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/91/4c/19a4bbab8d65059b459fdf5ea5534a3fa04f1e7395ae102d8ae2f6ef3d8e/audiconnectpy-2.2.1.tar.gz
+[2024-05-20 14:47:08] INFO root fetch - processPackages [digitalhub]: New version: [0.5.0b0] Old Version: [0.4.0b8]
+[2024-05-20 14:47:08] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-05-20 14:47:08] INFO root fetch - processPackages [mal-simulator]: Downloading https://files.pythonhosted.org/packages/a1/3a/072f9e539d8220db324549f49abcf9b2acba16435de9a311923def2b6d42/mal_simulator-0.0.22.tar.gz
+[2024-05-20 14:47:08] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-05-20 14:47:08] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/69/1f/c2df487e4fbbf9590b3ddee994b1156e04de5d189470b5699c9059070bcb/digitalhub-0.4.0b8.tar.gz
+[2024-05-20 14:47:08] INFO root fetch - processPackages [fast-multi-regex]: Downloading https://files.pythonhosted.org/packages/f1/5e/62b9c1824e0c892440aa924f33cc34e2a06bd10ce2e1d6dac7a3f4d66fca/fast_multi_regex-0.9.tar.gz
+[2024-05-20 14:47:08] INFO root fetch - processPackages [Lires]: Downloading https://files.pythonhosted.org/packages/94/84/df06b5dee869889f3aefa831323d9ff56285d9a9c0dad4ed92c87fbd5e75/Lires-1.8.2.tar.gz
+[2024-05-20 14:47:08] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/26/33/da7ba6795335069bae8761e17ea0398aa7e82c29aebb7e87d32dcd35ecc6/audiconnectpy-2.2.2.tar.gz
+[2024-05-20 14:47:08] INFO root fetch - processPackages [fast-multi-regex]: executing diffoscope
+[2024-05-20 14:47:08] INFO root fetch - processPackages [fast-multi-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_multi_regex-0.8.tar.gz tmp/fast_multi_regex-0.9.tar.gz --markdown 20240520/f/fast-multi-regex/0.8-0.9/README.md --exclude *.pyd
+[2024-05-20 14:47:09] INFO root fetch - processPackages [audiconnectpy]: executing diffoscope
+[2024-05-20 14:47:09] INFO root fetch - processPackages [audiconnectpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiconnectpy-2.2.1.tar.gz tmp/audiconnectpy-2.2.2.tar.gz --markdown 20240520/a/audiconnectpy/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-20 14:47:09] INFO root fetch - processPackages [mal-simulator]: Downloading https://files.pythonhosted.org/packages/45/13/0e9e53d2330802799c6c03fcb3d324315bad5d09014d6d038b2d099b00b1/mal_simulator-0.0.23.tar.gz
+[2024-05-20 14:47:09] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/3c/0b/0121306df5c872eacf71bfc256a70cb3a5e72433fa55b4c6bad1062cd4b6/digitalhub-0.5.0b0.tar.gz
+[2024-05-20 14:47:09] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-05-20 14:47:09] INFO root fetch - processPackages [mal-simulator]: executing diffoscope
+[2024-05-20 14:47:09] INFO root fetch - processPackages [mal-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mal_simulator-0.0.22.tar.gz tmp/mal_simulator-0.0.23.tar.gz --markdown 20240520/m/mal-simulator/0.0.22-0.0.23/README.md --exclude *.pyd
+[2024-05-20 14:47:09] INFO root fetch - processPackages [digitalhub]: executing diffoscope
+[2024-05-20 14:47:09] INFO root fetch - processPackages [digitalhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-0.4.0b8.tar.gz tmp/digitalhub-0.5.0b0.tar.gz --markdown 20240520/d/digitalhub/0.4.0b8-0.5.0b0/README.md --exclude *.pyd
+[2024-05-20 14:47:09] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-05-20 14:47:09] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240520/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-05-20 14:47:09] INFO root fetch - processPackages [Lires]: executing diffoscope
+[2024-05-20 14:47:09] INFO root fetch - processPackages [Lires]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lires-1.8.1.tar.gz tmp/Lires-1.8.2.tar.gz --markdown 20240520/L/Lires/1.8.1-1.8.2/README.md --exclude *.pyd
+[2024-05-20 14:47:09] INFO root fetch - processPackages [fast-multi-regex]: Remove: archive file [/home/abi/fetcher/tmp/fast_multi_regex-0.8.tar.gz]
+[2024-05-20 14:47:09] INFO root fetch - processPackages [fast-multi-regex]: Remove: archive file [/home/abi/fetcher/tmp/fast_multi_regex-0.9.tar.gz]
+[2024-05-20 14:47:09] INFO root fetch - main [MainThread]: End processing [fast-multi-regex]: success
+[2024-05-20 14:47:09] INFO root fetch - processPackages [audiconnectpy]: Remove: archive file [/home/abi/fetcher/tmp/audiconnectpy-2.2.1.tar.gz]
+[2024-05-20 14:47:09] INFO root fetch - processPackages [audiconnectpy]: Remove: archive file [/home/abi/fetcher/tmp/audiconnectpy-2.2.2.tar.gz]
+[2024-05-20 14:47:09] INFO root fetch - main [MainThread]: End processing [audiconnectpy]: success
+[2024-05-20 14:47:09] INFO root fetch - processPackages [mal-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mal_simulator-0.0.22.tar.gz]
+[2024-05-20 14:47:09] INFO root fetch - processPackages [mal-simulator]: Remove: archive file [/home/abi/fetcher/tmp/mal_simulator-0.0.23.tar.gz]
+[2024-05-20 14:47:09] INFO root fetch - main [MainThread]: End processing [mal-simulator]: success
+[2024-05-20 14:47:09] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.4.0b8.tar.gz]
+[2024-05-20 14:47:09] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.5.0b0.tar.gz]
+[2024-05-20 14:47:09] INFO root fetch - main [MainThread]: End processing [digitalhub]: success
+[2024-05-20 14:47:10] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-05-20 14:47:10] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-05-20 14:47:10] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-05-20 14:47:15] INFO root fetch - processPackages [Lires]: Remove: archive file [/home/abi/fetcher/tmp/Lires-1.8.1.tar.gz]
+[2024-05-20 14:47:15] INFO root fetch - processPackages [Lires]: Remove: archive file [/home/abi/fetcher/tmp/Lires-1.8.2.tar.gz]
+[2024-05-20 14:47:15] INFO root fetch - main [MainThread]: End processing [Lires]: success
+[2024-05-20 14:47:15] INFO root fetch - main [MainThread]: Store serial: [23289710]

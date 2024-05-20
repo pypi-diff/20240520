@@ -3597,3 +3597,33 @@
 [2024-05-20 02:52:47] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-20 02:52:47] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-20 02:52:47] INFO root fetch - main [MainThread]: Store serial: [23283119]
+[2024-05-20 02:54:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283119]
+[2024-05-20 02:54:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 02:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypomes-db
+[2024-05-20 02:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superpathlib
+[2024-05-20 02:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmticket
+[2024-05-20 02:54:56] INFO root fetch - processPackages [superpathlib]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-20 02:54:56] INFO root fetch - processPackages [pypomes-db]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-05-20 02:54:56] INFO root fetch - processPackages [superpathlib]: Downloading https://files.pythonhosted.org/packages/ec/e7/dcff1c150985e65e4d747f47a20728c09db5b960dc2238c30c00902802ca/superpathlib-2.0.2.tar.gz
+[2024-05-20 02:54:56] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/3d/e0/9958eb96cde5a044d77aa11289b6e0936d27fbfb7855483a8404da3d886c/pypomes_db-0.8.5.tar.gz
+[2024-05-20 02:54:56] INFO root fetch - processPackages [tmticket]: New version: [0.2.4] Old Version: [0.2.2]
+[2024-05-20 02:54:56] INFO root fetch - processPackages [superpathlib]: Downloading https://files.pythonhosted.org/packages/5b/e7/c732ab53e7b84c2bcaeae44c372647801f5cd87ba047181052880fb827e8/superpathlib-2.0.3.tar.gz
+[2024-05-20 02:54:56] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/14/24/d9b4e8fa75d1188e9a793c4a4910d44ca119f97ff0b3779a448274e8c3fd/tmticket-0.2.2.tar.gz
+[2024-05-20 02:54:56] INFO root fetch - processPackages [superpathlib]: executing diffoscope
+[2024-05-20 02:54:56] INFO root fetch - processPackages [superpathlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpathlib-2.0.2.tar.gz tmp/superpathlib-2.0.3.tar.gz --markdown 20240520/s/superpathlib/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-20 02:54:57] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/95/e5/fa4887dbe366de719c56c86e3a608ff08eb9286f7e5a91382d87b29eda37/pypomes_db-0.8.6.tar.gz
+[2024-05-20 02:54:57] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2024-05-20 02:54:57] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.8.5.tar.gz tmp/pypomes_db-0.8.6.tar.gz --markdown 20240520/p/pypomes-db/0.8.5-0.8.6/README.md --exclude *.pyd
+[2024-05-20 02:54:57] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/2e/a9/f60aac5383e35e8b1619a643358fd14b194e1f25eae48642a8cd8ad0de96/tmticket-0.2.4.tar.gz
+[2024-05-20 02:54:57] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-20 02:54:57] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.2.2.tar.gz tmp/tmticket-0.2.4.tar.gz --markdown 20240520/t/tmticket/0.2.2-0.2.4/README.md --exclude *.pyd
+[2024-05-20 02:54:57] INFO root fetch - processPackages [superpathlib]: Remove: archive file [/home/abi/fetcher/tmp/superpathlib-2.0.2.tar.gz]
+[2024-05-20 02:54:57] INFO root fetch - processPackages [superpathlib]: Remove: archive file [/home/abi/fetcher/tmp/superpathlib-2.0.3.tar.gz]
+[2024-05-20 02:54:57] INFO root fetch - main [MainThread]: End processing [superpathlib]: success
+[2024-05-20 02:54:57] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.8.5.tar.gz]
+[2024-05-20 02:54:57] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.8.6.tar.gz]
+[2024-05-20 02:54:57] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2024-05-20 02:54:58] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.2.tar.gz]
+[2024-05-20 02:54:58] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.4.tar.gz]
+[2024-05-20 02:54:58] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-20 02:54:58] INFO root fetch - main [MainThread]: Store serial: [23283128]

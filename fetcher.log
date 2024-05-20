@@ -15726,3 +15726,36 @@ EOFError: EOF read where object expected
 [2024-05-20 13:41:23] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.9.tar.gz]
 [2024-05-20 13:41:23] INFO root fetch - main [MainThread]: End processing [text-block-local]: success
 [2024-05-20 13:41:23] INFO root fetch - main [MainThread]: Store serial: [23288873]
+[2024-05-20 13:43:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288873]
+[2024-05-20 13:43:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 13:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-data-services
+[2024-05-20 13:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rascalsz
+[2024-05-20 13:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logger-aux
+[2024-05-20 13:43:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumiverse-exoscale
+[2024-05-20 13:43:31] WARNING root fetch - processPackages [rascalsz]: Skipping, unable to determine old version
+[2024-05-20 13:43:31] INFO root fetch - main [MainThread]: End processing [rascalsz] error
+[2024-05-20 13:43:31] INFO root fetch - processPackages [logger-aux]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-20 13:43:31] INFO root fetch - processPackages [pulumiverse-exoscale]: New version: [0.59.0] Old Version: [0.58.0]
+[2024-05-20 13:43:31] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev9158118525] Old Version: [2.0.0.dev9113174303]
+[2024-05-20 13:43:32] INFO root fetch - processPackages [pulumiverse-exoscale]: Downloading https://files.pythonhosted.org/packages/63/16/871eba174e5bbc58564ad36686f547633c21202e5896cf284fbc42862f0e/pulumiverse_exoscale-0.58.0.tar.gz
+[2024-05-20 13:43:32] INFO root fetch - processPackages [logger-aux]: Downloading https://files.pythonhosted.org/packages/4d/f0/4ad0cf7b7d9ba23997cee3b5f6ce6d5c28b44c72b2b15aaee83ff05ef803/logger_aux-0.0.7.tar.gz
+[2024-05-20 13:43:32] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/22/16/d2fe79483fa6b0bc1089498bf1a075fc880fbcbfa084dad15a9dafb85fd2/th2_data_services-2.0.0.dev9113174303.tar.gz
+[2024-05-20 13:43:32] INFO root fetch - processPackages [logger-aux]: Downloading https://files.pythonhosted.org/packages/a7/49/9c54723b3b36525f91c726f2c290fcc7fdcf8e611df1523c9eed3db490b4/logger_aux-0.0.8.tar.gz
+[2024-05-20 13:43:32] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/93/07/e6ffad28b8c90156f69661779dfd1931fef534201aa6c3de802139189682/th2_data_services-2.0.0.dev9158118525.tar.gz
+[2024-05-20 13:43:32] INFO root fetch - processPackages [pulumiverse-exoscale]: Downloading https://files.pythonhosted.org/packages/42/71/25a8380fd2316669abf5ff90b5e9df4b89c3458500fd5a380262f397e56a/pulumiverse_exoscale-0.59.0.tar.gz
+[2024-05-20 13:43:32] INFO root fetch - processPackages [logger-aux]: executing diffoscope
+[2024-05-20 13:43:32] INFO root fetch - processPackages [logger-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger_aux-0.0.7.tar.gz tmp/logger_aux-0.0.8.tar.gz --markdown 20240520/l/logger-aux/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-20 13:43:32] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2024-05-20 13:43:32] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev9113174303.tar.gz tmp/th2_data_services-2.0.0.dev9158118525.tar.gz --markdown 20240520/t/th2-data-services/2.0.0.dev9113174303-2.0.0.dev9158118525/README.md --exclude *.pyd
+[2024-05-20 13:43:32] INFO root fetch - processPackages [pulumiverse-exoscale]: executing diffoscope
+[2024-05-20 13:43:32] INFO root fetch - processPackages [pulumiverse-exoscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_exoscale-0.58.0.tar.gz tmp/pulumiverse_exoscale-0.59.0.tar.gz --markdown 20240520/p/pulumiverse-exoscale/0.58.0-0.59.0/README.md --exclude *.pyd
+[2024-05-20 13:43:33] INFO root fetch - processPackages [logger-aux]: Remove: archive file [/home/abi/fetcher/tmp/logger_aux-0.0.7.tar.gz]
+[2024-05-20 13:43:33] INFO root fetch - processPackages [logger-aux]: Remove: archive file [/home/abi/fetcher/tmp/logger_aux-0.0.8.tar.gz]
+[2024-05-20 13:43:33] INFO root fetch - main [MainThread]: End processing [logger-aux]: success
+[2024-05-20 13:43:33] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev9113174303.tar.gz]
+[2024-05-20 13:43:33] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev9158118525.tar.gz]
+[2024-05-20 13:43:33] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2024-05-20 13:43:33] INFO root fetch - processPackages [pulumiverse-exoscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_exoscale-0.58.0.tar.gz]
+[2024-05-20 13:43:33] INFO root fetch - processPackages [pulumiverse-exoscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_exoscale-0.59.0.tar.gz]
+[2024-05-20 13:43:33] INFO root fetch - main [MainThread]: End processing [pulumiverse-exoscale]: success
+[2024-05-20 13:43:33] INFO root fetch - main [MainThread]: Store serial: [23288886]

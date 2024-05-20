@@ -10463,3 +10463,24 @@
 [2024-05-20 10:19:18] INFO root fetch - processPackages [sais-notify]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify-0.0.5.tar.gz]
 [2024-05-20 10:19:18] INFO root fetch - main [MainThread]: End processing [sais-notify]: success
 [2024-05-20 10:19:18] INFO root fetch - main [MainThread]: Store serial: [23286713]
+[2024-05-20 10:21:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286713]
+[2024-05-20 10:21:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 10:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysect
+[2024-05-20 10:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: luigi
+[2024-05-20 10:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-superapp
+[2024-05-20 10:21:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logos-sdk
+[2024-05-20 10:21:26] WARNING root fetch - processPackages [pysect]: Skipping, unable to determine old version
+[2024-05-20 10:21:26] INFO root fetch - main [MainThread]: End processing [pysect] error
+[2024-05-20 10:21:26] INFO root fetch - processPackages [luigi]: New version: [3.5.1] Old Version: [3.5.0]
+[2024-05-20 10:21:26] WARNING root fetch - processPackages [django-superapp]: Skipping, unable to determine old version
+[2024-05-20 10:21:26] INFO root fetch - main [MainThread]: End processing [django-superapp] error
+[2024-05-20 10:21:26] WARNING root fetch - processPackages [logos-sdk]: Skipping, unable to determine old version
+[2024-05-20 10:21:26] INFO root fetch - main [MainThread]: End processing [logos-sdk] error
+[2024-05-20 10:21:27] INFO root fetch - processPackages [luigi]: Downloading https://files.pythonhosted.org/packages/51/d7/d1e1689f81ac1e5dc1463d7faef6a5ab4300f47205fa187e9bb23ffb189f/luigi-3.5.0.tar.gz
+[2024-05-20 10:21:27] INFO root fetch - processPackages [luigi]: Downloading https://files.pythonhosted.org/packages/51/10/c1aa4682a1b19289c06c819d52526086ad3342536d3e12650ea772d6eae1/luigi-3.5.1.tar.gz
+[2024-05-20 10:21:27] INFO root fetch - processPackages [luigi]: executing diffoscope
+[2024-05-20 10:21:27] INFO root fetch - processPackages [luigi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luigi-3.5.0.tar.gz tmp/luigi-3.5.1.tar.gz --markdown 20240520/l/luigi/3.5.0-3.5.1/README.md --exclude *.pyd
+[2024-05-20 10:21:29] INFO root fetch - processPackages [luigi]: Remove: archive file [/home/abi/fetcher/tmp/luigi-3.5.0.tar.gz]
+[2024-05-20 10:21:29] INFO root fetch - processPackages [luigi]: Remove: archive file [/home/abi/fetcher/tmp/luigi-3.5.1.tar.gz]
+[2024-05-20 10:21:29] INFO root fetch - main [MainThread]: End processing [luigi]: success
+[2024-05-20 10:21:29] INFO root fetch - main [MainThread]: Store serial: [23286720]

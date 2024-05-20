@@ -15780,3 +15780,45 @@ EOFError: EOF read where object expected
 [2024-05-20 13:45:45] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
 [2024-05-20 13:45:45] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-05-20 13:45:45] INFO root fetch - main [MainThread]: Store serial: [23288896]
+[2024-05-20 13:47:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288896]
+[2024-05-20 13:47:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 13:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dvcx
+[2024-05-20 13:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quad-iou
+[2024-05-20 13:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ChatGPTWeb
+[2024-05-20 13:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2024-05-20 13:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: muscadellez
+[2024-05-20 13:47:54] INFO root fetch - processPackages [dvcx]: New version: [0.81.0] Old Version: [0.80.0]
+[2024-05-20 13:47:54] INFO root fetch - processPackages [cg]: New version: [60.7.9] Old Version: [60.7.8]
+[2024-05-20 13:47:54] INFO root fetch - processPackages [quad-iou]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-05-20 13:47:54] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/96/7a/bf0ce0b86ae55a61e728e38fcf440113d5a222e3e379d6ec83d42eedd3ea/dvcx-0.80.0.tar.gz
+[2024-05-20 13:47:54] WARNING root fetch - processPackages [muscadellez]: Skipping, unable to determine old version
+[2024-05-20 13:47:54] INFO root fetch - main [MainThread]: End processing [muscadellez] error
+[2024-05-20 13:47:54] INFO root fetch - processPackages [ChatGPTWeb]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-20 13:47:54] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/44/4c/2c6765cf909b3cf89d94a9f9f15ebc4762df0f315a7e114363bf0635bf61/cg-60.7.8.tar.gz
+[2024-05-20 13:47:55] INFO root fetch - processPackages [quad-iou]: Downloading https://files.pythonhosted.org/packages/64/c5/7197d5ac3e2e536c3da4d3256840317e1ec377a97a408e06f1cd599a0028/quad_iou-0.0.0.tar.gz
+[2024-05-20 13:47:55] INFO root fetch - processPackages [ChatGPTWeb]: Downloading https://files.pythonhosted.org/packages/82/0b/2f40072238e539ff3dafbd19d986e0824e96f181027997b032d565a7250f/ChatGPTWeb-0.2.8.tar.gz
+[2024-05-20 13:47:55] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/50/25/20f40b4f47cba9db58fecef3226673cd68e0f80fe0914c5c1cf06675b96e/dvcx-0.81.0.tar.gz
+[2024-05-20 13:47:55] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/38/e3ff082487603f9b23877cfe7185b58a21cb7763a1d8c0ea38640ffb90ea/cg-60.7.9-py3-none-any.whl
+[2024-05-20 13:47:55] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-05-20 13:47:55] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.80.0.tar.gz tmp/dvcx-0.81.0.tar.gz --markdown 20240520/d/dvcx/0.80.0-0.81.0/README.md --exclude *.pyd
+[2024-05-20 13:47:55] INFO root fetch - processPackages [quad-iou]: Downloading https://files.pythonhosted.org/packages/c3/92/63a8e77ee6490c8c547b2f91b5fd203a1f550e702530b212f0663342c0d9/quad_iou-0.1.0.tar.gz
+[2024-05-20 13:47:55] INFO root fetch - processPackages [ChatGPTWeb]: Downloading https://files.pythonhosted.org/packages/c2/07/48a39963a051837ad1394281b0a7803bd8e57f7bd348e48ace95874fc0bb/ChatGPTWeb-0.2.9.tar.gz
+[2024-05-20 13:47:55] INFO root fetch - processPackages [quad-iou]: executing diffoscope
+[2024-05-20 13:47:55] INFO root fetch - processPackages [quad-iou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quad_iou-0.0.0.tar.gz tmp/quad_iou-0.1.0.tar.gz --markdown 20240520/q/quad-iou/0.0.0-0.1.0/README.md --exclude *.pyd
+[2024-05-20 13:47:55] INFO root fetch - processPackages [ChatGPTWeb]: executing diffoscope
+[2024-05-20 13:47:55] INFO root fetch - processPackages [ChatGPTWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatGPTWeb-0.2.8.tar.gz tmp/ChatGPTWeb-0.2.9.tar.gz --markdown 20240520/C/ChatGPTWeb/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-20 13:47:55] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-20 13:47:55] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.8.tar.gz tmp/cg-60.7.9-py3-none-any.whl.zip --markdown 20240520/c/cg/60.7.8-60.7.9/README.md --exclude *.pyd
+[2024-05-20 13:47:56] INFO root fetch - processPackages [ChatGPTWeb]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPTWeb-0.2.8.tar.gz]
+[2024-05-20 13:47:56] INFO root fetch - processPackages [ChatGPTWeb]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPTWeb-0.2.9.tar.gz]
+[2024-05-20 13:47:56] INFO root fetch - main [MainThread]: End processing [ChatGPTWeb]: success
+[2024-05-20 13:47:56] INFO root fetch - processPackages [quad-iou]: Remove: archive file [/home/abi/fetcher/tmp/quad_iou-0.0.0.tar.gz]
+[2024-05-20 13:47:56] INFO root fetch - processPackages [quad-iou]: Remove: archive file [/home/abi/fetcher/tmp/quad_iou-0.1.0.tar.gz]
+[2024-05-20 13:47:56] INFO root fetch - main [MainThread]: End processing [quad-iou]: success
+[2024-05-20 13:47:56] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.80.0.tar.gz]
+[2024-05-20 13:47:56] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.81.0.tar.gz]
+[2024-05-20 13:47:56] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-05-20 13:47:56] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.8.tar.gz]
+[2024-05-20 13:47:56] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
+[2024-05-20 13:47:56] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-20 13:47:56] INFO root fetch - main [MainThread]: Store serial: [23288930]

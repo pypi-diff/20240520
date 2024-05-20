@@ -13506,3 +13506,72 @@
 [2024-05-20 12:16:21] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.9.tar.gz]
 [2024-05-20 12:16:21] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
 [2024-05-20 12:16:21] INFO root fetch - main [MainThread]: Store serial: [23288009]
+[2024-05-20 12:18:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288009]
+[2024-05-20 12:18:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 12:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymonit
+[2024-05-20 12:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adbutils
+[2024-05-20 12:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alita-sdk
+[2024-05-20 12:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pozalabs-compose
+[2024-05-20 12:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lib-version-urlphishing
+[2024-05-20 12:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bbgws
+[2024-05-20 12:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dp-launching-app
+[2024-05-20 12:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybrary
+[2024-05-20 12:18:30] INFO root fetch - processPackages [lib-version-urlphishing]: New version: [2.2.4] Old Version: [2.2.1]
+[2024-05-20 12:18:30] INFO root fetch - processPackages [alita-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 12:18:30] INFO root fetch - processPackages [pymonit]: New version: [1.4.8] Old Version: [1.4.7]
+[2024-05-20 12:18:30] INFO root fetch - processPackages [pozalabs-compose]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 12:18:30] INFO root fetch - processPackages [lib-version-urlphishing]: Downloading https://files.pythonhosted.org/packages/ea/72/cf1f789945dcbf95177cf8233c1138918f9642ec9e1705e3c5a764e5b232/lib_version_urlphishing-2.2.1.tar.gz
+[2024-05-20 12:18:30] INFO root fetch - processPackages [pymonit]: Downloading https://files.pythonhosted.org/packages/30/f7/11de4042f994cf0a125ad1ec2b8bcec870b8026ea81421eb61505103125a/pymonit-1.4.7.tar.gz
+[2024-05-20 12:18:30] WARNING root fetch - processPackages [bbgws]: Skipping, unable to determine old version
+[2024-05-20 12:18:30] INFO root fetch - main [MainThread]: End processing [bbgws] error
+[2024-05-20 12:18:30] INFO root fetch - processPackages [pybrary]: New version: [0.3.0] Old Version: [0.2421.0]
+[2024-05-20 12:18:30] INFO root fetch - processPackages [dp-launching-app]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-05-20 12:18:30] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/06/b4/e38f9c7412983e6cae601fa8a4496d9dd3c15fe0e6bb19019457de2bf908/pozalabs-compose-0.9.0.tar.gz
+[2024-05-20 12:18:30] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/58/77/699a43c7f5d3229ed63ff8d8eaba7999323921fbe9a94d3dd2d8b0f9b7a6/alita_sdk-0.1.8.tar.gz
+[2024-05-20 12:18:30] INFO root fetch - processPackages [adbutils]: New version: [2.7.0] Old Version: [2.6.2]
+[2024-05-20 12:18:30] INFO root fetch - processPackages [dp-launching-app]: Downloading https://files.pythonhosted.org/packages/e9/b2/972972d4a82efe9c54049e0bdf539c92b87446efe344de32c7bf4facb6cb/dp-launching-app-0.0.4.tar.gz
+[2024-05-20 12:18:30] INFO root fetch - processPackages [adbutils]: Downloading https://files.pythonhosted.org/packages/24/c1/1098e5372341d4b410400e9b718db5e9a3055ca0609f84f912697a44f1a4/adbutils-2.6.2.tar.gz
+[2024-05-20 12:18:30] INFO root fetch - processPackages [pybrary]: Downloading https://files.pythonhosted.org/packages/93/f1/3837c93e70d438a7b9b1215f7df9ae121ecac5c8544f266b93b65e37f040/pybrary-0.2421.0.tar.gz
+[2024-05-20 12:18:30] INFO root fetch - processPackages [lib-version-urlphishing]: Downloading https://files.pythonhosted.org/packages/d7/f8/04f690e341a959a612e82a3a22a45069d034e5d2c10b0ccc595f865934c3/lib_version_urlphishing-2.2.4.tar.gz
+[2024-05-20 12:18:30] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/c4/33/dc52b783559ddc423af41ab2502f9d7749e2c4231db5f0f022fea65653c7/pozalabs-compose-0.9.1.tar.gz
+[2024-05-20 12:18:30] INFO root fetch - processPackages [pymonit]: Downloading https://files.pythonhosted.org/packages/9c/d1/b6545d804cf6c4acda6c76eb69d9edde1c91ff92aca23f4c627873f23951/pymonit-1.4.8.tar.gz
+[2024-05-20 12:18:30] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/6d/5f/08f7caedc136fde13091ef88ae35349e7285ef4b9c181b34fb1c4dffd4ba/alita_sdk-0.1.9.tar.gz
+[2024-05-20 12:18:30] INFO root fetch - processPackages [lib-version-urlphishing]: executing diffoscope
+[2024-05-20 12:18:30] INFO root fetch - processPackages [lib-version-urlphishing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_urlphishing-2.2.1.tar.gz tmp/lib_version_urlphishing-2.2.4.tar.gz --markdown 20240520/l/lib-version-urlphishing/2.2.1-2.2.4/README.md --exclude *.pyd
+[2024-05-20 12:18:30] INFO root fetch - processPackages [pymonit]: executing diffoscope
+[2024-05-20 12:18:30] INFO root fetch - processPackages [pymonit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymonit-1.4.7.tar.gz tmp/pymonit-1.4.8.tar.gz --markdown 20240520/p/pymonit/1.4.7-1.4.8/README.md --exclude *.pyd
+[2024-05-20 12:18:30] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-05-20 12:18:30] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.1.8.tar.gz tmp/alita_sdk-0.1.9.tar.gz --markdown 20240520/a/alita-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 12:18:30] INFO root fetch - processPackages [pozalabs-compose]: executing diffoscope
+[2024-05-20 12:18:30] INFO root fetch - processPackages [pozalabs-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozalabs-compose-0.9.0.tar.gz tmp/pozalabs-compose-0.9.1.tar.gz --markdown 20240520/p/pozalabs-compose/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 12:18:30] INFO root fetch - processPackages [dp-launching-app]: Downloading https://files.pythonhosted.org/packages/0c/1a/9ced7b8a3b3c651a15fe68411e5e3259b65c461361402a10763478f7c6a2/dp-launching-app-0.0.6.tar.gz
+[2024-05-20 12:18:30] INFO root fetch - processPackages [adbutils]: Downloading https://files.pythonhosted.org/packages/25/f1/14abfad55fef78b050209a5ca369fb26d4a438ee3647464ca0015907aa7d/adbutils-2.7.0.tar.gz
+[2024-05-20 12:18:30] INFO root fetch - processPackages [dp-launching-app]: executing diffoscope
+[2024-05-20 12:18:30] INFO root fetch - processPackages [dp-launching-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dp-launching-app-0.0.4.tar.gz tmp/dp-launching-app-0.0.6.tar.gz --markdown 20240520/d/dp-launching-app/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-05-20 12:18:30] INFO root fetch - processPackages [pybrary]: Downloading https://files.pythonhosted.org/packages/bb/a2/1a75a3e87aa209fac7db7d97ca7acf6f9cd3cf72698d58f1aea0a4c3a18a/pybrary-0.3.0.tar.gz
+[2024-05-20 12:18:30] INFO root fetch - processPackages [adbutils]: executing diffoscope
+[2024-05-20 12:18:30] INFO root fetch - processPackages [adbutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbutils-2.6.2.tar.gz tmp/adbutils-2.7.0.tar.gz --markdown 20240520/a/adbutils/2.6.2-2.7.0/README.md --exclude *.pyd
+[2024-05-20 12:18:31] INFO root fetch - processPackages [pybrary]: executing diffoscope
+[2024-05-20 12:18:31] INFO root fetch - processPackages [pybrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybrary-0.2421.0.tar.gz tmp/pybrary-0.3.0.tar.gz --markdown 20240520/p/pybrary/0.2421.0-0.3.0/README.md --exclude *.pyd
+[2024-05-20 12:18:31] INFO root fetch - processPackages [lib-version-urlphishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-2.2.1.tar.gz]
+[2024-05-20 12:18:31] INFO root fetch - processPackages [lib-version-urlphishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-2.2.4.tar.gz]
+[2024-05-20 12:18:31] INFO root fetch - main [MainThread]: End processing [lib-version-urlphishing]: success
+[2024-05-20 12:18:31] INFO root fetch - processPackages [pymonit]: Remove: archive file [/home/abi/fetcher/tmp/pymonit-1.4.7.tar.gz]
+[2024-05-20 12:18:31] INFO root fetch - processPackages [pymonit]: Remove: archive file [/home/abi/fetcher/tmp/pymonit-1.4.8.tar.gz]
+[2024-05-20 12:18:31] INFO root fetch - main [MainThread]: End processing [pymonit]: success
+[2024-05-20 12:18:31] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.8.tar.gz]
+[2024-05-20 12:18:31] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.9.tar.gz]
+[2024-05-20 12:18:31] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-05-20 12:18:31] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.0.tar.gz]
+[2024-05-20 12:18:31] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.1.tar.gz]
+[2024-05-20 12:18:31] INFO root fetch - main [MainThread]: End processing [pozalabs-compose]: success
+[2024-05-20 12:18:31] INFO root fetch - processPackages [pybrary]: Remove: archive file [/home/abi/fetcher/tmp/pybrary-0.2421.0.tar.gz]
+[2024-05-20 12:18:31] INFO root fetch - processPackages [pybrary]: Remove: archive file [/home/abi/fetcher/tmp/pybrary-0.3.0.tar.gz]
+[2024-05-20 12:18:31] INFO root fetch - main [MainThread]: End processing [pybrary]: success
+[2024-05-20 12:18:31] INFO root fetch - processPackages [dp-launching-app]: Remove: archive file [/home/abi/fetcher/tmp/dp-launching-app-0.0.4.tar.gz]
+[2024-05-20 12:18:31] INFO root fetch - processPackages [dp-launching-app]: Remove: archive file [/home/abi/fetcher/tmp/dp-launching-app-0.0.6.tar.gz]
+[2024-05-20 12:18:31] INFO root fetch - main [MainThread]: End processing [dp-launching-app]: success
+[2024-05-20 12:18:31] INFO root fetch - processPackages [adbutils]: Remove: archive file [/home/abi/fetcher/tmp/adbutils-2.6.2.tar.gz]
+[2024-05-20 12:18:31] INFO root fetch - processPackages [adbutils]: Remove: archive file [/home/abi/fetcher/tmp/adbutils-2.7.0.tar.gz]
+[2024-05-20 12:18:31] INFO root fetch - main [MainThread]: End processing [adbutils]: success
+[2024-05-20 12:18:31] INFO root fetch - main [MainThread]: Store serial: [23288037]

@@ -21906,3 +21906,102 @@ EOFError: EOF read where object expected
 [2024-05-20 17:25:05] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.9.tar.gz]
 [2024-05-20 17:25:05] INFO root fetch - main [MainThread]: End processing [galv]: success
 [2024-05-20 17:25:05] INFO root fetch - main [MainThread]: Store serial: [23291725]
+[2024-05-20 17:27:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291725]
+[2024-05-20 17:27:14] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-20 17:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plyball
+[2024-05-20 17:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-nets-core
+[2024-05-20 17:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-custom-jsonfield
+[2024-05-20 17:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Project-ppchem-tools-kit
+[2024-05-20 17:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alphafold3-pytorch
+[2024-05-20 17:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PlumedToHTML
+[2024-05-20 17:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfragments
+[2024-05-20 17:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-azuredevops
+[2024-05-20 17:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dkist
+[2024-05-20 17:27:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flatpack
+[2024-05-20 17:27:15] INFO root fetch - processPackages [django-nets-core]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-20 17:27:15] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [3.2.0a1716216578] Old Version: [3.1.0a1715967542]
+[2024-05-20 17:27:15] INFO root fetch - processPackages [flatpack]: New version: [3.4.91] Old Version: [3.4.90]
+[2024-05-20 17:27:15] INFO root fetch - processPackages [plyball]: New version: [2.2.72] Old Version: [2.2.67]
+[2024-05-20 17:27:15] INFO root fetch - processPackages [alphafold3-pytorch]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-20 17:27:15] INFO root fetch - processPackages [pyfragments]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-20 17:27:15] ERROR root fetch - processPackages [django-custom-jsonfield]: Unable to get metadata: No such project 'django-custom-jsonfield'
+[2024-05-20 17:27:15] INFO root fetch - processPackages [django-custom-jsonfield]: Start processing: uncomparablyz
+[2024-05-20 17:27:15] INFO root fetch - main [MainThread]: End processing [django-custom-jsonfield] error
+[2024-05-20 17:27:15] INFO root fetch - processPackages [Project-ppchem-tools-kit]: New version: [1.0.0] Old Version: [0.1.3]
+[2024-05-20 17:27:15] INFO root fetch - processPackages [PlumedToHTML]: New version: [0.9] Old Version: [0.8]
+[2024-05-20 17:27:15] INFO root fetch - processPackages [dkist]: New version: [1.6.0] Old Version: [1.5.0rc1]
+[2024-05-20 17:27:15] INFO root fetch - processPackages [django-nets-core]: Downloading https://files.pythonhosted.org/packages/79/c3/cda8f33a48cc3ba33d3b6d9e2fbd7ee2b5c3361c5337b09da3d8a207b017/django_nets_core-0.1.98.tar.gz
+[2024-05-20 17:27:15] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/e2/a2/f7e60b9b4e304090346b12017f459c95daaba250c1a805bf2065544871d5/pulumi_azuredevops-3.1.0a1715967542.tar.gz
+[2024-05-20 17:27:15] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/70/d3/8e51527ceca2f915b07cfb0b4067e2b7f693f6eaeb1cebb2d78a6c169348/flatpack-3.4.90.tar.gz
+[2024-05-20 17:27:15] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/81/95/5ed2d773d95e4fcba932cfdf67091abff694ff6ee4f10462588473535c97/PlumedToHTML-0.8.tar.gz
+[2024-05-20 17:27:15] WARNING root fetch - processPackages [uncomparablyz]: Skipping, unable to determine old version
+[2024-05-20 17:27:15] INFO root fetch - processPackages [uncomparablyz]: Start processing: geodezyx
+[2024-05-20 17:27:15] INFO root fetch - main [MainThread]: End processing [uncomparablyz] error
+[2024-05-20 17:27:15] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/72/c9/20096d5f1fd62b6c592457b3db9855321b09239395e47a05a463bdfc8270/alphafold3_pytorch-0.0.3.tar.gz
+[2024-05-20 17:27:15] INFO root fetch - processPackages [plyball]: Downloading https://files.pythonhosted.org/packages/f3/45/a99d53b024d2d9b715a2a599a42c25df438eeaf874a4f9adfbc9b117d990/plyball-2.2.67.tar.gz
+[2024-05-20 17:27:15] INFO root fetch - processPackages [pyfragments]: Downloading https://files.pythonhosted.org/packages/80/c6/bacae627c5816b5778bf352fe30d7fd0069a3dcc8418f7d18f2663e3fdda/pyfragments-0.3.0.tar.gz
+[2024-05-20 17:27:15] INFO root fetch - processPackages [Project-ppchem-tools-kit]: Downloading https://files.pythonhosted.org/packages/d1/da/3b349827f0bc50dfca480ecd66252e00ce9dbf96327f06ee78686b8f78c6/project_ppchem_tools_kit-0.1.3.tar.gz
+[2024-05-20 17:27:15] INFO root fetch - processPackages [dkist]: Downloading https://files.pythonhosted.org/packages/3e/8b/103498ad1318133d88907f8f9c861336b44323939fd4acf947d923daf015/dkist-1.5.0rc1.tar.gz
+[2024-05-20 17:27:15] INFO root fetch - processPackages [django-nets-core]: Downloading https://files.pythonhosted.org/packages/36/e9/30dde935785c504d8cae7b3855974eccdf725a0992dff1f40f413d916c8b/django_nets_core-0.1.99.tar.gz
+[2024-05-20 17:27:15] INFO root fetch - processPackages [geodezyx]: New version: [4.4.3] Old Version: [4.4.2]
+[2024-05-20 17:27:15] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/2c/e5/b8ad48d5772bc8df7619da595ff237fbc9e6a3365fc46373c6817e384346/pulumi_azuredevops-3.2.0a1716216578.tar.gz
+[2024-05-20 17:27:15] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/23/d4/1eb42b960a9aa866f42f721a83983ffc1093c69ccfdfbee4934a90d1f178/flatpack-3.4.91.tar.gz
+[2024-05-20 17:27:15] INFO root fetch - processPackages [django-nets-core]: executing diffoscope
+[2024-05-20 17:27:15] INFO root fetch - processPackages [django-nets-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_nets_core-0.1.98.tar.gz tmp/django_nets_core-0.1.99.tar.gz --markdown 20240520/d/django-nets-core/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-20 17:27:15] INFO root fetch - processPackages [PlumedToHTML]: Downloading https://files.pythonhosted.org/packages/d0/90/42341120e8c5d44ef5413125d4ea0ec3c0e2ca685bfe6358a3c5aa6fc7f9/PlumedToHTML-0.9.tar.gz
+[2024-05-20 17:27:15] INFO root fetch - processPackages [plyball]: Downloading https://files.pythonhosted.org/packages/b2/ac/9d2100bb8a49b5c30f1cc544464db2135b335e3b37d2dfe0b9a968f328ec/plyball-2.2.72.tar.gz
+[2024-05-20 17:27:15] INFO root fetch - processPackages [geodezyx]: Downloading https://files.pythonhosted.org/packages/95/3b/b41fbd582ebf466b91b4a000652d2fdad6e891a340824f220135e070e28e/geodezyx-4.4.2.tar.gz
+[2024-05-20 17:27:15] INFO root fetch - processPackages [Project-ppchem-tools-kit]: Downloading https://files.pythonhosted.org/packages/35/ea/90bca1752345780ac975bbedff78e64dde5501adb7b5c82831c8bc26d4ef/project_ppchem_tools_kit-1.0.0.tar.gz
+[2024-05-20 17:27:15] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2024-05-20 17:27:15] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-3.1.0a1715967542.tar.gz tmp/pulumi_azuredevops-3.2.0a1716216578.tar.gz --markdown 20240520/p/pulumi-azuredevops/3.1.0a1715967542-3.2.0a1716216578/README.md --exclude *.pyd
+[2024-05-20 17:27:16] INFO root fetch - processPackages [PlumedToHTML]: executing diffoscope
+[2024-05-20 17:27:16] INFO root fetch - processPackages [PlumedToHTML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlumedToHTML-0.8.tar.gz tmp/PlumedToHTML-0.9.tar.gz --markdown 20240520/P/PlumedToHTML/0.8-0.9/README.md --exclude *.pyd
+[2024-05-20 17:27:16] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/00/85/a69d828c1a982212172889abbe3163e71c3a90a094763eb21d7af0022972/alphafold3_pytorch-0.0.4.tar.gz
+[2024-05-20 17:27:16] INFO root fetch - processPackages [pyfragments]: Downloading https://files.pythonhosted.org/packages/1b/92/88651dea610aa766c5c8b8edaa3a76eba604f2d64c233764831de1f7b6bf/pyfragments-0.4.0.tar.gz
+[2024-05-20 17:27:16] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-20 17:27:16] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.90.tar.gz tmp/flatpack-3.4.91.tar.gz --markdown 20240520/f/flatpack/3.4.90-3.4.91/README.md --exclude *.pyd
+[2024-05-20 17:27:16] INFO root fetch - processPackages [plyball]: executing diffoscope
+[2024-05-20 17:27:16] INFO root fetch - processPackages [plyball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plyball-2.2.67.tar.gz tmp/plyball-2.2.72.tar.gz --markdown 20240520/p/plyball/2.2.67-2.2.72/README.md --exclude *.pyd
+[2024-05-20 17:27:16] INFO root fetch - processPackages [dkist]: Downloading https://files.pythonhosted.org/packages/c8/f2/b402d6aab7237dcdba9f088003d2c46d277d52f6db1eccc8c1160d98c3f3/dkist-1.6.0.tar.gz
+[2024-05-20 17:27:16] INFO root fetch - processPackages [Project-ppchem-tools-kit]: executing diffoscope
+[2024-05-20 17:27:16] INFO root fetch - processPackages [Project-ppchem-tools-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project_ppchem_tools_kit-0.1.3.tar.gz tmp/project_ppchem_tools_kit-1.0.0.tar.gz --markdown 20240520/P/Project-ppchem-tools-kit/0.1.3-1.0.0/README.md --exclude *.pyd
+[2024-05-20 17:27:16] INFO root fetch - processPackages [alphafold3-pytorch]: executing diffoscope
+[2024-05-20 17:27:16] INFO root fetch - processPackages [alphafold3-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphafold3_pytorch-0.0.3.tar.gz tmp/alphafold3_pytorch-0.0.4.tar.gz --markdown 20240520/a/alphafold3-pytorch/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-20 17:27:16] INFO root fetch - processPackages [pyfragments]: executing diffoscope
+[2024-05-20 17:27:16] INFO root fetch - processPackages [pyfragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfragments-0.3.0.tar.gz tmp/pyfragments-0.4.0.tar.gz --markdown 20240520/p/pyfragments/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-20 17:27:16] INFO root fetch - processPackages [geodezyx]: Downloading https://files.pythonhosted.org/packages/54/6c/f17ec88e87f7d1e227b835ef9087e52823fa0cab8ca0eb2d779e9868ce55/geodezyx-4.4.3.tar.gz
+[2024-05-20 17:27:16] INFO root fetch - processPackages [dkist]: executing diffoscope
+[2024-05-20 17:27:16] INFO root fetch - processPackages [dkist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-1.5.0rc1.tar.gz tmp/dkist-1.6.0.tar.gz --markdown 20240520/d/dkist/1.5.0rc1-1.6.0/README.md --exclude *.pyd
+[2024-05-20 17:27:16] INFO root fetch - processPackages [geodezyx]: executing diffoscope
+[2024-05-20 17:27:16] INFO root fetch - processPackages [geodezyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodezyx-4.4.2.tar.gz tmp/geodezyx-4.4.3.tar.gz --markdown 20240520/g/geodezyx/4.4.2-4.4.3/README.md --exclude *.pyd
+[2024-05-20 17:27:16] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.8.tar.gz]
+[2024-05-20 17:27:16] INFO root fetch - processPackages [PlumedToHTML]: Remove: archive file [/home/abi/fetcher/tmp/PlumedToHTML-0.9.tar.gz]
+[2024-05-20 17:27:16] INFO root fetch - main [MainThread]: End processing [PlumedToHTML]: success
+[2024-05-20 17:27:16] INFO root fetch - processPackages [plyball]: Remove: archive file [/home/abi/fetcher/tmp/plyball-2.2.67.tar.gz]
+[2024-05-20 17:27:16] INFO root fetch - processPackages [plyball]: Remove: archive file [/home/abi/fetcher/tmp/plyball-2.2.72.tar.gz]
+[2024-05-20 17:27:16] INFO root fetch - main [MainThread]: End processing [plyball]: success
+[2024-05-20 17:27:17] INFO root fetch - processPackages [django-nets-core]: Remove: archive file [/home/abi/fetcher/tmp/django_nets_core-0.1.98.tar.gz]
+[2024-05-20 17:27:17] INFO root fetch - processPackages [django-nets-core]: Remove: archive file [/home/abi/fetcher/tmp/django_nets_core-0.1.99.tar.gz]
+[2024-05-20 17:27:17] INFO root fetch - main [MainThread]: End processing [django-nets-core]: success
+[2024-05-20 17:27:17] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.90.tar.gz]
+[2024-05-20 17:27:17] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.91.tar.gz]
+[2024-05-20 17:27:17] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-20 17:27:17] INFO root fetch - processPackages [Project-ppchem-tools-kit]: Remove: archive file [/home/abi/fetcher/tmp/project_ppchem_tools_kit-0.1.3.tar.gz]
+[2024-05-20 17:27:17] INFO root fetch - processPackages [Project-ppchem-tools-kit]: Remove: archive file [/home/abi/fetcher/tmp/project_ppchem_tools_kit-1.0.0.tar.gz]
+[2024-05-20 17:27:17] INFO root fetch - main [MainThread]: End processing [Project-ppchem-tools-kit]: success
+[2024-05-20 17:27:17] INFO root fetch - processPackages [pyfragments]: Remove: archive file [/home/abi/fetcher/tmp/pyfragments-0.3.0.tar.gz]
+[2024-05-20 17:27:17] INFO root fetch - processPackages [pyfragments]: Remove: archive file [/home/abi/fetcher/tmp/pyfragments-0.4.0.tar.gz]
+[2024-05-20 17:27:17] INFO root fetch - main [MainThread]: End processing [pyfragments]: success
+[2024-05-20 17:27:17] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715967542.tar.gz]
+[2024-05-20 17:27:17] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.2.0a1716216578.tar.gz]
+[2024-05-20 17:27:17] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2024-05-20 17:27:17] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.3.tar.gz]
+[2024-05-20 17:27:17] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.4.tar.gz]
+[2024-05-20 17:27:17] INFO root fetch - main [MainThread]: End processing [alphafold3-pytorch]: success
+[2024-05-20 17:27:18] INFO root fetch - processPackages [dkist]: Remove: archive file [/home/abi/fetcher/tmp/dkist-1.5.0rc1.tar.gz]
+[2024-05-20 17:27:18] INFO root fetch - processPackages [dkist]: Remove: archive file [/home/abi/fetcher/tmp/dkist-1.6.0.tar.gz]
+[2024-05-20 17:27:18] INFO root fetch - main [MainThread]: End processing [dkist]: success
+[2024-05-20 17:27:18] INFO root fetch - processPackages [geodezyx]: Remove: archive file [/home/abi/fetcher/tmp/geodezyx-4.4.2.tar.gz]
+[2024-05-20 17:27:18] INFO root fetch - processPackages [geodezyx]: Remove: archive file [/home/abi/fetcher/tmp/geodezyx-4.4.3.tar.gz]
+[2024-05-20 17:27:18] INFO root fetch - main [MainThread]: End processing [geodezyx]: success
+[2024-05-20 17:27:18] INFO root fetch - main [MainThread]: Store serial: [23291763]

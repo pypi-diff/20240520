@@ -5715,3 +5715,27 @@
 [2024-05-20 05:24:16] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024051903.tar.gz]
 [2024-05-20 05:24:16] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-05-20 05:24:16] INFO root fetch - main [MainThread]: Store serial: [23284116]
+[2024-05-20 05:26:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284116]
+[2024-05-20 05:26:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 05:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jzai
+[2024-05-20 05:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: semiexternalizedz
+[2024-05-20 05:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: s3func
+[2024-05-20 05:26:25] INFO root fetch - processPackages [jzai]: New version: [59.83.42] Old Version: [59.83.41]
+[2024-05-20 05:26:25] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/49/5e/282b7ef9d86274def253e0e908559461de5d1c634ed2f237c29662536b75/jzai-59.83.41.tar.gz
+[2024-05-20 05:26:25] WARNING root fetch - processPackages [semiexternalizedz]: Skipping, unable to determine old version
+[2024-05-20 05:26:25] INFO root fetch - main [MainThread]: End processing [semiexternalizedz] error
+[2024-05-20 05:26:25] INFO root fetch - processPackages [s3func]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-20 05:26:25] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/e5/4a/8fe85aed9d678c42331abf4785581b49245d4d4a15f5170d0fb03a8baa4f/jzai-59.83.42.tar.gz
+[2024-05-20 05:26:25] INFO root fetch - processPackages [s3func]: Downloading https://files.pythonhosted.org/packages/cd/72/c0a5d8a7d1e1be97d9bd749c2cee6cc8d4ef38c416b43ee32d2a3661103c/s3func-0.1.4.tar.gz
+[2024-05-20 05:26:25] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-20 05:26:25] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.41.tar.gz tmp/jzai-59.83.42.tar.gz --markdown 20240520/j/jzai/59.83.41-59.83.42/README.md --exclude *.pyd
+[2024-05-20 05:26:26] INFO root fetch - processPackages [s3func]: Downloading https://files.pythonhosted.org/packages/6a/8f/fd113b80a5bb13aa910d4aebb31405fa7cdcf97ea6d68ef7bdf46d65e4a6/s3func-0.1.5.tar.gz
+[2024-05-20 05:26:26] INFO root fetch - processPackages [s3func]: executing diffoscope
+[2024-05-20 05:26:26] INFO root fetch - processPackages [s3func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3func-0.1.4.tar.gz tmp/s3func-0.1.5.tar.gz --markdown 20240520/s/s3func/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-20 05:26:26] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.41.tar.gz]
+[2024-05-20 05:26:26] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.42.tar.gz]
+[2024-05-20 05:26:26] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-20 05:26:26] INFO root fetch - processPackages [s3func]: Remove: archive file [/home/abi/fetcher/tmp/s3func-0.1.4.tar.gz]
+[2024-05-20 05:26:26] INFO root fetch - processPackages [s3func]: Remove: archive file [/home/abi/fetcher/tmp/s3func-0.1.5.tar.gz]
+[2024-05-20 05:26:26] INFO root fetch - main [MainThread]: End processing [s3func]: success
+[2024-05-20 05:26:26] INFO root fetch - main [MainThread]: Store serial: [23284126]

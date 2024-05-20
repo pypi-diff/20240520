@@ -4082,3 +4082,54 @@
 [2024-05-20 03:21:21] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1rc1.tar.gz]
 [2024-05-20 03:21:21] INFO root fetch - main [MainThread]: End processing [moped]: success
 [2024-05-20 03:21:21] INFO root fetch - main [MainThread]: Store serial: [23283302]
+[2024-05-20 03:23:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283302]
+[2024-05-20 03:23:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 03:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redis-director
+[2024-05-20 03:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: compecon
+[2024-05-20 03:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-emrserverless-with-delta-lake
+[2024-05-20 03:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trinkz
+[2024-05-20 03:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypomes-db
+[2024-05-20 03:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-stuff-doer
+[2024-05-20 03:23:30] INFO root fetch - processPackages [redis-director]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-20 03:23:30] INFO root fetch - processPackages [pypomes-db]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-05-20 03:23:30] INFO root fetch - processPackages [redis-director]: Downloading https://files.pythonhosted.org/packages/7c/4e/d7e6851655a72ba9e1dc135655f3bde1d6d25a308cc7a96d8e473693f500/redis_director-0.6.0.tar.gz
+[2024-05-20 03:23:30] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/95/e5/fa4887dbe366de719c56c86e3a608ff08eb9286f7e5a91382d87b29eda37/pypomes_db-0.8.6.tar.gz
+[2024-05-20 03:23:30] WARNING root fetch - processPackages [trinkz]: Skipping, unable to determine old version
+[2024-05-20 03:23:30] INFO root fetch - main [MainThread]: End processing [trinkz] error
+[2024-05-20 03:23:30] INFO root fetch - processPackages [aws-stuff-doer]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 03:23:30] INFO root fetch - processPackages [compecon]: New version: [2024.5.19] Old Version: [2022.9.9]
+[2024-05-20 03:23:30] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-20 03:23:30] INFO root fetch - processPackages [aws-stuff-doer]: Downloading https://files.pythonhosted.org/packages/da/ae/3a7b7a9520c521b7c0b82e93dd52be9ee5a2d96a265ad1263ac1451f68ee/aws_stuff_doer-0.1.0.tar.gz
+[2024-05-20 03:23:30] INFO root fetch - processPackages [compecon]: Downloading https://files.pythonhosted.org/packages/de/62/8c0456ab1a0b3d476e38c92d4ba8582b9a9ca27a378a5074478b955fdf19/compecon-2022.9.9.tar.gz
+[2024-05-20 03:23:30] INFO root fetch - processPackages [redis-director]: Downloading https://files.pythonhosted.org/packages/3a/43/249c783d527dc15a2cfbd1c7b35ed787be74429b77c000e31be266a1251f/redis_director-0.6.1.tar.gz
+[2024-05-20 03:23:30] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2024-05-20 03:23:30] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/fb/5f/7af028a16c6dec688d55b21e90c913748f5b97be475a88c49e9e9550cb73/pypomes_db-0.8.7.tar.gz
+[2024-05-20 03:23:30] INFO root fetch - processPackages [redis-director]: executing diffoscope
+[2024-05-20 03:23:30] INFO root fetch - processPackages [redis-director]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_director-0.6.0.tar.gz tmp/redis_director-0.6.1.tar.gz --markdown 20240520/r/redis-director/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-20 03:23:31] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2024-05-20 03:23:31] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.8.6.tar.gz tmp/pypomes_db-0.8.7.tar.gz --markdown 20240520/p/pypomes-db/0.8.6-0.8.7/README.md --exclude *.pyd
+[2024-05-20 03:23:31] INFO root fetch - processPackages [aws-stuff-doer]: Downloading https://files.pythonhosted.org/packages/d4/2c/2929838a79546a35c7729c3b6da5e2a071d85c85b4c140002d133a5ec6a8/aws_stuff_doer-0.1.1.tar.gz
+[2024-05-20 03:23:31] INFO root fetch - processPackages [compecon]: Downloading https://files.pythonhosted.org/packages/fa/34/b27a23ccd337a77049037fb003ab45484d74736d9cb2d08fee16b20db39e/compecon-2024.5.19.tar.gz
+[2024-05-20 03:23:31] INFO root fetch - processPackages [aws-stuff-doer]: executing diffoscope
+[2024-05-20 03:23:31] INFO root fetch - processPackages [aws-stuff-doer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_stuff_doer-0.1.0.tar.gz tmp/aws_stuff_doer-0.1.1.tar.gz --markdown 20240520/a/aws-stuff-doer/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 03:23:31] INFO root fetch - processPackages [compecon]: executing diffoscope
+[2024-05-20 03:23:31] INFO root fetch - processPackages [compecon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compecon-2022.9.9.tar.gz tmp/compecon-2024.5.19.tar.gz --markdown 20240520/c/compecon/2022.9.9-2024.5.19/README.md --exclude *.pyd
+[2024-05-20 03:23:31] INFO root fetch - processPackages [redis-director]: Remove: archive file [/home/abi/fetcher/tmp/redis_director-0.6.0.tar.gz]
+[2024-05-20 03:23:31] INFO root fetch - processPackages [redis-director]: Remove: archive file [/home/abi/fetcher/tmp/redis_director-0.6.1.tar.gz]
+[2024-05-20 03:23:31] INFO root fetch - main [MainThread]: End processing [redis-director]: success
+[2024-05-20 03:23:31] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.8.6.tar.gz]
+[2024-05-20 03:23:31] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.8.7.tar.gz]
+[2024-05-20 03:23:31] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2024-05-20 03:23:31] INFO root fetch - processPackages [aws-stuff-doer]: Remove: archive file [/home/abi/fetcher/tmp/aws_stuff_doer-0.1.0.tar.gz]
+[2024-05-20 03:23:31] INFO root fetch - processPackages [aws-stuff-doer]: Remove: archive file [/home/abi/fetcher/tmp/aws_stuff_doer-0.1.1.tar.gz]
+[2024-05-20 03:23:31] INFO root fetch - main [MainThread]: End processing [aws-stuff-doer]: success
+[2024-05-20 03:23:31] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2024-05-20 03:23:32] INFO root fetch - processPackages [compecon]: Remove: archive file [/home/abi/fetcher/tmp/compecon-2022.9.9.tar.gz]
+[2024-05-20 03:23:32] INFO root fetch - processPackages [compecon]: Remove: archive file [/home/abi/fetcher/tmp/compecon-2024.5.19.tar.gz]
+[2024-05-20 03:23:32] INFO root fetch - main [MainThread]: End processing [compecon]: success
+[2024-05-20 03:23:32] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2024-05-20 03:23:32] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20240520/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-20 03:23:33] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2024-05-20 03:23:33] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2024-05-20 03:23:33] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2024-05-20 03:23:33] INFO root fetch - main [MainThread]: Store serial: [23283323]

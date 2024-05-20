@@ -22987,3 +22987,45 @@ EOFError: EOF read where object expected
 [2024-05-20 18:05:39] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.46.tar.gz]
 [2024-05-20 18:05:39] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
 [2024-05-20 18:05:39] INFO root fetch - main [MainThread]: Store serial: [23292217]
+[2024-05-20 18:07:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292217]
+[2024-05-20 18:07:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 18:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: impart
+[2024-05-20 18:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dxpy
+[2024-05-20 18:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2024-05-20 18:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-workflow-sdk-preview
+[2024-05-20 18:07:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-skill-local-music
+[2024-05-20 18:07:48] WARNING root fetch - processPackages [impart]: Skipping, unable to determine old version
+[2024-05-20 18:07:48] INFO root fetch - main [MainThread]: End processing [impart] error
+[2024-05-20 18:07:48] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.996] Old Version: [0.1.995]
+[2024-05-20 18:07:48] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240520095553] Old Version: [3.4.1.dev20240517161438]
+[2024-05-20 18:07:48] INFO root fetch - processPackages [dxpy]: New version: [v0.83.0] Old Version: [v0.82.1]
+[2024-05-20 18:07:48] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/56/ac/c34b1b8edd4a745ceacc5a310a38b3dcca685fe17507cacc1cd57db81fdd/lusid-workflow-sdk-preview-0.1.995.tar.gz
+[2024-05-20 18:07:48] INFO root fetch - processPackages [neon-skill-local-music]: New version: [3.0.1a1] Old Version: [3.0.0]
+[2024-05-20 18:07:48] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/23/9e/7811c6c6a2f7dbb4f8cebabf66c491b531a050f4f8bdd8f7984d90562de0/localstack_core-3.4.1.dev20240517161438.tar.gz
+[2024-05-20 18:07:48] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ad/65/93d0e7790f005c1bba7ae75a47e2b35b3d8a514713f549fccca0619a2df9/lusid-workflow-sdk-preview-0.1.996.tar.gz
+[2024-05-20 18:07:48] INFO root fetch - processPackages [dxpy]: Downloading https://files.pythonhosted.org/packages/da/c1/174d4396e4ed9e1599913ab138dd60bb0845968c53b606cbb55673ffc3ba/dxpy-v0.82.1.tar.gz
+[2024-05-20 18:07:48] INFO root fetch - processPackages [neon-skill-local-music]: Downloading https://files.pythonhosted.org/packages/d5/e3/bbd0d0b3e0098cd56b910253c3bc4a160a3584a03bafff82640613f930a8/neon-skill-local_music-3.0.0.tar.gz
+[2024-05-20 18:07:48] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-05-20 18:07:48] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz --markdown 20240520/l/lusid-workflow-sdk-preview/0.1.995-0.1.996/README.md --exclude *.pyd
+[2024-05-20 18:07:48] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ea/87/7da8bbe5295befd07ad10da75c685ddbdc9e7c982e66a2895c2f4f47b466/localstack_core-3.4.1.dev20240520095553.tar.gz
+[2024-05-20 18:07:48] INFO root fetch - processPackages [neon-skill-local-music]: Downloading https://files.pythonhosted.org/packages/82/9c/2a97bb6fb155204ec44992d5079ce4c4105b8d631284caf11a3243e50d53/neon-skill-local_music-3.0.1a1.tar.gz
+[2024-05-20 18:07:48] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-20 18:07:48] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240517161438.tar.gz tmp/localstack_core-3.4.1.dev20240520095553.tar.gz --markdown 20240520/l/localstack-core/3.4.1.dev20240517161438-3.4.1.dev20240520095553/README.md --exclude *.pyd
+[2024-05-20 18:07:48] INFO root fetch - processPackages [dxpy]: Downloading https://files.pythonhosted.org/packages/27/9d/337f1f9230dda5237debb2fccdfe26003921246cb5bf0c4ab58a9e3e07a5/dxpy-v0.83.0.tar.gz
+[2024-05-20 18:07:49] INFO root fetch - processPackages [neon-skill-local-music]: executing diffoscope
+[2024-05-20 18:07:49] INFO root fetch - processPackages [neon-skill-local-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-local_music-3.0.0.tar.gz tmp/neon-skill-local_music-3.0.1a1.tar.gz --markdown 20240520/n/neon-skill-local-music/3.0.0-3.0.1a1/README.md --exclude *.pyd
+[2024-05-20 18:07:49] INFO root fetch - processPackages [dxpy]: executing diffoscope
+[2024-05-20 18:07:49] INFO root fetch - processPackages [dxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxpy-v0.82.1.tar.gz tmp/dxpy-v0.83.0.tar.gz --markdown 20240520/d/dxpy/v0.82.1-v0.83.0/README.md --exclude *.pyd
+[2024-05-20 18:07:49] INFO root fetch - processPackages [neon-skill-local-music]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-local_music-3.0.0.tar.gz]
+[2024-05-20 18:07:49] INFO root fetch - processPackages [neon-skill-local-music]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-local_music-3.0.1a1.tar.gz]
+[2024-05-20 18:07:49] INFO root fetch - main [MainThread]: End processing [neon-skill-local-music]: success
+[2024-05-20 18:07:50] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz]
+[2024-05-20 18:07:50] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
+[2024-05-20 18:07:50] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-05-20 18:07:50] INFO root fetch - processPackages [dxpy]: Remove: archive file [/home/abi/fetcher/tmp/dxpy-v0.82.1.tar.gz]
+[2024-05-20 18:07:50] INFO root fetch - processPackages [dxpy]: Remove: archive file [/home/abi/fetcher/tmp/dxpy-v0.83.0.tar.gz]
+[2024-05-20 18:07:50] INFO root fetch - main [MainThread]: End processing [dxpy]: success
+[2024-05-20 18:07:52] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240517161438.tar.gz]
+[2024-05-20 18:07:52] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240520095553.tar.gz]
+[2024-05-20 18:07:52] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-20 18:07:52] INFO root fetch - main [MainThread]: Store serial: [23292228]

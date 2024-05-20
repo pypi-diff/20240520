@@ -4316,3 +4316,42 @@
 [2024-05-20 03:40:53] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-05-20 03:40:53] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-05-20 03:40:53] INFO root fetch - main [MainThread]: Store serial: [23283414]
+[2024-05-20 03:42:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283414]
+[2024-05-20 03:43:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 03:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqqq
+[2024-05-20 03:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: systempath
+[2024-05-20 03:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trio-bybit
+[2024-05-20 03:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ragdaemon
+[2024-05-20 03:43:02] INFO root fetch - processPackages [pyqqq]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-20 03:43:02] INFO root fetch - processPackages [ragdaemon]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-20 03:43:02] INFO root fetch - processPackages [systempath]: New version: [1.0a8] Old Version: [1.0.9]
+[2024-05-20 03:43:02] INFO root fetch - processPackages [trio-bybit]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-20 03:43:02] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/96/27/924b59eac85aad2fc913e1a6e57ddfe954ff8d3a73d8370259e26751340c/pyqqq-0.9.8.tar.gz
+[2024-05-20 03:43:02] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/93/4b/13bdbc028ce1d8e8b246ed6d66727de0a3b0b4eee685fcb51d9b6b80c6ed/trio_bybit-0.2.2.tar.gz
+[2024-05-20 03:43:02] INFO root fetch - processPackages [systempath]: Downloading https://files.pythonhosted.org/packages/bf/b4/77dfa6237413c94ec17ea902d6d8b878e98b99e22a353da2eddb79f95822/systempath-1.0.9-py3-none-any.whl
+[2024-05-20 03:43:02] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/88/54/65fbae012175a60897665b6fdc03c5724acb2c5aa70cc5687d782cc3cb86/ragdaemon-0.5.3.tar.gz
+[2024-05-20 03:43:02] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/55/e3/5119cecbdcf7969a494d1d075a49d3c9451653fd110f7a4d7b25d1fb4c48/pyqqq-0.9.9.tar.gz
+[2024-05-20 03:43:02] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/ec/54/c9ba55c72190ba4f1c4e803236df50a5c81f2e652e851c93554081a22c06/trio_bybit-0.2.3.tar.gz
+[2024-05-20 03:43:02] INFO root fetch - processPackages [systempath]: Downloading https://files.pythonhosted.org/packages/5b/bc/611934e160a19307b2fb112a066801478805258d04ba94d63eeac2b835f2/systempath-1.0a8-py3-none-any.whl
+[2024-05-20 03:43:02] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/77/38/06722f2c8e0b8e7486f423951b4479da06063ad885af3ee1cacab9d16cd3/ragdaemon-0.5.4.tar.gz
+[2024-05-20 03:43:02] INFO root fetch - processPackages [trio-bybit]: executing diffoscope
+[2024-05-20 03:43:02] INFO root fetch - processPackages [trio-bybit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio_bybit-0.2.2.tar.gz tmp/trio_bybit-0.2.3.tar.gz --markdown 20240520/t/trio-bybit/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-20 03:43:02] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-05-20 03:43:02] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.9.8.tar.gz tmp/pyqqq-0.9.9.tar.gz --markdown 20240520/p/pyqqq/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-20 03:43:02] INFO root fetch - processPackages [ragdaemon]: executing diffoscope
+[2024-05-20 03:43:02] INFO root fetch - processPackages [ragdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdaemon-0.5.3.tar.gz tmp/ragdaemon-0.5.4.tar.gz --markdown 20240520/r/ragdaemon/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-20 03:43:02] INFO root fetch - processPackages [systempath]: executing diffoscope
+[2024-05-20 03:43:02] INFO root fetch - processPackages [systempath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systempath-1.0.9-py3-none-any.whl.zip tmp/systempath-1.0a8-py3-none-any.whl.zip --markdown 20240520/s/systempath/1.0.9-1.0a8/README.md --exclude *.pyd
+[2024-05-20 03:43:03] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.2.2.tar.gz]
+[2024-05-20 03:43:03] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.2.3.tar.gz]
+[2024-05-20 03:43:03] INFO root fetch - main [MainThread]: End processing [trio-bybit]: success
+[2024-05-20 03:43:03] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.8.tar.gz]
+[2024-05-20 03:43:03] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.9.tar.gz]
+[2024-05-20 03:43:03] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-05-20 03:43:03] INFO root fetch - processPackages [systempath]: Remove: archive file [/home/abi/fetcher/tmp/systempath-1.0.9-py3-none-any.whl.zip]
+[2024-05-20 03:43:03] INFO root fetch - processPackages [systempath]: Remove: archive file [/home/abi/fetcher/tmp/systempath-1.0a8-py3-none-any.whl.zip]
+[2024-05-20 03:43:03] INFO root fetch - main [MainThread]: End processing [systempath]: success
+[2024-05-20 03:43:03] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.5.3.tar.gz]
+[2024-05-20 03:43:03] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.5.4.tar.gz]
+[2024-05-20 03:43:03] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
+[2024-05-20 03:43:03] INFO root fetch - main [MainThread]: Store serial: [23283441]

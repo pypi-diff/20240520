@@ -24537,3 +24537,36 @@ EOFError: EOF read where object expected
 [2024-05-20 19:03:53] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.93.5.tar.gz]
 [2024-05-20 19:03:53] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2024-05-20 19:03:53] INFO root fetch - main [MainThread]: Store serial: [23292963]
+[2024-05-20 19:05:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292963]
+[2024-05-20 19:06:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 19:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitsint
+[2024-05-20 19:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: communex
+[2024-05-20 19:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streaming-assistants
+[2024-05-20 19:06:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xspace-dl
+[2024-05-20 19:06:03] WARNING root fetch - processPackages [gitsint]: Skipping, unable to determine old version
+[2024-05-20 19:06:03] INFO root fetch - processPackages [xspace-dl]: New version: [0.3.12] Old Version: [0.3.1]
+[2024-05-20 19:06:03] INFO root fetch - main [MainThread]: End processing [gitsint] error
+[2024-05-20 19:06:03] INFO root fetch - processPackages [streaming-assistants]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-20 19:06:03] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/87/5a/11bf0f2f6fc1e4ca8e5f3c92493bcf003ea852c76177ffa9be80c937a57b/xspace-dl-0.3.1.tar.gz
+[2024-05-20 19:06:03] INFO root fetch - processPackages [communex]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 19:06:03] INFO root fetch - processPackages [streaming-assistants]: Downloading https://files.pythonhosted.org/packages/af/3d/dc293cdb4c429406a79b61362e9e426095eccd198212a0cdd2f44174114f/streaming_assistants-0.8.0.tar.gz
+[2024-05-20 19:06:03] INFO root fetch - processPackages [communex]: Downloading https://files.pythonhosted.org/packages/77/67/00051570e40b098c12038ef6aed5be120d14bfafef5d08885df5a9714f91/communex-0.1.8.tar.gz
+[2024-05-20 19:06:03] INFO root fetch - processPackages [streaming-assistants]: Downloading https://files.pythonhosted.org/packages/2f/a1/d98bc2e51aa7ddc249766325c12aca7c66d084cae0413a47250126f98e95/streaming_assistants-0.9.0.tar.gz
+[2024-05-20 19:06:03] INFO root fetch - processPackages [communex]: Downloading https://files.pythonhosted.org/packages/51/79/c7d8079cf08c4dcf6ea1f984e64a67fe00acfd76303d2f7f6159f574d5da/communex-0.1.9.tar.gz
+[2024-05-20 19:06:03] INFO root fetch - processPackages [streaming-assistants]: executing diffoscope
+[2024-05-20 19:06:03] INFO root fetch - processPackages [streaming-assistants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streaming_assistants-0.8.0.tar.gz tmp/streaming_assistants-0.9.0.tar.gz --markdown 20240520/s/streaming-assistants/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-20 19:06:03] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/62/d7/c862d01bb6592faee3314c167739cc34bf9619548a982e336e0b57860da3/xspace-dl-0.3.12.tar.gz
+[2024-05-20 19:06:03] INFO root fetch - processPackages [communex]: executing diffoscope
+[2024-05-20 19:06:03] INFO root fetch - processPackages [communex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/communex-0.1.8.tar.gz tmp/communex-0.1.9.tar.gz --markdown 20240520/c/communex/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 19:06:03] INFO root fetch - processPackages [xspace-dl]: executing diffoscope
+[2024-05-20 19:06:03] INFO root fetch - processPackages [xspace-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspace-dl-0.3.1.tar.gz tmp/xspace-dl-0.3.12.tar.gz --markdown 20240520/x/xspace-dl/0.3.1-0.3.12/README.md --exclude *.pyd
+[2024-05-20 19:06:04] INFO root fetch - processPackages [streaming-assistants]: Remove: archive file [/home/abi/fetcher/tmp/streaming_assistants-0.8.0.tar.gz]
+[2024-05-20 19:06:04] INFO root fetch - processPackages [streaming-assistants]: Remove: archive file [/home/abi/fetcher/tmp/streaming_assistants-0.9.0.tar.gz]
+[2024-05-20 19:06:04] INFO root fetch - main [MainThread]: End processing [streaming-assistants]: success
+[2024-05-20 19:06:04] INFO root fetch - processPackages [communex]: Remove: archive file [/home/abi/fetcher/tmp/communex-0.1.8.tar.gz]
+[2024-05-20 19:06:04] INFO root fetch - processPackages [communex]: Remove: archive file [/home/abi/fetcher/tmp/communex-0.1.9.tar.gz]
+[2024-05-20 19:06:04] INFO root fetch - main [MainThread]: End processing [communex]: success
+[2024-05-20 19:06:04] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.3.1.tar.gz]
+[2024-05-20 19:06:04] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.3.12.tar.gz]
+[2024-05-20 19:06:04] INFO root fetch - main [MainThread]: End processing [xspace-dl]: success
+[2024-05-20 19:06:04] INFO root fetch - main [MainThread]: Store serial: [23292976]

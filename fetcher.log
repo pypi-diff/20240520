@@ -3879,3 +3879,68 @@
 [2024-05-20 03:10:26] INFO root fetch - processPackages [catfish-sim]: Remove: archive file [/home/abi/fetcher/tmp/catfish_sim-0.2.0-py3-none-any.whl.zip]
 [2024-05-20 03:10:26] INFO root fetch - main [MainThread]: End processing [catfish-sim]: success
 [2024-05-20 03:10:26] INFO root fetch - main [MainThread]: Store serial: [23283215]
+[2024-05-20 03:12:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283215]
+[2024-05-20 03:12:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 03:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: npDoseResponse
+[2024-05-20 03:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-osubot
+[2024-05-20 03:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neural-commons
+[2024-05-20 03:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sourmash-plugin-betterplot
+[2024-05-20 03:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatgpt-prompt-wrapper
+[2024-05-20 03:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qtb-plot
+[2024-05-20 03:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modelbase
+[2024-05-20 03:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chambrez
+[2024-05-20 03:12:38] INFO root fetch - processPackages [sourmash-plugin-betterplot]: New version: [0.3.1] Old Version: [0.3]
+[2024-05-20 03:12:38] INFO root fetch - processPackages [npDoseResponse]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-20 03:12:38] INFO root fetch - processPackages [neural-commons]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-20 03:12:38] INFO root fetch - processPackages [qtb-plot]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-20 03:12:38] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 03:12:38] INFO root fetch - processPackages [npDoseResponse]: Downloading https://files.pythonhosted.org/packages/56/7e/71e0f5a5dfb9a5f8a0faf8c1fb075db1a76ef428a550a5a78874af73c781/npdoseresponse-0.0.5.tar.gz
+[2024-05-20 03:12:38] INFO root fetch - processPackages [sourmash-plugin-betterplot]: Downloading https://files.pythonhosted.org/packages/f4/cd/1fec60273b2ed1ccecc5010e92f8159f01aa80ef3d4b604fc135ac9d11e9/sourmash_plugin_betterplot-0.3.tar.gz
+[2024-05-20 03:12:38] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2024-05-20 03:12:38] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.1.2] Old Version: [6.1.1]
+[2024-05-20 03:12:38] INFO root fetch - processPackages [neural-commons]: Downloading https://files.pythonhosted.org/packages/ad/e5/944f6d9b12ebd63d02044c568e0a4e7b0f3497aab41dc54003fac62cf3b1/neural-commons-0.2.0.tar.gz
+[2024-05-20 03:12:38] WARNING root fetch - processPackages [chambrez]: Skipping, unable to determine old version
+[2024-05-20 03:12:38] INFO root fetch - main [MainThread]: End processing [chambrez] error
+[2024-05-20 03:12:39] INFO root fetch - processPackages [qtb-plot]: Downloading https://files.pythonhosted.org/packages/11/03/b204f1332c788b8d60b1f6c015b831fa8085a212dfb69503e85f1598bd38/qtb_plot-0.3.8.tar.gz
+[2024-05-20 03:12:39] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: Downloading https://files.pythonhosted.org/packages/ff/19/65cb585972342e16ce40b5952231a60adf5b8e5600ecfa64eb44e6710408/chatgpt_prompt_wrapper-0.0.8.tar.gz
+[2024-05-20 03:12:39] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2024-05-20 03:12:39] INFO root fetch - processPackages [neural-commons]: Downloading https://files.pythonhosted.org/packages/fb/d5/6bfad93613e108b2b702582df38729a893eb54bda14438ef74dd375ebbad/neural-commons-0.3.0.tar.gz
+[2024-05-20 03:12:39] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/f1/a5/13e449e3462a8c0549c6ce65170f883dd24bcf56591c8cfea93d9f2defb7/nonebot-plugin-osubot-6.1.1.tar.gz
+[2024-05-20 03:12:39] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29387569>=10485760
+[2024-05-20 03:12:39] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-20 03:12:39] INFO root fetch - processPackages [sourmash-plugin-betterplot]: Downloading https://files.pythonhosted.org/packages/e7/83/392335eefecbce0d08b8323f5ffae46b9f48026fb85e5225694c33934b72/sourmash_plugin_betterplot-0.3.1.tar.gz
+[2024-05-20 03:12:39] INFO root fetch - processPackages [npDoseResponse]: Downloading https://files.pythonhosted.org/packages/6c/6a/fba7b79fcad22dd2e930f67c7c262bd84e924e75873816a8daf54e3f2cb9/npdoseresponse-0.0.6.tar.gz
+[2024-05-20 03:12:39] INFO root fetch - processPackages [neural-commons]: executing diffoscope
+[2024-05-20 03:12:39] INFO root fetch - processPackages [neural-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neural-commons-0.2.0.tar.gz tmp/neural-commons-0.3.0.tar.gz --markdown 20240520/n/neural-commons/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-20 03:12:39] INFO root fetch - processPackages [sourmash-plugin-betterplot]: executing diffoscope
+[2024-05-20 03:12:39] INFO root fetch - processPackages [sourmash-plugin-betterplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourmash_plugin_betterplot-0.3.tar.gz tmp/sourmash_plugin_betterplot-0.3.1.tar.gz --markdown 20240520/s/sourmash-plugin-betterplot/0.3-0.3.1/README.md --exclude *.pyd
+[2024-05-20 03:12:39] INFO root fetch - processPackages [npDoseResponse]: executing diffoscope
+[2024-05-20 03:12:39] INFO root fetch - processPackages [npDoseResponse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npdoseresponse-0.0.5.tar.gz tmp/npdoseresponse-0.0.6.tar.gz --markdown 20240520/n/npDoseResponse/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-20 03:12:39] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: Downloading https://files.pythonhosted.org/packages/ed/bc/7203850ccb3c526f07ae9222e2436edc693b0ca2537f5b943759bb371728/chatgpt_prompt_wrapper-0.0.9.tar.gz
+[2024-05-20 03:12:39] INFO root fetch - processPackages [qtb-plot]: Downloading https://files.pythonhosted.org/packages/f4/15/03462d32e24c9b67e3379c910f4c9ffaadaa56270659b362e0c45eaeaccd/qtb_plot-0.3.9.tar.gz
+[2024-05-20 03:12:39] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2024-05-20 03:12:39] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: executing diffoscope
+[2024-05-20 03:12:39] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_prompt_wrapper-0.0.8.tar.gz tmp/chatgpt_prompt_wrapper-0.0.9.tar.gz --markdown 20240520/c/chatgpt-prompt-wrapper/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 03:12:39] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2024-05-20 03:12:39] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20240520/m/modelbase/1.9.3-1rc2/README.md --exclude *.pyd
+[2024-05-20 03:12:39] INFO root fetch - processPackages [qtb-plot]: executing diffoscope
+[2024-05-20 03:12:39] INFO root fetch - processPackages [qtb-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtb_plot-0.3.8.tar.gz tmp/qtb_plot-0.3.9.tar.gz --markdown 20240520/q/qtb-plot/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-20 03:12:40] INFO root fetch - processPackages [npDoseResponse]: Remove: archive file [/home/abi/fetcher/tmp/npdoseresponse-0.0.5.tar.gz]
+[2024-05-20 03:12:40] INFO root fetch - processPackages [npDoseResponse]: Remove: archive file [/home/abi/fetcher/tmp/npdoseresponse-0.0.6.tar.gz]
+[2024-05-20 03:12:40] INFO root fetch - main [MainThread]: End processing [npDoseResponse]: success
+[2024-05-20 03:12:40] INFO root fetch - processPackages [neural-commons]: Remove: archive file [/home/abi/fetcher/tmp/neural-commons-0.2.0.tar.gz]
+[2024-05-20 03:12:40] INFO root fetch - processPackages [neural-commons]: Remove: archive file [/home/abi/fetcher/tmp/neural-commons-0.3.0.tar.gz]
+[2024-05-20 03:12:40] INFO root fetch - main [MainThread]: End processing [neural-commons]: success
+[2024-05-20 03:12:40] INFO root fetch - processPackages [sourmash-plugin-betterplot]: Remove: archive file [/home/abi/fetcher/tmp/sourmash_plugin_betterplot-0.3.tar.gz]
+[2024-05-20 03:12:40] INFO root fetch - processPackages [sourmash-plugin-betterplot]: Remove: archive file [/home/abi/fetcher/tmp/sourmash_plugin_betterplot-0.3.1.tar.gz]
+[2024-05-20 03:12:40] INFO root fetch - main [MainThread]: End processing [sourmash-plugin-betterplot]: success
+[2024-05-20 03:12:40] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_prompt_wrapper-0.0.8.tar.gz]
+[2024-05-20 03:12:40] INFO root fetch - processPackages [chatgpt-prompt-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_prompt_wrapper-0.0.9.tar.gz]
+[2024-05-20 03:12:40] INFO root fetch - main [MainThread]: End processing [chatgpt-prompt-wrapper]: success
+[2024-05-20 03:12:40] INFO root fetch - processPackages [qtb-plot]: Remove: archive file [/home/abi/fetcher/tmp/qtb_plot-0.3.8.tar.gz]
+[2024-05-20 03:12:40] INFO root fetch - processPackages [qtb-plot]: Remove: archive file [/home/abi/fetcher/tmp/qtb_plot-0.3.9.tar.gz]
+[2024-05-20 03:12:40] INFO root fetch - main [MainThread]: End processing [qtb-plot]: success
+[2024-05-20 03:12:40] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2024-05-20 03:12:40] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2024-05-20 03:12:40] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2024-05-20 03:12:40] INFO root fetch - main [MainThread]: Store serial: [23283240]

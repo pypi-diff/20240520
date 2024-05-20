@@ -10813,3 +10813,80 @@
 [2024-05-20 10:32:26] INFO root fetch - processPackages [migmose]: Remove: archive file [/home/abi/fetcher/tmp/migmose-0.1.0.tar.gz]
 [2024-05-20 10:32:26] INFO root fetch - main [MainThread]: End processing [migmose]: success
 [2024-05-20 10:32:26] INFO root fetch - main [MainThread]: Store serial: [23286862]
+[2024-05-20 10:34:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286862]
+[2024-05-20 10:34:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-20 10:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotinst-agent-beta
+[2024-05-20 10:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doodahz
+[2024-05-20 10:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccs-govuk-frontend-jinja
+[2024-05-20 10:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modelscope-studio
+[2024-05-20 10:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fast-flights
+[2024-05-20 10:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sais-notify-test
+[2024-05-20 10:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Html-Flask-Install
+[2024-05-20 10:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: liechains
+[2024-05-20 10:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jzai
+[2024-05-20 10:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spotinst-agent-2-beta
+[2024-05-20 10:34:35] INFO root fetch - processPackages [spotinst-agent-beta]: New version: [2.2.289] Old Version: [2.2.288]
+[2024-05-20 10:34:35] INFO root fetch - processPackages [spotinst-agent-2-beta]: New version: [3.1.14] Old Version: [3.1.13]
+[2024-05-20 10:34:35] INFO root fetch - processPackages [sais-notify-test]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-20 10:34:35] INFO root fetch - processPackages [jzai]: New version: [59.83.46] Old Version: [59.83.45]
+[2024-05-20 10:34:35] WARNING root fetch - processPackages [Html-Flask-Install]: Skipping, unable to determine old version
+[2024-05-20 10:34:35] INFO root fetch - main [MainThread]: End processing [Html-Flask-Install] error
+[2024-05-20 10:34:35] INFO root fetch - processPackages [modelscope-studio]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-20 10:34:35] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/98/f6/7bd1270354a993d3ddfe332ed924a9d3ecebd742bbb24462fea6cda14541/spotinst-agent-beta-2.2.288.tar.gz
+[2024-05-20 10:34:35] INFO root fetch - processPackages [liechains]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-20 10:34:35] WARNING root fetch - processPackages [doodahz]: Skipping, unable to determine old version
+[2024-05-20 10:34:35] INFO root fetch - processPackages [ccs-govuk-frontend-jinja]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-20 10:34:35] INFO root fetch - main [MainThread]: End processing [doodahz] error
+[2024-05-20 10:34:35] INFO root fetch - processPackages [fast-flights]: New version: [0.3] Old Version: [0.2]
+[2024-05-20 10:34:35] INFO root fetch - processPackages [spotinst-agent-2-beta]: Downloading https://files.pythonhosted.org/packages/09/f1/1c67a1ee6f1228119530307fac9227389341730145e5ee933c5493ca6be1/spotinst-agent-2-beta-3.1.13.tar.gz
+[2024-05-20 10:34:35] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/16/23/56378bd6bf305ea6e0c542b18e1d562ce6cddf8da081fe03230e70689942/jzai-59.83.45.tar.gz
+[2024-05-20 10:34:35] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/34/00/61fd1dd2020e7422309085f297e71ac7a461e8c417fd68f41f4f2564cd3b/sais_notify_test-0.0.6.tar.gz
+[2024-05-20 10:34:35] INFO root fetch - processPackages [modelscope-studio]: Downloading https://files.pythonhosted.org/packages/01/30/f01c7a488bd2d1ec0fb313d1c9aa1fd74b88e23842f294b1cdb5a4cd7983/modelscope_studio-0.2.1.tar.gz
+[2024-05-20 10:34:35] INFO root fetch - processPackages [ccs-govuk-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/0d/57/47012f7c1fde1b2939674794783be9e8978095fa062e4eb5c23596485b6b/ccs_govuk_frontend_jinja-1.0.0.tar.gz
+[2024-05-20 10:34:35] INFO root fetch - processPackages [fast-flights]: Downloading https://files.pythonhosted.org/packages/0b/9c/0316a5a0c6daf9a1b059c53a0b63ebd0136be5a18bbf59f9566b0343b445/fast_flights-0.2.tar.gz
+[2024-05-20 10:34:35] INFO root fetch - processPackages [liechains]: Downloading https://files.pythonhosted.org/packages/bb/6f/cf05b2bd97e4356560e1fc38cf5d58a5957f95a741358f158c5cad782890/liechains-0.3.0.tar.gz
+[2024-05-20 10:34:35] INFO root fetch - processPackages [spotinst-agent-2-beta]: Downloading https://files.pythonhosted.org/packages/f6/fb/60d57ee0aac2ff46ead21fbb1b6339d18c0612d47e86dc92312c2638d86d/spotinst-agent-2-beta-3.1.14.tar.gz
+[2024-05-20 10:34:35] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/dd/64/6ba979a374c3b71e494a1a055d2d51b6de691fa372a969d4d49ff0bb1bec/spotinst-agent-beta-2.2.289.tar.gz
+[2024-05-20 10:34:36] WARNING root fetch - processPackages [modelscope-studio]: Skipping package: exceeds size limit 10886479>=10485760
+[2024-05-20 10:34:36] INFO root fetch - main [MainThread]: End processing [modelscope-studio] error
+[2024-05-20 10:34:36] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/9d/98/5d988e5c7215c5bdef67c1460d8edca42c4d17b071b8a5d4fabdc331b2a8/jzai-59.83.46.tar.gz
+[2024-05-20 10:34:36] INFO root fetch - processPackages [spotinst-agent-2-beta]: executing diffoscope
+[2024-05-20 10:34:36] INFO root fetch - processPackages [spotinst-agent-2-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-agent-2-beta-3.1.13.tar.gz tmp/spotinst-agent-2-beta-3.1.14.tar.gz --markdown 20240520/s/spotinst-agent-2-beta/3.1.13-3.1.14/README.md --exclude *.pyd
+[2024-05-20 10:34:36] INFO root fetch - processPackages [spotinst-agent-beta]: executing diffoscope
+[2024-05-20 10:34:36] INFO root fetch - processPackages [spotinst-agent-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-agent-beta-2.2.288.tar.gz tmp/spotinst-agent-beta-2.2.289.tar.gz --markdown 20240520/s/spotinst-agent-beta/2.2.288-2.2.289/README.md --exclude *.pyd
+[2024-05-20 10:34:36] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/06/3d/0f7387006da8e5a4409cc207a54a293d2b5a2c426a3a84fcd8d214989e77/sais_notify_test-0.0.7.tar.gz
+[2024-05-20 10:34:36] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-20 10:34:36] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.45.tar.gz tmp/jzai-59.83.46.tar.gz --markdown 20240520/j/jzai/59.83.45-59.83.46/README.md --exclude *.pyd
+[2024-05-20 10:34:36] INFO root fetch - processPackages [ccs-govuk-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/81/ae/0608800cdd431d7241de987ccd9ef24ae1e68a3b63ff0316db8f189f2d5a/ccs_govuk_frontend_jinja-1.1.0.tar.gz
+[2024-05-20 10:34:36] INFO root fetch - processPackages [fast-flights]: Downloading https://files.pythonhosted.org/packages/b9/e1/5daa9f7608af9517baa442289fc04845db68dd16da5e086d554bc5b710e9/fast_flights-0.3.tar.gz
+[2024-05-20 10:34:36] INFO root fetch - processPackages [sais-notify-test]: executing diffoscope
+[2024-05-20 10:34:36] INFO root fetch - processPackages [sais-notify-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify_test-0.0.6.tar.gz tmp/sais_notify_test-0.0.7.tar.gz --markdown 20240520/s/sais-notify-test/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-20 10:34:36] INFO root fetch - processPackages [liechains]: Downloading https://files.pythonhosted.org/packages/e3/d5/e7724a83524ed542b902ec3bbb371dbcd1e8cd54a7f98f47b3a90a9f5d5c/liechains-0.3.1.tar.gz
+[2024-05-20 10:34:36] INFO root fetch - processPackages [ccs-govuk-frontend-jinja]: executing diffoscope
+[2024-05-20 10:34:36] INFO root fetch - processPackages [ccs-govuk-frontend-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs_govuk_frontend_jinja-1.0.0.tar.gz tmp/ccs_govuk_frontend_jinja-1.1.0.tar.gz --markdown 20240520/c/ccs-govuk-frontend-jinja/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-20 10:34:36] INFO root fetch - processPackages [fast-flights]: executing diffoscope
+[2024-05-20 10:34:36] INFO root fetch - processPackages [fast-flights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_flights-0.2.tar.gz tmp/fast_flights-0.3.tar.gz --markdown 20240520/f/fast-flights/0.2-0.3/README.md --exclude *.pyd
+[2024-05-20 10:34:36] INFO root fetch - processPackages [liechains]: executing diffoscope
+[2024-05-20 10:34:36] INFO root fetch - processPackages [liechains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liechains-0.3.0.tar.gz tmp/liechains-0.3.1.tar.gz --markdown 20240520/l/liechains/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-20 10:34:36] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.45.tar.gz]
+[2024-05-20 10:34:36] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.46.tar.gz]
+[2024-05-20 10:34:36] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-20 10:34:36] INFO root fetch - processPackages [spotinst-agent-beta]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-agent-beta-2.2.288.tar.gz]
+[2024-05-20 10:34:36] INFO root fetch - processPackages [spotinst-agent-beta]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-agent-beta-2.2.289.tar.gz]
+[2024-05-20 10:34:36] INFO root fetch - main [MainThread]: End processing [spotinst-agent-beta]: success
+[2024-05-20 10:34:37] INFO root fetch - processPackages [spotinst-agent-2-beta]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-agent-2-beta-3.1.13.tar.gz]
+[2024-05-20 10:34:37] INFO root fetch - processPackages [spotinst-agent-2-beta]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-agent-2-beta-3.1.14.tar.gz]
+[2024-05-20 10:34:37] INFO root fetch - main [MainThread]: End processing [spotinst-agent-2-beta]: success
+[2024-05-20 10:34:37] INFO root fetch - processPackages [fast-flights]: Remove: archive file [/home/abi/fetcher/tmp/fast_flights-0.2.tar.gz]
+[2024-05-20 10:34:37] INFO root fetch - processPackages [fast-flights]: Remove: archive file [/home/abi/fetcher/tmp/fast_flights-0.3.tar.gz]
+[2024-05-20 10:34:37] INFO root fetch - main [MainThread]: End processing [fast-flights]: success
+[2024-05-20 10:34:37] INFO root fetch - processPackages [ccs-govuk-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs_govuk_frontend_jinja-1.0.0.tar.gz]
+[2024-05-20 10:34:37] INFO root fetch - processPackages [ccs-govuk-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs_govuk_frontend_jinja-1.1.0.tar.gz]
+[2024-05-20 10:34:37] INFO root fetch - main [MainThread]: End processing [ccs-govuk-frontend-jinja]: success
+[2024-05-20 10:34:37] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.6.tar.gz]
+[2024-05-20 10:34:37] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.7.tar.gz]
+[2024-05-20 10:34:37] INFO root fetch - main [MainThread]: End processing [sais-notify-test]: success
+[2024-05-20 10:34:37] INFO root fetch - processPackages [liechains]: Remove: archive file [/home/abi/fetcher/tmp/liechains-0.3.0.tar.gz]
+[2024-05-20 10:34:37] INFO root fetch - processPackages [liechains]: Remove: archive file [/home/abi/fetcher/tmp/liechains-0.3.1.tar.gz]
+[2024-05-20 10:34:37] INFO root fetch - main [MainThread]: End processing [liechains]: success
+[2024-05-20 10:34:37] INFO root fetch - main [MainThread]: Store serial: [23286889]

@@ -6577,3 +6577,144 @@
 [2024-05-20 06:36:48] INFO root fetch - processPackages [timelink]: Remove: archive file [/home/abi/fetcher/tmp/timelink-1.1.9.tar.gz]
 [2024-05-20 06:36:48] INFO root fetch - main [MainThread]: End processing [timelink]: success
 [2024-05-20 06:36:48] INFO root fetch - main [MainThread]: Store serial: [23284484]
+[2024-05-20 06:38:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284484]
+[2024-05-20 06:38:57] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2024-05-20 06:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlbstoubjrcjqymi
+[2024-05-20 06:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlbstoubjrcjqymi
+[2024-05-20 06:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlbstoubjrcjqymi
+[2024-05-20 06:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlbstoubjrcjqymi
+[2024-05-20 06:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlbstoubjrcjqymi
+[2024-05-20 06:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mlbstoubjrcjqymi
+[2024-05-20 06:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mlbstoubjrcjqymi
+[2024-05-20 06:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlbstoubjrcjqymi
+[2024-05-20 06:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mlbstoubjrcjqymi
+[2024-05-20 06:38:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mlbstoubjrcjqymi
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: New version: [1.10000.10016] Old Version: [1.10000.10015]
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: New version: [1.10000.10016] Old Version: [1.10000.10015]
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: New version: [1.10000.10016] Old Version: [1.10000.10015]
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: New version: [1.10000.10016] Old Version: [1.10000.10015]
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: New version: [1.10000.10016] Old Version: [1.10000.10015]
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: New version: [1.10000.10016] Old Version: [1.10000.10015]
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: New version: [1.10000.10016] Old Version: [1.10000.10015]
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: New version: [1.10000.10016] Old Version: [1.10000.10015]
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: New version: [1.10000.10016] Old Version: [1.10000.10015]
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: New version: [1.10000.10016] Old Version: [1.10000.10015]
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Downloading https://files.pythonhosted.org/packages/48/90/f550a4e8cd634dc692cefca6e79a1caf0d9721ea885a2ab2e868df81227d/mlbstoubjrcjqymi-1.10000.10015.tar.gz
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Downloading https://files.pythonhosted.org/packages/48/90/f550a4e8cd634dc692cefca6e79a1caf0d9721ea885a2ab2e868df81227d/mlbstoubjrcjqymi-1.10000.10015.tar.gz
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Downloading https://files.pythonhosted.org/packages/48/90/f550a4e8cd634dc692cefca6e79a1caf0d9721ea885a2ab2e868df81227d/mlbstoubjrcjqymi-1.10000.10015.tar.gz
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Downloading https://files.pythonhosted.org/packages/48/90/f550a4e8cd634dc692cefca6e79a1caf0d9721ea885a2ab2e868df81227d/mlbstoubjrcjqymi-1.10000.10015.tar.gz
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Downloading https://files.pythonhosted.org/packages/48/90/f550a4e8cd634dc692cefca6e79a1caf0d9721ea885a2ab2e868df81227d/mlbstoubjrcjqymi-1.10000.10015.tar.gz
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Downloading https://files.pythonhosted.org/packages/48/90/f550a4e8cd634dc692cefca6e79a1caf0d9721ea885a2ab2e868df81227d/mlbstoubjrcjqymi-1.10000.10015.tar.gz
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Downloading https://files.pythonhosted.org/packages/48/90/f550a4e8cd634dc692cefca6e79a1caf0d9721ea885a2ab2e868df81227d/mlbstoubjrcjqymi-1.10000.10015.tar.gz
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Downloading https://files.pythonhosted.org/packages/48/90/f550a4e8cd634dc692cefca6e79a1caf0d9721ea885a2ab2e868df81227d/mlbstoubjrcjqymi-1.10000.10015.tar.gz
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Downloading https://files.pythonhosted.org/packages/48/90/f550a4e8cd634dc692cefca6e79a1caf0d9721ea885a2ab2e868df81227d/mlbstoubjrcjqymi-1.10000.10015.tar.gz
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Downloading https://files.pythonhosted.org/packages/48/90/f550a4e8cd634dc692cefca6e79a1caf0d9721ea885a2ab2e868df81227d/mlbstoubjrcjqymi-1.10000.10015.tar.gz
+[2024-05-20 06:38:57] WARNING root fetch - processPackages [mlbstoubjrcjqymi]: Skipping package: exceeds size limit 95034072>=10485760
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Start processing: mlbstoubjrcjqymi
+[2024-05-20 06:38:57] INFO root fetch - main [MainThread]: End processing [mlbstoubjrcjqymi] error
+[2024-05-20 06:38:57] WARNING root fetch - processPackages [mlbstoubjrcjqymi]: Skipping package: exceeds size limit 95034072>=10485760
+[2024-05-20 06:38:57] WARNING root fetch - processPackages [mlbstoubjrcjqymi]: Skipping package: exceeds size limit 95034072>=10485760
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Start processing: lachrymalz
+[2024-05-20 06:38:57] INFO root fetch - main [MainThread]: End processing [mlbstoubjrcjqymi] error
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Start processing: mlbstoubjrcjqymi
+[2024-05-20 06:38:57] INFO root fetch - main [MainThread]: End processing [mlbstoubjrcjqymi] error
+[2024-05-20 06:38:57] WARNING root fetch - processPackages [mlbstoubjrcjqymi]: Skipping package: exceeds size limit 95034072>=10485760
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Start processing: mlbstoubjrcjqymi
+[2024-05-20 06:38:57] INFO root fetch - main [MainThread]: End processing [mlbstoubjrcjqymi] error
+[2024-05-20 06:38:57] WARNING root fetch - processPackages [mlbstoubjrcjqymi]: Skipping package: exceeds size limit 95034072>=10485760
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Start processing: mlbstoubjrcjqymi
+[2024-05-20 06:38:57] INFO root fetch - main [MainThread]: End processing [mlbstoubjrcjqymi] error
+[2024-05-20 06:38:57] WARNING root fetch - processPackages [mlbstoubjrcjqymi]: Skipping package: exceeds size limit 95034072>=10485760
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Start processing: ymmbjnuqywwuprlr
+[2024-05-20 06:38:57] INFO root fetch - main [MainThread]: End processing [mlbstoubjrcjqymi] error
+[2024-05-20 06:38:57] WARNING root fetch - processPackages [mlbstoubjrcjqymi]: Skipping package: exceeds size limit 95034072>=10485760
+[2024-05-20 06:38:57] WARNING root fetch - processPackages [mlbstoubjrcjqymi]: Skipping package: exceeds size limit 95034072>=10485760
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Start processing: khonagdklfixvizi
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:38:57] INFO root fetch - main [MainThread]: End processing [mlbstoubjrcjqymi] error
+[2024-05-20 06:38:57] INFO root fetch - main [MainThread]: End processing [mlbstoubjrcjqymi] error
+[2024-05-20 06:38:57] WARNING root fetch - processPackages [mlbstoubjrcjqymi]: Skipping package: exceeds size limit 95034072>=10485760
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Start processing: ovos-plugin-vlc
+[2024-05-20 06:38:57] INFO root fetch - main [MainThread]: End processing [mlbstoubjrcjqymi] error
+[2024-05-20 06:38:57] WARNING root fetch - processPackages [mlbstoubjrcjqymi]: Skipping package: exceeds size limit 95034072>=10485760
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:38:57] INFO root fetch - main [MainThread]: End processing [mlbstoubjrcjqymi] error
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: New version: [1.10000.10027] Old Version: [1.10000.10026]
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: New version: [1.10000.10027] Old Version: [1.10000.10026]
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: New version: [1.10000.10027] Old Version: [1.10000.10026]
+[2024-05-20 06:38:57] INFO root fetch - processPackages [mlbstoubjrcjqymi]: New version: [1.10000.10027] Old Version: [1.10000.10026]
+[2024-05-20 06:38:57] WARNING root fetch - processPackages [ymmbjnuqywwuprlr]: Skipping, unable to determine old version
+[2024-05-20 06:38:57] INFO root fetch - processPackages [ymmbjnuqywwuprlr]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:38:57] INFO root fetch - main [MainThread]: End processing [ymmbjnuqywwuprlr] error
+[2024-05-20 06:38:57] WARNING root fetch - processPackages [lachrymalz]: Skipping, unable to determine old version
+[2024-05-20 06:38:57] INFO root fetch - processPackages [lachrymalz]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:38:57] INFO root fetch - main [MainThread]: End processing [lachrymalz] error
+[2024-05-20 06:38:58] WARNING root fetch - processPackages [khonagdklfixvizi]: Skipping, unable to determine old version
+[2024-05-20 06:38:58] INFO root fetch - processPackages [khonagdklfixvizi]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:38:58] INFO root fetch - main [MainThread]: End processing [khonagdklfixvizi] error
+[2024-05-20 06:38:58] INFO root fetch - processPackages [ovos-plugin-vlc]: New version: [0.0.2a7] Old Version: [0.0.2a6]
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:38:58] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Downloading https://files.pythonhosted.org/packages/88/0d/e1581fa355dae4384cae711cd65d3ecc0bfe1639ec4bcd2a6791cf967cc1/mlbstoubjrcjqymi-1.10000.10026.tar.gz
+[2024-05-20 06:38:58] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Downloading https://files.pythonhosted.org/packages/88/0d/e1581fa355dae4384cae711cd65d3ecc0bfe1639ec4bcd2a6791cf967cc1/mlbstoubjrcjqymi-1.10000.10026.tar.gz
+[2024-05-20 06:38:58] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Downloading https://files.pythonhosted.org/packages/88/0d/e1581fa355dae4384cae711cd65d3ecc0bfe1639ec4bcd2a6791cf967cc1/mlbstoubjrcjqymi-1.10000.10026.tar.gz
+[2024-05-20 06:38:58] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Downloading https://files.pythonhosted.org/packages/88/0d/e1581fa355dae4384cae711cd65d3ecc0bfe1639ec4bcd2a6791cf967cc1/mlbstoubjrcjqymi-1.10000.10026.tar.gz
+[2024-05-20 06:38:58] WARNING root fetch - processPackages [mlbstoubjrcjqymi]: Skipping package: exceeds size limit 95034043>=10485760
+[2024-05-20 06:38:58] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:38:58] INFO root fetch - main [MainThread]: End processing [mlbstoubjrcjqymi] error
+[2024-05-20 06:38:58] WARNING root fetch - processPackages [mlbstoubjrcjqymi]: Skipping package: exceeds size limit 95034043>=10485760
+[2024-05-20 06:38:58] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:38:58] INFO root fetch - main [MainThread]: End processing [mlbstoubjrcjqymi] error
+[2024-05-20 06:38:58] WARNING root fetch - processPackages [mlbstoubjrcjqymi]: Skipping package: exceeds size limit 95034043>=10485760
+[2024-05-20 06:38:58] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:38:58] WARNING root fetch - processPackages [mlbstoubjrcjqymi]: Skipping package: exceeds size limit 95034043>=10485760
+[2024-05-20 06:38:58] INFO root fetch - main [MainThread]: End processing [mlbstoubjrcjqymi] error
+[2024-05-20 06:38:58] INFO root fetch - processPackages [mlbstoubjrcjqymi]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:38:58] INFO root fetch - main [MainThread]: End processing [mlbstoubjrcjqymi] error
+[2024-05-20 06:38:58] INFO root fetch - processPackages [ovos-plugin-vlc]: Downloading https://files.pythonhosted.org/packages/c8/26/718cc0374843881b2b5dcd2798016001e8aa480360853548d2d2207d8149/ovos_plugin_vlc-0.0.2a6-py3-none-any.whl
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:38:58] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:38:58] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:38:58] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:38:58] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:38:58] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:38:58] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:38:58] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:38:58] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:38:58] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:38:58] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:38:58] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:38:58] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:38:58] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:38:58] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:38:58] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:38:58] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:38:58] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:38:58] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:38:58] INFO root fetch - processPackages [ovos-plugin-vlc]: Downloading https://files.pythonhosted.org/packages/a6/ba/e605df8c10548b785e5bec2ad48a8c4b55bb3914b5eb34c3633f1ac0af34/ovos_plugin_vlc-0.0.2a7-py3-none-any.whl
+[2024-05-20 06:38:58] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:38:58] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:38:58] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:38:58] INFO root fetch - processPackages [ovos-plugin-vlc]: executing diffoscope
+[2024-05-20 06:38:58] INFO root fetch - processPackages [ovos-plugin-vlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_plugin_vlc-0.0.2a6-py3-none-any.whl.zip tmp/ovos_plugin_vlc-0.0.2a7-py3-none-any.whl.zip --markdown 20240520/o/ovos-plugin-vlc/0.0.2a6-0.0.2a7/README.md --exclude *.pyd
+[2024-05-20 06:38:59] INFO root fetch - processPackages [ovos-plugin-vlc]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_vlc-0.0.2a6-py3-none-any.whl.zip]
+[2024-05-20 06:38:59] INFO root fetch - processPackages [ovos-plugin-vlc]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_vlc-0.0.2a7-py3-none-any.whl.zip]
+[2024-05-20 06:38:59] INFO root fetch - main [MainThread]: End processing [ovos-plugin-vlc]: success
+[2024-05-20 06:38:59] INFO root fetch - main [MainThread]: Store serial: [23284546]

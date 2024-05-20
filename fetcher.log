@@ -9529,3 +9529,54 @@
 [2024-05-20 09:33:09] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.9.1-py3-none-any.whl.zip]
 [2024-05-20 09:33:09] INFO root fetch - main [MainThread]: End processing [fastapix-py]: success
 [2024-05-20 09:33:09] INFO root fetch - main [MainThread]: Store serial: [23286330]
+[2024-05-20 09:35:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286330]
+[2024-05-20 09:35:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 09:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vistudio
+[2024-05-20 09:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-app-ui
+[2024-05-20 09:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SelectSampler
+[2024-05-20 09:35:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adb-connector-python
+[2024-05-20 09:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mongo-bridge
+[2024-05-20 09:35:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visionai-data-format
+[2024-05-20 09:35:18] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-20 09:35:18] INFO root fetch - processPackages [mongo-bridge]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-20 09:35:18] INFO root fetch - processPackages [vistudio]: New version: [1.0.1.8] Old Version: [1.0.1.7]
+[2024-05-20 09:35:18] INFO root fetch - processPackages [adb-connector-python]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-05-20 09:35:18] WARNING root fetch - processPackages [SelectSampler]: Skipping, unable to determine old version
+[2024-05-20 09:35:18] INFO root fetch - main [MainThread]: End processing [SelectSampler] error
+[2024-05-20 09:35:18] INFO root fetch - processPackages [visionai-data-format]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-20 09:35:18] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/50/71/a2b78b2b0b36ff2ce95a3ec4ade6b0652c14552249c4f4a7795dd0845a1e/ctrip-app-ui-0.6.8.tar.gz
+[2024-05-20 09:35:18] INFO root fetch - processPackages [mongo-bridge]: Downloading https://files.pythonhosted.org/packages/7c/3d/8523276c4186a7a533d2522dc7a84cafd38bfec9bbccb0fe427ee80c8b15/mongo_bridge-0.0.4.tar.gz
+[2024-05-20 09:35:18] INFO root fetch - processPackages [vistudio]: Downloading https://files.pythonhosted.org/packages/e6/19/d638934151d2d096863590aaddd88040911e6dffe98c7efa52350bc2ad30/vistudio-1.0.1.7-py3-none-any.whl
+[2024-05-20 09:35:18] INFO root fetch - processPackages [adb-connector-python]: Downloading https://files.pythonhosted.org/packages/ea/40/a10528b614c856470b7103346fc6e944a9d90a972b8b30f60defbf8e1a9e/adb_connector_python-1.1.9-py3-none-any.whl
+[2024-05-20 09:35:18] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/8e/b2/5848c5e5e12d2568688c5077b9d0f421966a6ecf06a0ca87bd47e0db9659/visionai_data_format-1.3.2.tar.gz
+[2024-05-20 09:35:18] INFO root fetch - processPackages [mongo-bridge]: Downloading https://files.pythonhosted.org/packages/a0/3e/7d024e1205b136a3afb5c81c5e33d74b3120bcdf5c365974b7e553d4a449/mongo_bridge-0.0.5.tar.gz
+[2024-05-20 09:35:18] INFO root fetch - processPackages [vistudio]: Downloading https://files.pythonhosted.org/packages/3f/d3/729834be91fd699cd7ee1243f1de8dcd0456e2d1d3a68ce3918c55e8b25d/vistudio-1.0.1.8-py3-none-any.whl
+[2024-05-20 09:35:18] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/6e/3e/59d6297d62a7be2fce0b06db92bd44c3aa19816b898d82d6c4acfeebc1ba/ctrip-app-ui-0.6.9.tar.gz
+[2024-05-20 09:35:18] INFO root fetch - processPackages [mongo-bridge]: executing diffoscope
+[2024-05-20 09:35:18] INFO root fetch - processPackages [mongo-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_bridge-0.0.4.tar.gz tmp/mongo_bridge-0.0.5.tar.gz --markdown 20240520/m/mongo-bridge/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-20 09:35:18] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-05-20 09:35:18] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.6.8.tar.gz tmp/ctrip-app-ui-0.6.9.tar.gz --markdown 20240520/c/ctrip-app-ui/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-20 09:35:18] INFO root fetch - processPackages [vistudio]: executing diffoscope
+[2024-05-20 09:35:18] INFO root fetch - processPackages [vistudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vistudio-1.0.1.7-py3-none-any.whl.zip tmp/vistudio-1.0.1.8-py3-none-any.whl.zip --markdown 20240520/v/vistudio/1.0.1.7-1.0.1.8/README.md --exclude *.pyd
+[2024-05-20 09:35:18] INFO root fetch - processPackages [adb-connector-python]: Downloading https://files.pythonhosted.org/packages/1d/d8/ca2e58daf85e6b46fb04c3a909b376b5bd2d413ea39065305cf2472d5fce/adb_connector_python-1.2.0-py3-none-any.whl
+[2024-05-20 09:35:18] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/19/24/59a906f894c07fdae81330db0b2c0f3988720409f3448c7491bc19c67d49/visionai_data_format-1.3.3.tar.gz
+[2024-05-20 09:35:18] INFO root fetch - processPackages [adb-connector-python]: executing diffoscope
+[2024-05-20 09:35:18] INFO root fetch - processPackages [adb-connector-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adb_connector_python-1.1.9-py3-none-any.whl.zip tmp/adb_connector_python-1.2.0-py3-none-any.whl.zip --markdown 20240520/a/adb-connector-python/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-05-20 09:35:19] INFO root fetch - processPackages [visionai-data-format]: executing diffoscope
+[2024-05-20 09:35:19] INFO root fetch - processPackages [visionai-data-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionai_data_format-1.3.2.tar.gz tmp/visionai_data_format-1.3.3.tar.gz --markdown 20240520/v/visionai-data-format/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-20 09:35:19] INFO root fetch - processPackages [mongo-bridge]: Remove: archive file [/home/abi/fetcher/tmp/mongo_bridge-0.0.4.tar.gz]
+[2024-05-20 09:35:19] INFO root fetch - processPackages [mongo-bridge]: Remove: archive file [/home/abi/fetcher/tmp/mongo_bridge-0.0.5.tar.gz]
+[2024-05-20 09:35:19] INFO root fetch - main [MainThread]: End processing [mongo-bridge]: success
+[2024-05-20 09:35:19] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.6.8.tar.gz]
+[2024-05-20 09:35:19] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.6.9.tar.gz]
+[2024-05-20 09:35:19] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-05-20 09:35:19] INFO root fetch - processPackages [vistudio]: Remove: archive file [/home/abi/fetcher/tmp/vistudio-1.0.1.7-py3-none-any.whl.zip]
+[2024-05-20 09:35:19] INFO root fetch - processPackages [vistudio]: Remove: archive file [/home/abi/fetcher/tmp/vistudio-1.0.1.8-py3-none-any.whl.zip]
+[2024-05-20 09:35:19] INFO root fetch - main [MainThread]: End processing [vistudio]: success
+[2024-05-20 09:35:19] INFO root fetch - processPackages [adb-connector-python]: Remove: archive file [/home/abi/fetcher/tmp/adb_connector_python-1.1.9-py3-none-any.whl.zip]
+[2024-05-20 09:35:19] INFO root fetch - processPackages [adb-connector-python]: Remove: archive file [/home/abi/fetcher/tmp/adb_connector_python-1.2.0-py3-none-any.whl.zip]
+[2024-05-20 09:35:19] INFO root fetch - main [MainThread]: End processing [adb-connector-python]: success
+[2024-05-20 09:35:19] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai_data_format-1.3.2.tar.gz]
+[2024-05-20 09:35:19] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai_data_format-1.3.3.tar.gz]
+[2024-05-20 09:35:19] INFO root fetch - main [MainThread]: End processing [visionai-data-format]: success
+[2024-05-20 09:35:19] INFO root fetch - main [MainThread]: Store serial: [23286347]

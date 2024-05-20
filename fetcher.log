@@ -16904,3 +16904,45 @@ EOFError: EOF read where object expected
 [2024-05-20 14:38:18] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.99.tar.gz]
 [2024-05-20 14:38:18] INFO root fetch - main [MainThread]: End processing [matematikk]: success
 [2024-05-20 14:38:18] INFO root fetch - main [MainThread]: Store serial: [23289587]
+[2024-05-20 14:40:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289587]
+[2024-05-20 14:40:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 14:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blypack
+[2024-05-20 14:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perun.proxygui
+[2024-05-20 14:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sb-json-tools
+[2024-05-20 14:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xspamguard
+[2024-05-20 14:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fuel-efficiency
+[2024-05-20 14:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adri-storage
+[2024-05-20 14:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: filecrusher
+[2024-05-20 14:40:28] WARNING root fetch - processPackages [filecrusher]: Skipping, unable to determine old version
+[2024-05-20 14:40:28] INFO root fetch - main [MainThread]: End processing [filecrusher] error
+[2024-05-20 14:40:28] INFO root fetch - processPackages [sb-json-tools]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 14:40:28] WARNING root fetch - processPackages [blypack]: Skipping, unable to determine old version
+[2024-05-20 14:40:28] INFO root fetch - main [MainThread]: End processing [blypack] error
+[2024-05-20 14:40:28] INFO root fetch - processPackages [adri-storage]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-20 14:40:28] INFO root fetch - processPackages [sb-json-tools]: Downloading https://files.pythonhosted.org/packages/d5/d2/a50ea40f9e98113a9302c53a6e0364e2aa165fc874a31727deaca049c7d7/sb-json-tools-0.9.0.tar.gz
+[2024-05-20 14:40:28] ERROR root fetch - processPackages [fuel-efficiency]: Unable to get metadata: No such project 'fuel-efficiency'
+[2024-05-20 14:40:28] INFO root fetch - main [MainThread]: End processing [fuel-efficiency] error
+[2024-05-20 14:40:28] WARNING root fetch - processPackages [xspamguard]: Skipping, unable to determine old version
+[2024-05-20 14:40:28] INFO root fetch - main [MainThread]: End processing [xspamguard] error
+[2024-05-20 14:40:28] INFO root fetch - processPackages [perun.proxygui]: New version: [7.0.0] Old Version: [6.0.2]
+[2024-05-20 14:40:28] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/a7/2d/bb21b535a480232e607f65e7c5aae8e89a52cd8eaf5a7bdcb2e51174456a/perun.proxygui-6.0.2.tar.gz
+[2024-05-20 14:40:28] INFO root fetch - processPackages [adri-storage]: Downloading https://files.pythonhosted.org/packages/e1/ab/fe94750839081e4cf9658442e042f71d4778cd7beeb7a4b1f37c1cd151ba/adri_storage-0.0.1.tar.gz
+[2024-05-20 14:40:29] INFO root fetch - processPackages [sb-json-tools]: Downloading https://files.pythonhosted.org/packages/a0/49/f7a3cb4ccc4c8eed989e036100a3d43740664fc2fa7b91e448a197d3e48b/sb-json-tools-0.9.1.tar.gz
+[2024-05-20 14:40:29] INFO root fetch - processPackages [adri-storage]: Downloading https://files.pythonhosted.org/packages/36/d7/03ccf1ab4e11312b7629c31142afc865fa7ba54b3bf7ffed1b65a1fff9f4/adri_storage-0.0.2.tar.gz
+[2024-05-20 14:40:29] INFO root fetch - processPackages [adri-storage]: executing diffoscope
+[2024-05-20 14:40:29] INFO root fetch - processPackages [adri-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adri_storage-0.0.1.tar.gz tmp/adri_storage-0.0.2.tar.gz --markdown 20240520/a/adri-storage/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-20 14:40:29] INFO root fetch - processPackages [sb-json-tools]: executing diffoscope
+[2024-05-20 14:40:29] INFO root fetch - processPackages [sb-json-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sb-json-tools-0.9.0.tar.gz tmp/sb-json-tools-0.9.1.tar.gz --markdown 20240520/s/sb-json-tools/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 14:40:30] INFO root fetch - processPackages [adri-storage]: Remove: archive file [/home/abi/fetcher/tmp/adri_storage-0.0.1.tar.gz]
+[2024-05-20 14:40:30] INFO root fetch - processPackages [adri-storage]: Remove: archive file [/home/abi/fetcher/tmp/adri_storage-0.0.2.tar.gz]
+[2024-05-20 14:40:30] INFO root fetch - main [MainThread]: End processing [adri-storage]: success
+[2024-05-20 14:40:30] INFO root fetch - processPackages [perun.proxygui]: Downloading https://files.pythonhosted.org/packages/86/2c/860bceabfb57f9a38fe95914a79f99d473a8503d56279769c4ac47882594/perun.proxygui-7.0.0.tar.gz
+[2024-05-20 14:40:31] INFO root fetch - processPackages [sb-json-tools]: Remove: archive file [/home/abi/fetcher/tmp/sb-json-tools-0.9.0.tar.gz]
+[2024-05-20 14:40:31] INFO root fetch - processPackages [sb-json-tools]: Remove: archive file [/home/abi/fetcher/tmp/sb-json-tools-0.9.1.tar.gz]
+[2024-05-20 14:40:31] INFO root fetch - main [MainThread]: End processing [sb-json-tools]: success
+[2024-05-20 14:40:31] INFO root fetch - processPackages [perun.proxygui]: executing diffoscope
+[2024-05-20 14:40:31] INFO root fetch - processPackages [perun.proxygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun.proxygui-6.0.2.tar.gz tmp/perun.proxygui-7.0.0.tar.gz --markdown 20240520/p/perun.proxygui/6.0.2-7.0.0/README.md --exclude *.pyd
+[2024-05-20 14:40:34] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-6.0.2.tar.gz]
+[2024-05-20 14:40:34] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-7.0.0.tar.gz]
+[2024-05-20 14:40:34] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
+[2024-05-20 14:40:34] INFO root fetch - main [MainThread]: Store serial: [23289613]

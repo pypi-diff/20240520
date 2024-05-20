@@ -14449,3 +14449,69 @@
 [2024-05-20 12:52:44] INFO root fetch - processPackages [mkdocs-material]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_material-9.5.9.tar.gz]
 [2024-05-20 12:52:44] INFO root fetch - main [MainThread]: End processing [mkdocs-material]: success
 [2024-05-20 12:52:44] INFO root fetch - main [MainThread]: Store serial: [23288366]
+[2024-05-20 12:54:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288366]
+[2024-05-20 12:54:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 12:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: era-5g-server
+[2024-05-20 12:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xiaogpt
+[2024-05-20 12:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybertron_framework
+[2024-05-20 12:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: burial-mounds
+[2024-05-20 12:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: functional-algorithms
+[2024-05-20 12:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kelvin-sdk
+[2024-05-20 12:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: infolab-common-lib
+[2024-05-20 12:54:53] INFO root fetch - processPackages [infolab-common-lib]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-20 12:54:53] INFO root fetch - processPackages [xiaogpt]: New version: [2.83] Old Version: [2.82]
+[2024-05-20 12:54:53] INFO root fetch - processPackages [era-5g-server]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-20 12:54:53] INFO root fetch - processPackages [burial-mounds]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-20 12:54:53] INFO root fetch - processPackages [kelvin-sdk]: New version: [8.3.4] Old Version: [8.3.3]
+[2024-05-20 12:54:53] INFO root fetch - processPackages [functional-algorithms]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 12:54:53] INFO root fetch - processPackages [cybertron_framework]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-20 12:54:54] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/e2/b4/3521d36783d296e39acbe69e2f64544191256f52ccc5cb42e0cc60ee040c/xiaogpt-2.82.tar.gz
+[2024-05-20 12:54:54] INFO root fetch - processPackages [infolab-common-lib]: Downloading https://files.pythonhosted.org/packages/1e/23/25f584a2bc6af2d2dee9cbc7328d2e33e0ec2141ac3ba8d6b351489d9af1/infolab_common_lib-1.0.0.tar.gz
+[2024-05-20 12:54:54] INFO root fetch - processPackages [cybertron_framework]: Downloading https://files.pythonhosted.org/packages/1e/53/67b1dfeec1b3eb97eb1c05447e23b6094ea2c59027b9caedb4c06349266c/cybertron_framework-0.0.1.tar.gz
+[2024-05-20 12:54:54] INFO root fetch - processPackages [era-5g-server]: Downloading https://files.pythonhosted.org/packages/21/f6/3effa40a3d033368b41aea25c9b2f635e7680ac3611e7c48d974da178280/era_5g_server-0.4.0.tar.gz
+[2024-05-20 12:54:54] INFO root fetch - processPackages [burial-mounds]: Downloading https://files.pythonhosted.org/packages/d7/d4/a2bf01f84739200e1c2f13988fdf62acdc4a9aed6f020b7e162656d1f315/burial_mounds-0.1.1.tar.gz
+[2024-05-20 12:54:54] INFO root fetch - processPackages [kelvin-sdk]: Downloading https://files.pythonhosted.org/packages/f3/e1/67ed0507fe51cf6f58e5552ac8d40184a2ecfb82fb631974801c774b2209/kelvin_sdk-8.3.3-py3-none-any.whl
+[2024-05-20 12:54:54] INFO root fetch - processPackages [functional-algorithms]: Downloading https://files.pythonhosted.org/packages/76/5b/71e6e2e51adcbb8b77c845abc015e1d906ee3456be91f3d49a7ca81bae99/functional_algorithms-0.1.0.tar.gz
+[2024-05-20 12:54:54] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/d2/46/6c83fa83bc899c934db8858b233f7d70d3b16747583a2a7341777be55af2/xiaogpt-2.83.tar.gz
+[2024-05-20 12:54:54] INFO root fetch - processPackages [infolab-common-lib]: Downloading https://files.pythonhosted.org/packages/ae/9c/143c3b3034bde9ec79db5251815ecf46cc0b9ede571ccf7fb7cbda6d5ece/infolab_common_lib-1.0.1.tar.gz
+[2024-05-20 12:54:54] INFO root fetch - processPackages [era-5g-server]: Downloading https://files.pythonhosted.org/packages/60/50/ca85c3bca321333d3723a3bcb0e05186d90e41efc693d8a105fc57f58381/era_5g_server-0.5.0.tar.gz
+[2024-05-20 12:54:54] INFO root fetch - processPackages [cybertron_framework]: Downloading https://files.pythonhosted.org/packages/fc/fb/60429877421be943e9b77979ed698521e51925500d7dc3c57cbe1a0d8005/cybertron_framework-0.0.2.tar.gz
+[2024-05-20 12:54:54] INFO root fetch - processPackages [burial-mounds]: Downloading https://files.pythonhosted.org/packages/2e/be/843b773cd5d7544dd8c936d580d245126c9fa95df85553a47427d5a59cb7/burial_mounds-0.1.2.tar.gz
+[2024-05-20 12:54:54] INFO root fetch - processPackages [xiaogpt]: executing diffoscope
+[2024-05-20 12:54:54] INFO root fetch - processPackages [xiaogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaogpt-2.82.tar.gz tmp/xiaogpt-2.83.tar.gz --markdown 20240520/x/xiaogpt/2.82-2.83/README.md --exclude *.pyd
+[2024-05-20 12:54:54] INFO root fetch - processPackages [functional-algorithms]: Downloading https://files.pythonhosted.org/packages/09/64/eb76e36baae5472b23b9b258a7890d40b6c7a5020fc2b7ad1cbb1e47a528/functional_algorithms-0.1.1.tar.gz
+[2024-05-20 12:54:54] INFO root fetch - processPackages [infolab-common-lib]: executing diffoscope
+[2024-05-20 12:54:54] INFO root fetch - processPackages [infolab-common-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infolab_common_lib-1.0.0.tar.gz tmp/infolab_common_lib-1.0.1.tar.gz --markdown 20240520/i/infolab-common-lib/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-20 12:54:54] INFO root fetch - processPackages [kelvin-sdk]: Downloading https://files.pythonhosted.org/packages/01/ee/d957db8e5e0ebc0d509211dcd027e6320e1b0a755c22486269e269e602eb/kelvin_sdk-8.3.4-py3-none-any.whl
+[2024-05-20 12:54:54] INFO root fetch - processPackages [era-5g-server]: executing diffoscope
+[2024-05-20 12:54:54] INFO root fetch - processPackages [era-5g-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/era_5g_server-0.4.0.tar.gz tmp/era_5g_server-0.5.0.tar.gz --markdown 20240520/e/era-5g-server/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-20 12:54:54] INFO root fetch - processPackages [burial-mounds]: executing diffoscope
+[2024-05-20 12:54:54] INFO root fetch - processPackages [burial-mounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burial_mounds-0.1.1.tar.gz tmp/burial_mounds-0.1.2.tar.gz --markdown 20240520/b/burial-mounds/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-20 12:54:54] INFO root fetch - processPackages [functional-algorithms]: executing diffoscope
+[2024-05-20 12:54:54] INFO root fetch - processPackages [functional-algorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functional_algorithms-0.1.0.tar.gz tmp/functional_algorithms-0.1.1.tar.gz --markdown 20240520/f/functional-algorithms/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 12:54:54] INFO root fetch - processPackages [cybertron_framework]: executing diffoscope
+[2024-05-20 12:54:54] INFO root fetch - processPackages [cybertron_framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybertron_framework-0.0.1.tar.gz tmp/cybertron_framework-0.0.2.tar.gz --markdown 20240520/c/cybertron_framework/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-20 12:54:54] INFO root fetch - processPackages [kelvin-sdk]: executing diffoscope
+[2024-05-20 12:54:54] INFO root fetch - processPackages [kelvin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kelvin_sdk-8.3.3-py3-none-any.whl.zip tmp/kelvin_sdk-8.3.4-py3-none-any.whl.zip --markdown 20240520/k/kelvin-sdk/8.3.3-8.3.4/README.md --exclude *.pyd
+[2024-05-20 12:54:55] INFO root fetch - processPackages [era-5g-server]: Remove: archive file [/home/abi/fetcher/tmp/era_5g_server-0.4.0.tar.gz]
+[2024-05-20 12:54:55] INFO root fetch - processPackages [era-5g-server]: Remove: archive file [/home/abi/fetcher/tmp/era_5g_server-0.5.0.tar.gz]
+[2024-05-20 12:54:55] INFO root fetch - main [MainThread]: End processing [era-5g-server]: success
+[2024-05-20 12:54:55] INFO root fetch - processPackages [infolab-common-lib]: Remove: archive file [/home/abi/fetcher/tmp/infolab_common_lib-1.0.0.tar.gz]
+[2024-05-20 12:54:55] INFO root fetch - processPackages [infolab-common-lib]: Remove: archive file [/home/abi/fetcher/tmp/infolab_common_lib-1.0.1.tar.gz]
+[2024-05-20 12:54:55] INFO root fetch - main [MainThread]: End processing [infolab-common-lib]: success
+[2024-05-20 12:54:55] INFO root fetch - processPackages [burial-mounds]: Remove: archive file [/home/abi/fetcher/tmp/burial_mounds-0.1.1.tar.gz]
+[2024-05-20 12:54:55] INFO root fetch - processPackages [burial-mounds]: Remove: archive file [/home/abi/fetcher/tmp/burial_mounds-0.1.2.tar.gz]
+[2024-05-20 12:54:55] INFO root fetch - main [MainThread]: End processing [burial-mounds]: success
+[2024-05-20 12:54:55] INFO root fetch - processPackages [cybertron_framework]: Remove: archive file [/home/abi/fetcher/tmp/cybertron_framework-0.0.1.tar.gz]
+[2024-05-20 12:54:55] INFO root fetch - processPackages [cybertron_framework]: Remove: archive file [/home/abi/fetcher/tmp/cybertron_framework-0.0.2.tar.gz]
+[2024-05-20 12:54:55] INFO root fetch - main [MainThread]: End processing [cybertron_framework]: success
+[2024-05-20 12:54:55] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-2.82.tar.gz]
+[2024-05-20 12:54:55] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-2.83.tar.gz]
+[2024-05-20 12:54:55] INFO root fetch - main [MainThread]: End processing [xiaogpt]: success
+[2024-05-20 12:54:55] INFO root fetch - processPackages [functional-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/functional_algorithms-0.1.0.tar.gz]
+[2024-05-20 12:54:55] INFO root fetch - processPackages [functional-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/functional_algorithms-0.1.1.tar.gz]
+[2024-05-20 12:54:55] INFO root fetch - main [MainThread]: End processing [functional-algorithms]: success
+[2024-05-20 12:54:55] INFO root fetch - processPackages [kelvin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/kelvin_sdk-8.3.3-py3-none-any.whl.zip]
+[2024-05-20 12:54:55] INFO root fetch - processPackages [kelvin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/kelvin_sdk-8.3.4-py3-none-any.whl.zip]
+[2024-05-20 12:54:55] INFO root fetch - main [MainThread]: End processing [kelvin-sdk]: success
+[2024-05-20 12:54:55] INFO root fetch - main [MainThread]: Store serial: [23288394]

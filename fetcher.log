@@ -9141,3 +9141,72 @@
 [2024-05-20 09:09:48] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.2.7.tar.gz]
 [2024-05-20 09:09:48] INFO root fetch - main [MainThread]: End processing [tgqSim]: success
 [2024-05-20 09:09:48] INFO root fetch - main [MainThread]: Store serial: [23286118]
+[2024-05-20 09:11:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286118]
+[2024-05-20 09:11:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-models-nightly
+[2024-05-20 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: comediansz
+[2024-05-20 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duffie2013
+[2024-05-20 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-proxy
+[2024-05-20 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowclient
+[2024-05-20 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flowmachine
+[2024-05-20 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flowkit-jwt-generator
+[2024-05-20 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flowetl
+[2024-05-20 09:11:57] INFO root fetch - processPackages [simple-proxy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowkit-jwt-generator]: New version: [1.25.0.post0.dev99] Old Version: [1.25.0.post0.dev93]
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-20 09:11:57] WARNING root fetch - processPackages [comediansz]: Skipping, unable to determine old version
+[2024-05-20 09:11:57] INFO root fetch - main [MainThread]: End processing [comediansz] error
+[2024-05-20 09:11:57] INFO root fetch - processPackages [duffie2013]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-20 09:11:57] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2024-05-20 09:11:57] INFO root fetch - processPackages [simple-proxy]: Downloading https://files.pythonhosted.org/packages/49/1d/cbf4887d77a2dc2df6e5ed84c98173252f3c522e1c14a255b8afebbf022c/simple-proxy-0.0.8.tar.gz
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/bc/60/2a459e1a59e993c79a8a871ba4e72737e87c66ba3c2fe2a53431cf205b37/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-20 09:11:57] INFO root fetch - processPackages [duffie2013]: Downloading https://files.pythonhosted.org/packages/fd/8d/38469b8e8fe0a29a1ddcdf90319a645666d7801a328d599bc35f012b2194/duffie2013-0.1.1.tar.gz
+[2024-05-20 09:11:57] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/73/e9/06af7a12cda1722ec668213b9e91a8a2e918011d3ef8e9a98146ee4f76ef/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/6e/37/bfddd70659fed8e7ba3a486ccedc2b55d3a84bf6338dbd6fda2fc4b2d415/flowclient-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/ff/58/e7691247f32599d16e885a2c995f0f3a654ab3d148c0c48a8e6a8d61c207/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl
+[2024-05-20 09:11:57] INFO root fetch - processPackages [simple-proxy]: Downloading https://files.pythonhosted.org/packages/2c/e2/942536adfc644996ed1ca3033f3077d97ddaa5e52a8af31c6ea363c7a77e/simple-proxy-0.0.9.tar.gz
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowkit-jwt-generator]: executing diffoscope
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowkit-jwt-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl.zip tmp/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl.zip --markdown 20240520/f/flowkit-jwt-generator/1.25.0.post0.dev93-1.25.0.post0.dev99/README.md --exclude *.pyd
+[2024-05-20 09:11:57] INFO root fetch - processPackages [simple-proxy]: executing diffoscope
+[2024-05-20 09:11:57] INFO root fetch - processPackages [simple-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-proxy-0.0.8.tar.gz tmp/simple-proxy-0.0.9.tar.gz --markdown 20240520/s/simple-proxy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240520/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240520/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-20 09:11:57] INFO root fetch - processPackages [duffie2013]: Downloading https://files.pythonhosted.org/packages/2e/49/45cc091d042247155c3943ec0a08c50d271890df0b5d4e776d83d2c13ad8/duffie2013-0.2.0.tar.gz
+[2024-05-20 09:11:57] INFO root fetch - processPackages [duffie2013]: executing diffoscope
+[2024-05-20 09:11:57] INFO root fetch - processPackages [duffie2013]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duffie2013-0.1.1.tar.gz tmp/duffie2013-0.2.0.tar.gz --markdown 20240520/d/duffie2013/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-20 09:11:57] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/3e/ea/cf6edcf54b4b9f2c2c6149b4a6c3d8c57011245b7036b7468a43028bb1db/flowclient-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-20 09:11:58] INFO root fetch - processPackages [tf-models-nightly]: Downloading https://files.pythonhosted.org/packages/e2/76/79c5fb2cd23f346ee912b9c289c2a9bab6fc8d178658f931ac9a023224c6/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl
+[2024-05-20 09:11:58] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2024-05-20 09:11:58] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240520/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-20 09:11:58] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl.zip]
+[2024-05-20 09:11:58] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl.zip]
+[2024-05-20 09:11:58] INFO root fetch - main [MainThread]: End processing [flowkit-jwt-generator]: success
+[2024-05-20 09:11:58] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2024-05-20 09:11:58] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20240520/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/README.md --exclude *.pyd
+[2024-05-20 09:11:58] INFO root fetch - processPackages [simple-proxy]: Remove: archive file [/home/abi/fetcher/tmp/simple-proxy-0.0.8.tar.gz]
+[2024-05-20 09:11:58] INFO root fetch - processPackages [simple-proxy]: Remove: archive file [/home/abi/fetcher/tmp/simple-proxy-0.0.9.tar.gz]
+[2024-05-20 09:11:58] INFO root fetch - main [MainThread]: End processing [simple-proxy]: success
+[2024-05-20 09:11:58] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-20 09:11:58] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-20 09:11:58] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2024-05-20 09:11:58] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-20 09:11:58] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-20 09:11:58] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2024-05-20 09:11:58] INFO root fetch - processPackages [duffie2013]: Remove: archive file [/home/abi/fetcher/tmp/duffie2013-0.1.1.tar.gz]
+[2024-05-20 09:11:58] INFO root fetch - processPackages [duffie2013]: Remove: archive file [/home/abi/fetcher/tmp/duffie2013-0.2.0.tar.gz]
+[2024-05-20 09:11:58] INFO root fetch - main [MainThread]: End processing [duffie2013]: success
+[2024-05-20 09:11:58] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-20 09:11:58] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-20 09:11:58] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2024-05-20 09:12:01] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip]
+[2024-05-20 09:12:01] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
+[2024-05-20 09:12:01] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2024-05-20 09:12:01] INFO root fetch - main [MainThread]: Store serial: [23286159]

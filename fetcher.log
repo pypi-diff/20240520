@@ -4283,3 +4283,21 @@
 [2024-05-20 03:36:33] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.2.7.tar.gz]
 [2024-05-20 03:36:33] INFO root fetch - main [MainThread]: End processing [tgqSim]: success
 [2024-05-20 03:36:33] INFO root fetch - main [MainThread]: Store serial: [23283388]
+[2024-05-20 03:38:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283388]
+[2024-05-20 03:38:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 03:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torticonez
+[2024-05-20 03:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tempclone
+[2024-05-20 03:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmticket
+[2024-05-20 03:38:41] INFO root fetch - processPackages [tmticket]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-20 03:38:41] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/a3/f3/13cf85e1346d913ec92b969bcad2e00db9500a649e5c76dacf715f7e6a3a/tmticket-0.2.5.tar.gz
+[2024-05-20 03:38:41] WARNING root fetch - processPackages [torticonez]: Skipping, unable to determine old version
+[2024-05-20 03:38:41] INFO root fetch - main [MainThread]: End processing [torticonez] error
+[2024-05-20 03:38:41] WARNING root fetch - processPackages [tempclone]: Skipping, unable to determine old version
+[2024-05-20 03:38:41] INFO root fetch - main [MainThread]: End processing [tempclone] error
+[2024-05-20 03:38:42] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/24/3e/b2b50e0234e7323f2c5eecaf269c2a0ac8079fbb770c8a40f0d5fa02b268/tmticket-0.2.6.tar.gz
+[2024-05-20 03:38:42] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-20 03:38:42] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.2.5.tar.gz tmp/tmticket-0.2.6.tar.gz --markdown 20240520/t/tmticket/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-20 03:38:42] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.5.tar.gz]
+[2024-05-20 03:38:42] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.6.tar.gz]
+[2024-05-20 03:38:42] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-20 03:38:42] INFO root fetch - main [MainThread]: Store serial: [23283401]

@@ -14383,3 +14383,69 @@
 [2024-05-20 12:49:33] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405201047.tar.gz]
 [2024-05-20 12:49:33] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-05-20 12:49:33] INFO root fetch - main [MainThread]: Store serial: [23288329]
+[2024-05-20 12:51:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288329]
+[2024-05-20 12:51:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-material
+[2024-05-20 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weavel
+[2024-05-20 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abrachiaz
+[2024-05-20 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2024-05-20 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yamlvault
+[2024-05-20 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycloudlib
+[2024-05-20 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gene4mVCF
+[2024-05-20 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: feedcrawler
+[2024-05-20 12:51:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kwal
+[2024-05-20 12:51:41] INFO root fetch - processPackages [gene4mVCF]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-20 12:51:41] INFO root fetch - processPackages [weavel]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-20 12:51:41] INFO root fetch - processPackages [mkdocs-material]: New version: [9.5.9] Old Version: [9.5.8]
+[2024-05-20 12:51:41] INFO root fetch - processPackages [kfish]: New version: [99.0.202405201023] Old Version: [99.0.202405171412]
+[2024-05-20 12:51:41] INFO root fetch - processPackages [feedcrawler]: New version: [19.2.0] Old Version: [19.1.0]
+[2024-05-20 12:51:41] INFO root fetch - processPackages [gene4mVCF]: Downloading https://files.pythonhosted.org/packages/87/18/63ab796518f04ba780d3e28b9c0db8dcfe849962620ef0ae7ed6c86dfc7f/gene4mvcf-1.0.6.tar.gz
+[2024-05-20 12:51:42] WARNING root fetch - processPackages [yamlvault]: Skipping, unable to determine old version
+[2024-05-20 12:51:42] INFO root fetch - main [MainThread]: End processing [yamlvault] error
+[2024-05-20 12:51:42] INFO root fetch - processPackages [weavel]: Downloading https://files.pythonhosted.org/packages/f7/18/846ebc5ff1f30b58906b76e3519dbe1a0c845587ea77fd8a02153f003bcf/weavel-0.4.3.tar.gz
+[2024-05-20 12:51:42] WARNING root fetch - processPackages [abrachiaz]: Skipping, unable to determine old version
+[2024-05-20 12:51:42] INFO root fetch - main [MainThread]: End processing [abrachiaz] error
+[2024-05-20 12:51:42] INFO root fetch - processPackages [pycloudlib]: New version: [18.8] Old Version: [18.7]
+[2024-05-20 12:51:42] WARNING root fetch - processPackages [kwal]: Skipping, unable to determine old version
+[2024-05-20 12:51:42] INFO root fetch - main [MainThread]: End processing [kwal] error
+[2024-05-20 12:51:42] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/3f/ce/cc69d46e264932ad52f93069d403ad8478a34d0140320fd2c9d1595ce681/kfish-99.0.202405171412-py3-none-any.whl
+[2024-05-20 12:51:42] INFO root fetch - processPackages [feedcrawler]: Downloading https://files.pythonhosted.org/packages/2f/3b/dbcda455f09c8bcc022bb1f267638fb6afda5ff41a3aa5616b79788b3840/feedcrawler-19.1.0.tar.gz
+[2024-05-20 12:51:42] INFO root fetch - processPackages [mkdocs-material]: Downloading https://files.pythonhosted.org/packages/af/3b/2e05d9ad24b7f836a4dd8aa6221af8f7c7c9a48021c5300ea9de5f01465e/mkdocs_material-9.5.8.tar.gz
+[2024-05-20 12:51:42] INFO root fetch - processPackages [weavel]: Downloading https://files.pythonhosted.org/packages/d8/81/c9e15f8dbd8ba17dc7c0b158a870df1da3b5d3c79c4a554f178a67908297/weavel-0.4.4.tar.gz
+[2024-05-20 12:51:42] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/b4/b3/256ce90cc58f246bf143f0ea7feb695013cd5f55958af99b8d1b9ded19d5/pycloudlib-18.7.tar.gz
+[2024-05-20 12:51:42] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/3a/39/4ee443434c13b9bf34d2eefb6aed5427a651295e04bf27eabcf9e74c2913/kfish-99.0.202405201023-py3-none-any.whl
+[2024-05-20 12:51:42] INFO root fetch - processPackages [gene4mVCF]: Downloading https://files.pythonhosted.org/packages/0f/39/8dc08ea92d0a574db1c1665d61ca50b3e29ea7047b298154f4f08fbe2ac5/gene4mvcf-1.0.7.tar.gz
+[2024-05-20 12:51:42] INFO root fetch - processPackages [feedcrawler]: Downloading https://files.pythonhosted.org/packages/d6/54/0f693d26a9b3e179689289e4d47783c0b18758fbf1aaabc7195099832ec8/feedcrawler-19.2.0.tar.gz
+[2024-05-20 12:51:42] INFO root fetch - processPackages [weavel]: executing diffoscope
+[2024-05-20 12:51:42] INFO root fetch - processPackages [weavel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weavel-0.4.3.tar.gz tmp/weavel-0.4.4.tar.gz --markdown 20240520/w/weavel/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-20 12:51:42] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-20 12:51:42] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405171412-py3-none-any.whl.zip tmp/kfish-99.0.202405201023-py3-none-any.whl.zip --markdown 20240520/k/kfish/99.0.202405171412-99.0.202405201023/README.md --exclude *.pyd
+[2024-05-20 12:51:42] INFO root fetch - processPackages [gene4mVCF]: executing diffoscope
+[2024-05-20 12:51:42] INFO root fetch - processPackages [gene4mVCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gene4mvcf-1.0.6.tar.gz tmp/gene4mvcf-1.0.7.tar.gz --markdown 20240520/g/gene4mVCF/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-20 12:51:42] INFO root fetch - processPackages [feedcrawler]: executing diffoscope
+[2024-05-20 12:51:42] INFO root fetch - processPackages [feedcrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feedcrawler-19.1.0.tar.gz tmp/feedcrawler-19.2.0.tar.gz --markdown 20240520/f/feedcrawler/19.1.0-19.2.0/README.md --exclude *.pyd
+[2024-05-20 12:51:42] INFO root fetch - processPackages [mkdocs-material]: Downloading https://files.pythonhosted.org/packages/7f/87/b416888ac24bc9210f727d59afe528e00b7e037933f3497f6ad17ff5d370/mkdocs_material-9.5.9.tar.gz
+[2024-05-20 12:51:42] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/62/b0/59f3c2c5507d62557aff2e04e4aee94470596d1461bfe074b7248a6d10c6/pycloudlib-18.8.tar.gz
+[2024-05-20 12:51:43] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405171412-py3-none-any.whl.zip]
+[2024-05-20 12:51:43] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405201023-py3-none-any.whl.zip]
+[2024-05-20 12:51:43] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-20 12:51:43] INFO root fetch - processPackages [pycloudlib]: executing diffoscope
+[2024-05-20 12:51:43] INFO root fetch - processPackages [pycloudlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycloudlib-18.7.tar.gz tmp/pycloudlib-18.8.tar.gz --markdown 20240520/p/pycloudlib/18.7-18.8/README.md --exclude *.pyd
+[2024-05-20 12:51:43] INFO root fetch - processPackages [weavel]: Remove: archive file [/home/abi/fetcher/tmp/weavel-0.4.3.tar.gz]
+[2024-05-20 12:51:43] INFO root fetch - processPackages [weavel]: Remove: archive file [/home/abi/fetcher/tmp/weavel-0.4.4.tar.gz]
+[2024-05-20 12:51:43] INFO root fetch - main [MainThread]: End processing [weavel]: success
+[2024-05-20 12:51:43] INFO root fetch - processPackages [mkdocs-material]: executing diffoscope
+[2024-05-20 12:51:43] INFO root fetch - processPackages [mkdocs-material]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_material-9.5.8.tar.gz tmp/mkdocs_material-9.5.9.tar.gz --markdown 20240520/m/mkdocs-material/9.5.8-9.5.9/README.md --exclude *.pyd
+[2024-05-20 12:51:43] INFO root fetch - processPackages [gene4mVCF]: Remove: archive file [/home/abi/fetcher/tmp/gene4mvcf-1.0.6.tar.gz]
+[2024-05-20 12:51:43] INFO root fetch - processPackages [gene4mVCF]: Remove: archive file [/home/abi/fetcher/tmp/gene4mvcf-1.0.7.tar.gz]
+[2024-05-20 12:51:43] INFO root fetch - main [MainThread]: End processing [gene4mVCF]: success
+[2024-05-20 12:51:43] INFO root fetch - processPackages [feedcrawler]: Remove: archive file [/home/abi/fetcher/tmp/feedcrawler-19.1.0.tar.gz]
+[2024-05-20 12:51:43] INFO root fetch - processPackages [feedcrawler]: Remove: archive file [/home/abi/fetcher/tmp/feedcrawler-19.2.0.tar.gz]
+[2024-05-20 12:51:43] INFO root fetch - main [MainThread]: End processing [feedcrawler]: success
+[2024-05-20 12:51:43] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.7.tar.gz]
+[2024-05-20 12:51:43] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.8.tar.gz]
+[2024-05-20 12:51:43] INFO root fetch - main [MainThread]: End processing [pycloudlib]: success
+[2024-05-20 12:52:44] INFO root fetch - processPackages [mkdocs-material]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_material-9.5.8.tar.gz]
+[2024-05-20 12:52:44] INFO root fetch - processPackages [mkdocs-material]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_material-9.5.9.tar.gz]
+[2024-05-20 12:52:44] INFO root fetch - main [MainThread]: End processing [mkdocs-material]: success
+[2024-05-20 12:52:44] INFO root fetch - main [MainThread]: Store serial: [23288366]

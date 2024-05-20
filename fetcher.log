@@ -7030,3 +7030,42 @@
 [2024-05-20 06:54:40] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.192.1.tar.gz]
 [2024-05-20 06:54:40] INFO root fetch - main [MainThread]: End processing [abcli]: success
 [2024-05-20 06:54:40] INFO root fetch - main [MainThread]: Store serial: [23284662]
+[2024-05-20 06:56:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284662]
+[2024-05-20 06:56:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 06:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abcli
+[2024-05-20 06:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-dupan
+[2024-05-20 06:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deps-manager
+[2024-05-20 06:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gizai
+[2024-05-20 06:56:49] INFO root fetch - processPackages [abcli]: New version: [8.194.1] Old Version: [8.192.1]
+[2024-05-20 06:56:49] INFO root fetch - processPackages [gizai]: New version: [5.9.1] Old Version: [5.6.1]
+[2024-05-20 06:56:49] INFO root fetch - processPackages [deps-manager]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-20 06:56:49] INFO root fetch - processPackages [python-dupan]: New version: [0.0.1.3.8] Old Version: [0.0.1.3.7]
+[2024-05-20 06:56:49] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/01/83/b0110f05b1480d30f378d727382dac2b2e091afab0e8b384fd19699747f7/gizai-5.6.1.tar.gz
+[2024-05-20 06:56:49] INFO root fetch - processPackages [deps-manager]: Downloading https://files.pythonhosted.org/packages/87/27/5ca9866bdb5dd23aa2f4f3d18103ce54b521feeba5e5ca6ed7e6c6177cda/deps-manager-1.0.7.tar.gz
+[2024-05-20 06:56:49] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/eb/85/985d2734296ef810a29fa20b5a4d9af5d0f75cc873adc43ece5c988d5a39/abcli-8.192.1.tar.gz
+[2024-05-20 06:56:49] INFO root fetch - processPackages [python-dupan]: Downloading https://files.pythonhosted.org/packages/50/ce/966d117b8c6aaf16bd418fa627c999c4b9b132012184b2bd685d4a329bae/python_dupan-0.0.1.3.7.tar.gz
+[2024-05-20 06:56:49] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/bd/e0/e34a72b06da9054a2c2be6561feb68d8df248f033dea7576bd6df6bb25a9/gizai-5.9.1.tar.gz
+[2024-05-20 06:56:49] INFO root fetch - processPackages [gizai]: executing diffoscope
+[2024-05-20 06:56:49] INFO root fetch - processPackages [gizai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gizai-5.6.1.tar.gz tmp/gizai-5.9.1.tar.gz --markdown 20240520/g/gizai/5.6.1-5.9.1/README.md --exclude *.pyd
+[2024-05-20 06:56:49] INFO root fetch - processPackages [deps-manager]: Downloading https://files.pythonhosted.org/packages/e7/be/3099df8a557d1fe64a6bc6b734902e848f0bafe02b7a849f9795f672da6d/deps-manager-1.0.8.tar.gz
+[2024-05-20 06:56:49] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/41/44/c4f835c877df4903d6f5b779cc9a1522c303d10f1b9f7a614469cadbe8f6/abcli-8.194.1.tar.gz
+[2024-05-20 06:56:49] INFO root fetch - processPackages [deps-manager]: executing diffoscope
+[2024-05-20 06:56:49] INFO root fetch - processPackages [deps-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deps-manager-1.0.7.tar.gz tmp/deps-manager-1.0.8.tar.gz --markdown 20240520/d/deps-manager/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-20 06:56:49] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-05-20 06:56:49] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-8.192.1.tar.gz tmp/abcli-8.194.1.tar.gz --markdown 20240520/a/abcli/8.192.1-8.194.1/README.md --exclude *.pyd
+[2024-05-20 06:56:49] INFO root fetch - processPackages [python-dupan]: Downloading https://files.pythonhosted.org/packages/5c/c8/c7bbfa2a7150362b6a821ebb9eecc41a551c97b553b778bbfbc8980ee8b3/python_dupan-0.0.1.3.8.tar.gz
+[2024-05-20 06:56:50] INFO root fetch - processPackages [python-dupan]: executing diffoscope
+[2024-05-20 06:56:50] INFO root fetch - processPackages [python-dupan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dupan-0.0.1.3.7.tar.gz tmp/python_dupan-0.0.1.3.8.tar.gz --markdown 20240520/p/python-dupan/0.0.1.3.7-0.0.1.3.8/README.md --exclude *.pyd
+[2024-05-20 06:56:50] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.6.1.tar.gz]
+[2024-05-20 06:56:50] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.9.1.tar.gz]
+[2024-05-20 06:56:50] INFO root fetch - main [MainThread]: End processing [gizai]: success
+[2024-05-20 06:56:50] INFO root fetch - processPackages [deps-manager]: Remove: archive file [/home/abi/fetcher/tmp/deps-manager-1.0.7.tar.gz]
+[2024-05-20 06:56:50] INFO root fetch - processPackages [deps-manager]: Remove: archive file [/home/abi/fetcher/tmp/deps-manager-1.0.8.tar.gz]
+[2024-05-20 06:56:50] INFO root fetch - main [MainThread]: End processing [deps-manager]: success
+[2024-05-20 06:56:50] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.192.1.tar.gz]
+[2024-05-20 06:56:50] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.194.1.tar.gz]
+[2024-05-20 06:56:50] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-05-20 06:56:50] INFO root fetch - processPackages [python-dupan]: Remove: archive file [/home/abi/fetcher/tmp/python_dupan-0.0.1.3.7.tar.gz]
+[2024-05-20 06:56:50] INFO root fetch - processPackages [python-dupan]: Remove: archive file [/home/abi/fetcher/tmp/python_dupan-0.0.1.3.8.tar.gz]
+[2024-05-20 06:56:50] INFO root fetch - main [MainThread]: End processing [python-dupan]: success
+[2024-05-20 06:56:50] INFO root fetch - main [MainThread]: Store serial: [23284677]

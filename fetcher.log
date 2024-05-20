@@ -20167,3 +20167,93 @@ EOFError: EOF read where object expected
 [2024-05-20 16:20:09] INFO root fetch - processPackages [weba]: Remove: archive file [/home/abi/fetcher/tmp/weba-0.0.9.tar.gz]
 [2024-05-20 16:20:09] INFO root fetch - main [MainThread]: End processing [weba]: success
 [2024-05-20 16:20:09] INFO root fetch - main [MainThread]: Store serial: [23291000]
+[2024-05-20 16:22:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291000]
+[2024-05-20 16:22:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-20 16:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-workflow-sdk-preview
+[2024-05-20 16:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lm-dw-deezer
+[2024-05-20 16:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: juncosz
+[2024-05-20 16:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-server-globbing
+[2024-05-20 16:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-it-ricevute-bancarie
+[2024-05-20 16:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slot-can
+[2024-05-20 16:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zaproxy
+[2024-05-20 16:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot2
+[2024-05-20 16:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xspace-dl
+[2024-05-20 16:22:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lusid-workflow-sdk
+[2024-05-20 16:22:18] INFO root fetch - processPackages [xspace-dl]: New version: [0.2.1] Old Version: [0.1.25]
+[2024-05-20 16:22:18] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.996] Old Version: [0.1.995]
+[2024-05-20 16:22:18] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-20 16:22:18] INFO root fetch - processPackages [slot-can]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-20 16:22:18] INFO root fetch - processPackages [lm-dw-deezer]: New version: [0.0.2b7] Old Version: [0.0.2b6]
+[2024-05-20 16:22:18] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: New version: [14.0.1.9.1] Old Version: [14.0.1.9.0]
+[2024-05-20 16:22:18] WARNING root fetch - processPackages [jupyter-server-globbing]: Skipping, unable to determine old version
+[2024-05-20 16:22:18] INFO root fetch - processPackages [jupyter-server-globbing]: Start processing: mns-common
+[2024-05-20 16:22:18] INFO root fetch - main [MainThread]: End processing [jupyter-server-globbing] error
+[2024-05-20 16:22:18] INFO root fetch - processPackages [zaproxy]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-20 16:22:18] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/73/ad/aa2cc0862906264a5cb557ad81cf6497aa8f45413833b091e0fe976ed6a9/xspace-dl-0.1.25.tar.gz
+[2024-05-20 16:22:18] WARNING root fetch - processPackages [juncosz]: Skipping, unable to determine old version
+[2024-05-20 16:22:18] INFO root fetch - main [MainThread]: End processing [juncosz] error
+[2024-05-20 16:22:18] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/d5/b7/0c32c08fe0b3327878c0d7b7006b46298b3dca469a326a75a439bfd0f0f1/lusid_workflow_sdk-2.1.8.tar.gz
+[2024-05-20 16:22:19] INFO root fetch - processPackages [nonebot2]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-05-20 16:22:19] INFO root fetch - processPackages [lm-dw-deezer]: Downloading https://files.pythonhosted.org/packages/fa/52/e132d31f8a0180f2b24d99c7e3ec8ffd6c1a14e52a3412cb9bb13d2541aa/lm_dw_deezer-0.0.2b6.tar.gz
+[2024-05-20 16:22:19] INFO root fetch - processPackages [mns-common]: New version: [1.1.1.6] Old Version: [1.1.1.5]
+[2024-05-20 16:22:19] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/56/ac/c34b1b8edd4a745ceacc5a310a38b3dcca685fe17507cacc1cd57db81fdd/lusid-workflow-sdk-preview-0.1.995.tar.gz
+[2024-05-20 16:22:19] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/c9/e6/77157308314e75e79bf672822dd46be31a65c58c39b8881680c3edc2ab5d/mns_common-1.1.1.5.tar.gz
+[2024-05-20 16:22:19] INFO root fetch - processPackages [zaproxy]: Downloading https://files.pythonhosted.org/packages/8a/38/a60253eb6c6ae24643ad03b1389eeb717ac6b44f768d4ace1ec897ac2f42/zaproxy-0.3.0.tar.gz
+[2024-05-20 16:22:19] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Downloading https://files.pythonhosted.org/packages/a0/14/99e0c0b54db46c5b611a802782c05271629bbad548826f66b6f67acdf75d/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.9.0-py3-none-any.whl
+[2024-05-20 16:22:19] INFO root fetch - processPackages [slot-can]: Downloading https://files.pythonhosted.org/packages/07/f6/7b2379eb9781e3eaeceae55d101cadc4ee39a228f25db99df1b494b461fe/slot_can-0.1.0.tar.gz
+[2024-05-20 16:22:19] INFO root fetch - processPackages [nonebot2]: Downloading https://files.pythonhosted.org/packages/33/33/f6b59399886264ec01433342e27bf1d60d70160c397098e61d2a1f533a28/nonebot2-2.3.0.tar.gz
+[2024-05-20 16:22:19] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/23/c0/5f5908f038983f29f46a445ed5ff331d6086d5c6cb128e4502bf223fd90b/lusid_workflow_sdk-2.1.9.tar.gz
+[2024-05-20 16:22:19] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/4a/e8/b6c7e514db2ab1d13753b5c67be9129a5c9b5e9955f499ea44a244ef22f4/xspace-dl-0.2.1.tar.gz
+[2024-05-20 16:22:19] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ad/65/93d0e7790f005c1bba7ae75a47e2b35b3d8a514713f549fccca0619a2df9/lusid-workflow-sdk-preview-0.1.996.tar.gz
+[2024-05-20 16:22:19] INFO root fetch - processPackages [lm-dw-deezer]: Downloading https://files.pythonhosted.org/packages/30/1d/723a2a4cbc94bf90792f1bea598e0a9c130d17224d4baac22c3ad0de7e18/lm_dw_deezer-0.0.2b7.tar.gz
+[2024-05-20 16:22:19] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-05-20 16:22:19] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.1.8.tar.gz tmp/lusid_workflow_sdk-2.1.9.tar.gz --markdown 20240520/l/lusid-workflow-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-20 16:22:19] INFO root fetch - processPackages [xspace-dl]: executing diffoscope
+[2024-05-20 16:22:19] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-05-20 16:22:19] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz --markdown 20240520/l/lusid-workflow-sdk-preview/0.1.995-0.1.996/README.md --exclude *.pyd
+[2024-05-20 16:22:19] INFO root fetch - processPackages [xspace-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspace-dl-0.1.25.tar.gz tmp/xspace-dl-0.2.1.tar.gz --markdown 20240520/x/xspace-dl/0.1.25-0.2.1/README.md --exclude *.pyd
+[2024-05-20 16:22:19] INFO root fetch - processPackages [slot-can]: Downloading https://files.pythonhosted.org/packages/b6/28/af391241f95d8fbdb48be351baba483e1c801d7dfa5999c3eeda3c5d0dd5/slot_can-0.2.0.tar.gz
+[2024-05-20 16:22:19] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/84/3d/eb4d8a7a8d777c2a2182cf0a7e29d9f83f15afb2bc1a246dafebfc201a1f/mns_common-1.1.1.6.tar.gz
+[2024-05-20 16:22:19] INFO root fetch - processPackages [lm-dw-deezer]: executing diffoscope
+[2024-05-20 16:22:19] INFO root fetch - processPackages [lm-dw-deezer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_dw_deezer-0.0.2b6.tar.gz tmp/lm_dw_deezer-0.0.2b7.tar.gz --markdown 20240520/l/lm-dw-deezer/0.0.2b6-0.0.2b7/README.md --exclude *.pyd
+[2024-05-20 16:22:19] INFO root fetch - processPackages [nonebot2]: Downloading https://files.pythonhosted.org/packages/7e/f7/25c1f488de7bc82a260521170ad6e42979ae6bdaa6b2ca816be1cf4ae7a9/nonebot2-2.3.1.tar.gz
+[2024-05-20 16:22:19] INFO root fetch - processPackages [zaproxy]: Downloading https://files.pythonhosted.org/packages/23/a1/267920e22c61eb59f7521da5dd86271ff0e844368a7ce6e2c52e20ea9443/zaproxy-0.3.1.tar.gz
+[2024-05-20 16:22:19] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Downloading https://files.pythonhosted.org/packages/9a/92/e1a9a77e51f24184f7992539c03b11a4d476ebdcf3cda8dc9a4e89df4857/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.9.1-py3-none-any.whl
+[2024-05-20 16:22:19] INFO root fetch - processPackages [slot-can]: executing diffoscope
+[2024-05-20 16:22:19] INFO root fetch - processPackages [slot-can]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slot_can-0.1.0.tar.gz tmp/slot_can-0.2.0.tar.gz --markdown 20240520/s/slot-can/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-20 16:22:19] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-20 16:22:19] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.1.5.tar.gz tmp/mns_common-1.1.1.6.tar.gz --markdown 20240520/m/mns-common/1.1.1.5-1.1.1.6/README.md --exclude *.pyd
+[2024-05-20 16:22:19] INFO root fetch - processPackages [nonebot2]: executing diffoscope
+[2024-05-20 16:22:19] INFO root fetch - processPackages [nonebot2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot2-2.3.0.tar.gz tmp/nonebot2-2.3.1.tar.gz --markdown 20240520/n/nonebot2/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-05-20 16:22:19] INFO root fetch - processPackages [zaproxy]: executing diffoscope
+[2024-05-20 16:22:19] INFO root fetch - processPackages [zaproxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaproxy-0.3.0.tar.gz tmp/zaproxy-0.3.1.tar.gz --markdown 20240520/z/zaproxy/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-20 16:22:19] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: executing diffoscope
+[2024-05-20 16:22:19] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.9.1-py3-none-any.whl.zip --markdown 20240520/o/odoo14-addon-l10n-it-ricevute-bancarie/14.0.1.9.0-14.0.1.9.1/README.md --exclude *.pyd
+[2024-05-20 16:22:20] INFO root fetch - processPackages [slot-can]: Remove: archive file [/home/abi/fetcher/tmp/slot_can-0.1.0.tar.gz]
+[2024-05-20 16:22:20] INFO root fetch - processPackages [slot-can]: Remove: archive file [/home/abi/fetcher/tmp/slot_can-0.2.0.tar.gz]
+[2024-05-20 16:22:20] INFO root fetch - main [MainThread]: End processing [slot-can]: success
+[2024-05-20 16:22:20] INFO root fetch - processPackages [lm-dw-deezer]: Remove: archive file [/home/abi/fetcher/tmp/lm_dw_deezer-0.0.2b6.tar.gz]
+[2024-05-20 16:22:20] INFO root fetch - processPackages [lm-dw-deezer]: Remove: archive file [/home/abi/fetcher/tmp/lm_dw_deezer-0.0.2b7.tar.gz]
+[2024-05-20 16:22:20] INFO root fetch - main [MainThread]: End processing [lm-dw-deezer]: success
+[2024-05-20 16:22:20] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.1.25.tar.gz]
+[2024-05-20 16:22:20] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.2.1.tar.gz]
+[2024-05-20 16:22:20] INFO root fetch - main [MainThread]: End processing [xspace-dl]: success
+[2024-05-20 16:22:20] INFO root fetch - processPackages [nonebot2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot2-2.3.0.tar.gz]
+[2024-05-20 16:22:20] INFO root fetch - processPackages [nonebot2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot2-2.3.1.tar.gz]
+[2024-05-20 16:22:20] INFO root fetch - main [MainThread]: End processing [nonebot2]: success
+[2024-05-20 16:22:20] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.8.tar.gz]
+[2024-05-20 16:22:20] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.9.tar.gz]
+[2024-05-20 16:22:20] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-05-20 16:22:20] INFO root fetch - processPackages [zaproxy]: Remove: archive file [/home/abi/fetcher/tmp/zaproxy-0.3.0.tar.gz]
+[2024-05-20 16:22:20] INFO root fetch - processPackages [zaproxy]: Remove: archive file [/home/abi/fetcher/tmp/zaproxy-0.3.1.tar.gz]
+[2024-05-20 16:22:20] INFO root fetch - main [MainThread]: End processing [zaproxy]: success
+[2024-05-20 16:22:20] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.1.5.tar.gz]
+[2024-05-20 16:22:20] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.1.6.tar.gz]
+[2024-05-20 16:22:20] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-20 16:22:21] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-05-20 16:22:21] INFO root fetch - processPackages [odoo14-addon-l10n-it-ricevute-bancarie]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_ricevute_bancarie-14.0.1.9.1-py3-none-any.whl.zip]
+[2024-05-20 16:22:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-ricevute-bancarie]: success
+[2024-05-20 16:22:21] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz]
+[2024-05-20 16:22:21] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
+[2024-05-20 16:22:21] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-05-20 16:22:21] INFO root fetch - main [MainThread]: Store serial: [23291037]

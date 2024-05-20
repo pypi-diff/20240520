@@ -4508,3 +4508,64 @@
 [2024-05-20 03:52:21] INFO root fetch - processPackages [simpleai-base]: Remove: archive file [/home/abi/fetcher/tmp/simpleai_base-0.3.5-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-20 03:52:21] INFO root fetch - main [MainThread]: End processing [simpleai-base]: success
 [2024-05-20 03:52:21] INFO root fetch - main [MainThread]: Store serial: [23283501]
+[2024-05-20 03:54:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283501]
+[2024-05-20 03:54:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 03:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redis-director
+[2024-05-20 03:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flightdata
+[2024-05-20 03:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmticket
+[2024-05-20 03:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: subproportionalz
+[2024-05-20 03:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unibox
+[2024-05-20 03:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mediumroast-py
+[2024-05-20 03:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flightanalysis
+[2024-05-20 03:54:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: textlong
+[2024-05-20 03:54:37] INFO root fetch - processPackages [redis-director]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-05-20 03:54:37] INFO root fetch - processPackages [tmticket]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-20 03:54:37] INFO root fetch - processPackages [textlong]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-20 03:54:37] INFO root fetch - processPackages [redis-director]: Downloading https://files.pythonhosted.org/packages/3a/43/249c783d527dc15a2cfbd1c7b35ed787be74429b77c000e31be266a1251f/redis_director-0.6.1.tar.gz
+[2024-05-20 03:54:37] INFO root fetch - processPackages [unibox]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-20 03:54:37] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/4d/ad/10176fb37696e1e436dbd0d92278ddec176d2dc1124bea268a90a58aa4ba/tmticket-0.2.8.tar.gz
+[2024-05-20 03:54:37] WARNING root fetch - processPackages [subproportionalz]: Skipping, unable to determine old version
+[2024-05-20 03:54:37] INFO root fetch - main [MainThread]: End processing [subproportionalz] error
+[2024-05-20 03:54:37] INFO root fetch - processPackages [mediumroast-py]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-20 03:54:37] INFO root fetch - processPackages [flightanalysis]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-20 03:54:37] INFO root fetch - processPackages [textlong]: Downloading https://files.pythonhosted.org/packages/ca/f3/28a5d573bbe3ef2d5767b2271954398b17e88007ebb19b4ff7adda8c62c4/textlong-0.1.5.tar.gz
+[2024-05-20 03:54:37] INFO root fetch - processPackages [flightdata]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-20 03:54:38] INFO root fetch - processPackages [redis-director]: Downloading https://files.pythonhosted.org/packages/23/ee/a798f2146333703324dc64311088b781fb46f4dad0308e823ec5ad53fa3d/redis_director-0.7.0.tar.gz
+[2024-05-20 03:54:38] INFO root fetch - processPackages [mediumroast-py]: Downloading https://files.pythonhosted.org/packages/f1/5e/112d5671b0793808314ff90610fd6726edfdeb776e7a982e9a28edca6aeb/mediumroast_py-0.6.1.tar.gz
+[2024-05-20 03:54:38] INFO root fetch - processPackages [unibox]: Downloading https://files.pythonhosted.org/packages/23/2b/5f844033c6427f93aeee3279623afdf5f3a6fa808fbd64ae55b6f330ae09/unibox-0.4.0.tar.gz
+[2024-05-20 03:54:38] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/66/8d/6f4ea244439ac0838b19f1b5060e62d11e2eb2b49ca201ec27acca4a8a6c/tmticket-0.2.9.tar.gz
+[2024-05-20 03:54:38] INFO root fetch - processPackages [textlong]: Downloading https://files.pythonhosted.org/packages/d7/19/7329ff9a0cfdde3ec5fe375ebc5318010a18d66eb47a56b9d7a7ee9f98b6/textlong-0.1.6.tar.gz
+[2024-05-20 03:54:38] INFO root fetch - processPackages [redis-director]: executing diffoscope
+[2024-05-20 03:54:38] INFO root fetch - processPackages [redis-director]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_director-0.6.1.tar.gz tmp/redis_director-0.7.0.tar.gz --markdown 20240520/r/redis-director/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-05-20 03:54:38] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-20 03:54:38] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.2.8.tar.gz tmp/tmticket-0.2.9.tar.gz --markdown 20240520/t/tmticket/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-20 03:54:38] INFO root fetch - processPackages [textlong]: executing diffoscope
+[2024-05-20 03:54:38] INFO root fetch - processPackages [textlong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textlong-0.1.5.tar.gz tmp/textlong-0.1.6.tar.gz --markdown 20240520/t/textlong/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-20 03:54:38] INFO root fetch - processPackages [flightdata]: Downloading https://files.pythonhosted.org/packages/39/9b/940c6674d28d9a724e574aa444950b07847098d269182e3638009af3823c/flightdata-0.2.9.tar.gz
+[2024-05-20 03:54:38] INFO root fetch - processPackages [flightanalysis]: Downloading https://files.pythonhosted.org/packages/c5/b8/b106ff5563081c957869725b277e1bc0ef78e382b9bcd8949bfbce6887d6/flightanalysis-0.2.9.tar.gz
+[2024-05-20 03:54:38] INFO root fetch - processPackages [mediumroast-py]: Downloading https://files.pythonhosted.org/packages/33/ca/ce9b5e0ab378870d52a003ef0e91780a29643d8c70a85d8cd25ba929c347/mediumroast_py-0.6.2.tar.gz
+[2024-05-20 03:54:38] INFO root fetch - processPackages [unibox]: Downloading https://files.pythonhosted.org/packages/fa/c6/df7375033f51ecabb608fccaae7e97acaa48ba281e5ff6c223e3cb6be382/unibox-0.4.1.tar.gz
+[2024-05-20 03:54:38] WARNING root fetch - processPackages [flightdata]: Skipping package: exceeds size limit 51901164>=10485760
+[2024-05-20 03:54:38] INFO root fetch - main [MainThread]: End processing [flightdata] error
+[2024-05-20 03:54:38] WARNING root fetch - processPackages [flightanalysis]: Skipping package: exceeds size limit 22935901>=10485760
+[2024-05-20 03:54:38] INFO root fetch - main [MainThread]: End processing [flightanalysis] error
+[2024-05-20 03:54:38] INFO root fetch - processPackages [mediumroast-py]: executing diffoscope
+[2024-05-20 03:54:38] INFO root fetch - processPackages [mediumroast-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediumroast_py-0.6.1.tar.gz tmp/mediumroast_py-0.6.2.tar.gz --markdown 20240520/m/mediumroast-py/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-20 03:54:38] INFO root fetch - processPackages [unibox]: executing diffoscope
+[2024-05-20 03:54:38] INFO root fetch - processPackages [unibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unibox-0.4.0.tar.gz tmp/unibox-0.4.1.tar.gz --markdown 20240520/u/unibox/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-20 03:54:38] INFO root fetch - processPackages [redis-director]: Remove: archive file [/home/abi/fetcher/tmp/redis_director-0.6.1.tar.gz]
+[2024-05-20 03:54:38] INFO root fetch - processPackages [redis-director]: Remove: archive file [/home/abi/fetcher/tmp/redis_director-0.7.0.tar.gz]
+[2024-05-20 03:54:38] INFO root fetch - main [MainThread]: End processing [redis-director]: success
+[2024-05-20 03:54:39] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.8.tar.gz]
+[2024-05-20 03:54:39] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.9.tar.gz]
+[2024-05-20 03:54:39] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-20 03:54:39] INFO root fetch - processPackages [textlong]: Remove: archive file [/home/abi/fetcher/tmp/textlong-0.1.5.tar.gz]
+[2024-05-20 03:54:39] INFO root fetch - processPackages [textlong]: Remove: archive file [/home/abi/fetcher/tmp/textlong-0.1.6.tar.gz]
+[2024-05-20 03:54:39] INFO root fetch - main [MainThread]: End processing [textlong]: success
+[2024-05-20 03:54:39] INFO root fetch - processPackages [mediumroast-py]: Remove: archive file [/home/abi/fetcher/tmp/mediumroast_py-0.6.1.tar.gz]
+[2024-05-20 03:54:39] INFO root fetch - processPackages [mediumroast-py]: Remove: archive file [/home/abi/fetcher/tmp/mediumroast_py-0.6.2.tar.gz]
+[2024-05-20 03:54:39] INFO root fetch - main [MainThread]: End processing [mediumroast-py]: success
+[2024-05-20 03:54:39] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.4.0.tar.gz]
+[2024-05-20 03:54:39] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.4.1.tar.gz]
+[2024-05-20 03:54:39] INFO root fetch - main [MainThread]: End processing [unibox]: success
+[2024-05-20 03:54:39] INFO root fetch - main [MainThread]: Store serial: [23283528]

@@ -15759,3 +15759,24 @@ EOFError: EOF read where object expected
 [2024-05-20 13:43:33] INFO root fetch - processPackages [pulumiverse-exoscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_exoscale-0.59.0.tar.gz]
 [2024-05-20 13:43:33] INFO root fetch - main [MainThread]: End processing [pulumiverse-exoscale]: success
 [2024-05-20 13:43:33] INFO root fetch - main [MainThread]: Store serial: [23288886]
+[2024-05-20 13:45:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288886]
+[2024-05-20 13:45:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 13:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: battlemetrics
+[2024-05-20 13:45:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mteb
+[2024-05-20 13:45:42] INFO root fetch - processPackages [mteb]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-20 13:45:42] INFO root fetch - processPackages [battlemetrics]: New version: [1.0.9] Old Version: [1.0.8.1]
+[2024-05-20 13:45:42] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/aa/99/be58df74a89833b5d44fbd8f00e5c99b4ca82aa67a9c1487fd782328d3b5/mteb-1.9.2.tar.gz
+[2024-05-20 13:45:42] INFO root fetch - processPackages [battlemetrics]: Downloading https://files.pythonhosted.org/packages/32/14/2ec07a7aaffe64781e0312fa54644588c1000aff733d7b89cf760d15e710/battlemetrics-1.0.8.1.tar.gz
+[2024-05-20 13:45:42] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/1a/05/483a4778dcfb42b672c3c28ac435e64d386b1df507d3c0059e5da9194653/mteb-1.9.3.tar.gz
+[2024-05-20 13:45:43] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-20 13:45:43] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.2.tar.gz tmp/mteb-1.9.3.tar.gz --markdown 20240520/m/mteb/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-20 13:45:43] INFO root fetch - processPackages [battlemetrics]: Downloading https://files.pythonhosted.org/packages/29/3e/02a5fb43d267fe37cc040f8495880be8a66b67cc62414047d355d0193a9a/battlemetrics-1.0.9.tar.gz
+[2024-05-20 13:45:43] INFO root fetch - processPackages [battlemetrics]: executing diffoscope
+[2024-05-20 13:45:43] INFO root fetch - processPackages [battlemetrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/battlemetrics-1.0.8.1.tar.gz tmp/battlemetrics-1.0.9.tar.gz --markdown 20240520/b/battlemetrics/1.0.8.1-1.0.9/README.md --exclude *.pyd
+[2024-05-20 13:45:43] INFO root fetch - processPackages [battlemetrics]: Remove: archive file [/home/abi/fetcher/tmp/battlemetrics-1.0.8.1.tar.gz]
+[2024-05-20 13:45:43] INFO root fetch - processPackages [battlemetrics]: Remove: archive file [/home/abi/fetcher/tmp/battlemetrics-1.0.9.tar.gz]
+[2024-05-20 13:45:43] INFO root fetch - main [MainThread]: End processing [battlemetrics]: success
+[2024-05-20 13:45:45] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.2.tar.gz]
+[2024-05-20 13:45:45] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
+[2024-05-20 13:45:45] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-20 13:45:45] INFO root fetch - main [MainThread]: Store serial: [23288896]

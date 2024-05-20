@@ -22864,3 +22864,36 @@ EOFError: EOF read where object expected
 [2024-05-20 17:59:05] INFO root fetch - processPackages [py-fumen-py]: Remove: archive file [/home/abi/fetcher/tmp/py_fumen_py-0.0.9.tar.gz]
 [2024-05-20 17:59:05] INFO root fetch - main [MainThread]: End processing [py-fumen-py]: success
 [2024-05-20 17:59:05] INFO root fetch - main [MainThread]: Store serial: [23292105]
+[2024-05-20 18:01:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292105]
+[2024-05-20 18:01:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 18:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-fumen-py
+[2024-05-20 18:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Red-Web-Dashboard
+[2024-05-20 18:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metalarchivist
+[2024-05-20 18:01:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unique-colorlogger
+[2024-05-20 18:01:14] INFO root fetch - processPackages [py-fumen-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 18:01:14] INFO root fetch - processPackages [Red-Web-Dashboard]: New version: [1.6.2] Old Version: [1.6.0]
+[2024-05-20 18:01:14] INFO root fetch - processPackages [metalarchivist]: New version: [0.4] Old Version: [0.3.5]
+[2024-05-20 18:01:15] WARNING root fetch - processPackages [unique-colorlogger]: Skipping, unable to determine old version
+[2024-05-20 18:01:15] INFO root fetch - main [MainThread]: End processing [unique-colorlogger] error
+[2024-05-20 18:01:15] INFO root fetch - processPackages [py-fumen-py]: Downloading https://files.pythonhosted.org/packages/2a/fc/b83779ccc9d317326e4d38f4f30cc59ffe56afd7500824dcbf28e846bc52/py_fumen_py-0.0.8.tar.gz
+[2024-05-20 18:01:15] INFO root fetch - processPackages [Red-Web-Dashboard]: Downloading https://files.pythonhosted.org/packages/d6/7f/ca75c3a4b73e122c60ea07d6f8529da83e4738e5d49f6ec7bd2ae28486a1/red_web_dashboard-1.6.0.tar.gz
+[2024-05-20 18:01:15] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/1d/6d/3e62a0dcb32fc77f47d44a6ffeec475f9d3d0a538741d1c45dd4f16a716b/metalarchivist-0.3.5.tar.gz
+[2024-05-20 18:01:15] INFO root fetch - processPackages [py-fumen-py]: Downloading https://files.pythonhosted.org/packages/d7/ce/34e108d2d6b33b573de75eac289bd6f7e2deed834db79d430b643de3e015/py_fumen_py-0.0.9.tar.gz
+[2024-05-20 18:01:15] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/8a/0b/b05eb638396f255b63ec012573c1e47d2f41ac909f4a74b8d06810e2fe15/metalarchivist-0.4.tar.gz
+[2024-05-20 18:01:15] INFO root fetch - processPackages [py-fumen-py]: executing diffoscope
+[2024-05-20 18:01:15] INFO root fetch - processPackages [py-fumen-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_fumen_py-0.0.8.tar.gz tmp/py_fumen_py-0.0.9.tar.gz --markdown 20240520/p/py-fumen-py/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 18:01:15] INFO root fetch - processPackages [metalarchivist]: executing diffoscope
+[2024-05-20 18:01:15] INFO root fetch - processPackages [metalarchivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalarchivist-0.3.5.tar.gz tmp/metalarchivist-0.4.tar.gz --markdown 20240520/m/metalarchivist/0.3.5-0.4/README.md --exclude *.pyd
+[2024-05-20 18:01:15] INFO root fetch - processPackages [Red-Web-Dashboard]: Downloading https://files.pythonhosted.org/packages/fd/f6/364cfeca5466f069600912281527593fc4cd44eff2241169ba7a99c419ed/red_web_dashboard-1.6.2.tar.gz
+[2024-05-20 18:01:15] INFO root fetch - processPackages [Red-Web-Dashboard]: executing diffoscope
+[2024-05-20 18:01:15] INFO root fetch - processPackages [Red-Web-Dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_web_dashboard-1.6.0.tar.gz tmp/red_web_dashboard-1.6.2.tar.gz --markdown 20240520/R/Red-Web-Dashboard/1.6.0-1.6.2/README.md --exclude *.pyd
+[2024-05-20 18:01:15] INFO root fetch - processPackages [py-fumen-py]: Remove: archive file [/home/abi/fetcher/tmp/py_fumen_py-0.0.8.tar.gz]
+[2024-05-20 18:01:15] INFO root fetch - processPackages [py-fumen-py]: Remove: archive file [/home/abi/fetcher/tmp/py_fumen_py-0.0.9.tar.gz]
+[2024-05-20 18:01:15] INFO root fetch - main [MainThread]: End processing [py-fumen-py]: success
+[2024-05-20 18:01:16] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.3.5.tar.gz]
+[2024-05-20 18:01:16] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.4.tar.gz]
+[2024-05-20 18:01:16] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
+[2024-05-20 18:01:17] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.6.0.tar.gz]
+[2024-05-20 18:01:17] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.6.2.tar.gz]
+[2024-05-20 18:01:17] INFO root fetch - main [MainThread]: End processing [Red-Web-Dashboard]: success
+[2024-05-20 18:01:17] INFO root fetch - main [MainThread]: Store serial: [23292119]

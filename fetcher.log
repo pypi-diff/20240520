@@ -14234,3 +14234,42 @@
 [2024-05-20 12:40:48] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.4.0.0rc4.tar.gz]
 [2024-05-20 12:40:48] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2024-05-20 12:40:48] INFO root fetch - main [MainThread]: Store serial: [23288270]
+[2024-05-20 12:42:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288270]
+[2024-05-20 12:42:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 12:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: api-deezer
+[2024-05-20 12:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bacore
+[2024-05-20 12:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: subprocess-mock
+[2024-05-20 12:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lib-version-urlphishing
+[2024-05-20 12:42:57] INFO root fetch - processPackages [lib-version-urlphishing]: New version: [2.2.8] Old Version: [2.2.7]
+[2024-05-20 12:42:57] INFO root fetch - processPackages [lib-version-urlphishing]: Downloading https://files.pythonhosted.org/packages/49/46/fa2a85c802bd05e0f10ed33c1de7450165f601cb8e69dd050ad41b199619/lib_version_urlphishing-2.2.7.tar.gz
+[2024-05-20 12:42:57] INFO root fetch - processPackages [api-deezer]: New version: [0.0.1b2] Old Version: [0.0.1b1]
+[2024-05-20 12:42:57] INFO root fetch - processPackages [bacore]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 12:42:57] INFO root fetch - processPackages [subprocess-mock]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-20 12:42:58] INFO root fetch - processPackages [api-deezer]: Downloading https://files.pythonhosted.org/packages/a2/fd/4bf112beab1b39974f7a49b377bb7f2a3549eeba051eb5bf39bb306f4309/api_deezer-0.0.1b1.tar.gz
+[2024-05-20 12:42:58] INFO root fetch - processPackages [bacore]: Downloading https://files.pythonhosted.org/packages/fa/ee/27f5dfaf9ada68468281c54b1f6065a0d06b214b5f0f5ffa04b705c586bc/bacore-0.0.8.tar.gz
+[2024-05-20 12:42:58] INFO root fetch - processPackages [subprocess-mock]: Downloading https://files.pythonhosted.org/packages/93/ee/1a282c074a9d66fac077de042914c41ee3a12a20113953c79528e7eff686/subprocess-mock-0.4.4.tar.gz
+[2024-05-20 12:42:59] INFO root fetch - processPackages [api-deezer]: Downloading https://files.pythonhosted.org/packages/56/f1/e3d588c76a67fa0da794101360f715bf62d67cb94cb7988b9718356a88a1/api_deezer-0.0.1b2.tar.gz
+[2024-05-20 12:42:59] INFO root fetch - processPackages [lib-version-urlphishing]: Downloading https://files.pythonhosted.org/packages/18/7f/3faff6bde7fd98a4b37d50d59ee81961f68e0536f176369ab67152b3f9c0/lib_version_urlphishing-2.2.8.tar.gz
+[2024-05-20 12:42:59] INFO root fetch - processPackages [subprocess-mock]: Downloading https://files.pythonhosted.org/packages/6e/28/6767d9e9d135f7e657661d42c655484d743f4d5bbad3e4104c9daa27313a/subprocess_mock-0.4.5.tar.gz
+[2024-05-20 12:42:59] INFO root fetch - processPackages [api-deezer]: executing diffoscope
+[2024-05-20 12:42:59] INFO root fetch - processPackages [api-deezer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_deezer-0.0.1b1.tar.gz tmp/api_deezer-0.0.1b2.tar.gz --markdown 20240520/a/api-deezer/0.0.1b1-0.0.1b2/README.md --exclude *.pyd
+[2024-05-20 12:42:59] INFO root fetch - processPackages [bacore]: Downloading https://files.pythonhosted.org/packages/7d/7b/feec0d5f955edc4d01b34bd9405f272693c5e9666752be67db3f2dd8770a/bacore-0.0.9.tar.gz
+[2024-05-20 12:42:59] INFO root fetch - processPackages [lib-version-urlphishing]: executing diffoscope
+[2024-05-20 12:42:59] INFO root fetch - processPackages [lib-version-urlphishing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_urlphishing-2.2.7.tar.gz tmp/lib_version_urlphishing-2.2.8.tar.gz --markdown 20240520/l/lib-version-urlphishing/2.2.7-2.2.8/README.md --exclude *.pyd
+[2024-05-20 12:42:59] INFO root fetch - processPackages [bacore]: executing diffoscope
+[2024-05-20 12:42:59] INFO root fetch - processPackages [bacore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacore-0.0.8.tar.gz tmp/bacore-0.0.9.tar.gz --markdown 20240520/b/bacore/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 12:42:59] INFO root fetch - processPackages [subprocess-mock]: executing diffoscope
+[2024-05-20 12:42:59] INFO root fetch - processPackages [subprocess-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subprocess-mock-0.4.4.tar.gz tmp/subprocess_mock-0.4.5.tar.gz --markdown 20240520/s/subprocess-mock/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-20 12:42:59] INFO root fetch - processPackages [api-deezer]: Remove: archive file [/home/abi/fetcher/tmp/api_deezer-0.0.1b1.tar.gz]
+[2024-05-20 12:42:59] INFO root fetch - processPackages [api-deezer]: Remove: archive file [/home/abi/fetcher/tmp/api_deezer-0.0.1b2.tar.gz]
+[2024-05-20 12:42:59] INFO root fetch - main [MainThread]: End processing [api-deezer]: success
+[2024-05-20 12:42:59] INFO root fetch - processPackages [lib-version-urlphishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-2.2.7.tar.gz]
+[2024-05-20 12:42:59] INFO root fetch - processPackages [lib-version-urlphishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-2.2.8.tar.gz]
+[2024-05-20 12:42:59] INFO root fetch - main [MainThread]: End processing [lib-version-urlphishing]: success
+[2024-05-20 12:42:59] INFO root fetch - processPackages [bacore]: Remove: archive file [/home/abi/fetcher/tmp/bacore-0.0.8.tar.gz]
+[2024-05-20 12:42:59] INFO root fetch - processPackages [bacore]: Remove: archive file [/home/abi/fetcher/tmp/bacore-0.0.9.tar.gz]
+[2024-05-20 12:42:59] INFO root fetch - main [MainThread]: End processing [bacore]: success
+[2024-05-20 12:43:00] INFO root fetch - processPackages [subprocess-mock]: Remove: archive file [/home/abi/fetcher/tmp/subprocess-mock-0.4.4.tar.gz]
+[2024-05-20 12:43:00] INFO root fetch - processPackages [subprocess-mock]: Remove: archive file [/home/abi/fetcher/tmp/subprocess_mock-0.4.5.tar.gz]
+[2024-05-20 12:43:00] INFO root fetch - main [MainThread]: End processing [subprocess-mock]: success
+[2024-05-20 12:43:00] INFO root fetch - main [MainThread]: Store serial: [23288283]

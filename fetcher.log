@@ -13628,3 +13628,65 @@
 [2024-05-20 12:20:42] INFO root fetch - processPackages [arena-client]: Remove: archive file [/home/abi/fetcher/tmp/arena_client-0.2.1.tar.gz]
 [2024-05-20 12:20:42] INFO root fetch - main [MainThread]: End processing [arena-client]: success
 [2024-05-20 12:20:42] INFO root fetch - main [MainThread]: Store serial: [23288056]
+[2024-05-20 12:22:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288056]
+[2024-05-20 12:22:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 12:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s3-object-storage-client
+[2024-05-20 12:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PepperPepper
+[2024-05-20 12:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flatpack
+[2024-05-20 12:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymonit
+[2024-05-20 12:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: medaka-cpu
+[2024-05-20 12:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: setux-core
+[2024-05-20 12:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: appmesh
+[2024-05-20 12:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: testdadamlalala
+[2024-05-20 12:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: goalchain
+[2024-05-20 12:22:51] WARNING root fetch - processPackages [s3-object-storage-client]: Skipping, unable to determine old version
+[2024-05-20 12:22:51] INFO root fetch - main [MainThread]: End processing [s3-object-storage-client] error
+[2024-05-20 12:22:51] INFO root fetch - processPackages [appmesh]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-20 12:22:51] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-20 12:22:51] INFO root fetch - processPackages [pymonit]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-20 12:22:51] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.83]
+[2024-05-20 12:22:51] INFO root fetch - processPackages [setux-core]: New version: [0.4.0] Old Version: [0.3.5]
+[2024-05-20 12:22:51] WARNING root fetch - processPackages [testdadamlalala]: Skipping, unable to determine old version
+[2024-05-20 12:22:51] INFO root fetch - main [MainThread]: End processing [testdadamlalala] error
+[2024-05-20 12:22:51] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/a2/6a/fc1e17ed8249aa662d736747b383ab6c49c7144dc000f01a9057721c3218/pepperpepper-0.0.7.8.tar.gz
+[2024-05-20 12:22:51] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/56/ba/f18ae3a79dba5f6f5119e8ce91251df7a63df3c3cab2adb2eb8bb1eed0ae/appmesh-1.0.5-py3-none-any.whl
+[2024-05-20 12:22:51] INFO root fetch - processPackages [pymonit]: Downloading https://files.pythonhosted.org/packages/9c/d1/b6545d804cf6c4acda6c76eb69d9edde1c91ff92aca23f4c627873f23951/pymonit-1.4.8.tar.gz
+[2024-05-20 12:22:51] INFO root fetch - processPackages [medaka-cpu]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-20 12:22:51] WARNING root fetch - processPackages [goalchain]: Skipping, unable to determine old version
+[2024-05-20 12:22:51] INFO root fetch - main [MainThread]: End processing [goalchain] error
+[2024-05-20 12:22:51] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/08/2e/75c962e1526b089a8f1aba9f26b6ce14144109063ff576df25dadf281405/flatpack-3.4.83.tar.gz
+[2024-05-20 12:22:51] INFO root fetch - processPackages [setux-core]: Downloading https://files.pythonhosted.org/packages/07/0a/b0f125d0ea0fb024a5a25895fb9ec8cbd58d601a9544621a3b97e8ea5651/setux_core-0.3.5.tar.gz
+[2024-05-20 12:22:51] INFO root fetch - processPackages [medaka-cpu]: Downloading https://files.pythonhosted.org/packages/13/a7/f67926ca62f805a0d0eddcf19980b7e5aa083de84b851926aca6b39dc198/medaka_cpu-1.9.0-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-05-20 12:22:51] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/7a/38/fe8b8a62017ba281a5f1bed49a3b9233b5b8dd9aab232ea159a41ac3310d/appmesh-1.0.6-py3-none-any.whl
+[2024-05-20 12:22:52] WARNING root fetch - processPackages [medaka-cpu]: Skipping package: exceeds size limit 18288764>=10485760
+[2024-05-20 12:22:52] INFO root fetch - main [MainThread]: End processing [medaka-cpu] error
+[2024-05-20 12:22:52] INFO root fetch - processPackages [pymonit]: Downloading https://files.pythonhosted.org/packages/62/6a/091257352b613990c3040813dd8e39a1f54cd4fe808349f8788f66cce9f8/pymonit-1.4.9.tar.gz
+[2024-05-20 12:22:52] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-20 12:22:52] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/bd/bd/74c69c2a57615281d2dab96af6ddca9210d7c0be7e2ab04c6f559e1aea99/pepperpepper-0.0.7.9.tar.gz
+[2024-05-20 12:22:52] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2024-05-20 12:22:52] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-1.0.5-py3-none-any.whl.zip tmp/appmesh-1.0.6-py3-none-any.whl.zip --markdown 20240520/a/appmesh/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-20 12:22:52] INFO root fetch - processPackages [pymonit]: executing diffoscope
+[2024-05-20 12:22:52] INFO root fetch - processPackages [pymonit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymonit-1.4.8.tar.gz tmp/pymonit-1.4.9.tar.gz --markdown 20240520/p/pymonit/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-20 12:22:52] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-20 12:22:52] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.83.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240520/f/flatpack/3.4.83-3.4.9/README.md --exclude *.pyd
+[2024-05-20 12:22:52] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-20 12:22:52] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.8.tar.gz tmp/pepperpepper-0.0.7.9.tar.gz --markdown 20240520/P/PepperPepper/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-20 12:22:52] INFO root fetch - processPackages [setux-core]: Downloading https://files.pythonhosted.org/packages/ed/77/65720bbda554ab48f737d9ea9e1bf46b03caba7bea3fc61056ef42ecce6a/setux_core-0.4.0.tar.gz
+[2024-05-20 12:22:52] INFO root fetch - processPackages [setux-core]: executing diffoscope
+[2024-05-20 12:22:52] INFO root fetch - processPackages [setux-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setux_core-0.3.5.tar.gz tmp/setux_core-0.4.0.tar.gz --markdown 20240520/s/setux-core/0.3.5-0.4.0/README.md --exclude *.pyd
+[2024-05-20 12:22:52] INFO root fetch - processPackages [pymonit]: Remove: archive file [/home/abi/fetcher/tmp/pymonit-1.4.8.tar.gz]
+[2024-05-20 12:22:52] INFO root fetch - processPackages [pymonit]: Remove: archive file [/home/abi/fetcher/tmp/pymonit-1.4.9.tar.gz]
+[2024-05-20 12:22:52] INFO root fetch - main [MainThread]: End processing [pymonit]: success
+[2024-05-20 12:22:52] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.83.tar.gz]
+[2024-05-20 12:22:52] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-20 12:22:52] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-20 12:22:52] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.8.tar.gz]
+[2024-05-20 12:22:52] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
+[2024-05-20 12:22:52] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-20 12:22:53] INFO root fetch - processPackages [setux-core]: Remove: archive file [/home/abi/fetcher/tmp/setux_core-0.3.5.tar.gz]
+[2024-05-20 12:22:53] INFO root fetch - processPackages [setux-core]: Remove: archive file [/home/abi/fetcher/tmp/setux_core-0.4.0.tar.gz]
+[2024-05-20 12:22:53] INFO root fetch - main [MainThread]: End processing [setux-core]: success
+[2024-05-20 12:22:53] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-1.0.5-py3-none-any.whl.zip]
+[2024-05-20 12:22:53] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-1.0.6-py3-none-any.whl.zip]
+[2024-05-20 12:22:53] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2024-05-20 12:22:53] INFO root fetch - main [MainThread]: Store serial: [23288091]

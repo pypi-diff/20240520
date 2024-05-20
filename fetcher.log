@@ -14635,3 +14635,42 @@
 [2024-05-20 13:01:36] INFO root fetch - processPackages [FastHPOCR]: Remove: archive file [/home/abi/fetcher/tmp/FastHPOCR-0.1.1.tar.gz]
 [2024-05-20 13:01:36] INFO root fetch - main [MainThread]: End processing [FastHPOCR]: success
 [2024-05-20 13:01:36] INFO root fetch - main [MainThread]: Store serial: [23288480]
+[2024-05-20 13:03:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288480]
+[2024-05-20 13:03:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 13:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prompeteer
+[2024-05-20 13:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jinja2-async-environment
+[2024-05-20 13:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valmi-connector-lib
+[2024-05-20 13:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acb
+[2024-05-20 13:03:44] INFO root fetch - processPackages [prompeteer]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-20 13:03:45] INFO root fetch - processPackages [acb]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-20 13:03:45] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/c8/94/2667fac61788a96e5c93374da9060eb37bf2766bec29669b6edf6d6e3a9a/prompeteer-0.3.1.tar.gz
+[2024-05-20 13:03:45] INFO root fetch - processPackages [jinja2-async-environment]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-20 13:03:45] INFO root fetch - processPackages [acb]: Downloading https://files.pythonhosted.org/packages/13/e3/49c170ca7477015f48d61bd7a60ab5bb102673e9010f4ed52453b07f70f4/acb-0.6.0.tar.gz
+[2024-05-20 13:03:45] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-20 13:03:45] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/10/c5/296108b53ce970884035f8ec6949e29f73dab692d5e5e20e5007fbd39266/prompeteer-0.3.2.tar.gz
+[2024-05-20 13:03:45] INFO root fetch - processPackages [jinja2-async-environment]: Downloading https://files.pythonhosted.org/packages/5e/25/09fb98cd0deba0a874bf753bd8e8beb0861a611552013448ab31011b6771/jinja2_async_environment-0.7.4.tar.gz
+[2024-05-20 13:03:45] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-05-20 13:03:45] INFO root fetch - processPackages [prompeteer]: executing diffoscope
+[2024-05-20 13:03:45] INFO root fetch - processPackages [prompeteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompeteer-0.3.1.tar.gz tmp/prompeteer-0.3.2.tar.gz --markdown 20240520/p/prompeteer/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-20 13:03:45] INFO root fetch - processPackages [acb]: Downloading https://files.pythonhosted.org/packages/81/7f/c55fd5df3604dac401bb17986a740b2feabbded86c3c5d8b20b91de82822/acb-0.6.1.tar.gz
+[2024-05-20 13:03:45] INFO root fetch - processPackages [acb]: executing diffoscope
+[2024-05-20 13:03:45] INFO root fetch - processPackages [acb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acb-0.6.0.tar.gz tmp/acb-0.6.1.tar.gz --markdown 20240520/a/acb/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-20 13:03:45] INFO root fetch - processPackages [jinja2-async-environment]: Downloading https://files.pythonhosted.org/packages/bd/09/d9b8181d825e10bd13de0b3a5203181e0f23872c2e651076239aa2203373/jinja2_async_environment-0.7.5.tar.gz
+[2024-05-20 13:03:45] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-05-20 13:03:45] INFO root fetch - processPackages [jinja2-async-environment]: executing diffoscope
+[2024-05-20 13:03:45] INFO root fetch - processPackages [jinja2-async-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinja2_async_environment-0.7.4.tar.gz tmp/jinja2_async_environment-0.7.5.tar.gz --markdown 20240520/j/jinja2-async-environment/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-20 13:03:45] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-05-20 13:03:45] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240520/v/valmi-connector-lib/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-20 13:03:46] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.3.1.tar.gz]
+[2024-05-20 13:03:46] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.3.2.tar.gz]
+[2024-05-20 13:03:46] INFO root fetch - main [MainThread]: End processing [prompeteer]: success
+[2024-05-20 13:03:46] INFO root fetch - processPackages [acb]: Remove: archive file [/home/abi/fetcher/tmp/acb-0.6.0.tar.gz]
+[2024-05-20 13:03:46] INFO root fetch - processPackages [acb]: Remove: archive file [/home/abi/fetcher/tmp/acb-0.6.1.tar.gz]
+[2024-05-20 13:03:46] INFO root fetch - main [MainThread]: End processing [acb]: success
+[2024-05-20 13:03:46] INFO root fetch - processPackages [jinja2-async-environment]: Remove: archive file [/home/abi/fetcher/tmp/jinja2_async_environment-0.7.4.tar.gz]
+[2024-05-20 13:03:46] INFO root fetch - processPackages [jinja2-async-environment]: Remove: archive file [/home/abi/fetcher/tmp/jinja2_async_environment-0.7.5.tar.gz]
+[2024-05-20 13:03:46] INFO root fetch - main [MainThread]: End processing [jinja2-async-environment]: success
+[2024-05-20 13:03:46] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-05-20 13:03:46] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-05-20 13:03:46] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-05-20 13:03:46] INFO root fetch - main [MainThread]: Store serial: [23288492]

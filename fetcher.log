@@ -17714,3 +17714,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:03:12] INFO root fetch - processPackages [danling]: Remove: archive file [/home/abi/fetcher/tmp/danling-0.3.6.tar.gz]
 [2024-05-20 15:03:12] INFO root fetch - main [MainThread]: End processing [danling]: success
 [2024-05-20 15:03:12] INFO root fetch - main [MainThread]: Store serial: [23289909]
+[2024-05-20 15:05:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289909]
+[2024-05-20 15:05:21] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-20 15:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: large-image
+[2024-05-20 15:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mqtt-automator
+[2024-05-20 15:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vittlingz
+[2024-05-20 15:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: girder-large-image
+[2024-05-20 15:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calculate-mean
+[2024-05-20 15:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: girder-large-image-annotation
+[2024-05-20 15:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: large-image-converter
+[2024-05-20 15:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: large-image-tasks
+[2024-05-20 15:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xspace-dl
+[2024-05-20 15:05:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: large-image-source-bioformats
+[2024-05-20 15:05:21] INFO root fetch - processPackages [calculate-mean]: New version: [0.1] Old Version: [0.0.1]
+[2024-05-20 15:05:21] INFO root fetch - processPackages [xspace-dl]: New version: [0.1.22] Old Version: [0.1.21]
+[2024-05-20 15:05:21] INFO root fetch - processPackages [mqtt-automator]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 15:05:21] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/b8/16/a0551b9efd8e562881c4ab59a72c6707f0ba2271c4d22b2f1bc71a91cd9f/xspace-dl-0.1.21.tar.gz
+[2024-05-20 15:05:21] WARNING root fetch - processPackages [vittlingz]: Skipping, unable to determine old version
+[2024-05-20 15:05:21] INFO root fetch - processPackages [vittlingz]: Start processing: large-image-source-deepzoom
+[2024-05-20 15:05:21] INFO root fetch - main [MainThread]: End processing [vittlingz] error
+[2024-05-20 15:05:21] INFO root fetch - processPackages [large-image-tasks]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:05:21] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:05:21] INFO root fetch - processPackages [large-image-source-bioformats]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:05:21] INFO root fetch - processPackages [large-image-converter]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:05:21] INFO root fetch - processPackages [large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:05:21] INFO root fetch - processPackages [girder-large-image-annotation]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:05:21] INFO root fetch - processPackages [calculate-mean]: Downloading https://files.pythonhosted.org/packages/7e/67/82f1ad86dadd8c992150bdd612bd56d3d26a8ef38673857f819902dfeb01/calculate_mean-0.0.1.tar.gz
+[2024-05-20 15:05:21] INFO root fetch - processPackages [mqtt-automator]: Downloading https://files.pythonhosted.org/packages/bf/43/723e65b2dd359c34de3d2c340ed348c1ed44857282433fd965b15d3112dd/mqtt_automator-0.0.2.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-tasks]: Downloading https://files.pythonhosted.org/packages/d2/92/d072fa606a4761eb667b0efc0ba4137c9f9b34386f41757c597cdeff49d5/large-image-tasks-1.9.1.dev6.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/a1/de/9259311e8ad31f3131b016ae68dbee28c3a85340a5611063ba07e130f4dd/girder-large-image-1.9.1.dev6.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/4e/e5/c672f0ad384f9f05d26e1baecedc8293d6d88840e5b9d9b43d657e8bfe20/large-image-converter-1.9.1.dev6.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-source-bioformats]: Downloading https://files.pythonhosted.org/packages/9f/7d/764189c337fd7a890bec6278bb2e1d065d51af7f06726f3d00b6d3836aa4/large-image-source-bioformats-1.9.1.dev6.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/c3/18/d99bf917c38c2bfe8e73289ba285a6777b5180e575625de79a961576422c/girder-large-image-annotation-1.9.1.dev6.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/0e/97/f50d98f73951f053a140a085b971b043dc16e80844122ca59d5c2feeab13/large-image-1.9.1.dev6.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-source-deepzoom]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:05:22] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/d4/d6/d786a82908cf46bbc2d1940352a7c0b5cf8dc83da49f110b12b93e0f0d21/xspace-dl-0.1.22.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [calculate-mean]: Downloading https://files.pythonhosted.org/packages/85/90/3b7e725faee39d60cf1cab06f36d3f701dc384aa0a04fb3b96bb17f6fe63/calculate_mean-0.1.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [mqtt-automator]: Downloading https://files.pythonhosted.org/packages/cc/39/a5098146e51e0667d33f6cec1606357d69a9b54c2d93da88d8df760eaf43/mqtt_automator-0.0.3.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-source-deepzoom]: Downloading https://files.pythonhosted.org/packages/16/46/821666cfb4c3a315b4ccc86d7ba529a1af49e4581bbd8b7ca8e1cb5fa4ba/large-image-source-deepzoom-1.9.1.dev6.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [xspace-dl]: executing diffoscope
+[2024-05-20 15:05:22] INFO root fetch - processPackages [xspace-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspace-dl-0.1.21.tar.gz tmp/xspace-dl-0.1.22.tar.gz --markdown 20240520/x/xspace-dl/0.1.21-0.1.22/README.md --exclude *.pyd
+[2024-05-20 15:05:22] INFO root fetch - processPackages [calculate-mean]: executing diffoscope
+[2024-05-20 15:05:22] INFO root fetch - processPackages [calculate-mean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculate_mean-0.0.1.tar.gz tmp/calculate_mean-0.1.tar.gz --markdown 20240520/c/calculate-mean/0.0.1-0.1/README.md --exclude *.pyd
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-tasks]: Downloading https://files.pythonhosted.org/packages/59/66/7de5976597497ff75f76e9d1e817dc755ed82ff85669b1f9613d1b27c9e8/large-image-tasks-1.9.1.dev8.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [mqtt-automator]: executing diffoscope
+[2024-05-20 15:05:22] INFO root fetch - processPackages [mqtt-automator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqtt_automator-0.0.2.tar.gz tmp/mqtt_automator-0.0.3.tar.gz --markdown 20240520/m/mqtt-automator/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 15:05:22] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/f9/12/4dfe66c1b3eae390e20ba6a8e5537d1e114e878fe6346c8b5dbb5b9efdcc/girder-large-image-1.9.1.dev8.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-source-bioformats]: Downloading https://files.pythonhosted.org/packages/be/b1/457ea10f23a8022b9045522623e3c24789e308b80800b4fd679928bb7cf8/large-image-source-bioformats-1.9.1.dev8.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/2d/90/b675b694e3b2886568e691207cf7a9f742a43b89fe6b6c1877548391d231/large-image-converter-1.9.1.dev8.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/ca/57/fbf65f3374926f7df27919c0c3d3a4d433f93e014e2405e5aaec1aa92a23/girder-large-image-annotation-1.9.1.dev8.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/22/c4/18264ad18d3664df703883e2fb520f69d307805c93779d26bdaab792bb0b/large-image-1.9.1.dev8.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-tasks]: executing diffoscope
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-tasks-1.9.1.dev6.tar.gz tmp/large-image-tasks-1.9.1.dev8.tar.gz --markdown 20240520/l/large-image-tasks/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:05:22] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2024-05-20 15:05:22] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20240520/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-source-bioformats]: executing diffoscope
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-source-bioformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz --markdown 20240520/l/large-image-source-bioformats/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-converter]: executing diffoscope
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-converter-1.9.1.dev6.tar.gz tmp/large-image-converter-1.9.1.dev8.tar.gz --markdown 20240520/l/large-image-converter/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:05:22] INFO root fetch - processPackages [girder-large-image-annotation]: executing diffoscope
+[2024-05-20 15:05:22] INFO root fetch - processPackages [girder-large-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz --markdown 20240520/g/girder-large-image-annotation/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image]: executing diffoscope
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-1.9.1.dev6.tar.gz tmp/large-image-1.9.1.dev8.tar.gz --markdown 20240520/l/large-image/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-source-deepzoom]: Downloading https://files.pythonhosted.org/packages/1f/75/67d4e66af91c90873acb456f65871c79b18f4690638c624ddd6f22d8dc5c/large-image-source-deepzoom-1.9.1.dev8.tar.gz
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-source-deepzoom]: executing diffoscope
+[2024-05-20 15:05:22] INFO root fetch - processPackages [large-image-source-deepzoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-deepzoom-1.9.1.dev6.tar.gz tmp/large-image-source-deepzoom-1.9.1.dev8.tar.gz --markdown 20240520/l/large-image-source-deepzoom/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:05:23] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.1.21.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.1.22.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - main [MainThread]: End processing [xspace-dl]: success
+[2024-05-20 15:05:23] INFO root fetch - processPackages [mqtt-automator]: Remove: archive file [/home/abi/fetcher/tmp/mqtt_automator-0.0.2.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - processPackages [mqtt-automator]: Remove: archive file [/home/abi/fetcher/tmp/mqtt_automator-0.0.3.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - main [MainThread]: End processing [mqtt-automator]: success
+[2024-05-20 15:05:23] INFO root fetch - processPackages [large-image-tasks]: Remove: archive file [/home/abi/fetcher/tmp/large-image-tasks-1.9.1.dev6.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - processPackages [large-image-tasks]: Remove: archive file [/home/abi/fetcher/tmp/large-image-tasks-1.9.1.dev8.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - main [MainThread]: End processing [large-image-tasks]: success
+[2024-05-20 15:05:23] INFO root fetch - processPackages [calculate-mean]: Remove: archive file [/home/abi/fetcher/tmp/calculate_mean-0.0.1.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - processPackages [calculate-mean]: Remove: archive file [/home/abi/fetcher/tmp/calculate_mean-0.1.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - main [MainThread]: End processing [calculate-mean]: success
+[2024-05-20 15:05:23] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev6.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev8.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - main [MainThread]: End processing [large-image-converter]: success
+[2024-05-20 15:05:23] INFO root fetch - processPackages [large-image-source-bioformats]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - processPackages [large-image-source-bioformats]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - main [MainThread]: End processing [large-image-source-bioformats]: success
+[2024-05-20 15:05:23] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev6.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev8.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2024-05-20 15:05:23] INFO root fetch - processPackages [large-image-source-deepzoom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-deepzoom-1.9.1.dev6.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - processPackages [large-image-source-deepzoom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-deepzoom-1.9.1.dev8.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - main [MainThread]: End processing [large-image-source-deepzoom]: success
+[2024-05-20 15:05:23] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev6.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev8.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - main [MainThread]: End processing [large-image]: success
+[2024-05-20 15:05:23] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz]
+[2024-05-20 15:05:23] INFO root fetch - main [MainThread]: End processing [girder-large-image-annotation]: success
+[2024-05-20 15:05:23] INFO root fetch - main [MainThread]: Store serial: [23289943]

@@ -2496,3 +2496,93 @@
 [2024-05-20 02:20:21] INFO root fetch - processPackages [rjdikuqfrrrranka]: Remove: archive file [/home/abi/fetcher/tmp/rjdikuqfrrrranka-1.10000.10001.tar.gz]
 [2024-05-20 02:20:21] INFO root fetch - main [MainThread]: End processing [rjdikuqfrrrranka]: success
 [2024-05-20 02:20:21] INFO root fetch - main [MainThread]: Store serial: [23282656]
+[2024-05-20 02:22:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282656]
+[2024-05-20 02:22:31] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-20 02:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-core
+[2024-05-20 02:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asyncpause
+[2024-05-20 02:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-aurora-globaldatabase
+[2024-05-20 02:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-cr-constructs
+[2024-05-20 02:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyneugoroxtzbvwz
+[2024-05-20 02:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antireactionz
+[2024-05-20 02:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dutdnmestlqlrebs
+[2024-05-20 02:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dutdnmestlqlrebs
+[2024-05-20 02:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dutdnmestlqlrebs
+[2024-05-20 02:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dutdnmestlqlrebs
+[2024-05-20 02:22:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-20 02:22:32] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.460] Old Version: [2.1.459]
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: New version: [1.10000.10010] Old Version: [1.10000.10009]
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: New version: [1.10000.10010] Old Version: [1.10000.10009]
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: New version: [1.10000.10010] Old Version: [1.10000.10009]
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: New version: [1.10000.10010] Old Version: [1.10000.10009]
+[2024-05-20 02:22:32] WARNING root fetch - processPackages [asyncpause]: Skipping, unable to determine old version
+[2024-05-20 02:22:32] INFO root fetch - processPackages [asyncpause]: Start processing: dutdnmestlqlrebs
+[2024-05-20 02:22:32] INFO root fetch - main [MainThread]: End processing [asyncpause] error
+[2024-05-20 02:22:32] WARNING root fetch - processPackages [pyneugoroxtzbvwz]: Skipping, unable to determine old version
+[2024-05-20 02:22:32] INFO root fetch - processPackages [pyneugoroxtzbvwz]: Start processing: dutdnmestlqlrebs
+[2024-05-20 02:22:32] INFO root fetch - main [MainThread]: End processing [pyneugoroxtzbvwz] error
+[2024-05-20 02:22:32] WARNING root fetch - processPackages [antireactionz]: Skipping, unable to determine old version
+[2024-05-20 02:22:32] INFO root fetch - processPackages [antireactionz]: Start processing: dutdnmestlqlrebs
+[2024-05-20 02:22:32] INFO root fetch - main [MainThread]: End processing [antireactionz] error
+[2024-05-20 02:22:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-20 02:22:32] INFO root fetch - processPackages [spaceone-core]: New version: [2.0.9] Old Version: [2.0.83]
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: New version: [1.10000.10010] Old Version: [1.10000.10009]
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: New version: [1.10000.10010] Old Version: [1.10000.10009]
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: New version: [1.10000.10010] Old Version: [1.10000.10009]
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: Downloading https://files.pythonhosted.org/packages/48/d5/daf2430102e69cbbc15ce913afdde5b314567d7632ad8e4f6862fea8be20/dutdnmestlqlrebs-1.10000.10009.tar.gz
+[2024-05-20 02:22:32] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/3f/ea/e342592c0ae41c3f0afb0b01fa3f6e8414293fb5eab459c1c89738113175/cdk-cr-constructs-2.1.459.tar.gz
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: Downloading https://files.pythonhosted.org/packages/48/d5/daf2430102e69cbbc15ce913afdde5b314567d7632ad8e4f6862fea8be20/dutdnmestlqlrebs-1.10000.10009.tar.gz
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: Downloading https://files.pythonhosted.org/packages/48/d5/daf2430102e69cbbc15ce913afdde5b314567d7632ad8e4f6862fea8be20/dutdnmestlqlrebs-1.10000.10009.tar.gz
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: Downloading https://files.pythonhosted.org/packages/48/d5/daf2430102e69cbbc15ce913afdde5b314567d7632ad8e4f6862fea8be20/dutdnmestlqlrebs-1.10000.10009.tar.gz
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: Downloading https://files.pythonhosted.org/packages/48/d5/daf2430102e69cbbc15ce913afdde5b314567d7632ad8e4f6862fea8be20/dutdnmestlqlrebs-1.10000.10009.tar.gz
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: Downloading https://files.pythonhosted.org/packages/48/d5/daf2430102e69cbbc15ce913afdde5b314567d7632ad8e4f6862fea8be20/dutdnmestlqlrebs-1.10000.10009.tar.gz
+[2024-05-20 02:22:32] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/f3/ae/96f0265a28199c7b60774cccde49565f35f174b4c662523f464c6246dd2a/spaceone-core-2.0.83.tar.gz
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: Downloading https://files.pythonhosted.org/packages/48/d5/daf2430102e69cbbc15ce913afdde5b314567d7632ad8e4f6862fea8be20/dutdnmestlqlrebs-1.10000.10009.tar.gz
+[2024-05-20 02:22:32] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15104581>=10485760
+[2024-05-20 02:22:32] INFO root fetch - processPackages [cdk-cr-constructs]: Start processing: dutdnmestlqlrebs
+[2024-05-20 02:22:32] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: New version: [1.10000.10010] Old Version: [1.10000.10009]
+[2024-05-20 02:22:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: Downloading https://files.pythonhosted.org/packages/48/d5/daf2430102e69cbbc15ce913afdde5b314567d7632ad8e4f6862fea8be20/dutdnmestlqlrebs-1.10000.10009.tar.gz
+[2024-05-20 02:22:32] WARNING root fetch - processPackages [dutdnmestlqlrebs]: Skipping package: exceeds size limit 95034079>=10485760
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: Start processing: dutdnmestlqlrebs
+[2024-05-20 02:22:32] WARNING root fetch - processPackages [dutdnmestlqlrebs]: Skipping package: exceeds size limit 95034079>=10485760
+[2024-05-20 02:22:32] INFO root fetch - main [MainThread]: End processing [dutdnmestlqlrebs] error
+[2024-05-20 02:22:32] WARNING root fetch - processPackages [dutdnmestlqlrebs]: Skipping package: exceeds size limit 95034079>=10485760
+[2024-05-20 02:22:32] WARNING root fetch - processPackages [dutdnmestlqlrebs]: Skipping package: exceeds size limit 95034079>=10485760
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: Start processing: dutdnmestlqlrebs
+[2024-05-20 02:22:32] INFO root fetch - main [MainThread]: End processing [dutdnmestlqlrebs] error
+[2024-05-20 02:22:32] WARNING root fetch - processPackages [dutdnmestlqlrebs]: Skipping package: exceeds size limit 95034079>=10485760
+[2024-05-20 02:22:32] WARNING root fetch - processPackages [dutdnmestlqlrebs]: Skipping package: exceeds size limit 95034079>=10485760
+[2024-05-20 02:22:32] WARNING root fetch - processPackages [dutdnmestlqlrebs]: Skipping package: exceeds size limit 95034079>=10485760
+[2024-05-20 02:22:32] WARNING root fetch - processPackages [dutdnmestlqlrebs]: Skipping package: exceeds size limit 95034079>=10485760
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: Start processing: dutdnmestlqlrebs
+[2024-05-20 02:22:32] INFO root fetch - main [MainThread]: End processing [dutdnmestlqlrebs] error
+[2024-05-20 02:22:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-20 02:22:32] INFO root fetch - main [MainThread]: End processing [dutdnmestlqlrebs] error
+[2024-05-20 02:22:32] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240520/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-20 02:22:32] INFO root fetch - main [MainThread]: End processing [dutdnmestlqlrebs] error
+[2024-05-20 02:22:32] INFO root fetch - main [MainThread]: End processing [dutdnmestlqlrebs] error
+[2024-05-20 02:22:32] INFO root fetch - main [MainThread]: End processing [dutdnmestlqlrebs] error
+[2024-05-20 02:22:32] INFO root fetch - main [MainThread]: End processing [dutdnmestlqlrebs] error
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: New version: [1.10000.10010] Old Version: [1.10000.10009]
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: New version: [1.10000.10010] Old Version: [1.10000.10009]
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: New version: [1.10000.10010] Old Version: [1.10000.10009]
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: Downloading https://files.pythonhosted.org/packages/48/d5/daf2430102e69cbbc15ce913afdde5b314567d7632ad8e4f6862fea8be20/dutdnmestlqlrebs-1.10000.10009.tar.gz
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: Downloading https://files.pythonhosted.org/packages/48/d5/daf2430102e69cbbc15ce913afdde5b314567d7632ad8e4f6862fea8be20/dutdnmestlqlrebs-1.10000.10009.tar.gz
+[2024-05-20 02:22:32] INFO root fetch - processPackages [dutdnmestlqlrebs]: Downloading https://files.pythonhosted.org/packages/48/d5/daf2430102e69cbbc15ce913afdde5b314567d7632ad8e4f6862fea8be20/dutdnmestlqlrebs-1.10000.10009.tar.gz
+[2024-05-20 02:22:32] INFO root fetch - processPackages [spaceone-core]: Downloading https://files.pythonhosted.org/packages/c6/b6/20c4662546ec879a3b0dfacd3580673a79f673f79dbedabb4a9a917b0f73/spaceone-core-2.0.9.tar.gz
+[2024-05-20 02:22:33] WARNING root fetch - processPackages [dutdnmestlqlrebs]: Skipping package: exceeds size limit 95034079>=10485760
+[2024-05-20 02:22:33] INFO root fetch - main [MainThread]: End processing [dutdnmestlqlrebs] error
+[2024-05-20 02:22:33] WARNING root fetch - processPackages [dutdnmestlqlrebs]: Skipping package: exceeds size limit 95034079>=10485760
+[2024-05-20 02:22:33] INFO root fetch - main [MainThread]: End processing [dutdnmestlqlrebs] error
+[2024-05-20 02:22:33] WARNING root fetch - processPackages [dutdnmestlqlrebs]: Skipping package: exceeds size limit 95034079>=10485760
+[2024-05-20 02:22:33] INFO root fetch - main [MainThread]: End processing [dutdnmestlqlrebs] error
+[2024-05-20 02:22:33] INFO root fetch - processPackages [spaceone-core]: executing diffoscope
+[2024-05-20 02:22:33] INFO root fetch - processPackages [spaceone-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-core-2.0.83.tar.gz tmp/spaceone-core-2.0.9.tar.gz --markdown 20240520/s/spaceone-core/2.0.83-2.0.9/README.md --exclude *.pyd
+[2024-05-20 02:22:33] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-20 02:22:33] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-20 02:22:33] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-20 02:22:33] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-core-2.0.83.tar.gz]
+[2024-05-20 02:22:33] INFO root fetch - processPackages [spaceone-core]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-core-2.0.9.tar.gz]
+[2024-05-20 02:22:33] INFO root fetch - main [MainThread]: End processing [spaceone-core]: success
+[2024-05-20 02:22:33] INFO root fetch - main [MainThread]: Store serial: [23282702]

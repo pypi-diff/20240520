@@ -7096,3 +7096,39 @@
 [2024-05-20 06:59:00] INFO root fetch - processPackages [pandas-liteql]: Remove: archive file [/home/abi/fetcher/tmp/pandas_liteql-0.5.3.tar.gz]
 [2024-05-20 06:59:00] INFO root fetch - main [MainThread]: End processing [pandas-liteql]: success
 [2024-05-20 06:59:00] INFO root fetch - main [MainThread]: Store serial: [23284691]
+[2024-05-20 07:01:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284691]
+[2024-05-20 07:01:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 07:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cambridge
+[2024-05-20 07:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llm-code
+[2024-05-20 07:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opendp
+[2024-05-20 07:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roguewave
+[2024-05-20 07:01:09] INFO root fetch - processPackages [opendp]: New version: [0.9.2b20240207001] Old Version: [0.9.2a20240518001]
+[2024-05-20 07:01:09] INFO root fetch - processPackages [llm-code]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-20 07:01:09] INFO root fetch - processPackages [cambridge]: New version: [3.9.5] Old Version: [3.9.4]
+[2024-05-20 07:01:09] INFO root fetch - processPackages [roguewave]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-20 07:01:09] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/c1/a8/d973e07938948a1df31178b14448ab3e3e91cccc29b14821101b105b0a57/opendp-0.9.2a20240518001.tar.gz
+[2024-05-20 07:01:09] INFO root fetch - processPackages [llm-code]: Downloading https://files.pythonhosted.org/packages/ea/c7/3eb813ebd9232ebee388ae32b0ba0476f4ec0ffd0d1525382cab8bb1cde6/llm_code-0.7.0.tar.gz
+[2024-05-20 07:01:09] INFO root fetch - processPackages [cambridge]: Downloading https://files.pythonhosted.org/packages/15/66/7188ae9f838e8b40f68b1c605793bbf3cabd11769fa8bb2809bf59b678d5/cambridge-3.9.4.tar.gz
+[2024-05-20 07:01:10] INFO root fetch - processPackages [roguewave]: Downloading https://files.pythonhosted.org/packages/78/6a/176b0bb0901ea4782efa3a02cffa2564d80dedf95b4ab0ef114673ff33c2/roguewave-0.2.8.tar.gz
+[2024-05-20 07:01:10] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/85/6c/b343f02569a02102fd61d7a89f66fb699dbdbf7903119928f4cc3ce8516d/opendp-0.9.2b20240207001-py3-none-any.whl
+[2024-05-20 07:01:10] INFO root fetch - processPackages [llm-code]: Downloading https://files.pythonhosted.org/packages/58/33/3077b3bc3744eb62ff573c07e9d97f7fbc535ce6be31b8e1e49811943de6/llm_code-0.8.0.tar.gz
+[2024-05-20 07:01:10] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 36048210>=10485760
+[2024-05-20 07:01:10] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2024-05-20 07:01:10] INFO root fetch - processPackages [llm-code]: executing diffoscope
+[2024-05-20 07:01:10] INFO root fetch - processPackages [llm-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_code-0.7.0.tar.gz tmp/llm_code-0.8.0.tar.gz --markdown 20240520/l/llm-code/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-20 07:01:10] INFO root fetch - processPackages [cambridge]: Downloading https://files.pythonhosted.org/packages/20/90/bff646eb30249e09a17eada6f0f358b2fb0b0f149e113bdc0e02bcbfb941/cambridge-3.9.5.tar.gz
+[2024-05-20 07:01:10] INFO root fetch - processPackages [roguewave]: Downloading https://files.pythonhosted.org/packages/10/12/a4fc5463d893cee0b80a7528e4bfbbd704f33bec149787d2ca40d45c2590/roguewave-0.2.9.tar.gz
+[2024-05-20 07:01:10] INFO root fetch - processPackages [roguewave]: executing diffoscope
+[2024-05-20 07:01:10] INFO root fetch - processPackages [roguewave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roguewave-0.2.8.tar.gz tmp/roguewave-0.2.9.tar.gz --markdown 20240520/r/roguewave/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-20 07:01:10] INFO root fetch - processPackages [cambridge]: executing diffoscope
+[2024-05-20 07:01:10] INFO root fetch - processPackages [cambridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cambridge-3.9.4.tar.gz tmp/cambridge-3.9.5.tar.gz --markdown 20240520/c/cambridge/3.9.4-3.9.5/README.md --exclude *.pyd
+[2024-05-20 07:01:10] INFO root fetch - processPackages [llm-code]: Remove: archive file [/home/abi/fetcher/tmp/llm_code-0.7.0.tar.gz]
+[2024-05-20 07:01:10] INFO root fetch - processPackages [llm-code]: Remove: archive file [/home/abi/fetcher/tmp/llm_code-0.8.0.tar.gz]
+[2024-05-20 07:01:10] INFO root fetch - main [MainThread]: End processing [llm-code]: success
+[2024-05-20 07:01:11] INFO root fetch - processPackages [cambridge]: Remove: archive file [/home/abi/fetcher/tmp/cambridge-3.9.4.tar.gz]
+[2024-05-20 07:01:11] INFO root fetch - processPackages [cambridge]: Remove: archive file [/home/abi/fetcher/tmp/cambridge-3.9.5.tar.gz]
+[2024-05-20 07:01:11] INFO root fetch - main [MainThread]: End processing [cambridge]: success
+[2024-05-20 07:01:11] INFO root fetch - processPackages [roguewave]: Remove: archive file [/home/abi/fetcher/tmp/roguewave-0.2.8.tar.gz]
+[2024-05-20 07:01:11] INFO root fetch - processPackages [roguewave]: Remove: archive file [/home/abi/fetcher/tmp/roguewave-0.2.9.tar.gz]
+[2024-05-20 07:01:11] INFO root fetch - main [MainThread]: End processing [roguewave]: success
+[2024-05-20 07:01:11] INFO root fetch - main [MainThread]: Store serial: [23284715]

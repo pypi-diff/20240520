@@ -4687,3 +4687,24 @@
 [2024-05-20 04:01:10] INFO root fetch - processPackages [shuttleasgi]: Remove: archive file [/home/abi/fetcher/tmp/shuttleasgi-3.0.4-cp312-cp312-win_amd64.whl.zip]
 [2024-05-20 04:01:10] INFO root fetch - main [MainThread]: End processing [shuttleasgi]: success
 [2024-05-20 04:01:10] INFO root fetch - main [MainThread]: Store serial: [23283655]
+[2024-05-20 04:03:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283655]
+[2024-05-20 04:03:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 04:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spade-anomaly-detection
+[2024-05-20 04:03:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autora-experiment-runner-firebase-prolific
+[2024-05-20 04:03:19] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2024-05-20 04:03:19] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Downloading https://files.pythonhosted.org/packages/79/f9/e7e2c1d94666090bff1e985b136b30db9359587af5349897f9edc11935d8/autora-experiment-runner-firebase-prolific-1.0.0b1.tar.gz
+[2024-05-20 04:03:19] INFO root fetch - processPackages [spade-anomaly-detection]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-20 04:03:19] INFO root fetch - processPackages [spade-anomaly-detection]: Downloading https://files.pythonhosted.org/packages/fd/9b/50b977633ee398e18f2ee5101a98bc4724fa174d63626cebcfcd688a88e0/spade_anomaly_detection-0.2.1.tar.gz
+[2024-05-20 04:03:19] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Downloading https://files.pythonhosted.org/packages/7f/82/0f54907642894312c81fa74288a20cd664ec3fbfb0858deecf8daf911bd2/autora_experiment_runner_firebase_prolific-1.0.0b2.tar.gz
+[2024-05-20 04:03:20] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: executing diffoscope
+[2024-05-20 04:03:20] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora-experiment-runner-firebase-prolific-1.0.0b1.tar.gz tmp/autora_experiment_runner_firebase_prolific-1.0.0b2.tar.gz --markdown 20240520/a/autora-experiment-runner-firebase-prolific/1.0.0b1-1.0.0b2/README.md --exclude *.pyd
+[2024-05-20 04:03:20] INFO root fetch - processPackages [spade-anomaly-detection]: Downloading https://files.pythonhosted.org/packages/ea/96/627b327f92d2ea2d6fee244d3fdc84ab0ae098204ce7be1ee0c9a583320d/spade_anomaly_detection-0.2.2.tar.gz
+[2024-05-20 04:03:20] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora-experiment-runner-firebase-prolific-1.0.0b1.tar.gz]
+[2024-05-20 04:03:20] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_firebase_prolific-1.0.0b2.tar.gz]
+[2024-05-20 04:03:20] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-firebase-prolific]: success
+[2024-05-20 04:03:23] INFO root fetch - processPackages [spade-anomaly-detection]: executing diffoscope
+[2024-05-20 04:03:23] INFO root fetch - processPackages [spade-anomaly-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spade_anomaly_detection-0.2.1.tar.gz tmp/spade_anomaly_detection-0.2.2.tar.gz --markdown 20240520/s/spade-anomaly-detection/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-20 04:03:26] INFO root fetch - processPackages [spade-anomaly-detection]: Remove: archive file [/home/abi/fetcher/tmp/spade_anomaly_detection-0.2.1.tar.gz]
+[2024-05-20 04:03:26] INFO root fetch - processPackages [spade-anomaly-detection]: Remove: archive file [/home/abi/fetcher/tmp/spade_anomaly_detection-0.2.2.tar.gz]
+[2024-05-20 04:03:26] INFO root fetch - main [MainThread]: End processing [spade-anomaly-detection]: success
+[2024-05-20 04:03:26] INFO root fetch - main [MainThread]: Store serial: [23283663]

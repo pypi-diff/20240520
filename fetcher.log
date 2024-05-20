@@ -22392,3 +22392,60 @@ EOFError: EOF read where object expected
 [2024-05-20 17:43:04] INFO root fetch - processPackages [contrast-agent]: Remove: archive file [/home/abi/fetcher/tmp/contrast_agent-8.2.0.tar.gz]
 [2024-05-20 17:43:04] INFO root fetch - main [MainThread]: End processing [contrast-agent]: success
 [2024-05-20 17:43:04] INFO root fetch - main [MainThread]: Store serial: [23291942]
+[2024-05-20 17:45:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291942]
+[2024-05-20 17:45:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 17:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xarray-selafin
+[2024-05-20 17:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aac
+[2024-05-20 17:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: godork
+[2024-05-20 17:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: r3dir
+[2024-05-20 17:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-dali-nightly-cuda120
+[2024-05-20 17:45:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2024-05-20 17:45:13] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.39.0.dev20240520] Old Version: [1.39.0.dev20240517]
+[2024-05-20 17:45:13] INFO root fetch - processPackages [godork]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-20 17:45:13] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.39.0.dev20240520] Old Version: [1.39.0.dev20240517]
+[2024-05-20 17:45:14] INFO root fetch - processPackages [r3dir]: New version: [0.2.1] Old Version: [0.1.1]
+[2024-05-20 17:45:14] INFO root fetch - processPackages [aac]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-20 17:45:14] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/85/44/e8300d13adb05dbb738f97f6b1acde151aebc3cb0aa84745e82d0c12152f/nvidia_dali_nightly_cuda120-1.39.0.dev20240517.tar.gz
+[2024-05-20 17:45:14] INFO root fetch - processPackages [xarray-selafin]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-20 17:45:14] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/85/dd/088aebb1322e639f35f139cbba137184f5158ad73c306fcf2eb078448c3e/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240517.tar.gz
+[2024-05-20 17:45:14] INFO root fetch - processPackages [godork]: Downloading https://files.pythonhosted.org/packages/1f/b9/fec46008ebe3444b45ec158345a4d69548c43f51df68cbe22e4882495c71/godork-1.2.0.tar.gz
+[2024-05-20 17:45:14] INFO root fetch - processPackages [xarray-selafin]: Downloading https://files.pythonhosted.org/packages/65/c1/4aed6b5705f9668463e5907fc0a4d22e67f621c5db89a638a953b40a94eb/xarray-selafin-0.1.5.tar.gz
+[2024-05-20 17:45:14] INFO root fetch - processPackages [aac]: Downloading https://files.pythonhosted.org/packages/e1/7d/271be6be0c8ca7eb0939a8ec71471030e5332ba8d07d4bc98c98c69a9719/aac-0.4.4-py3-none-any.whl
+[2024-05-20 17:45:14] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/32/03/291e2c6d7799c720d7cda1b9191538a3de58d52aadc858995529a930e5d6/nvidia_dali_nightly_cuda120-1.39.0.dev20240520.tar.gz
+[2024-05-20 17:45:14] INFO root fetch - processPackages [r3dir]: Downloading https://files.pythonhosted.org/packages/33/2b/ad68c6b7f573413d75c71f5d6726288e8a738010844c0cdc68ac85292624/r3dir-0.1.1.tar.gz
+[2024-05-20 17:45:14] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/ba/5e/c95955a20dc99916149175c9e347574981e188eb27c54cae16552cdd8e52/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240520.tar.gz
+[2024-05-20 17:45:14] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2024-05-20 17:45:14] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240517.tar.gz tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240520.tar.gz --markdown 20240520/n/nvidia-dali-nightly-cuda120/1.39.0.dev20240517-1.39.0.dev20240520/README.md --exclude *.pyd
+[2024-05-20 17:45:14] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2024-05-20 17:45:14] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240517.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240520.tar.gz --markdown 20240520/n/nvidia-dali-tf-plugin-nightly-cuda120/1.39.0.dev20240517-1.39.0.dev20240520/README.md --exclude *.pyd
+[2024-05-20 17:45:14] INFO root fetch - processPackages [godork]: Downloading https://files.pythonhosted.org/packages/1f/89/438e97b01e6b69342fba6a07f62aa1b91ce27b24cee350e765bac1bb28ac/godork-1.2.1.tar.gz
+[2024-05-20 17:45:14] INFO root fetch - processPackages [r3dir]: Downloading https://files.pythonhosted.org/packages/aa/4e/c6fbf4cac53115efa3e21bb1e77c019fee1822482a2ab5e9190e83a149d2/r3dir-0.2.1.tar.gz
+[2024-05-20 17:45:14] INFO root fetch - processPackages [godork]: executing diffoscope
+[2024-05-20 17:45:14] INFO root fetch - processPackages [godork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/godork-1.2.0.tar.gz tmp/godork-1.2.1.tar.gz --markdown 20240520/g/godork/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-20 17:45:14] INFO root fetch - processPackages [xarray-selafin]: Downloading https://files.pythonhosted.org/packages/60/bb/bff22716d91eba6619f066be18ad164b564d2b70c3110639b7ccffe73570/xarray_selafin-0.1.6.tar.gz
+[2024-05-20 17:45:14] INFO root fetch - processPackages [aac]: Downloading https://files.pythonhosted.org/packages/83/37/d77b09a63ad07a603875013caee8c44a7cdb362fb809d2f03e60261d5e21/aac-0.4.5-py3-none-any.whl
+[2024-05-20 17:45:14] INFO root fetch - processPackages [r3dir]: executing diffoscope
+[2024-05-20 17:45:14] INFO root fetch - processPackages [r3dir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/r3dir-0.1.1.tar.gz tmp/r3dir-0.2.1.tar.gz --markdown 20240520/r/r3dir/0.1.1-0.2.1/README.md --exclude *.pyd
+[2024-05-20 17:45:14] INFO root fetch - processPackages [xarray-selafin]: executing diffoscope
+[2024-05-20 17:45:14] INFO root fetch - processPackages [xarray-selafin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarray-selafin-0.1.5.tar.gz tmp/xarray_selafin-0.1.6.tar.gz --markdown 20240520/x/xarray-selafin/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-20 17:45:14] INFO root fetch - processPackages [aac]: executing diffoscope
+[2024-05-20 17:45:14] INFO root fetch - processPackages [aac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aac-0.4.4-py3-none-any.whl.zip tmp/aac-0.4.5-py3-none-any.whl.zip --markdown 20240520/a/aac/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-20 17:45:15] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240517.tar.gz]
+[2024-05-20 17:45:15] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240520.tar.gz]
+[2024-05-20 17:45:15] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2024-05-20 17:45:15] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240517.tar.gz]
+[2024-05-20 17:45:15] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240520.tar.gz]
+[2024-05-20 17:45:15] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2024-05-20 17:45:15] INFO root fetch - processPackages [godork]: Remove: archive file [/home/abi/fetcher/tmp/godork-1.2.0.tar.gz]
+[2024-05-20 17:45:15] INFO root fetch - processPackages [godork]: Remove: archive file [/home/abi/fetcher/tmp/godork-1.2.1.tar.gz]
+[2024-05-20 17:45:15] INFO root fetch - main [MainThread]: End processing [godork]: success
+[2024-05-20 17:45:15] INFO root fetch - processPackages [r3dir]: Remove: archive file [/home/abi/fetcher/tmp/r3dir-0.1.1.tar.gz]
+[2024-05-20 17:45:15] INFO root fetch - processPackages [r3dir]: Remove: archive file [/home/abi/fetcher/tmp/r3dir-0.2.1.tar.gz]
+[2024-05-20 17:45:15] INFO root fetch - main [MainThread]: End processing [r3dir]: success
+[2024-05-20 17:45:15] INFO root fetch - processPackages [xarray-selafin]: Remove: archive file [/home/abi/fetcher/tmp/xarray-selafin-0.1.5.tar.gz]
+[2024-05-20 17:45:15] INFO root fetch - processPackages [xarray-selafin]: Remove: archive file [/home/abi/fetcher/tmp/xarray_selafin-0.1.6.tar.gz]
+[2024-05-20 17:45:15] INFO root fetch - main [MainThread]: End processing [xarray-selafin]: success
+[2024-05-20 17:45:15] INFO root fetch - processPackages [aac]: Remove: archive file [/home/abi/fetcher/tmp/aac-0.4.4-py3-none-any.whl.zip]
+[2024-05-20 17:45:15] INFO root fetch - processPackages [aac]: Remove: archive file [/home/abi/fetcher/tmp/aac-0.4.5-py3-none-any.whl.zip]
+[2024-05-20 17:45:15] INFO root fetch - main [MainThread]: End processing [aac]: success
+[2024-05-20 17:45:15] INFO root fetch - main [MainThread]: Store serial: [23291957]

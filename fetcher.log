@@ -9870,3 +9870,87 @@
 [2024-05-20 09:50:38] INFO root fetch - processPackages [biodivine-aeon]: Remove: archive file [/home/abi/fetcher/tmp/biodivine_aeon-1.0.0a8-cp37-abi3-win_amd64.whl.zip]
 [2024-05-20 09:50:38] INFO root fetch - main [MainThread]: End processing [biodivine-aeon]: success
 [2024-05-20 09:50:38] INFO root fetch - main [MainThread]: Store serial: [23286478]
+[2024-05-20 09:52:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286478]
+[2024-05-20 09:52:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-20 09:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-aliding20230426
+[2024-05-20 09:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lightrun
+[2024-05-20 09:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rfb-driver-ea
+[2024-05-20 09:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flawlessz
+[2024-05-20 09:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: landcover_assignment
+[2024-05-20 09:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fluke-fl
+[2024-05-20 09:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sais-notify
+[2024-05-20 09:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb
+[2024-05-20 09:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-dataset
+[2024-05-20 09:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-models
+[2024-05-20 09:52:47] INFO root fetch - processPackages [nucliadb-dataset]: New version: [4.0.0.post516] Old Version: [4.0.0.post515]
+[2024-05-20 09:52:47] INFO root fetch - processPackages [alibabacloud-aliding20230426]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-20 09:52:47] INFO root fetch - processPackages [fluke-fl]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 09:52:47] INFO root fetch - processPackages [landcover_assignment]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-20 09:52:47] WARNING root fetch - processPackages [flawlessz]: Skipping, unable to determine old version
+[2024-05-20 09:52:47] INFO root fetch - processPackages [flawlessz]: Start processing: visdatcompy
+[2024-05-20 09:52:47] INFO root fetch - main [MainThread]: End processing [flawlessz] error
+[2024-05-20 09:52:47] WARNING root fetch - processPackages [sais-notify]: Skipping, unable to determine old version
+[2024-05-20 09:52:47] INFO root fetch - main [MainThread]: End processing [sais-notify] error
+[2024-05-20 09:52:47] INFO root fetch - processPackages [rfb-driver-ea]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-20 09:52:47] INFO root fetch - processPackages [lightrun]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-20 09:52:47] INFO root fetch - processPackages [nucliadb]: New version: [4.0.0.post516] Old Version: [4.0.0.post515]
+[2024-05-20 09:52:47] WARNING root fetch - processPackages [visdatcompy]: Skipping, unable to determine old version
+[2024-05-20 09:52:47] INFO root fetch - main [MainThread]: End processing [visdatcompy] error
+[2024-05-20 09:52:47] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/47/eb/54590ddcba76aaeb5cd76c1e9e184656648abeac916180449cd577be8d38/alibabacloud_aliding20230426-2.8.0.tar.gz
+[2024-05-20 09:52:47] INFO root fetch - processPackages [fluke-fl]: Downloading https://files.pythonhosted.org/packages/e2/12/a2de00ee2cef947396341d1e2be53942b6805730c4df7cc6938f1354dc4e/fluke_fl-0.0.2.tar.gz
+[2024-05-20 09:52:48] INFO root fetch - processPackages [landcover_assignment]: Downloading https://files.pythonhosted.org/packages/5c/d2/7a449753579d507476fcb428941dcb8d03c517c40fcb9590db9ed7825763/landcover_assignment-0.2.3.tar.gz
+[2024-05-20 09:52:48] INFO root fetch - processPackages [lightrun]: Downloading https://files.pythonhosted.org/packages/1c/fa/1f2db5b7b74d95d09b9552bfc814cd973a3977912207c6286d62da01940a/lightrun-1.8.0-cp39-cp39-win_amd64.whl
+[2024-05-20 09:52:48] INFO root fetch - processPackages [nucliadb-models]: New version: [4.0.0.post516] Old Version: [4.0.0.post515]
+[2024-05-20 09:52:48] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/00/7a/c50945053119bb42dcb0dd218b48623679586e68bd7a820be02f95ace62a/nucliadb_dataset-4.0.0.post515-py3-none-any.whl
+[2024-05-20 09:52:48] INFO root fetch - processPackages [rfb-driver-ea]: Downloading https://files.pythonhosted.org/packages/fd/f8/8e8144d5908c74dc826a48b83a226bb9ced3f7a236f9811cdaf74fb570e2/rfb_driver_ea-0.0.3.tar.gz
+[2024-05-20 09:52:48] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/07/0b/4154b92320238c21643f487c072258e6bc2f0a1ffccdfa8caf51a9f71fff/nucliadb-4.0.0.post515-py3-none-any.whl
+[2024-05-20 09:52:48] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/9e/4a/5bc2911117eebab7bf607184032da9b78f481ac3f7becc69f06d2d9be01f/nucliadb_models-4.0.0.post515-py3-none-any.whl
+[2024-05-20 09:52:48] INFO root fetch - processPackages [fluke-fl]: Downloading https://files.pythonhosted.org/packages/b2/d8/153ba89b14d35943bbea6f25efa487db00748b90e3c3872ac6174d6c7846/fluke_fl-0.0.3.tar.gz
+[2024-05-20 09:52:48] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Downloading https://files.pythonhosted.org/packages/0c/a6/4fab85bdf0a7b2360f3d1fc510b11ee93323e3dae3673d5077b9d650492e/alibabacloud_aliding20230426-2.9.0.tar.gz
+[2024-05-20 09:52:48] INFO root fetch - processPackages [landcover_assignment]: Downloading https://files.pythonhosted.org/packages/95/8c/9c52ee6f02551e6e07291f7f25b71c66e051b5e29478e05034fa61e500b5/landcover_assignment-0.2.4.tar.gz
+[2024-05-20 09:52:48] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/73/98/36adb54cad63ea2a39f1f90ce18d18ded88432dfb97360dd7e722743b266/nucliadb_dataset-4.0.0.post516-py3-none-any.whl
+[2024-05-20 09:52:48] INFO root fetch - processPackages [rfb-driver-ea]: Downloading https://files.pythonhosted.org/packages/e0/59/16e2c901de8115754c6d4541378c74de9ef1d454163e1f51043fc31ac3a2/rfb_driver_ea-0.0.4.tar.gz
+[2024-05-20 09:52:48] INFO root fetch - processPackages [lightrun]: Downloading https://files.pythonhosted.org/packages/f3/f9/5b9aa0522b79061906e42d2d13697949e70a85f928f9ace8975f96b3785c/lightrun-1.9.0-cp39-cp39-win_amd64.whl
+[2024-05-20 09:52:48] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/ed/ba/3fea812990b3ff7a2048a3187432cca0adef37c3ddb07a34d213c7603c7b/nucliadb-4.0.0.post516-py3-none-any.whl
+[2024-05-20 09:52:48] INFO root fetch - processPackages [fluke-fl]: executing diffoscope
+[2024-05-20 09:52:48] INFO root fetch - processPackages [fluke-fl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluke_fl-0.0.2.tar.gz tmp/fluke_fl-0.0.3.tar.gz --markdown 20240520/f/fluke-fl/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 09:52:48] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-20 09:52:48] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-4.0.0.post515-py3-none-any.whl.zip tmp/nucliadb_dataset-4.0.0.post516-py3-none-any.whl.zip --markdown 20240520/n/nucliadb-dataset/4.0.0.post515-4.0.0.post516/README.md --exclude *.pyd
+[2024-05-20 09:52:48] INFO root fetch - processPackages [alibabacloud-aliding20230426]: executing diffoscope
+[2024-05-20 09:52:48] INFO root fetch - processPackages [alibabacloud-aliding20230426]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aliding20230426-2.8.0.tar.gz tmp/alibabacloud_aliding20230426-2.9.0.tar.gz --markdown 20240520/a/alibabacloud-aliding20230426/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-20 09:52:48] INFO root fetch - processPackages [rfb-driver-ea]: executing diffoscope
+[2024-05-20 09:52:48] INFO root fetch - processPackages [rfb-driver-ea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfb_driver_ea-0.0.3.tar.gz tmp/rfb_driver_ea-0.0.4.tar.gz --markdown 20240520/r/rfb-driver-ea/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-20 09:52:48] INFO root fetch - processPackages [landcover_assignment]: executing diffoscope
+[2024-05-20 09:52:48] INFO root fetch - processPackages [landcover_assignment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landcover_assignment-0.2.3.tar.gz tmp/landcover_assignment-0.2.4.tar.gz --markdown 20240520/l/landcover_assignment/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-20 09:52:48] INFO root fetch - processPackages [lightrun]: executing diffoscope
+[2024-05-20 09:52:48] INFO root fetch - processPackages [lightrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightrun-1.8.0-cp39-cp39-win_amd64.whl.zip tmp/lightrun-1.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20240520/l/lightrun/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-20 09:52:48] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/fb/46/29247d868125c8ba36dd306bea485c73797ec834b8e4c575cf553f680620/nucliadb_models-4.0.0.post516-py3-none-any.whl
+[2024-05-20 09:52:48] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-20 09:52:48] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-4.0.0.post515-py3-none-any.whl.zip tmp/nucliadb-4.0.0.post516-py3-none-any.whl.zip --markdown 20240520/n/nucliadb/4.0.0.post515-4.0.0.post516/README.md --exclude *.pyd
+[2024-05-20 09:52:48] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-20 09:52:48] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-4.0.0.post515-py3-none-any.whl.zip tmp/nucliadb_models-4.0.0.post516-py3-none-any.whl.zip --markdown 20240520/n/nucliadb-models/4.0.0.post515-4.0.0.post516/README.md --exclude *.pyd
+[2024-05-20 09:52:49] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post515-py3-none-any.whl.zip]
+[2024-05-20 09:52:49] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post516-py3-none-any.whl.zip]
+[2024-05-20 09:52:49] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-20 09:52:49] INFO root fetch - processPackages [rfb-driver-ea]: Remove: archive file [/home/abi/fetcher/tmp/rfb_driver_ea-0.0.3.tar.gz]
+[2024-05-20 09:52:49] INFO root fetch - processPackages [rfb-driver-ea]: Remove: archive file [/home/abi/fetcher/tmp/rfb_driver_ea-0.0.4.tar.gz]
+[2024-05-20 09:52:49] INFO root fetch - main [MainThread]: End processing [rfb-driver-ea]: success
+[2024-05-20 09:52:49] INFO root fetch - processPackages [landcover_assignment]: Remove: archive file [/home/abi/fetcher/tmp/landcover_assignment-0.2.3.tar.gz]
+[2024-05-20 09:52:49] INFO root fetch - processPackages [landcover_assignment]: Remove: archive file [/home/abi/fetcher/tmp/landcover_assignment-0.2.4.tar.gz]
+[2024-05-20 09:52:49] INFO root fetch - main [MainThread]: End processing [landcover_assignment]: success
+[2024-05-20 09:52:49] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post515-py3-none-any.whl.zip]
+[2024-05-20 09:52:49] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post516-py3-none-any.whl.zip]
+[2024-05-20 09:52:49] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-20 09:52:49] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.8.0.tar.gz]
+[2024-05-20 09:52:49] INFO root fetch - processPackages [alibabacloud-aliding20230426]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aliding20230426-2.9.0.tar.gz]
+[2024-05-20 09:52:49] INFO root fetch - main [MainThread]: End processing [alibabacloud-aliding20230426]: success
+[2024-05-20 09:52:49] INFO root fetch - processPackages [fluke-fl]: Remove: archive file [/home/abi/fetcher/tmp/fluke_fl-0.0.2.tar.gz]
+[2024-05-20 09:52:49] INFO root fetch - processPackages [fluke-fl]: Remove: archive file [/home/abi/fetcher/tmp/fluke_fl-0.0.3.tar.gz]
+[2024-05-20 09:52:49] INFO root fetch - main [MainThread]: End processing [fluke-fl]: success
+[2024-05-20 09:52:50] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post515-py3-none-any.whl.zip]
+[2024-05-20 09:52:50] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post516-py3-none-any.whl.zip]
+[2024-05-20 09:52:50] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-20 09:52:53] INFO root fetch - processPackages [lightrun]: Remove: archive file [/home/abi/fetcher/tmp/lightrun-1.8.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 09:52:53] INFO root fetch - processPackages [lightrun]: Remove: archive file [/home/abi/fetcher/tmp/lightrun-1.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 09:52:53] INFO root fetch - main [MainThread]: End processing [lightrun]: success
+[2024-05-20 09:52:53] INFO root fetch - main [MainThread]: Store serial: [23286523]

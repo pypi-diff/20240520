@@ -14818,3 +14818,77 @@
 [2024-05-20 13:10:26] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
 [2024-05-20 13:10:26] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-05-20 13:10:26] INFO root fetch - main [MainThread]: Store serial: [23288553]
+[2024-05-20 13:12:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288553]
+[2024-05-20 13:12:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 13:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gene4mVCF
+[2024-05-20 13:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellxgene_lamin
+[2024-05-20 13:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codedepot-ai-api
+[2024-05-20 13:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codedepot-ai
+[2024-05-20 13:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dearwatson
+[2024-05-20 13:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shippensz
+[2024-05-20 13:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastblocks
+[2024-05-20 13:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tb-nightly
+[2024-05-20 13:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ethoscopy
+[2024-05-20 13:12:36] INFO root fetch - processPackages [gene4mVCF]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-20 13:12:36] INFO root fetch - processPackages [fastblocks]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-20 13:12:36] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-05-20 13:12:36] INFO root fetch - processPackages [codedepot-ai]: New version: [0.1.0] Old Version: [0.0.26]
+[2024-05-20 13:12:36] INFO root fetch - processPackages [codedepot-ai-api]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-20 13:12:36] INFO root fetch - processPackages [ethoscopy]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-05-20 13:12:36] INFO root fetch - processPackages [dearwatson]: New version: [0.9.9] Old Version: [0.9.7]
+[2024-05-20 13:12:36] WARNING root fetch - processPackages [shippensz]: Skipping, unable to determine old version
+[2024-05-20 13:12:36] INFO root fetch - main [MainThread]: End processing [shippensz] error
+[2024-05-20 13:12:36] INFO root fetch - processPackages [cellxgene_lamin]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-20 13:12:36] INFO root fetch - processPackages [gene4mVCF]: Downloading https://files.pythonhosted.org/packages/0f/39/8dc08ea92d0a574db1c1665d61ca50b3e29ea7047b298154f4f08fbe2ac5/gene4mvcf-1.0.7.tar.gz
+[2024-05-20 13:12:36] INFO root fetch - processPackages [fastblocks]: Downloading https://files.pythonhosted.org/packages/62/27/73d95d97899843e1d7dd322a2b515fad7a0ccf38879dd08a12cbbdc75c58/fastblocks-0.4.2.tar.gz
+[2024-05-20 13:12:36] INFO root fetch - processPackages [dearwatson]: Downloading https://files.pythonhosted.org/packages/0f/ba/b35bd970c84ce962034af18fa9204693d404680e78cdfb8927d1c8166e80/dearwatson-0.9.7.tar.gz
+[2024-05-20 13:12:36] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-05-20 13:12:36] INFO root fetch - processPackages [codedepot-ai]: Downloading https://files.pythonhosted.org/packages/62/d9/8899e63343f9faadb82edac212d8ace645bb44b1c1163e9a50683159abf4/codedepot_ai-0.0.26.tar.gz
+[2024-05-20 13:12:36] INFO root fetch - processPackages [ethoscopy]: Downloading https://files.pythonhosted.org/packages/f3/d8/15e90a7b45c93307defa972c4f769a14ac8a347a8fdf6823c54d57e4d76f/ethoscopy-1.3.5.tar.gz
+[2024-05-20 13:12:36] INFO root fetch - processPackages [codedepot-ai-api]: Downloading https://files.pythonhosted.org/packages/98/5e/9ceade846ec25040583030fc9b82512d5f3357a0f47e78c1917b449c35a1/codedepot_ai_api-1.0.9.tar.gz
+[2024-05-20 13:12:36] WARNING root fetch - processPackages [ethoscopy]: Skipping package: exceeds size limit 13479486>=10485760
+[2024-05-20 13:12:36] INFO root fetch - main [MainThread]: End processing [ethoscopy] error
+[2024-05-20 13:12:36] INFO root fetch - processPackages [cellxgene_lamin]: Downloading https://files.pythonhosted.org/packages/b8/7c/41eab8cbbb6fe0ecd2b9d786160d0fb1e70cd6e9bf09809a9d9c0e5b5caa/cellxgene_lamin-0.2.1.tar.gz
+[2024-05-20 13:12:36] INFO root fetch - processPackages [codedepot-ai]: Downloading https://files.pythonhosted.org/packages/35/65/eb03e78897e076f2612867b739a9a276994aa0c5e4a7a68a1b5b55f1f992/codedepot_ai-0.1.0.tar.gz
+[2024-05-20 13:12:36] INFO root fetch - processPackages [codedepot-ai-api]: Downloading https://files.pythonhosted.org/packages/ba/0c/48c079be6d9072fd806b483af7dacb9bbe3859c127d637558e952b78143f/codedepot_ai_api-1.1.0.tar.gz
+[2024-05-20 13:12:36] INFO root fetch - processPackages [fastblocks]: Downloading https://files.pythonhosted.org/packages/7b/41/764fdcfafecc664a7f36bd20e0dde71fedfd80f062e4513b2dcac65fe326/fastblocks-0.4.3.tar.gz
+[2024-05-20 13:12:36] INFO root fetch - processPackages [gene4mVCF]: Downloading https://files.pythonhosted.org/packages/d3/65/c59d44d18c579dd73ce117b0df5e76d5871fdfcc34593a474818f425a33b/gene4mVCF-1.0.8.tar.gz
+[2024-05-20 13:12:36] INFO root fetch - processPackages [dearwatson]: Downloading https://files.pythonhosted.org/packages/51/ef/a9231ae823323fefdd6b2c48396a26841d854f32c634d25ea73af29197dc/dearwatson-0.9.9.tar.gz
+[2024-05-20 13:12:36] INFO root fetch - processPackages [codedepot-ai]: executing diffoscope
+[2024-05-20 13:12:36] INFO root fetch - processPackages [codedepot-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_ai-0.0.26.tar.gz tmp/codedepot_ai-0.1.0.tar.gz --markdown 20240520/c/codedepot-ai/0.0.26-0.1.0/README.md --exclude *.pyd
+[2024-05-20 13:12:36] INFO root fetch - processPackages [codedepot-ai-api]: executing diffoscope
+[2024-05-20 13:12:36] INFO root fetch - processPackages [codedepot-ai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_ai_api-1.0.9.tar.gz tmp/codedepot_ai_api-1.1.0.tar.gz --markdown 20240520/c/codedepot-ai-api/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-20 13:12:36] INFO root fetch - processPackages [fastblocks]: executing diffoscope
+[2024-05-20 13:12:36] INFO root fetch - processPackages [fastblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastblocks-0.4.2.tar.gz tmp/fastblocks-0.4.3.tar.gz --markdown 20240520/f/fastblocks/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-20 13:12:36] INFO root fetch - processPackages [gene4mVCF]: executing diffoscope
+[2024-05-20 13:12:36] INFO root fetch - processPackages [gene4mVCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gene4mvcf-1.0.7.tar.gz tmp/gene4mVCF-1.0.8.tar.gz --markdown 20240520/g/gene4mVCF/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-20 13:12:37] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-05-20 13:12:37] INFO root fetch - processPackages [cellxgene_lamin]: Downloading https://files.pythonhosted.org/packages/06/e0/c43d394a165d6d5cda5751d5f2dd700ee18228087855fb13f4b23a3b1f0b/cellxgene_lamin-0.2.2.tar.gz
+[2024-05-20 13:12:37] INFO root fetch - processPackages [dearwatson]: executing diffoscope
+[2024-05-20 13:12:37] INFO root fetch - processPackages [dearwatson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dearwatson-0.9.7.tar.gz tmp/dearwatson-0.9.9.tar.gz --markdown 20240520/d/dearwatson/0.9.7-0.9.9/README.md --exclude *.pyd
+[2024-05-20 13:12:37] INFO root fetch - processPackages [cellxgene_lamin]: executing diffoscope
+[2024-05-20 13:12:37] INFO root fetch - processPackages [cellxgene_lamin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellxgene_lamin-0.2.1.tar.gz tmp/cellxgene_lamin-0.2.2.tar.gz --markdown 20240520/c/cellxgene_lamin/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-20 13:12:37] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-05-20 13:12:37] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240520/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-05-20 13:12:37] INFO root fetch - processPackages [codedepot-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_ai-0.0.26.tar.gz]
+[2024-05-20 13:12:37] INFO root fetch - processPackages [codedepot-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_ai-0.1.0.tar.gz]
+[2024-05-20 13:12:37] INFO root fetch - main [MainThread]: End processing [codedepot-ai]: success
+[2024-05-20 13:12:37] INFO root fetch - processPackages [gene4mVCF]: Remove: archive file [/home/abi/fetcher/tmp/gene4mvcf-1.0.7.tar.gz]
+[2024-05-20 13:12:37] INFO root fetch - processPackages [gene4mVCF]: Remove: archive file [/home/abi/fetcher/tmp/gene4mVCF-1.0.8.tar.gz]
+[2024-05-20 13:12:37] INFO root fetch - main [MainThread]: End processing [gene4mVCF]: success
+[2024-05-20 13:12:37] INFO root fetch - processPackages [fastblocks]: Remove: archive file [/home/abi/fetcher/tmp/fastblocks-0.4.2.tar.gz]
+[2024-05-20 13:12:37] INFO root fetch - processPackages [fastblocks]: Remove: archive file [/home/abi/fetcher/tmp/fastblocks-0.4.3.tar.gz]
+[2024-05-20 13:12:37] INFO root fetch - main [MainThread]: End processing [fastblocks]: success
+[2024-05-20 13:12:37] INFO root fetch - processPackages [codedepot-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_ai_api-1.0.9.tar.gz]
+[2024-05-20 13:12:37] INFO root fetch - processPackages [codedepot-ai-api]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_ai_api-1.1.0.tar.gz]
+[2024-05-20 13:12:37] INFO root fetch - main [MainThread]: End processing [codedepot-ai-api]: success
+[2024-05-20 13:12:37] INFO root fetch - processPackages [dearwatson]: Remove: archive file [/home/abi/fetcher/tmp/dearwatson-0.9.7.tar.gz]
+[2024-05-20 13:12:37] INFO root fetch - processPackages [dearwatson]: Remove: archive file [/home/abi/fetcher/tmp/dearwatson-0.9.9.tar.gz]
+[2024-05-20 13:12:37] INFO root fetch - main [MainThread]: End processing [dearwatson]: success
+[2024-05-20 13:12:38] INFO root fetch - processPackages [cellxgene_lamin]: Remove: archive file [/home/abi/fetcher/tmp/cellxgene_lamin-0.2.1.tar.gz]
+[2024-05-20 13:12:38] INFO root fetch - processPackages [cellxgene_lamin]: Remove: archive file [/home/abi/fetcher/tmp/cellxgene_lamin-0.2.2.tar.gz]
+[2024-05-20 13:12:38] INFO root fetch - main [MainThread]: End processing [cellxgene_lamin]: success
+[2024-05-20 13:12:38] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-05-20 13:12:38] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-05-20 13:12:38] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-05-20 13:12:38] INFO root fetch - main [MainThread]: Store serial: [23288579]

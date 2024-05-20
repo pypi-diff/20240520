@@ -21702,3 +21702,36 @@ EOFError: EOF read where object expected
 [2024-05-20 17:18:26] INFO root fetch - processPackages [pix2text]: Remove: archive file [/home/abi/fetcher/tmp/pix2text-1.1.0.4.tar.gz]
 [2024-05-20 17:18:26] INFO root fetch - main [MainThread]: End processing [pix2text]: success
 [2024-05-20 17:18:26] INFO root fetch - main [MainThread]: Store serial: [23291639]
+[2024-05-20 17:20:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291639]
+[2024-05-20 17:20:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 17:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yoto-api
+[2024-05-20 17:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-password-security
+[2024-05-20 17:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: system_reliability
+[2024-05-20 17:20:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.generative-ai-cdk-constructs
+[2024-05-20 17:20:35] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-20 17:20:35] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-20 17:20:35] WARNING root fetch - processPackages [system_reliability]: Skipping, unable to determine old version
+[2024-05-20 17:20:35] INFO root fetch - main [MainThread]: End processing [system_reliability] error
+[2024-05-20 17:20:35] INFO root fetch - processPackages [odoo-addon-password-security]: New version: [16.0.1.0.0.17] Old Version: [16.0.1.0.0.16]
+[2024-05-20 17:20:35] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-20 17:20:35] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-20 17:20:35] INFO root fetch - processPackages [odoo-addon-password-security]: Downloading https://files.pythonhosted.org/packages/87/bc/3cb0ae7289aae57fff2824cc8c7db2f7f714ed437c0fbe56b8c9527a26cd/odoo_addon_password_security-16.0.1.0.0.16-py3-none-any.whl
+[2024-05-20 17:20:35] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/79/87/07cb65a8c0c2fc2875a184fdc369cb5cae8af38496f859dbedf1593cf94a/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz
+[2024-05-20 17:20:35] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-20 17:20:35] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240520/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-20 17:20:35] INFO root fetch - processPackages [odoo-addon-password-security]: Downloading https://files.pythonhosted.org/packages/e9/de/344fcab525885cbd443e80b028986706baa37ef7da48f9c9d0175db055c4/odoo_addon_password_security-16.0.1.0.0.17-py3-none-any.whl
+[2024-05-20 17:20:35] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/3f/bb620aad2e3c9827bbd2a2a36dc64be1b0084b319f0f120e13690f4f1f17/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz
+[2024-05-20 17:20:35] INFO root fetch - processPackages [odoo-addon-password-security]: executing diffoscope
+[2024-05-20 17:20:35] INFO root fetch - processPackages [odoo-addon-password-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_password_security-16.0.1.0.0.16-py3-none-any.whl.zip tmp/odoo_addon_password_security-16.0.1.0.0.17-py3-none-any.whl.zip --markdown 20240520/o/odoo-addon-password-security/16.0.1.0.0.16-16.0.1.0.0.17/README.md --exclude *.pyd
+[2024-05-20 17:20:36] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: executing diffoscope
+[2024-05-20 17:20:36] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz --markdown 20240520/c/cdklabs.generative-ai-cdk-constructs/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-20 17:20:36] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-20 17:20:36] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-20 17:20:36] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-20 17:20:36] INFO root fetch - processPackages [odoo-addon-password-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_password_security-16.0.1.0.0.16-py3-none-any.whl.zip]
+[2024-05-20 17:20:36] INFO root fetch - processPackages [odoo-addon-password-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_password_security-16.0.1.0.0.17-py3-none-any.whl.zip]
+[2024-05-20 17:20:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-password-security]: success
+[2024-05-20 17:20:36] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz]
+[2024-05-20 17:20:36] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
+[2024-05-20 17:20:36] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
+[2024-05-20 17:20:36] INFO root fetch - main [MainThread]: Store serial: [23291653]

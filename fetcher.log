@@ -23913,3 +23913,48 @@ EOFError: EOF read where object expected
 [2024-05-20 18:40:57] INFO root fetch - processPackages [sphinx-autoapi]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_autoapi-3.1b0.tar.gz]
 [2024-05-20 18:40:57] INFO root fetch - main [MainThread]: End processing [sphinx-autoapi]: success
 [2024-05-20 18:40:57] INFO root fetch - main [MainThread]: Store serial: [23292607]
+[2024-05-20 18:43:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292607]
+[2024-05-20 18:43:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 18:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: api-nichotined
+[2024-05-20 18:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metaphor-models
+[2024-05-20 18:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-github
+[2024-05-20 18:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roscpp
+[2024-05-20 18:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Maslib
+[2024-05-20 18:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bt856a
+[2024-05-20 18:43:06] INFO root fetch - processPackages [api-nichotined]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-20 18:43:06] WARNING root fetch - processPackages [roscpp]: Skipping, unable to determine old version
+[2024-05-20 18:43:06] INFO root fetch - main [MainThread]: End processing [roscpp] error
+[2024-05-20 18:43:06] INFO root fetch - processPackages [api-nichotined]: Downloading https://files.pythonhosted.org/packages/ca/e8/c87770c4f9522a18da65b9966fb4fad411aac5162e09f809c29c7831ee48/api-nichotined-0.1.7.tar.gz
+[2024-05-20 18:43:06] INFO root fetch - processPackages [airbyte-source-github]: New version: [1.7.3] Old Version: [1.7.2]
+[2024-05-20 18:43:06] WARNING root fetch - processPackages [bt856a]: Skipping, unable to determine old version
+[2024-05-20 18:43:06] INFO root fetch - main [MainThread]: End processing [bt856a] error
+[2024-05-20 18:43:06] INFO root fetch - processPackages [Maslib]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 18:43:06] INFO root fetch - processPackages [metaphor-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 18:43:06] INFO root fetch - processPackages [api-nichotined]: Downloading https://files.pythonhosted.org/packages/ee/8e/bfc8c67bcb4cc53a79dcd796403c03165b1ec714565661a38cd524ac7ab3/api-nichotined-0.1.9.tar.gz
+[2024-05-20 18:43:06] INFO root fetch - processPackages [airbyte-source-github]: Downloading https://files.pythonhosted.org/packages/f6/39/034119b3cb34d557a966dab2551a2cd85507161ad19c660ed6cf4ea7728e/airbyte_source_github-1.7.2.tar.gz
+[2024-05-20 18:43:06] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/74/c8/861ac19e980a9e86a231d993a5edbbe8c2ed5a3c7ec8a0d0202fc8ec34c7/metaphor-models-0.9.0.tar.gz
+[2024-05-20 18:43:07] INFO root fetch - processPackages [Maslib]: Downloading https://files.pythonhosted.org/packages/82/b7/9374da254ed00f747bfaf2921f32f727faffe9b736157f4df941546c040d/Maslib-0.1.0.tar.gz
+[2024-05-20 18:43:07] INFO root fetch - processPackages [api-nichotined]: executing diffoscope
+[2024-05-20 18:43:07] INFO root fetch - processPackages [api-nichotined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-nichotined-0.1.7.tar.gz tmp/api-nichotined-0.1.9.tar.gz --markdown 20240520/a/api-nichotined/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-20 18:43:07] INFO root fetch - processPackages [Maslib]: Downloading https://files.pythonhosted.org/packages/df/93/fb4fa4d0eb563e87eff1df17414518bbd938a36f402bd0e1f8ed8b901be9/Maslib-0.1.1.tar.gz
+[2024-05-20 18:43:07] INFO root fetch - processPackages [airbyte-source-github]: Downloading https://files.pythonhosted.org/packages/27/31/b67dd625590ebd04bab8014305a9a8436636e42722be95286eee459530da/airbyte_source_github-1.7.3.tar.gz
+[2024-05-20 18:43:07] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/56/65/21a7865fd28d1a8651af865fd1ef807e93d934f8e69bf168c4bd764821d7/metaphor-models-0.9.1.tar.gz
+[2024-05-20 18:43:07] INFO root fetch - processPackages [Maslib]: executing diffoscope
+[2024-05-20 18:43:07] INFO root fetch - processPackages [Maslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Maslib-0.1.0.tar.gz tmp/Maslib-0.1.1.tar.gz --markdown 20240520/M/Maslib/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 18:43:07] INFO root fetch - processPackages [airbyte-source-github]: executing diffoscope
+[2024-05-20 18:43:07] INFO root fetch - processPackages [airbyte-source-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_github-1.7.2.tar.gz tmp/airbyte_source_github-1.7.3.tar.gz --markdown 20240520/a/airbyte-source-github/1.7.2-1.7.3/README.md --exclude *.pyd
+[2024-05-20 18:43:07] INFO root fetch - processPackages [api-nichotined]: Remove: archive file [/home/abi/fetcher/tmp/api-nichotined-0.1.7.tar.gz]
+[2024-05-20 18:43:07] INFO root fetch - processPackages [api-nichotined]: Remove: archive file [/home/abi/fetcher/tmp/api-nichotined-0.1.9.tar.gz]
+[2024-05-20 18:43:07] INFO root fetch - main [MainThread]: End processing [api-nichotined]: success
+[2024-05-20 18:43:07] INFO root fetch - processPackages [metaphor-models]: executing diffoscope
+[2024-05-20 18:43:07] INFO root fetch - processPackages [metaphor-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-models-0.9.0.tar.gz tmp/metaphor-models-0.9.1.tar.gz --markdown 20240520/m/metaphor-models/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 18:43:08] INFO root fetch - processPackages [Maslib]: Remove: archive file [/home/abi/fetcher/tmp/Maslib-0.1.0.tar.gz]
+[2024-05-20 18:43:08] INFO root fetch - processPackages [Maslib]: Remove: archive file [/home/abi/fetcher/tmp/Maslib-0.1.1.tar.gz]
+[2024-05-20 18:43:08] INFO root fetch - main [MainThread]: End processing [Maslib]: success
+[2024-05-20 18:43:08] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.0.tar.gz]
+[2024-05-20 18:43:08] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.1.tar.gz]
+[2024-05-20 18:43:08] INFO root fetch - main [MainThread]: End processing [metaphor-models]: success
+[2024-05-20 18:43:08] INFO root fetch - processPackages [airbyte-source-github]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_github-1.7.2.tar.gz]
+[2024-05-20 18:43:08] INFO root fetch - processPackages [airbyte-source-github]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_github-1.7.3.tar.gz]
+[2024-05-20 18:43:08] INFO root fetch - main [MainThread]: End processing [airbyte-source-github]: success
+[2024-05-20 18:43:08] INFO root fetch - main [MainThread]: Store serial: [23292626]

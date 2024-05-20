@@ -7533,3 +7533,15 @@
 [2024-05-20 07:28:18] INFO root fetch - processPackages [colalamo]: Remove: archive file [/home/abi/fetcher/tmp/colalamo-0.1.2105.tar.gz]
 [2024-05-20 07:28:18] INFO root fetch - main [MainThread]: End processing [colalamo]: success
 [2024-05-20 07:28:18] INFO root fetch - main [MainThread]: Store serial: [23285005]
+[2024-05-20 07:30:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285005]
+[2024-05-20 07:30:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 07:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jemma
+[2024-05-20 07:30:27] INFO root fetch - processPackages [jemma]: New version: [0.1.423] Old Version: [0.1.422]
+[2024-05-20 07:30:27] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/63/6b/a863031d8cf2af2bd9d83e3bd45b62d23a37f487e591861cbdb407f6b975/jemma-0.1.422.tar.gz
+[2024-05-20 07:30:27] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/a7/67/fad5ee99cee7c8a2be8ed799451a79018313f3c750e845631620d851c6d0/jemma-0.1.423.tar.gz
+[2024-05-20 07:30:27] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-05-20 07:30:27] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.422.tar.gz tmp/jemma-0.1.423.tar.gz --markdown 20240520/j/jemma/0.1.422-0.1.423/README.md --exclude *.pyd
+[2024-05-20 07:30:27] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.422.tar.gz]
+[2024-05-20 07:30:27] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.423.tar.gz]
+[2024-05-20 07:30:27] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-05-20 07:30:27] INFO root fetch - main [MainThread]: Store serial: [23285009]

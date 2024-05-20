@@ -3081,3 +3081,210 @@
 [2024-05-20 02:34:53] INFO root fetch - main [MainThread]: End processing [xyngdeeehcvxbpan]: success
 [2024-05-20 02:34:53] INFO root fetch - main [MainThread]: End processing [xyngdeeehcvxbpan]: success
 [2024-05-20 02:34:53] INFO root fetch - main [MainThread]: Store serial: [23282905]
+[2024-05-20 02:36:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282905]
+[2024-05-20 02:37:02] INFO root fetch - main [MainThread]: Found 36 changed packages
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: staging-cacao-accounting-desktop
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceone-inventory
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:02] INFO root fetch - processPackages [staging-cacao-accounting-desktop]: New version: [2024.5.7] Old Version: [2024.5.5]
+[2024-05-20 02:37:02] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-20 02:37:02] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.21a1716157484] Old Version: [0.0.21a1716143882]
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:02] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:02] INFO root fetch - processPackages [staging-cacao-accounting-desktop]: Downloading https://files.pythonhosted.org/packages/70/6a/1bc4d285a22b1734ec98fb5fb8dba4eb63f426cd544039684a0abdc5a6bd/staging_cacao_accounting_desktop-2024.5.5.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/39/56/fea77346601bf58768d29258e642dde035765f04a3cb90334fc8b42f490b/pulumi_kubernetes_the_hard_way-0.0.21a1716143882.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [staging-cacao-accounting-desktop]: Downloading https://files.pythonhosted.org/packages/80/72/e3d007ceca3f5d64beaefee2f06ea97da2951de3e9317c074739317de06b/staging_cacao_accounting_desktop-2024.5.7.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/a7/20/0be435f2f4a1491a2c3eba5cbd5f129e775316f1f221233896f4c7fbbb26/pulumi_kubernetes_the_hard_way-0.0.21a1716157484.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-20 02:37:03] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:03] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:03] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:03] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:03] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:03] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:03] INFO root fetch - processPackages [staging-cacao-accounting-desktop]: executing diffoscope
+[2024-05-20 02:37:03] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:03] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:03] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:03] INFO root fetch - processPackages [staging-cacao-accounting-desktop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staging_cacao_accounting_desktop-2024.5.5.tar.gz tmp/staging_cacao_accounting_desktop-2024.5.7.tar.gz --markdown 20240520/s/staging-cacao-accounting-desktop/2024.5.5-2024.5.7/README.md --exclude *.pyd
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:03] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:03] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:03] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:03] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:03] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:03] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-20 02:37:03] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240520/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-20 02:37:03] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-20 02:37:03] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.21a1716143882.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.21a1716157484.tar.gz --markdown 20240520/p/pulumi-kubernetes-the-hard-way/0.0.21a1716143882-0.0.21a1716157484/README.md --exclude *.pyd
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:03] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:03] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: purequransearch
+[2024-05-20 02:37:03] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:03] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:03] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:03] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:03] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:03] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:03] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:03] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:03] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: eras
+[2024-05-20 02:37:03] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:03] INFO root fetch - processPackages [purequransearch]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:03] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:03] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:03] INFO root fetch - processPackages [eras]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-20 02:37:03] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/25/21/d3799bd07d3adc31111789f9ac57252aee899c2ed527ccb147cead6b13c9/eras-0.2.4.tar.gz
+[2024-05-20 02:37:04] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:04] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:04] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:04] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:04] INFO root fetch - processPackages [purequransearch]: Downloading https://files.pythonhosted.org/packages/f3/05/eac17cf1ffe94409f0f89a35f1c1f073e25adb2d200a04278f9adb0d2f88/purequransearch-0.0.1.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:04] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:04] INFO root fetch - processPackages [staging-cacao-accounting-desktop]: Remove: archive file [/home/abi/fetcher/tmp/staging_cacao_accounting_desktop-2024.5.5.tar.gz]
+[2024-05-20 02:37:04] INFO root fetch - processPackages [staging-cacao-accounting-desktop]: Remove: archive file [/home/abi/fetcher/tmp/staging_cacao_accounting_desktop-2024.5.7.tar.gz]
+[2024-05-20 02:37:04] INFO root fetch - processPackages [staging-cacao-accounting-desktop]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [staging-cacao-accounting-desktop]: success
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:04] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: shelflikez
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:04] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: settngs
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:04] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: settngs
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:04] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:04] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1716143882.tar.gz]
+[2024-05-20 02:37:04] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.21a1716157484.tar.gz]
+[2024-05-20 02:37:04] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Start processing: ckalkqpsnzqxjqka
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:04] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-20 02:37:04] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-20 02:37:04] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:04] WARNING root fetch - processPackages [shelflikez]: Skipping, unable to determine old version
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [shelflikez] error
+[2024-05-20 02:37:04] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/59/7b/6bacd9794678fbeb17f2f833b6165ae8a67d5683be83c202a6885908e244/eras-0.2.5.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [settngs]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-20 02:37:04] INFO root fetch - processPackages [settngs]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: New version: [1.10000.10030] Old Version: [1.10000.10028]
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [ckalkqpsnzqxjqka]: Downloading https://files.pythonhosted.org/packages/2f/0e/6cfbe4ca0eec069978840d757dd8351de8173e7100db7c008164fbad305b/ckalkqpsnzqxjqka-1.10000.10028.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-20 02:37:04] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:04] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.2.4.tar.gz tmp/eras-0.2.5.tar.gz --markdown 20240520/e/eras/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:04] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:04] WARNING root fetch - processPackages [ckalkqpsnzqxjqka]: Skipping package: exceeds size limit 95034067>=10485760
+[2024-05-20 02:37:04] INFO root fetch - main [MainThread]: End processing [ckalkqpsnzqxjqka] error
+[2024-05-20 02:37:04] INFO root fetch - processPackages [settngs]: Downloading https://files.pythonhosted.org/packages/a3/f2/8620ed8891c2360a0543ad2272a6490d3474c90aff35f4749685c3923914/settngs-0.9.2.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [settngs]: Downloading https://files.pythonhosted.org/packages/a3/f2/8620ed8891c2360a0543ad2272a6490d3474c90aff35f4749685c3923914/settngs-0.9.2.tar.gz
+[2024-05-20 02:37:04] INFO root fetch - processPackages [purequransearch]: Downloading https://files.pythonhosted.org/packages/58/16/7e048f00f8764bcc6fd6eafbb0728c0f90883d91c293b9c4ee608bcc170a/purequransearch-0.0.2.tar.gz
+[2024-05-20 02:37:05] INFO root fetch - processPackages [settngs]: Downloading https://files.pythonhosted.org/packages/26/75/c763f60e7c51a5b1d5e81cda399d51fc25ccb26d89e86b3d93dd0ef7ce09/settngs-0.9.3.tar.gz
+[2024-05-20 02:37:05] INFO root fetch - processPackages [settngs]: Downloading https://files.pythonhosted.org/packages/26/75/c763f60e7c51a5b1d5e81cda399d51fc25ccb26d89e86b3d93dd0ef7ce09/settngs-0.9.3.tar.gz
+[2024-05-20 02:37:05] INFO root fetch - processPackages [settngs]: executing diffoscope
+[2024-05-20 02:37:05] INFO root fetch - processPackages [settngs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/settngs-0.9.2.tar.gz tmp/settngs-0.9.3.tar.gz --markdown 20240520/s/settngs/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-20 02:37:05] INFO root fetch - processPackages [settngs]: executing diffoscope
+[2024-05-20 02:37:05] INFO root fetch - processPackages [settngs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/settngs-0.9.2.tar.gz tmp/settngs-0.9.3.tar.gz --markdown 20240520/s/settngs/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-20 02:37:05] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.2.4.tar.gz]
+[2024-05-20 02:37:05] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.2.5.tar.gz]
+[2024-05-20 02:37:05] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-20 02:37:05] INFO root fetch - processPackages [settngs]: Remove: archive file [/home/abi/fetcher/tmp/settngs-0.9.2.tar.gz]
+[2024-05-20 02:37:05] INFO root fetch - processPackages [settngs]: Remove: archive file [/home/abi/fetcher/tmp/settngs-0.9.3.tar.gz]
+[2024-05-20 02:37:05] INFO root fetch - main [MainThread]: End processing [settngs]: success
+[2024-05-20 02:37:05] INFO root fetch - main [MainThread]: End processing [settngs]: success
+[2024-05-20 02:37:06] INFO root fetch - processPackages [purequransearch]: executing diffoscope
+[2024-05-20 02:37:06] INFO root fetch - processPackages [purequransearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/purequransearch-0.0.1.tar.gz tmp/purequransearch-0.0.2.tar.gz --markdown 20240520/p/purequransearch/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-20 02:37:07] INFO root fetch - processPackages [purequransearch]: Remove: archive file [/home/abi/fetcher/tmp/purequransearch-0.0.1.tar.gz]
+[2024-05-20 02:37:07] INFO root fetch - processPackages [purequransearch]: Remove: archive file [/home/abi/fetcher/tmp/purequransearch-0.0.2.tar.gz]
+[2024-05-20 02:37:07] INFO root fetch - main [MainThread]: End processing [purequransearch]: success
+[2024-05-20 02:37:07] INFO root fetch - main [MainThread]: Store serial: [23282986]

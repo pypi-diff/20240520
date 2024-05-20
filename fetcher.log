@@ -21179,3 +21179,24 @@ EOFError: EOF read where object expected
 [2024-05-20 16:58:12] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
 [2024-05-20 16:58:12] INFO root fetch - main [MainThread]: End processing [specklia]: success
 [2024-05-20 16:58:12] INFO root fetch - main [MainThread]: Store serial: [23291405]
+[2024-05-20 17:00:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291405]
+[2024-05-20 17:00:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 17:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comun-va
+[2024-05-20 17:00:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ebsdtorch
+[2024-05-20 17:00:21] INFO root fetch - processPackages [comun-va]: New version: [3.8] Old Version: [3.7]
+[2024-05-20 17:00:21] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/71/dc/bcec85b3c9cde708879799abdfcd5c11466ace50a0c89c65dbfb68c77c20/comun_va-3.7.tar.gz
+[2024-05-20 17:00:21] INFO root fetch - processPackages [ebsdtorch]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 17:00:22] INFO root fetch - processPackages [ebsdtorch]: Downloading https://files.pythonhosted.org/packages/cb/34/8c15348541bc573f89a487d52460162ca9740beff33d7e68cde1fcdbe5bc/ebsdtorch-0.1.0.tar.gz
+[2024-05-20 17:00:22] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/01/c3/90ce5c320441d95413777a9409a6151dcf81068d6a9062560179bdb1c011/comun_va-3.8.tar.gz
+[2024-05-20 17:00:22] INFO root fetch - processPackages [comun-va]: executing diffoscope
+[2024-05-20 17:00:22] INFO root fetch - processPackages [comun-va]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comun_va-3.7.tar.gz tmp/comun_va-3.8.tar.gz --markdown 20240520/c/comun-va/3.7-3.8/README.md --exclude *.pyd
+[2024-05-20 17:00:22] INFO root fetch - processPackages [ebsdtorch]: Downloading https://files.pythonhosted.org/packages/2b/a3/65d0330642b47ddf1c36efd7eb200ad9388b52b798c95c212c2d3c3a4024/ebsdtorch-0.1.1.tar.gz
+[2024-05-20 17:00:22] INFO root fetch - processPackages [ebsdtorch]: executing diffoscope
+[2024-05-20 17:00:22] INFO root fetch - processPackages [ebsdtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebsdtorch-0.1.0.tar.gz tmp/ebsdtorch-0.1.1.tar.gz --markdown 20240520/e/ebsdtorch/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 17:00:22] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-3.7.tar.gz]
+[2024-05-20 17:00:22] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-3.8.tar.gz]
+[2024-05-20 17:00:22] INFO root fetch - main [MainThread]: End processing [comun-va]: success
+[2024-05-20 17:00:23] INFO root fetch - processPackages [ebsdtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebsdtorch-0.1.0.tar.gz]
+[2024-05-20 17:00:23] INFO root fetch - processPackages [ebsdtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebsdtorch-0.1.1.tar.gz]
+[2024-05-20 17:00:23] INFO root fetch - main [MainThread]: End processing [ebsdtorch]: success
+[2024-05-20 17:00:23] INFO root fetch - main [MainThread]: Store serial: [23291411]

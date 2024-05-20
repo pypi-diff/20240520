@@ -16724,3 +16724,96 @@ EOFError: EOF read where object expected
 [2024-05-20 14:29:32] INFO root fetch - processPackages [sherlockpipe]: Remove: archive file [/home/abi/fetcher/tmp/sherlockpipe-0.9.7.tar.gz]
 [2024-05-20 14:29:32] INFO root fetch - main [MainThread]: End processing [sherlockpipe]: success
 [2024-05-20 14:29:32] INFO root fetch - main [MainThread]: Store serial: [23289510]
+[2024-05-20 14:31:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289510]
+[2024-05-20 14:31:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-20 14:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imsciences
+[2024-05-20 14:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maisaedu-utilities-prefect
+[2024-05-20 14:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maisaedu-poormans-dms
+[2024-05-20 14:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prompeteer
+[2024-05-20 14:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: matematikk
+[2024-05-20 14:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymonit
+[2024-05-20 14:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stac-asset
+[2024-05-20 14:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: direct7
+[2024-05-20 14:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dragon-city-utils
+[2024-05-20 14:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sb-json-tools
+[2024-05-20 14:31:41] INFO root fetch - processPackages [pymonit]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-20 14:31:41] INFO root fetch - processPackages [direct7]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-20 14:31:41] INFO root fetch - processPackages [prompeteer]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-20 14:31:41] INFO root fetch - processPackages [imsciences]: New version: [0.5.8.0] Old Version: [0.5.7.9]
+[2024-05-20 14:31:41] INFO root fetch - processPackages [dragon-city-utils]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-05-20 14:31:41] INFO root fetch - processPackages [stac-asset]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-20 14:31:41] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-20 14:31:41] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-20 14:31:41] INFO root fetch - processPackages [pymonit]: Downloading https://files.pythonhosted.org/packages/9c/d1/b6545d804cf6c4acda6c76eb69d9edde1c91ff92aca23f4c627873f23951/pymonit-1.4.8.tar.gz
+[2024-05-20 14:31:41] INFO root fetch - processPackages [matematikk]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-20 14:31:41] INFO root fetch - processPackages [sb-json-tools]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 14:31:41] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/10/c5/296108b53ce970884035f8ec6949e29f73dab692d5e5e20e5007fbd39266/prompeteer-0.3.2.tar.gz
+[2024-05-20 14:31:41] INFO root fetch - processPackages [direct7]: Downloading https://files.pythonhosted.org/packages/fa/f4/7a602d8f6a9bef80a25b1031686e92a89a7174e6db738dc93c4515f307c7/direct7-0.0.7.tar.gz
+[2024-05-20 14:31:41] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/e4/67/40b8a0463ebeca56dee6e9ab4d33c91f10bbfee1704dd3f2e3b2b4a99fbe/imsciences-0.5.7.9.tar.gz
+[2024-05-20 14:31:41] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/9a/e3/3f2d787b39c92c012de6fd5dc0301943f967d9abe803ebb18ea0cf8e6b3e/maisaedu-utilities-prefect-1.1.8.tar.gz
+[2024-05-20 14:31:41] INFO root fetch - processPackages [dragon-city-utils]: Downloading https://files.pythonhosted.org/packages/41/4d/b0bea333f54e81e44d46313c335e2c883b8cc2d820fe27ae58c1b4c49db6/dragon-city-utils-2.0.3.tar.gz
+[2024-05-20 14:31:41] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/b9/0f/0e2ea1c838d839f658d451461a2f978947f6ab41a8f4e102104cc5b587a8/matematikk-0.0.98.tar.gz
+[2024-05-20 14:31:41] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/6f/3d/24edb531d5f69869d3ce10ded33cdb039ab8d303f9d149ec520785edfc10/maisaedu-poormans-dms-1.1.8.tar.gz
+[2024-05-20 14:31:41] INFO root fetch - processPackages [sb-json-tools]: Downloading https://files.pythonhosted.org/packages/d5/d2/a50ea40f9e98113a9302c53a6e0364e2aa165fc874a31727deaca049c7d7/sb-json-tools-0.9.0.tar.gz
+[2024-05-20 14:31:41] INFO root fetch - processPackages [stac-asset]: Downloading https://files.pythonhosted.org/packages/f1/8a/962c713599bc545a79c93c351dcf322fd56d7a7d790a2b44340586d8308a/stac_asset-0.3.1.tar.gz
+[2024-05-20 14:31:42] INFO root fetch - processPackages [pymonit]: Downloading https://files.pythonhosted.org/packages/62/6a/091257352b613990c3040813dd8e39a1f54cd4fe808349f8788f66cce9f8/pymonit-1.4.9.tar.gz
+[2024-05-20 14:31:42] INFO root fetch - processPackages [direct7]: Downloading https://files.pythonhosted.org/packages/16/10/f3c94cd5fa23cb876c583d6076dd0655929ad70119af894ab7d300705b49/direct7-0.0.8.tar.gz
+[2024-05-20 14:31:42] INFO root fetch - processPackages [stac-asset]: Downloading https://files.pythonhosted.org/packages/3d/9a/cf6aba5401908095be2ae0bdcfc13b83b49d62b5311265b7a62cc7d49506/stac_asset-0.3.2.tar.gz
+[2024-05-20 14:31:42] INFO root fetch - processPackages [pymonit]: executing diffoscope
+[2024-05-20 14:31:42] INFO root fetch - processPackages [pymonit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymonit-1.4.8.tar.gz tmp/pymonit-1.4.9.tar.gz --markdown 20240520/p/pymonit/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-20 14:31:42] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/74/42/b960b914490105105a60d27819667be65779402b699e6cc7a674442b2dee/maisaedu-utilities-prefect-1.1.9.tar.gz
+[2024-05-20 14:31:42] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/99/17/bda25e37abecbc9a3ebe174a73e024f9eef9e0df8026df5f6068794495ed/imsciences-0.5.8.0.tar.gz
+[2024-05-20 14:31:42] INFO root fetch - processPackages [dragon-city-utils]: Downloading https://files.pythonhosted.org/packages/b0/ff/5fce19aa7311b2571cba4e321d3dbe8a05362164a7dd93c5f76b8f5b9900/dragon_city_utils-2.1.0.tar.gz
+[2024-05-20 14:31:42] INFO root fetch - processPackages [direct7]: executing diffoscope
+[2024-05-20 14:31:42] INFO root fetch - processPackages [direct7]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direct7-0.0.7.tar.gz tmp/direct7-0.0.8.tar.gz --markdown 20240520/d/direct7/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-20 14:31:43] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/6d/3a/961902084750361d599eba86e094932f17a93272dfceb1d22f7f2484af85/maisaedu-poormans-dms-1.1.9.tar.gz
+[2024-05-20 14:31:43] INFO root fetch - processPackages [prompeteer]: Downloading https://files.pythonhosted.org/packages/5b/ec/a9bd72c3c9b995c06258532a5c884559e96bd3a1cd7c2a27307922b69374/prompeteer-0.3.3.tar.gz
+[2024-05-20 14:31:43] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/ba/d1/907a2303ec8d0c4c2f01a0d2f9fd6e3de3387f6c25c32de3800152e437fb/matematikk-0.0.99.tar.gz
+[2024-05-20 14:31:43] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2024-05-20 14:31:43] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.1.8.tar.gz tmp/maisaedu-utilities-prefect-1.1.9.tar.gz --markdown 20240520/m/maisaedu-utilities-prefect/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-20 14:31:43] INFO root fetch - processPackages [stac-asset]: executing diffoscope
+[2024-05-20 14:31:43] INFO root fetch - processPackages [stac-asset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_asset-0.3.1.tar.gz tmp/stac_asset-0.3.2.tar.gz --markdown 20240520/s/stac-asset/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-20 14:31:43] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-20 14:31:43] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.7.9.tar.gz tmp/imsciences-0.5.8.0.tar.gz --markdown 20240520/i/imsciences/0.5.7.9-0.5.8.0/README.md --exclude *.pyd
+[2024-05-20 14:31:43] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2024-05-20 14:31:43] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.1.8.tar.gz tmp/maisaedu-poormans-dms-1.1.9.tar.gz --markdown 20240520/m/maisaedu-poormans-dms/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-20 14:31:43] INFO root fetch - processPackages [prompeteer]: executing diffoscope
+[2024-05-20 14:31:43] INFO root fetch - processPackages [prompeteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompeteer-0.3.2.tar.gz tmp/prompeteer-0.3.3.tar.gz --markdown 20240520/p/prompeteer/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-20 14:31:43] INFO root fetch - processPackages [matematikk]: executing diffoscope
+[2024-05-20 14:31:43] INFO root fetch - processPackages [matematikk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matematikk-0.0.98.tar.gz tmp/matematikk-0.0.99.tar.gz --markdown 20240520/m/matematikk/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-20 14:31:43] INFO root fetch - processPackages [dragon-city-utils]: executing diffoscope
+[2024-05-20 14:31:43] INFO root fetch - processPackages [dragon-city-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragon-city-utils-2.0.3.tar.gz tmp/dragon_city_utils-2.1.0.tar.gz --markdown 20240520/d/dragon-city-utils/2.0.3-2.1.0/README.md --exclude *.pyd
+[2024-05-20 14:31:43] INFO root fetch - processPackages [sb-json-tools]: Downloading https://files.pythonhosted.org/packages/a0/49/f7a3cb4ccc4c8eed989e036100a3d43740664fc2fa7b91e448a197d3e48b/sb-json-tools-0.9.1.tar.gz
+[2024-05-20 14:31:43] INFO root fetch - processPackages [pymonit]: Remove: archive file [/home/abi/fetcher/tmp/pymonit-1.4.8.tar.gz]
+[2024-05-20 14:31:43] INFO root fetch - processPackages [pymonit]: Remove: archive file [/home/abi/fetcher/tmp/pymonit-1.4.9.tar.gz]
+[2024-05-20 14:31:43] INFO root fetch - main [MainThread]: End processing [pymonit]: success
+[2024-05-20 14:31:43] INFO root fetch - processPackages [sb-json-tools]: executing diffoscope
+[2024-05-20 14:31:43] INFO root fetch - processPackages [sb-json-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sb-json-tools-0.9.0.tar.gz tmp/sb-json-tools-0.9.1.tar.gz --markdown 20240520/s/sb-json-tools/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 14:31:44] INFO root fetch - processPackages [direct7]: Remove: archive file [/home/abi/fetcher/tmp/direct7-0.0.7.tar.gz]
+[2024-05-20 14:31:44] INFO root fetch - processPackages [direct7]: Remove: archive file [/home/abi/fetcher/tmp/direct7-0.0.8.tar.gz]
+[2024-05-20 14:31:44] INFO root fetch - main [MainThread]: End processing [direct7]: success
+[2024-05-20 14:31:44] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.9.tar.gz]
+[2024-05-20 14:31:44] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.8.0.tar.gz]
+[2024-05-20 14:31:44] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-20 14:31:44] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.1.8.tar.gz]
+[2024-05-20 14:31:44] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.1.9.tar.gz]
+[2024-05-20 14:31:44] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2024-05-20 14:31:44] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.3.2.tar.gz]
+[2024-05-20 14:31:44] INFO root fetch - processPackages [prompeteer]: Remove: archive file [/home/abi/fetcher/tmp/prompeteer-0.3.3.tar.gz]
+[2024-05-20 14:31:44] INFO root fetch - main [MainThread]: End processing [prompeteer]: success
+[2024-05-20 14:31:44] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.1.8.tar.gz]
+[2024-05-20 14:31:44] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.1.9.tar.gz]
+[2024-05-20 14:31:44] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2024-05-20 14:31:44] INFO root fetch - processPackages [stac-asset]: Remove: archive file [/home/abi/fetcher/tmp/stac_asset-0.3.1.tar.gz]
+[2024-05-20 14:31:44] INFO root fetch - processPackages [stac-asset]: Remove: archive file [/home/abi/fetcher/tmp/stac_asset-0.3.2.tar.gz]
+[2024-05-20 14:31:44] INFO root fetch - main [MainThread]: End processing [stac-asset]: success
+[2024-05-20 14:31:44] INFO root fetch - processPackages [dragon-city-utils]: Remove: archive file [/home/abi/fetcher/tmp/dragon-city-utils-2.0.3.tar.gz]
+[2024-05-20 14:31:44] INFO root fetch - processPackages [dragon-city-utils]: Remove: archive file [/home/abi/fetcher/tmp/dragon_city_utils-2.1.0.tar.gz]
+[2024-05-20 14:31:44] INFO root fetch - main [MainThread]: End processing [dragon-city-utils]: success
+[2024-05-20 14:31:44] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.98.tar.gz]
+[2024-05-20 14:31:44] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.99.tar.gz]
+[2024-05-20 14:31:44] INFO root fetch - main [MainThread]: End processing [matematikk]: success
+[2024-05-20 14:31:45] INFO root fetch - processPackages [sb-json-tools]: Remove: archive file [/home/abi/fetcher/tmp/sb-json-tools-0.9.0.tar.gz]
+[2024-05-20 14:31:45] INFO root fetch - processPackages [sb-json-tools]: Remove: archive file [/home/abi/fetcher/tmp/sb-json-tools-0.9.1.tar.gz]
+[2024-05-20 14:31:45] INFO root fetch - main [MainThread]: End processing [sb-json-tools]: success
+[2024-05-20 14:31:45] INFO root fetch - main [MainThread]: Store serial: [23289535]

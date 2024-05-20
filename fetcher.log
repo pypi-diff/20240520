@@ -14569,3 +14569,15 @@
 [2024-05-20 12:57:10] INFO root fetch - processPackages [bp3]: Remove: archive file [/home/abi/fetcher/tmp/bp3-0.0.9-py2.py3-none-any.whl.zip]
 [2024-05-20 12:57:10] INFO root fetch - main [MainThread]: End processing [bp3]: success
 [2024-05-20 12:57:10] INFO root fetch - main [MainThread]: Store serial: [23288443]
+[2024-05-20 12:59:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288443]
+[2024-05-20 12:59:19] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 12:59:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feedcrawler
+[2024-05-20 12:59:19] INFO root fetch - processPackages [feedcrawler]: New version: [19.2.1] Old Version: [19.2.0]
+[2024-05-20 12:59:19] INFO root fetch - processPackages [feedcrawler]: Downloading https://files.pythonhosted.org/packages/d6/54/0f693d26a9b3e179689289e4d47783c0b18758fbf1aaabc7195099832ec8/feedcrawler-19.2.0.tar.gz
+[2024-05-20 12:59:19] INFO root fetch - processPackages [feedcrawler]: Downloading https://files.pythonhosted.org/packages/38/6d/02521d69ddc4bb1ee45374ed4b48af74c8a522b22ad17aede36a890341d1/feedcrawler-19.2.1.tar.gz
+[2024-05-20 12:59:20] INFO root fetch - processPackages [feedcrawler]: executing diffoscope
+[2024-05-20 12:59:20] INFO root fetch - processPackages [feedcrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feedcrawler-19.2.0.tar.gz tmp/feedcrawler-19.2.1.tar.gz --markdown 20240520/f/feedcrawler/19.2.0-19.2.1/README.md --exclude *.pyd
+[2024-05-20 12:59:25] INFO root fetch - processPackages [feedcrawler]: Remove: archive file [/home/abi/fetcher/tmp/feedcrawler-19.2.0.tar.gz]
+[2024-05-20 12:59:25] INFO root fetch - processPackages [feedcrawler]: Remove: archive file [/home/abi/fetcher/tmp/feedcrawler-19.2.1.tar.gz]
+[2024-05-20 12:59:25] INFO root fetch - main [MainThread]: End processing [feedcrawler]: success
+[2024-05-20 12:59:25] INFO root fetch - main [MainThread]: Store serial: [23288455]

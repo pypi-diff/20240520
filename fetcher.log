@@ -11628,3 +11628,45 @@
 [2024-05-20 11:03:13] INFO root fetch - processPackages [ysfutils]: Remove: archive file [/home/abi/fetcher/tmp/ysfutils-1.0.16.tar.gz]
 [2024-05-20 11:03:13] INFO root fetch - main [MainThread]: End processing [ysfutils]: success
 [2024-05-20 11:03:13] INFO root fetch - main [MainThread]: Store serial: [23287213]
+[2024-05-20 11:05:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287213]
+[2024-05-20 11:05:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pervasivenessz
+[2024-05-20 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-superapp
+[2024-05-20 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rimmist
+[2024-05-20 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clean-data-python
+[2024-05-20 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccxt-idax
+[2024-05-20 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kili
+[2024-05-20 11:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.common
+[2024-05-20 11:05:22] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240519] Old Version: [1.1.1b20240518]
+[2024-05-20 11:05:22] WARNING root fetch - processPackages [pervasivenessz]: Skipping, unable to determine old version
+[2024-05-20 11:05:22] INFO root fetch - main [MainThread]: End processing [pervasivenessz] error
+[2024-05-20 11:05:22] WARNING root fetch - processPackages [ccxt-idax]: Skipping, unable to determine old version
+[2024-05-20 11:05:22] INFO root fetch - main [MainThread]: End processing [ccxt-idax] error
+[2024-05-20 11:05:22] INFO root fetch - processPackages [django-superapp]: New version: [1.0.4] Old Version: [1.0.0]
+[2024-05-20 11:05:22] WARNING root fetch - processPackages [rimmist]: Skipping, unable to determine old version
+[2024-05-20 11:05:22] INFO root fetch - main [MainThread]: End processing [rimmist] error
+[2024-05-20 11:05:22] WARNING root fetch - processPackages [clean-data-python]: Skipping, unable to determine old version
+[2024-05-20 11:05:22] INFO root fetch - main [MainThread]: End processing [clean-data-python] error
+[2024-05-20 11:05:22] INFO root fetch - processPackages [kili]: New version: [2.99.0] Old Version: [2.98.0]
+[2024-05-20 11:05:22] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/40/62/33ba2f1609151f6b1e24fc82751990167b9edf12c68e6fe9ad8b61fc40a2/autogluon.common-1.1.1b20240518.tar.gz
+[2024-05-20 11:05:22] INFO root fetch - processPackages [django-superapp]: Downloading https://files.pythonhosted.org/packages/78/de/1f5c2f85daecea970a5042136703f2f3c2174846ecf95cec5fbc923c373b/django_superapp-1.0.0.tar.gz
+[2024-05-20 11:05:22] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/82/1a/9d8d62f4db71c0c98f2af8101e21f42133a2335a53ea5acb86d49e0afcce/kili-2.98.0.tar.gz
+[2024-05-20 11:05:23] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/38/6d/31bf43096e118d661f74e761145db83f95712ad5a8dadbb475383f2b1bae/autogluon.common-1.1.1b20240519.tar.gz
+[2024-05-20 11:05:23] INFO root fetch - processPackages [django-superapp]: Downloading https://files.pythonhosted.org/packages/81/b3/24751056a3ea9b5a1eb305d52f5cffea5a9d4d0220e7270c1de063bfe6b2/django_superapp-1.0.4.tar.gz
+[2024-05-20 11:05:23] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-05-20 11:05:23] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240518.tar.gz tmp/autogluon.common-1.1.1b20240519.tar.gz --markdown 20240520/a/autogluon.common/1.1.1b20240518-1.1.1b20240519/README.md --exclude *.pyd
+[2024-05-20 11:05:23] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/29/0e/34477795c404b4be48b4e400c823732c9e2857d5f305bbbdbc8203e0ec17/kili-2.99.0.tar.gz
+[2024-05-20 11:05:23] INFO root fetch - processPackages [django-superapp]: executing diffoscope
+[2024-05-20 11:05:23] INFO root fetch - processPackages [django-superapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_superapp-1.0.0.tar.gz tmp/django_superapp-1.0.4.tar.gz --markdown 20240520/d/django-superapp/1.0.0-1.0.4/README.md --exclude *.pyd
+[2024-05-20 11:05:23] INFO root fetch - processPackages [kili]: executing diffoscope
+[2024-05-20 11:05:23] INFO root fetch - processPackages [kili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kili-2.98.0.tar.gz tmp/kili-2.99.0.tar.gz --markdown 20240520/k/kili/2.98.0-2.99.0/README.md --exclude *.pyd
+[2024-05-20 11:05:23] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240518.tar.gz]
+[2024-05-20 11:05:23] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240519.tar.gz]
+[2024-05-20 11:05:23] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-05-20 11:05:23] INFO root fetch - processPackages [django-superapp]: Remove: archive file [/home/abi/fetcher/tmp/django_superapp-1.0.0.tar.gz]
+[2024-05-20 11:05:23] INFO root fetch - processPackages [django-superapp]: Remove: archive file [/home/abi/fetcher/tmp/django_superapp-1.0.4.tar.gz]
+[2024-05-20 11:05:23] INFO root fetch - main [MainThread]: End processing [django-superapp]: success
+[2024-05-20 11:05:24] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.98.0.tar.gz]
+[2024-05-20 11:05:24] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.99.0.tar.gz]
+[2024-05-20 11:05:24] INFO root fetch - main [MainThread]: End processing [kili]: success
+[2024-05-20 11:05:24] INFO root fetch - main [MainThread]: Store serial: [23287241]

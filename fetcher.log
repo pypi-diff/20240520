@@ -14892,3 +14892,172 @@
 [2024-05-20 13:12:38] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-05-20 13:12:38] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-05-20 13:12:38] INFO root fetch - main [MainThread]: Store serial: [23288579]
+[2024-05-20 13:14:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288579]
+[2024-05-20 13:14:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 13:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akshare
+[2024-05-20 13:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-xe-esimd-21
+[2024-05-20 13:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: danila-lib
+[2024-05-20 13:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sslearn
+[2024-05-20 13:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qtlink
+[2024-05-20 13:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snowflake-cli-labs
+[2024-05-20 13:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: utilmy
+[2024-05-20 13:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-core-cpp
+[2024-05-20 13:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sais-notify
+[2024-05-20 13:14:47] INFO root fetch - processPackages [danila-lib]: New version: [1.5.0] Old Version: [1.4.9]
+[2024-05-20 13:14:47] INFO root fetch - processPackages [sais-notify]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-20 13:14:48] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-20 13:14:48] INFO root fetch - processPackages [utilmy]: New version: [0.1.17161284] Old Version: [0.1.17159323]
+[2024-05-20 13:14:48] INFO root fetch - processPackages [sslearn]: New version: [1.0.5.1] Old Version: [1.0.5]
+[2024-05-20 13:14:48] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240520] Old Version: [2.5.0b20240519]
+[2024-05-20 13:14:48] INFO root fetch - processPackages [qtlink]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-20 13:14:48] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/ff/11/872933032bed64509b3a5798045752a5a6bd71d3c40f85f02075c67d4809/danila-lib-1.4.9.tar.gz
+[2024-05-20 13:14:48] INFO root fetch - processPackages [snowflake-cli-labs]: New version: [2.3.1] Old Version: [2.3.0rc1]
+[2024-05-20 13:14:48] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240520] Old Version: [2.5.0b20240519]
+[2024-05-20 13:14:48] INFO root fetch - processPackages [sais-notify]: Downloading https://files.pythonhosted.org/packages/c4/c5/73af8684dd905221e0e54b5ecb43c4e50e4131e21a5716c5a1adf96581c4/sais_notify-0.0.5.tar.gz
+[2024-05-20 13:14:48] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-20 13:14:48] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/4d/86/2d328cfd4e3e7e87091dbce99b37f45a5c11b4f946193c630000b9d1de85/utilmy-0.1.17159323.tar.gz
+[2024-05-20 13:14:48] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/1e/2a/f0afa86db08fe930e88a52c94dd976db8e567ae3c3a0de8acf7e89709ec4/qtlink-1.2.8.tar.gz
+[2024-05-20 13:14:48] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/d9/8d/776c147f4c6759ed18af45f99d5f1cd9a9e8d83791bb4060988787d1cec2/bigdl_core_xe_esimd_21-2.5.0b20240519-cp39-cp39-win_amd64.whl
+[2024-05-20 13:14:48] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/f5/2d/08432a7b4ff3b37ceb9e8dc98052fd1782346aa3c7a0338017bbf986bf69/snowflake_cli_labs-2.3.0rc1.tar.gz
+[2024-05-20 13:14:48] INFO root fetch - processPackages [sslearn]: Downloading https://files.pythonhosted.org/packages/62/09/afa2ca38f79fae0af2f9da7c7d22cf561fa82bdf6f84339c4b019e06b485/sslearn-1.0.5.tar.gz
+[2024-05-20 13:14:48] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/d7/84/52f103429f8effe9e0860bbfde75888e1ffa31cf4c3b807200e5f30cecae/danila-lib-1.5.0.tar.gz
+[2024-05-20 13:14:48] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/b1/ac/ed62d77eb6c1264dff225c6c137fc1d4ac95b1b4426bb041e85fbba92659/bigdl_core_cpp-2.5.0b20240519-py3-none-win_amd64.whl
+[2024-05-20 13:14:48] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-20 13:14:48] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 33300211>=10485760
+[2024-05-20 13:14:48] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-05-20 13:14:48] INFO root fetch - processPackages [sais-notify]: Downloading https://files.pythonhosted.org/packages/30/c1/f2617f0c637df8cced34042949ae9071ca2840409fddd3b0c2db33ea4ca2/sais_notify-0.0.6.tar.gz
+[2024-05-20 13:14:48] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-20 13:14:48] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.4.9.tar.gz tmp/danila-lib-1.5.0.tar.gz --markdown 20240520/d/danila-lib/1.4.9-1.5.0/README.md --exclude *.pyd
+[2024-05-20 13:14:48] INFO root fetch - processPackages [sais-notify]: executing diffoscope
+[2024-05-20 13:14:48] INFO root fetch - processPackages [sais-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify-0.0.5.tar.gz tmp/sais_notify-0.0.6.tar.gz --markdown 20240520/s/sais-notify/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-20 13:14:48] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/c6/3c/4a0be6b1937e94fb3f97d962bbc6d21c5edd24d70451ae48565dd4dc2fe8/qtlink-1.2.9.tar.gz
+[2024-05-20 13:14:48] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-20 13:14:48] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240520/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-20 13:14:48] INFO root fetch - processPackages [snowflake-cli-labs]: Downloading https://files.pythonhosted.org/packages/36/d0/d1473ec5466c1960b4212def902728a28d13b69ca3b0fb8c19bc7b1dc780/snowflake_cli_labs-2.3.1.tar.gz
+[2024-05-20 13:14:48] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/b8/08/f8c81382e22e715bd6eb099abafe0a6d5d1961787f2c89d2175255635d1a/utilmy-0.1.17161284.tar.gz
+[2024-05-20 13:14:48] INFO root fetch - processPackages [sslearn]: Downloading https://files.pythonhosted.org/packages/6c/aa/1f8792b34d70b9726bd008a4ab95206766bac566a3ababa821573d5d4734/sslearn-1.0.5.1.tar.gz
+[2024-05-20 13:14:48] INFO root fetch - processPackages [qtlink]: executing diffoscope
+[2024-05-20 13:14:48] INFO root fetch - processPackages [qtlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtlink-1.2.8.tar.gz tmp/qtlink-1.2.9.tar.gz --markdown 20240520/q/qtlink/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-20 13:14:49] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/42/9f/c0465d75527f4a8da3f8ba019b809ecf5c70fe5d7f938ab2ffb8cef23da9/bigdl_core_xe_esimd_21-2.5.0b20240520-cp310-cp310-win_amd64.whl
+[2024-05-20 13:14:49] INFO root fetch - processPackages [sslearn]: executing diffoscope
+[2024-05-20 13:14:49] INFO root fetch - processPackages [sslearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sslearn-1.0.5.tar.gz tmp/sslearn-1.0.5.1.tar.gz --markdown 20240520/s/sslearn/1.0.5-1.0.5.1/README.md --exclude *.pyd
+[2024-05-20 13:14:49] INFO root fetch - processPackages [snowflake-cli-labs]: executing diffoscope
+[2024-05-20 13:14:49] INFO root fetch - processPackages [snowflake-cli-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake_cli_labs-2.3.0rc1.tar.gz tmp/snowflake_cli_labs-2.3.1.tar.gz --markdown 20240520/s/snowflake-cli-labs/2.3.0rc1-2.3.1/README.md --exclude *.pyd
+[2024-05-20 13:14:49] INFO root fetch - processPackages [sais-notify]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify-0.0.5.tar.gz]
+[2024-05-20 13:14:49] INFO root fetch - processPackages [sais-notify]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify-0.0.6.tar.gz]
+[2024-05-20 13:14:49] INFO root fetch - main [MainThread]: End processing [sais-notify]: success
+[2024-05-20 13:14:49] INFO root fetch - processPackages [utilmy]: executing diffoscope
+[2024-05-20 13:14:49] INFO root fetch - processPackages [utilmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilmy-0.1.17159323.tar.gz tmp/utilmy-0.1.17161284.tar.gz --markdown 20240520/u/utilmy/0.1.17159323-0.1.17161284/README.md --exclude *.pyd
+[2024-05-20 13:14:49] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.9.tar.gz]
+[2024-05-20 13:14:49] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-05-20 13:14:49] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240519-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240520-cp310-cp310-win_amd64.whl.zip --markdown 20240520/b/bigdl-core-xe-esimd-21/2.5.0b20240519-2.5.0b20240520/README.md --exclude *.pyd
+[2024-05-20 13:14:49] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.5.0.tar.gz]
+[2024-05-20 13:14:49] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-20 13:14:49] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.8.tar.gz]
+[2024-05-20 13:14:49] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.9.tar.gz]
+[2024-05-20 13:14:49] INFO root fetch - main [MainThread]: End processing [qtlink]: success
+[2024-05-20 13:14:49] INFO root fetch - processPackages [sslearn]: Remove: archive file [/home/abi/fetcher/tmp/sslearn-1.0.5.tar.gz]
+[2024-05-20 13:14:49] INFO root fetch - processPackages [sslearn]: Remove: archive file [/home/abi/fetcher/tmp/sslearn-1.0.5.1.tar.gz]
+[2024-05-20 13:14:49] INFO root fetch - main [MainThread]: End processing [sslearn]: success
+[2024-05-20 13:14:50] ERROR root fetch - processPackages [bigdl-core-xe-esimd-21]: Diffoscope failed: time="2024-05-20T13:14:49+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140338257731072)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140338391948688)
+
+[2024-05-20 13:14:50] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-05-20 13:14:50] INFO root fetch - processPackages [snowflake-cli-labs]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_cli_labs-2.3.0rc1.tar.gz]
+[2024-05-20 13:14:50] INFO root fetch - processPackages [snowflake-cli-labs]: Remove: archive file [/home/abi/fetcher/tmp/snowflake_cli_labs-2.3.1.tar.gz]
+[2024-05-20 13:14:50] INFO root fetch - main [MainThread]: End processing [snowflake-cli-labs]: success
+[2024-05-20 13:14:51] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-20 13:14:51] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-20 13:14:51] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-20 13:15:01] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17159323.tar.gz]
+[2024-05-20 13:15:01] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17161284.tar.gz]
+[2024-05-20 13:15:01] INFO root fetch - main [MainThread]: End processing [utilmy]: success
+[2024-05-20 13:15:01] INFO root fetch - main [MainThread]: Store serial: [23288605]

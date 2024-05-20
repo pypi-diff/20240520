@@ -7969,3 +7969,30 @@
 [2024-05-20 08:07:34] INFO root fetch - processPackages [bisheng-langchain]: Remove: archive file [/home/abi/fetcher/tmp/bisheng_langchain-0.3.1.1-py3-none-any.whl.zip]
 [2024-05-20 08:07:34] INFO root fetch - main [MainThread]: End processing [bisheng-langchain]: success
 [2024-05-20 08:07:34] INFO root fetch - main [MainThread]: Store serial: [23285308]
+[2024-05-20 08:09:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285308]
+[2024-05-20 08:09:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 08:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stefutils
+[2024-05-20 08:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: project-utils-config
+[2024-05-20 08:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cutiterebraz
+[2024-05-20 08:09:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nfinance
+[2024-05-20 08:09:43] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-20 08:09:43] INFO root fetch - processPackages [nfinance]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-20 08:09:43] WARNING root fetch - processPackages [cutiterebraz]: Skipping, unable to determine old version
+[2024-05-20 08:09:43] WARNING root fetch - processPackages [project-utils-config]: Skipping, unable to determine old version
+[2024-05-20 08:09:43] INFO root fetch - main [MainThread]: End processing [cutiterebraz] error
+[2024-05-20 08:09:43] INFO root fetch - main [MainThread]: End processing [project-utils-config] error
+[2024-05-20 08:09:43] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/f5/44/c4489b0eb0a85e7f5f9912039adbd947487adf8db2c336d27ca5b4a25b74/nfinance-0.2.0-py3-none-any.whl
+[2024-05-20 08:09:43] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2024-05-20 08:09:43] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2024-05-20 08:09:43] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/93/bc/83f0f652e8673abb6ad96bff429a4efa7545c379f731ca8f1a314f0c3f9d/nfinance-0.3.0-py3-none-any.whl
+[2024-05-20 08:09:43] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2024-05-20 08:09:43] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20240520/s/stefutils/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-20 08:09:43] INFO root fetch - processPackages [nfinance]: executing diffoscope
+[2024-05-20 08:09:43] INFO root fetch - processPackages [nfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfinance-0.2.0-py3-none-any.whl.zip tmp/nfinance-0.3.0-py3-none-any.whl.zip --markdown 20240520/n/nfinance/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-20 08:09:44] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.2.0-py3-none-any.whl.zip]
+[2024-05-20 08:09:44] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.3.0-py3-none-any.whl.zip]
+[2024-05-20 08:09:44] INFO root fetch - main [MainThread]: End processing [nfinance]: success
+[2024-05-20 08:09:44] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.8.2.tar.gz]
+[2024-05-20 08:09:44] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
+[2024-05-20 08:09:44] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2024-05-20 08:09:44] INFO root fetch - main [MainThread]: Store serial: [23285321]

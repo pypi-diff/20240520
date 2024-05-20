@@ -15243,3 +15243,112 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 13:25:58] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
 [2024-05-20 13:25:58] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2024-05-20 13:25:58] INFO root fetch - main [MainThread]: Store serial: [23288705]
+[2024-05-20 13:28:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288705]
+[2024-05-20 13:28:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 13:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchrl-nightly
+[2024-05-20 13:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2024-05-20 13:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appmap
+[2024-05-20 13:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pteridophilismz
+[2024-05-20 13:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: warskald
+[2024-05-20 13:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: superlinked
+[2024-05-20 13:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchx-nightly
+[2024-05-20 13:28:08] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-20 13:28:08] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-20 13:28:08] INFO root fetch - processPackages [kfish]: New version: [99.0.202405201050] Old Version: [99.0.202405201023]
+[2024-05-20 13:28:08] INFO root fetch - processPackages [warskald]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 13:28:09] WARNING root fetch - processPackages [pteridophilismz]: Skipping, unable to determine old version
+[2024-05-20 13:28:09] INFO root fetch - main [MainThread]: End processing [pteridophilismz] error
+[2024-05-20 13:28:09] INFO root fetch - processPackages [superlinked]: New version: [4.0.1] Old Version: [3.9.1]
+[2024-05-20 13:28:09] INFO root fetch - processPackages [appmap]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-20 13:28:09] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/a5/6d/9461214af24f1d24305421c7f45896fa740108e193fceb8f3145648e07e2/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl
+[2024-05-20 13:28:09] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/4f/2c/1b1fd11c1eb29345cef72d90c551ee6ca39cb1ca91dcb13a62e39d09d3e9/torchx_nightly-2024.5.8-py3-none-any.whl
+[2024-05-20 13:28:09] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/3a/39/4ee443434c13b9bf34d2eefb6aed5427a651295e04bf27eabcf9e74c2913/kfish-99.0.202405201023-py3-none-any.whl
+[2024-05-20 13:28:09] INFO root fetch - processPackages [warskald]: Downloading https://files.pythonhosted.org/packages/86/a7/fdf44f966fab4cbd9c675ff351f1f7baced1f13edd727ccf76bd7ed99d57/warskald-0.0.8-py3-none-any.whl
+[2024-05-20 13:28:09] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/8f/6e/416193b22be21ffe493186a65f1f74ccb3521c483e54ad50c3c9f4533119/superlinked-3.9.1.tar.gz
+[2024-05-20 13:28:09] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/77/19/3475ceeec15466054f155b399d006faaf128258c35d771397c04ac9cf1e4/torchx_nightly-2024.5.9-py3-none-any.whl
+[2024-05-20 13:28:09] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/e9/e4/1d21a71adb0d6367cd81a5f47617cabf90f99ac96a421dda991f6aeefff2/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl
+[2024-05-20 13:28:09] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e9/a4/9be10906f6af3f22b1d74048b2036c7f301c9c28db403fbeda9f79e6eb21/kfish-99.0.202405201050-py3-none-any.whl
+[2024-05-20 13:28:09] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-05-20 13:28:09] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240520/t/torchx-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-20 13:28:09] INFO root fetch - processPackages [appmap]: executing diffoscope
+[2024-05-20 13:28:09] INFO root fetch - processPackages [appmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmap-1.9.0.tar.gz tmp/appmap-1.9.1.tar.gz --markdown 20240520/a/appmap/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-20 13:28:09] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-20 13:28:09] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405201023-py3-none-any.whl.zip tmp/kfish-99.0.202405201050-py3-none-any.whl.zip --markdown 20240520/k/kfish/99.0.202405201023-99.0.202405201050/README.md --exclude *.pyd
+[2024-05-20 13:28:09] INFO root fetch - processPackages [warskald]: Downloading https://files.pythonhosted.org/packages/d7/10/c13e2047f69a69094aea1d1d44f31f8401de9e536c7a3a530050194a958e/warskald-0.0.9-py3-none-any.whl
+[2024-05-20 13:28:09] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-05-20 13:28:09] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20240520/t/torchrl-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-20 13:28:09] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/87/91/362def62406158c36e2e2146c991f0edcfdb2d1bc1ae789706ca7b4cf69a/superlinked-4.0.1.tar.gz
+[2024-05-20 13:28:09] INFO root fetch - processPackages [warskald]: executing diffoscope
+[2024-05-20 13:28:09] INFO root fetch - processPackages [warskald]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warskald-0.0.8-py3-none-any.whl.zip tmp/warskald-0.0.9-py3-none-any.whl.zip --markdown 20240520/w/warskald/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 13:28:09] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-05-20 13:28:09] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-3.9.1.tar.gz tmp/superlinked-4.0.1.tar.gz --markdown 20240520/s/superlinked/3.9.1-4.0.1/README.md --exclude *.pyd
+[2024-05-20 13:28:10] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405201023-py3-none-any.whl.zip]
+[2024-05-20 13:28:10] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405201050-py3-none-any.whl.zip]
+[2024-05-20 13:28:10] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-20 13:28:10] INFO root fetch - processPackages [warskald]: Remove: archive file [/home/abi/fetcher/tmp/warskald-0.0.8-py3-none-any.whl.zip]
+[2024-05-20 13:28:10] INFO root fetch - processPackages [warskald]: Remove: archive file [/home/abi/fetcher/tmp/warskald-0.0.9-py3-none-any.whl.zip]
+[2024-05-20 13:28:10] INFO root fetch - main [MainThread]: End processing [warskald]: success
+[2024-05-20 13:28:10] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-20 13:28:10] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-20 13:28:10] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-05-20 13:28:10] ERROR root fetch - processPackages [appmap]: Diffoscope failed: time="2024-05-20T13:28:09+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2024-05-20 13:28:10] INFO root fetch - main [MainThread]: End processing [appmap] error
+[2024-05-20 13:28:10] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 13:28:10] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 13:28:10] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-05-20 13:28:11] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
+[2024-05-20 13:28:11] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-4.0.1.tar.gz]
+[2024-05-20 13:28:11] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-05-20 13:28:11] INFO root fetch - main [MainThread]: Store serial: [23288726]

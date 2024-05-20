@@ -11255,3 +11255,88 @@
 [2024-05-20 10:47:52] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-05-20 10:47:52] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-05-20 10:47:52] INFO root fetch - main [MainThread]: Store serial: [23287066]
+[2024-05-20 10:49:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287066]
+[2024-05-20 10:50:00] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-20 10:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xenogamyz
+[2024-05-20 10:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydantic-base-aiogram
+[2024-05-20 10:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DreamCreator
+[2024-05-20 10:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ttmask
+[2024-05-20 10:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-base-aiogram
+[2024-05-20 10:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lesscode-charts
+[2024-05-20 10:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sais-notify-test
+[2024-05-20 10:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-ocsf-models
+[2024-05-20 10:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sourcesage
+[2024-05-20 10:50:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: group-remote
+[2024-05-20 10:50:00] INFO root fetch - processPackages [sais-notify-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 10:50:00] INFO root fetch - processPackages [lesscode-charts]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 10:50:00] INFO root fetch - processPackages [pydantic-base-aiogram]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-20 10:50:00] INFO root fetch - processPackages [py-ocsf-models]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 10:50:00] INFO root fetch - processPackages [DreamCreator]: New version: [0.0.3] Old Version: [0.0.21]
+[2024-05-20 10:50:00] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/94/42/07c0e25844ffdc6494e7447658dc084d6435c7343816264387d435ddb98d/sais_notify_test-0.0.8.tar.gz
+[2024-05-20 10:50:00] WARNING root fetch - processPackages [xenogamyz]: Skipping, unable to determine old version
+[2024-05-20 10:50:00] INFO root fetch - main [MainThread]: End processing [xenogamyz] error
+[2024-05-20 10:50:00] INFO root fetch - processPackages [sourcesage]: New version: [4.4.0] Old Version: [4.3.0]
+[2024-05-20 10:50:00] INFO root fetch - processPackages [ttmask]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-20 10:50:00] INFO root fetch - processPackages [group-remote]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-20 10:50:00] INFO root fetch - processPackages [pydantic-base-aiogram]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-20 10:50:00] INFO root fetch - processPackages [lesscode-charts]: Downloading https://files.pythonhosted.org/packages/0d/fc/69648b9790c6554e684d024a799b16231e4eb4aa70bdc980a6838d5d44b7/lesscode_charts-0.0.8.tar.gz
+[2024-05-20 10:50:00] INFO root fetch - processPackages [pydantic-base-aiogram]: Downloading https://files.pythonhosted.org/packages/37/53/c8516a51aacb5b44adbc0ff1782064606b68a94260de6a1d6294690a1a22/pydantic_base_aiogram-1.0.98.tar.gz
+[2024-05-20 10:50:01] INFO root fetch - processPackages [py-ocsf-models]: Downloading https://files.pythonhosted.org/packages/5d/fe/73da6aeea19c51a55bd57bb6f2dae2fdc7c6cbe8c150324d5347a586575a/py_ocsf_models-0.1.0.tar.gz
+[2024-05-20 10:50:01] INFO root fetch - processPackages [pydantic-base-aiogram]: Downloading https://files.pythonhosted.org/packages/37/53/c8516a51aacb5b44adbc0ff1782064606b68a94260de6a1d6294690a1a22/pydantic_base_aiogram-1.0.98.tar.gz
+[2024-05-20 10:50:01] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/79/e5/d94a019224461027af3334b903f593f912fdf18a69e835c75999bece0f50/DreamCreator-0.0.21.tar.gz
+[2024-05-20 10:50:01] INFO root fetch - processPackages [ttmask]: Downloading https://files.pythonhosted.org/packages/32/3a/491cacd41b9076219f8373194af055aa4b12cb0aae7185f2a8d122a6b839/ttmask-0.0.4.tar.gz
+[2024-05-20 10:50:01] INFO root fetch - processPackages [group-remote]: Downloading https://files.pythonhosted.org/packages/57/b2/e7d8728abc3d7bb588f284b30365c7e85e9fa1916285d4bf7c5a924dbc7c/group-remote-0.0.98.tar.gz
+[2024-05-20 10:50:01] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/af/7a/ac17f0daa7ab738fe2f5e638d62f2cb8c0c1f86f8cadd5913ea740c174aa/sais_notify_test-0.0.9.tar.gz
+[2024-05-20 10:50:01] INFO root fetch - processPackages [sourcesage]: Downloading https://files.pythonhosted.org/packages/ed/dd/fee52741e16b14c8f110e7bc45d3d592f8b19f071f83a92ccc568bd8de60/sourcesage-4.3.0.tar.gz
+[2024-05-20 10:50:01] INFO root fetch - processPackages [lesscode-charts]: Downloading https://files.pythonhosted.org/packages/3c/ff/b8a73ae58bfe99faa84533f9c7e3cfb41c4c60bb9992eedfdfd8fcb76ba5/lesscode_charts-0.0.9.tar.gz
+[2024-05-20 10:50:01] INFO root fetch - processPackages [pydantic-base-aiogram]: Downloading https://files.pythonhosted.org/packages/64/0f/ebcc5417ae265ee0ce990612e3c9d77089c5724f6bf8caeeb8498de2a287/pydantic_base_aiogram-1.0.99.tar.gz
+[2024-05-20 10:50:01] INFO root fetch - processPackages [sais-notify-test]: executing diffoscope
+[2024-05-20 10:50:01] INFO root fetch - processPackages [sais-notify-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify_test-0.0.8.tar.gz tmp/sais_notify_test-0.0.9.tar.gz --markdown 20240520/s/sais-notify-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 10:50:01] INFO root fetch - processPackages [pydantic-base-aiogram]: Downloading https://files.pythonhosted.org/packages/64/0f/ebcc5417ae265ee0ce990612e3c9d77089c5724f6bf8caeeb8498de2a287/pydantic_base_aiogram-1.0.99.tar.gz
+[2024-05-20 10:50:01] INFO root fetch - processPackages [lesscode-charts]: executing diffoscope
+[2024-05-20 10:50:01] INFO root fetch - processPackages [lesscode-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_charts-0.0.8.tar.gz tmp/lesscode_charts-0.0.9.tar.gz --markdown 20240520/l/lesscode-charts/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 10:50:01] INFO root fetch - processPackages [pydantic-base-aiogram]: executing diffoscope
+[2024-05-20 10:50:01] INFO root fetch - processPackages [pydantic-base-aiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_base_aiogram-1.0.98.tar.gz tmp/pydantic_base_aiogram-1.0.99.tar.gz --markdown 20240520/p/pydantic-base-aiogram/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-20 10:50:01] INFO root fetch - processPackages [pydantic-base-aiogram]: executing diffoscope
+[2024-05-20 10:50:01] INFO root fetch - processPackages [py-ocsf-models]: Downloading https://files.pythonhosted.org/packages/f5/09/5e0b6b8fd652350319e43d245f4f7e096518c4f2ff896a4f3c06e8edc105/py_ocsf_models-0.1.1.tar.gz
+[2024-05-20 10:50:01] INFO root fetch - processPackages [pydantic-base-aiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_base_aiogram-1.0.98.tar.gz tmp/pydantic_base_aiogram-1.0.99.tar.gz --markdown 20240520/p/pydantic-base-aiogram/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-20 10:50:01] INFO root fetch - processPackages [ttmask]: Downloading https://files.pythonhosted.org/packages/9c/97/990eb2354c072ac62ec017dd5b1b8566cac1828e17abee109aa4979e0927/ttmask-0.0.5.tar.gz
+[2024-05-20 10:50:01] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/ce/5b/787c1affed15428a245198f913e10c9c9549e15cba1ac2612165fbc490b9/DreamCreator-0.0.3.tar.gz
+[2024-05-20 10:50:01] INFO root fetch - processPackages [group-remote]: Downloading https://files.pythonhosted.org/packages/4e/14/cf27e0c722ebe422d5024cbe915929742b7cb62d1719b04518655523e11d/group-remote-0.0.99.tar.gz
+[2024-05-20 10:50:01] INFO root fetch - processPackages [sourcesage]: Downloading https://files.pythonhosted.org/packages/23/24/2d3cd03c519781bbea0d3c1faadddab76f30079db1a46f0e43561bc58d02/sourcesage-4.4.0.tar.gz
+[2024-05-20 10:50:01] INFO root fetch - processPackages [DreamCreator]: executing diffoscope
+[2024-05-20 10:50:01] INFO root fetch - processPackages [DreamCreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DreamCreator-0.0.21.tar.gz tmp/DreamCreator-0.0.3.tar.gz --markdown 20240520/D/DreamCreator/0.0.21-0.0.3/README.md --exclude *.pyd
+[2024-05-20 10:50:01] INFO root fetch - processPackages [ttmask]: executing diffoscope
+[2024-05-20 10:50:01] INFO root fetch - processPackages [ttmask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttmask-0.0.4.tar.gz tmp/ttmask-0.0.5.tar.gz --markdown 20240520/t/ttmask/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-20 10:50:01] INFO root fetch - processPackages [group-remote]: executing diffoscope
+[2024-05-20 10:50:01] INFO root fetch - processPackages [group-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/group-remote-0.0.98.tar.gz tmp/group-remote-0.0.99.tar.gz --markdown 20240520/g/group-remote/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-20 10:50:01] INFO root fetch - processPackages [sourcesage]: executing diffoscope
+[2024-05-20 10:50:01] INFO root fetch - processPackages [sourcesage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourcesage-4.3.0.tar.gz tmp/sourcesage-4.4.0.tar.gz --markdown 20240520/s/sourcesage/4.3.0-4.4.0/README.md --exclude *.pyd
+[2024-05-20 10:50:01] INFO root fetch - processPackages [py-ocsf-models]: executing diffoscope
+[2024-05-20 10:50:01] INFO root fetch - processPackages [py-ocsf-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_ocsf_models-0.1.0.tar.gz tmp/py_ocsf_models-0.1.1.tar.gz --markdown 20240520/p/py-ocsf-models/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 10:50:02] INFO root fetch - processPackages [lesscode-charts]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_charts-0.0.8.tar.gz]
+[2024-05-20 10:50:02] INFO root fetch - processPackages [lesscode-charts]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_charts-0.0.9.tar.gz]
+[2024-05-20 10:50:02] INFO root fetch - main [MainThread]: End processing [lesscode-charts]: success
+[2024-05-20 10:50:02] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.8.tar.gz]
+[2024-05-20 10:50:02] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.9.tar.gz]
+[2024-05-20 10:50:02] INFO root fetch - main [MainThread]: End processing [sais-notify-test]: success
+[2024-05-20 10:50:02] INFO root fetch - processPackages [pydantic-base-aiogram]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_base_aiogram-1.0.98.tar.gz]
+[2024-05-20 10:50:02] INFO root fetch - processPackages [pydantic-base-aiogram]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_base_aiogram-1.0.99.tar.gz]
+[2024-05-20 10:50:02] INFO root fetch - main [MainThread]: End processing [pydantic-base-aiogram]: success
+[2024-05-20 10:50:02] INFO root fetch - main [MainThread]: End processing [pydantic-base-aiogram]: success
+[2024-05-20 10:50:02] INFO root fetch - processPackages [ttmask]: Remove: archive file [/home/abi/fetcher/tmp/ttmask-0.0.4.tar.gz]
+[2024-05-20 10:50:02] INFO root fetch - processPackages [ttmask]: Remove: archive file [/home/abi/fetcher/tmp/ttmask-0.0.5.tar.gz]
+[2024-05-20 10:50:02] INFO root fetch - main [MainThread]: End processing [ttmask]: success
+[2024-05-20 10:50:02] INFO root fetch - processPackages [group-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-remote-0.0.98.tar.gz]
+[2024-05-20 10:50:02] INFO root fetch - processPackages [group-remote]: Remove: archive file [/home/abi/fetcher/tmp/group-remote-0.0.99.tar.gz]
+[2024-05-20 10:50:02] INFO root fetch - main [MainThread]: End processing [group-remote]: success
+[2024-05-20 10:50:02] INFO root fetch - processPackages [sourcesage]: Remove: archive file [/home/abi/fetcher/tmp/sourcesage-4.3.0.tar.gz]
+[2024-05-20 10:50:02] INFO root fetch - processPackages [sourcesage]: Remove: archive file [/home/abi/fetcher/tmp/sourcesage-4.4.0.tar.gz]
+[2024-05-20 10:50:02] INFO root fetch - main [MainThread]: End processing [sourcesage]: success
+[2024-05-20 10:50:02] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.21.tar.gz]
+[2024-05-20 10:50:02] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.3.tar.gz]
+[2024-05-20 10:50:02] INFO root fetch - main [MainThread]: End processing [DreamCreator]: success
+[2024-05-20 10:50:02] INFO root fetch - processPackages [py-ocsf-models]: Remove: archive file [/home/abi/fetcher/tmp/py_ocsf_models-0.1.0.tar.gz]
+[2024-05-20 10:50:02] INFO root fetch - processPackages [py-ocsf-models]: Remove: archive file [/home/abi/fetcher/tmp/py_ocsf_models-0.1.1.tar.gz]
+[2024-05-20 10:50:02] INFO root fetch - main [MainThread]: End processing [py-ocsf-models]: success
+[2024-05-20 10:50:02] INFO root fetch - main [MainThread]: Store serial: [23287097]

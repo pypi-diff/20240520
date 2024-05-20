@@ -16048,3 +16048,51 @@ EOFError: EOF read where object expected
 [2024-05-20 13:56:40] INFO root fetch - processPackages [Solverz]: Remove: archive file [/home/abi/fetcher/tmp/solverz-0.0.1rc2.tar.gz]
 [2024-05-20 13:56:40] INFO root fetch - main [MainThread]: End processing [Solverz]: success
 [2024-05-20 13:56:40] INFO root fetch - main [MainThread]: Store serial: [23289063]
+[2024-05-20 13:58:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289063]
+[2024-05-20 13:58:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 13:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: burial-mounds
+[2024-05-20 13:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spiderYdb
+[2024-05-20 13:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: connector-project
+[2024-05-20 13:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantplay
+[2024-05-20 13:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonchurchgoingz
+[2024-05-20 13:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imsciences
+[2024-05-20 13:58:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adri-client
+[2024-05-20 13:58:49] INFO root fetch - processPackages [burial-mounds]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-20 13:58:49] INFO root fetch - processPackages [spiderYdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 13:58:49] INFO root fetch - processPackages [imsciences]: New version: [0.5.7.5] Old Version: [0.5.7.4]
+[2024-05-20 13:58:49] INFO root fetch - processPackages [burial-mounds]: Downloading https://files.pythonhosted.org/packages/2e/be/843b773cd5d7544dd8c936d580d245126c9fa95df85553a47427d5a59cb7/burial_mounds-0.1.2.tar.gz
+[2024-05-20 13:58:49] INFO root fetch - processPackages [spiderYdb]: Downloading https://files.pythonhosted.org/packages/e0/4a/96e1c84e7b452d0ae6bba0f4ed6f342d601205bd48989be284d7e541abcf/spiderYdb-0.1.8-py3-none-any.whl
+[2024-05-20 13:58:49] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/a2/4c/ecbb03d5df1db610180cc0bfef5f0dffcbee63829826a0d9ab933d237a49/imsciences-0.5.7.4.tar.gz
+[2024-05-20 13:58:49] WARNING root fetch - processPackages [connector-project]: Skipping, unable to determine old version
+[2024-05-20 13:58:49] INFO root fetch - main [MainThread]: End processing [connector-project] error
+[2024-05-20 13:58:49] WARNING root fetch - processPackages [nonchurchgoingz]: Skipping, unable to determine old version
+[2024-05-20 13:58:49] INFO root fetch - main [MainThread]: End processing [nonchurchgoingz] error
+[2024-05-20 13:58:49] WARNING root fetch - processPackages [adri-client]: Skipping, unable to determine old version
+[2024-05-20 13:58:49] INFO root fetch - main [MainThread]: End processing [adri-client] error
+[2024-05-20 13:58:49] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-20 13:58:49] INFO root fetch - processPackages [spiderYdb]: Downloading https://files.pythonhosted.org/packages/12/6b/82bc6b375e7acfe2112d16b6666a5e336ce876131a289c4456d0dfb79a18/spiderYdb-0.1.9-py3-none-any.whl
+[2024-05-20 13:58:49] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-05-20 13:58:49] INFO root fetch - processPackages [burial-mounds]: Downloading https://files.pythonhosted.org/packages/e6/db/f1888ffffd0ef4c8a569539e9b33d221786c8cd9f333cefd57840194c339/burial_mounds-0.1.3.tar.gz
+[2024-05-20 13:58:49] INFO root fetch - processPackages [spiderYdb]: executing diffoscope
+[2024-05-20 13:58:49] INFO root fetch - processPackages [spiderYdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderYdb-0.1.8-py3-none-any.whl.zip tmp/spiderYdb-0.1.9-py3-none-any.whl.zip --markdown 20240520/s/spiderYdb/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 13:58:49] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/ab/47/8b96b197fbdf6f8841ce5befa6d0cc3f5b740a5710567cb00372e569779b/imsciences-0.5.7.5.tar.gz
+[2024-05-20 13:58:49] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-20 13:58:49] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.7.4.tar.gz tmp/imsciences-0.5.7.5.tar.gz --markdown 20240520/i/imsciences/0.5.7.4-0.5.7.5/README.md --exclude *.pyd
+[2024-05-20 13:58:49] INFO root fetch - processPackages [burial-mounds]: executing diffoscope
+[2024-05-20 13:58:49] INFO root fetch - processPackages [burial-mounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burial_mounds-0.1.2.tar.gz tmp/burial_mounds-0.1.3.tar.gz --markdown 20240520/b/burial-mounds/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-20 13:58:49] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-05-20 13:58:50] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-05-20 13:58:50] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240520/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-20 13:58:50] INFO root fetch - processPackages [spiderYdb]: Remove: archive file [/home/abi/fetcher/tmp/spiderYdb-0.1.8-py3-none-any.whl.zip]
+[2024-05-20 13:58:50] INFO root fetch - processPackages [spiderYdb]: Remove: archive file [/home/abi/fetcher/tmp/spiderYdb-0.1.9-py3-none-any.whl.zip]
+[2024-05-20 13:58:50] INFO root fetch - main [MainThread]: End processing [spiderYdb]: success
+[2024-05-20 13:58:50] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.4.tar.gz]
+[2024-05-20 13:58:50] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.5.tar.gz]
+[2024-05-20 13:58:50] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-20 13:58:50] INFO root fetch - processPackages [burial-mounds]: Remove: archive file [/home/abi/fetcher/tmp/burial_mounds-0.1.2.tar.gz]
+[2024-05-20 13:58:50] INFO root fetch - processPackages [burial-mounds]: Remove: archive file [/home/abi/fetcher/tmp/burial_mounds-0.1.3.tar.gz]
+[2024-05-20 13:58:50] INFO root fetch - main [MainThread]: End processing [burial-mounds]: success
+[2024-05-20 13:58:50] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-05-20 13:58:50] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-05-20 13:58:50] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-05-20 13:58:50] INFO root fetch - main [MainThread]: Store serial: [23289093]

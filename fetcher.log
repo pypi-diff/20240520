@@ -13690,3 +13690,126 @@
 [2024-05-20 12:22:53] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-1.0.6-py3-none-any.whl.zip]
 [2024-05-20 12:22:53] INFO root fetch - main [MainThread]: End processing [appmesh]: success
 [2024-05-20 12:22:53] INFO root fetch - main [MainThread]: Store serial: [23288091]
+[2024-05-20 12:24:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288091]
+[2024-05-20 12:25:01] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-20 12:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: goalchain
+[2024-05-20 12:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gene4mvcf
+[2024-05-20 12:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: setux
+[2024-05-20 12:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azureml-designer-pytorch-modules
+[2024-05-20 12:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kfish
+[2024-05-20 12:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb
+[2024-05-20 12:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-dataset
+[2024-05-20 12:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-models
+[2024-05-20 12:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-protos
+[2024-05-20 12:25:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-financial-report
+[2024-05-20 12:25:01] WARNING root fetch - processPackages [goalchain]: Skipping, unable to determine old version
+[2024-05-20 12:25:01] INFO root fetch - processPackages [goalchain]: Start processing: nucliadb-sdk
+[2024-05-20 12:25:01] INFO root fetch - main [MainThread]: End processing [goalchain] error
+[2024-05-20 12:25:01] INFO root fetch - processPackages [nucliadb-models]: New version: [4.0.0.post518] Old Version: [4.0.0.post517]
+[2024-05-20 12:25:01] INFO root fetch - processPackages [nucliadb-protos]: New version: [4.0.0.post518] Old Version: [4.0.0.post517]
+[2024-05-20 12:25:01] INFO root fetch - processPackages [nucliadb]: New version: [4.0.0.post518] Old Version: [4.0.0.post517]
+[2024-05-20 12:25:01] INFO root fetch - processPackages [nucliadb-dataset]: New version: [4.0.0.post518] Old Version: [4.0.0.post517]
+[2024-05-20 12:25:01] INFO root fetch - processPackages [gene4mvcf]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 12:25:01] INFO root fetch - processPackages [azureml-designer-pytorch-modules]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 12:25:01] INFO root fetch - processPackages [nucliadb-sdk]: New version: [4.0.0.post518] Old Version: [4.0.0.post517]
+[2024-05-20 12:25:01] INFO root fetch - processPackages [setux]: New version: [0.6.3.1] Old Version: [0.6.3.0]
+[2024-05-20 12:25:01] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [17.0.1.1.2.1] Old Version: [17.0.1.1.2]
+[2024-05-20 12:25:01] INFO root fetch - processPackages [kfish]: New version: [99.0.202405201023] Old Version: [99.0.202405171412]
+[2024-05-20 12:25:01] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/cf/2f/c6aaf4d8218c27fd2591bee9a1a903e97edc373fac20d8393cdb57dc6410/nucliadb_models-4.0.0.post517-py3-none-any.whl
+[2024-05-20 12:25:01] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/f7/73/bc525475040b196171d634feacddb5c516590933ad3bb74006ad2894cec6/nucliadb_protos-4.0.0.post517-py3-none-any.whl
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/40/55/2314f83c4e5dc5163a731f36808a151536474454476bc3a42e6f933883eb/nucliadb_dataset-4.0.0.post517-py3-none-any.whl
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/33/59/d5230f3927c19d135cf828fea2846ca7ff3d2ce4173109ff85fa7ac79ed1/nucliadb_sdk-4.0.0.post517-py3-none-any.whl
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/54/b7/773815ef0ff2c722b26ba572f319c8edd4e1a5c10eeb5ddb6a6ae9a65af3/nucliadb-4.0.0.post517-py3-none-any.whl
+[2024-05-20 12:25:02] INFO root fetch - processPackages [azureml-designer-pytorch-modules]: Downloading https://files.pythonhosted.org/packages/12/ff/80a8ef97e9dbd60a213ef9d7c3be80dc55812e02a4a518c6e22eda3c0664/azureml_designer_pytorch_modules-0.0.8-py3-none-any.whl
+[2024-05-20 12:25:02] INFO root fetch - processPackages [gene4mvcf]: Downloading https://files.pythonhosted.org/packages/fb/64/30c51b7f8ae24cbc5d11417093748bff613e4e5534a667c8fe679a88da29/gene4mvcf-1.0.2.tar.gz
+[2024-05-20 12:25:02] INFO root fetch - processPackages [setux]: Downloading https://files.pythonhosted.org/packages/2f/49/91934bd9aee6533448fdf391683c7a735a63a59ad2cf2563b52b98ad4201/setux-0.6.3.0.tar.gz
+[2024-05-20 12:25:02] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/81/4f/d8b81d3e54d6db919ee371e3664f509b8e698355f38665e245c16d5b88c6/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl
+[2024-05-20 12:25:02] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/3f/ce/cc69d46e264932ad52f93069d403ad8478a34d0140320fd2c9d1595ce681/kfish-99.0.202405171412-py3-none-any.whl
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/8e/2f/9a0aaa2623419323d5d87b6a9dd7063ef2e908e7c42cb8dcfc2e7f242cd9/nucliadb_protos-4.0.0.post518-py3-none-any.whl
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/14/99/9eccf53aa8ee00652f1770555d01a8a39cc078327235a5309f6fb5c9d71e/nucliadb_sdk-4.0.0.post518-py3-none-any.whl
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/cd/b3/d3ebf5e73d28f58da2c1972a92985c4b98d70fcb0099d313c2d0f84d0dba/nucliadb_models-4.0.0.post518-py3-none-any.whl
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/40/0f/fda10e9ad0d25309ed54002f82f8ce74b5e3e182460be2a5106acc389609/nucliadb_dataset-4.0.0.post518-py3-none-any.whl
+[2024-05-20 12:25:02] INFO root fetch - processPackages [gene4mvcf]: Downloading https://files.pythonhosted.org/packages/b0/32/3fd679a626a7665a1d1c49072bc0cc698637f2cf102fe0b13c0ff9234e67/gene4mvcf-1.0.3.tar.gz
+[2024-05-20 12:25:02] INFO root fetch - processPackages [setux]: Downloading https://files.pythonhosted.org/packages/ad/0f/ea659bb0a2030b085f60069b2fb29d1dc322f7444f95eaa97478e78035e2/setux-0.6.3.1.tar.gz
+[2024-05-20 12:25:02] INFO root fetch - processPackages [azureml-designer-pytorch-modules]: Downloading https://files.pythonhosted.org/packages/be/a8/fbc1c91856645759116b262cb328e5c45ddb1b28c8e04da490864c3b2b1b/azureml_designer_pytorch_modules-0.0.9-py3-none-any.whl
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/12/be/4c985ba0f2d9d01eb3d24f1226625d83aac52897bd296dafe169d52a1812/nucliadb-4.0.0.post518-py3-none-any.whl
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-4.0.0.post517-py3-none-any.whl.zip tmp/nucliadb_protos-4.0.0.post518-py3-none-any.whl.zip --markdown 20240520/n/nucliadb-protos/4.0.0.post517-4.0.0.post518/README.md --exclude *.pyd
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-4.0.0.post517-py3-none-any.whl.zip tmp/nucliadb_sdk-4.0.0.post518-py3-none-any.whl.zip --markdown 20240520/n/nucliadb-sdk/4.0.0.post517-4.0.0.post518/README.md --exclude *.pyd
+[2024-05-20 12:25:02] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/3a/39/4ee443434c13b9bf34d2eefb6aed5427a651295e04bf27eabcf9e74c2913/kfish-99.0.202405201023-py3-none-any.whl
+[2024-05-20 12:25:02] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/40/3b/e041799de37bedb1f81654cefd3cfce800c77a29592bb5c956278ba9daa4/odoo_addon_account_financial_report-17.0.1.1.2.1-py3-none-any.whl
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-4.0.0.post517-py3-none-any.whl.zip tmp/nucliadb_models-4.0.0.post518-py3-none-any.whl.zip --markdown 20240520/n/nucliadb-models/4.0.0.post517-4.0.0.post518/README.md --exclude *.pyd
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-4.0.0.post517-py3-none-any.whl.zip tmp/nucliadb_dataset-4.0.0.post518-py3-none-any.whl.zip --markdown 20240520/n/nucliadb-dataset/4.0.0.post517-4.0.0.post518/README.md --exclude *.pyd
+[2024-05-20 12:25:02] INFO root fetch - processPackages [gene4mvcf]: executing diffoscope
+[2024-05-20 12:25:02] INFO root fetch - processPackages [gene4mvcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gene4mvcf-1.0.2.tar.gz tmp/gene4mvcf-1.0.3.tar.gz --markdown 20240520/g/gene4mvcf/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 12:25:02] INFO root fetch - processPackages [setux]: executing diffoscope
+[2024-05-20 12:25:02] INFO root fetch - processPackages [setux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setux-0.6.3.0.tar.gz tmp/setux-0.6.3.1.tar.gz --markdown 20240520/s/setux/0.6.3.0-0.6.3.1/README.md --exclude *.pyd
+[2024-05-20 12:25:02] INFO root fetch - processPackages [azureml-designer-pytorch-modules]: executing diffoscope
+[2024-05-20 12:25:02] INFO root fetch - processPackages [azureml-designer-pytorch-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_designer_pytorch_modules-0.0.8-py3-none-any.whl.zip tmp/azureml_designer_pytorch_modules-0.0.9-py3-none-any.whl.zip --markdown 20240520/a/azureml-designer-pytorch-modules/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 12:25:02] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-20 12:25:02] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405171412-py3-none-any.whl.zip tmp/kfish-99.0.202405201023-py3-none-any.whl.zip --markdown 20240520/k/kfish/99.0.202405171412-99.0.202405201023/README.md --exclude *.pyd
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-20 12:25:02] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-4.0.0.post517-py3-none-any.whl.zip tmp/nucliadb-4.0.0.post518-py3-none-any.whl.zip --markdown 20240520/n/nucliadb/4.0.0.post517-4.0.0.post518/README.md --exclude *.pyd
+[2024-05-20 12:25:02] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-05-20 12:25:02] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-17.0.1.1.2.1-py3-none-any.whl.zip --markdown 20240520/o/odoo-addon-account-financial-report/17.0.1.1.2-17.0.1.1.2.1/README.md --exclude *.pyd
+[2024-05-20 12:25:03] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post517-py3-none-any.whl.zip]
+[2024-05-20 12:25:03] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post518-py3-none-any.whl.zip]
+[2024-05-20 12:25:03] INFO root fetch - processPackages [nucliadb-protos]: Start processing: lib-version-urlphishing
+[2024-05-20 12:25:03] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-20 12:25:03] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post517-py3-none-any.whl.zip]
+[2024-05-20 12:25:03] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post518-py3-none-any.whl.zip]
+[2024-05-20 12:25:03] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-telemetry
+[2024-05-20 12:25:03] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-20 12:25:03] INFO root fetch - processPackages [lib-version-urlphishing]: New version: [2.2.7] Old Version: [2.2.4]
+[2024-05-20 12:25:03] INFO root fetch - processPackages [azureml-designer-pytorch-modules]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_pytorch_modules-0.0.8-py3-none-any.whl.zip]
+[2024-05-20 12:25:03] INFO root fetch - processPackages [azureml-designer-pytorch-modules]: Remove: archive file [/home/abi/fetcher/tmp/azureml_designer_pytorch_modules-0.0.9-py3-none-any.whl.zip]
+[2024-05-20 12:25:03] INFO root fetch - processPackages [azureml-designer-pytorch-modules]: Start processing: nucliadb-utils
+[2024-05-20 12:25:03] INFO root fetch - main [MainThread]: End processing [azureml-designer-pytorch-modules]: success
+[2024-05-20 12:25:03] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [4.0.0.post518] Old Version: [4.0.0.post517]
+[2024-05-20 12:25:03] INFO root fetch - processPackages [lib-version-urlphishing]: Downloading https://files.pythonhosted.org/packages/d7/f8/04f690e341a959a612e82a3a22a45069d034e5d2c10b0ccc595f865934c3/lib_version_urlphishing-2.2.4.tar.gz
+[2024-05-20 12:25:03] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post517-py3-none-any.whl.zip]
+[2024-05-20 12:25:03] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post518-py3-none-any.whl.zip]
+[2024-05-20 12:25:03] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-20 12:25:03] INFO root fetch - processPackages [setux]: Remove: archive file [/home/abi/fetcher/tmp/setux-0.6.3.0.tar.gz]
+[2024-05-20 12:25:03] INFO root fetch - processPackages [setux]: Remove: archive file [/home/abi/fetcher/tmp/setux-0.6.3.1.tar.gz]
+[2024-05-20 12:25:03] INFO root fetch - main [MainThread]: End processing [setux]: success
+[2024-05-20 12:25:03] INFO root fetch - processPackages [nucliadb-utils]: New version: [4.0.0.post518] Old Version: [4.0.0.post517]
+[2024-05-20 12:25:03] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post517-py3-none-any.whl.zip]
+[2024-05-20 12:25:03] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post518-py3-none-any.whl.zip]
+[2024-05-20 12:25:03] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-20 12:25:03] INFO root fetch - processPackages [gene4mvcf]: Remove: archive file [/home/abi/fetcher/tmp/gene4mvcf-1.0.2.tar.gz]
+[2024-05-20 12:25:03] INFO root fetch - processPackages [gene4mvcf]: Remove: archive file [/home/abi/fetcher/tmp/gene4mvcf-1.0.3.tar.gz]
+[2024-05-20 12:25:03] INFO root fetch - main [MainThread]: End processing [gene4mvcf]: success
+[2024-05-20 12:25:03] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/7f/14/00bf714a0b3221c84997f015941358d08b02863e8d0b6e1552ece77f9d5c/nucliadb_telemetry-4.0.0.post517-py3-none-any.whl
+[2024-05-20 12:25:03] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405171412-py3-none-any.whl.zip]
+[2024-05-20 12:25:03] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405201023-py3-none-any.whl.zip]
+[2024-05-20 12:25:03] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-20 12:25:03] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/3b/22/0b044932129853b1be212406cacd081760cad06fafc69244534c17740804/nucliadb_utils-4.0.0.post517-py3-none-any.whl
+[2024-05-20 12:25:04] INFO root fetch - processPackages [lib-version-urlphishing]: Downloading https://files.pythonhosted.org/packages/49/46/fa2a85c802bd05e0f10ed33c1de7450165f601cb8e69dd050ad41b199619/lib_version_urlphishing-2.2.7.tar.gz
+[2024-05-20 12:25:04] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.2-py3-none-any.whl.zip]
+[2024-05-20 12:25:04] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-17.0.1.1.2.1-py3-none-any.whl.zip]
+[2024-05-20 12:25:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-05-20 12:25:04] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/e0/bf/feaeec8b30626f2a67a929d32ffeb7933eb1bd3824191b3904bfb7f0546f/nucliadb_telemetry-4.0.0.post518-py3-none-any.whl
+[2024-05-20 12:25:04] INFO root fetch - processPackages [lib-version-urlphishing]: executing diffoscope
+[2024-05-20 12:25:04] INFO root fetch - processPackages [lib-version-urlphishing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_urlphishing-2.2.4.tar.gz tmp/lib_version_urlphishing-2.2.7.tar.gz --markdown 20240520/l/lib-version-urlphishing/2.2.4-2.2.7/README.md --exclude *.pyd
+[2024-05-20 12:25:04] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/e9/b2/eaa816dc8a7be9bbb59f5b9a9f0af8d916c4ef8eabeb42157739bc5e2700/nucliadb_utils-4.0.0.post518-py3-none-any.whl
+[2024-05-20 12:25:04] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-20 12:25:04] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-4.0.0.post517-py3-none-any.whl.zip tmp/nucliadb_telemetry-4.0.0.post518-py3-none-any.whl.zip --markdown 20240520/n/nucliadb-telemetry/4.0.0.post517-4.0.0.post518/README.md --exclude *.pyd
+[2024-05-20 12:25:04] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-20 12:25:04] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-4.0.0.post517-py3-none-any.whl.zip tmp/nucliadb_utils-4.0.0.post518-py3-none-any.whl.zip --markdown 20240520/n/nucliadb-utils/4.0.0.post517-4.0.0.post518/README.md --exclude *.pyd
+[2024-05-20 12:25:04] INFO root fetch - processPackages [lib-version-urlphishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-2.2.4.tar.gz]
+[2024-05-20 12:25:04] INFO root fetch - processPackages [lib-version-urlphishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-2.2.7.tar.gz]
+[2024-05-20 12:25:04] INFO root fetch - main [MainThread]: End processing [lib-version-urlphishing]: success
+[2024-05-20 12:25:05] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.0.post517-py3-none-any.whl.zip]
+[2024-05-20 12:25:05] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-4.0.0.post518-py3-none-any.whl.zip]
+[2024-05-20 12:25:05] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-20 12:25:05] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post517-py3-none-any.whl.zip]
+[2024-05-20 12:25:05] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post518-py3-none-any.whl.zip]
+[2024-05-20 12:25:05] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-20 12:25:05] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post517-py3-none-any.whl.zip]
+[2024-05-20 12:25:05] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post518-py3-none-any.whl.zip]
+[2024-05-20 12:25:05] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-20 12:25:05] INFO root fetch - main [MainThread]: Store serial: [23288125]

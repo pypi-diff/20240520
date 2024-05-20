@@ -9377,3 +9377,56 @@
 [2024-05-20 09:25:10] INFO root fetch - processPackages [ShockFinder]: Remove: archive file [/home/abi/fetcher/tmp/ShockFinder-7.4.7.tar.gz]
 [2024-05-20 09:25:10] INFO root fetch - main [MainThread]: End processing [ShockFinder]: success
 [2024-05-20 09:25:10] INFO root fetch - main [MainThread]: Store serial: [23286255]
+[2024-05-20 09:27:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286255]
+[2024-05-20 09:27:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 09:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tdda
+[2024-05-20 09:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: connersz
+[2024-05-20 09:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hazelcast-python-client
+[2024-05-20 09:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mongo-bridge
+[2024-05-20 09:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gempyp
+[2024-05-20 09:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: techgram
+[2024-05-20 09:27:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: genlib
+[2024-05-20 09:27:19] INFO root fetch - processPackages [techgram]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 09:27:19] INFO root fetch - processPackages [techgram]: Downloading https://files.pythonhosted.org/packages/bb/6a/8f42ce2261917180e04383db934b3337df0e0e91cb53fa81e5c1a25f8e52/techgram-1.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-20 09:27:19] WARNING root fetch - processPackages [connersz]: Skipping, unable to determine old version
+[2024-05-20 09:27:19] INFO root fetch - main [MainThread]: End processing [connersz] error
+[2024-05-20 09:27:19] INFO root fetch - processPackages [mongo-bridge]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-20 09:27:19] INFO root fetch - processPackages [genlib]: New version: [0.3.1.1] Old Version: [0.3.1]
+[2024-05-20 09:27:19] INFO root fetch - processPackages [tdda]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-05-20 09:27:19] INFO root fetch - processPackages [hazelcast-python-client]: New version: [5.4.0] Old Version: [5.3.0]
+[2024-05-20 09:27:19] INFO root fetch - processPackages [gempyp]: New version: [1.0.90b3] Old Version: [1.0.90b2]
+[2024-05-20 09:27:19] WARNING root fetch - processPackages [techgram]: Skipping package: exceeds size limit 11235555>=10485760
+[2024-05-20 09:27:19] INFO root fetch - main [MainThread]: End processing [techgram] error
+[2024-05-20 09:27:19] INFO root fetch - processPackages [tdda]: Downloading https://files.pythonhosted.org/packages/ee/1d/8ad553f07fb2e00f7ad887997a0dc2e3e1295a053fc41eb911af228b3da8/tdda-2.1.5.tar.gz
+[2024-05-20 09:27:19] INFO root fetch - processPackages [hazelcast-python-client]: Downloading https://files.pythonhosted.org/packages/76/50/1ca295b2a9c8ba695cf7c4bf83c36dfa2d9313a2d6260823fc605f705326/hazelcast-python-client-5.3.0.tar.gz
+[2024-05-20 09:27:19] INFO root fetch - processPackages [mongo-bridge]: Downloading https://files.pythonhosted.org/packages/7c/3d/8523276c4186a7a533d2522dc7a84cafd38bfec9bbccb0fe427ee80c8b15/mongo_bridge-0.0.4.tar.gz
+[2024-05-20 09:27:19] INFO root fetch - processPackages [genlib]: Downloading https://files.pythonhosted.org/packages/cb/7b/f2d6e6ab876e9684c309fa19aff0a5cfda8d174583b250e910ca6419daca/genlib-0.3.1.tar.gz
+[2024-05-20 09:27:20] INFO root fetch - processPackages [gempyp]: Downloading https://files.pythonhosted.org/packages/7d/33/9c6993ac7e1753b3fbb7421f96360ab3f3300b76c7de47762c92198dff51/gempyp-1.0.90b2.tar.gz
+[2024-05-20 09:27:20] INFO root fetch - processPackages [mongo-bridge]: Downloading https://files.pythonhosted.org/packages/a0/3e/7d024e1205b136a3afb5c81c5e33d74b3120bcdf5c365974b7e553d4a449/mongo_bridge-0.0.5.tar.gz
+[2024-05-20 09:27:20] INFO root fetch - processPackages [hazelcast-python-client]: Downloading https://files.pythonhosted.org/packages/84/82/8b7304ad9a7c43a7f6a0fa6af1f4d21994afdeec96a74c47307059382cf1/hazelcast_python_client-5.4.0.tar.gz
+[2024-05-20 09:27:20] INFO root fetch - processPackages [genlib]: Downloading https://files.pythonhosted.org/packages/87/db/5db0956889fa0e7af64fd9a847d04554b375dd9d91d745593a8b0794c934/genlib-0.3.1.1.tar.gz
+[2024-05-20 09:27:20] INFO root fetch - processPackages [gempyp]: Downloading https://files.pythonhosted.org/packages/93/94/878c468d527cf8ec29d87e853ae3998120c4add97bad9c769bc9495a400f/gempyp-1.0.90b3.tar.gz
+[2024-05-20 09:27:20] INFO root fetch - processPackages [mongo-bridge]: executing diffoscope
+[2024-05-20 09:27:20] INFO root fetch - processPackages [mongo-bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo_bridge-0.0.4.tar.gz tmp/mongo_bridge-0.0.5.tar.gz --markdown 20240520/m/mongo-bridge/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-20 09:27:20] INFO root fetch - processPackages [gempyp]: executing diffoscope
+[2024-05-20 09:27:20] INFO root fetch - processPackages [gempyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gempyp-1.0.90b2.tar.gz tmp/gempyp-1.0.90b3.tar.gz --markdown 20240520/g/gempyp/1.0.90b2-1.0.90b3/README.md --exclude *.pyd
+[2024-05-20 09:27:20] INFO root fetch - processPackages [tdda]: Downloading https://files.pythonhosted.org/packages/fa/95/2d365e3703271273a7d5c57b07611f00d8330263885d7c450ab8e3c7bffb/tdda-2.1.6.tar.gz
+[2024-05-20 09:27:20] INFO root fetch - processPackages [genlib]: executing diffoscope
+[2024-05-20 09:27:20] INFO root fetch - processPackages [genlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genlib-0.3.1.tar.gz tmp/genlib-0.3.1.1.tar.gz --markdown 20240520/g/genlib/0.3.1-0.3.1.1/README.md --exclude *.pyd
+[2024-05-20 09:27:20] INFO root fetch - processPackages [hazelcast-python-client]: executing diffoscope
+[2024-05-20 09:27:20] INFO root fetch - processPackages [hazelcast-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hazelcast-python-client-5.3.0.tar.gz tmp/hazelcast_python_client-5.4.0.tar.gz --markdown 20240520/h/hazelcast-python-client/5.3.0-5.4.0/README.md --exclude *.pyd
+[2024-05-20 09:27:20] WARNING root fetch - processPackages [tdda]: Skipping package: exceeds size limit 12497309>=10485760
+[2024-05-20 09:27:20] INFO root fetch - main [MainThread]: End processing [tdda] error
+[2024-05-20 09:27:21] INFO root fetch - processPackages [mongo-bridge]: Remove: archive file [/home/abi/fetcher/tmp/mongo_bridge-0.0.4.tar.gz]
+[2024-05-20 09:27:21] INFO root fetch - processPackages [mongo-bridge]: Remove: archive file [/home/abi/fetcher/tmp/mongo_bridge-0.0.5.tar.gz]
+[2024-05-20 09:27:21] INFO root fetch - main [MainThread]: End processing [mongo-bridge]: success
+[2024-05-20 09:27:21] INFO root fetch - processPackages [genlib]: Remove: archive file [/home/abi/fetcher/tmp/genlib-0.3.1.tar.gz]
+[2024-05-20 09:27:21] INFO root fetch - processPackages [genlib]: Remove: archive file [/home/abi/fetcher/tmp/genlib-0.3.1.1.tar.gz]
+[2024-05-20 09:27:21] INFO root fetch - main [MainThread]: End processing [genlib]: success
+[2024-05-20 09:27:21] INFO root fetch - processPackages [gempyp]: Remove: archive file [/home/abi/fetcher/tmp/gempyp-1.0.90b2.tar.gz]
+[2024-05-20 09:27:21] INFO root fetch - processPackages [gempyp]: Remove: archive file [/home/abi/fetcher/tmp/gempyp-1.0.90b3.tar.gz]
+[2024-05-20 09:27:21] INFO root fetch - main [MainThread]: End processing [gempyp]: success
+[2024-05-20 09:27:22] INFO root fetch - processPackages [hazelcast-python-client]: Remove: archive file [/home/abi/fetcher/tmp/hazelcast-python-client-5.3.0.tar.gz]
+[2024-05-20 09:27:22] INFO root fetch - processPackages [hazelcast-python-client]: Remove: archive file [/home/abi/fetcher/tmp/hazelcast_python_client-5.4.0.tar.gz]
+[2024-05-20 09:27:22] INFO root fetch - main [MainThread]: End processing [hazelcast-python-client]: success
+[2024-05-20 09:27:22] INFO root fetch - main [MainThread]: Store serial: [23286298]

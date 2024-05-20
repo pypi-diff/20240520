@@ -8755,3 +8755,33 @@
 [2024-05-20 08:47:35] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc9.tar.gz]
 [2024-05-20 08:47:35] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2024-05-20 08:47:35] INFO root fetch - main [MainThread]: Store serial: [23285678]
+[2024-05-20 08:49:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285678]
+[2024-05-20 08:49:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 08:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gw-tools
+[2024-05-20 08:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eliasliu
+[2024-05-20 08:49:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phys2cvr
+[2024-05-20 08:49:44] INFO root fetch - processPackages [phys2cvr]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-20 08:49:44] INFO root fetch - processPackages [cdk-gw-tools]: New version: [3.0.0] Old Version: [0.4.4]
+[2024-05-20 08:49:44] INFO root fetch - processPackages [eliasliu]: New version: [0.1.56] Old Version: [0.1.55]
+[2024-05-20 08:49:44] INFO root fetch - processPackages [phys2cvr]: Downloading https://files.pythonhosted.org/packages/0a/59/6a3e29d2a133536d86ea73f7f80dce43ce8df41d1d7de80d32657a753735/phys2cvr-0.8.0.tar.gz
+[2024-05-20 08:49:44] INFO root fetch - processPackages [cdk-gw-tools]: Downloading https://files.pythonhosted.org/packages/f2/49/5b9e5b437a568ddadc3d8e3e702832d8f6be6456f2ba02c540bbf387de1c/cdk_gw_tools-0.4.4.tar.gz
+[2024-05-20 08:49:44] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/ea/fb/15ffff397d1e526ccf343871bf73e68aea2042213943375c7447e5d762f1/eliasliu-0.1.55.tar.gz
+[2024-05-20 08:49:44] INFO root fetch - processPackages [phys2cvr]: Downloading https://files.pythonhosted.org/packages/cc/c4/c7fc1fddcdf7e782b08593f33a302ea13b5b8b63a5fd8992d645205ee061/phys2cvr-0.9.0.tar.gz
+[2024-05-20 08:49:44] INFO root fetch - processPackages [phys2cvr]: executing diffoscope
+[2024-05-20 08:49:44] INFO root fetch - processPackages [phys2cvr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phys2cvr-0.8.0.tar.gz tmp/phys2cvr-0.9.0.tar.gz --markdown 20240520/p/phys2cvr/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-20 08:49:44] INFO root fetch - processPackages [cdk-gw-tools]: Downloading https://files.pythonhosted.org/packages/6f/c0/a023cb7b70297b6d5d850bcdc7d5a84cc3097c89f12c6ca8d89964e987d5/cdk_gw_tools-3.0.0.tar.gz
+[2024-05-20 08:49:44] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/98/5e/301bef99235d3ea8ea7fb03d13598087bb46376909ba21166703d31c635b/eliasliu-0.1.56.tar.gz
+[2024-05-20 08:49:44] INFO root fetch - processPackages [cdk-gw-tools]: executing diffoscope
+[2024-05-20 08:49:44] INFO root fetch - processPackages [cdk-gw-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_gw_tools-0.4.4.tar.gz tmp/cdk_gw_tools-3.0.0.tar.gz --markdown 20240520/c/cdk-gw-tools/0.4.4-3.0.0/README.md --exclude *.pyd
+[2024-05-20 08:49:44] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2024-05-20 08:49:44] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.55.tar.gz tmp/eliasliu-0.1.56.tar.gz --markdown 20240520/e/eliasliu/0.1.55-0.1.56/README.md --exclude *.pyd
+[2024-05-20 08:49:45] INFO root fetch - processPackages [phys2cvr]: Remove: archive file [/home/abi/fetcher/tmp/phys2cvr-0.8.0.tar.gz]
+[2024-05-20 08:49:45] INFO root fetch - processPackages [phys2cvr]: Remove: archive file [/home/abi/fetcher/tmp/phys2cvr-0.9.0.tar.gz]
+[2024-05-20 08:49:45] INFO root fetch - main [MainThread]: End processing [phys2cvr]: success
+[2024-05-20 08:49:45] INFO root fetch - processPackages [cdk-gw-tools]: Remove: archive file [/home/abi/fetcher/tmp/cdk_gw_tools-0.4.4.tar.gz]
+[2024-05-20 08:49:45] INFO root fetch - processPackages [cdk-gw-tools]: Remove: archive file [/home/abi/fetcher/tmp/cdk_gw_tools-3.0.0.tar.gz]
+[2024-05-20 08:49:45] INFO root fetch - main [MainThread]: End processing [cdk-gw-tools]: success
+[2024-05-20 08:49:45] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.55.tar.gz]
+[2024-05-20 08:49:45] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.56.tar.gz]
+[2024-05-20 08:49:45] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2024-05-20 08:49:45] INFO root fetch - main [MainThread]: Store serial: [23285687]

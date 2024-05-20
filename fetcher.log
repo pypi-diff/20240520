@@ -9335,3 +9335,27 @@
 [2024-05-20 09:20:43] INFO root fetch - processPackages [xcloudforlinux]: Remove: archive file [/home/abi/fetcher/tmp/xcloudforlinux-0.3.1.tar.gz]
 [2024-05-20 09:20:43] INFO root fetch - main [MainThread]: End processing [xcloudforlinux]: success
 [2024-05-20 09:20:43] INFO root fetch - main [MainThread]: Store serial: [23286222]
+[2024-05-20 09:22:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286222]
+[2024-05-20 09:22:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 09:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mynheerz
+[2024-05-20 09:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evergreen-lint
+[2024-05-20 09:22:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylint
+[2024-05-20 09:22:51] INFO root fetch - processPackages [pylint]: New version: [3.2.1] Old Version: [3.2.0]
+[2024-05-20 09:22:52] WARNING root fetch - processPackages [mynheerz]: Skipping, unable to determine old version
+[2024-05-20 09:22:52] INFO root fetch - main [MainThread]: End processing [mynheerz] error
+[2024-05-20 09:22:52] INFO root fetch - processPackages [evergreen-lint]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-20 09:22:52] INFO root fetch - processPackages [pylint]: Downloading https://files.pythonhosted.org/packages/62/75/e48496ea7fc2de24b361dd8084300a2f7e51c47e82363c736026d41cdf2f/pylint-3.2.0.tar.gz
+[2024-05-20 09:22:52] INFO root fetch - processPackages [evergreen-lint]: Downloading https://files.pythonhosted.org/packages/a9/0f/284d73656a32938af194111a183c9a7affb93fc1ab461ebdc0afaba9e6e4/evergreen_lint-0.1.7.tar.gz
+[2024-05-20 09:22:52] INFO root fetch - processPackages [evergreen-lint]: Downloading https://files.pythonhosted.org/packages/87/66/7210c912036cadb38f36f536c81ea332f7644a81975ccef68c071e4b3fdf/evergreen_lint-0.1.8.tar.gz
+[2024-05-20 09:22:52] INFO root fetch - processPackages [evergreen-lint]: executing diffoscope
+[2024-05-20 09:22:52] INFO root fetch - processPackages [evergreen-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evergreen_lint-0.1.7.tar.gz tmp/evergreen_lint-0.1.8.tar.gz --markdown 20240520/e/evergreen-lint/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-20 09:22:52] INFO root fetch - processPackages [pylint]: Downloading https://files.pythonhosted.org/packages/14/cf/2e36e27381a3d8b3736d0deab9838fc4b3b59f609002ddae1f2c85bd6aae/pylint-3.2.1.tar.gz
+[2024-05-20 09:22:52] INFO root fetch - processPackages [pylint]: executing diffoscope
+[2024-05-20 09:22:52] INFO root fetch - processPackages [pylint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylint-3.2.0.tar.gz tmp/pylint-3.2.1.tar.gz --markdown 20240520/p/pylint/3.2.0-3.2.1/README.md --exclude *.pyd
+[2024-05-20 09:22:53] INFO root fetch - processPackages [evergreen-lint]: Remove: archive file [/home/abi/fetcher/tmp/evergreen_lint-0.1.7.tar.gz]
+[2024-05-20 09:22:53] INFO root fetch - processPackages [evergreen-lint]: Remove: archive file [/home/abi/fetcher/tmp/evergreen_lint-0.1.8.tar.gz]
+[2024-05-20 09:22:53] INFO root fetch - main [MainThread]: End processing [evergreen-lint]: success
+[2024-05-20 09:23:00] INFO root fetch - processPackages [pylint]: Remove: archive file [/home/abi/fetcher/tmp/pylint-3.2.0.tar.gz]
+[2024-05-20 09:23:00] INFO root fetch - processPackages [pylint]: Remove: archive file [/home/abi/fetcher/tmp/pylint-3.2.1.tar.gz]
+[2024-05-20 09:23:00] INFO root fetch - main [MainThread]: End processing [pylint]: success
+[2024-05-20 09:23:00] INFO root fetch - main [MainThread]: Store serial: [23286232]

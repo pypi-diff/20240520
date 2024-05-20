@@ -5778,3 +5778,21 @@
 [2024-05-20 05:28:37] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.2.3.tar.gz]
 [2024-05-20 05:28:37] INFO root fetch - main [MainThread]: End processing [wlkata-mirobot-Virtual]: success
 [2024-05-20 05:28:37] INFO root fetch - main [MainThread]: Store serial: [23284137]
+[2024-05-20 05:30:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284137]
+[2024-05-20 05:30:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 05:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: konfuzio-sdk
+[2024-05-20 05:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typing-test-sdd
+[2024-05-20 05:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogeniesz
+[2024-05-20 05:30:45] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.3.6.dev20240515214331] Old Version: [0.3.6]
+[2024-05-20 05:30:45] WARNING root fetch - processPackages [typing-test-sdd]: Skipping, unable to determine old version
+[2024-05-20 05:30:45] INFO root fetch - main [MainThread]: End processing [typing-test-sdd] error
+[2024-05-20 05:30:45] WARNING root fetch - processPackages [autogeniesz]: Skipping, unable to determine old version
+[2024-05-20 05:30:45] INFO root fetch - main [MainThread]: End processing [autogeniesz] error
+[2024-05-20 05:30:45] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/be/c7/1c163f407b3f7ea50c13b5ce1bc26bd25297e33e6a45a52eb32fcc18e7e8/konfuzio_sdk-0.3.6.tar.gz
+[2024-05-20 05:30:45] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/13/6f/a64338f18c2b619a911467a4d65b686226eb687714803642840dedf812d4/konfuzio_sdk-0.3.6.dev20240515214331.tar.gz
+[2024-05-20 05:30:45] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2024-05-20 05:30:45] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.3.6.tar.gz tmp/konfuzio_sdk-0.3.6.dev20240515214331.tar.gz --markdown 20240520/k/konfuzio-sdk/0.3.6-0.3.6.dev20240515214331/README.md --exclude *.pyd
+[2024-05-20 05:30:46] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.6.tar.gz]
+[2024-05-20 05:30:46] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.6.dev20240515214331.tar.gz]
+[2024-05-20 05:30:46] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2024-05-20 05:30:46] INFO root fetch - main [MainThread]: Store serial: [23284149]

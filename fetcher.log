@@ -10442,3 +10442,24 @@
 [2024-05-20 10:17:08] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.9.tar.gz]
 [2024-05-20 10:17:08] INFO root fetch - main [MainThread]: End processing [probe-design]: success
 [2024-05-20 10:17:08] INFO root fetch - main [MainThread]: Store serial: [23286702]
+[2024-05-20 10:19:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286702]
+[2024-05-20 10:19:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 10:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sucketz
+[2024-05-20 10:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: JS-Flask-Install
+[2024-05-20 10:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sais-notify
+[2024-05-20 10:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysect
+[2024-05-20 10:19:17] INFO root fetch - processPackages [sais-notify]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-20 10:19:17] WARNING root fetch - processPackages [JS-Flask-Install]: Skipping, unable to determine old version
+[2024-05-20 10:19:17] INFO root fetch - main [MainThread]: End processing [JS-Flask-Install] error
+[2024-05-20 10:19:17] INFO root fetch - processPackages [sais-notify]: Downloading https://files.pythonhosted.org/packages/31/69/5d1b5c6e151ffd80a5850563eed3bd1520d439e4a8f80e123db69ca81acc/sais_notify-0.0.4.tar.gz
+[2024-05-20 10:19:17] WARNING root fetch - processPackages [sucketz]: Skipping, unable to determine old version
+[2024-05-20 10:19:17] INFO root fetch - main [MainThread]: End processing [sucketz] error
+[2024-05-20 10:19:17] WARNING root fetch - processPackages [pysect]: Skipping, unable to determine old version
+[2024-05-20 10:19:17] INFO root fetch - main [MainThread]: End processing [pysect] error
+[2024-05-20 10:19:17] INFO root fetch - processPackages [sais-notify]: Downloading https://files.pythonhosted.org/packages/c4/c5/73af8684dd905221e0e54b5ecb43c4e50e4131e21a5716c5a1adf96581c4/sais_notify-0.0.5.tar.gz
+[2024-05-20 10:19:17] INFO root fetch - processPackages [sais-notify]: executing diffoscope
+[2024-05-20 10:19:17] INFO root fetch - processPackages [sais-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify-0.0.4.tar.gz tmp/sais_notify-0.0.5.tar.gz --markdown 20240520/s/sais-notify/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-20 10:19:18] INFO root fetch - processPackages [sais-notify]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify-0.0.4.tar.gz]
+[2024-05-20 10:19:18] INFO root fetch - processPackages [sais-notify]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify-0.0.5.tar.gz]
+[2024-05-20 10:19:18] INFO root fetch - main [MainThread]: End processing [sais-notify]: success
+[2024-05-20 10:19:18] INFO root fetch - main [MainThread]: Store serial: [23286713]

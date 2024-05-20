@@ -8182,3 +8182,38 @@
 [2024-05-20 08:20:51] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240519.tar.gz]
 [2024-05-20 08:20:51] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2024-05-20 08:20:51] INFO root fetch - main [MainThread]: Store serial: [23285400]
+[2024-05-20 08:23:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285400]
+[2024-05-20 08:23:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 08:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cogflow
+[2024-05-20 08:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: profiles-rudderstack-bin
+[2024-05-20 08:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prophecy-libs
+[2024-05-20 08:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: profiles-rudderstack
+[2024-05-20 08:23:07] INFO root fetch - processPackages [profiles-rudderstack]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-20 08:23:07] INFO root fetch - processPackages [profiles-rudderstack-bin]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-20 08:23:07] INFO root fetch - processPackages [prophecy-libs]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-20 08:23:07] INFO root fetch - processPackages [cogflow]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-20 08:23:07] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/3a/44/2dd887dfefc5e198a68539c2565726dced636a615597d201136d1a92a466/cogflow-1.9.8.tar.gz
+[2024-05-20 08:23:07] INFO root fetch - processPackages [profiles-rudderstack]: Downloading https://files.pythonhosted.org/packages/95/97/64761d67cfe8069c67b7539134b24dcf170efd4dd29941c63fcf812e485c/profiles_rudderstack-0.9.3-py3-none-win_amd64.whl
+[2024-05-20 08:23:07] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/55/0a/90561ca774443a2a8fc7836ec65bd203b9a55822454194896bfcda5affbb/prophecy-libs-1.8.8.tar.gz
+[2024-05-20 08:23:07] INFO root fetch - processPackages [profiles-rudderstack-bin]: Downloading https://files.pythonhosted.org/packages/2a/fa/f53dd82c8de9a17b04a3bee01636c020e77a2b5df73b8c9f0849c679393a/profiles_rudderstack_bin-0.9.3-py3-none-win_amd64.whl
+[2024-05-20 08:23:07] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/0e/16/8f5f931a1aa5b5143fe0b0ad8fd8950276383f3e063a3d599473897f4af3/cogflow-1.9.9.tar.gz
+[2024-05-20 08:23:07] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/4d/26/13eca2b0b22483c0bcc9a426ef208809d6e938fda5d639cd2122eaf7bd06/prophecy-libs-1.8.9.tar.gz
+[2024-05-20 08:23:07] INFO root fetch - processPackages [profiles-rudderstack]: Downloading https://files.pythonhosted.org/packages/39/b7/6e7ce9481e261a834d0c894750e013daf1a82db51bb1d6162613963ab427/profiles_rudderstack-0.9.4-py3-none-win_amd64.whl
+[2024-05-20 08:23:07] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-20 08:23:07] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.8.tar.gz tmp/cogflow-1.9.9.tar.gz --markdown 20240520/c/cogflow/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-20 08:23:07] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2024-05-20 08:23:07] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.8.8.tar.gz tmp/prophecy-libs-1.8.9.tar.gz --markdown 20240520/p/prophecy-libs/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-20 08:23:07] WARNING root fetch - processPackages [profiles-rudderstack-bin]: Skipping package: exceeds size limit 35657249>=10485760
+[2024-05-20 08:23:07] INFO root fetch - main [MainThread]: End processing [profiles-rudderstack-bin] error
+[2024-05-20 08:23:07] INFO root fetch - processPackages [profiles-rudderstack]: executing diffoscope
+[2024-05-20 08:23:07] INFO root fetch - processPackages [profiles-rudderstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profiles_rudderstack-0.9.3-py3-none-win_amd64.whl.zip tmp/profiles_rudderstack-0.9.4-py3-none-win_amd64.whl.zip --markdown 20240520/p/profiles-rudderstack/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-20 08:23:08] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.8.tar.gz]
+[2024-05-20 08:23:08] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.9.tar.gz]
+[2024-05-20 08:23:08] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2024-05-20 08:23:08] INFO root fetch - processPackages [profiles-rudderstack]: Remove: archive file [/home/abi/fetcher/tmp/profiles_rudderstack-0.9.3-py3-none-win_amd64.whl.zip]
+[2024-05-20 08:23:08] INFO root fetch - processPackages [profiles-rudderstack]: Remove: archive file [/home/abi/fetcher/tmp/profiles_rudderstack-0.9.4-py3-none-win_amd64.whl.zip]
+[2024-05-20 08:23:08] INFO root fetch - main [MainThread]: End processing [profiles-rudderstack]: success
+[2024-05-20 08:23:08] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.8.tar.gz]
+[2024-05-20 08:23:08] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.9.tar.gz]
+[2024-05-20 08:23:08] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-20 08:23:08] INFO root fetch - main [MainThread]: Store serial: [23285414]

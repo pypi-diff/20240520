@@ -6407,3 +6407,9 @@
 [2024-05-20 06:25:44] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.7.tar.gz]
 [2024-05-20 06:25:44] INFO root fetch - main [MainThread]: End processing [switch-api]: success
 [2024-05-20 06:25:44] INFO root fetch - main [MainThread]: Store serial: [23284415]
+[2024-05-20 06:27:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284415]
+[2024-05-20 06:27:52] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 06:27:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whiggingz
+[2024-05-20 06:27:52] WARNING root fetch - processPackages [whiggingz]: Skipping, unable to determine old version
+[2024-05-20 06:27:52] INFO root fetch - main [MainThread]: End processing [whiggingz] error
+[2024-05-20 06:27:52] INFO root fetch - main [MainThread]: Store serial: [23284421]

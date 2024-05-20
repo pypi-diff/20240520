@@ -8259,3 +8259,57 @@
 [2024-05-20 08:25:19] INFO root fetch - processPackages [torchsense]: Remove: archive file [/home/abi/fetcher/tmp/torchsense-0.0.8-py3-none-any.whl.zip]
 [2024-05-20 08:25:19] INFO root fetch - main [MainThread]: End processing [torchsense]: success
 [2024-05-20 08:25:19] INFO root fetch - main [MainThread]: Store serial: [23285429]
+[2024-05-20 08:27:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285429]
+[2024-05-20 08:27:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 08:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchsense
+[2024-05-20 08:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: profiles-pycorelib
+[2024-05-20 08:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unisender-go-api
+[2024-05-20 08:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hapi-schema
+[2024-05-20 08:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-index-readers-dashscope-custom
+[2024-05-20 08:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycrtbp
+[2024-05-20 08:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-dms-storage
+[2024-05-20 08:27:28] INFO root fetch - processPackages [torchsense]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-20 08:27:28] INFO root fetch - processPackages [unisender-go-api]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-20 08:27:28] INFO root fetch - processPackages [torchsense]: Downloading https://files.pythonhosted.org/packages/88/57/e7fb35704c858b251cc421606696541f641c38da94db08d3bfd7cf4606dc/torchsense-0.0.7.tar.gz
+[2024-05-20 08:27:28] INFO root fetch - processPackages [llama-index-readers-dashscope-custom]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-05-20 08:27:28] INFO root fetch - processPackages [profiles-pycorelib]: New version: [0.13.0] Old Version: [0.12.0]
+[2024-05-20 08:27:28] WARNING root fetch - processPackages [odoo-addon-dms-storage]: Skipping, unable to determine old version
+[2024-05-20 08:27:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-storage] error
+[2024-05-20 08:27:28] WARNING root fetch - processPackages [pycrtbp]: Skipping, unable to determine old version
+[2024-05-20 08:27:28] INFO root fetch - main [MainThread]: End processing [pycrtbp] error
+[2024-05-20 08:27:28] INFO root fetch - processPackages [hapi-schema]: New version: [0.8.2] Old Version: [0.8.0]
+[2024-05-20 08:27:28] INFO root fetch - processPackages [unisender-go-api]: Downloading https://files.pythonhosted.org/packages/18/86/0cca568d798bffc1fae18a6ac75a49a409753d3f2a9ad4db3eafe176f4e4/unisender_go_api-0.2.0.tar.gz
+[2024-05-20 08:27:28] INFO root fetch - processPackages [profiles-pycorelib]: Downloading https://files.pythonhosted.org/packages/e2/a7/70a41a8e3631edca39d2f04ca8a1539b9c8c95c71af2459e3f98c19ddf1e/profiles_pycorelib-0.12.0-py3-none-any.whl
+[2024-05-20 08:27:28] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/93/4b/f1557d844a9d52209ba63fea78aa0ba7f2a9226deb29f6729da92fef18b4/hapi_schema-0.8.0.tar.gz
+[2024-05-20 08:27:28] INFO root fetch - processPackages [llama-index-readers-dashscope-custom]: Downloading https://files.pythonhosted.org/packages/3c/14/3fcf289165f21a70905db547d2f738cf7c7624cf21481dfa3e371d9d2281/llama_index_readers_dashscope_custom-0.1.0.tar.gz
+[2024-05-20 08:27:28] INFO root fetch - processPackages [torchsense]: Downloading https://files.pythonhosted.org/packages/49/93/ed78d29908fe0d6d49e458727d953d1ff1061782e768499477a2b5de0893/torchsense-0.0.8-py3-none-any.whl
+[2024-05-20 08:27:28] INFO root fetch - processPackages [unisender-go-api]: Downloading https://files.pythonhosted.org/packages/cd/e6/12a95e704709c49b763584803d28447292b86259a0c13e99471643a3b80f/unisender_go_api-0.3.0.tar.gz
+[2024-05-20 08:27:28] INFO root fetch - processPackages [llama-index-readers-dashscope-custom]: Downloading https://files.pythonhosted.org/packages/6f/23/ce815f155a370620be46844c6f153c5bc4f4b8ca3d7f0e77959ba3f44dcd/llama_index_readers_dashscope_custom-0.1.2.tar.gz
+[2024-05-20 08:27:29] INFO root fetch - processPackages [profiles-pycorelib]: Downloading https://files.pythonhosted.org/packages/5c/f5/551c67940da6504543864024efaae741ced42d034754f5542c870689938d/profiles_pycorelib-0.13.0-py3-none-any.whl
+[2024-05-20 08:27:29] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/bc/a3/66c48e8d5e2f82b74f13a23806c5daaba6f0c0dea33b24d1c55d127c6006/hapi_schema-0.8.2.tar.gz
+[2024-05-20 08:27:29] INFO root fetch - processPackages [torchsense]: executing diffoscope
+[2024-05-20 08:27:29] INFO root fetch - processPackages [torchsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchsense-0.0.7.tar.gz tmp/torchsense-0.0.8-py3-none-any.whl.zip --markdown 20240520/t/torchsense/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-20 08:27:29] INFO root fetch - processPackages [unisender-go-api]: executing diffoscope
+[2024-05-20 08:27:29] INFO root fetch - processPackages [unisender-go-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unisender_go_api-0.2.0.tar.gz tmp/unisender_go_api-0.3.0.tar.gz --markdown 20240520/u/unisender-go-api/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-20 08:27:29] INFO root fetch - processPackages [llama-index-readers-dashscope-custom]: executing diffoscope
+[2024-05-20 08:27:29] INFO root fetch - processPackages [llama-index-readers-dashscope-custom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_readers_dashscope_custom-0.1.0.tar.gz tmp/llama_index_readers_dashscope_custom-0.1.2.tar.gz --markdown 20240520/l/llama-index-readers-dashscope-custom/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-05-20 08:27:29] INFO root fetch - processPackages [profiles-pycorelib]: executing diffoscope
+[2024-05-20 08:27:29] INFO root fetch - processPackages [profiles-pycorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profiles_pycorelib-0.12.0-py3-none-any.whl.zip tmp/profiles_pycorelib-0.13.0-py3-none-any.whl.zip --markdown 20240520/p/profiles-pycorelib/0.12.0-0.13.0/README.md --exclude *.pyd
+[2024-05-20 08:27:29] INFO root fetch - processPackages [hapi-schema]: executing diffoscope
+[2024-05-20 08:27:29] INFO root fetch - processPackages [hapi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hapi_schema-0.8.0.tar.gz tmp/hapi_schema-0.8.2.tar.gz --markdown 20240520/h/hapi-schema/0.8.0-0.8.2/README.md --exclude *.pyd
+[2024-05-20 08:27:29] INFO root fetch - processPackages [profiles-pycorelib]: Remove: archive file [/home/abi/fetcher/tmp/profiles_pycorelib-0.12.0-py3-none-any.whl.zip]
+[2024-05-20 08:27:29] INFO root fetch - processPackages [profiles-pycorelib]: Remove: archive file [/home/abi/fetcher/tmp/profiles_pycorelib-0.13.0-py3-none-any.whl.zip]
+[2024-05-20 08:27:29] INFO root fetch - main [MainThread]: End processing [profiles-pycorelib]: success
+[2024-05-20 08:27:29] INFO root fetch - processPackages [unisender-go-api]: Remove: archive file [/home/abi/fetcher/tmp/unisender_go_api-0.2.0.tar.gz]
+[2024-05-20 08:27:29] INFO root fetch - processPackages [unisender-go-api]: Remove: archive file [/home/abi/fetcher/tmp/unisender_go_api-0.3.0.tar.gz]
+[2024-05-20 08:27:29] INFO root fetch - main [MainThread]: End processing [unisender-go-api]: success
+[2024-05-20 08:27:29] INFO root fetch - processPackages [llama-index-readers-dashscope-custom]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_dashscope_custom-0.1.0.tar.gz]
+[2024-05-20 08:27:29] INFO root fetch - processPackages [llama-index-readers-dashscope-custom]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_dashscope_custom-0.1.2.tar.gz]
+[2024-05-20 08:27:29] INFO root fetch - main [MainThread]: End processing [llama-index-readers-dashscope-custom]: success
+[2024-05-20 08:27:29] INFO root fetch - processPackages [torchsense]: Remove: archive file [/home/abi/fetcher/tmp/torchsense-0.0.7.tar.gz]
+[2024-05-20 08:27:29] INFO root fetch - processPackages [torchsense]: Remove: archive file [/home/abi/fetcher/tmp/torchsense-0.0.8-py3-none-any.whl.zip]
+[2024-05-20 08:27:29] INFO root fetch - main [MainThread]: End processing [torchsense]: success
+[2024-05-20 08:27:30] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.8.0.tar.gz]
+[2024-05-20 08:27:30] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.8.2.tar.gz]
+[2024-05-20 08:27:30] INFO root fetch - main [MainThread]: End processing [hapi-schema]: success
+[2024-05-20 08:27:30] INFO root fetch - main [MainThread]: Store serial: [23285453]

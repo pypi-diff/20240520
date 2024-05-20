@@ -20980,3 +20980,54 @@ EOFError: EOF read where object expected
 [2024-05-20 16:51:31] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.6.2.tar.gz]
 [2024-05-20 16:51:31] INFO root fetch - main [MainThread]: End processing [Red-Web-Dashboard]: success
 [2024-05-20 16:51:31] INFO root fetch - main [MainThread]: Store serial: [23291325]
+[2024-05-20 16:53:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291325]
+[2024-05-20 16:53:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 16:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdtables
+[2024-05-20 16:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-workflow-sdk-preview
+[2024-05-20 16:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-it-vat-registries
+[2024-05-20 16:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-it-vat-settlement-date-rc
+[2024-05-20 16:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-vat-period-end-statement
+[2024-05-20 16:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rodrigo-test-library
+[2024-05-20 16:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: matematikk
+[2024-05-20 16:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-l10n-it-vat-settlement-date
+[2024-05-20 16:53:41] WARNING root fetch - processPackages [mdtables]: Skipping, unable to determine old version
+[2024-05-20 16:53:41] INFO root fetch - main [MainThread]: End processing [mdtables] error
+[2024-05-20 16:53:41] INFO root fetch - processPackages [matematikk]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-20 16:53:41] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.996] Old Version: [0.1.995]
+[2024-05-20 16:53:41] WARNING root fetch - processPackages [odoo-addon-l10n-it-vat-settlement-date-rc]: Skipping, unable to determine old version
+[2024-05-20 16:53:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-vat-settlement-date-rc] error
+[2024-05-20 16:53:41] INFO root fetch - processPackages [odoo-addon-account-vat-period-end-statement]: New version: [16.0.1.2.2.3] Old Version: [16.0.1.2.2.2]
+[2024-05-20 16:53:41] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-registries]: New version: [16.0.1.2.1.4] Old Version: [16.0.1.2.1.2]
+[2024-05-20 16:53:41] WARNING root fetch - processPackages [rodrigo-test-library]: Skipping, unable to determine old version
+[2024-05-20 16:53:41] INFO root fetch - main [MainThread]: End processing [rodrigo-test-library] error
+[2024-05-20 16:53:41] WARNING root fetch - processPackages [odoo-addon-l10n-it-vat-settlement-date]: Skipping, unable to determine old version
+[2024-05-20 16:53:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-vat-settlement-date] error
+[2024-05-20 16:53:41] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/b9/0f/0e2ea1c838d839f658d451461a2f978947f6ab41a8f4e102104cc5b587a8/matematikk-0.0.98.tar.gz
+[2024-05-20 16:53:41] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/56/ac/c34b1b8edd4a745ceacc5a310a38b3dcca685fe17507cacc1cd57db81fdd/lusid-workflow-sdk-preview-0.1.995.tar.gz
+[2024-05-20 16:53:41] INFO root fetch - processPackages [odoo-addon-account-vat-period-end-statement]: Downloading https://files.pythonhosted.org/packages/e9/d4/00daf7264782257c6f3b3e45928dcead8d30531308d3c3a999e2a9688bf8/odoo_addon_account_vat_period_end_statement-16.0.1.2.2.2-py3-none-any.whl
+[2024-05-20 16:53:41] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-registries]: Downloading https://files.pythonhosted.org/packages/86/42/0f38733f8b487ff7b555f44d6afcf45dc16f2b5f32efa51542f7f855862f/odoo_addon_l10n_it_vat_registries-16.0.1.2.1.2-py3-none-any.whl
+[2024-05-20 16:53:41] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ad/65/93d0e7790f005c1bba7ae75a47e2b35b3d8a514713f549fccca0619a2df9/lusid-workflow-sdk-preview-0.1.996.tar.gz
+[2024-05-20 16:53:41] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/ba/d1/907a2303ec8d0c4c2f01a0d2f9fd6e3de3387f6c25c32de3800152e437fb/matematikk-0.0.99.tar.gz
+[2024-05-20 16:53:41] INFO root fetch - processPackages [matematikk]: executing diffoscope
+[2024-05-20 16:53:41] INFO root fetch - processPackages [matematikk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matematikk-0.0.98.tar.gz tmp/matematikk-0.0.99.tar.gz --markdown 20240520/m/matematikk/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-20 16:53:41] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-05-20 16:53:41] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz --markdown 20240520/l/lusid-workflow-sdk-preview/0.1.995-0.1.996/README.md --exclude *.pyd
+[2024-05-20 16:53:41] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-registries]: Downloading https://files.pythonhosted.org/packages/05/d5/80087de85b07de3149683c63d12773f3b1aa9b91c77d700813a38ac08401/odoo_addon_l10n_it_vat_registries-16.0.1.2.1.4-py3-none-any.whl
+[2024-05-20 16:53:41] INFO root fetch - processPackages [odoo-addon-account-vat-period-end-statement]: Downloading https://files.pythonhosted.org/packages/f9/2b/9da2f9d2c4a97df0d28257e657f7ed0ca44b081fa198c3e7abb1dacdfcda/odoo_addon_account_vat_period_end_statement-16.0.1.2.2.3-py3-none-any.whl
+[2024-05-20 16:53:41] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-registries]: executing diffoscope
+[2024-05-20 16:53:41] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-registries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_vat_registries-16.0.1.2.1.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_vat_registries-16.0.1.2.1.4-py3-none-any.whl.zip --markdown 20240520/o/odoo-addon-l10n-it-vat-registries/16.0.1.2.1.2-16.0.1.2.1.4/README.md --exclude *.pyd
+[2024-05-20 16:53:42] INFO root fetch - processPackages [odoo-addon-account-vat-period-end-statement]: executing diffoscope
+[2024-05-20 16:53:42] INFO root fetch - processPackages [odoo-addon-account-vat-period-end-statement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_vat_period_end_statement-16.0.1.2.2.2-py3-none-any.whl.zip tmp/odoo_addon_account_vat_period_end_statement-16.0.1.2.2.3-py3-none-any.whl.zip --markdown 20240520/o/odoo-addon-account-vat-period-end-statement/16.0.1.2.2.2-16.0.1.2.2.3/README.md --exclude *.pyd
+[2024-05-20 16:53:42] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.98.tar.gz]
+[2024-05-20 16:53:42] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.99.tar.gz]
+[2024-05-20 16:53:42] INFO root fetch - main [MainThread]: End processing [matematikk]: success
+[2024-05-20 16:53:42] INFO root fetch - processPackages [odoo-addon-account-vat-period-end-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_vat_period_end_statement-16.0.1.2.2.2-py3-none-any.whl.zip]
+[2024-05-20 16:53:42] INFO root fetch - processPackages [odoo-addon-account-vat-period-end-statement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_vat_period_end_statement-16.0.1.2.2.3-py3-none-any.whl.zip]
+[2024-05-20 16:53:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-vat-period-end-statement]: success
+[2024-05-20 16:53:42] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-registries]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_vat_registries-16.0.1.2.1.2-py3-none-any.whl.zip]
+[2024-05-20 16:53:42] INFO root fetch - processPackages [odoo-addon-l10n-it-vat-registries]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_vat_registries-16.0.1.2.1.4-py3-none-any.whl.zip]
+[2024-05-20 16:53:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-vat-registries]: success
+[2024-05-20 16:53:43] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz]
+[2024-05-20 16:53:43] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
+[2024-05-20 16:53:43] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-05-20 16:53:43] INFO root fetch - main [MainThread]: Store serial: [23291351]

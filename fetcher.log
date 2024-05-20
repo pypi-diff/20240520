@@ -7350,3 +7350,96 @@
 [2024-05-20 07:17:21] INFO root fetch - processPackages [django-jbank]: Remove: archive file [/home/abi/fetcher/tmp/django-jbank-4.4.8.tar.gz]
 [2024-05-20 07:17:21] INFO root fetch - main [MainThread]: End processing [django-jbank]: success
 [2024-05-20 07:17:21] INFO root fetch - main [MainThread]: Store serial: [23284851]
+[2024-05-20 07:19:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284851]
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2024-05-20 07:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2024-05-20 07:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datadog-teleport
+[2024-05-20 07:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datadog-temporal
+[2024-05-20 07:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datadog-tenable
+[2024-05-20 07:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datadog-teradata
+[2024-05-20 07:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datadog-tls
+[2024-05-20 07:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datadog-tokumx
+[2024-05-20 07:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datadog-tomcat
+[2024-05-20 07:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datadog-torchserve
+[2024-05-20 07:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: datadog-traffic-server
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-tenable]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - processPackages [datadog-tenable]: Start processing: datadog-twemproxy
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-tenable] error
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-temporal]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - processPackages [datadog-temporal]: Start processing: datadog-twistlock
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-temporal] error
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-traffic-server]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - processPackages [datadog-traffic-server]: Start processing: datadog-varnish
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-traffic-server] error
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-teradata]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-tokumx]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - processPackages [datadog-teradata]: Start processing: datadog-vault
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-teradata] error
+[2024-05-20 07:19:30] INFO root fetch - processPackages [datadog-tokumx]: Start processing: datadog-vertica
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-tokumx] error
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-torchserve]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-tls]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - processPackages [datadog-torchserve]: Start processing: datadog-voltdb
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-teleport]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-torchserve] error
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-tomcat]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - processPackages [datadog-tls]: Start processing: datadog-vsphere
+[2024-05-20 07:19:30] INFO root fetch - processPackages [datadog-teleport]: Start processing: datadog-weaviate
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-tls] error
+[2024-05-20 07:19:30] INFO root fetch - processPackages [datadog-tomcat]: Start processing: datadog-weblogic
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-teleport] error
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-tomcat] error
+[2024-05-20 07:19:30] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-twemproxy]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - processPackages [datadog-twemproxy]: Start processing: datadog-win32-event-log
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-twemproxy] error
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-twistlock]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - processPackages [datadog-twistlock]: Start processing: datadog-windows-performance-counters
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-twistlock] error
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-vertica]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - processPackages [datadog-vertica]: Start processing: nemalionalesz
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-vertica] error
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-varnish]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - processPackages [datadog-varnish]: Start processing: chalpak
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-varnish] error
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-vault]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - processPackages [datadog-vault]: Start processing: dprdp
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-vault] error
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-vsphere]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-vsphere] error
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-weaviate]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-weaviate] error
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-voltdb]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-voltdb] error
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-weblogic]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-weblogic] error
+[2024-05-20 07:19:30] INFO root fetch - processPackages [chalpak]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-win32-event-log]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-win32-event-log] error
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [datadog-windows-performance-counters]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [datadog-windows-performance-counters] error
+[2024-05-20 07:19:30] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-05-20 07:19:30] INFO root fetch - processPackages [chalpak]: Downloading https://files.pythonhosted.org/packages/bf/88/9f16a13a6c0b3d3e17493505c354bf53f3bddbc4adaa6b739ba9e24f149b/chalpak-0.2.2.tar.gz
+[2024-05-20 07:19:30] WARNING root fetch - processPackages [nemalionalesz]: Skipping, unable to determine old version
+[2024-05-20 07:19:30] INFO root fetch - main [MainThread]: End processing [nemalionalesz] error
+[2024-05-20 07:19:30] INFO root fetch - processPackages [dprdp]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 07:19:31] INFO root fetch - processPackages [dprdp]: Downloading https://files.pythonhosted.org/packages/df/af/8adf7ffea922b7c338d364b4985aa711dad35065006f8bafe217cabf9e64/dprdp-0.1.0.tar.gz
+[2024-05-20 07:19:31] INFO root fetch - processPackages [chalpak]: Downloading https://files.pythonhosted.org/packages/c2/49/c7ea80b9ccbca8ba567c19e68725318d2d7795b03e7426e95f38e21ca030/chalpak-0.2.3.tar.gz
+[2024-05-20 07:19:31] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-05-20 07:19:31] INFO root fetch - processPackages [chalpak]: executing diffoscope
+[2024-05-20 07:19:31] INFO root fetch - processPackages [chalpak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalpak-0.2.2.tar.gz tmp/chalpak-0.2.3.tar.gz --markdown 20240520/c/chalpak/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-20 07:19:31] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-05-20 07:19:31] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240520/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-05-20 07:19:31] INFO root fetch - processPackages [dprdp]: Downloading https://files.pythonhosted.org/packages/d5/ad/dae9e320fd3f3f38ca32e89ea7b49a8d037ccd402a194876ca7a51059691/dprdp-0.1.1.tar.gz
+[2024-05-20 07:19:31] INFO root fetch - processPackages [dprdp]: executing diffoscope
+[2024-05-20 07:19:31] INFO root fetch - processPackages [dprdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dprdp-0.1.0.tar.gz tmp/dprdp-0.1.1.tar.gz --markdown 20240520/d/dprdp/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 07:19:31] INFO root fetch - processPackages [chalpak]: Remove: archive file [/home/abi/fetcher/tmp/chalpak-0.2.2.tar.gz]
+[2024-05-20 07:19:31] INFO root fetch - processPackages [chalpak]: Remove: archive file [/home/abi/fetcher/tmp/chalpak-0.2.3.tar.gz]
+[2024-05-20 07:19:31] INFO root fetch - main [MainThread]: End processing [chalpak]: success
+[2024-05-20 07:19:32] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-05-20 07:19:32] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-05-20 07:19:32] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-05-20 07:19:32] INFO root fetch - processPackages [dprdp]: Remove: archive file [/home/abi/fetcher/tmp/dprdp-0.1.0.tar.gz]
+[2024-05-20 07:19:32] INFO root fetch - processPackages [dprdp]: Remove: archive file [/home/abi/fetcher/tmp/dprdp-0.1.1.tar.gz]
+[2024-05-20 07:19:32] INFO root fetch - main [MainThread]: End processing [dprdp]: success
+[2024-05-20 07:19:32] INFO root fetch - main [MainThread]: Store serial: [23284961]

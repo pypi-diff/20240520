@@ -6163,3 +6163,25 @@
 [2024-05-20 06:01:04] INFO root fetch - processPackages [polymind]: Remove: archive file [/home/abi/fetcher/tmp/polymind-0.0.7.tar.gz]
 [2024-05-20 06:01:04] INFO root fetch - main [MainThread]: End processing [polymind]: success
 [2024-05-20 06:01:04] INFO root fetch - main [MainThread]: Store serial: [23284311]
+[2024-05-20 06:03:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284311]
+[2024-05-20 06:03:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 06:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudcheck
+[2024-05-20 06:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myxophytaz
+[2024-05-20 06:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reasonify-headless
+[2024-05-20 06:03:12] INFO root fetch - processPackages [reasonify-headless]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2024-05-20 06:03:12] INFO root fetch - processPackages [reasonify-headless]: Downloading https://files.pythonhosted.org/packages/1a/2a/7bb5058c2ba406d2b4470323c135c18da02e34950e7966ca991863c6e517/reasonify_headless-0.1.0a3.tar.gz
+[2024-05-20 06:03:12] WARNING root fetch - processPackages [myxophytaz]: Skipping, unable to determine old version
+[2024-05-20 06:03:12] INFO root fetch - main [MainThread]: End processing [myxophytaz] error
+[2024-05-20 06:03:12] INFO root fetch - processPackages [cloudcheck]: New version: [5.0.1.398] Old Version: [5.0.1.382]
+[2024-05-20 06:03:13] INFO root fetch - processPackages [reasonify-headless]: Downloading https://files.pythonhosted.org/packages/2a/d3/a372d35b172417e1add916110e2c0cfd70a8185865612e715d058d307139/reasonify_headless-0.1.0a4.tar.gz
+[2024-05-20 06:03:13] INFO root fetch - processPackages [cloudcheck]: Downloading https://files.pythonhosted.org/packages/50/39/39bf6f2d2d098d8bf957a935e4a1408ffb415a3b86327f161f1fd344ec22/cloudcheck-5.0.1.398.tar.gz
+[2024-05-20 06:03:13] INFO root fetch - processPackages [reasonify-headless]: executing diffoscope
+[2024-05-20 06:03:13] INFO root fetch - processPackages [reasonify-headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasonify_headless-0.1.0a3.tar.gz tmp/reasonify_headless-0.1.0a4.tar.gz --markdown 20240520/r/reasonify-headless/0.1.0a3-0.1.0a4/README.md --exclude *.pyd
+[2024-05-20 06:03:13] INFO root fetch - processPackages [cloudcheck]: executing diffoscope
+[2024-05-20 06:03:13] INFO root fetch - processPackages [cloudcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudcheck-5.0.1.382.tar.gz tmp/cloudcheck-5.0.1.398.tar.gz --markdown 20240520/c/cloudcheck/5.0.1.382-5.0.1.398/README.md --exclude *.pyd
+[2024-05-20 06:03:13] INFO root fetch - processPackages [reasonify-headless]: Remove: archive file [/home/abi/fetcher/tmp/reasonify_headless-0.1.0a3.tar.gz]
+[2024-05-20 06:03:13] INFO root fetch - processPackages [reasonify-headless]: Remove: archive file [/home/abi/fetcher/tmp/reasonify_headless-0.1.0a4.tar.gz]
+[2024-05-20 06:03:13] INFO root fetch - main [MainThread]: End processing [reasonify-headless]: success
+[2024-05-20 06:06:13] ERROR root fetch - processPackages [cloudcheck]: Timeout during execution of pkgdiff
+[2024-05-20 06:06:13] INFO root fetch - main [MainThread]: End processing [cloudcheck] error
+[2024-05-20 06:06:13] INFO root fetch - main [MainThread]: Store serial: [23284322]

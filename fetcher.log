@@ -24337,3 +24337,78 @@ EOFError: EOF read where object expected
 [2024-05-20 18:56:57] INFO root fetch - processPackages [grpcio-observability]: Remove: archive file [/home/abi/fetcher/tmp/grpcio_observability-1.64.0rc1.tar.gz]
 [2024-05-20 18:56:57] INFO root fetch - main [MainThread]: End processing [grpcio-observability]: success
 [2024-05-20 18:56:57] INFO root fetch - main [MainThread]: Store serial: [23292832]
+[2024-05-20 18:59:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292832]
+[2024-05-20 18:59:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 18:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grpcio-reflection
+[2024-05-20 18:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grpcio-status
+[2024-05-20 18:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grpcio-testing
+[2024-05-20 18:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grpcio-tools
+[2024-05-20 18:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qnngds
+[2024-05-20 18:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-pip
+[2024-05-20 18:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: italian-ats-evaluator
+[2024-05-20 18:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: psat-server-web
+[2024-05-20 18:59:17] INFO root fetch - processPackages [qnngds]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-05-20 18:59:17] INFO root fetch - processPackages [italian-ats-evaluator]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-20 18:59:17] INFO root fetch - processPackages [grpcio-status]: New version: [1.64.0rc1] Old Version: [1.64.0]
+[2024-05-20 18:59:17] INFO root fetch - processPackages [py-pip]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 18:59:17] INFO root fetch - processPackages [qnngds]: Downloading https://files.pythonhosted.org/packages/e4/ba/fedf27eadbeb34ed16a070773dc96c1dd0cb59965ce068525adbbbbf16b7/qnngds-2.5.0.tar.gz
+[2024-05-20 18:59:17] INFO root fetch - processPackages [italian-ats-evaluator]: Downloading https://files.pythonhosted.org/packages/1c/31/e0bab940a0dfb439d9d0cd5a16bf339b27ac09e4ff99a746acc0f524c475/italian_ats_evaluator-2.0.2.tar.gz
+[2024-05-20 18:59:17] INFO root fetch - processPackages [grpcio-testing]: New version: [1.64.0rc1] Old Version: [1.64.0]
+[2024-05-20 18:59:17] INFO root fetch - processPackages [grpcio-reflection]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2024-05-20 18:59:17] INFO root fetch - processPackages [psat-server-web]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-20 18:59:17] INFO root fetch - processPackages [grpcio-status]: Downloading https://files.pythonhosted.org/packages/4c/b7/634bee0f33282e03073522ef054ae70ff6bacde417afbf28ef35256cd908/grpcio_status-1.64.0-py3-none-any.whl
+[2024-05-20 18:59:17] INFO root fetch - processPackages [grpcio-testing]: Downloading https://files.pythonhosted.org/packages/41/f4/ba7702a6f3c903f373a741dc2cc1faeb00db0128fcc2a21bf0051ec12da1/grpcio_testing-1.64.0-py3-none-any.whl
+[2024-05-20 18:59:17] INFO root fetch - processPackages [py-pip]: Downloading https://files.pythonhosted.org/packages/42/ff/abd87d8dc717b5b66793a17621c6b7088f1bf60121da689ef60ba9316e4f/py-pip-0.0.8.tar.gz
+[2024-05-20 18:59:17] INFO root fetch - processPackages [grpcio-reflection]: Downloading https://files.pythonhosted.org/packages/6a/26/01ed8dea550986f42f74221fa8d8d31756be28d6e5c473372af8567632c8/grpcio-reflection-1.9.0rc3.tar.gz
+[2024-05-20 18:59:17] INFO root fetch - processPackages [psat-server-web]: Downloading https://files.pythonhosted.org/packages/63/4c/c0f32c8e24cb6dca8fd70be5a5df4cfa2676ac4f41f77ea2b587799b03e2/psat-server-web-0.3.8.tar.gz
+[2024-05-20 18:59:17] INFO root fetch - processPackages [qnngds]: Downloading https://files.pythonhosted.org/packages/ce/8c/d051b4692bec28d6f7babf0aadf3a090412eea1e285e9b0b6534fc82c1f2/qnngds-2.5.1.tar.gz
+[2024-05-20 18:59:17] INFO root fetch - processPackages [italian-ats-evaluator]: Downloading https://files.pythonhosted.org/packages/63/b3/b45b0d719e45c39a72210fbd777d5a21ca7fe6bc01c259a0c98eacee78cf/italian_ats_evaluator-2.0.3.tar.gz
+[2024-05-20 18:59:17] INFO root fetch - processPackages [grpcio-status]: Downloading https://files.pythonhosted.org/packages/c2/7b/2074709a0d2df7da8ee45b576226a7e1c876a93afc446765d208a5f0e484/grpcio_status-1.64.0rc1.tar.gz
+[2024-05-20 18:59:17] INFO root fetch - processPackages [grpcio-testing]: Downloading https://files.pythonhosted.org/packages/fa/7d/9bebba196c09f5d012be83d8a58625a364b27271e11feeb92ec797760f85/grpcio_testing-1.64.0rc1.tar.gz
+[2024-05-20 18:59:17] INFO root fetch - processPackages [qnngds]: executing diffoscope
+[2024-05-20 18:59:17] INFO root fetch - processPackages [qnngds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qnngds-2.5.0.tar.gz tmp/qnngds-2.5.1.tar.gz --markdown 20240520/q/qnngds/2.5.0-2.5.1/README.md --exclude *.pyd
+[2024-05-20 18:59:17] INFO root fetch - processPackages [italian-ats-evaluator]: executing diffoscope
+[2024-05-20 18:59:17] INFO root fetch - processPackages [italian-ats-evaluator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/italian_ats_evaluator-2.0.2.tar.gz tmp/italian_ats_evaluator-2.0.3.tar.gz --markdown 20240520/i/italian-ats-evaluator/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-20 18:59:17] INFO root fetch - processPackages [grpcio-reflection]: Downloading https://files.pythonhosted.org/packages/dd/91/214c989e853ebd8e15e8d701e445fcf8047d0734f79ea5335674dd528292/grpcio-reflection-1.9.1.tar.gz
+[2024-05-20 18:59:17] INFO root fetch - processPackages [grpcio-status]: executing diffoscope
+[2024-05-20 18:59:17] INFO root fetch - processPackages [grpcio-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio_status-1.64.0-py3-none-any.whl.zip tmp/grpcio_status-1.64.0rc1.tar.gz --markdown 20240520/g/grpcio-status/1.64.0-1.64.0rc1/README.md --exclude *.pyd
+[2024-05-20 18:59:17] INFO root fetch - processPackages [py-pip]: Downloading https://files.pythonhosted.org/packages/42/65/dc347b9345fa3363a58909fc636e891ff030e4eee19aa0f7ca8facd57d46/py-pip-0.0.9.tar.gz
+[2024-05-20 18:59:17] INFO root fetch - processPackages [grpcio-testing]: executing diffoscope
+[2024-05-20 18:59:17] INFO root fetch - processPackages [grpcio-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio_testing-1.64.0-py3-none-any.whl.zip tmp/grpcio_testing-1.64.0rc1.tar.gz --markdown 20240520/g/grpcio-testing/1.64.0-1.64.0rc1/README.md --exclude *.pyd
+[2024-05-20 18:59:17] INFO root fetch - processPackages [grpcio-reflection]: executing diffoscope
+[2024-05-20 18:59:17] INFO root fetch - processPackages [grpcio-reflection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-reflection-1.9.0rc3.tar.gz tmp/grpcio-reflection-1.9.1.tar.gz --markdown 20240520/g/grpcio-reflection/1.9.0rc3-1.9.1/README.md --exclude *.pyd
+[2024-05-20 18:59:17] INFO root fetch - processPackages [grpcio-tools]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2024-05-20 18:59:17] INFO root fetch - processPackages [py-pip]: executing diffoscope
+[2024-05-20 18:59:17] INFO root fetch - processPackages [py-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-pip-0.0.8.tar.gz tmp/py-pip-0.0.9.tar.gz --markdown 20240520/p/py-pip/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 18:59:18] INFO root fetch - processPackages [grpcio-tools]: Downloading https://files.pythonhosted.org/packages/c5/04/1e6e73100e408d346552703ab15b45318d7fae3a7e45b0c4c810795dbcda/grpcio-tools-1.9.0rc3.tar.gz
+[2024-05-20 18:59:18] INFO root fetch - processPackages [grpcio-status]: Remove: archive file [/home/abi/fetcher/tmp/grpcio_status-1.64.0-py3-none-any.whl.zip]
+[2024-05-20 18:59:18] INFO root fetch - processPackages [grpcio-status]: Remove: archive file [/home/abi/fetcher/tmp/grpcio_status-1.64.0rc1.tar.gz]
+[2024-05-20 18:59:18] INFO root fetch - main [MainThread]: End processing [grpcio-status]: success
+[2024-05-20 18:59:18] INFO root fetch - processPackages [grpcio-testing]: Remove: archive file [/home/abi/fetcher/tmp/grpcio_testing-1.64.0-py3-none-any.whl.zip]
+[2024-05-20 18:59:18] INFO root fetch - processPackages [grpcio-testing]: Remove: archive file [/home/abi/fetcher/tmp/grpcio_testing-1.64.0rc1.tar.gz]
+[2024-05-20 18:59:18] INFO root fetch - main [MainThread]: End processing [grpcio-testing]: success
+[2024-05-20 18:59:18] INFO root fetch - processPackages [grpcio-reflection]: Remove: archive file [/home/abi/fetcher/tmp/grpcio-reflection-1.9.0rc3.tar.gz]
+[2024-05-20 18:59:18] INFO root fetch - processPackages [grpcio-reflection]: Remove: archive file [/home/abi/fetcher/tmp/grpcio-reflection-1.9.1.tar.gz]
+[2024-05-20 18:59:18] INFO root fetch - main [MainThread]: End processing [grpcio-reflection]: success
+[2024-05-20 18:59:18] INFO root fetch - processPackages [italian-ats-evaluator]: Remove: archive file [/home/abi/fetcher/tmp/italian_ats_evaluator-2.0.2.tar.gz]
+[2024-05-20 18:59:18] INFO root fetch - processPackages [italian-ats-evaluator]: Remove: archive file [/home/abi/fetcher/tmp/italian_ats_evaluator-2.0.3.tar.gz]
+[2024-05-20 18:59:18] INFO root fetch - main [MainThread]: End processing [italian-ats-evaluator]: success
+[2024-05-20 18:59:18] INFO root fetch - processPackages [grpcio-tools]: Downloading https://files.pythonhosted.org/packages/26/3d/061e0162aeb88dba757e56bc8a9bdacfce70ad6e43b8181a48b29acd827c/grpcio-tools-1.9.1.tar.gz
+[2024-05-20 18:59:18] INFO root fetch - processPackages [py-pip]: Remove: archive file [/home/abi/fetcher/tmp/py-pip-0.0.8.tar.gz]
+[2024-05-20 18:59:18] INFO root fetch - processPackages [py-pip]: Remove: archive file [/home/abi/fetcher/tmp/py-pip-0.0.9.tar.gz]
+[2024-05-20 18:59:18] INFO root fetch - main [MainThread]: End processing [py-pip]: success
+[2024-05-20 18:59:18] INFO root fetch - processPackages [qnngds]: Remove: archive file [/home/abi/fetcher/tmp/qnngds-2.5.0.tar.gz]
+[2024-05-20 18:59:18] INFO root fetch - processPackages [qnngds]: Remove: archive file [/home/abi/fetcher/tmp/qnngds-2.5.1.tar.gz]
+[2024-05-20 18:59:18] INFO root fetch - main [MainThread]: End processing [qnngds]: success
+[2024-05-20 18:59:18] INFO root fetch - processPackages [grpcio-tools]: executing diffoscope
+[2024-05-20 18:59:18] INFO root fetch - processPackages [grpcio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-tools-1.9.0rc3.tar.gz tmp/grpcio-tools-1.9.1.tar.gz --markdown 20240520/g/grpcio-tools/1.9.0rc3-1.9.1/README.md --exclude *.pyd
+[2024-05-20 18:59:20] INFO root fetch - processPackages [psat-server-web]: Downloading https://files.pythonhosted.org/packages/a1/e6/698afe0d1f241b4aec8b9f51064660dc5318bbf5eb65e75bea707a0c2259/psat-server-web-0.3.9.tar.gz
+[2024-05-20 18:59:21] INFO root fetch - processPackages [psat-server-web]: executing diffoscope
+[2024-05-20 18:59:21] INFO root fetch - processPackages [psat-server-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psat-server-web-0.3.8.tar.gz tmp/psat-server-web-0.3.9.tar.gz --markdown 20240520/p/psat-server-web/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-20 18:59:22] INFO root fetch - processPackages [grpcio-tools]: Remove: archive file [/home/abi/fetcher/tmp/grpcio-tools-1.9.0rc3.tar.gz]
+[2024-05-20 18:59:22] INFO root fetch - processPackages [grpcio-tools]: Remove: archive file [/home/abi/fetcher/tmp/grpcio-tools-1.9.1.tar.gz]
+[2024-05-20 18:59:22] INFO root fetch - main [MainThread]: End processing [grpcio-tools]: success
+[2024-05-20 18:59:25] INFO root fetch - processPackages [psat-server-web]: Remove: archive file [/home/abi/fetcher/tmp/psat-server-web-0.3.8.tar.gz]
+[2024-05-20 18:59:25] INFO root fetch - processPackages [psat-server-web]: Remove: archive file [/home/abi/fetcher/tmp/psat-server-web-0.3.9.tar.gz]
+[2024-05-20 18:59:25] INFO root fetch - main [MainThread]: End processing [psat-server-web]: success
+[2024-05-20 18:59:25] INFO root fetch - main [MainThread]: Store serial: [23292901]

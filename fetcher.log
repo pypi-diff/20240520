@@ -12705,3 +12705,76 @@
 [2024-05-20 11:40:48] INFO root fetch - processPackages [arclet-entari]: Remove: archive file [/home/abi/fetcher/tmp/arclet_entari-0.4.1.tar.gz]
 [2024-05-20 11:40:48] INFO root fetch - main [MainThread]: End processing [arclet-entari]: success
 [2024-05-20 11:40:48] INFO root fetch - main [MainThread]: Store serial: [23287642]
+[2024-05-20 11:42:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287642]
+[2024-05-20 11:42:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 11:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doxmlparser
+[2024-05-20 11:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arclet-entari
+[2024-05-20 11:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sais-notify-test
+[2024-05-20 11:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gmsh-scripts
+[2024-05-20 11:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fordpip
+[2024-05-20 11:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fordpip
+[2024-05-20 11:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FlaskTester
+[2024-05-20 11:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wol-api
+[2024-05-20 11:42:57] INFO root fetch - processPackages [sais-notify-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 11:42:57] INFO root fetch - processPackages [doxmlparser]: New version: [1.11.0] Old Version: [1.10.0]
+[2024-05-20 11:42:57] INFO root fetch - processPackages [wol-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-20 11:42:57] INFO root fetch - processPackages [arclet-entari]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-20 11:42:57] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/94/42/07c0e25844ffdc6494e7447658dc084d6435c7343816264387d435ddb98d/sais_notify_test-0.0.8.tar.gz
+[2024-05-20 11:42:57] INFO root fetch - processPackages [gmsh-scripts]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-20 11:42:57] INFO root fetch - processPackages [fordpip]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-20 11:42:57] INFO root fetch - processPackages [fordpip]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-20 11:42:57] INFO root fetch - processPackages [doxmlparser]: Downloading https://files.pythonhosted.org/packages/32/64/41103f77c2f0af4bc10698b76ac8d8d9464c22b332ddbabd09bef04059ca/doxmlparser-1.10.0-py3-none-any.whl
+[2024-05-20 11:42:57] INFO root fetch - processPackages [FlaskTester]: New version: [4.0] Old Version: [3.6]
+[2024-05-20 11:42:57] INFO root fetch - processPackages [wol-api]: Downloading https://files.pythonhosted.org/packages/e0/f4/c54126c1ab7594ab1396442d9c795498443b18d43f888f25d14dd2769096/wol_api-1.0.1.tar.gz
+[2024-05-20 11:42:57] INFO root fetch - processPackages [arclet-entari]: Downloading https://files.pythonhosted.org/packages/42/e2/9ca9db900f02661dc0422aa1849a0994c95b3fcee0818a64d29582f4a8bf/arclet_entari-0.4.0.tar.gz
+[2024-05-20 11:42:58] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/af/7a/ac17f0daa7ab738fe2f5e638d62f2cb8c0c1f86f8cadd5913ea740c174aa/sais_notify_test-0.0.9.tar.gz
+[2024-05-20 11:42:58] INFO root fetch - processPackages [fordpip]: Downloading https://files.pythonhosted.org/packages/e2/47/2f9c604b96f1107147bc7ecafd5b12e763540b560abafb59586a41d1f854/fordpip-0.0.1.tar.gz
+[2024-05-20 11:42:58] INFO root fetch - processPackages [fordpip]: Downloading https://files.pythonhosted.org/packages/e2/47/2f9c604b96f1107147bc7ecafd5b12e763540b560abafb59586a41d1f854/fordpip-0.0.1.tar.gz
+[2024-05-20 11:42:58] INFO root fetch - processPackages [arclet-entari]: Downloading https://files.pythonhosted.org/packages/11/b9/da679ff516124533128b2b199c937b7ad1080b029129be411ca1640f470f/arclet_entari-0.4.1.tar.gz
+[2024-05-20 11:42:58] INFO root fetch - processPackages [gmsh-scripts]: Downloading https://files.pythonhosted.org/packages/13/2e/eff5921377e6a6020e83972e0bc3631d793de2fcc3262125ded1e960a704/gmsh_scripts-0.4.3.tar.gz
+[2024-05-20 11:42:58] INFO root fetch - processPackages [FlaskTester]: Downloading https://files.pythonhosted.org/packages/a3/54/eac6e44bb96b48d0f2685bee837fde574bb55a30a5d0ddbea87a08c44990/FlaskTester-3.6.tar.gz
+[2024-05-20 11:42:58] INFO root fetch - processPackages [sais-notify-test]: executing diffoscope
+[2024-05-20 11:42:58] INFO root fetch - processPackages [sais-notify-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify_test-0.0.8.tar.gz tmp/sais_notify_test-0.0.9.tar.gz --markdown 20240520/s/sais-notify-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 11:42:58] INFO root fetch - processPackages [doxmlparser]: Downloading https://files.pythonhosted.org/packages/6a/1f/7a6a321e3f9744298e5867157416c5cc5440db4655a41b7b6afdafae446f/doxmlparser-1.11.0-py3-none-any.whl
+[2024-05-20 11:42:58] INFO root fetch - processPackages [wol-api]: Downloading https://files.pythonhosted.org/packages/35/fc/af94fcb6d6e549e27d355c3f96cbd56c3d0bbff0af76150013485b2d4d4b/wol_api-1.0.2.tar.gz
+[2024-05-20 11:42:58] INFO root fetch - processPackages [arclet-entari]: executing diffoscope
+[2024-05-20 11:42:58] INFO root fetch - processPackages [arclet-entari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet_entari-0.4.0.tar.gz tmp/arclet_entari-0.4.1.tar.gz --markdown 20240520/a/arclet-entari/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-20 11:42:58] INFO root fetch - processPackages [wol-api]: executing diffoscope
+[2024-05-20 11:42:58] INFO root fetch - processPackages [wol-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wol_api-1.0.1.tar.gz tmp/wol_api-1.0.2.tar.gz --markdown 20240520/w/wol-api/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-20 11:42:58] INFO root fetch - processPackages [doxmlparser]: executing diffoscope
+[2024-05-20 11:42:58] INFO root fetch - processPackages [doxmlparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doxmlparser-1.10.0-py3-none-any.whl.zip tmp/doxmlparser-1.11.0-py3-none-any.whl.zip --markdown 20240520/d/doxmlparser/1.10.0-1.11.0/README.md --exclude *.pyd
+[2024-05-20 11:42:58] INFO root fetch - processPackages [FlaskTester]: Downloading https://files.pythonhosted.org/packages/82/a8/393dc8abef813c9e15433d0a9dd59b07520fb8a3ccb31fdf10440934b32f/flasktester-4.0.tar.gz
+[2024-05-20 11:42:58] INFO root fetch - processPackages [gmsh-scripts]: Downloading https://files.pythonhosted.org/packages/33/e3/4cfc58be5ab02967c221084fc0305e7cb8f22e07da77f2ba8544d6819979/gmsh_scripts-0.4.4.tar.gz
+[2024-05-20 11:42:58] INFO root fetch - processPackages [fordpip]: Downloading https://files.pythonhosted.org/packages/7c/3c/260b40ebec1a98849ffb189a951da874f3c98a3a70c1a96214b3d8c07ada/fordpip-0.1.0.tar.gz
+[2024-05-20 11:42:58] INFO root fetch - processPackages [fordpip]: Downloading https://files.pythonhosted.org/packages/7c/3c/260b40ebec1a98849ffb189a951da874f3c98a3a70c1a96214b3d8c07ada/fordpip-0.1.0.tar.gz
+[2024-05-20 11:42:58] INFO root fetch - processPackages [gmsh-scripts]: executing diffoscope
+[2024-05-20 11:42:58] INFO root fetch - processPackages [gmsh-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmsh_scripts-0.4.3.tar.gz tmp/gmsh_scripts-0.4.4.tar.gz --markdown 20240520/g/gmsh-scripts/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-20 11:42:58] INFO root fetch - processPackages [fordpip]: executing diffoscope
+[2024-05-20 11:42:58] INFO root fetch - processPackages [fordpip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fordpip-0.0.1.tar.gz tmp/fordpip-0.1.0.tar.gz --markdown 20240520/f/fordpip/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-20 11:42:58] INFO root fetch - processPackages [fordpip]: executing diffoscope
+[2024-05-20 11:42:58] INFO root fetch - processPackages [fordpip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fordpip-0.0.1.tar.gz tmp/fordpip-0.1.0.tar.gz --markdown 20240520/f/fordpip/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-20 11:42:58] INFO root fetch - processPackages [FlaskTester]: executing diffoscope
+[2024-05-20 11:42:58] INFO root fetch - processPackages [FlaskTester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlaskTester-3.6.tar.gz tmp/flasktester-4.0.tar.gz --markdown 20240520/F/FlaskTester/3.6-4.0/README.md --exclude *.pyd
+[2024-05-20 11:42:58] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.8.tar.gz]
+[2024-05-20 11:42:58] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.9.tar.gz]
+[2024-05-20 11:42:58] INFO root fetch - main [MainThread]: End processing [sais-notify-test]: success
+[2024-05-20 11:42:58] INFO root fetch - processPackages [arclet-entari]: Remove: archive file [/home/abi/fetcher/tmp/arclet_entari-0.4.0.tar.gz]
+[2024-05-20 11:42:58] INFO root fetch - processPackages [arclet-entari]: Remove: archive file [/home/abi/fetcher/tmp/arclet_entari-0.4.1.tar.gz]
+[2024-05-20 11:42:58] INFO root fetch - main [MainThread]: End processing [arclet-entari]: success
+[2024-05-20 11:42:59] INFO root fetch - processPackages [wol-api]: Remove: archive file [/home/abi/fetcher/tmp/wol_api-1.0.1.tar.gz]
+[2024-05-20 11:42:59] INFO root fetch - processPackages [wol-api]: Remove: archive file [/home/abi/fetcher/tmp/wol_api-1.0.2.tar.gz]
+[2024-05-20 11:42:59] INFO root fetch - main [MainThread]: End processing [wol-api]: success
+[2024-05-20 11:42:59] INFO root fetch - processPackages [fordpip]: Remove: archive file [/home/abi/fetcher/tmp/fordpip-0.0.1.tar.gz]
+[2024-05-20 11:42:59] INFO root fetch - processPackages [fordpip]: Remove: archive file [/home/abi/fetcher/tmp/fordpip-0.1.0.tar.gz]
+[2024-05-20 11:42:59] INFO root fetch - main [MainThread]: End processing [fordpip]: success
+[2024-05-20 11:42:59] INFO root fetch - main [MainThread]: End processing [fordpip]: success
+[2024-05-20 11:42:59] INFO root fetch - processPackages [gmsh-scripts]: Remove: archive file [/home/abi/fetcher/tmp/gmsh_scripts-0.4.3.tar.gz]
+[2024-05-20 11:42:59] INFO root fetch - processPackages [gmsh-scripts]: Remove: archive file [/home/abi/fetcher/tmp/gmsh_scripts-0.4.4.tar.gz]
+[2024-05-20 11:42:59] INFO root fetch - main [MainThread]: End processing [gmsh-scripts]: success
+[2024-05-20 11:42:59] INFO root fetch - processPackages [FlaskTester]: Remove: archive file [/home/abi/fetcher/tmp/FlaskTester-3.6.tar.gz]
+[2024-05-20 11:42:59] INFO root fetch - processPackages [FlaskTester]: Remove: archive file [/home/abi/fetcher/tmp/flasktester-4.0.tar.gz]
+[2024-05-20 11:42:59] INFO root fetch - main [MainThread]: End processing [FlaskTester]: success
+[2024-05-20 11:42:59] INFO root fetch - processPackages [doxmlparser]: Remove: archive file [/home/abi/fetcher/tmp/doxmlparser-1.10.0-py3-none-any.whl.zip]
+[2024-05-20 11:42:59] INFO root fetch - processPackages [doxmlparser]: Remove: archive file [/home/abi/fetcher/tmp/doxmlparser-1.11.0-py3-none-any.whl.zip]
+[2024-05-20 11:42:59] INFO root fetch - main [MainThread]: End processing [doxmlparser]: success
+[2024-05-20 11:42:59] INFO root fetch - main [MainThread]: Store serial: [23287664]

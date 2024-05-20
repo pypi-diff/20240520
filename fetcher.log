@@ -17422,3 +17422,120 @@ EOFError: EOF read where object expected
 [2024-05-20 14:54:10] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-4.3.2.tar.gz]
 [2024-05-20 14:54:10] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2024-05-20 14:54:10] INFO root fetch - main [MainThread]: Store serial: [23289823]
+[2024-05-20 14:56:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289823]
+[2024-05-20 14:56:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 14:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spectacularAI
+[2024-05-20 14:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: valens
+[2024-05-20 14:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yeref
+[2024-05-20 14:56:20] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-20 14:56:20] INFO root fetch - processPackages [valens]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-20 14:56:20] INFO root fetch - processPackages [spectacularAI]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-20 14:56:20] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-20 14:56:20] INFO root fetch - processPackages [valens]: Downloading https://files.pythonhosted.org/packages/9c/ab/0ef038ad8c359a24d28b2180aeedbb394fffbb35ff4f60a08a864cad420e/valens-0.4.0.tar.gz
+[2024-05-20 14:56:20] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-20 14:56:20] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-20 14:56:20] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240520/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-20 14:56:20] INFO root fetch - processPackages [spectacularAI]: executing diffoscope
+[2024-05-20 14:56:20] INFO root fetch - processPackages [spectacularAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectacularAI-1.8.0-cp39-cp39-win_amd64.whl.zip tmp/spectacularAI-1.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20240520/s/spectacularAI/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-20 14:56:20] INFO root fetch - processPackages [valens]: Downloading https://files.pythonhosted.org/packages/9f/6b/eded2b5c0af474bbe1e9b47a76c0d6fe302143af23fd47684fcfc20d510f/valens-0.4.1.tar.gz
+[2024-05-20 14:56:20] INFO root fetch - processPackages [valens]: executing diffoscope
+[2024-05-20 14:56:20] INFO root fetch - processPackages [valens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valens-0.4.0.tar.gz tmp/valens-0.4.1.tar.gz --markdown 20240520/v/valens/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-20 14:56:21] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-20 14:56:21] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-20 14:56:21] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-20 14:56:21] ERROR root fetch - processPackages [spectacularAI]: Diffoscope failed: time="2024-05-20T14:56:20+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139755954118144)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139755819900352)
+
+[2024-05-20 14:56:21] INFO root fetch - main [MainThread]: End processing [spectacularAI] error
+[2024-05-20 14:56:34] INFO root fetch - processPackages [valens]: Remove: archive file [/home/abi/fetcher/tmp/valens-0.4.0.tar.gz]
+[2024-05-20 14:56:34] INFO root fetch - processPackages [valens]: Remove: archive file [/home/abi/fetcher/tmp/valens-0.4.1.tar.gz]
+[2024-05-20 14:56:34] INFO root fetch - main [MainThread]: End processing [valens]: success
+[2024-05-20 14:56:34] INFO root fetch - main [MainThread]: Store serial: [23289840]

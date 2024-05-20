@@ -7580,3 +7580,39 @@
 [2024-05-20 07:32:37] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-2.0.1.tar.gz]
 [2024-05-20 07:32:37] INFO root fetch - main [MainThread]: End processing [examon-core]: success
 [2024-05-20 07:32:37] INFO root fetch - main [MainThread]: Store serial: [23285023]
+[2024-05-20 07:34:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285023]
+[2024-05-20 07:34:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 07:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proconfig
+[2024-05-20 07:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neatherdz
+[2024-05-20 07:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: draccus
+[2024-05-20 07:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tflite-runtime-nightly
+[2024-05-20 07:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-ro-stock-account-tracking
+[2024-05-20 07:34:45] WARNING root fetch - processPackages [neatherdz]: Skipping, unable to determine old version
+[2024-05-20 07:34:45] INFO root fetch - main [MainThread]: End processing [neatherdz] error
+[2024-05-20 07:34:45] WARNING root fetch - processPackages [proconfig]: Skipping, unable to determine old version
+[2024-05-20 07:34:45] INFO root fetch - main [MainThread]: End processing [proconfig] error
+[2024-05-20 07:34:45] INFO root fetch - processPackages [draccus]: New version: [0.8.0] Old Version: [0.7.3]
+[2024-05-20 07:34:45] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240519] Old Version: [2.17.0.dev20240517]
+[2024-05-20 07:34:45] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-tracking]: New version: [16.0.1.27.0] Old Version: [16.0.1.26.0]
+[2024-05-20 07:34:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-tracking]: Downloading https://files.pythonhosted.org/packages/05/0b/7a55c2737755b1f797f23493263343590e1df556e4860f75140802a939ed/odoo_addon_l10n_ro_stock_account_tracking-16.0.1.26.0-py3-none-any.whl
+[2024-05-20 07:34:46] INFO root fetch - processPackages [draccus]: Downloading https://files.pythonhosted.org/packages/58/8d/4130132a33c67f3f42e6bab977caf2c7704970693647f2cc703b3aab254b/draccus-0.7.3.tar.gz
+[2024-05-20 07:34:46] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/3b/c9/ff9691050c78e345879de3bb76db1ca18764ba4c12bcc766e690c67b842d/tflite_runtime_nightly-2.17.0.dev20240517-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-20 07:34:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-tracking]: Downloading https://files.pythonhosted.org/packages/14/df/0ad2e8dd9e1735c00ab13e0ee52e75904b5de68363f1a50ea88d8632dc16/odoo_addon_l10n_ro_stock_account_tracking-16.0.1.27.0-py3-none-any.whl
+[2024-05-20 07:34:46] INFO root fetch - processPackages [draccus]: Downloading https://files.pythonhosted.org/packages/2d/36/b575985d7cb6c8db4e5184df1c3b4876b252de858a02451076c1141608ed/draccus-0.8.0.tar.gz
+[2024-05-20 07:34:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-tracking]: executing diffoscope
+[2024-05-20 07:34:46] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account_tracking-16.0.1.26.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account_tracking-16.0.1.27.0-py3-none-any.whl.zip --markdown 20240520/o/odoo-addon-l10n-ro-stock-account-tracking/16.0.1.26.0-16.0.1.27.0/README.md --exclude *.pyd
+[2024-05-20 07:34:46] INFO root fetch - processPackages [draccus]: executing diffoscope
+[2024-05-20 07:34:46] INFO root fetch - processPackages [draccus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draccus-0.7.3.tar.gz tmp/draccus-0.8.0.tar.gz --markdown 20240520/d/draccus/0.7.3-0.8.0/README.md --exclude *.pyd
+[2024-05-20 07:34:46] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/49/a7/ac1418d5fe703316b6764a7b833640e83ae87c00d1c73350cd4be2da4b38/tflite_runtime_nightly-2.17.0.dev20240519-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-20 07:34:47] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-05-20 07:34:47] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240517-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240519-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240520/t/tflite-runtime-nightly/2.17.0.dev20240517-2.17.0.dev20240519/README.md --exclude *.pyd
+[2024-05-20 07:34:47] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account_tracking-16.0.1.26.0-py3-none-any.whl.zip]
+[2024-05-20 07:34:47] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account_tracking-16.0.1.27.0-py3-none-any.whl.zip]
+[2024-05-20 07:34:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account-tracking]: success
+[2024-05-20 07:34:47] INFO root fetch - processPackages [draccus]: Remove: archive file [/home/abi/fetcher/tmp/draccus-0.7.3.tar.gz]
+[2024-05-20 07:34:47] INFO root fetch - processPackages [draccus]: Remove: archive file [/home/abi/fetcher/tmp/draccus-0.8.0.tar.gz]
+[2024-05-20 07:34:47] INFO root fetch - main [MainThread]: End processing [draccus]: success
+[2024-05-20 07:34:47] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240517-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-20 07:34:47] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240519-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-20 07:34:47] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-05-20 07:34:47] INFO root fetch - main [MainThread]: Store serial: [23285052]

@@ -18921,3 +18921,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:38:58] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.5.tar.gz]
 [2024-05-20 15:38:58] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
 [2024-05-20 15:38:58] INFO root fetch - main [MainThread]: Store serial: [23290415]
+[2024-05-20 15:41:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290415]
+[2024-05-20 15:41:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-20 15:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foo-metta-motto
+[2024-05-20 15:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-azure-native
+[2024-05-20 15:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socketsecurity
+[2024-05-20 15:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2024-05-20 15:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: json-dict-diff
+[2024-05-20 15:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lachrymiformz
+[2024-05-20 15:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: defisheye
+[2024-05-20 15:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wwbot
+[2024-05-20 15:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TADGATE
+[2024-05-20 15:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tk-lint
+[2024-05-20 15:41:08] INFO root fetch - processPackages [defisheye]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-20 15:41:09] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-20 15:41:09] WARNING root fetch - processPackages [json-dict-diff]: Skipping, unable to determine old version
+[2024-05-20 15:41:09] INFO root fetch - main [MainThread]: End processing [json-dict-diff] error
+[2024-05-20 15:41:09] WARNING root fetch - processPackages [tk-lint]: Skipping, unable to determine old version
+[2024-05-20 15:41:09] INFO root fetch - main [MainThread]: End processing [tk-lint] error
+[2024-05-20 15:41:09] INFO root fetch - processPackages [wwbot]: New version: [0.0.8a0] Old Version: [0.0.7]
+[2024-05-20 15:41:09] WARNING root fetch - processPackages [foo-metta-motto]: Skipping, unable to determine old version
+[2024-05-20 15:41:09] INFO root fetch - main [MainThread]: End processing [foo-metta-motto] error
+[2024-05-20 15:41:09] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.9.1a1696416212] Old Version: [2.9.1a1696411987]
+[2024-05-20 15:41:09] INFO root fetch - processPackages [defisheye]: Downloading https://files.pythonhosted.org/packages/0d/d9/8739b538143536b9c2cfb9a6adbc181416c1e2750fde1f9a70f503adef93/defisheye-1.3.0-py3-none-any.whl
+[2024-05-20 15:41:09] WARNING root fetch - processPackages [TADGATE]: Skipping, unable to determine old version
+[2024-05-20 15:41:09] INFO root fetch - main [MainThread]: End processing [TADGATE] error
+[2024-05-20 15:41:09] WARNING root fetch - processPackages [lachrymiformz]: Skipping, unable to determine old version
+[2024-05-20 15:41:09] INFO root fetch - processPackages [socketsecurity]: New version: [0.0.68] Old Version: [0.0.67]
+[2024-05-20 15:41:09] INFO root fetch - main [MainThread]: End processing [lachrymiformz] error
+[2024-05-20 15:41:09] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-20 15:41:09] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/80/ad/3d648ad62fd0999e150582372f853208af3cf489c174cbeac4c2aa827973/wwbot-0.0.7.tar.gz
+[2024-05-20 15:41:09] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/7c/39/23e88d5a9a544cb9a75a9c0b077f73c9c90cb756d8e32766dfffb90f8833/pulumi_azure_native-2.9.1a1696411987.tar.gz
+[2024-05-20 15:41:09] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27430128>=10485760
+[2024-05-20 15:41:09] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2024-05-20 15:41:09] INFO root fetch - processPackages [defisheye]: Downloading https://files.pythonhosted.org/packages/67/4d/7c845d70f423608e7b5ef0d011b4e498086cb4e5461ef084944509578b8f/defisheye-1.4.0.tar.gz
+[2024-05-20 15:41:09] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/99/e7/b15df90303f123e1083153d823fbd4cb733793f2b7fa39610a0a2cc6cfca/socketsecurity-0.0.67.tar.gz
+[2024-05-20 15:41:09] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-20 15:41:09] INFO root fetch - processPackages [defisheye]: executing diffoscope
+[2024-05-20 15:41:09] INFO root fetch - processPackages [defisheye]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defisheye-1.3.0-py3-none-any.whl.zip tmp/defisheye-1.4.0.tar.gz --markdown 20240520/d/defisheye/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-20 15:41:09] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/de/ea/7625c401904f2ef2802f0d83de520c541429b7c8bd4ba15a796cb340e85d/wwbot-0.0.8a0.tar.gz
+[2024-05-20 15:41:09] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-20 15:41:09] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240520/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-20 15:41:09] INFO root fetch - processPackages [wwbot]: executing diffoscope
+[2024-05-20 15:41:09] INFO root fetch - processPackages [wwbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwbot-0.0.7.tar.gz tmp/wwbot-0.0.8a0.tar.gz --markdown 20240520/w/wwbot/0.0.7-0.0.8a0/README.md --exclude *.pyd
+[2024-05-20 15:41:09] INFO root fetch - processPackages [socketsecurity]: Downloading https://files.pythonhosted.org/packages/6f/b0/270981e15d9f953fd671cc7e41171e8882da2e1d25bfdbd356e3c66fe49e/socketsecurity-0.0.68.tar.gz
+[2024-05-20 15:41:10] INFO root fetch - processPackages [defisheye]: Remove: archive file [/home/abi/fetcher/tmp/defisheye-1.3.0-py3-none-any.whl.zip]
+[2024-05-20 15:41:10] INFO root fetch - processPackages [defisheye]: Remove: archive file [/home/abi/fetcher/tmp/defisheye-1.4.0.tar.gz]
+[2024-05-20 15:41:10] INFO root fetch - main [MainThread]: End processing [defisheye]: success
+[2024-05-20 15:41:10] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.7.tar.gz]
+[2024-05-20 15:41:10] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.8a0.tar.gz]
+[2024-05-20 15:41:10] INFO root fetch - main [MainThread]: End processing [wwbot]: success
+[2024-05-20 15:41:10] INFO root fetch - processPackages [socketsecurity]: executing diffoscope
+[2024-05-20 15:41:10] INFO root fetch - processPackages [socketsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socketsecurity-0.0.67.tar.gz tmp/socketsecurity-0.0.68.tar.gz --markdown 20240520/s/socketsecurity/0.0.67-0.0.68/README.md --exclude *.pyd
+[2024-05-20 15:41:10] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-20 15:41:10] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-20 15:41:10] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-20 15:41:11] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.67.tar.gz]
+[2024-05-20 15:41:11] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.68.tar.gz]
+[2024-05-20 15:41:11] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
+[2024-05-20 15:41:11] INFO root fetch - main [MainThread]: Store serial: [23290454]

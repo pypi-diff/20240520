@@ -21508,3 +21508,81 @@ EOFError: EOF read where object expected
 [2024-05-20 17:11:52] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.93.4.tar.gz]
 [2024-05-20 17:11:52] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2024-05-20 17:11:52] INFO root fetch - main [MainThread]: Store serial: [23291553]
+[2024-05-20 17:13:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291553]
+[2024-05-20 17:14:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 17:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flow.record
+[2024-05-20 17:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eulertools
+[2024-05-20 17:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: baseapp-url-shortening
+[2024-05-20 17:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mirabolic
+[2024-05-20 17:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gene4mVCF
+[2024-05-20 17:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: synthetic-home
+[2024-05-20 17:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ShadowFinder
+[2024-05-20 17:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: myaskai-py
+[2024-05-20 17:14:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: genewalk
+[2024-05-20 17:14:02] INFO root fetch - processPackages [gene4mVCF]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-20 17:14:02] INFO root fetch - processPackages [synthetic-home]: New version: [2.0.0] Old Version: [0.1.0]
+[2024-05-20 17:14:02] INFO root fetch - processPackages [mirabolic]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-20 17:14:02] INFO root fetch - processPackages [flow.record]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2024-05-20 17:14:02] INFO root fetch - processPackages [ShadowFinder]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-20 17:14:02] INFO root fetch - processPackages [baseapp-url-shortening]: New version: [0.1.31] Old Version: [0.1.3]
+[2024-05-20 17:14:02] INFO root fetch - processPackages [gene4mVCF]: Downloading https://files.pythonhosted.org/packages/ff/4d/f5032df2818e056fb92fa8182cad6e6b10d18673c8bb7d0c8ae12cb11a0d/gene4mvcf-1.1.1.tar.gz
+[2024-05-20 17:14:02] INFO root fetch - processPackages [eulertools]: New version: [3.0.0] Old Version: [2.1.0]
+[2024-05-20 17:14:02] WARNING root fetch - processPackages [myaskai-py]: Skipping, unable to determine old version
+[2024-05-20 17:14:02] INFO root fetch - main [MainThread]: End processing [myaskai-py] error
+[2024-05-20 17:14:02] INFO root fetch - processPackages [genewalk]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-05-20 17:14:02] INFO root fetch - processPackages [mirabolic]: Downloading https://files.pythonhosted.org/packages/cb/48/8966211658ec3ca48f9d1fda7185bb15eb66f1973fa6ba935c5593ac8094/mirabolic-0.2.1.tar.gz
+[2024-05-20 17:14:02] INFO root fetch - processPackages [synthetic-home]: Downloading https://files.pythonhosted.org/packages/70/12/535cf7f8f9e9e3ec3c6d725c372b6941f86d6eee912bfe2f6ceb820b391a/synthetic_home-0.1.0.tar.gz
+[2024-05-20 17:14:02] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/eb/f7/743164d5e05ae865e54dab364d8f3f0a512e9cd3b5472ed910e78318fea7/flow.record-3.9.dev8-py3-none-any.whl
+[2024-05-20 17:14:02] INFO root fetch - processPackages [ShadowFinder]: Downloading https://files.pythonhosted.org/packages/fe/67/164feb0b012a23f2b2df144df2c29a203aa4dff62dd83c43cf51dd2e9139/shadowfinder-0.2.0.tar.gz
+[2024-05-20 17:14:02] INFO root fetch - processPackages [baseapp-url-shortening]: Downloading https://files.pythonhosted.org/packages/05/98/27a92776ca030a1b21fb88fa5a3f62371dbd7f9094071f6bc2ba9452371f/baseapp-url-shortening-0.1.3.tar.gz
+[2024-05-20 17:14:02] INFO root fetch - processPackages [eulertools]: Downloading https://files.pythonhosted.org/packages/81/93/20d0f9c81d6a41ee0b5163be680e7916e36d992fe61ac88946054f007154/eulertools-2.1.0.tar.gz
+[2024-05-20 17:14:02] INFO root fetch - processPackages [genewalk]: Downloading https://files.pythonhosted.org/packages/9a/44/1af8178e3c96da9314bd31bb57595c78be5fc1a55bcdb7a553a4c1de531e/genewalk-1.6.1.tar.gz
+[2024-05-20 17:14:02] INFO root fetch - processPackages [synthetic-home]: Downloading https://files.pythonhosted.org/packages/c7/39/d85780a841d8f606713b8c7da7b5bf55a47c160fef78cd396c37478ca7cf/synthetic_home-2.0.0.tar.gz
+[2024-05-20 17:14:02] INFO root fetch - processPackages [gene4mVCF]: Downloading https://files.pythonhosted.org/packages/f3/22/01de112d6a43bce4e29109289772ba276a2eea9059d677559d152efec3f0/gene4mvcf-1.1.2.tar.gz
+[2024-05-20 17:14:02] INFO root fetch - processPackages [mirabolic]: Downloading https://files.pythonhosted.org/packages/60/fe/5957d76c9d237aac49cb61ba1f7494b25675390d32b1c2ceac423a19a150/mirabolic-0.2.2.tar.gz
+[2024-05-20 17:14:02] INFO root fetch - processPackages [synthetic-home]: executing diffoscope
+[2024-05-20 17:14:02] INFO root fetch - processPackages [synthetic-home]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthetic_home-0.1.0.tar.gz tmp/synthetic_home-2.0.0.tar.gz --markdown 20240520/s/synthetic-home/0.1.0-2.0.0/README.md --exclude *.pyd
+[2024-05-20 17:14:02] INFO root fetch - processPackages [gene4mVCF]: executing diffoscope
+[2024-05-20 17:14:02] INFO root fetch - processPackages [gene4mVCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gene4mvcf-1.1.1.tar.gz tmp/gene4mvcf-1.1.2.tar.gz --markdown 20240520/g/gene4mVCF/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-20 17:14:02] INFO root fetch - processPackages [mirabolic]: executing diffoscope
+[2024-05-20 17:14:02] INFO root fetch - processPackages [mirabolic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirabolic-0.2.1.tar.gz tmp/mirabolic-0.2.2.tar.gz --markdown 20240520/m/mirabolic/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-20 17:14:02] INFO root fetch - processPackages [ShadowFinder]: Downloading https://files.pythonhosted.org/packages/2f/4c/f09e7bac81280f33858aad68e08a73c7924bbe488c2b2754d447e8307c49/shadowfinder-0.2.1.tar.gz
+[2024-05-20 17:14:02] INFO root fetch - processPackages [eulertools]: Downloading https://files.pythonhosted.org/packages/95/b5/a65118fb6f5fe3f81e9789eaeb6e62df6616e42f68f90bfd1a4afb191fe2/eulertools-3.0.0.tar.gz
+[2024-05-20 17:14:02] INFO root fetch - processPackages [baseapp-url-shortening]: Downloading https://files.pythonhosted.org/packages/12/81/bf86cb7bf9f0b8e695fa135519f09fe323db7bd8b76ed1f5ca747a434121/baseapp-url-shortening-0.1.31.tar.gz
+[2024-05-20 17:14:02] INFO root fetch - processPackages [flow.record]: Downloading https://files.pythonhosted.org/packages/b6/a4/d70ac03ec18bd7f7765a7f6f716e621cc5c9c74458d5c9782d2a357a0429/flow.record-3.9.dev9-py3-none-any.whl
+[2024-05-20 17:14:02] INFO root fetch - processPackages [genewalk]: Downloading https://files.pythonhosted.org/packages/72/3d/0aff022fcc6ec28580d0a6418dd95abb15146163f5ce701a2eff99664602/genewalk-1.6.2.tar.gz
+[2024-05-20 17:14:03] INFO root fetch - processPackages [ShadowFinder]: executing diffoscope
+[2024-05-20 17:14:03] INFO root fetch - processPackages [ShadowFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shadowfinder-0.2.0.tar.gz tmp/shadowfinder-0.2.1.tar.gz --markdown 20240520/S/ShadowFinder/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-20 17:14:03] INFO root fetch - processPackages [baseapp-url-shortening]: executing diffoscope
+[2024-05-20 17:14:03] INFO root fetch - processPackages [baseapp-url-shortening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseapp-url-shortening-0.1.3.tar.gz tmp/baseapp-url-shortening-0.1.31.tar.gz --markdown 20240520/b/baseapp-url-shortening/0.1.3-0.1.31/README.md --exclude *.pyd
+[2024-05-20 17:14:03] INFO root fetch - processPackages [eulertools]: executing diffoscope
+[2024-05-20 17:14:03] INFO root fetch - processPackages [eulertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eulertools-2.1.0.tar.gz tmp/eulertools-3.0.0.tar.gz --markdown 20240520/e/eulertools/2.1.0-3.0.0/README.md --exclude *.pyd
+[2024-05-20 17:14:03] INFO root fetch - processPackages [genewalk]: executing diffoscope
+[2024-05-20 17:14:03] INFO root fetch - processPackages [genewalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genewalk-1.6.1.tar.gz tmp/genewalk-1.6.2.tar.gz --markdown 20240520/g/genewalk/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-05-20 17:14:03] INFO root fetch - processPackages [flow.record]: executing diffoscope
+[2024-05-20 17:14:03] INFO root fetch - processPackages [flow.record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flow.record-3.9.dev8-py3-none-any.whl.zip tmp/flow.record-3.9.dev9-py3-none-any.whl.zip --markdown 20240520/f/flow.record/3.9.dev8-3.9.dev9/README.md --exclude *.pyd
+[2024-05-20 17:14:03] INFO root fetch - processPackages [gene4mVCF]: Remove: archive file [/home/abi/fetcher/tmp/gene4mvcf-1.1.1.tar.gz]
+[2024-05-20 17:14:03] INFO root fetch - processPackages [gene4mVCF]: Remove: archive file [/home/abi/fetcher/tmp/gene4mvcf-1.1.2.tar.gz]
+[2024-05-20 17:14:03] INFO root fetch - main [MainThread]: End processing [gene4mVCF]: success
+[2024-05-20 17:14:03] INFO root fetch - processPackages [synthetic-home]: Remove: archive file [/home/abi/fetcher/tmp/synthetic_home-0.1.0.tar.gz]
+[2024-05-20 17:14:03] INFO root fetch - processPackages [synthetic-home]: Remove: archive file [/home/abi/fetcher/tmp/synthetic_home-2.0.0.tar.gz]
+[2024-05-20 17:14:03] INFO root fetch - main [MainThread]: End processing [synthetic-home]: success
+[2024-05-20 17:14:03] INFO root fetch - processPackages [mirabolic]: Remove: archive file [/home/abi/fetcher/tmp/mirabolic-0.2.1.tar.gz]
+[2024-05-20 17:14:03] INFO root fetch - processPackages [mirabolic]: Remove: archive file [/home/abi/fetcher/tmp/mirabolic-0.2.2.tar.gz]
+[2024-05-20 17:14:03] INFO root fetch - main [MainThread]: End processing [mirabolic]: success
+[2024-05-20 17:14:03] INFO root fetch - processPackages [baseapp-url-shortening]: Remove: archive file [/home/abi/fetcher/tmp/baseapp-url-shortening-0.1.3.tar.gz]
+[2024-05-20 17:14:03] INFO root fetch - processPackages [baseapp-url-shortening]: Remove: archive file [/home/abi/fetcher/tmp/baseapp-url-shortening-0.1.31.tar.gz]
+[2024-05-20 17:14:03] INFO root fetch - main [MainThread]: End processing [baseapp-url-shortening]: success
+[2024-05-20 17:14:03] INFO root fetch - processPackages [ShadowFinder]: Remove: archive file [/home/abi/fetcher/tmp/shadowfinder-0.2.0.tar.gz]
+[2024-05-20 17:14:03] INFO root fetch - processPackages [ShadowFinder]: Remove: archive file [/home/abi/fetcher/tmp/shadowfinder-0.2.1.tar.gz]
+[2024-05-20 17:14:03] INFO root fetch - main [MainThread]: End processing [ShadowFinder]: success
+[2024-05-20 17:14:03] INFO root fetch - processPackages [eulertools]: Remove: archive file [/home/abi/fetcher/tmp/eulertools-2.1.0.tar.gz]
+[2024-05-20 17:14:03] INFO root fetch - processPackages [eulertools]: Remove: archive file [/home/abi/fetcher/tmp/eulertools-3.0.0.tar.gz]
+[2024-05-20 17:14:03] INFO root fetch - main [MainThread]: End processing [eulertools]: success
+[2024-05-20 17:14:03] INFO root fetch - processPackages [genewalk]: Remove: archive file [/home/abi/fetcher/tmp/genewalk-1.6.1.tar.gz]
+[2024-05-20 17:14:03] INFO root fetch - processPackages [genewalk]: Remove: archive file [/home/abi/fetcher/tmp/genewalk-1.6.2.tar.gz]
+[2024-05-20 17:14:03] INFO root fetch - main [MainThread]: End processing [genewalk]: success
+[2024-05-20 17:14:04] INFO root fetch - processPackages [flow.record]: Remove: archive file [/home/abi/fetcher/tmp/flow.record-3.9.dev8-py3-none-any.whl.zip]
+[2024-05-20 17:14:04] INFO root fetch - processPackages [flow.record]: Remove: archive file [/home/abi/fetcher/tmp/flow.record-3.9.dev9-py3-none-any.whl.zip]
+[2024-05-20 17:14:04] INFO root fetch - main [MainThread]: End processing [flow.record]: success
+[2024-05-20 17:14:04] INFO root fetch - main [MainThread]: Store serial: [23291582]

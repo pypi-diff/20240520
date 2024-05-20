@@ -24591,3 +24591,63 @@ EOFError: EOF read where object expected
 [2024-05-20 19:08:15] INFO root fetch - processPackages [pyzstd]: Remove: archive file [/home/abi/fetcher/tmp/pyzstd-0.16.0-cp38-cp38-musllinux_1_2_aarch64.whl.zip]
 [2024-05-20 19:08:15] INFO root fetch - main [MainThread]: End processing [pyzstd]: success
 [2024-05-20 19:08:15] INFO root fetch - main [MainThread]: Store serial: [23293028]
+[2024-05-20 19:10:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23293028]
+[2024-05-20 19:10:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 19:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-fabric
+[2024-05-20 19:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: url-remote
+[2024-05-20 19:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jesse-apexpro
+[2024-05-20 19:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zhmiscellany
+[2024-05-20 19:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: namer
+[2024-05-20 19:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pinecone-notebooks
+[2024-05-20 19:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imas-tools
+[2024-05-20 19:10:25] INFO root fetch - processPackages [dbt-fabric]: New version: [1.8.4] Old Version: [1.8.3]
+[2024-05-20 19:10:25] INFO root fetch - processPackages [imas-tools]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-20 19:10:25] INFO root fetch - processPackages [dbt-fabric]: Downloading https://files.pythonhosted.org/packages/3d/be/68ec41f9c78c0ac85feb6b2e9aa3f72605629cadbd18643854d7385b220c/dbt-fabric-1.8.3.tar.gz
+[2024-05-20 19:10:25] WARNING root fetch - processPackages [jesse-apexpro]: Skipping, unable to determine old version
+[2024-05-20 19:10:25] INFO root fetch - main [MainThread]: End processing [jesse-apexpro] error
+[2024-05-20 19:10:25] INFO root fetch - processPackages [pinecone-notebooks]: New version: [0.1.1rc1] Old Version: [0.1.0rc1]
+[2024-05-20 19:10:25] INFO root fetch - processPackages [url-remote]: New version: [0.0.95] Old Version: [0.0.94]
+[2024-05-20 19:10:25] INFO root fetch - processPackages [namer]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-05-20 19:10:25] INFO root fetch - processPackages [zhmiscellany]: New version: [2.1.0] Old Version: [2.0.9]
+[2024-05-20 19:10:25] INFO root fetch - processPackages [imas-tools]: Downloading https://files.pythonhosted.org/packages/84/fc/1b9eb32e1f3764422ee783a0bc50c8e57574107985580bb8dac9108459af/imas_tools-0.4.0.tar.gz
+[2024-05-20 19:10:25] INFO root fetch - processPackages [dbt-fabric]: Downloading https://files.pythonhosted.org/packages/b8/fd/9cd44d50086d970e9e0ad5f9768d65e037a798b8a42ee43e075ab2774a89/dbt-fabric-1.8.4.tar.gz
+[2024-05-20 19:10:25] INFO root fetch - processPackages [url-remote]: Downloading https://files.pythonhosted.org/packages/6b/eb/d676f7856014ae4d5d56afa13c218b6c0b757d393961bf684da7e6db1cce/url_remote-0.0.94.tar.gz
+[2024-05-20 19:10:25] INFO root fetch - processPackages [namer]: Downloading https://files.pythonhosted.org/packages/13/04/79d5b1d7c32bd69fa2f6b689030b844e992c35bb3a8907ea9f944a76e29d/namer-1.9.7.tar.gz
+[2024-05-20 19:10:25] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/fb/03/7f749bfbdeb5cd3ca7e5368713ad40a4096f1c3d143f67803e9eb770b856/zhmiscellany-2.0.9-py3-none-any.whl
+[2024-05-20 19:10:25] INFO root fetch - processPackages [pinecone-notebooks]: Downloading https://files.pythonhosted.org/packages/ca/6c/50172534dd4003ae68ecf5982efe1a465aaa9f196301f0d0bd91143d48b5/pinecone_notebooks-0.1.0rc1.tar.gz
+[2024-05-20 19:10:25] INFO root fetch - processPackages [dbt-fabric]: executing diffoscope
+[2024-05-20 19:10:25] INFO root fetch - processPackages [dbt-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-fabric-1.8.3.tar.gz tmp/dbt-fabric-1.8.4.tar.gz --markdown 20240520/d/dbt-fabric/1.8.3-1.8.4/README.md --exclude *.pyd
+[2024-05-20 19:10:25] INFO root fetch - processPackages [imas-tools]: Downloading https://files.pythonhosted.org/packages/af/cd/777a710bbd2df9636e7c308431df293057904fd01ee63337a9bec51d5717/imas_tools-0.4.1.tar.gz
+[2024-05-20 19:10:25] INFO root fetch - processPackages [url-remote]: Downloading https://files.pythonhosted.org/packages/a4/a3/17d7ad3b79b92df7c095e7e6ed829e882ce6c422f4e5e5f08415e5e66bc8/url_remote-0.0.95.tar.gz
+[2024-05-20 19:10:25] INFO root fetch - processPackages [imas-tools]: executing diffoscope
+[2024-05-20 19:10:25] INFO root fetch - processPackages [imas-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imas_tools-0.4.0.tar.gz tmp/imas_tools-0.4.1.tar.gz --markdown 20240520/i/imas-tools/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-20 19:10:25] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/61/5c/d0bf197571492632a12165f3f0ee520ac4d6fcb057a27a35b209b3f8176c/zhmiscellany-2.1.0-py3-none-any.whl
+[2024-05-20 19:10:25] INFO root fetch - processPackages [namer]: Downloading https://files.pythonhosted.org/packages/4c/f1/c49c428124090401e22593a3d7f5c99a317c54dbe00b5c67957b784e0dd0/namer-1.9.8.tar.gz
+[2024-05-20 19:10:25] INFO root fetch - processPackages [url-remote]: executing diffoscope
+[2024-05-20 19:10:25] INFO root fetch - processPackages [url-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/url_remote-0.0.94.tar.gz tmp/url_remote-0.0.95.tar.gz --markdown 20240520/u/url-remote/0.0.94-0.0.95/README.md --exclude *.pyd
+[2024-05-20 19:10:25] INFO root fetch - processPackages [pinecone-notebooks]: Downloading https://files.pythonhosted.org/packages/71/48/e47e2094b0a5ffacd77be75461760aca1bf48675082f609b355b5dd20c93/pinecone_notebooks-0.1.1rc1.tar.gz
+[2024-05-20 19:10:25] INFO root fetch - processPackages [zhmiscellany]: executing diffoscope
+[2024-05-20 19:10:25] INFO root fetch - processPackages [zhmiscellany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmiscellany-2.0.9-py3-none-any.whl.zip tmp/zhmiscellany-2.1.0-py3-none-any.whl.zip --markdown 20240520/z/zhmiscellany/2.0.9-2.1.0/README.md --exclude *.pyd
+[2024-05-20 19:10:25] INFO root fetch - processPackages [namer]: executing diffoscope
+[2024-05-20 19:10:25] INFO root fetch - processPackages [namer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namer-1.9.7.tar.gz tmp/namer-1.9.8.tar.gz --markdown 20240520/n/namer/1.9.7-1.9.8/README.md --exclude *.pyd
+[2024-05-20 19:10:26] INFO root fetch - processPackages [pinecone-notebooks]: executing diffoscope
+[2024-05-20 19:10:26] INFO root fetch - processPackages [pinecone-notebooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone_notebooks-0.1.0rc1.tar.gz tmp/pinecone_notebooks-0.1.1rc1.tar.gz --markdown 20240520/p/pinecone-notebooks/0.1.0rc1-0.1.1rc1/README.md --exclude *.pyd
+[2024-05-20 19:10:26] INFO root fetch - processPackages [dbt-fabric]: Remove: archive file [/home/abi/fetcher/tmp/dbt-fabric-1.8.3.tar.gz]
+[2024-05-20 19:10:26] INFO root fetch - processPackages [dbt-fabric]: Remove: archive file [/home/abi/fetcher/tmp/dbt-fabric-1.8.4.tar.gz]
+[2024-05-20 19:10:26] INFO root fetch - main [MainThread]: End processing [dbt-fabric]: success
+[2024-05-20 19:10:26] INFO root fetch - processPackages [imas-tools]: Remove: archive file [/home/abi/fetcher/tmp/imas_tools-0.4.0.tar.gz]
+[2024-05-20 19:10:26] INFO root fetch - processPackages [imas-tools]: Remove: archive file [/home/abi/fetcher/tmp/imas_tools-0.4.1.tar.gz]
+[2024-05-20 19:10:26] INFO root fetch - main [MainThread]: End processing [imas-tools]: success
+[2024-05-20 19:10:26] INFO root fetch - processPackages [url-remote]: Remove: archive file [/home/abi/fetcher/tmp/url_remote-0.0.94.tar.gz]
+[2024-05-20 19:10:26] INFO root fetch - processPackages [url-remote]: Remove: archive file [/home/abi/fetcher/tmp/url_remote-0.0.95.tar.gz]
+[2024-05-20 19:10:26] INFO root fetch - main [MainThread]: End processing [url-remote]: success
+[2024-05-20 19:10:26] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-2.0.9-py3-none-any.whl.zip]
+[2024-05-20 19:10:26] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-2.1.0-py3-none-any.whl.zip]
+[2024-05-20 19:10:26] INFO root fetch - main [MainThread]: End processing [zhmiscellany]: success
+[2024-05-20 19:10:26] INFO root fetch - processPackages [pinecone-notebooks]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_notebooks-0.1.0rc1.tar.gz]
+[2024-05-20 19:10:26] INFO root fetch - processPackages [pinecone-notebooks]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_notebooks-0.1.1rc1.tar.gz]
+[2024-05-20 19:10:26] INFO root fetch - main [MainThread]: End processing [pinecone-notebooks]: success
+[2024-05-20 19:10:26] INFO root fetch - processPackages [namer]: Remove: archive file [/home/abi/fetcher/tmp/namer-1.9.7.tar.gz]
+[2024-05-20 19:10:26] INFO root fetch - processPackages [namer]: Remove: archive file [/home/abi/fetcher/tmp/namer-1.9.8.tar.gz]
+[2024-05-20 19:10:26] INFO root fetch - main [MainThread]: End processing [namer]: success
+[2024-05-20 19:10:26] INFO root fetch - main [MainThread]: Store serial: [23293091]

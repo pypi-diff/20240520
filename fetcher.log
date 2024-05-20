@@ -23299,3 +23299,75 @@ EOFError: EOF read where object expected
 [2024-05-20 18:18:49] INFO root fetch - processPackages [fol_parser]: Remove: archive file [/home/abi/fetcher/tmp/fol_parser-0.5.0.tar.gz]
 [2024-05-20 18:18:49] INFO root fetch - main [MainThread]: End processing [fol_parser]: success
 [2024-05-20 18:18:49] INFO root fetch - main [MainThread]: Store serial: [23292333]
+[2024-05-20 18:20:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292333]
+[2024-05-20 18:20:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 18:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: planterz
+[2024-05-20 18:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansibleguy-webui
+[2024-05-20 18:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-server-globbing
+[2024-05-20 18:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scenvi
+[2024-05-20 18:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eea.website.policy
+[2024-05-20 18:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: strideutils
+[2024-05-20 18:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imas-tools
+[2024-05-20 18:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fluke-fl
+[2024-05-20 18:20:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: btrievePython
+[2024-05-20 18:20:58] INFO root fetch - processPackages [scenvi]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-20 18:20:58] INFO root fetch - processPackages [fluke-fl]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 18:20:58] INFO root fetch - processPackages [jupyter-server-globbing]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-20 18:20:58] WARNING root fetch - processPackages [planterz]: Skipping, unable to determine old version
+[2024-05-20 18:20:58] INFO root fetch - main [MainThread]: End processing [planterz] error
+[2024-05-20 18:20:58] INFO root fetch - processPackages [scenvi]: Downloading https://files.pythonhosted.org/packages/ca/c6/3c62ff319459bd32be9ab3a0ed6c4e4964b1e5a6adfe063e822bd9a4171c/scenvi-0.3.3.tar.gz
+[2024-05-20 18:20:58] INFO root fetch - processPackages [jupyter-server-globbing]: Downloading https://files.pythonhosted.org/packages/1f/41/fd15eeeb7f5c1d2cac97620fd161172607ab3d253be04e0586b970d12783/jupyter_server_globbing-0.1.4.tar.gz
+[2024-05-20 18:20:58] INFO root fetch - processPackages [imas-tools]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-20 18:20:58] INFO root fetch - processPackages [eea.website.policy]: New version: [4.0] Old Version: [3.1]
+[2024-05-20 18:20:58] INFO root fetch - processPackages [fluke-fl]: Downloading https://files.pythonhosted.org/packages/e2/12/a2de00ee2cef947396341d1e2be53942b6805730c4df7cc6938f1354dc4e/fluke_fl-0.0.2.tar.gz
+[2024-05-20 18:20:58] INFO root fetch - processPackages [ansibleguy-webui]: New version: [0.0.21] Old Version: [0.0.20]
+[2024-05-20 18:20:58] INFO root fetch - processPackages [strideutils]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-20 18:20:58] WARNING root fetch - processPackages [btrievePython]: Skipping, unable to determine old version
+[2024-05-20 18:20:58] INFO root fetch - main [MainThread]: End processing [btrievePython] error
+[2024-05-20 18:20:58] INFO root fetch - processPackages [eea.website.policy]: Downloading https://files.pythonhosted.org/packages/e4/fd/448242178e2cdc67dec6c0ab4e6756149de786d828c355f1d19b26f26dfb/eea.website.policy-3.1.zip
+[2024-05-20 18:20:58] INFO root fetch - processPackages [scenvi]: Downloading https://files.pythonhosted.org/packages/25/67/aed049f52e3ffdd63ec253ec261f3123a40f192b5386de4254da87046b81/scenvi-0.3.4.tar.gz
+[2024-05-20 18:20:58] INFO root fetch - processPackages [ansibleguy-webui]: Downloading https://files.pythonhosted.org/packages/0b/7b/cd85a533271a30df123000bbbf16906e87f4e777cce392396a69d1f3fbcd/ansibleguy_webui-0.0.20.tar.gz
+[2024-05-20 18:20:58] INFO root fetch - processPackages [fluke-fl]: Downloading https://files.pythonhosted.org/packages/b2/d8/153ba89b14d35943bbea6f25efa487db00748b90e3c3872ac6174d6c7846/fluke_fl-0.0.3.tar.gz
+[2024-05-20 18:20:58] INFO root fetch - processPackages [imas-tools]: Downloading https://files.pythonhosted.org/packages/9c/42/b6336f72710e7bfc35b26d102b0806c00d23d8c8f17b18f7f3e36e192028/imas_tools-0.3.0.tar.gz
+[2024-05-20 18:20:58] INFO root fetch - processPackages [strideutils]: Downloading https://files.pythonhosted.org/packages/e1/9b/56aec2f6b0d3c1e259f903acc0ff580043e88223ec37558b2e4a2ee21b6e/strideutils-0.3.8.tar.gz
+[2024-05-20 18:20:58] INFO root fetch - processPackages [jupyter-server-globbing]: Downloading https://files.pythonhosted.org/packages/da/0e/c73cc4ab484ac4bf0001f852c67fe35845ab5cdbc17f589b29768694e878/jupyter_server_globbing-0.1.5.tar.gz
+[2024-05-20 18:20:59] INFO root fetch - processPackages [scenvi]: executing diffoscope
+[2024-05-20 18:20:59] INFO root fetch - processPackages [scenvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scenvi-0.3.3.tar.gz tmp/scenvi-0.3.4.tar.gz --markdown 20240520/s/scenvi/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-20 18:20:59] INFO root fetch - processPackages [fluke-fl]: executing diffoscope
+[2024-05-20 18:20:59] INFO root fetch - processPackages [fluke-fl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluke_fl-0.0.2.tar.gz tmp/fluke_fl-0.0.3.tar.gz --markdown 20240520/f/fluke-fl/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 18:20:59] INFO root fetch - processPackages [jupyter-server-globbing]: executing diffoscope
+[2024-05-20 18:20:59] INFO root fetch - processPackages [jupyter-server-globbing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_server_globbing-0.1.4.tar.gz tmp/jupyter_server_globbing-0.1.5.tar.gz --markdown 20240520/j/jupyter-server-globbing/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-20 18:20:59] INFO root fetch - processPackages [eea.website.policy]: Downloading https://files.pythonhosted.org/packages/ab/54/5a9f3cb682330ef6416fd843e5d85803ab0cb388049e75b784976b77a21f/eea.website.policy-4.0.zip
+[2024-05-20 18:20:59] INFO root fetch - processPackages [imas-tools]: Downloading https://files.pythonhosted.org/packages/84/fc/1b9eb32e1f3764422ee783a0bc50c8e57574107985580bb8dac9108459af/imas_tools-0.4.0.tar.gz
+[2024-05-20 18:20:59] INFO root fetch - processPackages [ansibleguy-webui]: Downloading https://files.pythonhosted.org/packages/60/3a/09ad92f24b5c90b58f980651314352ccd074197e1fb4fa66a9a7c854c2b1/ansibleguy_webui-0.0.21.tar.gz
+[2024-05-20 18:20:59] INFO root fetch - processPackages [strideutils]: Downloading https://files.pythonhosted.org/packages/37/92/d67613eba81b67a968cad26eb4681b8c30b3f9f90ee0d106177b8bc07a2c/strideutils-0.3.9.tar.gz
+[2024-05-20 18:20:59] INFO root fetch - processPackages [ansibleguy-webui]: executing diffoscope
+[2024-05-20 18:20:59] INFO root fetch - processPackages [ansibleguy-webui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansibleguy_webui-0.0.20.tar.gz tmp/ansibleguy_webui-0.0.21.tar.gz --markdown 20240520/a/ansibleguy-webui/0.0.20-0.0.21/README.md --exclude *.pyd
+[2024-05-20 18:20:59] INFO root fetch - processPackages [eea.website.policy]: executing diffoscope
+[2024-05-20 18:20:59] INFO root fetch - processPackages [eea.website.policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.website.policy-3.1.zip tmp/eea.website.policy-4.0.zip --markdown 20240520/e/eea.website.policy/3.1-4.0/README.md --exclude *.pyd
+[2024-05-20 18:20:59] INFO root fetch - processPackages [imas-tools]: executing diffoscope
+[2024-05-20 18:20:59] INFO root fetch - processPackages [imas-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imas_tools-0.3.0.tar.gz tmp/imas_tools-0.4.0.tar.gz --markdown 20240520/i/imas-tools/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-20 18:20:59] INFO root fetch - processPackages [strideutils]: executing diffoscope
+[2024-05-20 18:20:59] INFO root fetch - processPackages [strideutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strideutils-0.3.8.tar.gz tmp/strideutils-0.3.9.tar.gz --markdown 20240520/s/strideutils/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-20 18:20:59] INFO root fetch - processPackages [scenvi]: Remove: archive file [/home/abi/fetcher/tmp/scenvi-0.3.3.tar.gz]
+[2024-05-20 18:20:59] INFO root fetch - processPackages [scenvi]: Remove: archive file [/home/abi/fetcher/tmp/scenvi-0.3.4.tar.gz]
+[2024-05-20 18:20:59] INFO root fetch - main [MainThread]: End processing [scenvi]: success
+[2024-05-20 18:20:59] INFO root fetch - processPackages [jupyter-server-globbing]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_server_globbing-0.1.4.tar.gz]
+[2024-05-20 18:20:59] INFO root fetch - processPackages [jupyter-server-globbing]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_server_globbing-0.1.5.tar.gz]
+[2024-05-20 18:20:59] INFO root fetch - main [MainThread]: End processing [jupyter-server-globbing]: success
+[2024-05-20 18:21:00] INFO root fetch - processPackages [fluke-fl]: Remove: archive file [/home/abi/fetcher/tmp/fluke_fl-0.0.2.tar.gz]
+[2024-05-20 18:21:00] INFO root fetch - processPackages [fluke-fl]: Remove: archive file [/home/abi/fetcher/tmp/fluke_fl-0.0.3.tar.gz]
+[2024-05-20 18:21:00] INFO root fetch - main [MainThread]: End processing [fluke-fl]: success
+[2024-05-20 18:21:00] INFO root fetch - processPackages [imas-tools]: Remove: archive file [/home/abi/fetcher/tmp/imas_tools-0.3.0.tar.gz]
+[2024-05-20 18:21:00] INFO root fetch - processPackages [imas-tools]: Remove: archive file [/home/abi/fetcher/tmp/imas_tools-0.4.0.tar.gz]
+[2024-05-20 18:21:00] INFO root fetch - main [MainThread]: End processing [imas-tools]: success
+[2024-05-20 18:21:00] INFO root fetch - processPackages [strideutils]: Remove: archive file [/home/abi/fetcher/tmp/strideutils-0.3.8.tar.gz]
+[2024-05-20 18:21:00] INFO root fetch - processPackages [strideutils]: Remove: archive file [/home/abi/fetcher/tmp/strideutils-0.3.9.tar.gz]
+[2024-05-20 18:21:00] INFO root fetch - main [MainThread]: End processing [strideutils]: success
+[2024-05-20 18:21:00] INFO root fetch - processPackages [eea.website.policy]: Remove: archive file [/home/abi/fetcher/tmp/eea.website.policy-3.1.zip]
+[2024-05-20 18:21:00] INFO root fetch - processPackages [eea.website.policy]: Remove: archive file [/home/abi/fetcher/tmp/eea.website.policy-4.0.zip]
+[2024-05-20 18:21:00] INFO root fetch - main [MainThread]: End processing [eea.website.policy]: success
+[2024-05-20 18:21:01] INFO root fetch - processPackages [ansibleguy-webui]: Remove: archive file [/home/abi/fetcher/tmp/ansibleguy_webui-0.0.20.tar.gz]
+[2024-05-20 18:21:01] INFO root fetch - processPackages [ansibleguy-webui]: Remove: archive file [/home/abi/fetcher/tmp/ansibleguy_webui-0.0.21.tar.gz]
+[2024-05-20 18:21:01] INFO root fetch - main [MainThread]: End processing [ansibleguy-webui]: success
+[2024-05-20 18:21:01] INFO root fetch - main [MainThread]: Store serial: [23292361]

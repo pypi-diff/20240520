@@ -5019,3 +5019,15 @@
 [2024-05-20 04:29:18] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
 [2024-05-20 04:29:18] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
 [2024-05-20 04:29:18] INFO root fetch - main [MainThread]: Store serial: [23283829]
+[2024-05-20 04:31:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283829]
+[2024-05-20 04:31:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 04:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syllogizerz
+[2024-05-20 04:31:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipecat-ai
+[2024-05-20 04:31:27] WARNING root fetch - processPackages [syllogizerz]: Skipping, unable to determine old version
+[2024-05-20 04:31:27] INFO root fetch - main [MainThread]: End processing [syllogizerz] error
+[2024-05-20 04:31:27] INFO root fetch - processPackages [pipecat-ai]: New version: [0.0.9] Old Version: [0.0.17]
+[2024-05-20 04:31:27] INFO root fetch - processPackages [pipecat-ai]: Downloading https://files.pythonhosted.org/packages/91/b0/b116c9d4e7e62e63b5988d8763537971dd7ec89203dfb05d8debbba3a0ab/pipecat_ai-0.0.17-py3-none-any.whl
+[2024-05-20 04:31:27] INFO root fetch - processPackages [pipecat-ai]: Downloading https://files.pythonhosted.org/packages/e0/a2/ba1e9fe8ecc6ab3c05444d68f7cdc57c7e93903ce5be851a57d61b5465d8/pipecat_ai-0.0.9.tar.gz
+[2024-05-20 04:31:27] WARNING root fetch - processPackages [pipecat-ai]: Skipping package: exceeds size limit 33485745>=10485760
+[2024-05-20 04:31:27] INFO root fetch - main [MainThread]: End processing [pipecat-ai] error
+[2024-05-20 04:31:27] INFO root fetch - main [MainThread]: Store serial: [23283835]

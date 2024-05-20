@@ -4962,3 +4962,30 @@
 [2024-05-20 04:24:48] INFO root fetch - processPackages [types-pygit2]: Remove: archive file [/home/abi/fetcher/tmp/types-pygit2-1.15.0.20240520.tar.gz]
 [2024-05-20 04:24:48] INFO root fetch - main [MainThread]: End processing [types-pygit2]: success
 [2024-05-20 04:24:48] INFO root fetch - main [MainThread]: Store serial: [23283769]
+[2024-05-20 04:26:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283769]
+[2024-05-20 04:26:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 04:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molcv
+[2024-05-20 04:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jota-os
+[2024-05-20 04:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naif-eop-high-prec
+[2024-05-20 04:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iam-actions
+[2024-05-20 04:26:56] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2024.5.19] Old Version: [2024.5.18]
+[2024-05-20 04:26:56] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240519] Old Version: [1.2.20240518]
+[2024-05-20 04:26:56] WARNING root fetch - processPackages [molcv]: Skipping, unable to determine old version
+[2024-05-20 04:26:56] INFO root fetch - main [MainThread]: End processing [molcv] error
+[2024-05-20 04:26:56] WARNING root fetch - processPackages [jota-os]: Skipping, unable to determine old version
+[2024-05-20 04:26:56] INFO root fetch - main [MainThread]: End processing [jota-os] error
+[2024-05-20 04:26:56] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/e2/a4/70386a4de9135bf30df72c54e912ea3a8479d64ba3995d8bc1170891f360/naif_eop_high_prec-2024.5.18.tar.gz
+[2024-05-20 04:26:56] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/6e/85/81121a74c17616841c9be7cb515fc374eb8637f6937e41146576ea6c56b7/iam_actions-1.2.20240518.tar.gz
+[2024-05-20 04:26:57] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/fa/40/253e20bce2037fcf550cad1e015bfdd1036ac1a4115e2849eaf276f26583/iam_actions-1.2.20240519.tar.gz
+[2024-05-20 04:26:57] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/9e/01/855e41691118c51714eccaa57a039725c712fb0bfde29f746b300e03d878/naif_eop_high_prec-2024.5.19.tar.gz
+[2024-05-20 04:26:57] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-20 04:26:57] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240518.tar.gz tmp/iam_actions-1.2.20240519.tar.gz --markdown 20240520/i/iam-actions/1.2.20240518-1.2.20240519/README.md --exclude *.pyd
+[2024-05-20 04:26:57] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2024-05-20 04:26:57] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2024.5.18.tar.gz tmp/naif_eop_high_prec-2024.5.19.tar.gz --markdown 20240520/n/naif-eop-high-prec/2024.5.18-2024.5.19/README.md --exclude *.pyd
+[2024-05-20 04:26:59] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240518.tar.gz]
+[2024-05-20 04:26:59] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240519.tar.gz]
+[2024-05-20 04:26:59] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-20 04:27:01] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.18.tar.gz]
+[2024-05-20 04:27:01] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.19.tar.gz]
+[2024-05-20 04:27:01] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2024-05-20 04:27:01] INFO root fetch - main [MainThread]: Store serial: [23283820]

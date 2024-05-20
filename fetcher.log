@@ -17362,3 +17362,63 @@ EOFError: EOF read where object expected
 [2024-05-20 14:51:56] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
 [2024-05-20 14:51:56] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-05-20 14:51:56] INFO root fetch - main [MainThread]: Store serial: [23289802]
+[2024-05-20 14:54:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289802]
+[2024-05-20 14:54:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 14:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xspace-dl
+[2024-05-20 14:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastgedcom
+[2024-05-20 14:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apysc
+[2024-05-20 14:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-iris
+[2024-05-20 14:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TsingPig-Lab
+[2024-05-20 14:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cumulativenessz
+[2024-05-20 14:54:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: location-local
+[2024-05-20 14:54:06] INFO root fetch - processPackages [xspace-dl]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-20 14:54:06] INFO root fetch - processPackages [apysc]: New version: [4.3.2] Old Version: [4.3.0]
+[2024-05-20 14:54:06] INFO root fetch - processPackages [django-iris]: New version: [0.2.5b1] Old Version: [0.2.4b1]
+[2024-05-20 14:54:06] INFO root fetch - processPackages [fastgedcom]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-20 14:54:06] INFO root fetch - processPackages [TsingPig-Lab]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-20 14:54:06] WARNING root fetch - processPackages [cumulativenessz]: Skipping, unable to determine old version
+[2024-05-20 14:54:06] INFO root fetch - main [MainThread]: End processing [cumulativenessz] error
+[2024-05-20 14:54:06] INFO root fetch - processPackages [location-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-20 14:54:06] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/71/0e/a1d4703d3d2b72fe075f4b79a161753a0f89a097e9da200a5ef7740f1b32/xspace-dl-0.1.1.tar.gz
+[2024-05-20 14:54:06] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/3b/b5/4e2950d3041b00f68c5b0810d36d19abe2d8470ef5aa3859f743eec60566/apysc-4.3.0.tar.gz
+[2024-05-20 14:54:06] INFO root fetch - processPackages [django-iris]: Downloading https://files.pythonhosted.org/packages/e1/7f/332252b851462ef0458d642f11001f962eef90c8cd6c53e83935c46230f2/django-iris-0.2.4b1.tar.gz
+[2024-05-20 14:54:06] INFO root fetch - processPackages [fastgedcom]: Downloading https://files.pythonhosted.org/packages/8a/71/05adec2cd3596599dda3ce78a4ee3747871fde5d9518aee9bacb513947e3/fastgedcom-1.1.1.tar.gz
+[2024-05-20 14:54:06] INFO root fetch - processPackages [TsingPig-Lab]: Downloading https://files.pythonhosted.org/packages/aa/27/704985568867cc98e20284da02a018eeb624b9a0cef04247299803296f95/TsingPig_Lab-0.1.6.tar.gz
+[2024-05-20 14:54:06] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/9c/f2/fcc760989d48c5e33cbe7c435b39b0a9e8eba895ccbf5832a8b83178d5ab/location_local-0.0.98.tar.gz
+[2024-05-20 14:54:06] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/1d/a9/45985579171ca0343b401a50e25982ee1d0bce0e21559dc6567dba9b8573/xspace-dl-0.1.2.tar.gz
+[2024-05-20 14:54:06] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/e9/4f/daebb03cb27e418e490f2603187efae9fc79d25c3f537e0537be16256c9e/apysc-4.3.2.tar.gz
+[2024-05-20 14:54:06] INFO root fetch - processPackages [xspace-dl]: executing diffoscope
+[2024-05-20 14:54:06] INFO root fetch - processPackages [xspace-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspace-dl-0.1.1.tar.gz tmp/xspace-dl-0.1.2.tar.gz --markdown 20240520/x/xspace-dl/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-20 14:54:06] INFO root fetch - processPackages [django-iris]: Downloading https://files.pythonhosted.org/packages/50/ea/567f488e9019e40d3dcd8f4d6ebb3b139a5be7789528f85aa69c0f280ae1/django_iris-0.2.5b1.tar.gz
+[2024-05-20 14:54:06] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2024-05-20 14:54:06] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-4.3.0.tar.gz tmp/apysc-4.3.2.tar.gz --markdown 20240520/a/apysc/4.3.0-4.3.2/README.md --exclude *.pyd
+[2024-05-20 14:54:06] INFO root fetch - processPackages [TsingPig-Lab]: Downloading https://files.pythonhosted.org/packages/96/d7/ce39537f43485532231e3f11e33aa067679e4b4d01dcfe7c7f667c934ee1/TsingPig_Lab-0.1.7.tar.gz
+[2024-05-20 14:54:06] INFO root fetch - processPackages [fastgedcom]: Downloading https://files.pythonhosted.org/packages/ac/e2/34f9a3d1d240ac96d2a409d988e6c2a39ee6eb6f1bcfcd6599421e1f46ea/fastgedcom-1.1.2.tar.gz
+[2024-05-20 14:54:06] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/2e/1e/2a1e6264292214bc558e1230d4660d51bbe681d2921a250cb4f94052fc9e/location_local-0.0.99.tar.gz
+[2024-05-20 14:54:06] INFO root fetch - processPackages [django-iris]: executing diffoscope
+[2024-05-20 14:54:06] INFO root fetch - processPackages [django-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-iris-0.2.4b1.tar.gz tmp/django_iris-0.2.5b1.tar.gz --markdown 20240520/d/django-iris/0.2.4b1-0.2.5b1/README.md --exclude *.pyd
+[2024-05-20 14:54:06] INFO root fetch - processPackages [fastgedcom]: executing diffoscope
+[2024-05-20 14:54:06] INFO root fetch - processPackages [fastgedcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgedcom-1.1.1.tar.gz tmp/fastgedcom-1.1.2.tar.gz --markdown 20240520/f/fastgedcom/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-20 14:54:06] INFO root fetch - processPackages [location-local]: executing diffoscope
+[2024-05-20 14:54:06] INFO root fetch - processPackages [location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/location_local-0.0.98.tar.gz tmp/location_local-0.0.99.tar.gz --markdown 20240520/l/location-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-20 14:54:07] INFO root fetch - processPackages [TsingPig-Lab]: executing diffoscope
+[2024-05-20 14:54:07] INFO root fetch - processPackages [TsingPig-Lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TsingPig_Lab-0.1.6.tar.gz tmp/TsingPig_Lab-0.1.7.tar.gz --markdown 20240520/T/TsingPig-Lab/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-20 14:54:07] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.1.1.tar.gz]
+[2024-05-20 14:54:07] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.1.2.tar.gz]
+[2024-05-20 14:54:07] INFO root fetch - main [MainThread]: End processing [xspace-dl]: success
+[2024-05-20 14:54:07] INFO root fetch - processPackages [fastgedcom]: Remove: archive file [/home/abi/fetcher/tmp/fastgedcom-1.1.1.tar.gz]
+[2024-05-20 14:54:07] INFO root fetch - processPackages [fastgedcom]: Remove: archive file [/home/abi/fetcher/tmp/fastgedcom-1.1.2.tar.gz]
+[2024-05-20 14:54:07] INFO root fetch - main [MainThread]: End processing [fastgedcom]: success
+[2024-05-20 14:54:07] INFO root fetch - processPackages [TsingPig-Lab]: Remove: archive file [/home/abi/fetcher/tmp/TsingPig_Lab-0.1.6.tar.gz]
+[2024-05-20 14:54:07] INFO root fetch - processPackages [TsingPig-Lab]: Remove: archive file [/home/abi/fetcher/tmp/TsingPig_Lab-0.1.7.tar.gz]
+[2024-05-20 14:54:07] INFO root fetch - main [MainThread]: End processing [TsingPig-Lab]: success
+[2024-05-20 14:54:07] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location_local-0.0.98.tar.gz]
+[2024-05-20 14:54:07] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location_local-0.0.99.tar.gz]
+[2024-05-20 14:54:07] INFO root fetch - main [MainThread]: End processing [location-local]: success
+[2024-05-20 14:54:07] INFO root fetch - processPackages [django-iris]: Remove: archive file [/home/abi/fetcher/tmp/django-iris-0.2.4b1.tar.gz]
+[2024-05-20 14:54:07] INFO root fetch - processPackages [django-iris]: Remove: archive file [/home/abi/fetcher/tmp/django_iris-0.2.5b1.tar.gz]
+[2024-05-20 14:54:07] INFO root fetch - main [MainThread]: End processing [django-iris]: success
+[2024-05-20 14:54:10] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-4.3.0.tar.gz]
+[2024-05-20 14:54:10] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-4.3.2.tar.gz]
+[2024-05-20 14:54:10] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2024-05-20 14:54:10] INFO root fetch - main [MainThread]: Store serial: [23289823]

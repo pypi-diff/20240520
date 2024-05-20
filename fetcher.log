@@ -9759,3 +9759,51 @@
 [2024-05-20 09:44:07] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
 [2024-05-20 09:44:07] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-20 09:44:07] INFO root fetch - main [MainThread]: Store serial: [23286443]
+[2024-05-20 09:46:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286443]
+[2024-05-20 09:46:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 09:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fb-atm
+[2024-05-20 09:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duwi-smarthome-sdk
+[2024-05-20 09:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plotnineseqsuite
+[2024-05-20 09:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ca-vntl-helper
+[2024-05-20 09:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xnode
+[2024-05-20 09:46:15] INFO root fetch - processPackages [ca-vntl-helper]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-20 09:46:15] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/77/f1/061c4b7c438aea85c1c792c5a85eb5c108a48ba88199a24d28a8434db7a8/ca_vntl_helper-1.1.0.tar.gz
+[2024-05-20 09:46:15] INFO root fetch - processPackages [fb-atm]: New version: [0.1.8.2] Old Version: [0.1.8.1]
+[2024-05-20 09:46:15] INFO root fetch - processPackages [plotnineseqsuite]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-20 09:46:15] INFO root fetch - processPackages [duwi-smarthome-sdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-20 09:46:15] INFO root fetch - processPackages [xnode]: New version: [1.1.0] Old Version: [1.0.0.1]
+[2024-05-20 09:46:16] INFO root fetch - processPackages [fb-atm]: Downloading https://files.pythonhosted.org/packages/23/4c/3ab8972b8ae5f84cc03b6b2a73ef818e5da221d6e0f216cb0a219d0393f1/fb_atm-0.1.8.1.tar.gz
+[2024-05-20 09:46:16] INFO root fetch - processPackages [xnode]: Downloading https://files.pythonhosted.org/packages/94/c9/fd8e56c58202a0253116084284b8ca32bd3de78192ab81f02b7009d06bab/xnode-1.0.0.1.tar.gz
+[2024-05-20 09:46:16] INFO root fetch - processPackages [plotnineseqsuite]: Downloading https://files.pythonhosted.org/packages/6a/b1/ca70609cc52d9c24f834b6c358f393e04d1c763dd353e8c0775be91f74e4/plotnineseqsuite-1.1.0.tar.gz
+[2024-05-20 09:46:16] INFO root fetch - processPackages [duwi-smarthome-sdk]: Downloading https://files.pythonhosted.org/packages/91/37/e37c04a849b2ee3122a9ae8cf47e40a42d39aef81da62d72332b3f9071c6/duwi_smarthome_sdk-0.1.2.tar.gz
+[2024-05-20 09:46:16] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/6e/41/8de92db761e9911fdd4fab95099ae60925a1bcf6e200d5f9d0a98f51d108/ca_vntl_helper-1.1.1.tar.gz
+[2024-05-20 09:46:16] INFO root fetch - processPackages [ca-vntl-helper]: executing diffoscope
+[2024-05-20 09:46:16] INFO root fetch - processPackages [ca-vntl-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ca_vntl_helper-1.1.0.tar.gz tmp/ca_vntl_helper-1.1.1.tar.gz --markdown 20240520/c/ca-vntl-helper/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-20 09:46:16] INFO root fetch - processPackages [fb-atm]: Downloading https://files.pythonhosted.org/packages/95/c4/223dde24fcb222ab7ce5fbd4127813c294658e2cae4e6c83d06a2739523b/fb_atm-0.1.8.2.tar.gz
+[2024-05-20 09:46:16] INFO root fetch - processPackages [xnode]: Downloading https://files.pythonhosted.org/packages/85/63/b9e628d78490ddf56f92acf5e1cf1b25f8ac1cdb9f06366655ef393554e9/xnode-1.1.0.tar.gz
+[2024-05-20 09:46:16] INFO root fetch - processPackages [duwi-smarthome-sdk]: Downloading https://files.pythonhosted.org/packages/4b/b9/b4666da5695924e26e7e35b14f72e41fa77a41d2d2bd3fdf28a2b7c58df0/duwi_smarthome_sdk-0.1.3.tar.gz
+[2024-05-20 09:46:16] INFO root fetch - processPackages [xnode]: executing diffoscope
+[2024-05-20 09:46:16] INFO root fetch - processPackages [xnode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnode-1.0.0.1.tar.gz tmp/xnode-1.1.0.tar.gz --markdown 20240520/x/xnode/1.0.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-20 09:46:16] INFO root fetch - processPackages [fb-atm]: executing diffoscope
+[2024-05-20 09:46:16] INFO root fetch - processPackages [fb-atm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fb_atm-0.1.8.1.tar.gz tmp/fb_atm-0.1.8.2.tar.gz --markdown 20240520/f/fb-atm/0.1.8.1-0.1.8.2/README.md --exclude *.pyd
+[2024-05-20 09:46:16] INFO root fetch - processPackages [duwi-smarthome-sdk]: executing diffoscope
+[2024-05-20 09:46:16] INFO root fetch - processPackages [duwi-smarthome-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk-0.1.2.tar.gz tmp/duwi_smarthome_sdk-0.1.3.tar.gz --markdown 20240520/d/duwi-smarthome-sdk/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-20 09:46:16] INFO root fetch - processPackages [plotnineseqsuite]: Downloading https://files.pythonhosted.org/packages/39/62/4e5e4c198d0b40a94889120e8632c578600595cc5a8c37c4c2dd2f5317c9/plotnineseqsuite-1.1.1.tar.gz
+[2024-05-20 09:46:16] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-1.1.0.tar.gz]
+[2024-05-20 09:46:16] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-1.1.1.tar.gz]
+[2024-05-20 09:46:16] INFO root fetch - main [MainThread]: End processing [ca-vntl-helper]: success
+[2024-05-20 09:46:16] INFO root fetch - processPackages [plotnineseqsuite]: executing diffoscope
+[2024-05-20 09:46:16] INFO root fetch - processPackages [plotnineseqsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotnineseqsuite-1.1.0.tar.gz tmp/plotnineseqsuite-1.1.1.tar.gz --markdown 20240520/p/plotnineseqsuite/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-20 09:46:17] INFO root fetch - processPackages [fb-atm]: Remove: archive file [/home/abi/fetcher/tmp/fb_atm-0.1.8.1.tar.gz]
+[2024-05-20 09:46:17] INFO root fetch - processPackages [fb-atm]: Remove: archive file [/home/abi/fetcher/tmp/fb_atm-0.1.8.2.tar.gz]
+[2024-05-20 09:46:17] INFO root fetch - main [MainThread]: End processing [fb-atm]: success
+[2024-05-20 09:46:17] INFO root fetch - processPackages [xnode]: Remove: archive file [/home/abi/fetcher/tmp/xnode-1.0.0.1.tar.gz]
+[2024-05-20 09:46:17] INFO root fetch - processPackages [xnode]: Remove: archive file [/home/abi/fetcher/tmp/xnode-1.1.0.tar.gz]
+[2024-05-20 09:46:17] INFO root fetch - main [MainThread]: End processing [xnode]: success
+[2024-05-20 09:46:17] INFO root fetch - processPackages [duwi-smarthome-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk-0.1.2.tar.gz]
+[2024-05-20 09:46:17] INFO root fetch - processPackages [duwi-smarthome-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk-0.1.3.tar.gz]
+[2024-05-20 09:46:17] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk]: success
+[2024-05-20 09:46:17] INFO root fetch - processPackages [plotnineseqsuite]: Remove: archive file [/home/abi/fetcher/tmp/plotnineseqsuite-1.1.0.tar.gz]
+[2024-05-20 09:46:17] INFO root fetch - processPackages [plotnineseqsuite]: Remove: archive file [/home/abi/fetcher/tmp/plotnineseqsuite-1.1.1.tar.gz]
+[2024-05-20 09:46:17] INFO root fetch - main [MainThread]: End processing [plotnineseqsuite]: success
+[2024-05-20 09:46:17] INFO root fetch - main [MainThread]: Store serial: [23286457]

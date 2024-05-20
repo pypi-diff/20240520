@@ -7308,3 +7308,45 @@
 [2024-05-20 07:15:11] INFO root fetch - processPackages [pushsource]: Remove: archive file [/home/abi/fetcher/tmp/pushsource-2.9.0.tar.gz]
 [2024-05-20 07:15:11] INFO root fetch - main [MainThread]: End processing [pushsource]: success
 [2024-05-20 07:15:11] INFO root fetch - main [MainThread]: Store serial: [23284825]
+[2024-05-20 07:17:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284825]
+[2024-05-20 07:17:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 07:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appsurifyci
+[2024-05-20 07:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RGBMatrixEmulator
+[2024-05-20 07:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-jbank
+[2024-05-20 07:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-tools
+[2024-05-20 07:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: workninja
+[2024-05-20 07:17:19] INFO root fetch - processPackages [appsurifyci]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 07:17:19] INFO root fetch - processPackages [langchain-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-20 07:17:19] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/be/78/e633e7cea242e900964a292a85e443de25712046c3092cb90e623f5df51f/appsurifyci-0.1.8.tar.gz
+[2024-05-20 07:17:19] INFO root fetch - processPackages [RGBMatrixEmulator]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 07:17:19] INFO root fetch - processPackages [django-jbank]: New version: [4.4.8] Old Version: [4.4.7]
+[2024-05-20 07:17:19] WARNING root fetch - processPackages [workninja]: Skipping, unable to determine old version
+[2024-05-20 07:17:19] INFO root fetch - main [MainThread]: End processing [workninja] error
+[2024-05-20 07:17:19] INFO root fetch - processPackages [RGBMatrixEmulator]: Downloading https://files.pythonhosted.org/packages/54/6e/c4089e95e00f17c00cb663b1cbfcd28a71f3ffad0e4d23c4516cab89b13b/RGBMatrixEmulator-0.9.0.tar.gz
+[2024-05-20 07:17:19] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/6b/00/163bdee32da39c08882b88ee6983de813905743f23581dbfb76b13a9fe9a/langchain-tools-0.1.5.tar.gz
+[2024-05-20 07:17:20] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/d1/1a/83fd0a2a85db4bcfae5c7da196564233f55a65456f7d620ff4d1899e8f0c/appsurifyci-0.1.9.tar.gz
+[2024-05-20 07:17:20] INFO root fetch - processPackages [django-jbank]: Downloading https://files.pythonhosted.org/packages/28/19/c80bb58de7ec3c68db8770a5a976a76b001ee4265742c3b1c6f279412cb0/django-jbank-4.4.7.tar.gz
+[2024-05-20 07:17:20] INFO root fetch - processPackages [appsurifyci]: executing diffoscope
+[2024-05-20 07:17:20] INFO root fetch - processPackages [appsurifyci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsurifyci-0.1.8.tar.gz tmp/appsurifyci-0.1.9.tar.gz --markdown 20240520/a/appsurifyci/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 07:17:20] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/cf/25/9d47cc2c84391ec2938a90838e49ede3e160adac5120144d8052428e063a/langchain-tools-0.1.6.tar.gz
+[2024-05-20 07:17:20] INFO root fetch - processPackages [RGBMatrixEmulator]: Downloading https://files.pythonhosted.org/packages/a7/f8/19a8dfefe6ff63c16f05c72806aa39c7c3cc1cb6a8410374ae1b2b7bb2ad/RGBMatrixEmulator-0.9.1.tar.gz
+[2024-05-20 07:17:20] INFO root fetch - processPackages [django-jbank]: Downloading https://files.pythonhosted.org/packages/90/99/4e00f407ba997f25dc8ea0707fbb61de11ffd0d6e2ca223c52ba98b30661/django-jbank-4.4.8.tar.gz
+[2024-05-20 07:17:20] INFO root fetch - processPackages [langchain-tools]: executing diffoscope
+[2024-05-20 07:17:20] INFO root fetch - processPackages [langchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-tools-0.1.5.tar.gz tmp/langchain-tools-0.1.6.tar.gz --markdown 20240520/l/langchain-tools/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-20 07:17:20] INFO root fetch - processPackages [RGBMatrixEmulator]: executing diffoscope
+[2024-05-20 07:17:20] INFO root fetch - processPackages [RGBMatrixEmulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RGBMatrixEmulator-0.9.0.tar.gz tmp/RGBMatrixEmulator-0.9.1.tar.gz --markdown 20240520/R/RGBMatrixEmulator/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 07:17:20] INFO root fetch - processPackages [django-jbank]: executing diffoscope
+[2024-05-20 07:17:20] INFO root fetch - processPackages [django-jbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jbank-4.4.7.tar.gz tmp/django-jbank-4.4.8.tar.gz --markdown 20240520/d/django-jbank/4.4.7-4.4.8/README.md --exclude *.pyd
+[2024-05-20 07:17:20] INFO root fetch - processPackages [appsurifyci]: Remove: archive file [/home/abi/fetcher/tmp/appsurifyci-0.1.8.tar.gz]
+[2024-05-20 07:17:20] INFO root fetch - processPackages [appsurifyci]: Remove: archive file [/home/abi/fetcher/tmp/appsurifyci-0.1.9.tar.gz]
+[2024-05-20 07:17:20] INFO root fetch - main [MainThread]: End processing [appsurifyci]: success
+[2024-05-20 07:17:21] INFO root fetch - processPackages [RGBMatrixEmulator]: Remove: archive file [/home/abi/fetcher/tmp/RGBMatrixEmulator-0.9.0.tar.gz]
+[2024-05-20 07:17:21] INFO root fetch - processPackages [RGBMatrixEmulator]: Remove: archive file [/home/abi/fetcher/tmp/RGBMatrixEmulator-0.9.1.tar.gz]
+[2024-05-20 07:17:21] INFO root fetch - main [MainThread]: End processing [RGBMatrixEmulator]: success
+[2024-05-20 07:17:21] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.5.tar.gz]
+[2024-05-20 07:17:21] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.6.tar.gz]
+[2024-05-20 07:17:21] INFO root fetch - main [MainThread]: End processing [langchain-tools]: success
+[2024-05-20 07:17:21] INFO root fetch - processPackages [django-jbank]: Remove: archive file [/home/abi/fetcher/tmp/django-jbank-4.4.7.tar.gz]
+[2024-05-20 07:17:21] INFO root fetch - processPackages [django-jbank]: Remove: archive file [/home/abi/fetcher/tmp/django-jbank-4.4.8.tar.gz]
+[2024-05-20 07:17:21] INFO root fetch - main [MainThread]: End processing [django-jbank]: success
+[2024-05-20 07:17:21] INFO root fetch - main [MainThread]: Store serial: [23284851]

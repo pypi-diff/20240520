@@ -7209,3 +7209,27 @@
 [2024-05-20 07:07:41] INFO root fetch - processPackages [ckanext-ark]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_ark-1.0.3.tar.gz]
 [2024-05-20 07:07:41] INFO root fetch - main [MainThread]: End processing [ckanext-ark]: success
 [2024-05-20 07:07:41] INFO root fetch - main [MainThread]: Store serial: [23284772]
+[2024-05-20 07:09:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284772]
+[2024-05-20 07:09:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 07:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-20 07:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sherardizedz
+[2024-05-20 07:09:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MechEyeAPI
+[2024-05-20 07:09:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.25a1716174569] Old Version: [0.0.25]
+[2024-05-20 07:09:50] WARNING root fetch - processPackages [sherardizedz]: Skipping, unable to determine old version
+[2024-05-20 07:09:50] INFO root fetch - main [MainThread]: End processing [sherardizedz] error
+[2024-05-20 07:09:50] INFO root fetch - processPackages [MechEyeAPI]: New version: [2.3.3] Old Version: [2.3.2]
+[2024-05-20 07:09:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/5c/02/6ba10ce34cc06c98fc7b32cf5a210b9a486b930a4be228dc1bfd83ff2350/pulumi_kubernetes_the_hard_way-0.0.25.tar.gz
+[2024-05-20 07:09:50] INFO root fetch - processPackages [MechEyeAPI]: Downloading https://files.pythonhosted.org/packages/f7/19/7cb4ab581636d0764bfc004df34656461442c415708ab533bd246baab9d5/MechEyeAPI-2.3.2-cp39-cp39-win_amd64.whl
+[2024-05-20 07:09:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/f9/aa/69930206dc10607d5cb095b4efec8aa8e944f48fe5faa6016240a3ed3367/pulumi_kubernetes_the_hard_way-0.0.25a1716174569.tar.gz
+[2024-05-20 07:09:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-20 07:09:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.25.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.25a1716174569.tar.gz --markdown 20240520/p/pulumi-kubernetes-the-hard-way/0.0.25-0.0.25a1716174569/README.md --exclude *.pyd
+[2024-05-20 07:09:51] INFO root fetch - processPackages [MechEyeAPI]: Downloading https://files.pythonhosted.org/packages/99/3b/737451abbe089722bd1cd64cea68908a486288eecf1f47b6c20e0778a0fc/MechEyeAPI-2.3.3-cp39-cp39-win_amd64.whl
+[2024-05-20 07:09:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.25.tar.gz]
+[2024-05-20 07:09:51] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.25a1716174569.tar.gz]
+[2024-05-20 07:09:51] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-20 07:09:53] INFO root fetch - processPackages [MechEyeAPI]: executing diffoscope
+[2024-05-20 07:09:53] INFO root fetch - processPackages [MechEyeAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MechEyeAPI-2.3.2-cp39-cp39-win_amd64.whl.zip tmp/MechEyeAPI-2.3.3-cp39-cp39-win_amd64.whl.zip --markdown 20240520/M/MechEyeAPI/2.3.2-2.3.3/README.md --exclude *.pyd
+[2024-05-20 07:10:40] INFO root fetch - processPackages [MechEyeAPI]: Remove: archive file [/home/abi/fetcher/tmp/MechEyeAPI-2.3.2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 07:10:40] INFO root fetch - processPackages [MechEyeAPI]: Remove: archive file [/home/abi/fetcher/tmp/MechEyeAPI-2.3.3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 07:10:40] INFO root fetch - main [MainThread]: End processing [MechEyeAPI]: success
+[2024-05-20 07:10:40] INFO root fetch - main [MainThread]: Store serial: [23284796]

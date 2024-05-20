@@ -7233,3 +7233,27 @@
 [2024-05-20 07:10:40] INFO root fetch - processPackages [MechEyeAPI]: Remove: archive file [/home/abi/fetcher/tmp/MechEyeAPI-2.3.3-cp39-cp39-win_amd64.whl.zip]
 [2024-05-20 07:10:40] INFO root fetch - main [MainThread]: End processing [MechEyeAPI]: success
 [2024-05-20 07:10:40] INFO root fetch - main [MainThread]: Store serial: [23284796]
+[2024-05-20 07:12:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284796]
+[2024-05-20 07:12:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 07:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: purequransearch
+[2024-05-20 07:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ferfereh
+[2024-05-20 07:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: morphdb-utils
+[2024-05-20 07:12:56] INFO root fetch - processPackages [purequransearch]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 07:12:56] INFO root fetch - processPackages [morphdb-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 07:12:56] WARNING root fetch - processPackages [ferfereh]: Skipping, unable to determine old version
+[2024-05-20 07:12:56] INFO root fetch - main [MainThread]: End processing [ferfereh] error
+[2024-05-20 07:12:56] INFO root fetch - processPackages [purequransearch]: Downloading https://files.pythonhosted.org/packages/58/16/7e048f00f8764bcc6fd6eafbb0728c0f90883d91c293b9c4ee608bcc170a/purequransearch-0.0.2.tar.gz
+[2024-05-20 07:12:56] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/cd/4f/c6949258d5647c0aa4d14e61014c6e3a7c9f08086b8ff176bee34576864d/morphdb_utils-0.1.8.tar.gz
+[2024-05-20 07:12:56] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/729494d22abe49b72c25e4b1efa215d54cab59388bae925f40777fce21f3/morphdb_utils-0.1.9.tar.gz
+[2024-05-20 07:12:57] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-05-20 07:12:57] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.1.8.tar.gz tmp/morphdb_utils-0.1.9.tar.gz --markdown 20240520/m/morphdb-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 07:12:57] INFO root fetch - processPackages [purequransearch]: Downloading https://files.pythonhosted.org/packages/f4/30/7e48a39a4a76c41a09ac9a2557dc6db9ace7e2e79fe62cc831ece04e51ea/purequransearch-0.0.3.tar.gz
+[2024-05-20 07:12:57] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.8.tar.gz]
+[2024-05-20 07:12:57] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.9.tar.gz]
+[2024-05-20 07:12:57] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-05-20 07:12:58] INFO root fetch - processPackages [purequransearch]: executing diffoscope
+[2024-05-20 07:12:58] INFO root fetch - processPackages [purequransearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/purequransearch-0.0.2.tar.gz tmp/purequransearch-0.0.3.tar.gz --markdown 20240520/p/purequransearch/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 07:12:59] INFO root fetch - processPackages [purequransearch]: Remove: archive file [/home/abi/fetcher/tmp/purequransearch-0.0.2.tar.gz]
+[2024-05-20 07:12:59] INFO root fetch - processPackages [purequransearch]: Remove: archive file [/home/abi/fetcher/tmp/purequransearch-0.0.3.tar.gz]
+[2024-05-20 07:12:59] INFO root fetch - main [MainThread]: End processing [purequransearch]: success
+[2024-05-20 07:12:59] INFO root fetch - main [MainThread]: Store serial: [23284807]

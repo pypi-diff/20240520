@@ -17674,3 +17674,43 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:00:57] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.9.1.dev1.tar.gz]
 [2024-05-20 15:00:57] INFO root fetch - main [MainThread]: End processing [itkdb-gtk]: success
 [2024-05-20 15:00:57] INFO root fetch - main [MainThread]: Store serial: [23289890]
+[2024-05-20 15:03:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289890]
+[2024-05-20 15:03:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 15:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tplinkrouterc6u
+[2024-05-20 15:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blypack
+[2024-05-20 15:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: danling
+[2024-05-20 15:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama3-package
+[2024-05-20 15:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blypack
+[2024-05-20 15:03:07] WARNING root fetch - processPackages [llama3-package]: Skipping, unable to determine old version
+[2024-05-20 15:03:07] INFO root fetch - main [MainThread]: End processing [llama3-package] error
+[2024-05-20 15:03:07] INFO root fetch - processPackages [blypack]: New version: [0.5] Old Version: [0.4]
+[2024-05-20 15:03:07] INFO root fetch - processPackages [blypack]: New version: [0.5] Old Version: [0.4]
+[2024-05-20 15:03:07] INFO root fetch - processPackages [danling]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-20 15:03:07] INFO root fetch - processPackages [tplinkrouterc6u]: New version: [4.1.0] Old Version: [4.0.2]
+[2024-05-20 15:03:08] INFO root fetch - processPackages [danling]: Downloading https://files.pythonhosted.org/packages/e9/6a/d72ef1776f3f498c9e760e7623763853f28aebbce6aa7a2ac0f205c0e575/danling-0.3.5.tar.gz
+[2024-05-20 15:03:08] INFO root fetch - processPackages [tplinkrouterc6u]: Downloading https://files.pythonhosted.org/packages/cd/f2/b49fc666049882dc68e5edb7cd82514c46249cf79703494d09c93de64777/tplinkrouterc6u-4.0.2.tar.gz
+[2024-05-20 15:03:08] INFO root fetch - processPackages [blypack]: Downloading https://files.pythonhosted.org/packages/ae/a7/1b585fbbb6a2f58e57a8f5f982d83dc5ad91e7243ab8e0d8e34e5c9db90e/blypack-0.4.tar.gz
+[2024-05-20 15:03:08] INFO root fetch - processPackages [blypack]: Downloading https://files.pythonhosted.org/packages/ae/a7/1b585fbbb6a2f58e57a8f5f982d83dc5ad91e7243ab8e0d8e34e5c9db90e/blypack-0.4.tar.gz
+[2024-05-20 15:03:08] INFO root fetch - processPackages [tplinkrouterc6u]: Downloading https://files.pythonhosted.org/packages/98/cb/ce1ae616216f15dce6c8bc7f820eecad5caa8fbc58e9356be28aca81fb54/tplinkrouterc6u-4.1.0.tar.gz
+[2024-05-20 15:03:08] INFO root fetch - processPackages [blypack]: Downloading https://files.pythonhosted.org/packages/7a/4f/8f8fe8495ef8defb52777c038ac2e2d5c8fb756b8b8deb1730d1dd0ab9ec/blypack-0.5.tar.gz
+[2024-05-20 15:03:08] INFO root fetch - processPackages [blypack]: Downloading https://files.pythonhosted.org/packages/7a/4f/8f8fe8495ef8defb52777c038ac2e2d5c8fb756b8b8deb1730d1dd0ab9ec/blypack-0.5.tar.gz
+[2024-05-20 15:03:08] INFO root fetch - processPackages [tplinkrouterc6u]: executing diffoscope
+[2024-05-20 15:03:08] INFO root fetch - processPackages [tplinkrouterc6u]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tplinkrouterc6u-4.0.2.tar.gz tmp/tplinkrouterc6u-4.1.0.tar.gz --markdown 20240520/t/tplinkrouterc6u/4.0.2-4.1.0/README.md --exclude *.pyd
+[2024-05-20 15:03:08] INFO root fetch - processPackages [blypack]: executing diffoscope
+[2024-05-20 15:03:08] INFO root fetch - processPackages [blypack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blypack-0.4.tar.gz tmp/blypack-0.5.tar.gz --markdown 20240520/b/blypack/0.4-0.5/README.md --exclude *.pyd
+[2024-05-20 15:03:08] INFO root fetch - processPackages [blypack]: executing diffoscope
+[2024-05-20 15:03:08] INFO root fetch - processPackages [blypack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blypack-0.4.tar.gz tmp/blypack-0.5.tar.gz --markdown 20240520/b/blypack/0.4-0.5/README.md --exclude *.pyd
+[2024-05-20 15:03:09] INFO root fetch - processPackages [tplinkrouterc6u]: Remove: archive file [/home/abi/fetcher/tmp/tplinkrouterc6u-4.0.2.tar.gz]
+[2024-05-20 15:03:09] INFO root fetch - processPackages [tplinkrouterc6u]: Remove: archive file [/home/abi/fetcher/tmp/tplinkrouterc6u-4.1.0.tar.gz]
+[2024-05-20 15:03:09] INFO root fetch - main [MainThread]: End processing [tplinkrouterc6u]: success
+[2024-05-20 15:03:09] INFO root fetch - processPackages [blypack]: Remove: archive file [/home/abi/fetcher/tmp/blypack-0.4.tar.gz]
+[2024-05-20 15:03:09] INFO root fetch - processPackages [blypack]: Remove: archive file [/home/abi/fetcher/tmp/blypack-0.5.tar.gz]
+[2024-05-20 15:03:09] INFO root fetch - main [MainThread]: End processing [blypack]: success
+[2024-05-20 15:03:09] INFO root fetch - main [MainThread]: End processing [blypack]: success
+[2024-05-20 15:03:09] INFO root fetch - processPackages [danling]: Downloading https://files.pythonhosted.org/packages/09/90/a2dec00f2a073fcdea3c2ded381550cffc829b1f5a53907aaa289b7bcf85/danling-0.3.6.tar.gz
+[2024-05-20 15:03:10] INFO root fetch - processPackages [danling]: executing diffoscope
+[2024-05-20 15:03:10] INFO root fetch - processPackages [danling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danling-0.3.5.tar.gz tmp/danling-0.3.6.tar.gz --markdown 20240520/d/danling/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-20 15:03:12] INFO root fetch - processPackages [danling]: Remove: archive file [/home/abi/fetcher/tmp/danling-0.3.5.tar.gz]
+[2024-05-20 15:03:12] INFO root fetch - processPackages [danling]: Remove: archive file [/home/abi/fetcher/tmp/danling-0.3.6.tar.gz]
+[2024-05-20 15:03:12] INFO root fetch - main [MainThread]: End processing [danling]: success
+[2024-05-20 15:03:12] INFO root fetch - main [MainThread]: Store serial: [23289909]

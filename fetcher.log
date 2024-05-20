@@ -20578,3 +20578,81 @@ EOFError: EOF read where object expected
 [2024-05-20 16:35:02] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
 [2024-05-20 16:35:02] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
 [2024-05-20 16:35:02] INFO root fetch - main [MainThread]: Store serial: [23291164]
+[2024-05-20 16:37:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291164]
+[2024-05-20 16:37:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 16:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-organization-python
+[2024-05-20 16:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hcs-cli
+[2024-05-20 16:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reasonify-headless
+[2024-05-20 16:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-bank-python
+[2024-05-20 16:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cahokiaz
+[2024-05-20 16:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oarepo
+[2024-05-20 16:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wpp-bavapi
+[2024-05-20 16:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wslink
+[2024-05-20 16:37:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bolna
+[2024-05-20 16:37:11] INFO root fetch - processPackages [reasonify-headless]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2024-05-20 16:37:11] INFO root fetch - processPackages [reasonify-headless]: Downloading https://files.pythonhosted.org/packages/99/c1/3cda111b66afd303531b4e79430039f412c3432424c7c02c0093ba24979f/reasonify_headless-0.1.0a6.tar.gz
+[2024-05-20 16:37:11] INFO root fetch - processPackages [wpp-bavapi]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-20 16:37:11] INFO root fetch - processPackages [hcs-cli]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-05-20 16:37:11] WARNING root fetch - processPackages [cahokiaz]: Skipping, unable to determine old version
+[2024-05-20 16:37:11] INFO root fetch - main [MainThread]: End processing [cahokiaz] error
+[2024-05-20 16:37:11] INFO root fetch - processPackages [bolna]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-05-20 16:37:11] INFO root fetch - processPackages [wslink]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-20 16:37:11] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-20 16:37:11] INFO root fetch - processPackages [oarepo]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-20 16:37:11] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-20 16:37:11] INFO root fetch - processPackages [reasonify-headless]: Downloading https://files.pythonhosted.org/packages/9c/ab/a05177c962d615969019a5cf1fb2ea9f494affac887e029f77c7f0a65ee7/reasonify_headless-0.1.0a7.tar.gz
+[2024-05-20 16:37:11] INFO root fetch - processPackages [wpp-bavapi]: Downloading https://files.pythonhosted.org/packages/8a/f5/d5a0a4cda0f5b34f772f8da6bc96855a43cf8a5a6ff3b7dbef2dbcc6c2cd/wpp-bavapi-1.0.4.tar.gz
+[2024-05-20 16:37:12] INFO root fetch - processPackages [wslink]: Downloading https://files.pythonhosted.org/packages/cb/bd/8bc0f281a5885a51ca5d4cb07b353a683059cfa065d52ec4326595d0dfa0/wslink-2.0.2.tar.gz
+[2024-05-20 16:37:12] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/f8/df/208577492e791a01b215928ef17543dd71d1db9c71661a2eaf3b2c739e78/hcs-cli-0.1.97.tar.gz
+[2024-05-20 16:37:12] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-05-20 16:37:12] INFO root fetch - processPackages [bolna]: Downloading https://files.pythonhosted.org/packages/93/78/a4f4466cfeeb6536e10a147c5062158a798f0738bab2d91a6e0a7aae0722/bolna-0.7.7.tar.gz
+[2024-05-20 16:37:12] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-05-20 16:37:12] INFO root fetch - processPackages [reasonify-headless]: executing diffoscope
+[2024-05-20 16:37:12] INFO root fetch - processPackages [reasonify-headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasonify_headless-0.1.0a6.tar.gz tmp/reasonify_headless-0.1.0a7.tar.gz --markdown 20240520/r/reasonify-headless/0.1.0a6-0.1.0a7/README.md --exclude *.pyd
+[2024-05-20 16:37:12] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/38/4c/f399359852cbe9b678586f09c718e6d26467563b540067619f17a7416616/oarepo-9.0.8.tar.gz
+[2024-05-20 16:37:12] INFO root fetch - processPackages [wslink]: Downloading https://files.pythonhosted.org/packages/7c/e9/5c9eda0cd66a8c5dc1fdd35627a253ad806b54d8ce8f4db2a6493f9342f1/wslink-2.0.3.tar.gz
+[2024-05-20 16:37:12] INFO root fetch - processPackages [bolna]: Downloading https://files.pythonhosted.org/packages/dd/82/f995120a8bd4c8e6138c93cdb6042e9b3e1fae242c85aff81c209e43b262/bolna-0.7.8.tar.gz
+[2024-05-20 16:37:12] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/75/92/ba28bbaff4bfb3aa8084610c7992979d23060c125c74f6a73fdffaed4d58/hcs-cli-0.1.98.tar.gz
+[2024-05-20 16:37:12] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-05-20 16:37:12] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-05-20 16:37:12] INFO root fetch - processPackages [wpp-bavapi]: Downloading https://files.pythonhosted.org/packages/1d/ef/0ecc31672deba5d8f2f6664ca006de69d6cdfdc2abdd6197d17824e3e9eb/wpp_bavapi-1.1.0.tar.gz
+[2024-05-20 16:37:12] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/47/d6/1ba1ba3d67b43bf65622b8597a86dda0a099313f4c7a307060535f4309b4/oarepo-9.0.9.tar.gz
+[2024-05-20 16:37:12] INFO root fetch - processPackages [wslink]: executing diffoscope
+[2024-05-20 16:37:12] INFO root fetch - processPackages [wslink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wslink-2.0.2.tar.gz tmp/wslink-2.0.3.tar.gz --markdown 20240520/w/wslink/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-20 16:37:12] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-05-20 16:37:12] INFO root fetch - processPackages [oarepo]: executing diffoscope
+[2024-05-20 16:37:12] INFO root fetch - processPackages [oarepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-9.0.8.tar.gz tmp/oarepo-9.0.9.tar.gz --markdown 20240520/o/oarepo/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-20 16:37:12] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240520/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-20 16:37:12] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-05-20 16:37:12] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240520/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-20 16:37:12] INFO root fetch - processPackages [bolna]: executing diffoscope
+[2024-05-20 16:37:12] INFO root fetch - processPackages [bolna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bolna-0.7.7.tar.gz tmp/bolna-0.7.8.tar.gz --markdown 20240520/b/bolna/0.7.7-0.7.8/README.md --exclude *.pyd
+[2024-05-20 16:37:12] INFO root fetch - processPackages [reasonify-headless]: Remove: archive file [/home/abi/fetcher/tmp/reasonify_headless-0.1.0a6.tar.gz]
+[2024-05-20 16:37:12] INFO root fetch - processPackages [reasonify-headless]: Remove: archive file [/home/abi/fetcher/tmp/reasonify_headless-0.1.0a7.tar.gz]
+[2024-05-20 16:37:12] INFO root fetch - processPackages [hcs-cli]: executing diffoscope
+[2024-05-20 16:37:12] INFO root fetch - processPackages [hcs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs-cli-0.1.97.tar.gz tmp/hcs-cli-0.1.98.tar.gz --markdown 20240520/h/hcs-cli/0.1.97-0.1.98/README.md --exclude *.pyd
+[2024-05-20 16:37:12] INFO root fetch - main [MainThread]: End processing [reasonify-headless]: success
+[2024-05-20 16:37:12] INFO root fetch - processPackages [wpp-bavapi]: executing diffoscope
+[2024-05-20 16:37:12] INFO root fetch - processPackages [wpp-bavapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpp-bavapi-1.0.4.tar.gz tmp/wpp_bavapi-1.1.0.tar.gz --markdown 20240520/w/wpp-bavapi/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-05-20 16:37:13] INFO root fetch - processPackages [wslink]: Remove: archive file [/home/abi/fetcher/tmp/wslink-2.0.2.tar.gz]
+[2024-05-20 16:37:13] INFO root fetch - processPackages [wslink]: Remove: archive file [/home/abi/fetcher/tmp/wslink-2.0.3.tar.gz]
+[2024-05-20 16:37:13] INFO root fetch - main [MainThread]: End processing [wslink]: success
+[2024-05-20 16:37:13] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.8.tar.gz]
+[2024-05-20 16:37:13] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.9.tar.gz]
+[2024-05-20 16:37:13] INFO root fetch - main [MainThread]: End processing [oarepo]: success
+[2024-05-20 16:37:13] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-05-20 16:37:13] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-05-20 16:37:13] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-05-20 16:37:13] INFO root fetch - processPackages [bolna]: Remove: archive file [/home/abi/fetcher/tmp/bolna-0.7.7.tar.gz]
+[2024-05-20 16:37:13] INFO root fetch - processPackages [bolna]: Remove: archive file [/home/abi/fetcher/tmp/bolna-0.7.8.tar.gz]
+[2024-05-20 16:37:13] INFO root fetch - main [MainThread]: End processing [bolna]: success
+[2024-05-20 16:37:13] INFO root fetch - processPackages [wpp-bavapi]: Remove: archive file [/home/abi/fetcher/tmp/wpp-bavapi-1.0.4.tar.gz]
+[2024-05-20 16:37:13] INFO root fetch - processPackages [wpp-bavapi]: Remove: archive file [/home/abi/fetcher/tmp/wpp_bavapi-1.1.0.tar.gz]
+[2024-05-20 16:37:13] INFO root fetch - main [MainThread]: End processing [wpp-bavapi]: success
+[2024-05-20 16:37:14] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.97.tar.gz]
+[2024-05-20 16:37:14] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.98.tar.gz]
+[2024-05-20 16:37:14] INFO root fetch - main [MainThread]: End processing [hcs-cli]: success
+[2024-05-20 16:37:15] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-05-20 16:37:15] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-05-20 16:37:15] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-05-20 16:37:15] INFO root fetch - main [MainThread]: Store serial: [23291194]

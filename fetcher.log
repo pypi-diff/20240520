@@ -20722,3 +20722,27 @@ EOFError: EOF read where object expected
 [2024-05-20 16:39:26] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.5.3.tar.gz]
 [2024-05-20 16:39:26] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
 [2024-05-20 16:39:26] INFO root fetch - main [MainThread]: Store serial: [23291215]
+[2024-05-20 16:41:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291215]
+[2024-05-20 16:41:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 16:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xingu
+[2024-05-20 16:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: property-utils
+[2024-05-20 16:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prereckoningz
+[2024-05-20 16:41:35] WARNING root fetch - processPackages [prereckoningz]: Skipping, unable to determine old version
+[2024-05-20 16:41:35] INFO root fetch - main [MainThread]: End processing [prereckoningz] error
+[2024-05-20 16:41:35] INFO root fetch - processPackages [property-utils]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-20 16:41:35] INFO root fetch - processPackages [xingu]: New version: [1.7.3] Old Version: [1.7.2]
+[2024-05-20 16:41:36] INFO root fetch - processPackages [xingu]: Downloading https://files.pythonhosted.org/packages/e0/2e/05ffd183dcb411dfafcf12f61c50009a9f72d1f48147bc60e2dfb39ba809/xingu-1.7.2.tar.gz
+[2024-05-20 16:41:36] INFO root fetch - processPackages [property-utils]: Downloading https://files.pythonhosted.org/packages/16/98/aeeab4895e58f078159a91848f2ed92699dd4d42a921f515c14e5deea3fc/property_utils-0.2.3.tar.gz
+[2024-05-20 16:41:36] INFO root fetch - processPackages [xingu]: Downloading https://files.pythonhosted.org/packages/48/ce/2a39266a0e67bee3d2a52f1cddbdc1dd5e6b056dbeac8164cd28ac66c109/xingu-1.7.3.tar.gz
+[2024-05-20 16:41:36] INFO root fetch - processPackages [property-utils]: Downloading https://files.pythonhosted.org/packages/8a/85/79751da1e02e88c56ef64c80270f26f03c19580e3a701bf2bda52eeb4a44/property_utils-0.2.4.tar.gz
+[2024-05-20 16:41:36] INFO root fetch - processPackages [property-utils]: executing diffoscope
+[2024-05-20 16:41:36] INFO root fetch - processPackages [property-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/property_utils-0.2.3.tar.gz tmp/property_utils-0.2.4.tar.gz --markdown 20240520/p/property-utils/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-20 16:41:36] INFO root fetch - processPackages [xingu]: executing diffoscope
+[2024-05-20 16:41:36] INFO root fetch - processPackages [xingu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xingu-1.7.2.tar.gz tmp/xingu-1.7.3.tar.gz --markdown 20240520/x/xingu/1.7.2-1.7.3/README.md --exclude *.pyd
+[2024-05-20 16:41:37] INFO root fetch - processPackages [property-utils]: Remove: archive file [/home/abi/fetcher/tmp/property_utils-0.2.3.tar.gz]
+[2024-05-20 16:41:37] INFO root fetch - processPackages [property-utils]: Remove: archive file [/home/abi/fetcher/tmp/property_utils-0.2.4.tar.gz]
+[2024-05-20 16:41:37] INFO root fetch - main [MainThread]: End processing [property-utils]: success
+[2024-05-20 16:41:37] INFO root fetch - processPackages [xingu]: Remove: archive file [/home/abi/fetcher/tmp/xingu-1.7.2.tar.gz]
+[2024-05-20 16:41:37] INFO root fetch - processPackages [xingu]: Remove: archive file [/home/abi/fetcher/tmp/xingu-1.7.3.tar.gz]
+[2024-05-20 16:41:37] INFO root fetch - main [MainThread]: End processing [xingu]: success
+[2024-05-20 16:41:37] INFO root fetch - main [MainThread]: Store serial: [23291228]

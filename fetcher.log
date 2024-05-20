@@ -24738,3 +24738,69 @@ EOFError: EOF read where object expected
 [2024-05-20 19:12:38] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-05-20 19:12:38] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-05-20 19:12:38] INFO root fetch - main [MainThread]: Store serial: [23293121]
+[2024-05-20 19:14:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23293121]
+[2024-05-20 19:14:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 19:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiotx
+[2024-05-20 19:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: histomicsui
+[2024-05-20 19:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-repo-client
+[2024-05-20 19:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-cgcs20211111
+[2024-05-20 19:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2024-05-20 19:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aa-ledger
+[2024-05-20 19:14:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ecr-scan-notifier
+[2024-05-20 19:14:47] INFO root fetch - processPackages [aiotx]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-20 19:14:48] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-20 19:14:48] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/9d/2c/672f48a8d646c7c2de367fc7cd2badd651eed6c441608ceabb37218ee6fe/aiotx-1.2.1.tar.gz
+[2024-05-20 19:14:48] INFO root fetch - processPackages [aa-ledger]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-20 19:14:48] INFO root fetch - processPackages [alibabacloud-cgcs20211111]: New version: [2.8.0] Old Version: [2.7.5]
+[2024-05-20 19:14:48] INFO root fetch - processPackages [ecr-scan-notifier]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 19:14:48] INFO root fetch - processPackages [histomicsui]: New version: [1.5.1.dev8] Old Version: [1.5.1.dev6]
+[2024-05-20 19:14:48] INFO root fetch - processPackages [data-repo-client]: New version: [2.68.0] Old Version: [2.67.0]
+[2024-05-20 19:14:48] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-20 19:14:48] INFO root fetch - processPackages [aa-ledger]: Downloading https://files.pythonhosted.org/packages/ca/28/d5cb7b9c85ccb65b2c01f516e6cc8de17fcabe202ee93cdaf4f6ce4b7c9d/aa_ledger-0.3.6.tar.gz
+[2024-05-20 19:14:48] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/40/4d/1a1d0d9bc892c0dfb4d791a0884a59a8914a10d1e7da04c6b59517cf273f/ecr-scan-notifier-0.0.8.tar.gz
+[2024-05-20 19:14:48] INFO root fetch - processPackages [histomicsui]: Downloading https://files.pythonhosted.org/packages/2b/fb/2aa35cf7e64943cb4db2b0c6800b2190f03b8d885b698e509b770b4cbe05/histomicsui-1.5.1.dev6.tar.gz
+[2024-05-20 19:14:48] INFO root fetch - processPackages [alibabacloud-cgcs20211111]: Downloading https://files.pythonhosted.org/packages/f8/55/e2a4884de2148c27d0c446190ca58e1dc6258ff3a53020395657fdeec8fd/alibabacloud_cgcs20211111-2.7.5.tar.gz
+[2024-05-20 19:14:48] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-20 19:14:48] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/d9/02/0cbf289dfeb1ce1916fd8fc25026649000a8a34f29c896cf2471ee555b8d/aiotx-1.2.2.tar.gz
+[2024-05-20 19:14:48] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-20 19:14:48] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240520/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-20 19:14:48] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/56/1f/33f08026aea6cfbfc6c7af5654f8e020c62137e3d79b657ce80ca8400b07/data-repo-client-2.67.0.tar.gz
+[2024-05-20 19:14:48] INFO root fetch - processPackages [aa-ledger]: Downloading https://files.pythonhosted.org/packages/fe/0c/aa0ddabe080530341d8ee3a89ad0c9ca2ef84063a68ace3e4398bdcf312f/aa_ledger-0.3.7.tar.gz
+[2024-05-20 19:14:48] INFO root fetch - processPackages [alibabacloud-cgcs20211111]: Downloading https://files.pythonhosted.org/packages/19/a8/2a69300e80f558ca23206cfbbca8a07bd6fbd8f99f849e1f87daa4449ca2/alibabacloud_cgcs20211111-2.8.0.tar.gz
+[2024-05-20 19:14:48] INFO root fetch - processPackages [aiotx]: executing diffoscope
+[2024-05-20 19:14:48] INFO root fetch - processPackages [ecr-scan-notifier]: Downloading https://files.pythonhosted.org/packages/d1/00/57fd90da8640eba9f4ecd18284a84eab9858fbc02e1cde2695b5c20f9967/ecr-scan-notifier-0.0.9.tar.gz
+[2024-05-20 19:14:48] INFO root fetch - processPackages [aiotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotx-1.2.1.tar.gz tmp/aiotx-1.2.2.tar.gz --markdown 20240520/a/aiotx/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-20 19:14:48] INFO root fetch - processPackages [histomicsui]: Downloading https://files.pythonhosted.org/packages/8f/86/131dbde9c81c529f48c84bf3e6eca755eb157d661c4e01be5627aa84d3c7/histomicsui-1.5.1.dev8.tar.gz
+[2024-05-20 19:14:48] INFO root fetch - processPackages [alibabacloud-cgcs20211111]: executing diffoscope
+[2024-05-20 19:14:48] INFO root fetch - processPackages [alibabacloud-cgcs20211111]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_cgcs20211111-2.7.5.tar.gz tmp/alibabacloud_cgcs20211111-2.8.0.tar.gz --markdown 20240520/a/alibabacloud-cgcs20211111/2.7.5-2.8.0/README.md --exclude *.pyd
+[2024-05-20 19:14:48] INFO root fetch - processPackages [aa-ledger]: executing diffoscope
+[2024-05-20 19:14:48] INFO root fetch - processPackages [aa-ledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_ledger-0.3.6.tar.gz tmp/aa_ledger-0.3.7.tar.gz --markdown 20240520/a/aa-ledger/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-20 19:14:48] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/c5/8f/bca0d042a0a8f0e28983e439d51a43e110a51ce3ae37db3aa8e91d32ebfe/data-repo-client-2.68.0.tar.gz
+[2024-05-20 19:14:48] INFO root fetch - processPackages [ecr-scan-notifier]: executing diffoscope
+[2024-05-20 19:14:48] INFO root fetch - processPackages [ecr-scan-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecr-scan-notifier-0.0.8.tar.gz tmp/ecr-scan-notifier-0.0.9.tar.gz --markdown 20240520/e/ecr-scan-notifier/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 19:14:48] INFO root fetch - processPackages [histomicsui]: executing diffoscope
+[2024-05-20 19:14:48] INFO root fetch - processPackages [histomicsui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histomicsui-1.5.1.dev6.tar.gz tmp/histomicsui-1.5.1.dev8.tar.gz --markdown 20240520/h/histomicsui/1.5.1.dev6-1.5.1.dev8/README.md --exclude *.pyd
+[2024-05-20 19:14:49] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2024-05-20 19:14:49] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-2.67.0.tar.gz tmp/data-repo-client-2.68.0.tar.gz --markdown 20240520/d/data-repo-client/2.67.0-2.68.0/README.md --exclude *.pyd
+[2024-05-20 19:14:49] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-20 19:14:49] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-20 19:14:49] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-20 19:14:49] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.8.tar.gz]
+[2024-05-20 19:14:49] INFO root fetch - processPackages [ecr-scan-notifier]: Remove: archive file [/home/abi/fetcher/tmp/ecr-scan-notifier-0.0.9.tar.gz]
+[2024-05-20 19:14:49] INFO root fetch - main [MainThread]: End processing [ecr-scan-notifier]: success
+[2024-05-20 19:14:49] INFO root fetch - processPackages [alibabacloud-cgcs20211111]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cgcs20211111-2.7.5.tar.gz]
+[2024-05-20 19:14:49] INFO root fetch - processPackages [alibabacloud-cgcs20211111]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_cgcs20211111-2.8.0.tar.gz]
+[2024-05-20 19:14:49] INFO root fetch - main [MainThread]: End processing [alibabacloud-cgcs20211111]: success
+[2024-05-20 19:14:49] INFO root fetch - processPackages [aa-ledger]: Remove: archive file [/home/abi/fetcher/tmp/aa_ledger-0.3.6.tar.gz]
+[2024-05-20 19:14:49] INFO root fetch - processPackages [aa-ledger]: Remove: archive file [/home/abi/fetcher/tmp/aa_ledger-0.3.7.tar.gz]
+[2024-05-20 19:14:49] INFO root fetch - main [MainThread]: End processing [aa-ledger]: success
+[2024-05-20 19:14:50] INFO root fetch - processPackages [histomicsui]: Remove: archive file [/home/abi/fetcher/tmp/histomicsui-1.5.1.dev6.tar.gz]
+[2024-05-20 19:14:50] INFO root fetch - processPackages [histomicsui]: Remove: archive file [/home/abi/fetcher/tmp/histomicsui-1.5.1.dev8.tar.gz]
+[2024-05-20 19:14:50] INFO root fetch - main [MainThread]: End processing [histomicsui]: success
+[2024-05-20 19:14:50] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.67.0.tar.gz]
+[2024-05-20 19:14:50] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.68.0.tar.gz]
+[2024-05-20 19:14:50] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2024-05-20 19:14:51] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-1.2.1.tar.gz]
+[2024-05-20 19:14:51] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-1.2.2.tar.gz]
+[2024-05-20 19:14:51] INFO root fetch - main [MainThread]: End processing [aiotx]: success
+[2024-05-20 19:14:51] INFO root fetch - main [MainThread]: Store serial: [23293142]

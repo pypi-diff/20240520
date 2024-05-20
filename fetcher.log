@@ -15666,3 +15666,63 @@ EOFError: EOF read where object expected
 [2024-05-20 13:39:12] INFO root fetch - processPackages [ophyd-async]: Remove: archive file [/home/abi/fetcher/tmp/ophyd_async-0.3a5.tar.gz]
 [2024-05-20 13:39:12] INFO root fetch - main [MainThread]: End processing [ophyd-async]: success
 [2024-05-20 13:39:12] INFO root fetch - main [MainThread]: Store serial: [23288851]
+[2024-05-20 13:41:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288851]
+[2024-05-20 13:41:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 13:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: IconMatch
+[2024-05-20 13:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ndpprep
+[2024-05-20 13:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alita-sdk
+[2024-05-20 13:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rdsa-utils
+[2024-05-20 13:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: w3tools
+[2024-05-20 13:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytzen
+[2024-05-20 13:41:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: text-block-local
+[2024-05-20 13:41:21] INFO root fetch - processPackages [IconMatch]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-20 13:41:21] INFO root fetch - processPackages [rdsa-utils]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-20 13:41:21] INFO root fetch - processPackages [alita-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 13:41:21] INFO root fetch - processPackages [ndpprep]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-20 13:41:21] WARNING root fetch - processPackages [w3tools]: Skipping, unable to determine old version
+[2024-05-20 13:41:21] INFO root fetch - main [MainThread]: End processing [w3tools] error
+[2024-05-20 13:41:21] INFO root fetch - processPackages [rdsa-utils]: Downloading https://files.pythonhosted.org/packages/f4/d1/d6f87140851cd15a49b67117e4770f36c30650cca413e146127b6bee9a45/rdsa_utils-0.2.2.tar.gz
+[2024-05-20 13:41:21] INFO root fetch - processPackages [pytzen]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-20 13:41:21] INFO root fetch - processPackages [text-block-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 13:41:21] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/58/77/699a43c7f5d3229ed63ff8d8eaba7999323921fbe9a94d3dd2d8b0f9b7a6/alita_sdk-0.1.8.tar.gz
+[2024-05-20 13:41:21] INFO root fetch - processPackages [IconMatch]: Downloading https://files.pythonhosted.org/packages/b7/55/a683ace60c8fe0c193307344a52b689a143e1ab6b44996e78794a50ca4ef/iconmatch-0.0.1.tar.gz
+[2024-05-20 13:41:21] INFO root fetch - processPackages [ndpprep]: Downloading https://files.pythonhosted.org/packages/0f/4f/4e15373630f154bd1e5823888afae489cf4df899059276c39a8d66c85284/ndpprep-0.0.3.tar.gz
+[2024-05-20 13:41:21] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/6d/5f/08f7caedc136fde13091ef88ae35349e7285ef4b9c181b34fb1c4dffd4ba/alita_sdk-0.1.9.tar.gz
+[2024-05-20 13:41:21] INFO root fetch - processPackages [rdsa-utils]: Downloading https://files.pythonhosted.org/packages/75/be/b806d2e9c528e07770c5e685bb33bf4b869fcd5552b7b415da954056ac6a/rdsa_utils-0.2.3.tar.gz
+[2024-05-20 13:41:21] INFO root fetch - processPackages [pytzen]: Downloading https://files.pythonhosted.org/packages/be/42/0d8ecea057737193c130deaffc9d5da3d42bfbf06fb6b97305d27c4ae6de/pytzen-1.1.0.tar.gz
+[2024-05-20 13:41:21] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/70/2c/1e2d2d092952d9578a3bd66ea8d19829b2cdcb307254112a3b482d4403bd/text-block-local-0.0.8.tar.gz
+[2024-05-20 13:41:22] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-05-20 13:41:22] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.1.8.tar.gz tmp/alita_sdk-0.1.9.tar.gz --markdown 20240520/a/alita-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 13:41:22] INFO root fetch - processPackages [IconMatch]: Downloading https://files.pythonhosted.org/packages/71/bb/a13d77fecccc2b48ace7c90f005678dc2da466b30eaaf96a24846bd09df0/iconmatch-0.0.2.tar.gz
+[2024-05-20 13:41:22] INFO root fetch - processPackages [rdsa-utils]: executing diffoscope
+[2024-05-20 13:41:22] INFO root fetch - processPackages [rdsa-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdsa_utils-0.2.2.tar.gz tmp/rdsa_utils-0.2.3.tar.gz --markdown 20240520/r/rdsa-utils/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-20 13:41:22] INFO root fetch - processPackages [IconMatch]: executing diffoscope
+[2024-05-20 13:41:22] INFO root fetch - processPackages [IconMatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iconmatch-0.0.1.tar.gz tmp/iconmatch-0.0.2.tar.gz --markdown 20240520/I/IconMatch/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-20 13:41:22] INFO root fetch - processPackages [ndpprep]: Downloading https://files.pythonhosted.org/packages/5c/9c/e358064528a6568192fca7ca6fb690a9f01d1f5ad5bd5bc6f37305f72336/ndpprep-0.0.4.tar.gz
+[2024-05-20 13:41:22] INFO root fetch - processPackages [pytzen]: Downloading https://files.pythonhosted.org/packages/43/f0/05463f5cbb24793c72789e967dd2a732032c1bd51cc28f2e6c7dd9ac5da4/pytzen-1.1.1.tar.gz
+[2024-05-20 13:41:22] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/71/bc/24522c5007f2452a7e32a445163d898233d9b0cc266aed587c5f36dc2bc9/text-block-local-0.0.9.tar.gz
+[2024-05-20 13:41:22] INFO root fetch - processPackages [ndpprep]: executing diffoscope
+[2024-05-20 13:41:22] INFO root fetch - processPackages [ndpprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndpprep-0.0.3.tar.gz tmp/ndpprep-0.0.4.tar.gz --markdown 20240520/n/ndpprep/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-20 13:41:22] INFO root fetch - processPackages [text-block-local]: executing diffoscope
+[2024-05-20 13:41:22] INFO root fetch - processPackages [text-block-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-block-local-0.0.8.tar.gz tmp/text-block-local-0.0.9.tar.gz --markdown 20240520/t/text-block-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 13:41:22] INFO root fetch - processPackages [pytzen]: executing diffoscope
+[2024-05-20 13:41:22] INFO root fetch - processPackages [pytzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytzen-1.1.0.tar.gz tmp/pytzen-1.1.1.tar.gz --markdown 20240520/p/pytzen/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-20 13:41:22] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.8.tar.gz]
+[2024-05-20 13:41:22] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.9.tar.gz]
+[2024-05-20 13:41:22] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-05-20 13:41:22] INFO root fetch - processPackages [IconMatch]: Remove: archive file [/home/abi/fetcher/tmp/iconmatch-0.0.1.tar.gz]
+[2024-05-20 13:41:22] INFO root fetch - processPackages [IconMatch]: Remove: archive file [/home/abi/fetcher/tmp/iconmatch-0.0.2.tar.gz]
+[2024-05-20 13:41:22] INFO root fetch - main [MainThread]: End processing [IconMatch]: success
+[2024-05-20 13:41:22] INFO root fetch - processPackages [rdsa-utils]: Remove: archive file [/home/abi/fetcher/tmp/rdsa_utils-0.2.2.tar.gz]
+[2024-05-20 13:41:22] INFO root fetch - processPackages [rdsa-utils]: Remove: archive file [/home/abi/fetcher/tmp/rdsa_utils-0.2.3.tar.gz]
+[2024-05-20 13:41:22] INFO root fetch - main [MainThread]: End processing [rdsa-utils]: success
+[2024-05-20 13:41:22] INFO root fetch - processPackages [ndpprep]: Remove: archive file [/home/abi/fetcher/tmp/ndpprep-0.0.3.tar.gz]
+[2024-05-20 13:41:22] INFO root fetch - processPackages [ndpprep]: Remove: archive file [/home/abi/fetcher/tmp/ndpprep-0.0.4.tar.gz]
+[2024-05-20 13:41:22] INFO root fetch - main [MainThread]: End processing [ndpprep]: success
+[2024-05-20 13:41:23] INFO root fetch - processPackages [pytzen]: Remove: archive file [/home/abi/fetcher/tmp/pytzen-1.1.0.tar.gz]
+[2024-05-20 13:41:23] INFO root fetch - processPackages [pytzen]: Remove: archive file [/home/abi/fetcher/tmp/pytzen-1.1.1.tar.gz]
+[2024-05-20 13:41:23] INFO root fetch - main [MainThread]: End processing [pytzen]: success
+[2024-05-20 13:41:23] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.8.tar.gz]
+[2024-05-20 13:41:23] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.9.tar.gz]
+[2024-05-20 13:41:23] INFO root fetch - main [MainThread]: End processing [text-block-local]: success
+[2024-05-20 13:41:23] INFO root fetch - main [MainThread]: Store serial: [23288873]

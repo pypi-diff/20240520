@@ -6718,3 +6718,128 @@
 [2024-05-20 06:38:59] INFO root fetch - processPackages [ovos-plugin-vlc]: Remove: archive file [/home/abi/fetcher/tmp/ovos_plugin_vlc-0.0.2a7-py3-none-any.whl.zip]
 [2024-05-20 06:38:59] INFO root fetch - main [MainThread]: End processing [ovos-plugin-vlc]: success
 [2024-05-20 06:38:59] INFO root fetch - main [MainThread]: Store serial: [23284546]
+[2024-05-20 06:41:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284546]
+[2024-05-20 06:41:07] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2024-05-20 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Html-Boilerplate-Flask
+[2024-05-20 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fileformats-medimage-afni
+[2024-05-20 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:41:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10017] Old Version: [1.10000.10016]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [fileformats-medimage-afni]: New version: [0.3.1] Old Version: [0.2.2.post186034]
+[2024-05-20 06:41:08] WARNING root fetch - processPackages [Html-Boilerplate-Flask]: Skipping, unable to determine old version
+[2024-05-20 06:41:08] INFO root fetch - processPackages [Html-Boilerplate-Flask]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:41:08] INFO root fetch - main [MainThread]: End processing [Html-Boilerplate-Flask] error
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10024] Old Version: [1.10000.10023]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/80/29/e9c1f4726dcb1fca18f219c5518c574acef6dc91c21f0fa2abbcd5fb5f9f/rxwwrwrtkahwwojx-1.10000.10016.tar.gz
+[2024-05-20 06:41:08] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:41:08] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:41:08] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:41:08] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:41:08] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:41:08] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:41:08] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:41:08] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:41:08] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Start processing: mlx-whisper
+[2024-05-20 06:41:08] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:41:08] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:41:08] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10024] Old Version: [1.10000.10023]
+[2024-05-20 06:41:08] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:41:08] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034081>=10485760
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Start processing: fileformats-medimage-afni-extras
+[2024-05-20 06:41:08] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:41:08] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10024] Old Version: [1.10000.10023]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [fileformats-medimage-afni]: Downloading https://files.pythonhosted.org/packages/e3/3b/2bd3930f4a72c2a544cee15c86e9acc652cb5e6b9dcb813ec543639a0790/fileformats_medimage_afni-0.2.2.post186034.tar.gz
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10024] Old Version: [1.10000.10023]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10024] Old Version: [1.10000.10023]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10024] Old Version: [1.10000.10023]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10024] Old Version: [1.10000.10023]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/86/7d/94c589b39a07fe0064759f9e7c7a26cf4cb36c7df342e0a2c885b5ce645a/rxwwrwrtkahwwojx-1.10000.10023.tar.gz
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/86/7d/94c589b39a07fe0064759f9e7c7a26cf4cb36c7df342e0a2c885b5ce645a/rxwwrwrtkahwwojx-1.10000.10023.tar.gz
+[2024-05-20 06:41:08] INFO root fetch - processPackages [mlx-whisper]: New version: [0.1.0.dev0] Old Version: [0.1.0]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [fileformats-medimage-afni-extras]: New version: [0.3.1] Old Version: [0.2.2.post186034]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/86/7d/94c589b39a07fe0064759f9e7c7a26cf4cb36c7df342e0a2c885b5ce645a/rxwwrwrtkahwwojx-1.10000.10023.tar.gz
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/86/7d/94c589b39a07fe0064759f9e7c7a26cf4cb36c7df342e0a2c885b5ce645a/rxwwrwrtkahwwojx-1.10000.10023.tar.gz
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/86/7d/94c589b39a07fe0064759f9e7c7a26cf4cb36c7df342e0a2c885b5ce645a/rxwwrwrtkahwwojx-1.10000.10023.tar.gz
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/86/7d/94c589b39a07fe0064759f9e7c7a26cf4cb36c7df342e0a2c885b5ce645a/rxwwrwrtkahwwojx-1.10000.10023.tar.gz
+[2024-05-20 06:41:08] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034076>=10485760
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Start processing: rxwwrwrtkahwwojx
+[2024-05-20 06:41:08] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:41:08] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034076>=10485760
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Start processing: STMGraph
+[2024-05-20 06:41:08] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/86/7d/94c589b39a07fe0064759f9e7c7a26cf4cb36c7df342e0a2c885b5ce645a/rxwwrwrtkahwwojx-1.10000.10023.tar.gz
+[2024-05-20 06:41:08] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034076>=10485760
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Start processing: betterschema
+[2024-05-20 06:41:08] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:41:08] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034076>=10485760
+[2024-05-20 06:41:08] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:41:08] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034076>=10485760
+[2024-05-20 06:41:08] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:41:08] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034076>=10485760
+[2024-05-20 06:41:08] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:41:08] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: New version: [1.10000.10024] Old Version: [1.10000.10023]
+[2024-05-20 06:41:08] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034076>=10485760
+[2024-05-20 06:41:08] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:41:08] INFO root fetch - processPackages [betterschema]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 06:41:08] INFO root fetch - processPackages [mlx-whisper]: Downloading https://files.pythonhosted.org/packages/96/73/7e1da45bd4e3288fdeefd1d2e4b581082af38f68103a57fcf5a77c08fc47/mlx_whisper-0.1.0.tar.gz
+[2024-05-20 06:41:09] INFO root fetch - processPackages [rxwwrwrtkahwwojx]: Downloading https://files.pythonhosted.org/packages/86/7d/94c589b39a07fe0064759f9e7c7a26cf4cb36c7df342e0a2c885b5ce645a/rxwwrwrtkahwwojx-1.10000.10023.tar.gz
+[2024-05-20 06:41:09] INFO root fetch - processPackages [fileformats-medimage-afni-extras]: Downloading https://files.pythonhosted.org/packages/15/ea/19e544b32620798ffdb27e2d54dacacaa5b8edf48cbc5297adc9069dc346/fileformats_medimage_afni_extras-0.2.2.post186034.tar.gz
+[2024-05-20 06:41:09] WARNING root fetch - processPackages [STMGraph]: Skipping, unable to determine old version
+[2024-05-20 06:41:09] INFO root fetch - main [MainThread]: End processing [STMGraph] error
+[2024-05-20 06:41:09] INFO root fetch - processPackages [betterschema]: Downloading https://files.pythonhosted.org/packages/1e/38/c4454b42d2fdf99df61a25551a6a06ccb4ca66e340946fe223ee1ab9c001/betterschema-0.1.8.tar.gz
+[2024-05-20 06:41:09] INFO root fetch - processPackages [fileformats-medimage-afni]: Downloading https://files.pythonhosted.org/packages/68/ee/bedb9b53e0184a203aeada3cfcc90b94c21c1f0b47fa0eb516a795fb721c/fileformats_medimage_afni-0.3.1.tar.gz
+[2024-05-20 06:41:09] WARNING root fetch - processPackages [rxwwrwrtkahwwojx]: Skipping package: exceeds size limit 95034076>=10485760
+[2024-05-20 06:41:09] INFO root fetch - main [MainThread]: End processing [rxwwrwrtkahwwojx] error
+[2024-05-20 06:41:09] INFO root fetch - processPackages [fileformats-medimage-afni]: executing diffoscope
+[2024-05-20 06:41:09] INFO root fetch - processPackages [fileformats-medimage-afni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage_afni-0.2.2.post186034.tar.gz tmp/fileformats_medimage_afni-0.3.1.tar.gz --markdown 20240520/f/fileformats-medimage-afni/0.2.2.post186034-0.3.1/README.md --exclude *.pyd
+[2024-05-20 06:41:09] INFO root fetch - processPackages [betterschema]: Downloading https://files.pythonhosted.org/packages/9f/0d/826ff1e3b4772c505194babfcc2ab7784bd5f7f13f65bfb0aa861b1c63c0/betterschema-0.1.9.tar.gz
+[2024-05-20 06:41:09] INFO root fetch - processPackages [fileformats-medimage-afni-extras]: Downloading https://files.pythonhosted.org/packages/3b/c0/1c2d9d625308fbde8b633df8d9c89a0fb6e7a13f84fd5317b62306e9061d/fileformats_medimage_afni_extras-0.3.1.tar.gz
+[2024-05-20 06:41:09] INFO root fetch - processPackages [betterschema]: executing diffoscope
+[2024-05-20 06:41:09] INFO root fetch - processPackages [betterschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterschema-0.1.8.tar.gz tmp/betterschema-0.1.9.tar.gz --markdown 20240520/b/betterschema/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 06:41:09] INFO root fetch - processPackages [mlx-whisper]: Downloading https://files.pythonhosted.org/packages/0e/95/b4e90aedf907ffe71e84076100e0677b7194e61a75cf00f70f8b4e7cbe27/mlx_whisper-0.1.0.dev0.tar.gz
+[2024-05-20 06:41:09] INFO root fetch - processPackages [fileformats-medimage-afni-extras]: executing diffoscope
+[2024-05-20 06:41:09] INFO root fetch - processPackages [fileformats-medimage-afni-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage_afni_extras-0.2.2.post186034.tar.gz tmp/fileformats_medimage_afni_extras-0.3.1.tar.gz --markdown 20240520/f/fileformats-medimage-afni-extras/0.2.2.post186034-0.3.1/README.md --exclude *.pyd
+[2024-05-20 06:41:09] INFO root fetch - processPackages [mlx-whisper]: executing diffoscope
+[2024-05-20 06:41:09] INFO root fetch - processPackages [mlx-whisper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlx_whisper-0.1.0.tar.gz tmp/mlx_whisper-0.1.0.dev0.tar.gz --markdown 20240520/m/mlx-whisper/0.1.0-0.1.0.dev0/README.md --exclude *.pyd
+[2024-05-20 06:41:09] INFO root fetch - processPackages [fileformats-medimage-afni]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_afni-0.2.2.post186034.tar.gz]
+[2024-05-20 06:41:09] INFO root fetch - processPackages [fileformats-medimage-afni]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_afni-0.3.1.tar.gz]
+[2024-05-20 06:41:09] INFO root fetch - main [MainThread]: End processing [fileformats-medimage-afni]: success
+[2024-05-20 06:41:10] INFO root fetch - processPackages [betterschema]: Remove: archive file [/home/abi/fetcher/tmp/betterschema-0.1.8.tar.gz]
+[2024-05-20 06:41:10] INFO root fetch - processPackages [betterschema]: Remove: archive file [/home/abi/fetcher/tmp/betterschema-0.1.9.tar.gz]
+[2024-05-20 06:41:10] INFO root fetch - main [MainThread]: End processing [betterschema]: success
+[2024-05-20 06:41:10] INFO root fetch - processPackages [fileformats-medimage-afni-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_afni_extras-0.2.2.post186034.tar.gz]
+[2024-05-20 06:41:10] INFO root fetch - processPackages [fileformats-medimage-afni-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_afni_extras-0.3.1.tar.gz]
+[2024-05-20 06:41:10] INFO root fetch - main [MainThread]: End processing [fileformats-medimage-afni-extras]: success
+[2024-05-20 06:41:10] INFO root fetch - processPackages [mlx-whisper]: Remove: archive file [/home/abi/fetcher/tmp/mlx_whisper-0.1.0.tar.gz]
+[2024-05-20 06:41:10] INFO root fetch - processPackages [mlx-whisper]: Remove: archive file [/home/abi/fetcher/tmp/mlx_whisper-0.1.0.dev0.tar.gz]
+[2024-05-20 06:41:10] INFO root fetch - main [MainThread]: End processing [mlx-whisper]: success
+[2024-05-20 06:41:10] INFO root fetch - main [MainThread]: Store serial: [23284598]

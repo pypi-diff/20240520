@@ -20515,3 +20515,42 @@ EOFError: EOF read where object expected
 [2024-05-20 16:30:40] INFO root fetch - processPackages [django-oauth-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/django_oauth_toolkit-2.4.0.tar.gz]
 [2024-05-20 16:30:40] INFO root fetch - main [MainThread]: End processing [django-oauth-toolkit]: success
 [2024-05-20 16:30:40] INFO root fetch - main [MainThread]: Store serial: [23291132]
+[2024-05-20 16:32:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291132]
+[2024-05-20 16:32:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 16:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: collarbirdz
+[2024-05-20 16:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: func2stream
+[2024-05-20 16:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tc-etl-lib
+[2024-05-20 16:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-insee-sirene
+[2024-05-20 16:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: my-scrcpy
+[2024-05-20 16:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bent
+[2024-05-20 16:32:50] INFO root fetch - processPackages [bent]: New version: [0.0.9] Old Version: [0.0.63]
+[2024-05-20 16:32:50] INFO root fetch - processPackages [func2stream]: New version: [0.0.1.dev2405191630] Old Version: [0.0.1.dev2405191627]
+[2024-05-20 16:32:50] INFO root fetch - processPackages [tc-etl-lib]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-20 16:32:50] INFO root fetch - processPackages [func2stream]: Downloading https://files.pythonhosted.org/packages/34/c2/99e479d13a77b218f661fa7ad633dd8b63a12ee85b59d78b8520e7fd8235/func2stream-0.0.1.dev2405191627.tar.gz
+[2024-05-20 16:32:50] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/c2/d1/a731ac900a11515eaa10b491bfdfa8d5e80c1bda2877fec27f763685608a/bent-0.0.63.tar.gz
+[2024-05-20 16:32:50] WARNING root fetch - processPackages [collarbirdz]: Skipping, unable to determine old version
+[2024-05-20 16:32:50] INFO root fetch - main [MainThread]: End processing [collarbirdz] error
+[2024-05-20 16:32:50] WARNING root fetch - processPackages [my-scrcpy]: Skipping, unable to determine old version
+[2024-05-20 16:32:50] INFO root fetch - main [MainThread]: End processing [my-scrcpy] error
+[2024-05-20 16:32:50] WARNING root fetch - processPackages [django-insee-sirene]: Skipping, unable to determine old version
+[2024-05-20 16:32:50] INFO root fetch - main [MainThread]: End processing [django-insee-sirene] error
+[2024-05-20 16:32:50] INFO root fetch - processPackages [tc-etl-lib]: Downloading https://files.pythonhosted.org/packages/de/79/eb853f9f227a9efc7b8f560d8b0fab84d16eadbef2033e6b0e87411ca65f/tc_etl_lib-0.8.0.tar.gz
+[2024-05-20 16:32:50] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/90/0b/e90bc1c1cde3dc26fe2b1f4a0648bdbf77fa5cd447091e4accd93b6ce8bb/bent-0.0.9.tar.gz
+[2024-05-20 16:32:50] INFO root fetch - processPackages [func2stream]: Downloading https://files.pythonhosted.org/packages/7a/68/75916a782af41dddadb829ecf89ca75b65487714016239690c9e1df3b9cc/func2stream-0.0.1.dev2405191630.tar.gz
+[2024-05-20 16:32:50] INFO root fetch - processPackages [bent]: executing diffoscope
+[2024-05-20 16:32:50] INFO root fetch - processPackages [bent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bent-0.0.63.tar.gz tmp/bent-0.0.9.tar.gz --markdown 20240520/b/bent/0.0.63-0.0.9/README.md --exclude *.pyd
+[2024-05-20 16:32:50] INFO root fetch - processPackages [func2stream]: executing diffoscope
+[2024-05-20 16:32:50] INFO root fetch - processPackages [func2stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/func2stream-0.0.1.dev2405191627.tar.gz tmp/func2stream-0.0.1.dev2405191630.tar.gz --markdown 20240520/f/func2stream/0.0.1.dev2405191627-0.0.1.dev2405191630/README.md --exclude *.pyd
+[2024-05-20 16:32:50] INFO root fetch - processPackages [tc-etl-lib]: Downloading https://files.pythonhosted.org/packages/b7/ef/9140fb456cd09843ded67b9c0adba21423830d5d1b9a14c5dbec47a9a0df/tc_etl_lib-0.9.0.tar.gz
+[2024-05-20 16:32:50] INFO root fetch - processPackages [tc-etl-lib]: executing diffoscope
+[2024-05-20 16:32:50] INFO root fetch - processPackages [tc-etl-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tc_etl_lib-0.8.0.tar.gz tmp/tc_etl_lib-0.9.0.tar.gz --markdown 20240520/t/tc-etl-lib/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-20 16:32:51] INFO root fetch - processPackages [func2stream]: Remove: archive file [/home/abi/fetcher/tmp/func2stream-0.0.1.dev2405191627.tar.gz]
+[2024-05-20 16:32:51] INFO root fetch - processPackages [func2stream]: Remove: archive file [/home/abi/fetcher/tmp/func2stream-0.0.1.dev2405191630.tar.gz]
+[2024-05-20 16:32:51] INFO root fetch - main [MainThread]: End processing [func2stream]: success
+[2024-05-20 16:32:51] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.63.tar.gz]
+[2024-05-20 16:32:51] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.9.tar.gz]
+[2024-05-20 16:32:51] INFO root fetch - main [MainThread]: End processing [bent]: success
+[2024-05-20 16:32:51] INFO root fetch - processPackages [tc-etl-lib]: Remove: archive file [/home/abi/fetcher/tmp/tc_etl_lib-0.8.0.tar.gz]
+[2024-05-20 16:32:51] INFO root fetch - processPackages [tc-etl-lib]: Remove: archive file [/home/abi/fetcher/tmp/tc_etl_lib-0.9.0.tar.gz]
+[2024-05-20 16:32:51] INFO root fetch - main [MainThread]: End processing [tc-etl-lib]: success
+[2024-05-20 16:32:51] INFO root fetch - main [MainThread]: Store serial: [23291154]

@@ -9210,3 +9210,51 @@
 [2024-05-20 09:12:01] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-05-20 09:12:01] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-05-20 09:12:01] INFO root fetch - main [MainThread]: Store serial: [23286159]
+[2024-05-20 09:14:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286159]
+[2024-05-20 09:14:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 09:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sanghyunjo
+[2024-05-20 09:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trilium-py
+[2024-05-20 09:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: escalona2003
+[2024-05-20 09:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tempit
+[2024-05-20 09:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alphainspect
+[2024-05-20 09:14:10] INFO root fetch - processPackages [alphainspect]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-20 09:14:10] INFO root fetch - processPackages [tempit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 09:14:10] INFO root fetch - processPackages [alphainspect]: Downloading https://files.pythonhosted.org/packages/90/12/1dc3146f593b7d6c1d306f3f3bcfa21c743d71771140fc4b0a2f19fa1354/alphainspect-0.4.1.tar.gz
+[2024-05-20 09:14:10] INFO root fetch - processPackages [escalona2003]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-20 09:14:10] INFO root fetch - processPackages [trilium-py]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-20 09:14:10] INFO root fetch - processPackages [sanghyunjo]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-20 09:14:10] INFO root fetch - processPackages [alphainspect]: Downloading https://files.pythonhosted.org/packages/a5/bd/f119af6d12b8e9fc842fd5053723ae8797df3f0bc041ff0e767f5175b1e1/alphainspect-0.4.2.tar.gz
+[2024-05-20 09:14:11] INFO root fetch - processPackages [tempit]: Downloading https://files.pythonhosted.org/packages/e3/4c/1c2973b197457990115d5426d09fa2eb9d10d43138feebf67456e0988ddf/tempit-0.1.8.tar.gz
+[2024-05-20 09:14:11] INFO root fetch - processPackages [escalona2003]: Downloading https://files.pythonhosted.org/packages/fe/ca/2446ee5df5b8de07f422b164a4273819dfe908a86ef39b7876b773aa7c92/escalona2003-1.0.0.tar.gz
+[2024-05-20 09:14:11] INFO root fetch - processPackages [sanghyunjo]: Downloading https://files.pythonhosted.org/packages/44/39/f98970afdbdb1eeb922d240aa1e20f2859e375678288e7f596a55f143911/sanghyunjo-1.0.1.tar.gz
+[2024-05-20 09:14:11] INFO root fetch - processPackages [trilium-py]: Downloading https://files.pythonhosted.org/packages/8c/21/92cd8a333c7605a4c70c435d299d720684a223faa7f167d3fe2b8edea0d4/trilium_py-0.8.9-py3-none-any.whl
+[2024-05-20 09:14:11] INFO root fetch - processPackages [alphainspect]: executing diffoscope
+[2024-05-20 09:14:11] INFO root fetch - processPackages [alphainspect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphainspect-0.4.1.tar.gz tmp/alphainspect-0.4.2.tar.gz --markdown 20240520/a/alphainspect/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-20 09:14:11] INFO root fetch - processPackages [tempit]: Downloading https://files.pythonhosted.org/packages/93/31/117f721bd956605ff69e515320873daca40bcab46c7fc309568c251a848c/tempit-0.1.9.tar.gz
+[2024-05-20 09:14:11] INFO root fetch - processPackages [escalona2003]: Downloading https://files.pythonhosted.org/packages/2f/92/680bed476f932ec840a606978b77214f166e2a180b4709635504dcb59c22/escalona2003-1.1.0.tar.gz
+[2024-05-20 09:14:11] INFO root fetch - processPackages [sanghyunjo]: Downloading https://files.pythonhosted.org/packages/83/f2/37cc7a51ba6cee2d356edcb281d784feb0f80f97269707e99e9314024015/sanghyunjo-1.1.0.tar.gz
+[2024-05-20 09:14:11] INFO root fetch - processPackages [trilium-py]: Downloading https://files.pythonhosted.org/packages/ad/e5/ea7fcdf2338182fd304116f7715ab681fe7748885adc94d71acbee57f7d4/trilium_py-0.9.0-py3-none-any.whl
+[2024-05-20 09:14:11] INFO root fetch - processPackages [tempit]: executing diffoscope
+[2024-05-20 09:14:11] INFO root fetch - processPackages [tempit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempit-0.1.8.tar.gz tmp/tempit-0.1.9.tar.gz --markdown 20240520/t/tempit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 09:14:11] INFO root fetch - processPackages [escalona2003]: executing diffoscope
+[2024-05-20 09:14:11] INFO root fetch - processPackages [escalona2003]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/escalona2003-1.0.0.tar.gz tmp/escalona2003-1.1.0.tar.gz --markdown 20240520/e/escalona2003/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-20 09:14:11] INFO root fetch - processPackages [sanghyunjo]: executing diffoscope
+[2024-05-20 09:14:11] INFO root fetch - processPackages [sanghyunjo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanghyunjo-1.0.1.tar.gz tmp/sanghyunjo-1.1.0.tar.gz --markdown 20240520/s/sanghyunjo/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-20 09:14:11] INFO root fetch - processPackages [trilium-py]: executing diffoscope
+[2024-05-20 09:14:11] INFO root fetch - processPackages [trilium-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trilium_py-0.8.9-py3-none-any.whl.zip tmp/trilium_py-0.9.0-py3-none-any.whl.zip --markdown 20240520/t/trilium-py/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-20 09:14:11] INFO root fetch - processPackages [alphainspect]: Remove: archive file [/home/abi/fetcher/tmp/alphainspect-0.4.1.tar.gz]
+[2024-05-20 09:14:11] INFO root fetch - processPackages [alphainspect]: Remove: archive file [/home/abi/fetcher/tmp/alphainspect-0.4.2.tar.gz]
+[2024-05-20 09:14:11] INFO root fetch - main [MainThread]: End processing [alphainspect]: success
+[2024-05-20 09:14:12] INFO root fetch - processPackages [tempit]: Remove: archive file [/home/abi/fetcher/tmp/tempit-0.1.8.tar.gz]
+[2024-05-20 09:14:12] INFO root fetch - processPackages [tempit]: Remove: archive file [/home/abi/fetcher/tmp/tempit-0.1.9.tar.gz]
+[2024-05-20 09:14:12] INFO root fetch - main [MainThread]: End processing [tempit]: success
+[2024-05-20 09:14:12] INFO root fetch - processPackages [sanghyunjo]: Remove: archive file [/home/abi/fetcher/tmp/sanghyunjo-1.0.1.tar.gz]
+[2024-05-20 09:14:12] INFO root fetch - processPackages [sanghyunjo]: Remove: archive file [/home/abi/fetcher/tmp/sanghyunjo-1.1.0.tar.gz]
+[2024-05-20 09:14:12] INFO root fetch - main [MainThread]: End processing [sanghyunjo]: success
+[2024-05-20 09:14:12] INFO root fetch - processPackages [escalona2003]: Remove: archive file [/home/abi/fetcher/tmp/escalona2003-1.0.0.tar.gz]
+[2024-05-20 09:14:12] INFO root fetch - processPackages [escalona2003]: Remove: archive file [/home/abi/fetcher/tmp/escalona2003-1.1.0.tar.gz]
+[2024-05-20 09:14:12] INFO root fetch - main [MainThread]: End processing [escalona2003]: success
+[2024-05-20 09:14:12] INFO root fetch - processPackages [trilium-py]: Remove: archive file [/home/abi/fetcher/tmp/trilium_py-0.8.9-py3-none-any.whl.zip]
+[2024-05-20 09:14:12] INFO root fetch - processPackages [trilium-py]: Remove: archive file [/home/abi/fetcher/tmp/trilium_py-0.9.0-py3-none-any.whl.zip]
+[2024-05-20 09:14:12] INFO root fetch - main [MainThread]: End processing [trilium-py]: success
+[2024-05-20 09:14:12] INFO root fetch - main [MainThread]: Store serial: [23286186]

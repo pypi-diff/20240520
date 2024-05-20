@@ -5375,3 +5375,24 @@
 [2024-05-20 05:00:25] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
 [2024-05-20 05:00:25] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
 [2024-05-20 05:00:25] INFO root fetch - main [MainThread]: Store serial: [23283968]
+[2024-05-20 05:02:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283968]
+[2024-05-20 05:02:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 05:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PFlowC
+[2024-05-20 05:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: casepy
+[2024-05-20 05:02:34] INFO root fetch - processPackages [casepy]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-20 05:02:34] INFO root fetch - processPackages [PFlowC]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-05-20 05:02:34] INFO root fetch - processPackages [PFlowC]: Downloading https://files.pythonhosted.org/packages/c7/31/eadaa679f29df13be97dae313c651c0c1e1de8b2c531640f84eab3eee974/PFlowC-2.3.0.tar.gz
+[2024-05-20 05:02:34] INFO root fetch - processPackages [casepy]: Downloading https://files.pythonhosted.org/packages/dc/13/efe74c076aad0ff1d08d1a1053d8190918925e3bd11f5cc1184ead47a898/casepy-0.0.6.tar.gz
+[2024-05-20 05:02:34] INFO root fetch - processPackages [casepy]: Downloading https://files.pythonhosted.org/packages/7c/51/bf2725f43de41e6288cab730c5fa026c2a505989eb0050a10a1d94ff0b4a/casepy-0.0.7.tar.gz
+[2024-05-20 05:02:34] INFO root fetch - processPackages [casepy]: executing diffoscope
+[2024-05-20 05:02:34] INFO root fetch - processPackages [casepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casepy-0.0.6.tar.gz tmp/casepy-0.0.7.tar.gz --markdown 20240520/c/casepy/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-20 05:02:34] INFO root fetch - processPackages [PFlowC]: Downloading https://files.pythonhosted.org/packages/67/c5/8a1e12f8ebfde65e7ecd24ac385dd0b967fee9df7055a8e890b235f4ba34/PFlowC-2.4.0.tar.gz
+[2024-05-20 05:02:35] INFO root fetch - processPackages [PFlowC]: executing diffoscope
+[2024-05-20 05:02:35] INFO root fetch - processPackages [PFlowC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PFlowC-2.3.0.tar.gz tmp/PFlowC-2.4.0.tar.gz --markdown 20240520/P/PFlowC/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-05-20 05:02:35] INFO root fetch - processPackages [casepy]: Remove: archive file [/home/abi/fetcher/tmp/casepy-0.0.6.tar.gz]
+[2024-05-20 05:02:35] INFO root fetch - processPackages [casepy]: Remove: archive file [/home/abi/fetcher/tmp/casepy-0.0.7.tar.gz]
+[2024-05-20 05:02:35] INFO root fetch - main [MainThread]: End processing [casepy]: success
+[2024-05-20 05:02:36] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-2.3.0.tar.gz]
+[2024-05-20 05:02:36] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-2.4.0.tar.gz]
+[2024-05-20 05:02:36] INFO root fetch - main [MainThread]: End processing [PFlowC]: success
+[2024-05-20 05:02:36] INFO root fetch - main [MainThread]: Store serial: [23283973]

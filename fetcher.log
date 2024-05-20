@@ -9625,3 +9625,57 @@
 [2024-05-20 09:37:32] INFO root fetch - processPackages [wildberries-api-client]: Remove: archive file [/home/abi/fetcher/tmp/wildberries_api_client-0.1.9.tar.gz]
 [2024-05-20 09:37:32] INFO root fetch - main [MainThread]: End processing [wildberries-api-client]: success
 [2024-05-20 09:37:32] INFO root fetch - main [MainThread]: Store serial: [23286368]
+[2024-05-20 09:39:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286368]
+[2024-05-20 09:39:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 09:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evers2010
+[2024-05-20 09:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: newscleaner
+[2024-05-20 09:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webdrivermanager-cn
+[2024-05-20 09:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spider-python
+[2024-05-20 09:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sovereign
+[2024-05-20 09:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fast-multi-regex
+[2024-05-20 09:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pipy-test-xiaoqiang
+[2024-05-20 09:39:41] WARNING root fetch - processPackages [evers2010]: Skipping, unable to determine old version
+[2024-05-20 09:39:41] INFO root fetch - main [MainThread]: End processing [evers2010] error
+[2024-05-20 09:39:41] INFO root fetch - processPackages [fast-multi-regex]: New version: [0.9] Old Version: [0.8]
+[2024-05-20 09:39:41] INFO root fetch - processPackages [webdrivermanager-cn]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-05-20 09:39:41] INFO root fetch - processPackages [fast-multi-regex]: Downloading https://files.pythonhosted.org/packages/77/60/18107bb203fe25038d06e2031e5363af72108ddf2031504aa1330a907b00/fast_multi_regex-0.8.tar.gz
+[2024-05-20 09:39:41] INFO root fetch - processPackages [newscleaner]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-20 09:39:41] WARNING root fetch - processPackages [pipy-test-xiaoqiang]: Skipping, unable to determine old version
+[2024-05-20 09:39:41] INFO root fetch - main [MainThread]: End processing [pipy-test-xiaoqiang] error
+[2024-05-20 09:39:41] INFO root fetch - processPackages [spider-python]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 09:39:41] INFO root fetch - processPackages [sovereign]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-20 09:39:41] INFO root fetch - processPackages [newscleaner]: Downloading https://files.pythonhosted.org/packages/64/54/c4ca48a9f08095fe01b2881fedf94d564bdc2bb79004e8169220c84dd4ee/newscleaner-0.1.6.tar.gz
+[2024-05-20 09:39:41] INFO root fetch - processPackages [webdrivermanager-cn]: Downloading https://files.pythonhosted.org/packages/ef/94/e4729e5b86854643be182da4446bdc93bc3317eaa198246b47c7e2092cf8/webdrivermanager_cn-1.5.2-py3-none-any.whl
+[2024-05-20 09:39:41] INFO root fetch - processPackages [spider-python]: Downloading https://files.pythonhosted.org/packages/c0/62/2acb1e4739798c7db884d3b23b8746d003aaf760d7a97a7afb460afd6263/spider-python-0.1.8.tar.gz
+[2024-05-20 09:39:41] INFO root fetch - processPackages [sovereign]: Downloading https://files.pythonhosted.org/packages/16/66/c3b46a06abeef18a1d1b46466cb512bed818047a532ec7eaa17231b9dd61/sovereign-0.9.6.tar.gz
+[2024-05-20 09:39:41] INFO root fetch - processPackages [fast-multi-regex]: Downloading https://files.pythonhosted.org/packages/f1/5e/62b9c1824e0c892440aa924f33cc34e2a06bd10ce2e1d6dac7a3f4d66fca/fast_multi_regex-0.9.tar.gz
+[2024-05-20 09:39:41] INFO root fetch - processPackages [newscleaner]: Downloading https://files.pythonhosted.org/packages/ef/1d/fe60766d7353f2bddd7c5904358546e2e2680d9856fb6d020c17bec2354e/newscleaner-0.1.7.tar.gz
+[2024-05-20 09:39:41] INFO root fetch - processPackages [fast-multi-regex]: executing diffoscope
+[2024-05-20 09:39:41] INFO root fetch - processPackages [fast-multi-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_multi_regex-0.8.tar.gz tmp/fast_multi_regex-0.9.tar.gz --markdown 20240520/f/fast-multi-regex/0.8-0.9/README.md --exclude *.pyd
+[2024-05-20 09:39:41] INFO root fetch - processPackages [spider-python]: Downloading https://files.pythonhosted.org/packages/f9/06/20c7dbf9c08147211dabbf15985a904ed993a798be09b41615911ef07762/spider-python-0.1.9.tar.gz
+[2024-05-20 09:39:41] INFO root fetch - processPackages [webdrivermanager-cn]: Downloading https://files.pythonhosted.org/packages/24/b4/94d274dd68cfe6d2affdad5a399ec1830fb2002fdde481f7a5a5b0f32ef4/webdrivermanager_cn-1.5.3-py3-none-any.whl
+[2024-05-20 09:39:41] INFO root fetch - processPackages [newscleaner]: executing diffoscope
+[2024-05-20 09:39:41] INFO root fetch - processPackages [newscleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newscleaner-0.1.6.tar.gz tmp/newscleaner-0.1.7.tar.gz --markdown 20240520/n/newscleaner/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-20 09:39:42] INFO root fetch - processPackages [spider-python]: executing diffoscope
+[2024-05-20 09:39:42] INFO root fetch - processPackages [spider-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-python-0.1.8.tar.gz tmp/spider-python-0.1.9.tar.gz --markdown 20240520/s/spider-python/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 09:39:42] INFO root fetch - processPackages [sovereign]: Downloading https://files.pythonhosted.org/packages/f9/65/a5f2ada9ea293162182714fca29200f910628e13ea0168d9a55b98c5fa9a/sovereign-0.9.7.tar.gz
+[2024-05-20 09:39:42] INFO root fetch - processPackages [webdrivermanager-cn]: executing diffoscope
+[2024-05-20 09:39:42] INFO root fetch - processPackages [webdrivermanager-cn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webdrivermanager_cn-1.5.2-py3-none-any.whl.zip tmp/webdrivermanager_cn-1.5.3-py3-none-any.whl.zip --markdown 20240520/w/webdrivermanager-cn/1.5.2-1.5.3/README.md --exclude *.pyd
+[2024-05-20 09:39:42] INFO root fetch - processPackages [sovereign]: executing diffoscope
+[2024-05-20 09:39:42] INFO root fetch - processPackages [sovereign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sovereign-0.9.6.tar.gz tmp/sovereign-0.9.7.tar.gz --markdown 20240520/s/sovereign/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-20 09:39:42] INFO root fetch - processPackages [fast-multi-regex]: Remove: archive file [/home/abi/fetcher/tmp/fast_multi_regex-0.8.tar.gz]
+[2024-05-20 09:39:42] INFO root fetch - processPackages [fast-multi-regex]: Remove: archive file [/home/abi/fetcher/tmp/fast_multi_regex-0.9.tar.gz]
+[2024-05-20 09:39:42] INFO root fetch - main [MainThread]: End processing [fast-multi-regex]: success
+[2024-05-20 09:39:42] INFO root fetch - processPackages [newscleaner]: Remove: archive file [/home/abi/fetcher/tmp/newscleaner-0.1.6.tar.gz]
+[2024-05-20 09:39:42] INFO root fetch - processPackages [newscleaner]: Remove: archive file [/home/abi/fetcher/tmp/newscleaner-0.1.7.tar.gz]
+[2024-05-20 09:39:42] INFO root fetch - main [MainThread]: End processing [newscleaner]: success
+[2024-05-20 09:39:42] INFO root fetch - processPackages [webdrivermanager-cn]: Remove: archive file [/home/abi/fetcher/tmp/webdrivermanager_cn-1.5.2-py3-none-any.whl.zip]
+[2024-05-20 09:39:42] INFO root fetch - processPackages [webdrivermanager-cn]: Remove: archive file [/home/abi/fetcher/tmp/webdrivermanager_cn-1.5.3-py3-none-any.whl.zip]
+[2024-05-20 09:39:42] INFO root fetch - main [MainThread]: End processing [webdrivermanager-cn]: success
+[2024-05-20 09:39:42] INFO root fetch - processPackages [spider-python]: Remove: archive file [/home/abi/fetcher/tmp/spider-python-0.1.8.tar.gz]
+[2024-05-20 09:39:42] INFO root fetch - processPackages [spider-python]: Remove: archive file [/home/abi/fetcher/tmp/spider-python-0.1.9.tar.gz]
+[2024-05-20 09:39:42] INFO root fetch - main [MainThread]: End processing [spider-python]: success
+[2024-05-20 09:39:42] INFO root fetch - processPackages [sovereign]: Remove: archive file [/home/abi/fetcher/tmp/sovereign-0.9.6.tar.gz]
+[2024-05-20 09:39:42] INFO root fetch - processPackages [sovereign]: Remove: archive file [/home/abi/fetcher/tmp/sovereign-0.9.7.tar.gz]
+[2024-05-20 09:39:42] INFO root fetch - main [MainThread]: End processing [sovereign]: success
+[2024-05-20 09:39:42] INFO root fetch - main [MainThread]: Store serial: [23286388]

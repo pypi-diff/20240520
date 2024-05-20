@@ -4061,3 +4061,24 @@
 [2024-05-20 03:19:11] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.9.tar.gz]
 [2024-05-20 03:19:11] INFO root fetch - main [MainThread]: End processing [agricore_sp_models]: success
 [2024-05-20 03:19:11] INFO root fetch - main [MainThread]: Store serial: [23283295]
+[2024-05-20 03:21:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283295]
+[2024-05-20 03:21:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 03:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moped
+[2024-05-20 03:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: redis-director
+[2024-05-20 03:21:20] INFO root fetch - processPackages [redis-director]: New version: [0.6.0] Old Version: [0.5.3]
+[2024-05-20 03:21:20] INFO root fetch - processPackages [redis-director]: Downloading https://files.pythonhosted.org/packages/1f/38/92bdd95679047bb0bb55070fa864d1d1f2b6cfd9d952166f98c198e1f4e1/redis_director-0.5.3.tar.gz
+[2024-05-20 03:21:20] INFO root fetch - processPackages [moped]: New version: [1rc1] Old Version: [1.9.9]
+[2024-05-20 03:21:20] INFO root fetch - processPackages [redis-director]: Downloading https://files.pythonhosted.org/packages/7c/4e/d7e6851655a72ba9e1dc135655f3bde1d6d25a308cc7a96d8e473693f500/redis_director-0.6.0.tar.gz
+[2024-05-20 03:21:20] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/fa/e5/eae730d18630be4dc4e22bf10412607b7b68e8adba0ea08af0f1a74ce2ba/moped-1.9.9.tar.gz
+[2024-05-20 03:21:20] INFO root fetch - processPackages [redis-director]: executing diffoscope
+[2024-05-20 03:21:20] INFO root fetch - processPackages [redis-director]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redis_director-0.5.3.tar.gz tmp/redis_director-0.6.0.tar.gz --markdown 20240520/r/redis-director/0.5.3-0.6.0/README.md --exclude *.pyd
+[2024-05-20 03:21:21] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/73/71/391f981ecc1118b3a2d5699507b8d46eba5a3f8290bcf8184f6e741fef40/moped-1rc1.tar.gz
+[2024-05-20 03:21:21] INFO root fetch - processPackages [moped]: executing diffoscope
+[2024-05-20 03:21:21] INFO root fetch - processPackages [moped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moped-1.9.9.tar.gz tmp/moped-1rc1.tar.gz --markdown 20240520/m/moped/1.9.9-1rc1/README.md --exclude *.pyd
+[2024-05-20 03:21:21] INFO root fetch - processPackages [redis-director]: Remove: archive file [/home/abi/fetcher/tmp/redis_director-0.5.3.tar.gz]
+[2024-05-20 03:21:21] INFO root fetch - processPackages [redis-director]: Remove: archive file [/home/abi/fetcher/tmp/redis_director-0.6.0.tar.gz]
+[2024-05-20 03:21:21] INFO root fetch - main [MainThread]: End processing [redis-director]: success
+[2024-05-20 03:21:21] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1.9.9.tar.gz]
+[2024-05-20 03:21:21] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1rc1.tar.gz]
+[2024-05-20 03:21:21] INFO root fetch - main [MainThread]: End processing [moped]: success
+[2024-05-20 03:21:21] INFO root fetch - main [MainThread]: Store serial: [23283302]

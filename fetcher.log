@@ -2209,3 +2209,38 @@
 [2024-05-20 02:12:49] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240519.post1204.tar.gz]
 [2024-05-20 02:12:49] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
 [2024-05-20 02:12:49] INFO root fetch - main [MainThread]: Store serial: [23282516]
+[2024-05-20 02:14:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282516]
+[2024-05-20 02:14:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 02:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-events-notify
+[2024-05-20 02:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-gitlab-runner
+[2024-05-20 02:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-common
+[2024-05-20 02:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnx-weekly
+[2024-05-20 02:14:57] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-20 02:14:57] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-20 02:14:57] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-20 02:14:57] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-05-20 02:14:57] INFO root fetch - processPackages [onnx-weekly]: New version: [1.17.0.dev20240520] Old Version: [1.17.0.dev20240513]
+[2024-05-20 02:14:57] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-20 02:14:57] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-20 02:14:58] INFO root fetch - processPackages [onnx-weekly]: Downloading https://files.pythonhosted.org/packages/4c/e5/28c6b7e692f04ae3da030be3987ed53f7e0d3de02b3522a0bf4bacff1493/onnx_weekly-1.17.0.dev20240513.tar.gz
+[2024-05-20 02:14:58] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-20 02:14:58] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-05-20 02:14:58] WARNING root fetch - processPackages [onnx-weekly]: Skipping package: exceeds size limit 11372118>=10485760
+[2024-05-20 02:14:58] INFO root fetch - main [MainThread]: End processing [onnx-weekly] error
+[2024-05-20 02:14:58] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-05-20 02:14:58] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-20 02:14:58] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240520/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-20 02:14:58] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240520/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-20 02:14:58] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-20 02:14:58] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-20 02:14:58] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240520/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-20 02:14:58] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-05-20 02:14:58] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-05-20 02:14:58] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-05-20 02:14:58] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-20 02:14:58] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-20 02:14:58] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-20 02:14:59] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-20 02:14:59] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-20 02:14:59] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-20 02:14:59] INFO root fetch - main [MainThread]: Store serial: [23282531]

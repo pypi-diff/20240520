@@ -5097,3 +5097,9 @@
 [2024-05-20 04:37:58] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a9.tar.gz]
 [2024-05-20 04:37:58] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2024-05-20 04:37:58] INFO root fetch - main [MainThread]: Store serial: [23283855]
+[2024-05-20 04:40:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283855]
+[2024-05-20 04:40:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 04:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dottiestz
+[2024-05-20 04:40:06] WARNING root fetch - processPackages [dottiestz]: Skipping, unable to determine old version
+[2024-05-20 04:40:06] INFO root fetch - main [MainThread]: End processing [dottiestz] error
+[2024-05-20 04:40:06] INFO root fetch - main [MainThread]: Store serial: [23283859]

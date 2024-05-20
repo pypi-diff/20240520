@@ -16865,3 +16865,9 @@ EOFError: EOF read where object expected
 [2024-05-20 14:33:56] INFO root fetch - processPackages [sb-json-tools]: Remove: archive file [/home/abi/fetcher/tmp/sb-json-tools-0.9.1.tar.gz]
 [2024-05-20 14:33:56] INFO root fetch - main [MainThread]: End processing [sb-json-tools]: success
 [2024-05-20 14:33:56] INFO root fetch - main [MainThread]: Store serial: [23289566]
+[2024-05-20 14:36:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289566]
+[2024-05-20 14:36:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 14:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slazzer-cli
+[2024-05-20 14:36:06] WARNING root fetch - processPackages [slazzer-cli]: Skipping, unable to determine old version
+[2024-05-20 14:36:06] INFO root fetch - main [MainThread]: End processing [slazzer-cli] error
+[2024-05-20 14:36:06] INFO root fetch - main [MainThread]: Store serial: [23289574]

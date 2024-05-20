@@ -5617,3 +5617,29 @@
 [2024-05-20 05:17:45] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
 [2024-05-20 05:17:45] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
 [2024-05-20 05:17:45] INFO root fetch - main [MainThread]: Store serial: [23284083]
+[2024-05-20 05:19:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284083]
+[2024-05-20 05:19:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 05:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jzai
+[2024-05-20 05:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jzai
+[2024-05-20 05:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jzai
+[2024-05-20 05:19:54] INFO root fetch - processPackages [jzai]: New version: [59.83.42] Old Version: [59.83.41]
+[2024-05-20 05:19:54] INFO root fetch - processPackages [jzai]: New version: [59.83.42] Old Version: [59.83.41]
+[2024-05-20 05:19:54] INFO root fetch - processPackages [jzai]: New version: [59.83.42] Old Version: [59.83.41]
+[2024-05-20 05:19:54] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/49/5e/282b7ef9d86274def253e0e908559461de5d1c634ed2f237c29662536b75/jzai-59.83.41.tar.gz
+[2024-05-20 05:19:54] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/49/5e/282b7ef9d86274def253e0e908559461de5d1c634ed2f237c29662536b75/jzai-59.83.41.tar.gz
+[2024-05-20 05:19:54] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/49/5e/282b7ef9d86274def253e0e908559461de5d1c634ed2f237c29662536b75/jzai-59.83.41.tar.gz
+[2024-05-20 05:19:54] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/e5/4a/8fe85aed9d678c42331abf4785581b49245d4d4a15f5170d0fb03a8baa4f/jzai-59.83.42.tar.gz
+[2024-05-20 05:19:54] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/e5/4a/8fe85aed9d678c42331abf4785581b49245d4d4a15f5170d0fb03a8baa4f/jzai-59.83.42.tar.gz
+[2024-05-20 05:19:54] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/e5/4a/8fe85aed9d678c42331abf4785581b49245d4d4a15f5170d0fb03a8baa4f/jzai-59.83.42.tar.gz
+[2024-05-20 05:19:55] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-20 05:19:55] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.41.tar.gz tmp/jzai-59.83.42.tar.gz --markdown 20240520/j/jzai/59.83.41-59.83.42/README.md --exclude *.pyd
+[2024-05-20 05:19:55] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-20 05:19:55] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.41.tar.gz tmp/jzai-59.83.42.tar.gz --markdown 20240520/j/jzai/59.83.41-59.83.42/README.md --exclude *.pyd
+[2024-05-20 05:19:55] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-20 05:19:55] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.41.tar.gz tmp/jzai-59.83.42.tar.gz --markdown 20240520/j/jzai/59.83.41-59.83.42/README.md --exclude *.pyd
+[2024-05-20 05:19:55] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.41.tar.gz]
+[2024-05-20 05:19:55] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.42.tar.gz]
+[2024-05-20 05:19:55] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-20 05:19:55] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-20 05:19:55] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-20 05:19:55] INFO root fetch - main [MainThread]: Store serial: [23284092]

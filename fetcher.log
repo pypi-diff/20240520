@@ -18753,3 +18753,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:32:19] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
 [2024-05-20 15:32:19] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-05-20 15:32:19] INFO root fetch - main [MainThread]: Store serial: [23290331]
+[2024-05-20 15:34:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290331]
+[2024-05-20 15:34:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 15:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yeref
+[2024-05-20 15:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyE2
+[2024-05-20 15:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stepup-reprep
+[2024-05-20 15:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ktaga-lab
+[2024-05-20 15:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pykolofinance
+[2024-05-20 15:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stsci.stimage
+[2024-05-20 15:34:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unsheathedz
+[2024-05-20 15:34:30] WARNING root fetch - processPackages [ktaga-lab]: Skipping, unable to determine old version
+[2024-05-20 15:34:30] INFO root fetch - main [MainThread]: End processing [ktaga-lab] error
+[2024-05-20 15:34:30] INFO root fetch - processPackages [PyE2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-20 15:34:30] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-20 15:34:30] INFO root fetch - processPackages [pykolofinance]: New version: [1.0.0] Old Version: [0.1.1]
+[2024-05-20 15:34:30] WARNING root fetch - processPackages [unsheathedz]: Skipping, unable to determine old version
+[2024-05-20 15:34:30] INFO root fetch - main [MainThread]: End processing [unsheathedz] error
+[2024-05-20 15:34:30] INFO root fetch - processPackages [stepup-reprep]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-20 15:34:30] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/7c/1f/ddc8b7c8209074ff0d22a75a309898a450f3e9e4116be5a7194e75d33974/pye2-0.7.8.tar.gz
+[2024-05-20 15:34:30] INFO root fetch - processPackages [stsci.stimage]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-20 15:34:30] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-20 15:34:30] INFO root fetch - processPackages [pykolofinance]: Downloading https://files.pythonhosted.org/packages/61/24/8665f1787ca0116350668559b483a8526231c6790f0426b1f5e03378219e/pykolofinance-0.1.1.tar.gz
+[2024-05-20 15:34:30] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/e9/40/83bee283c4c5388414ec9563877eaf42c60425426715578ebc136fe413cb/pye2-0.7.9.tar.gz
+[2024-05-20 15:34:30] INFO root fetch - processPackages [stsci.stimage]: Downloading https://files.pythonhosted.org/packages/27/32/14a82fd755298b2c06dc5cc90b8f399d9e5a45a24fec938dac9f785e8089/stsci_stimage-0.2.8.tar.gz
+[2024-05-20 15:34:30] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-20 15:34:30] INFO root fetch - processPackages [stepup-reprep]: Downloading https://files.pythonhosted.org/packages/db/e4/20020d9c59295b1cca9f07bc16415f2efe646f158ae8442587ecaf05135b/stepup_reprep-1.1.2.tar.gz
+[2024-05-20 15:34:30] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-05-20 15:34:30] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.7.8.tar.gz tmp/pye2-0.7.9.tar.gz --markdown 20240520/P/PyE2/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-20 15:34:30] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-20 15:34:30] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240520/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-20 15:34:30] INFO root fetch - processPackages [pykolofinance]: Downloading https://files.pythonhosted.org/packages/69/37/29c98eb4e4d3fae7c01c76333d89a8d3fad06bf488c0f1356e9a7843dc2a/pykolofinance-1.0.0.tar.gz
+[2024-05-20 15:34:30] INFO root fetch - processPackages [stsci.stimage]: Downloading https://files.pythonhosted.org/packages/5a/ec/8af50b4bd93e02d1f68fb11ebed94343e38e33a4f120f853643e83f85ba1/stsci_stimage-0.2.9.tar.gz
+[2024-05-20 15:34:30] INFO root fetch - processPackages [stepup-reprep]: Downloading https://files.pythonhosted.org/packages/72/e5/e2d4232ccfb0f16b9ff799cc730c3b8f4d5944663cc945a8d543d3da4fa3/stepup_reprep-1.2.0.tar.gz
+[2024-05-20 15:34:30] INFO root fetch - processPackages [pykolofinance]: executing diffoscope
+[2024-05-20 15:34:30] INFO root fetch - processPackages [pykolofinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykolofinance-0.1.1.tar.gz tmp/pykolofinance-1.0.0.tar.gz --markdown 20240520/p/pykolofinance/0.1.1-1.0.0/README.md --exclude *.pyd
+[2024-05-20 15:34:30] INFO root fetch - processPackages [stepup-reprep]: executing diffoscope
+[2024-05-20 15:34:30] INFO root fetch - processPackages [stepup-reprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stepup_reprep-1.1.2.tar.gz tmp/stepup_reprep-1.2.0.tar.gz --markdown 20240520/s/stepup-reprep/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-20 15:34:31] INFO root fetch - processPackages [stsci.stimage]: executing diffoscope
+[2024-05-20 15:34:31] INFO root fetch - processPackages [stsci.stimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stsci_stimage-0.2.8.tar.gz tmp/stsci_stimage-0.2.9.tar.gz --markdown 20240520/s/stsci.stimage/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-20 15:34:31] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.8.tar.gz]
+[2024-05-20 15:34:31] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
+[2024-05-20 15:34:31] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-05-20 15:34:31] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-20 15:34:31] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-20 15:34:31] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-20 15:34:31] INFO root fetch - processPackages [pykolofinance]: Remove: archive file [/home/abi/fetcher/tmp/pykolofinance-0.1.1.tar.gz]
+[2024-05-20 15:34:31] INFO root fetch - processPackages [pykolofinance]: Remove: archive file [/home/abi/fetcher/tmp/pykolofinance-1.0.0.tar.gz]
+[2024-05-20 15:34:31] INFO root fetch - main [MainThread]: End processing [pykolofinance]: success
+[2024-05-20 15:34:31] INFO root fetch - processPackages [stsci.stimage]: Remove: archive file [/home/abi/fetcher/tmp/stsci_stimage-0.2.8.tar.gz]
+[2024-05-20 15:34:31] INFO root fetch - processPackages [stsci.stimage]: Remove: archive file [/home/abi/fetcher/tmp/stsci_stimage-0.2.9.tar.gz]
+[2024-05-20 15:34:31] INFO root fetch - main [MainThread]: End processing [stsci.stimage]: success
+[2024-05-20 15:34:32] INFO root fetch - processPackages [stepup-reprep]: Remove: archive file [/home/abi/fetcher/tmp/stepup_reprep-1.1.2.tar.gz]
+[2024-05-20 15:34:32] INFO root fetch - processPackages [stepup-reprep]: Remove: archive file [/home/abi/fetcher/tmp/stepup_reprep-1.2.0.tar.gz]
+[2024-05-20 15:34:32] INFO root fetch - main [MainThread]: End processing [stepup-reprep]: success
+[2024-05-20 15:34:32] INFO root fetch - main [MainThread]: Store serial: [23290364]

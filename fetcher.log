@@ -10200,3 +10200,15 @@
 [2024-05-20 10:04:04] INFO root fetch - processPackages [alibabacloud-alinlp20200629]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_alinlp20200629-3.0.0.tar.gz]
 [2024-05-20 10:04:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-alinlp20200629]: success
 [2024-05-20 10:04:04] INFO root fetch - main [MainThread]: Store serial: [23286612]
+[2024-05-20 10:06:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286612]
+[2024-05-20 10:06:13] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 10:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langfun
+[2024-05-20 10:06:13] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240519] Old Version: [0.0.2.dev20240518]
+[2024-05-20 10:06:13] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/97/6f/8f0e4210912024ab31e8368c0fe8390e94028d7acfe5009e644c1f557b89/langfun-0.0.2.dev20240518.tar.gz
+[2024-05-20 10:06:14] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/cb/0a/a2e7b5351e078b75d74772d679e0fe1721e79fe695036f6f73f65a6ecd06/langfun-0.0.2.dev20240519.tar.gz
+[2024-05-20 10:06:14] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-20 10:06:14] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240518.tar.gz tmp/langfun-0.0.2.dev20240519.tar.gz --markdown 20240520/l/langfun/0.0.2.dev20240518-0.0.2.dev20240519/README.md --exclude *.pyd
+[2024-05-20 10:06:14] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240518.tar.gz]
+[2024-05-20 10:06:14] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240519.tar.gz]
+[2024-05-20 10:06:14] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-20 10:06:14] INFO root fetch - main [MainThread]: Store serial: [23286615]

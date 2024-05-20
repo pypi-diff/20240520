@@ -19109,3 +19109,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:47:52] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
 [2024-05-20 15:47:52] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-20 15:47:52] INFO root fetch - main [MainThread]: Store serial: [23290515]
+[2024-05-20 15:49:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290515]
+[2024-05-20 15:50:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-20 15:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: large-image
+[2024-05-20 15:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: girder-large-image
+[2024-05-20 15:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-prep-toolkit-kfp
+[2024-05-20 15:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: girder-large-image-annotation
+[2024-05-20 15:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: large-image-converter
+[2024-05-20 15:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: large-image-tasks
+[2024-05-20 15:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: large-image-source-bioformats
+[2024-05-20 15:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FileWriterCLI
+[2024-05-20 15:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cubnm
+[2024-05-20 15:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: otherwhilez
+[2024-05-20 15:50:03] INFO root fetch - processPackages [large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:50:03] WARNING root fetch - processPackages [FileWriterCLI]: Skipping, unable to determine old version
+[2024-05-20 15:50:03] INFO root fetch - processPackages [girder-large-image-annotation]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:50:03] INFO root fetch - processPackages [FileWriterCLI]: Start processing: large-image-source-deepzoom
+[2024-05-20 15:50:03] INFO root fetch - processPackages [data-prep-toolkit-kfp]: New version: [0.1.0] Old Version: [0.0.1.dev9]
+[2024-05-20 15:50:03] INFO root fetch - main [MainThread]: End processing [FileWriterCLI] error
+[2024-05-20 15:50:03] INFO root fetch - processPackages [large-image-converter]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:50:03] INFO root fetch - processPackages [large-image-source-bioformats]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:50:03] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:50:03] WARNING root fetch - processPackages [otherwhilez]: Skipping, unable to determine old version
+[2024-05-20 15:50:03] INFO root fetch - processPackages [large-image-tasks]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:50:03] INFO root fetch - processPackages [otherwhilez]: Start processing: alphafold3-pytorch
+[2024-05-20 15:50:03] INFO root fetch - main [MainThread]: End processing [otherwhilez] error
+[2024-05-20 15:50:03] INFO root fetch - processPackages [cubnm]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-20 15:50:03] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/0e/97/f50d98f73951f053a140a085b971b043dc16e80844122ca59d5c2feeab13/large-image-1.9.1.dev6.tar.gz
+[2024-05-20 15:50:03] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/c3/18/d99bf917c38c2bfe8e73289ba285a6777b5180e575625de79a961576422c/girder-large-image-annotation-1.9.1.dev6.tar.gz
+[2024-05-20 15:50:03] INFO root fetch - processPackages [large-image-source-deepzoom]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:50:03] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/ba/bf/e95575aad408e2aa50198d2c293f708992db973fc14a205c8aaefd64e700/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz
+[2024-05-20 15:50:03] WARNING root fetch - processPackages [alphafold3-pytorch]: Skipping, unable to determine old version
+[2024-05-20 15:50:03] INFO root fetch - processPackages [alphafold3-pytorch]: Start processing: flatpack
+[2024-05-20 15:50:03] INFO root fetch - main [MainThread]: End processing [alphafold3-pytorch] error
+[2024-05-20 15:50:03] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/4e/e5/c672f0ad384f9f05d26e1baecedc8293d6d88840e5b9d9b43d657e8bfe20/large-image-converter-1.9.1.dev6.tar.gz
+[2024-05-20 15:50:03] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/a1/de/9259311e8ad31f3131b016ae68dbee28c3a85340a5611063ba07e130f4dd/girder-large-image-1.9.1.dev6.tar.gz
+[2024-05-20 15:50:03] INFO root fetch - processPackages [large-image-source-bioformats]: Downloading https://files.pythonhosted.org/packages/9f/7d/764189c337fd7a890bec6278bb2e1d065d51af7f06726f3d00b6d3836aa4/large-image-source-bioformats-1.9.1.dev6.tar.gz
+[2024-05-20 15:50:03] INFO root fetch - processPackages [large-image-tasks]: Downloading https://files.pythonhosted.org/packages/d2/92/d072fa606a4761eb667b0efc0ba4137c9f9b34386f41757c597cdeff49d5/large-image-tasks-1.9.1.dev6.tar.gz
+[2024-05-20 15:50:03] INFO root fetch - processPackages [large-image-source-deepzoom]: Downloading https://files.pythonhosted.org/packages/16/46/821666cfb4c3a315b4ccc86d7ba529a1af49e4581bbd8b7ca8e1cb5fa4ba/large-image-source-deepzoom-1.9.1.dev6.tar.gz
+[2024-05-20 15:50:03] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.84]
+[2024-05-20 15:50:04] INFO root fetch - processPackages [cubnm]: Downloading https://files.pythonhosted.org/packages/62/fa/93018788849b3275850a47cb50cb0d7c2cb86cf88f4bfb6bb8c1b9b2304c/cuBNM-0.0.1.tar.gz
+[2024-05-20 15:50:04] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/22/c4/18264ad18d3664df703883e2fb520f69d307805c93779d26bdaab792bb0b/large-image-1.9.1.dev8.tar.gz
+[2024-05-20 15:50:04] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/ca/57/fbf65f3374926f7df27919c0c3d3a4d433f93e014e2405e5aaec1aa92a23/girder-large-image-annotation-1.9.1.dev8.tar.gz
+[2024-05-20 15:50:04] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/2d/90/b675b694e3b2886568e691207cf7a9f742a43b89fe6b6c1877548391d231/large-image-converter-1.9.1.dev8.tar.gz
+[2024-05-20 15:50:04] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/c5/c8/8d6d7be956979a103c6894ce424548dff678de6bfc85be8018d305469e67/data_prep_toolkit_kfp-0.1.0.tar.gz
+[2024-05-20 15:50:04] INFO root fetch - processPackages [large-image-source-bioformats]: Downloading https://files.pythonhosted.org/packages/be/b1/457ea10f23a8022b9045522623e3c24789e308b80800b4fd679928bb7cf8/large-image-source-bioformats-1.9.1.dev8.tar.gz
+[2024-05-20 15:50:04] INFO root fetch - processPackages [large-image-tasks]: Downloading https://files.pythonhosted.org/packages/59/66/7de5976597497ff75f76e9d1e817dc755ed82ff85669b1f9613d1b27c9e8/large-image-tasks-1.9.1.dev8.tar.gz
+[2024-05-20 15:50:04] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/f9/12/4dfe66c1b3eae390e20ba6a8e5537d1e114e878fe6346c8b5dbb5b9efdcc/girder-large-image-1.9.1.dev8.tar.gz
+[2024-05-20 15:50:04] INFO root fetch - processPackages [large-image-source-deepzoom]: Downloading https://files.pythonhosted.org/packages/1f/75/67d4e66af91c90873acb456f65871c79b18f4690638c624ddd6f22d8dc5c/large-image-source-deepzoom-1.9.1.dev8.tar.gz
+[2024-05-20 15:50:04] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/9d/e0/041110e7f5fff16bf97a4bfecba9b42bbc4ca28d8ad5d7adb180c39e42b7/flatpack-3.4.84.tar.gz
+[2024-05-20 15:50:04] INFO root fetch - processPackages [large-image]: executing diffoscope
+[2024-05-20 15:50:04] INFO root fetch - processPackages [large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-1.9.1.dev6.tar.gz tmp/large-image-1.9.1.dev8.tar.gz --markdown 20240520/l/large-image/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:50:04] INFO root fetch - processPackages [girder-large-image-annotation]: executing diffoscope
+[2024-05-20 15:50:04] INFO root fetch - processPackages [girder-large-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz --markdown 20240520/g/girder-large-image-annotation/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:50:04] INFO root fetch - processPackages [large-image-converter]: executing diffoscope
+[2024-05-20 15:50:04] INFO root fetch - processPackages [large-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-converter-1.9.1.dev6.tar.gz tmp/large-image-converter-1.9.1.dev8.tar.gz --markdown 20240520/l/large-image-converter/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:50:04] INFO root fetch - processPackages [data-prep-toolkit-kfp]: executing diffoscope
+[2024-05-20 15:50:04] INFO root fetch - processPackages [data-prep-toolkit-kfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz tmp/data_prep_toolkit_kfp-0.1.0.tar.gz --markdown 20240520/d/data-prep-toolkit-kfp/0.0.1.dev9-0.1.0/README.md --exclude *.pyd
+[2024-05-20 15:50:04] INFO root fetch - processPackages [large-image-source-bioformats]: executing diffoscope
+[2024-05-20 15:50:04] INFO root fetch - processPackages [large-image-source-bioformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz --markdown 20240520/l/large-image-source-bioformats/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:50:04] INFO root fetch - processPackages [large-image-tasks]: executing diffoscope
+[2024-05-20 15:50:04] INFO root fetch - processPackages [large-image-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-tasks-1.9.1.dev6.tar.gz tmp/large-image-tasks-1.9.1.dev8.tar.gz --markdown 20240520/l/large-image-tasks/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:50:04] INFO root fetch - processPackages [large-image-source-deepzoom]: executing diffoscope
+[2024-05-20 15:50:04] INFO root fetch - processPackages [large-image-source-deepzoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-deepzoom-1.9.1.dev6.tar.gz tmp/large-image-source-deepzoom-1.9.1.dev8.tar.gz --markdown 20240520/l/large-image-source-deepzoom/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:50:04] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2024-05-20 15:50:04] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20240520/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:50:04] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-20 15:50:04] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-20 15:50:04] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.84.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240520/f/flatpack/3.4.84-3.4.9/README.md --exclude *.pyd
+[2024-05-20 15:50:05] INFO root fetch - processPackages [cubnm]: Downloading https://files.pythonhosted.org/packages/e0/43/9f0053c5329c4d91e17a97793018ff5b5ddf9205efb153bb9c4e90edf524/cubnm-0.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-20 15:50:05] INFO root fetch - processPackages [large-image-source-bioformats]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-bioformats-1.9.1.dev6.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - processPackages [large-image-source-bioformats]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-bioformats-1.9.1.dev8.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - main [MainThread]: End processing [large-image-source-bioformats]: success
+[2024-05-20 15:50:05] INFO root fetch - processPackages [large-image-source-deepzoom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-deepzoom-1.9.1.dev6.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - processPackages [large-image-source-deepzoom]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-deepzoom-1.9.1.dev8.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - main [MainThread]: End processing [large-image-source-deepzoom]: success
+[2024-05-20 15:50:05] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev6.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev8.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - main [MainThread]: End processing [large-image]: success
+[2024-05-20 15:50:05] INFO root fetch - processPackages [large-image-tasks]: Remove: archive file [/home/abi/fetcher/tmp/large-image-tasks-1.9.1.dev6.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - processPackages [large-image-tasks]: Remove: archive file [/home/abi/fetcher/tmp/large-image-tasks-1.9.1.dev8.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - main [MainThread]: End processing [large-image-tasks]: success
+[2024-05-20 15:50:05] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev6.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev8.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2024-05-20 15:50:05] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - main [MainThread]: End processing [girder-large-image-annotation]: success
+[2024-05-20 15:50:05] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.84.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-20 15:50:05] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.1.0.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - main [MainThread]: End processing [data-prep-toolkit-kfp]: success
+[2024-05-20 15:50:05] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev6.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev8.tar.gz]
+[2024-05-20 15:50:05] INFO root fetch - main [MainThread]: End processing [large-image-converter]: success
+[2024-05-20 15:50:06] INFO root fetch - processPackages [cubnm]: executing diffoscope
+[2024-05-20 15:50:06] INFO root fetch - processPackages [cubnm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuBNM-0.0.1.tar.gz tmp/cubnm-0.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240520/c/cubnm/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-20 15:50:08] INFO root fetch - processPackages [cubnm]: Remove: archive file [/home/abi/fetcher/tmp/cuBNM-0.0.1.tar.gz]
+[2024-05-20 15:50:08] INFO root fetch - processPackages [cubnm]: Remove: archive file [/home/abi/fetcher/tmp/cubnm-0.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-20 15:50:08] INFO root fetch - main [MainThread]: End processing [cubnm]: success
+[2024-05-20 15:50:08] INFO root fetch - main [MainThread]: Store serial: [23290599]

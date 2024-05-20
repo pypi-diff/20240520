@@ -24021,3 +24021,65 @@ EOFError: EOF read where object expected
 [2024-05-20 18:45:19] INFO root fetch - processPackages [ansibleguy-webui]: Remove: archive file [/home/abi/fetcher/tmp/ansibleguy_webui-0.0.21.post2.tar.gz]
 [2024-05-20 18:45:19] INFO root fetch - main [MainThread]: End processing [ansibleguy-webui]: success
 [2024-05-20 18:45:19] INFO root fetch - main [MainThread]: Store serial: [23292652]
+[2024-05-20 18:47:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292652]
+[2024-05-20 18:47:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 18:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-hx-yinying
+[2024-05-20 18:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: busy
+[2024-05-20 18:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loyalicos
+[2024-05-20 18:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: restutil
+[2024-05-20 18:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-master
+[2024-05-20 18:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seam
+[2024-05-20 18:47:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datarobot-early-access
+[2024-05-20 18:47:29] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240520.9.48.224649] Old Version: [20240520.7.59.257934]
+[2024-05-20 18:47:29] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-20 18:47:29] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/1e/73/0fe8e125534d6c777aed9470190a4f8521b74d48acdc93cfcef558eb727c/certora-cli-alpha-master-20240520.7.59.257934.tar.gz
+[2024-05-20 18:47:29] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Downloading https://files.pythonhosted.org/packages/88/6f/211c8c9ec262d4fe91f242ffc2f1d2e5eb0a9a4ed9b18df132bb2f2dafc8/nonebot-plugin-hx-yinying-1.3.0.tar.gz
+[2024-05-20 18:47:29] INFO root fetch - processPackages [seam]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-20 18:47:29] INFO root fetch - processPackages [restutil]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-20 18:47:29] INFO root fetch - processPackages [loyalicos]: New version: [1.0.0a7.post9] Old Version: [1.0.0a7.post8]
+[2024-05-20 18:47:29] INFO root fetch - processPackages [busy]: New version: [6.0.0] Old Version: [5.5.8]
+[2024-05-20 18:47:29] INFO root fetch - processPackages [datarobot-early-access]: New version: [3.5.0.2024.5.6] Old Version: [3.5.0.2024.5.20]
+[2024-05-20 18:47:29] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14525798>=10485760
+[2024-05-20 18:47:29] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-20 18:47:29] INFO root fetch - processPackages [seam]: Downloading https://files.pythonhosted.org/packages/b9/d7/ae335c011aa26ffe63705dec0780ff08ad61e80a6e4bfe41ceb3a5131eeb/seam-0.7.0.tar.gz
+[2024-05-20 18:47:29] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Downloading https://files.pythonhosted.org/packages/04/a9/59b27228e69ebbc374ccd8ebcbd0035342c93b205743e00648c371cc119d/nonebot-plugin-hx-yinying-1.3.1.tar.gz
+[2024-05-20 18:47:29] INFO root fetch - processPackages [restutil]: Downloading https://files.pythonhosted.org/packages/3e/fa/f64885d7c3ed0f583f22c40d8faca94768f94d6dba5baaec5d811276aa52/restutil-1.0.7.tar.gz
+[2024-05-20 18:47:29] INFO root fetch - processPackages [loyalicos]: Downloading https://files.pythonhosted.org/packages/71/61/8081116b4a4819bd95e573ad58482b03333641e0741795167c290a551372/loyalicos-1.0.0a7.post8.tar.gz
+[2024-05-20 18:47:29] INFO root fetch - processPackages [datarobot-early-access]: Downloading https://files.pythonhosted.org/packages/87/16/da04d279cd7474d0925a8c05edc908f98d5666f695342f030c02f5ee23ed/datarobot_early_access-3.5.0.2024.5.20.tar.gz
+[2024-05-20 18:47:29] INFO root fetch - processPackages [busy]: Downloading https://files.pythonhosted.org/packages/fe/6d/ddc840ebaf5dfdb13b187fdd1a928a9425113a7705fdfe9a6dff66d52cf9/busy-5.5.8.tar.gz
+[2024-05-20 18:47:29] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: executing diffoscope
+[2024-05-20 18:47:29] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-hx-yinying-1.3.0.tar.gz tmp/nonebot-plugin-hx-yinying-1.3.1.tar.gz --markdown 20240520/n/nonebot-plugin-hx-yinying/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-20 18:47:29] INFO root fetch - processPackages [restutil]: Downloading https://files.pythonhosted.org/packages/01/16/d8bd8826587f9e1822e3fb4c79e200419b5f99849806a8ffb04e5311b643/restutil-1.0.9.tar.gz
+[2024-05-20 18:47:29] INFO root fetch - processPackages [seam]: Downloading https://files.pythonhosted.org/packages/73/d2/5dc465584b2edb5ff1471964aebee6e36237df7e596f045bf4560fc32313/seam-0.7.1.tar.gz
+[2024-05-20 18:47:29] INFO root fetch - processPackages [loyalicos]: Downloading https://files.pythonhosted.org/packages/a1/b1/e4bb92afd2c968692596f7c252f0fa04d2aa5177a631e30cddf8ed3031b6/loyalicos-1.0.0a7.post9.tar.gz
+[2024-05-20 18:47:29] INFO root fetch - processPackages [busy]: Downloading https://files.pythonhosted.org/packages/42/7d/405f3a564323b308c35770c863a49cb91a28a8d724c5919a64a594801835/busy-6.0.0.tar.gz
+[2024-05-20 18:47:29] INFO root fetch - processPackages [restutil]: executing diffoscope
+[2024-05-20 18:47:29] INFO root fetch - processPackages [restutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restutil-1.0.7.tar.gz tmp/restutil-1.0.9.tar.gz --markdown 20240520/r/restutil/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-20 18:47:29] INFO root fetch - processPackages [loyalicos]: executing diffoscope
+[2024-05-20 18:47:29] INFO root fetch - processPackages [loyalicos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loyalicos-1.0.0a7.post8.tar.gz tmp/loyalicos-1.0.0a7.post9.tar.gz --markdown 20240520/l/loyalicos/1.0.0a7.post8-1.0.0a7.post9/README.md --exclude *.pyd
+[2024-05-20 18:47:29] INFO root fetch - processPackages [busy]: executing diffoscope
+[2024-05-20 18:47:29] INFO root fetch - processPackages [busy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/busy-5.5.8.tar.gz tmp/busy-6.0.0.tar.gz --markdown 20240520/b/busy/5.5.8-6.0.0/README.md --exclude *.pyd
+[2024-05-20 18:47:29] INFO root fetch - processPackages [seam]: executing diffoscope
+[2024-05-20 18:47:29] INFO root fetch - processPackages [seam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seam-0.7.0.tar.gz tmp/seam-0.7.1.tar.gz --markdown 20240520/s/seam/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-20 18:47:29] INFO root fetch - processPackages [datarobot-early-access]: Downloading https://files.pythonhosted.org/packages/ba/4a/f22c0b97bfdeb8c089f4f31501e4d3b1d44944590014edfa1c0b023db773/datarobot_early_access-3.5.0.2024.5.6.tar.gz
+[2024-05-20 18:47:30] INFO root fetch - processPackages [datarobot-early-access]: executing diffoscope
+[2024-05-20 18:47:30] INFO root fetch - processPackages [datarobot-early-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_early_access-3.5.0.2024.5.20.tar.gz tmp/datarobot_early_access-3.5.0.2024.5.6.tar.gz --markdown 20240520/d/datarobot-early-access/3.5.0.2024.5.20-3.5.0.2024.5.6/README.md --exclude *.pyd
+[2024-05-20 18:47:30] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-hx-yinying-1.3.0.tar.gz]
+[2024-05-20 18:47:30] INFO root fetch - processPackages [nonebot-plugin-hx-yinying]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-hx-yinying-1.3.1.tar.gz]
+[2024-05-20 18:47:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-hx-yinying]: success
+[2024-05-20 18:47:30] INFO root fetch - processPackages [restutil]: Remove: archive file [/home/abi/fetcher/tmp/restutil-1.0.7.tar.gz]
+[2024-05-20 18:47:30] INFO root fetch - processPackages [restutil]: Remove: archive file [/home/abi/fetcher/tmp/restutil-1.0.9.tar.gz]
+[2024-05-20 18:47:30] INFO root fetch - main [MainThread]: End processing [restutil]: success
+[2024-05-20 18:47:30] INFO root fetch - processPackages [loyalicos]: Remove: archive file [/home/abi/fetcher/tmp/loyalicos-1.0.0a7.post8.tar.gz]
+[2024-05-20 18:47:30] INFO root fetch - processPackages [loyalicos]: Remove: archive file [/home/abi/fetcher/tmp/loyalicos-1.0.0a7.post9.tar.gz]
+[2024-05-20 18:47:30] INFO root fetch - main [MainThread]: End processing [loyalicos]: success
+[2024-05-20 18:47:30] INFO root fetch - processPackages [busy]: Remove: archive file [/home/abi/fetcher/tmp/busy-5.5.8.tar.gz]
+[2024-05-20 18:47:30] INFO root fetch - processPackages [busy]: Remove: archive file [/home/abi/fetcher/tmp/busy-6.0.0.tar.gz]
+[2024-05-20 18:47:30] INFO root fetch - main [MainThread]: End processing [busy]: success
+[2024-05-20 18:47:30] INFO root fetch - processPackages [seam]: Remove: archive file [/home/abi/fetcher/tmp/seam-0.7.0.tar.gz]
+[2024-05-20 18:47:30] INFO root fetch - processPackages [seam]: Remove: archive file [/home/abi/fetcher/tmp/seam-0.7.1.tar.gz]
+[2024-05-20 18:47:30] INFO root fetch - main [MainThread]: End processing [seam]: success
+[2024-05-20 18:47:31] INFO root fetch - processPackages [datarobot-early-access]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_early_access-3.5.0.2024.5.20.tar.gz]
+[2024-05-20 18:47:31] INFO root fetch - processPackages [datarobot-early-access]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_early_access-3.5.0.2024.5.6.tar.gz]
+[2024-05-20 18:47:31] INFO root fetch - main [MainThread]: End processing [datarobot-early-access]: success
+[2024-05-20 18:47:31] INFO root fetch - main [MainThread]: Store serial: [23292675]

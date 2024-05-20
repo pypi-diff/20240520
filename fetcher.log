@@ -23653,3 +23653,149 @@ EOFError: EOF read where object expected
 [2024-05-20 18:34:01] INFO root fetch - processPackages [pyfastexcel]: Remove: archive file [/home/abi/fetcher/tmp/pyfastexcel-0.0.7.tar.gz]
 [2024-05-20 18:34:01] INFO root fetch - main [MainThread]: End processing [pyfastexcel]: success
 [2024-05-20 18:34:01] INFO root fetch - main [MainThread]: Store serial: [23292481]
+[2024-05-20 18:36:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292481]
+[2024-05-20 18:36:29] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-05-20 18:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xai-sdk
+[2024-05-20 18:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unique-colorfullogger
+[2024-05-20 18:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-dx
+[2024-05-20 18:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EasyDonateClient
+[2024-05-20 18:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ucam-faas
+[2024-05-20 18:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: portfolio-tracker
+[2024-05-20 18:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deltabot-cli
+[2024-05-20 18:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: librus-apix
+[2024-05-20 18:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nocturnsz
+[2024-05-20 18:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: together
+[2024-05-20 18:36:29] INFO root fetch - processPackages [xai-sdk]: New version: [0.1.0] Old Version: [0.0.5]
+[2024-05-20 18:36:29] WARNING root fetch - processPackages [EasyDonateClient]: Skipping, unable to determine old version
+[2024-05-20 18:36:29] INFO root fetch - processPackages [EasyDonateClient]: Start processing: glaredb
+[2024-05-20 18:36:29] INFO root fetch - main [MainThread]: End processing [EasyDonateClient] error
+[2024-05-20 18:36:29] INFO root fetch - processPackages [portfolio-tracker]: New version: [0.2.0.2] Old Version: [0.2.0.1]
+[2024-05-20 18:36:29] INFO root fetch - processPackages [together]: New version: [1.2.0] Old Version: [1.1.5]
+[2024-05-20 18:36:29] WARNING root fetch - processPackages [unique-colorfullogger]: Skipping, unable to determine old version
+[2024-05-20 18:36:29] INFO root fetch - processPackages [unique-colorfullogger]: Start processing: edc-dx-review
+[2024-05-20 18:36:29] INFO root fetch - main [MainThread]: End processing [unique-colorfullogger] error
+[2024-05-20 18:36:29] INFO root fetch - processPackages [ucam-faas]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-20 18:36:29] WARNING root fetch - processPackages [nocturnsz]: Skipping, unable to determine old version
+[2024-05-20 18:36:29] INFO root fetch - processPackages [nocturnsz]: Start processing: automatic-code-review-commons
+[2024-05-20 18:36:29] INFO root fetch - processPackages [deltabot-cli]: New version: [6.2.0] Old Version: [6.1.1]
+[2024-05-20 18:36:29] INFO root fetch - main [MainThread]: End processing [nocturnsz] error
+[2024-05-20 18:36:29] INFO root fetch - processPackages [librus-apix]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-20 18:36:29] INFO root fetch - processPackages [edc-dx]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-20 18:36:29] INFO root fetch - processPackages [glaredb]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-20 18:36:29] INFO root fetch - processPackages [automatic-code-review-commons]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-20 18:36:29] INFO root fetch - processPackages [xai-sdk]: Downloading https://files.pythonhosted.org/packages/5a/b1/15399c05656359f37970dcbe017a1eb4ac932a6e30ed3820272703f69628/xai_sdk-0.0.5.tar.gz
+[2024-05-20 18:36:29] INFO root fetch - processPackages [automatic-code-review-commons]: Downloading https://files.pythonhosted.org/packages/5f/b0/482ea3716b08451bf683341df7f09392487f8558e11da16c93453c1933b4/automatic-code-review-commons-1.0.3.tar.gz
+[2024-05-20 18:36:29] INFO root fetch - processPackages [edc-dx-review]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-20 18:36:29] INFO root fetch - processPackages [portfolio-tracker]: Downloading https://files.pythonhosted.org/packages/f9/fe/ce371fae1ecec4fe6ca2316ad8f94d812dd094d8fc068ce808e9e5d2bcf8/portfolio_tracker-0.2.0.1.tar.gz
+[2024-05-20 18:36:29] INFO root fetch - processPackages [deltabot-cli]: Downloading https://files.pythonhosted.org/packages/72/ad/bbf8ad15c42c0a7a6b5d95a6668401e31fc40947e7bc0b90a689baa4e950/deltabot_cli-6.1.1.tar.gz
+[2024-05-20 18:36:29] INFO root fetch - processPackages [together]: Downloading https://files.pythonhosted.org/packages/18/fd/cd26573bdb40416f2f53ea68672d5f07f70dea93521aab410dfbbdc6cac0/together-1.1.5.tar.gz
+[2024-05-20 18:36:29] INFO root fetch - processPackages [edc-dx]: Downloading https://files.pythonhosted.org/packages/b6/0e/a269246ef927bd8badcb97ac02af6c763ec48ab81eba4bd26b337d131e10/edc-dx-0.3.7.tar.gz
+[2024-05-20 18:36:29] INFO root fetch - processPackages [ucam-faas]: Downloading https://files.pythonhosted.org/packages/93/6d/44b09b6f9c4a9f4db9d96c01b597a5e5bd5444f04e7d3af77027919385c0/ucam_faas-0.6.0.tar.gz
+[2024-05-20 18:36:29] INFO root fetch - processPackages [glaredb]: Downloading https://files.pythonhosted.org/packages/54/a3/d592923e880847ecb6b8b44f7eb8634ed49f7195e5a3970a5adadae34853/glaredb-0.9.2-cp37-abi3-win_amd64.whl
+[2024-05-20 18:36:29] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/75/c2/55d2e63e98309085480d83723a67dbaa38d59b8c96e67bf126dd9481bb91/librus_apix-1.0.0.tar.gz
+[2024-05-20 18:36:29] INFO root fetch - processPackages [xai-sdk]: Downloading https://files.pythonhosted.org/packages/0d/3e/cb57b4fc9dc03846a03ea78a3ed1a3afb28ad619a2428e18be33428b1538/xai_sdk-0.1.0.tar.gz
+[2024-05-20 18:36:30] INFO root fetch - processPackages [edc-dx-review]: Downloading https://files.pythonhosted.org/packages/df/b4/f858ed1f6827f9a479f68f1f859c58ce25498315f2c6f79fc2e594b3e87f/edc-dx-review-0.3.2.tar.gz
+[2024-05-20 18:36:30] WARNING root fetch - processPackages [glaredb]: Skipping package: exceeds size limit 46737254>=10485760
+[2024-05-20 18:36:30] INFO root fetch - processPackages [glaredb]: Start processing: openai-responses
+[2024-05-20 18:36:30] INFO root fetch - main [MainThread]: End processing [glaredb] error
+[2024-05-20 18:36:30] INFO root fetch - processPackages [automatic-code-review-commons]: Downloading https://files.pythonhosted.org/packages/dd/15/51bf6f1ad36b25fe02afd481a3a621be543bcf68c21acfed9c2d3488f422/automatic-code-review-commons-1.0.4.tar.gz
+[2024-05-20 18:36:30] INFO root fetch - processPackages [xai-sdk]: executing diffoscope
+[2024-05-20 18:36:30] INFO root fetch - processPackages [xai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xai_sdk-0.0.5.tar.gz tmp/xai_sdk-0.1.0.tar.gz --markdown 20240520/x/xai-sdk/0.0.5-0.1.0/README.md --exclude *.pyd
+[2024-05-20 18:36:30] INFO root fetch - processPackages [portfolio-tracker]: Downloading https://files.pythonhosted.org/packages/b1/9d/86aeb45cf2f55bb9ba68f74338549ac716d7b26c9fd56269f08adaa2fe7d/portfolio_tracker-0.2.0.2.tar.gz
+[2024-05-20 18:36:30] INFO root fetch - processPackages [deltabot-cli]: Downloading https://files.pythonhosted.org/packages/69/b4/f92ca898604a93c7c54ce2cb9ecb4d1e65d388dec58daba956e653b71d66/deltabot_cli-6.2.0.tar.gz
+[2024-05-20 18:36:30] INFO root fetch - processPackages [openai-responses]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-20 18:36:30] INFO root fetch - processPackages [together]: Downloading https://files.pythonhosted.org/packages/98/fe/5805e570174b55168ca48165a9ecb677dec7c23721cb666d2a748305752c/together-1.2.0.tar.gz
+[2024-05-20 18:36:30] INFO root fetch - processPackages [ucam-faas]: Downloading https://files.pythonhosted.org/packages/9b/7e/f9bd6d52e935f455f0dcbd821a7c4bc263e57f656c14be5306a0bf7d3ba5/ucam_faas-0.7.0.tar.gz
+[2024-05-20 18:36:30] INFO root fetch - processPackages [edc-dx]: Downloading https://files.pythonhosted.org/packages/65/41/6f0f6b2135cf1d3d2452d003940334823104b9adc3f0a4541254af478864/edc_dx-0.3.8.tar.gz
+[2024-05-20 18:36:30] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/0b/76/82624f613b4e30cf7cbbec4717c7ee8fe2407acfbdab54861e7dd1e9b394/librus_apix-1.0.1.tar.gz
+[2024-05-20 18:36:30] INFO root fetch - processPackages [automatic-code-review-commons]: executing diffoscope
+[2024-05-20 18:36:30] INFO root fetch - processPackages [automatic-code-review-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automatic-code-review-commons-1.0.3.tar.gz tmp/automatic-code-review-commons-1.0.4.tar.gz --markdown 20240520/a/automatic-code-review-commons/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-20 18:36:30] INFO root fetch - processPackages [portfolio-tracker]: executing diffoscope
+[2024-05-20 18:36:30] INFO root fetch - processPackages [portfolio-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portfolio_tracker-0.2.0.1.tar.gz tmp/portfolio_tracker-0.2.0.2.tar.gz --markdown 20240520/p/portfolio-tracker/0.2.0.1-0.2.0.2/README.md --exclude *.pyd
+[2024-05-20 18:36:30] INFO root fetch - processPackages [deltabot-cli]: executing diffoscope
+[2024-05-20 18:36:30] INFO root fetch - processPackages [deltabot-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltabot_cli-6.1.1.tar.gz tmp/deltabot_cli-6.2.0.tar.gz --markdown 20240520/d/deltabot-cli/6.1.1-6.2.0/README.md --exclude *.pyd
+[2024-05-20 18:36:30] INFO root fetch - processPackages [together]: executing diffoscope
+[2024-05-20 18:36:30] INFO root fetch - processPackages [together]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/together-1.1.5.tar.gz tmp/together-1.2.0.tar.gz --markdown 20240520/t/together/1.1.5-1.2.0/README.md --exclude *.pyd
+[2024-05-20 18:36:30] INFO root fetch - processPackages [edc-dx-review]: Downloading https://files.pythonhosted.org/packages/fc/f8/312b927468acd79eb2f4aac10a4f85f517328ac9000621b9b837cbae282a/edc_dx_review-0.3.3.tar.gz
+[2024-05-20 18:36:30] INFO root fetch - processPackages [ucam-faas]: executing diffoscope
+[2024-05-20 18:36:30] INFO root fetch - processPackages [ucam-faas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucam_faas-0.6.0.tar.gz tmp/ucam_faas-0.7.0.tar.gz --markdown 20240520/u/ucam-faas/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-20 18:36:30] INFO root fetch - processPackages [librus-apix]: executing diffoscope
+[2024-05-20 18:36:30] INFO root fetch - processPackages [librus-apix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librus_apix-1.0.0.tar.gz tmp/librus_apix-1.0.1.tar.gz --markdown 20240520/l/librus-apix/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-20 18:36:30] INFO root fetch - processPackages [edc-dx]: executing diffoscope
+[2024-05-20 18:36:30] INFO root fetch - processPackages [edc-dx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-dx-0.3.7.tar.gz tmp/edc_dx-0.3.8.tar.gz --markdown 20240520/e/edc-dx/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-20 18:36:30] INFO root fetch - processPackages [openai-responses]: Downloading https://files.pythonhosted.org/packages/71/6e/66fcb17f71fbd498cc44d8dc0b89e5e2b972ea673602487291796101a94b/openai_responses-0.3.1.tar.gz
+[2024-05-20 18:36:30] INFO root fetch - processPackages [edc-dx-review]: executing diffoscope
+[2024-05-20 18:36:30] INFO root fetch - processPackages [edc-dx-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-dx-review-0.3.2.tar.gz tmp/edc_dx_review-0.3.3.tar.gz --markdown 20240520/e/edc-dx-review/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-20 18:36:30] INFO root fetch - processPackages [openai-responses]: Downloading https://files.pythonhosted.org/packages/37/18/20eae1c811fdfa9700facd9f94b73405bde6053df2010e1a2ab4f1c637b3/openai_responses-0.3.2.tar.gz
+[2024-05-20 18:36:30] INFO root fetch - processPackages [openai-responses]: executing diffoscope
+[2024-05-20 18:36:30] INFO root fetch - processPackages [openai-responses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_responses-0.3.1.tar.gz tmp/openai_responses-0.3.2.tar.gz --markdown 20240520/o/openai-responses/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-20 18:36:31] INFO root fetch - processPackages [xai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xai_sdk-0.0.5.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [xai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xai_sdk-0.1.0.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [xai-sdk]: Start processing: nucliadb-node-binding
+[2024-05-20 18:36:31] INFO root fetch - main [MainThread]: End processing [xai-sdk]: success
+[2024-05-20 18:36:31] INFO root fetch - processPackages [deltabot-cli]: Remove: archive file [/home/abi/fetcher/tmp/deltabot_cli-6.1.1.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [deltabot-cli]: Remove: archive file [/home/abi/fetcher/tmp/deltabot_cli-6.2.0.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [deltabot-cli]: Start processing: mo-sql-parsing
+[2024-05-20 18:36:31] INFO root fetch - main [MainThread]: End processing [deltabot-cli]: success
+[2024-05-20 18:36:31] INFO root fetch - processPackages [mo-sql-parsing]: New version: [9.628.24135] Old Version: [9.581.24094]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [automatic-code-review-commons]: Remove: archive file [/home/abi/fetcher/tmp/automatic-code-review-commons-1.0.3.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [automatic-code-review-commons]: Remove: archive file [/home/abi/fetcher/tmp/automatic-code-review-commons-1.0.4.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [automatic-code-review-commons]: Start processing: roscpp
+[2024-05-20 18:36:31] INFO root fetch - main [MainThread]: End processing [automatic-code-review-commons]: success
+[2024-05-20 18:36:31] INFO root fetch - processPackages [portfolio-tracker]: Remove: archive file [/home/abi/fetcher/tmp/portfolio_tracker-0.2.0.1.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [portfolio-tracker]: Remove: archive file [/home/abi/fetcher/tmp/portfolio_tracker-0.2.0.2.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [portfolio-tracker]: Start processing: portfolio-tracker
+[2024-05-20 18:36:31] INFO root fetch - main [MainThread]: End processing [portfolio-tracker]: success
+[2024-05-20 18:36:31] INFO root fetch - processPackages [edc-dx]: Remove: archive file [/home/abi/fetcher/tmp/edc-dx-0.3.7.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [edc-dx]: Remove: archive file [/home/abi/fetcher/tmp/edc_dx-0.3.8.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [edc-dx]: Start processing: pytplot-mpl-temp
+[2024-05-20 18:36:31] INFO root fetch - main [MainThread]: End processing [edc-dx]: success
+[2024-05-20 18:36:31] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/80/51/a0777be40340953e399babce6a42fbf82dc2aeaa5e02d3759814191913ba/mo-sql-parsing-9.581.24094.tar.gz
+[2024-05-20 18:36:31] INFO root fetch - processPackages [ucam-faas]: Remove: archive file [/home/abi/fetcher/tmp/ucam_faas-0.6.0.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [ucam-faas]: Remove: archive file [/home/abi/fetcher/tmp/ucam_faas-0.7.0.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - main [MainThread]: End processing [ucam-faas]: success
+[2024-05-20 18:36:31] INFO root fetch - processPackages [portfolio-tracker]: New version: [0.2.0.2] Old Version: [0.2.0.1]
+[2024-05-20 18:36:31] WARNING root fetch - processPackages [roscpp]: Skipping, unable to determine old version
+[2024-05-20 18:36:31] INFO root fetch - main [MainThread]: End processing [roscpp] error
+[2024-05-20 18:36:31] INFO root fetch - processPackages [together]: Remove: archive file [/home/abi/fetcher/tmp/together-1.1.5.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [together]: Remove: archive file [/home/abi/fetcher/tmp/together-1.2.0.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - main [MainThread]: End processing [together]: success
+[2024-05-20 18:36:31] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [4.0.0.post1320] Old Version: [4.0.0.post1316]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-1.0.0.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-1.0.1.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - main [MainThread]: End processing [librus-apix]: success
+[2024-05-20 18:36:31] INFO root fetch - processPackages [portfolio-tracker]: Downloading https://files.pythonhosted.org/packages/f9/fe/ce371fae1ecec4fe6ca2316ad8f94d812dd094d8fc068ce808e9e5d2bcf8/portfolio_tracker-0.2.0.1.tar.gz
+[2024-05-20 18:36:31] INFO root fetch - processPackages [edc-dx-review]: Remove: archive file [/home/abi/fetcher/tmp/edc-dx-review-0.3.2.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [edc-dx-review]: Remove: archive file [/home/abi/fetcher/tmp/edc_dx_review-0.3.3.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - main [MainThread]: End processing [edc-dx-review]: success
+[2024-05-20 18:36:31] INFO root fetch - processPackages [pytplot-mpl-temp]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/c0/a3/5c973dd21458f0b2d810e99dc69af69267f20f012262a8e7b0dada5408b5/mo_sql_parsing-9.628.24135.tar.gz
+[2024-05-20 18:36:31] INFO root fetch - processPackages [openai-responses]: Remove: archive file [/home/abi/fetcher/tmp/openai_responses-0.3.1.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - processPackages [openai-responses]: Remove: archive file [/home/abi/fetcher/tmp/openai_responses-0.3.2.tar.gz]
+[2024-05-20 18:36:31] INFO root fetch - main [MainThread]: End processing [openai-responses]: success
+[2024-05-20 18:36:31] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/8d/dc/ed885704f34713a78fa8751b1b43f49ff17474108dbd2fae667944d79bd6/nucliadb_node_binding-4.0.0.post1316.tar.gz
+[2024-05-20 18:36:31] INFO root fetch - processPackages [portfolio-tracker]: Downloading https://files.pythonhosted.org/packages/b1/9d/86aeb45cf2f55bb9ba68f74338549ac716d7b26c9fd56269f08adaa2fe7d/portfolio_tracker-0.2.0.2.tar.gz
+[2024-05-20 18:36:31] INFO root fetch - processPackages [mo-sql-parsing]: executing diffoscope
+[2024-05-20 18:36:31] INFO root fetch - processPackages [mo-sql-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-sql-parsing-9.581.24094.tar.gz tmp/mo_sql_parsing-9.628.24135.tar.gz --markdown 20240520/m/mo-sql-parsing/9.581.24094-9.628.24135/README.md --exclude *.pyd
+[2024-05-20 18:36:31] INFO root fetch - processPackages [pytplot-mpl-temp]: Downloading https://files.pythonhosted.org/packages/4a/3e/a5a5f1bb38b468da3d376ee81f842f2f8433d02dd89bf1e410d1a15a98e0/pytplot-mpl-temp-2.2.8.tar.gz
+[2024-05-20 18:36:31] INFO root fetch - processPackages [portfolio-tracker]: executing diffoscope
+[2024-05-20 18:36:31] INFO root fetch - processPackages [portfolio-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portfolio_tracker-0.2.0.1.tar.gz tmp/portfolio_tracker-0.2.0.2.tar.gz --markdown 20240520/p/portfolio-tracker/0.2.0.1-0.2.0.2/README.md --exclude *.pyd
+[2024-05-20 18:36:32] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/7c/a3/9cbca1f9ac2b603d370196dde6a8d6bbab2f0fa41378b5e2de66b41aab4a/nucliadb_node_binding-4.0.0.post1320.tar.gz
+[2024-05-20 18:36:32] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-05-20 18:36:32] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-4.0.0.post1316.tar.gz tmp/nucliadb_node_binding-4.0.0.post1320.tar.gz --markdown 20240520/n/nucliadb-node-binding/4.0.0.post1316-4.0.0.post1320/README.md --exclude *.pyd
+[2024-05-20 18:36:32] INFO root fetch - processPackages [portfolio-tracker]: Remove: archive file [/home/abi/fetcher/tmp/portfolio_tracker-0.2.0.1.tar.gz]
+[2024-05-20 18:36:32] INFO root fetch - processPackages [portfolio-tracker]: Remove: archive file [/home/abi/fetcher/tmp/portfolio_tracker-0.2.0.2.tar.gz]
+[2024-05-20 18:36:32] INFO root fetch - main [MainThread]: End processing [portfolio-tracker]: success
+[2024-05-20 18:36:32] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo-sql-parsing-9.581.24094.tar.gz]
+[2024-05-20 18:36:32] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.628.24135.tar.gz]
+[2024-05-20 18:36:32] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
+[2024-05-20 18:36:32] INFO root fetch - processPackages [pytplot-mpl-temp]: Downloading https://files.pythonhosted.org/packages/21/aa/38c2164a03950b9adf6f62c59343823fefd067961a6402ad1c2311ef1a3a/pytplot-mpl-temp-2.2.9.tar.gz
+[2024-05-20 18:36:32] INFO root fetch - processPackages [pytplot-mpl-temp]: executing diffoscope
+[2024-05-20 18:36:32] INFO root fetch - processPackages [pytplot-mpl-temp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytplot-mpl-temp-2.2.8.tar.gz tmp/pytplot-mpl-temp-2.2.9.tar.gz --markdown 20240520/p/pytplot-mpl-temp/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-20 18:36:34] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-4.0.0.post1316.tar.gz]
+[2024-05-20 18:36:34] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-4.0.0.post1320.tar.gz]
+[2024-05-20 18:36:34] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-05-20 18:36:34] INFO root fetch - processPackages [pytplot-mpl-temp]: Remove: archive file [/home/abi/fetcher/tmp/pytplot-mpl-temp-2.2.8.tar.gz]
+[2024-05-20 18:36:34] INFO root fetch - processPackages [pytplot-mpl-temp]: Remove: archive file [/home/abi/fetcher/tmp/pytplot-mpl-temp-2.2.9.tar.gz]
+[2024-05-20 18:36:34] INFO root fetch - main [MainThread]: End processing [pytplot-mpl-temp]: success
+[2024-05-20 18:36:34] INFO root fetch - main [MainThread]: Store serial: [23292560]

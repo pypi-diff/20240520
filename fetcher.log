@@ -16622,3 +16622,54 @@ EOFError: EOF read where object expected
 [2024-05-20 14:25:09] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.8.tar.gz]
 [2024-05-20 14:25:09] INFO root fetch - main [MainThread]: End processing [imsciences]: success
 [2024-05-20 14:25:09] INFO root fetch - main [MainThread]: Store serial: [23289452]
+[2024-05-20 14:27:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289452]
+[2024-05-20 14:27:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 14:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-nhsd-apim
+[2024-05-20 14:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imsciences
+[2024-05-20 14:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sarus-data-spec-public
+[2024-05-20 14:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-view-inheritance-extension
+[2024-05-20 14:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: payroll-arg-reportes
+[2024-05-20 14:27:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adri-storage
+[2024-05-20 14:27:18] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.3]
+[2024-05-20 14:27:18] INFO root fetch - processPackages [payroll-arg-reportes]: New version: [0.0.20] Old Version: [0.0.19]
+[2024-05-20 14:27:18] INFO root fetch - processPackages [imsciences]: New version: [0.5.7.9] Old Version: [0.5.7.8]
+[2024-05-20 14:27:18] ERROR root fetch - processPackages [adri-storage]: Unable to get metadata: No such project 'adri-storage'
+[2024-05-20 14:27:18] INFO root fetch - main [MainThread]: End processing [adri-storage] error
+[2024-05-20 14:27:18] INFO root fetch - processPackages [pytest-nhsd-apim]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-05-20 14:27:19] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/cf/2b/6a8f4cb5945d7c47f709c1a9c9ea772811c5765a7608dfd2ee236ae7dbe4/odoo_addon_base_view_inheritance_extension-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-20 14:27:19] INFO root fetch - processPackages [payroll-arg-reportes]: Downloading https://files.pythonhosted.org/packages/f0/d8/58d6e16539a264ed15f64ea317f2b50938141d80a955e696ac6ffce5e9d9/payroll_arg_reportes-0.0.19.tar.gz
+[2024-05-20 14:27:19] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/63/65/bae0dfbe5f26922569ffaf6642941e0359bf5b49d241cd8da63ae2eb4802/imsciences-0.5.7.8.tar.gz
+[2024-05-20 14:27:19] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [4.0.2.dev0] Old Version: [4.0.1]
+[2024-05-20 14:27:19] INFO root fetch - processPackages [pytest-nhsd-apim]: Downloading https://files.pythonhosted.org/packages/aa/16/fdb29a4253442cce361a9587117065831ac9f70649bcdad472aaf61bdb86/pytest-nhsd-apim-3.3.8.tar.gz
+[2024-05-20 14:27:19] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/d6/fa/b0a82f9544319cd129d86957b465f23c71bc808b09ca116b1ceb6a53d089/sarus_data_spec_public-4.0.1.tar.gz
+[2024-05-20 14:27:20] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/d7/46/9ba89fdde14d1123b3c47c319a0a2a7e2902a00aae885e1a2dafbf1a3caf/odoo_addon_base_view_inheritance_extension-17.0.1.0.1-py3-none-any.whl
+[2024-05-20 14:27:20] INFO root fetch - processPackages [payroll-arg-reportes]: Downloading https://files.pythonhosted.org/packages/94/cf/49d51818285b103bd8ec531ad6ad04e25ee547e20590503581e1920af0e4/payroll_arg_reportes-0.0.20.tar.gz
+[2024-05-20 14:27:20] INFO root fetch - processPackages [pytest-nhsd-apim]: Downloading https://files.pythonhosted.org/packages/bf/07/11cc23683e70e41d18ea2bd7260815d9009c337b16fad2276e35b51d2f26/pytest-nhsd-apim-3.3.9.tar.gz
+[2024-05-20 14:27:20] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/e4/67/40b8a0463ebeca56dee6e9ab4d33c91f10bbfee1704dd3f2e3b2b4a99fbe/imsciences-0.5.7.9.tar.gz
+[2024-05-20 14:27:20] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/5c/f4/c0e603c32ae1cb6845c0e1f235b45776c275e27f5b7d211d0cc0cae0a239/sarus_data_spec_public-4.0.2.dev0.tar.gz
+[2024-05-20 14:27:20] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: executing diffoscope
+[2024-05-20 14:27:20] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_view_inheritance_extension-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_view_inheritance_extension-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240520/o/odoo-addon-base-view-inheritance-extension/17.0.1.0.0.3-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-20 14:27:20] INFO root fetch - processPackages [payroll-arg-reportes]: executing diffoscope
+[2024-05-20 14:27:20] INFO root fetch - processPackages [payroll-arg-reportes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payroll_arg_reportes-0.0.19.tar.gz tmp/payroll_arg_reportes-0.0.20.tar.gz --markdown 20240520/p/payroll-arg-reportes/0.0.19-0.0.20/README.md --exclude *.pyd
+[2024-05-20 14:27:20] INFO root fetch - processPackages [pytest-nhsd-apim]: executing diffoscope
+[2024-05-20 14:27:20] INFO root fetch - processPackages [pytest-nhsd-apim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-nhsd-apim-3.3.8.tar.gz tmp/pytest-nhsd-apim-3.3.9.tar.gz --markdown 20240520/p/pytest-nhsd-apim/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-05-20 14:27:20] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-20 14:27:20] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.7.8.tar.gz tmp/imsciences-0.5.7.9.tar.gz --markdown 20240520/i/imsciences/0.5.7.8-0.5.7.9/README.md --exclude *.pyd
+[2024-05-20 14:27:20] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2024-05-20 14:27:20] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-4.0.1.tar.gz tmp/sarus_data_spec_public-4.0.2.dev0.tar.gz --markdown 20240520/s/sarus-data-spec-public/4.0.1-4.0.2.dev0/README.md --exclude *.pyd
+[2024-05-20 14:27:21] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_view_inheritance_extension-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-20 14:27:21] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_view_inheritance_extension-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-20 14:27:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-view-inheritance-extension]: success
+[2024-05-20 14:27:21] INFO root fetch - processPackages [payroll-arg-reportes]: Remove: archive file [/home/abi/fetcher/tmp/payroll_arg_reportes-0.0.19.tar.gz]
+[2024-05-20 14:27:21] INFO root fetch - processPackages [payroll-arg-reportes]: Remove: archive file [/home/abi/fetcher/tmp/payroll_arg_reportes-0.0.20.tar.gz]
+[2024-05-20 14:27:21] INFO root fetch - main [MainThread]: End processing [payroll-arg-reportes]: success
+[2024-05-20 14:27:21] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.8.tar.gz]
+[2024-05-20 14:27:21] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.9.tar.gz]
+[2024-05-20 14:27:21] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-20 14:27:21] INFO root fetch - processPackages [pytest-nhsd-apim]: Remove: archive file [/home/abi/fetcher/tmp/pytest-nhsd-apim-3.3.8.tar.gz]
+[2024-05-20 14:27:21] INFO root fetch - processPackages [pytest-nhsd-apim]: Remove: archive file [/home/abi/fetcher/tmp/pytest-nhsd-apim-3.3.9.tar.gz]
+[2024-05-20 14:27:21] INFO root fetch - main [MainThread]: End processing [pytest-nhsd-apim]: success
+[2024-05-20 14:27:21] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.1.tar.gz]
+[2024-05-20 14:27:21] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.2.dev0.tar.gz]
+[2024-05-20 14:27:21] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2024-05-20 14:27:21] INFO root fetch - main [MainThread]: Store serial: [23289481]

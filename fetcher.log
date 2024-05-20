@@ -5495,3 +5495,45 @@
 [2024-05-20 05:09:08] INFO root fetch - processPackages [gypsum-client]: Remove: archive file [/home/abi/fetcher/tmp/gypsum_client-0.1.0.tar.gz]
 [2024-05-20 05:09:08] INFO root fetch - main [MainThread]: End processing [gypsum-client]: success
 [2024-05-20 05:09:08] INFO root fetch - main [MainThread]: Store serial: [23284028]
+[2024-05-20 05:11:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284028]
+[2024-05-20 05:11:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 05:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: morphdb-utils
+[2024-05-20 05:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: earshellz
+[2024-05-20 05:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cxxbuild
+[2024-05-20 05:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deps-manager
+[2024-05-20 05:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: increff-runner
+[2024-05-20 05:11:17] INFO root fetch - processPackages [cxxbuild]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-20 05:11:17] INFO root fetch - processPackages [morphdb-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 05:11:17] INFO root fetch - processPackages [cxxbuild]: Downloading https://files.pythonhosted.org/packages/04/a6/9873e3ee2b88cf2e3772f14d4ced4dfaaad07fd3acade8960113b8c935b3/cxxbuild-1.6.0.tar.gz
+[2024-05-20 05:11:17] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/cd/4f/c6949258d5647c0aa4d14e61014c6e3a7c9f08086b8ff176bee34576864d/morphdb_utils-0.1.8.tar.gz
+[2024-05-20 05:11:17] INFO root fetch - processPackages [deps-manager]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-20 05:11:17] WARNING root fetch - processPackages [earshellz]: Skipping, unable to determine old version
+[2024-05-20 05:11:17] INFO root fetch - processPackages [increff-runner]: New version: [4.2] Old Version: [4.1]
+[2024-05-20 05:11:17] INFO root fetch - main [MainThread]: End processing [earshellz] error
+[2024-05-20 05:11:17] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/729494d22abe49b72c25e4b1efa215d54cab59388bae925f40777fce21f3/morphdb_utils-0.1.9.tar.gz
+[2024-05-20 05:11:17] INFO root fetch - processPackages [deps-manager]: Downloading https://files.pythonhosted.org/packages/03/53/f3ed60b48276e79a82cb6eaf8a8666fdc081c7e10b54b8bbc364662ffafb/deps-manager-1.0.3.tar.gz
+[2024-05-20 05:11:17] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/29/07/a67de4bc7e27358d0b93187c5ca6c357c200714954140ec0df7f0f2a791a/increff_runner-4.1-py3-none-any.whl
+[2024-05-20 05:11:17] INFO root fetch - processPackages [cxxbuild]: Downloading https://files.pythonhosted.org/packages/5f/39/c87f495ea91f8c4be92b9e023a0f1ccc5b33442cc96de0f46e626d28a558/cxxbuild-1.6.1.tar.gz
+[2024-05-20 05:11:17] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-05-20 05:11:17] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.1.8.tar.gz tmp/morphdb_utils-0.1.9.tar.gz --markdown 20240520/m/morphdb-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 05:11:17] INFO root fetch - processPackages [cxxbuild]: executing diffoscope
+[2024-05-20 05:11:17] INFO root fetch - processPackages [cxxbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxxbuild-1.6.0.tar.gz tmp/cxxbuild-1.6.1.tar.gz --markdown 20240520/c/cxxbuild/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-20 05:11:17] INFO root fetch - processPackages [deps-manager]: Downloading https://files.pythonhosted.org/packages/75/e3/dea9b04abe899077a9a4efaf782272421e5f9dba05c6d46a25cde2863e26/deps-manager-1.0.4.tar.gz
+[2024-05-20 05:11:17] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/6a/7e/4be98a53066debd3b58db5a7269bbdd6d21ff989515e0a092a5c38f1be8d/increff_runner-4.2-py3-none-any.whl
+[2024-05-20 05:11:17] INFO root fetch - processPackages [deps-manager]: executing diffoscope
+[2024-05-20 05:11:17] INFO root fetch - processPackages [deps-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deps-manager-1.0.3.tar.gz tmp/deps-manager-1.0.4.tar.gz --markdown 20240520/d/deps-manager/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-20 05:11:17] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-05-20 05:11:17] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-4.1-py3-none-any.whl.zip tmp/increff_runner-4.2-py3-none-any.whl.zip --markdown 20240520/i/increff-runner/4.1-4.2/README.md --exclude *.pyd
+[2024-05-20 05:11:18] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.8.tar.gz]
+[2024-05-20 05:11:18] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.9.tar.gz]
+[2024-05-20 05:11:18] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-05-20 05:11:18] INFO root fetch - processPackages [cxxbuild]: Remove: archive file [/home/abi/fetcher/tmp/cxxbuild-1.6.0.tar.gz]
+[2024-05-20 05:11:18] INFO root fetch - processPackages [cxxbuild]: Remove: archive file [/home/abi/fetcher/tmp/cxxbuild-1.6.1.tar.gz]
+[2024-05-20 05:11:18] INFO root fetch - main [MainThread]: End processing [cxxbuild]: success
+[2024-05-20 05:11:18] INFO root fetch - processPackages [deps-manager]: Remove: archive file [/home/abi/fetcher/tmp/deps-manager-1.0.3.tar.gz]
+[2024-05-20 05:11:18] INFO root fetch - processPackages [deps-manager]: Remove: archive file [/home/abi/fetcher/tmp/deps-manager-1.0.4.tar.gz]
+[2024-05-20 05:11:18] INFO root fetch - main [MainThread]: End processing [deps-manager]: success
+[2024-05-20 05:11:18] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.1-py3-none-any.whl.zip]
+[2024-05-20 05:11:18] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.2-py3-none-any.whl.zip]
+[2024-05-20 05:11:18] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-05-20 05:11:18] INFO root fetch - main [MainThread]: Store serial: [23284046]

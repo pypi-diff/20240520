@@ -7948,3 +7948,24 @@
 [2024-05-20 08:05:23] INFO root fetch - processPackages [aspose-words-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose-words-cloud-24.5.0.tar.gz]
 [2024-05-20 08:05:23] INFO root fetch - main [MainThread]: End processing [aspose-words-cloud]: success
 [2024-05-20 08:05:23] INFO root fetch - main [MainThread]: Store serial: [23285304]
+[2024-05-20 08:07:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285304]
+[2024-05-20 08:07:33] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 08:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctrip-app-ui
+[2024-05-20 08:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bisheng-langchain
+[2024-05-20 08:07:33] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-05-20 08:07:33] INFO root fetch - processPackages [bisheng-langchain]: New version: [0.3.1.1] Old Version: [0.3.1]
+[2024-05-20 08:07:33] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/12/89/1448a445713bb3a489d5d7d5832cfdf9711766c848587b599ed9bd78f9a8/ctrip-app-ui-0.6.7.tar.gz
+[2024-05-20 08:07:33] INFO root fetch - processPackages [bisheng-langchain]: Downloading https://files.pythonhosted.org/packages/30/1c/922f64f510bce8feb7ccc3e06537a9d5be9909ea3f2f1233a635ad1c55af/bisheng_langchain-0.3.1-py3-none-any.whl
+[2024-05-20 08:07:33] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/50/71/a2b78b2b0b36ff2ce95a3ec4ade6b0652c14552249c4f4a7795dd0845a1e/ctrip-app-ui-0.6.8.tar.gz
+[2024-05-20 08:07:33] INFO root fetch - processPackages [bisheng-langchain]: Downloading https://files.pythonhosted.org/packages/1b/75/6b5e5ce612112f2a76bbb2dad1a10b6f46f05190c1c1b85fadbd20dfc753/bisheng_langchain-0.3.1.1-py3-none-any.whl
+[2024-05-20 08:07:33] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-05-20 08:07:33] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.6.7.tar.gz tmp/ctrip-app-ui-0.6.8.tar.gz --markdown 20240520/c/ctrip-app-ui/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-05-20 08:07:33] INFO root fetch - processPackages [bisheng-langchain]: executing diffoscope
+[2024-05-20 08:07:33] INFO root fetch - processPackages [bisheng-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bisheng_langchain-0.3.1-py3-none-any.whl.zip tmp/bisheng_langchain-0.3.1.1-py3-none-any.whl.zip --markdown 20240520/b/bisheng-langchain/0.3.1-0.3.1.1/README.md --exclude *.pyd
+[2024-05-20 08:07:34] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.6.7.tar.gz]
+[2024-05-20 08:07:34] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.6.8.tar.gz]
+[2024-05-20 08:07:34] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-05-20 08:07:34] INFO root fetch - processPackages [bisheng-langchain]: Remove: archive file [/home/abi/fetcher/tmp/bisheng_langchain-0.3.1-py3-none-any.whl.zip]
+[2024-05-20 08:07:34] INFO root fetch - processPackages [bisheng-langchain]: Remove: archive file [/home/abi/fetcher/tmp/bisheng_langchain-0.3.1.1-py3-none-any.whl.zip]
+[2024-05-20 08:07:34] INFO root fetch - main [MainThread]: End processing [bisheng-langchain]: success
+[2024-05-20 08:07:34] INFO root fetch - main [MainThread]: Store serial: [23285308]

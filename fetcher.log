@@ -4178,3 +4178,60 @@
 [2024-05-20 03:27:53] INFO root fetch - processPackages [argus-alm]: Remove: archive file [/home/abi/fetcher/tmp/argus-alm-0.8.1.tar.gz]
 [2024-05-20 03:27:53] INFO root fetch - main [MainThread]: End processing [argus-alm]: success
 [2024-05-20 03:27:53] INFO root fetch - main [MainThread]: Store serial: [23283342]
+[2024-05-20 03:29:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283342]
+[2024-05-20 03:30:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 03:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tabicz
+[2024-05-20 03:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmticket
+[2024-05-20 03:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onediff
+[2024-05-20 03:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: REVHubInterface
+[2024-05-20 03:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onediffx
+[2024-05-20 03:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reverse-life
+[2024-05-20 03:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kamangir
+[2024-05-20 03:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-cleanslate
+[2024-05-20 03:30:01] WARNING root fetch - processPackages [kamangir]: Skipping, unable to determine old version
+[2024-05-20 03:30:01] INFO root fetch - main [MainThread]: End processing [kamangir] error
+[2024-05-20 03:30:01] INFO root fetch - processPackages [REVHubInterface]: New version: [1.3.3.dev9] Old Version: [1.3.3.dev8]
+[2024-05-20 03:30:01] INFO root fetch - processPackages [tmticket]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-20 03:30:01] INFO root fetch - processPackages [onediffx]: New version: [1.1.0.dev202405190129] Old Version: [1.1.0.dev202405180127]
+[2024-05-20 03:30:01] INFO root fetch - processPackages [onediff]: New version: [1.1.0.dev202405190129] Old Version: [1.1.0.dev202405180127]
+[2024-05-20 03:30:01] WARNING root fetch - processPackages [tabicz]: Skipping, unable to determine old version
+[2024-05-20 03:30:01] INFO root fetch - main [MainThread]: End processing [tabicz] error
+[2024-05-20 03:30:01] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/0d/90/3c74a9c7310ba2da2e673cb67d3e8c65e5460209759ef2fa291efce82ab5/revhubinterface-1.3.3.dev8.tar.gz
+[2024-05-20 03:30:01] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/2e/a9/f60aac5383e35e8b1619a643358fd14b194e1f25eae48642a8cd8ad0de96/tmticket-0.2.4.tar.gz
+[2024-05-20 03:30:01] INFO root fetch - processPackages [pytest-cleanslate]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-20 03:30:01] WARNING root fetch - processPackages [reverse-life]: Skipping, unable to determine old version
+[2024-05-20 03:30:01] INFO root fetch - main [MainThread]: End processing [reverse-life] error
+[2024-05-20 03:30:01] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/3f/2b/b2702fb7db83474fc06f81757187d060f16dfe9500a6fa0ffea694eb49e1/onediffx-1.1.0.dev202405180127.tar.gz
+[2024-05-20 03:30:01] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/1a/9f/90ec1c352f67ea9ae4645324931e7dd6e65cc9d9f633c7de3643ad4d30b3/onediff-1.1.0.dev202405180127.tar.gz
+[2024-05-20 03:30:02] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/47/93/e2ab5da20dcdca793ff04faa5aa5f38bb3f149e7bf70c77c15ac7d127689/revhubinterface-1.3.3.dev9.tar.gz
+[2024-05-20 03:30:02] INFO root fetch - processPackages [pytest-cleanslate]: Downloading https://files.pythonhosted.org/packages/1f/07/78aa5f653ddcbea02aa28e6fd42f128569a425e5e47b732be4493aa3a55b/pytest_cleanslate-1.0.1.tar.gz
+[2024-05-20 03:30:02] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/a3/f3/13cf85e1346d913ec92b969bcad2e00db9500a649e5c76dacf715f7e6a3a/tmticket-0.2.5.tar.gz
+[2024-05-20 03:30:02] INFO root fetch - processPackages [REVHubInterface]: executing diffoscope
+[2024-05-20 03:30:02] INFO root fetch - processPackages [REVHubInterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revhubinterface-1.3.3.dev8.tar.gz tmp/revhubinterface-1.3.3.dev9.tar.gz --markdown 20240520/R/REVHubInterface/1.3.3.dev8-1.3.3.dev9/README.md --exclude *.pyd
+[2024-05-20 03:30:02] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/45/3e/f21e49a727f8130dac5764491445be5d9051e55d77236eceb44b8df1e495/onediffx-1.1.0.dev202405190129.tar.gz
+[2024-05-20 03:30:02] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-20 03:30:02] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.2.4.tar.gz tmp/tmticket-0.2.5.tar.gz --markdown 20240520/t/tmticket/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-20 03:30:02] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/75/ad/3eca6568fffdaf8b59215f6d6a6288a060ba86b42dc4fdb9f8e5ff0b0a6c/onediff-1.1.0.dev202405190129.tar.gz
+[2024-05-20 03:30:02] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-05-20 03:30:02] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.1.0.dev202405180127.tar.gz tmp/onediffx-1.1.0.dev202405190129.tar.gz --markdown 20240520/o/onediffx/1.1.0.dev202405180127-1.1.0.dev202405190129/README.md --exclude *.pyd
+[2024-05-20 03:30:02] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-20 03:30:02] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.1.0.dev202405180127.tar.gz tmp/onediff-1.1.0.dev202405190129.tar.gz --markdown 20240520/o/onediff/1.1.0.dev202405180127-1.1.0.dev202405190129/README.md --exclude *.pyd
+[2024-05-20 03:30:02] INFO root fetch - processPackages [pytest-cleanslate]: Downloading https://files.pythonhosted.org/packages/bf/0c/2a51d4c29bc0c8dca98f878ad5642c92a2f91a5088bb7a93bd941551adfd/pytest_cleanslate-1.0.2.tar.gz
+[2024-05-20 03:30:02] INFO root fetch - processPackages [pytest-cleanslate]: executing diffoscope
+[2024-05-20 03:30:02] INFO root fetch - processPackages [pytest-cleanslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_cleanslate-1.0.1.tar.gz tmp/pytest_cleanslate-1.0.2.tar.gz --markdown 20240520/p/pytest-cleanslate/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-20 03:30:03] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.4.tar.gz]
+[2024-05-20 03:30:03] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.5.tar.gz]
+[2024-05-20 03:30:03] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-20 03:30:03] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev8.tar.gz]
+[2024-05-20 03:30:03] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev9.tar.gz]
+[2024-05-20 03:30:03] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
+[2024-05-20 03:30:03] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.1.0.dev202405180127.tar.gz]
+[2024-05-20 03:30:03] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.1.0.dev202405190129.tar.gz]
+[2024-05-20 03:30:03] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-05-20 03:30:03] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202405180127.tar.gz]
+[2024-05-20 03:30:03] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202405190129.tar.gz]
+[2024-05-20 03:30:03] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-20 03:30:03] INFO root fetch - processPackages [pytest-cleanslate]: Remove: archive file [/home/abi/fetcher/tmp/pytest_cleanslate-1.0.1.tar.gz]
+[2024-05-20 03:30:03] INFO root fetch - processPackages [pytest-cleanslate]: Remove: archive file [/home/abi/fetcher/tmp/pytest_cleanslate-1.0.2.tar.gz]
+[2024-05-20 03:30:03] INFO root fetch - main [MainThread]: End processing [pytest-cleanslate]: success
+[2024-05-20 03:30:03] INFO root fetch - main [MainThread]: Store serial: [23283372]

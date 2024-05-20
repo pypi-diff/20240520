@@ -12820,3 +12820,29 @@
 [2024-05-20 11:45:09] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev92.tar.gz]
 [2024-05-20 11:45:09] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
 [2024-05-20 11:45:09] INFO root fetch - main [MainThread]: Store serial: [23287681]
+[2024-05-20 11:47:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287681]
+[2024-05-20 11:47:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 11:47:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scml-agents
+[2024-05-20 11:47:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bluepy3
+[2024-05-20 11:47:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scmrepo
+[2024-05-20 11:47:18] INFO root fetch - processPackages [scmrepo]: New version: [3.3.4] Old Version: [3.3.3]
+[2024-05-20 11:47:18] INFO root fetch - processPackages [scmrepo]: Downloading https://files.pythonhosted.org/packages/7d/ad/d422fee6fd96b142bf6848cfad6a3c095162df59cbfa06cc122b4131bd17/scmrepo-3.3.3.tar.gz
+[2024-05-20 11:47:18] INFO root fetch - processPackages [scml-agents]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-20 11:47:18] INFO root fetch - processPackages [bluepy3]: New version: [2.8.1] Old Version: [2.6.1]
+[2024-05-20 11:47:19] INFO root fetch - processPackages [scml-agents]: Downloading https://files.pythonhosted.org/packages/52/37/ec1363c307d066296249def56700b725d036ddd219a1d8cd897fe8588508/scml-agents-0.4.8.tar.gz
+[2024-05-20 11:47:19] INFO root fetch - processPackages [bluepy3]: Downloading https://files.pythonhosted.org/packages/ad/8b/df3fdc63d03dcc3dcbd5277fc1bd6f2c03c2b128ff5e86181c89fb922015/bluepy3-2.6.1.tar.gz
+[2024-05-20 11:47:19] INFO root fetch - processPackages [scmrepo]: Downloading https://files.pythonhosted.org/packages/91/ab/32bda5ffc51ba4a9a0f27faa200f13594b2f93316bb65f6afc5270a61461/scmrepo-3.3.4.tar.gz
+[2024-05-20 11:47:19] WARNING root fetch - processPackages [scml-agents]: Skipping package: exceeds size limit 30829016>=10485760
+[2024-05-20 11:47:19] INFO root fetch - main [MainThread]: End processing [scml-agents] error
+[2024-05-20 11:47:19] INFO root fetch - processPackages [scmrepo]: executing diffoscope
+[2024-05-20 11:47:19] INFO root fetch - processPackages [scmrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scmrepo-3.3.3.tar.gz tmp/scmrepo-3.3.4.tar.gz --markdown 20240520/s/scmrepo/3.3.3-3.3.4/README.md --exclude *.pyd
+[2024-05-20 11:47:19] INFO root fetch - processPackages [bluepy3]: Downloading https://files.pythonhosted.org/packages/3f/be/0aecae618261864bd98cb8623ae723fbc0b3098073777a3ae0895c954203/bluepy3-2.8.1.tar.gz
+[2024-05-20 11:47:19] INFO root fetch - processPackages [bluepy3]: executing diffoscope
+[2024-05-20 11:47:19] INFO root fetch - processPackages [bluepy3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepy3-2.6.1.tar.gz tmp/bluepy3-2.8.1.tar.gz --markdown 20240520/b/bluepy3/2.6.1-2.8.1/README.md --exclude *.pyd
+[2024-05-20 11:47:19] INFO root fetch - processPackages [scmrepo]: Remove: archive file [/home/abi/fetcher/tmp/scmrepo-3.3.3.tar.gz]
+[2024-05-20 11:47:19] INFO root fetch - processPackages [scmrepo]: Remove: archive file [/home/abi/fetcher/tmp/scmrepo-3.3.4.tar.gz]
+[2024-05-20 11:47:19] INFO root fetch - main [MainThread]: End processing [scmrepo]: success
+[2024-05-20 11:47:20] INFO root fetch - processPackages [bluepy3]: Remove: archive file [/home/abi/fetcher/tmp/bluepy3-2.6.1.tar.gz]
+[2024-05-20 11:47:20] INFO root fetch - processPackages [bluepy3]: Remove: archive file [/home/abi/fetcher/tmp/bluepy3-2.8.1.tar.gz]
+[2024-05-20 11:47:20] INFO root fetch - main [MainThread]: End processing [bluepy3]: success
+[2024-05-20 11:47:20] INFO root fetch - main [MainThread]: Store serial: [23287692]

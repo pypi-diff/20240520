@@ -5901,3 +5901,15 @@
 [2024-05-20 05:37:17] INFO root fetch - processPackages [mgolddepthlib]: Remove: archive file [/home/abi/fetcher/tmp/mgolddepthlib-0.2.1.tar.gz]
 [2024-05-20 05:37:17] INFO root fetch - main [MainThread]: End processing [mgolddepthlib]: success
 [2024-05-20 05:37:17] INFO root fetch - main [MainThread]: Store serial: [23284180]
+[2024-05-20 05:39:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284180]
+[2024-05-20 05:39:25] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 05:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-glassfrog
+[2024-05-20 05:39:25] INFO root fetch - processPackages [airbyte-source-glassfrog]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-20 05:39:26] INFO root fetch - processPackages [airbyte-source-glassfrog]: Downloading https://files.pythonhosted.org/packages/0a/f3/4ccdd08459f873daef31b18263e6853f06138c52e40cb992b8bffea7588a/airbyte_source_glassfrog-0.2.4.tar.gz
+[2024-05-20 05:39:26] INFO root fetch - processPackages [airbyte-source-glassfrog]: Downloading https://files.pythonhosted.org/packages/79/4e/e745e587687b60f3491653bed4d59b8d0045f5dce9ad453f04751c8ae65a/airbyte_source_glassfrog-0.2.5.tar.gz
+[2024-05-20 05:39:26] INFO root fetch - processPackages [airbyte-source-glassfrog]: executing diffoscope
+[2024-05-20 05:39:26] INFO root fetch - processPackages [airbyte-source-glassfrog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_glassfrog-0.2.4.tar.gz tmp/airbyte_source_glassfrog-0.2.5.tar.gz --markdown 20240520/a/airbyte-source-glassfrog/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-20 05:39:27] INFO root fetch - processPackages [airbyte-source-glassfrog]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_glassfrog-0.2.4.tar.gz]
+[2024-05-20 05:39:27] INFO root fetch - processPackages [airbyte-source-glassfrog]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_glassfrog-0.2.5.tar.gz]
+[2024-05-20 05:39:27] INFO root fetch - main [MainThread]: End processing [airbyte-source-glassfrog]: success
+[2024-05-20 05:39:27] INFO root fetch - main [MainThread]: Store serial: [23284183]

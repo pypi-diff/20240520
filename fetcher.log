@@ -8313,3 +8313,67 @@
 [2024-05-20 08:27:30] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.8.2.tar.gz]
 [2024-05-20 08:27:30] INFO root fetch - main [MainThread]: End processing [hapi-schema]: success
 [2024-05-20 08:27:30] INFO root fetch - main [MainThread]: Store serial: [23285453]
+[2024-05-20 08:29:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285453]
+[2024-05-20 08:29:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 08:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Dans-Diffraction
+[2024-05-20 08:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: why-tools
+[2024-05-20 08:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: REVHubInterface
+[2024-05-20 08:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unfuncaptcha-bda
+[2024-05-20 08:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TPE-Bot
+[2024-05-20 08:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: monicapf
+[2024-05-20 08:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: why-tools
+[2024-05-20 08:29:38] INFO root fetch - processPackages [monicapf]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-20 08:29:38] INFO root fetch - processPackages [REVHubInterface]: New version: [1.3.3.dev9] Old Version: [1.3.3.dev8]
+[2024-05-20 08:29:38] INFO root fetch - processPackages [why-tools]: New version: [0.0.2b9] Old Version: [0.0.2b8]
+[2024-05-20 08:29:38] INFO root fetch - processPackages [TPE-Bot]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-05-20 08:29:38] INFO root fetch - processPackages [why-tools]: New version: [0.0.2b9] Old Version: [0.0.2b8]
+[2024-05-20 08:29:38] INFO root fetch - processPackages [unfuncaptcha-bda]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 08:29:38] INFO root fetch - processPackages [monicapf]: Downloading https://files.pythonhosted.org/packages/06/ff/1dca21974f102f8cc3071a21b0181b29370af24efb427f7d4fa51e9cff8d/monicapf-0.1.1.tar.gz
+[2024-05-20 08:29:38] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/0d/90/3c74a9c7310ba2da2e673cb67d3e8c65e5460209759ef2fa291efce82ab5/revhubinterface-1.3.3.dev8.tar.gz
+[2024-05-20 08:29:38] INFO root fetch - processPackages [why-tools]: Downloading https://files.pythonhosted.org/packages/26/41/0a4c14de71ef08daa69fb8efe27b5d0a1bae4b5bd2be13cbb8dbd71c1b44/why-tools-0.0.2b8.tar.gz
+[2024-05-20 08:29:38] INFO root fetch - processPackages [Dans-Diffraction]: New version: [3.2.1] Old Version: [3.2.0]
+[2024-05-20 08:29:38] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/c4/19/a7cdacae0c224cc02ea5e0684804edf5c37ae3a7da40033bda6432e0e2e3/TPE-Bot-6.9.1.tar.gz
+[2024-05-20 08:29:38] INFO root fetch - processPackages [why-tools]: Downloading https://files.pythonhosted.org/packages/26/41/0a4c14de71ef08daa69fb8efe27b5d0a1bae4b5bd2be13cbb8dbd71c1b44/why-tools-0.0.2b8.tar.gz
+[2024-05-20 08:29:38] INFO root fetch - processPackages [Dans-Diffraction]: Downloading https://files.pythonhosted.org/packages/33/33/75106f6162a5b79c8380acc0bb916875a7ab5f37c589642c3a28db51f429/Dans_Diffraction-3.2.0.tar.gz
+[2024-05-20 08:29:38] INFO root fetch - processPackages [unfuncaptcha-bda]: Downloading https://files.pythonhosted.org/packages/f2/34/73f1f4a40c8da506579d5435301a6e2c0a16c4fbf4bccf1ad6c9453be861/unfuncaptcha_bda-0.0.2.tar.gz
+[2024-05-20 08:29:38] INFO root fetch - processPackages [why-tools]: Downloading https://files.pythonhosted.org/packages/7e/90/f8c3b43451c5bdbcb89f4973d10d742000829e74fc2f754dedede3c1bf43/why-tools-0.0.2b9.tar.gz
+[2024-05-20 08:29:39] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/47/93/e2ab5da20dcdca793ff04faa5aa5f38bb3f149e7bf70c77c15ac7d127689/revhubinterface-1.3.3.dev9.tar.gz
+[2024-05-20 08:29:39] INFO root fetch - processPackages [why-tools]: Downloading https://files.pythonhosted.org/packages/7e/90/f8c3b43451c5bdbcb89f4973d10d742000829e74fc2f754dedede3c1bf43/why-tools-0.0.2b9.tar.gz
+[2024-05-20 08:29:39] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/70/7f/575b827c491ae2bce901b106dad351e35f042fb74bc67a5e86613a1358d8/TPE-Bot-6.9.2.tar.gz
+[2024-05-20 08:29:39] INFO root fetch - processPackages [monicapf]: Downloading https://files.pythonhosted.org/packages/b0/b2/08722d83a410ad61ce69499046de8650b6b92914d6d8a8f9bfacdec35ab7/monicapf-0.1.2.tar.gz
+[2024-05-20 08:29:39] INFO root fetch - processPackages [why-tools]: executing diffoscope
+[2024-05-20 08:29:39] INFO root fetch - processPackages [why-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/why-tools-0.0.2b8.tar.gz tmp/why-tools-0.0.2b9.tar.gz --markdown 20240520/w/why-tools/0.0.2b8-0.0.2b9/README.md --exclude *.pyd
+[2024-05-20 08:29:39] INFO root fetch - processPackages [why-tools]: executing diffoscope
+[2024-05-20 08:29:39] INFO root fetch - processPackages [why-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/why-tools-0.0.2b8.tar.gz tmp/why-tools-0.0.2b9.tar.gz --markdown 20240520/w/why-tools/0.0.2b8-0.0.2b9/README.md --exclude *.pyd
+[2024-05-20 08:29:39] INFO root fetch - processPackages [REVHubInterface]: executing diffoscope
+[2024-05-20 08:29:39] INFO root fetch - processPackages [REVHubInterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revhubinterface-1.3.3.dev8.tar.gz tmp/revhubinterface-1.3.3.dev9.tar.gz --markdown 20240520/R/REVHubInterface/1.3.3.dev8-1.3.3.dev9/README.md --exclude *.pyd
+[2024-05-20 08:29:39] INFO root fetch - processPackages [monicapf]: executing diffoscope
+[2024-05-20 08:29:39] INFO root fetch - processPackages [monicapf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monicapf-0.1.1.tar.gz tmp/monicapf-0.1.2.tar.gz --markdown 20240520/m/monicapf/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-20 08:29:39] INFO root fetch - processPackages [TPE-Bot]: executing diffoscope
+[2024-05-20 08:29:39] INFO root fetch - processPackages [TPE-Bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPE-Bot-6.9.1.tar.gz tmp/TPE-Bot-6.9.2.tar.gz --markdown 20240520/T/TPE-Bot/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-05-20 08:29:39] INFO root fetch - processPackages [unfuncaptcha-bda]: Downloading https://files.pythonhosted.org/packages/71/05/1b476e7a79bc22550e014800a848ed425f04d8f1e897f619ee265408b67a/unfuncaptcha_bda-0.0.3.tar.gz
+[2024-05-20 08:29:39] INFO root fetch - processPackages [unfuncaptcha-bda]: executing diffoscope
+[2024-05-20 08:29:39] INFO root fetch - processPackages [unfuncaptcha-bda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unfuncaptcha_bda-0.0.2.tar.gz tmp/unfuncaptcha_bda-0.0.3.tar.gz --markdown 20240520/u/unfuncaptcha-bda/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 08:29:39] INFO root fetch - processPackages [Dans-Diffraction]: Downloading https://files.pythonhosted.org/packages/2a/01/ddfddb6932605c970fe61690d57f5f3336d11fa6165fc865bbb3571559c9/dans_diffraction-3.2.1.tar.gz
+[2024-05-20 08:29:39] INFO root fetch - processPackages [Dans-Diffraction]: executing diffoscope
+[2024-05-20 08:29:39] INFO root fetch - processPackages [Dans-Diffraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dans_Diffraction-3.2.0.tar.gz tmp/dans_diffraction-3.2.1.tar.gz --markdown 20240520/D/Dans-Diffraction/3.2.0-3.2.1/README.md --exclude *.pyd
+[2024-05-20 08:29:39] INFO root fetch - processPackages [why-tools]: Remove: archive file [/home/abi/fetcher/tmp/why-tools-0.0.2b8.tar.gz]
+[2024-05-20 08:29:39] INFO root fetch - processPackages [why-tools]: Remove: archive file [/home/abi/fetcher/tmp/why-tools-0.0.2b9.tar.gz]
+[2024-05-20 08:29:39] INFO root fetch - main [MainThread]: End processing [why-tools]: success
+[2024-05-20 08:29:40] INFO root fetch - main [MainThread]: End processing [why-tools]: success
+[2024-05-20 08:29:40] INFO root fetch - processPackages [monicapf]: Remove: archive file [/home/abi/fetcher/tmp/monicapf-0.1.1.tar.gz]
+[2024-05-20 08:29:40] INFO root fetch - processPackages [monicapf]: Remove: archive file [/home/abi/fetcher/tmp/monicapf-0.1.2.tar.gz]
+[2024-05-20 08:29:40] INFO root fetch - main [MainThread]: End processing [monicapf]: success
+[2024-05-20 08:29:40] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev8.tar.gz]
+[2024-05-20 08:29:40] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev9.tar.gz]
+[2024-05-20 08:29:40] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
+[2024-05-20 08:29:40] INFO root fetch - processPackages [unfuncaptcha-bda]: Remove: archive file [/home/abi/fetcher/tmp/unfuncaptcha_bda-0.0.2.tar.gz]
+[2024-05-20 08:29:40] INFO root fetch - processPackages [unfuncaptcha-bda]: Remove: archive file [/home/abi/fetcher/tmp/unfuncaptcha_bda-0.0.3.tar.gz]
+[2024-05-20 08:29:40] INFO root fetch - main [MainThread]: End processing [unfuncaptcha-bda]: success
+[2024-05-20 08:29:40] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.9.1.tar.gz]
+[2024-05-20 08:29:40] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.9.2.tar.gz]
+[2024-05-20 08:29:40] INFO root fetch - main [MainThread]: End processing [TPE-Bot]: success
+[2024-05-20 08:29:41] INFO root fetch - processPackages [Dans-Diffraction]: Remove: archive file [/home/abi/fetcher/tmp/Dans_Diffraction-3.2.0.tar.gz]
+[2024-05-20 08:29:41] INFO root fetch - processPackages [Dans-Diffraction]: Remove: archive file [/home/abi/fetcher/tmp/dans_diffraction-3.2.1.tar.gz]
+[2024-05-20 08:29:41] INFO root fetch - main [MainThread]: End processing [Dans-Diffraction]: success
+[2024-05-20 08:29:41] INFO root fetch - main [MainThread]: Store serial: [23285470]

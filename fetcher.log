@@ -10531,3 +10531,27 @@
 [2024-05-20 10:23:40] INFO root fetch - processPackages [kohlrahbi]: Remove: archive file [/home/abi/fetcher/tmp/kohlrahbi-1.1.0.tar.gz]
 [2024-05-20 10:23:40] INFO root fetch - main [MainThread]: End processing [kohlrahbi]: success
 [2024-05-20 10:23:40] INFO root fetch - main [MainThread]: Store serial: [23286753]
+[2024-05-20 10:25:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286753]
+[2024-05-20 10:25:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 10:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: open-webui
+[2024-05-20 10:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phidata
+[2024-05-20 10:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CTK-Desert
+[2024-05-20 10:25:49] INFO root fetch - processPackages [CTK-Desert]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 10:25:49] WARNING root fetch - processPackages [open-webui]: Skipping, unable to determine old version
+[2024-05-20 10:25:49] INFO root fetch - main [MainThread]: End processing [open-webui] error
+[2024-05-20 10:25:49] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/9a/73/c7239044a3b6edf571c3f5feded6aab241cff792f7acd98dd42652e44c95/CTK_Desert-0.0.8.tar.gz
+[2024-05-20 10:25:49] INFO root fetch - processPackages [phidata]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-05-20 10:25:49] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/aa/0d/aa8c04e9be152bbe8c3b585e508dab23ce7796abb950ae3060303bef3d6e/phidata-2.4.8.tar.gz
+[2024-05-20 10:25:49] INFO root fetch - processPackages [CTK-Desert]: Downloading https://files.pythonhosted.org/packages/6d/b4/d3af97e7bf9ae492dceb1aad8191e260b603096af0a9755ffd707156f69f/CTK_Desert-0.0.9.tar.gz
+[2024-05-20 10:25:50] INFO root fetch - processPackages [CTK-Desert]: executing diffoscope
+[2024-05-20 10:25:50] INFO root fetch - processPackages [CTK-Desert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTK_Desert-0.0.8.tar.gz tmp/CTK_Desert-0.0.9.tar.gz --markdown 20240520/C/CTK-Desert/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 10:25:50] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/af/f2/078560b1bbc6db30e04c13e02a195a38a6552601be938d1ed5895276476e/phidata-2.4.9.tar.gz
+[2024-05-20 10:25:50] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-05-20 10:25:50] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.4.8.tar.gz tmp/phidata-2.4.9.tar.gz --markdown 20240520/p/phidata/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-05-20 10:25:50] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.8.tar.gz]
+[2024-05-20 10:25:50] INFO root fetch - processPackages [CTK-Desert]: Remove: archive file [/home/abi/fetcher/tmp/CTK_Desert-0.0.9.tar.gz]
+[2024-05-20 10:25:50] INFO root fetch - main [MainThread]: End processing [CTK-Desert]: success
+[2024-05-20 10:25:51] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.8.tar.gz]
+[2024-05-20 10:25:51] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.9.tar.gz]
+[2024-05-20 10:25:51] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-05-20 10:25:51] INFO root fetch - main [MainThread]: Store serial: [23286764]

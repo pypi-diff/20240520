@@ -9580,3 +9580,48 @@
 [2024-05-20 09:35:19] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai_data_format-1.3.3.tar.gz]
 [2024-05-20 09:35:19] INFO root fetch - main [MainThread]: End processing [visionai-data-format]: success
 [2024-05-20 09:35:19] INFO root fetch - main [MainThread]: Store serial: [23286347]
+[2024-05-20 09:37:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286347]
+[2024-05-20 09:37:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 09:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catnekaise.cdk-iam-utilities
+[2024-05-20 09:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ca-vntl-helper
+[2024-05-20 09:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: singleheartedz
+[2024-05-20 09:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wildberries-api-client
+[2024-05-20 09:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pathling
+[2024-05-20 09:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FuPy
+[2024-05-20 09:37:28] INFO root fetch - processPackages [ca-vntl-helper]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-20 09:37:28] INFO root fetch - processPackages [pathling]: New version: [7.0.0.dev2] Old Version: [7.0.0.dev1]
+[2024-05-20 09:37:28] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/09/a3/d36499cc1e3ed1c7eaa2cc34ce2d9d94b6fcbe31e7f6fe8b79cf0cf14266/ca_vntl_helper-1.0.4.tar.gz
+[2024-05-20 09:37:28] INFO root fetch - processPackages [pathling]: Downloading https://files.pythonhosted.org/packages/7c/79/edb34f70fd6a83f3c05fcec9ba22c7430a3851d354e90bcac859610c4d35/pathling-7.0.0.dev1.tar.gz
+[2024-05-20 09:37:28] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: New version: [0.0.24] Old Version: [0.0.23]
+[2024-05-20 09:37:28] WARNING root fetch - processPackages [singleheartedz]: Skipping, unable to determine old version
+[2024-05-20 09:37:28] INFO root fetch - main [MainThread]: End processing [singleheartedz] error
+[2024-05-20 09:37:28] INFO root fetch - processPackages [wildberries-api-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 09:37:28] WARNING root fetch - processPackages [FuPy]: Skipping, unable to determine old version
+[2024-05-20 09:37:28] INFO root fetch - main [MainThread]: End processing [FuPy] error
+[2024-05-20 09:37:29] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Downloading https://files.pythonhosted.org/packages/e9/1e/7747940f5ebcb117b44586bc88169c97cfed70cb3b9b1a519fbfceb2c85b/catnekaise.cdk-iam-utilities-0.0.23.tar.gz
+[2024-05-20 09:37:29] INFO root fetch - processPackages [wildberries-api-client]: Downloading https://files.pythonhosted.org/packages/23/9a/478d456b44d5929d2146267c6e833edc2bb65a1b06fd225f1586e3bd5f4d/wildberries_api_client-0.1.8.tar.gz
+[2024-05-20 09:37:29] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/77/f1/061c4b7c438aea85c1c792c5a85eb5c108a48ba88199a24d28a8434db7a8/ca_vntl_helper-1.1.0.tar.gz
+[2024-05-20 09:37:29] INFO root fetch - processPackages [pathling]: Downloading https://files.pythonhosted.org/packages/73/38/908e5488e135b83c6c4df3b74064bf9c286d6f9a10aac0b01ceb2947747b/pathling-7.0.0.dev2.tar.gz
+[2024-05-20 09:37:29] INFO root fetch - processPackages [ca-vntl-helper]: executing diffoscope
+[2024-05-20 09:37:29] INFO root fetch - processPackages [ca-vntl-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ca_vntl_helper-1.0.4.tar.gz tmp/ca_vntl_helper-1.1.0.tar.gz --markdown 20240520/c/ca-vntl-helper/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-05-20 09:37:29] INFO root fetch - processPackages [pathling]: executing diffoscope
+[2024-05-20 09:37:29] INFO root fetch - processPackages [pathling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathling-7.0.0.dev1.tar.gz tmp/pathling-7.0.0.dev2.tar.gz --markdown 20240520/p/pathling/7.0.0.dev1-7.0.0.dev2/README.md --exclude *.pyd
+[2024-05-20 09:37:29] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Downloading https://files.pythonhosted.org/packages/4e/62/6e8a1d21e120339199cd0f1872c9e4f51b71b91685931f381e4efdaac74b/catnekaise.cdk-iam-utilities-0.0.24.tar.gz
+[2024-05-20 09:37:29] INFO root fetch - processPackages [wildberries-api-client]: Downloading https://files.pythonhosted.org/packages/7a/01/9f304287ded141c131409d049716344bfc81284d23732dad7f3669928c87/wildberries_api_client-0.1.9.tar.gz
+[2024-05-20 09:37:29] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: executing diffoscope
+[2024-05-20 09:37:29] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catnekaise.cdk-iam-utilities-0.0.23.tar.gz tmp/catnekaise.cdk-iam-utilities-0.0.24.tar.gz --markdown 20240520/c/catnekaise.cdk-iam-utilities/0.0.23-0.0.24/README.md --exclude *.pyd
+[2024-05-20 09:37:29] INFO root fetch - processPackages [wildberries-api-client]: executing diffoscope
+[2024-05-20 09:37:29] INFO root fetch - processPackages [wildberries-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wildberries_api_client-0.1.8.tar.gz tmp/wildberries_api_client-0.1.9.tar.gz --markdown 20240520/w/wildberries-api-client/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 09:37:29] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-1.0.4.tar.gz]
+[2024-05-20 09:37:29] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-1.1.0.tar.gz]
+[2024-05-20 09:37:29] INFO root fetch - main [MainThread]: End processing [ca-vntl-helper]: success
+[2024-05-20 09:37:30] INFO root fetch - processPackages [pathling]: Remove: archive file [/home/abi/fetcher/tmp/pathling-7.0.0.dev1.tar.gz]
+[2024-05-20 09:37:30] INFO root fetch - processPackages [pathling]: Remove: archive file [/home/abi/fetcher/tmp/pathling-7.0.0.dev2.tar.gz]
+[2024-05-20 09:37:30] INFO root fetch - main [MainThread]: End processing [pathling]: success
+[2024-05-20 09:37:30] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.cdk-iam-utilities-0.0.23.tar.gz]
+[2024-05-20 09:37:30] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.cdk-iam-utilities-0.0.24.tar.gz]
+[2024-05-20 09:37:30] INFO root fetch - main [MainThread]: End processing [catnekaise.cdk-iam-utilities]: success
+[2024-05-20 09:37:32] INFO root fetch - processPackages [wildberries-api-client]: Remove: archive file [/home/abi/fetcher/tmp/wildberries_api_client-0.1.8.tar.gz]
+[2024-05-20 09:37:32] INFO root fetch - processPackages [wildberries-api-client]: Remove: archive file [/home/abi/fetcher/tmp/wildberries_api_client-0.1.9.tar.gz]
+[2024-05-20 09:37:32] INFO root fetch - main [MainThread]: End processing [wildberries-api-client]: success
+[2024-05-20 09:37:32] INFO root fetch - main [MainThread]: Store serial: [23286368]

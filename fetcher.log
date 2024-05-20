@@ -19001,3 +19001,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:43:25] INFO root fetch - processPackages [LHCbDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/LHCbDIRAC-12.0.0a6.tar.gz]
 [2024-05-20 15:43:25] INFO root fetch - main [MainThread]: End processing [LHCbDIRAC]: success
 [2024-05-20 15:43:25] INFO root fetch - main [MainThread]: Store serial: [23290459]
+[2024-05-20 15:45:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290459]
+[2024-05-20 15:45:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 15:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlrun-pipelines-kfp-v1-8-experiment
+[2024-05-20 15:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: box-sdk-gen
+[2024-05-20 15:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FileWriterCLI
+[2024-05-20 15:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enk
+[2024-05-20 15:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: staddlingz
+[2024-05-20 15:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: beignet
+[2024-05-20 15:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djangoldp-energiepartagee
+[2024-05-20 15:45:35] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-20 15:45:36] WARNING root fetch - processPackages [FileWriterCLI]: Skipping, unable to determine old version
+[2024-05-20 15:45:36] INFO root fetch - main [MainThread]: End processing [FileWriterCLI] error
+[2024-05-20 15:45:36] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-20 15:45:36] INFO root fetch - processPackages [enk]: New version: [0.2.0] Old Version: [0.1]
+[2024-05-20 15:45:36] WARNING root fetch - processPackages [staddlingz]: Skipping, unable to determine old version
+[2024-05-20 15:45:36] INFO root fetch - main [MainThread]: End processing [staddlingz] error
+[2024-05-20 15:45:36] INFO root fetch - processPackages [beignet]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 15:45:36] INFO root fetch - processPackages [box-sdk-gen]: New version: [1.0.0] Old Version: [0.6.5]
+[2024-05-20 15:45:36] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-20 15:45:36] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: Downloading https://files.pythonhosted.org/packages/a1/6e/1dacaae3914f126a514296a07ba506d6e9420086eea087f39ee93a15c8b0/mlrun_pipelines_kfp_v1_8_experiment-0.2.2.tar.gz
+[2024-05-20 15:45:36] INFO root fetch - processPackages [enk]: Downloading https://files.pythonhosted.org/packages/11/be/359c4dc964e293207cd21a4d3670257f30c26415a9b6f7937b38a097b3b5/enk-0.1.tar.gz
+[2024-05-20 15:45:36] INFO root fetch - processPackages [box-sdk-gen]: Downloading https://files.pythonhosted.org/packages/5f/5b/354c68c2057da9de19ffd903b57028b50407b51c67aac73fb4cf0780ff74/box_sdk_gen-0.6.5.tar.gz
+[2024-05-20 15:45:36] INFO root fetch - processPackages [beignet]: Downloading https://files.pythonhosted.org/packages/9c/10/582bf77318b9384ef346f1db1492dbf3b3d3e8241b0882ff8e8c83b84d7d/beignet-0.0.2.tar.gz
+[2024-05-20 15:45:36] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-20 15:45:36] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-20 15:45:36] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240520/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-20 15:45:36] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: Downloading https://files.pythonhosted.org/packages/c9/bd/a2b83d450f41527ba0208f41743e3eaa0770528e924584feb822f646ff4b/mlrun_pipelines_kfp_v1_8_experiment-0.2.3.tar.gz
+[2024-05-20 15:45:36] INFO root fetch - processPackages [enk]: Downloading https://files.pythonhosted.org/packages/7a/0d/e6559fe237b0421301a6c889317819f7ed3f02965b380e14049cb1cf10d5/enk-0.2.0.tar.gz
+[2024-05-20 15:45:36] INFO root fetch - processPackages [beignet]: Downloading https://files.pythonhosted.org/packages/83/8e/1b39bdc678a3352d236180e3bbf5a863973b990b5e438cdc99d5d068773f/beignet-0.0.3.tar.gz
+[2024-05-20 15:45:36] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: executing diffoscope
+[2024-05-20 15:45:36] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun_pipelines_kfp_v1_8_experiment-0.2.2.tar.gz tmp/mlrun_pipelines_kfp_v1_8_experiment-0.2.3.tar.gz --markdown 20240520/m/mlrun-pipelines-kfp-v1-8-experiment/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-20 15:45:36] INFO root fetch - processPackages [enk]: executing diffoscope
+[2024-05-20 15:45:36] INFO root fetch - processPackages [enk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enk-0.1.tar.gz tmp/enk-0.2.0.tar.gz --markdown 20240520/e/enk/0.1-0.2.0/README.md --exclude *.pyd
+[2024-05-20 15:45:36] INFO root fetch - processPackages [beignet]: executing diffoscope
+[2024-05-20 15:45:36] INFO root fetch - processPackages [beignet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beignet-0.0.2.tar.gz tmp/beignet-0.0.3.tar.gz --markdown 20240520/b/beignet/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 15:45:37] INFO root fetch - processPackages [enk]: Remove: archive file [/home/abi/fetcher/tmp/enk-0.1.tar.gz]
+[2024-05-20 15:45:37] INFO root fetch - processPackages [enk]: Remove: archive file [/home/abi/fetcher/tmp/enk-0.2.0.tar.gz]
+[2024-05-20 15:45:37] INFO root fetch - main [MainThread]: End processing [enk]: success
+[2024-05-20 15:45:37] INFO root fetch - processPackages [beignet]: Remove: archive file [/home/abi/fetcher/tmp/beignet-0.0.2.tar.gz]
+[2024-05-20 15:45:37] INFO root fetch - processPackages [beignet]: Remove: archive file [/home/abi/fetcher/tmp/beignet-0.0.3.tar.gz]
+[2024-05-20 15:45:37] INFO root fetch - main [MainThread]: End processing [beignet]: success
+[2024-05-20 15:45:37] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: Remove: archive file [/home/abi/fetcher/tmp/mlrun_pipelines_kfp_v1_8_experiment-0.2.2.tar.gz]
+[2024-05-20 15:45:37] INFO root fetch - processPackages [mlrun-pipelines-kfp-v1-8-experiment]: Remove: archive file [/home/abi/fetcher/tmp/mlrun_pipelines_kfp_v1_8_experiment-0.2.3.tar.gz]
+[2024-05-20 15:45:37] INFO root fetch - main [MainThread]: End processing [mlrun-pipelines-kfp-v1-8-experiment]: success
+[2024-05-20 15:45:37] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-20 15:45:37] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-20 15:45:37] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-20 15:45:37] INFO root fetch - processPackages [box-sdk-gen]: Downloading https://files.pythonhosted.org/packages/f4/0a/6787615217027690935ea80c7f0b1eb228cf8a6238c48019209a8324e035/box_sdk_gen-1.0.0.tar.gz
+[2024-05-20 15:45:37] INFO root fetch - processPackages [box-sdk-gen]: executing diffoscope
+[2024-05-20 15:45:37] INFO root fetch - processPackages [box-sdk-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/box_sdk_gen-0.6.5.tar.gz tmp/box_sdk_gen-1.0.0.tar.gz --markdown 20240520/b/box-sdk-gen/0.6.5-1.0.0/README.md --exclude *.pyd
+[2024-05-20 15:45:39] INFO root fetch - processPackages [box-sdk-gen]: Remove: archive file [/home/abi/fetcher/tmp/box_sdk_gen-0.6.5.tar.gz]
+[2024-05-20 15:45:39] INFO root fetch - processPackages [box-sdk-gen]: Remove: archive file [/home/abi/fetcher/tmp/box_sdk_gen-1.0.0.tar.gz]
+[2024-05-20 15:45:39] INFO root fetch - main [MainThread]: End processing [box-sdk-gen]: success
+[2024-05-20 15:45:39] INFO root fetch - main [MainThread]: Store serial: [23290487]

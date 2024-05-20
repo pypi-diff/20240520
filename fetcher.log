@@ -6185,3 +6185,54 @@
 [2024-05-20 06:06:13] ERROR root fetch - processPackages [cloudcheck]: Timeout during execution of pkgdiff
 [2024-05-20 06:06:13] INFO root fetch - main [MainThread]: End processing [cloudcheck] error
 [2024-05-20 06:06:13] INFO root fetch - main [MainThread]: Store serial: [23284322]
+[2024-05-20 06:08:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284322]
+[2024-05-20 06:08:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 06:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yambs
+[2024-05-20 06:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-config-sync
+[2024-05-20 06:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chromedriver-binary
+[2024-05-20 06:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: named-arrays
+[2024-05-20 06:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py50
+[2024-05-20 06:08:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trusteez
+[2024-05-20 06:08:21] INFO root fetch - processPackages [py50]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-20 06:08:21] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-20 06:08:21] WARNING root fetch - processPackages [trusteez]: Skipping, unable to determine old version
+[2024-05-20 06:08:21] INFO root fetch - main [MainThread]: End processing [trusteez] error
+[2024-05-20 06:08:21] INFO root fetch - processPackages [py50]: Downloading https://files.pythonhosted.org/packages/af/94/9ecb346c9763c21442a8906a0c30b15ab94c58a9d1cbf78e6d7e69454b23/py50-1.0.4.tar.gz
+[2024-05-20 06:08:21] INFO root fetch - processPackages [simple-config-sync]: New version: [0.1.5] Old Version: [0.1.13]
+[2024-05-20 06:08:21] INFO root fetch - processPackages [named-arrays]: New version: [0.4.0] Old Version: [0.3.7]
+[2024-05-20 06:08:21] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-20 06:08:21] INFO root fetch - processPackages [simple-config-sync]: Downloading https://files.pythonhosted.org/packages/98/1f/6660716707a1ad337fa838d923e42897236a9add5bcac97764a4ce90a884/simple_config_sync-0.1.13.tar.gz
+[2024-05-20 06:08:22] INFO root fetch - processPackages [named-arrays]: Downloading https://files.pythonhosted.org/packages/d4/79/5d9c585d0744dd0a4efe8a47b9438ad216e3539bc8338f66dc3774e5af32/named-arrays-0.3.7.tar.gz
+[2024-05-20 06:08:22] INFO root fetch - processPackages [py50]: Downloading https://files.pythonhosted.org/packages/e6/53/8347df2e68635487264c60139aafb5f3fbe0d99c302e587109e5508ab444/py50-1.0.5.tar.gz
+[2024-05-20 06:08:22] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-20 06:08:22] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-20 06:08:22] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240520/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-20 06:08:22] INFO root fetch - processPackages [py50]: executing diffoscope
+[2024-05-20 06:08:22] INFO root fetch - processPackages [py50]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py50-1.0.4.tar.gz tmp/py50-1.0.5.tar.gz --markdown 20240520/p/py50/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-20 06:08:22] INFO root fetch - processPackages [simple-config-sync]: Downloading https://files.pythonhosted.org/packages/b2/13/7a1ff7e1809ac510e78dbc67e1e583362e9b8de3b9a0fdb63bb9a40ff77e/simple_config_sync-0.1.5.tar.gz
+[2024-05-20 06:08:22] INFO root fetch - processPackages [yambs]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-05-20 06:08:22] INFO root fetch - processPackages [named-arrays]: Downloading https://files.pythonhosted.org/packages/bd/d5/6f18b9f36598cc3ac460da4305219a568a28d627eda326dd5f64417082b6/named_arrays-0.4.0.tar.gz
+[2024-05-20 06:08:22] INFO root fetch - processPackages [simple-config-sync]: executing diffoscope
+[2024-05-20 06:08:22] INFO root fetch - processPackages [simple-config-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_config_sync-0.1.13.tar.gz tmp/simple_config_sync-0.1.5.tar.gz --markdown 20240520/s/simple-config-sync/0.1.13-0.1.5/README.md --exclude *.pyd
+[2024-05-20 06:08:22] INFO root fetch - processPackages [named-arrays]: executing diffoscope
+[2024-05-20 06:08:22] INFO root fetch - processPackages [named-arrays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/named-arrays-0.3.7.tar.gz tmp/named_arrays-0.4.0.tar.gz --markdown 20240520/n/named-arrays/0.3.7-0.4.0/README.md --exclude *.pyd
+[2024-05-20 06:08:22] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/4e/45/49fc229502501202ae93710e6dee75f6054f4f0facf10489f72f241b69b6/yambs-3.0.2.tar.gz
+[2024-05-20 06:08:22] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-05-20 06:08:22] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-05-20 06:08:22] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-20 06:08:22] INFO root fetch - processPackages [py50]: Remove: archive file [/home/abi/fetcher/tmp/py50-1.0.4.tar.gz]
+[2024-05-20 06:08:22] INFO root fetch - processPackages [py50]: Remove: archive file [/home/abi/fetcher/tmp/py50-1.0.5.tar.gz]
+[2024-05-20 06:08:22] INFO root fetch - main [MainThread]: End processing [py50]: success
+[2024-05-20 06:08:22] INFO root fetch - processPackages [yambs]: Downloading https://files.pythonhosted.org/packages/7b/c4/0ae641432ffe6d6f1e262009218ffebcd1bf01378aadaafff447abfa6b72/yambs-3.0.3.tar.gz
+[2024-05-20 06:08:22] INFO root fetch - processPackages [simple-config-sync]: Remove: archive file [/home/abi/fetcher/tmp/simple_config_sync-0.1.13.tar.gz]
+[2024-05-20 06:08:22] INFO root fetch - processPackages [simple-config-sync]: Remove: archive file [/home/abi/fetcher/tmp/simple_config_sync-0.1.5.tar.gz]
+[2024-05-20 06:08:22] INFO root fetch - main [MainThread]: End processing [simple-config-sync]: success
+[2024-05-20 06:08:23] INFO root fetch - processPackages [yambs]: executing diffoscope
+[2024-05-20 06:08:23] INFO root fetch - processPackages [yambs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yambs-3.0.2.tar.gz tmp/yambs-3.0.3.tar.gz --markdown 20240520/y/yambs/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-05-20 06:08:23] INFO root fetch - processPackages [named-arrays]: Remove: archive file [/home/abi/fetcher/tmp/named-arrays-0.3.7.tar.gz]
+[2024-05-20 06:08:23] INFO root fetch - processPackages [named-arrays]: Remove: archive file [/home/abi/fetcher/tmp/named_arrays-0.4.0.tar.gz]
+[2024-05-20 06:08:23] INFO root fetch - main [MainThread]: End processing [named-arrays]: success
+[2024-05-20 06:08:23] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-3.0.2.tar.gz]
+[2024-05-20 06:08:23] INFO root fetch - processPackages [yambs]: Remove: archive file [/home/abi/fetcher/tmp/yambs-3.0.3.tar.gz]
+[2024-05-20 06:08:23] INFO root fetch - main [MainThread]: End processing [yambs]: success
+[2024-05-20 06:08:23] INFO root fetch - main [MainThread]: Store serial: [23284340]

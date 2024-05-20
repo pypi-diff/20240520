@@ -20080,3 +20080,90 @@ EOFError: EOF read where object expected
 [2024-05-20 16:17:56] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
 [2024-05-20 16:17:56] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
 [2024-05-20 16:17:56] INFO root fetch - main [MainThread]: Store serial: [23290969]
+[2024-05-20 16:20:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290969]
+[2024-05-20 16:20:06] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-20 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matematikk
+[2024-05-20 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slot-can
+[2024-05-20 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: weba
+[2024-05-20 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygmtsar
+[2024-05-20 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calc-ultra
+[2024-05-20 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: api-deezer-full
+[2024-05-20 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-platform-helper
+[2024-05-20 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DPRED
+[2024-05-20 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TreeSAK
+[2024-05-20 16:20:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: g3tables
+[2024-05-20 16:20:07] WARNING root fetch - processPackages [slot-can]: Skipping, unable to determine old version
+[2024-05-20 16:20:07] INFO root fetch - main [MainThread]: End processing [slot-can] error
+[2024-05-20 16:20:07] INFO root fetch - processPackages [matematikk]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-20 16:20:07] INFO root fetch - processPackages [calc-ultra]: New version: [1.3.7] Old Version: [1.3.6]
+[2024-05-20 16:20:07] INFO root fetch - processPackages [weba]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 16:20:07] INFO root fetch - processPackages [dbt-platform-helper]: New version: [8.3.0] Old Version: [8.2.1]
+[2024-05-20 16:20:07] INFO root fetch - processPackages [api-deezer-full]: New version: [0.0.1b37] Old Version: [0.0.1b36]
+[2024-05-20 16:20:07] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/b9/0f/0e2ea1c838d839f658d451461a2f978947f6ab41a8f4e102104cc5b587a8/matematikk-0.0.98.tar.gz
+[2024-05-20 16:20:07] INFO root fetch - processPackages [DPRED]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 16:20:07] INFO root fetch - processPackages [g3tables]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-20 16:20:07] INFO root fetch - processPackages [pygmtsar]: New version: [2024.4.17.post8] Old Version: [2024.4.17.post6]
+[2024-05-20 16:20:07] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-20 16:20:07] INFO root fetch - processPackages [api-deezer-full]: Downloading https://files.pythonhosted.org/packages/68/bb/2659980ae7711d1c832f7f8bec734833204722c6fac3a70f56ae4460afa6/api_deezer_full-0.0.1b36.tar.gz
+[2024-05-20 16:20:07] INFO root fetch - processPackages [calc-ultra]: Downloading https://files.pythonhosted.org/packages/bc/c9/dd5634ea541898e6eca1a0ff7973ab8171fad528431a8642eea0af3f383e/calc_ultra-1.3.6.tar.gz
+[2024-05-20 16:20:07] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/ba/d1/907a2303ec8d0c4c2f01a0d2f9fd6e3de3387f6c25c32de3800152e437fb/matematikk-0.0.99.tar.gz
+[2024-05-20 16:20:07] INFO root fetch - processPackages [dbt-platform-helper]: Downloading https://files.pythonhosted.org/packages/1b/c2/b54d965a3a5949345e5f6b9f7e4385d85e6b79bfa846fd2c44941729725f/dbt_platform_helper-8.2.1.tar.gz
+[2024-05-20 16:20:07] INFO root fetch - processPackages [DPRED]: Downloading https://files.pythonhosted.org/packages/a3/c2/05080b07eb0abed7b2bdc8f49cfe84568d475d6d1520706f1120891eb618/DPRED-1.0.2.tar.gz
+[2024-05-20 16:20:07] INFO root fetch - processPackages [weba]: Downloading https://files.pythonhosted.org/packages/ae/24/e1aa2777a04f5f4f0dd14e494fd6eef05934d7c4f4da63844760afa3afb4/weba-0.0.8.tar.gz
+[2024-05-20 16:20:07] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-05-20 16:20:07] INFO root fetch - processPackages [pygmtsar]: Downloading https://files.pythonhosted.org/packages/36/9c/13fc01ae2eee19361162092bfa73e9e004856aee3ef268e53fa6e1999f8e/pygmtsar-2024.4.17.post6.tar.gz
+[2024-05-20 16:20:07] INFO root fetch - processPackages [g3tables]: Downloading https://files.pythonhosted.org/packages/a3/70/00efb2219e1c419118eaa54e20b322f7d98f78e52b5339c679d6d291dd61/g3tables-0.2.4.tar.gz
+[2024-05-20 16:20:07] INFO root fetch - processPackages [matematikk]: executing diffoscope
+[2024-05-20 16:20:07] INFO root fetch - processPackages [matematikk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matematikk-0.0.98.tar.gz tmp/matematikk-0.0.99.tar.gz --markdown 20240520/m/matematikk/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-20 16:20:07] INFO root fetch - processPackages [api-deezer-full]: Downloading https://files.pythonhosted.org/packages/32/af/13cc5dcbd8b6c4bbc584b302d4d12319ab295e0b03cf0a5a30cb16859ab7/api_deezer_full-0.0.1b37.tar.gz
+[2024-05-20 16:20:07] INFO root fetch - processPackages [calc-ultra]: Downloading https://files.pythonhosted.org/packages/30/8a/91c016d57bd35ceaaeb83e96470ac973ca330ce4c77dd4b6e9871400733b/calc_ultra-1.3.7.tar.gz
+[2024-05-20 16:20:07] INFO root fetch - processPackages [g3tables]: Downloading https://files.pythonhosted.org/packages/4d/6d/8f9e4974e16ab1606cdf623388f6df02a659d05ec6dd6298bc592a930205/g3tables-0.2.5.tar.gz
+[2024-05-20 16:20:07] INFO root fetch - processPackages [dbt-platform-helper]: Downloading https://files.pythonhosted.org/packages/43/f4/bcf7f12996d8342badae2c57cdce380ac496e7f43f16b6a58759a22ad60b/dbt_platform_helper-8.3.0.tar.gz
+[2024-05-20 16:20:07] INFO root fetch - processPackages [DPRED]: Downloading https://files.pythonhosted.org/packages/92/65/6e07df7276b488e037d385e128b83575a6b7ef444c1805b1a241b0a04f81/DPRED-1.0.3.tar.gz
+[2024-05-20 16:20:07] INFO root fetch - processPackages [weba]: Downloading https://files.pythonhosted.org/packages/1d/f8/07d2de1cb43b86bc39abfea5527c766888ce0adb2b79600ff4a1a84b1720/weba-0.0.9.tar.gz
+[2024-05-20 16:20:07] INFO root fetch - processPackages [pygmtsar]: Downloading https://files.pythonhosted.org/packages/5e/10/fc7b6429f655eb010796654d6ebb795beccc9519690a19c1da1777a67a44/pygmtsar-2024.4.17.post8.tar.gz
+[2024-05-20 16:20:08] INFO root fetch - processPackages [api-deezer-full]: executing diffoscope
+[2024-05-20 16:20:08] INFO root fetch - processPackages [api-deezer-full]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_deezer_full-0.0.1b36.tar.gz tmp/api_deezer_full-0.0.1b37.tar.gz --markdown 20240520/a/api-deezer-full/0.0.1b36-0.0.1b37/README.md --exclude *.pyd
+[2024-05-20 16:20:08] INFO root fetch - processPackages [calc-ultra]: executing diffoscope
+[2024-05-20 16:20:08] INFO root fetch - processPackages [calc-ultra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calc_ultra-1.3.6.tar.gz tmp/calc_ultra-1.3.7.tar.gz --markdown 20240520/c/calc-ultra/1.3.6-1.3.7/README.md --exclude *.pyd
+[2024-05-20 16:20:08] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-05-20 16:20:08] INFO root fetch - processPackages [g3tables]: executing diffoscope
+[2024-05-20 16:20:08] INFO root fetch - processPackages [g3tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3tables-0.2.4.tar.gz tmp/g3tables-0.2.5.tar.gz --markdown 20240520/g/g3tables/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-20 16:20:08] INFO root fetch - processPackages [weba]: executing diffoscope
+[2024-05-20 16:20:08] INFO root fetch - processPackages [weba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weba-0.0.8.tar.gz tmp/weba-0.0.9.tar.gz --markdown 20240520/w/weba/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 16:20:08] INFO root fetch - processPackages [dbt-platform-helper]: executing diffoscope
+[2024-05-20 16:20:08] INFO root fetch - processPackages [dbt-platform-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_platform_helper-8.2.1.tar.gz tmp/dbt_platform_helper-8.3.0.tar.gz --markdown 20240520/d/dbt-platform-helper/8.2.1-8.3.0/README.md --exclude *.pyd
+[2024-05-20 16:20:08] INFO root fetch - processPackages [pygmtsar]: executing diffoscope
+[2024-05-20 16:20:08] INFO root fetch - processPackages [pygmtsar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtsar-2024.4.17.post6.tar.gz tmp/pygmtsar-2024.4.17.post8.tar.gz --markdown 20240520/p/pygmtsar/2024.4.17.post6-2024.4.17.post8/README.md --exclude *.pyd
+[2024-05-20 16:20:08] INFO root fetch - processPackages [DPRED]: executing diffoscope
+[2024-05-20 16:20:08] INFO root fetch - processPackages [DPRED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DPRED-1.0.2.tar.gz tmp/DPRED-1.0.3.tar.gz --markdown 20240520/D/DPRED/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 16:20:08] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-05-20 16:20:08] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240520/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-20 16:20:08] INFO root fetch - processPackages [calc-ultra]: Remove: archive file [/home/abi/fetcher/tmp/calc_ultra-1.3.6.tar.gz]
+[2024-05-20 16:20:08] INFO root fetch - processPackages [calc-ultra]: Remove: archive file [/home/abi/fetcher/tmp/calc_ultra-1.3.7.tar.gz]
+[2024-05-20 16:20:08] INFO root fetch - main [MainThread]: End processing [calc-ultra]: success
+[2024-05-20 16:20:09] INFO root fetch - processPackages [api-deezer-full]: Remove: archive file [/home/abi/fetcher/tmp/api_deezer_full-0.0.1b36.tar.gz]
+[2024-05-20 16:20:09] INFO root fetch - processPackages [api-deezer-full]: Remove: archive file [/home/abi/fetcher/tmp/api_deezer_full-0.0.1b37.tar.gz]
+[2024-05-20 16:20:09] INFO root fetch - main [MainThread]: End processing [api-deezer-full]: success
+[2024-05-20 16:20:09] INFO root fetch - processPackages [g3tables]: Remove: archive file [/home/abi/fetcher/tmp/g3tables-0.2.4.tar.gz]
+[2024-05-20 16:20:09] INFO root fetch - processPackages [g3tables]: Remove: archive file [/home/abi/fetcher/tmp/g3tables-0.2.5.tar.gz]
+[2024-05-20 16:20:09] INFO root fetch - main [MainThread]: End processing [g3tables]: success
+[2024-05-20 16:20:09] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-05-20 16:20:09] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-05-20 16:20:09] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-05-20 16:20:09] INFO root fetch - processPackages [DPRED]: Remove: archive file [/home/abi/fetcher/tmp/DPRED-1.0.2.tar.gz]
+[2024-05-20 16:20:09] INFO root fetch - processPackages [DPRED]: Remove: archive file [/home/abi/fetcher/tmp/DPRED-1.0.3.tar.gz]
+[2024-05-20 16:20:09] INFO root fetch - main [MainThread]: End processing [DPRED]: success
+[2024-05-20 16:20:09] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.98.tar.gz]
+[2024-05-20 16:20:09] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.99.tar.gz]
+[2024-05-20 16:20:09] INFO root fetch - main [MainThread]: End processing [matematikk]: success
+[2024-05-20 16:20:09] INFO root fetch - processPackages [dbt-platform-helper]: Remove: archive file [/home/abi/fetcher/tmp/dbt_platform_helper-8.2.1.tar.gz]
+[2024-05-20 16:20:09] INFO root fetch - processPackages [dbt-platform-helper]: Remove: archive file [/home/abi/fetcher/tmp/dbt_platform_helper-8.3.0.tar.gz]
+[2024-05-20 16:20:09] INFO root fetch - main [MainThread]: End processing [dbt-platform-helper]: success
+[2024-05-20 16:20:09] INFO root fetch - processPackages [pygmtsar]: Remove: archive file [/home/abi/fetcher/tmp/pygmtsar-2024.4.17.post6.tar.gz]
+[2024-05-20 16:20:09] INFO root fetch - processPackages [pygmtsar]: Remove: archive file [/home/abi/fetcher/tmp/pygmtsar-2024.4.17.post8.tar.gz]
+[2024-05-20 16:20:09] INFO root fetch - main [MainThread]: End processing [pygmtsar]: success
+[2024-05-20 16:20:09] INFO root fetch - processPackages [weba]: Remove: archive file [/home/abi/fetcher/tmp/weba-0.0.8.tar.gz]
+[2024-05-20 16:20:09] INFO root fetch - processPackages [weba]: Remove: archive file [/home/abi/fetcher/tmp/weba-0.0.9.tar.gz]
+[2024-05-20 16:20:09] INFO root fetch - main [MainThread]: End processing [weba]: success
+[2024-05-20 16:20:09] INFO root fetch - main [MainThread]: Store serial: [23291000]

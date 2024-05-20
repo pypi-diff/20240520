@@ -8026,3 +8026,21 @@
 [2024-05-20 08:11:55] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.9.tar.gz]
 [2024-05-20 08:11:55] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
 [2024-05-20 08:11:55] INFO root fetch - main [MainThread]: Store serial: [23285328]
+[2024-05-20 08:13:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285328]
+[2024-05-20 08:14:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 08:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rnavirhost
+[2024-05-20 08:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wenxian
+[2024-05-20 08:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-proxy
+[2024-05-20 08:14:04] WARNING root fetch - processPackages [rnavirhost]: Skipping, unable to determine old version
+[2024-05-20 08:14:04] INFO root fetch - main [MainThread]: End processing [rnavirhost] error
+[2024-05-20 08:14:04] INFO root fetch - processPackages [simple-proxy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 08:14:04] WARNING root fetch - processPackages [wenxian]: Skipping, unable to determine old version
+[2024-05-20 08:14:04] INFO root fetch - main [MainThread]: End processing [wenxian] error
+[2024-05-20 08:14:04] INFO root fetch - processPackages [simple-proxy]: Downloading https://files.pythonhosted.org/packages/49/1d/cbf4887d77a2dc2df6e5ed84c98173252f3c522e1c14a255b8afebbf022c/simple-proxy-0.0.8.tar.gz
+[2024-05-20 08:14:04] INFO root fetch - processPackages [simple-proxy]: Downloading https://files.pythonhosted.org/packages/2c/e2/942536adfc644996ed1ca3033f3077d97ddaa5e52a8af31c6ea363c7a77e/simple-proxy-0.0.9.tar.gz
+[2024-05-20 08:14:05] INFO root fetch - processPackages [simple-proxy]: executing diffoscope
+[2024-05-20 08:14:05] INFO root fetch - processPackages [simple-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-proxy-0.0.8.tar.gz tmp/simple-proxy-0.0.9.tar.gz --markdown 20240520/s/simple-proxy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 08:14:05] INFO root fetch - processPackages [simple-proxy]: Remove: archive file [/home/abi/fetcher/tmp/simple-proxy-0.0.8.tar.gz]
+[2024-05-20 08:14:05] INFO root fetch - processPackages [simple-proxy]: Remove: archive file [/home/abi/fetcher/tmp/simple-proxy-0.0.9.tar.gz]
+[2024-05-20 08:14:05] INFO root fetch - main [MainThread]: End processing [simple-proxy]: success
+[2024-05-20 08:14:05] INFO root fetch - main [MainThread]: Store serial: [23285342]

@@ -7858,3 +7858,30 @@
 [2024-05-20 07:58:50] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.9-py3-none-any.whl.zip]
 [2024-05-20 07:58:50] INFO root fetch - main [MainThread]: End processing [finter]: success
 [2024-05-20 07:58:50] INFO root fetch - main [MainThread]: Store serial: [23285266]
+[2024-05-20 08:00:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285266]
+[2024-05-20 08:00:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 08:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reasonify-headless
+[2024-05-20 08:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: disaccomodatez
+[2024-05-20 08:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CLI-APP-DIRECTORY
+[2024-05-20 08:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: identity
+[2024-05-20 08:00:59] INFO root fetch - processPackages [reasonify-headless]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2024-05-20 08:00:59] INFO root fetch - processPackages [reasonify-headless]: Downloading https://files.pythonhosted.org/packages/2a/d3/a372d35b172417e1add916110e2c0cfd70a8185865612e715d058d307139/reasonify_headless-0.1.0a4.tar.gz
+[2024-05-20 08:00:59] INFO root fetch - processPackages [identity]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-20 08:00:59] WARNING root fetch - processPackages [CLI-APP-DIRECTORY]: Skipping, unable to determine old version
+[2024-05-20 08:00:59] INFO root fetch - main [MainThread]: End processing [CLI-APP-DIRECTORY] error
+[2024-05-20 08:00:59] WARNING root fetch - processPackages [disaccomodatez]: Skipping, unable to determine old version
+[2024-05-20 08:00:59] INFO root fetch - main [MainThread]: End processing [disaccomodatez] error
+[2024-05-20 08:01:00] INFO root fetch - processPackages [identity]: Downloading https://files.pythonhosted.org/packages/48/fa/6c58e1a67f75ea8b19cf3f5b157fd99c777ae7b4c67508c1e3701708ac1e/identity-0.7.0.tar.gz
+[2024-05-20 08:01:00] INFO root fetch - processPackages [reasonify-headless]: Downloading https://files.pythonhosted.org/packages/74/61/032e1b7790b14425a350cc83760fd6ddcf5bbecab32e4caab1a61dc46773/reasonify_headless-0.1.0a5.tar.gz
+[2024-05-20 08:01:00] INFO root fetch - processPackages [reasonify-headless]: executing diffoscope
+[2024-05-20 08:01:00] INFO root fetch - processPackages [reasonify-headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasonify_headless-0.1.0a4.tar.gz tmp/reasonify_headless-0.1.0a5.tar.gz --markdown 20240520/r/reasonify-headless/0.1.0a4-0.1.0a5/README.md --exclude *.pyd
+[2024-05-20 08:01:00] INFO root fetch - processPackages [identity]: Downloading https://files.pythonhosted.org/packages/a4/38/7574383d9337f351dd9b55fc52015b9db24ab15301be084cb20befd565c8/identity-0.8.0.tar.gz
+[2024-05-20 08:01:00] INFO root fetch - processPackages [identity]: executing diffoscope
+[2024-05-20 08:01:00] INFO root fetch - processPackages [identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/identity-0.7.0.tar.gz tmp/identity-0.8.0.tar.gz --markdown 20240520/i/identity/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-20 08:01:00] INFO root fetch - processPackages [reasonify-headless]: Remove: archive file [/home/abi/fetcher/tmp/reasonify_headless-0.1.0a4.tar.gz]
+[2024-05-20 08:01:00] INFO root fetch - processPackages [reasonify-headless]: Remove: archive file [/home/abi/fetcher/tmp/reasonify_headless-0.1.0a5.tar.gz]
+[2024-05-20 08:01:00] INFO root fetch - main [MainThread]: End processing [reasonify-headless]: success
+[2024-05-20 08:01:01] INFO root fetch - processPackages [identity]: Remove: archive file [/home/abi/fetcher/tmp/identity-0.7.0.tar.gz]
+[2024-05-20 08:01:01] INFO root fetch - processPackages [identity]: Remove: archive file [/home/abi/fetcher/tmp/identity-0.8.0.tar.gz]
+[2024-05-20 08:01:01] INFO root fetch - main [MainThread]: End processing [identity]: success
+[2024-05-20 08:01:01] INFO root fetch - main [MainThread]: Store serial: [23285284]

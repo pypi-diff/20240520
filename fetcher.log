@@ -17539,3 +17539,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 14:56:34] INFO root fetch - processPackages [valens]: Remove: archive file [/home/abi/fetcher/tmp/valens-0.4.1.tar.gz]
 [2024-05-20 14:56:34] INFO root fetch - main [MainThread]: End processing [valens]: success
 [2024-05-20 14:56:34] INFO root fetch - main [MainThread]: Store serial: [23289840]
+[2024-05-20 14:58:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289840]
+[2024-05-20 14:58:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 14:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytranscript
+[2024-05-20 14:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: filecrusher
+[2024-05-20 14:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyzuoyz
+[2024-05-20 14:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-identity-sdk
+[2024-05-20 14:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uploadthing.py
+[2024-05-20 14:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pikaur
+[2024-05-20 14:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pykolofinance
+[2024-05-20 14:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hypertragicz
+[2024-05-20 14:58:44] INFO root fetch - processPackages [pytranscript]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-20 14:58:44] WARNING root fetch - processPackages [filecrusher]: Skipping, unable to determine old version
+[2024-05-20 14:58:44] INFO root fetch - main [MainThread]: End processing [filecrusher] error
+[2024-05-20 14:58:44] INFO root fetch - processPackages [uploadthing.py]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-20 14:58:44] INFO root fetch - processPackages [pyzuoyz]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-20 14:58:44] WARNING root fetch - processPackages [pykolofinance]: Skipping, unable to determine old version
+[2024-05-20 14:58:44] INFO root fetch - main [MainThread]: End processing [pykolofinance] error
+[2024-05-20 14:58:44] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-20 14:58:44] INFO root fetch - processPackages [pytranscript]: Downloading https://files.pythonhosted.org/packages/81/71/8e37fa5d7dd7a18c398faab66350f763b0c5454fed8d5c9612000814846c/pytranscript-0.2.1.tar.gz
+[2024-05-20 14:58:44] WARNING root fetch - processPackages [hypertragicz]: Skipping, unable to determine old version
+[2024-05-20 14:58:44] INFO root fetch - main [MainThread]: End processing [hypertragicz] error
+[2024-05-20 14:58:44] INFO root fetch - processPackages [pyzuoyz]: Downloading https://files.pythonhosted.org/packages/8e/8c/4a47bc04b3173439eeed787f44278b83539808dbfa0a853cb04b4636e7aa/pyzuoyz-0.1.4.tar.gz
+[2024-05-20 14:58:44] INFO root fetch - processPackages [pikaur]: New version: [1.9] Old Version: [1.8]
+[2024-05-20 14:58:44] INFO root fetch - processPackages [uploadthing.py]: Downloading https://files.pythonhosted.org/packages/79/81/2e5fa120c6b183d9a80d5c1f83898c15bfdbeb22e2f4bf3a19e004fd3791/uploadthing_py-0.1.2.tar.gz
+[2024-05-20 14:58:44] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-20 14:58:44] INFO root fetch - processPackages [pyzuoyz]: Downloading https://files.pythonhosted.org/packages/33/73/0a0dfd5756e4f11bc24deff9200893562ff930443ce5b81f72dfb8e387e0/pyzuoyz-0.1.5.tar.gz
+[2024-05-20 14:58:44] INFO root fetch - processPackages [pikaur]: Downloading https://files.pythonhosted.org/packages/18/a4/88b2f0d40d1e90fb8762febb4b163d5d637f36e293b9261e39bbe174c7d4/pikaur-1.8.tar.gz
+[2024-05-20 14:58:44] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-20 14:58:44] INFO root fetch - processPackages [pyzuoyz]: executing diffoscope
+[2024-05-20 14:58:44] INFO root fetch - processPackages [pyzuoyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzuoyz-0.1.4.tar.gz tmp/pyzuoyz-0.1.5.tar.gz --markdown 20240520/p/pyzuoyz/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-20 14:58:44] INFO root fetch - processPackages [uploadthing.py]: Downloading https://files.pythonhosted.org/packages/b8/b5/88b319143496f3b8a884b28cc6047341cf628aa98ab92cb7ec22fc804d85/uploadthing_py-0.2.0.tar.gz
+[2024-05-20 14:58:44] INFO root fetch - processPackages [pytranscript]: Downloading https://files.pythonhosted.org/packages/bb/39/b1827d588399f2933003d8cba7bc3e4d8eb32ca32a9cceebfd4e577ada17/pytranscript-0.2.2.tar.gz
+[2024-05-20 14:58:45] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-20 14:58:45] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240520/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-20 14:58:45] INFO root fetch - processPackages [uploadthing.py]: executing diffoscope
+[2024-05-20 14:58:45] INFO root fetch - processPackages [uploadthing.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uploadthing_py-0.1.2.tar.gz tmp/uploadthing_py-0.2.0.tar.gz --markdown 20240520/u/uploadthing.py/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-20 14:58:45] INFO root fetch - processPackages [pytranscript]: executing diffoscope
+[2024-05-20 14:58:45] INFO root fetch - processPackages [pytranscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytranscript-0.2.1.tar.gz tmp/pytranscript-0.2.2.tar.gz --markdown 20240520/p/pytranscript/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-20 14:58:45] INFO root fetch - processPackages [pikaur]: Downloading https://files.pythonhosted.org/packages/44/23/73dc076ab8b6b5f49dc34baca5c2cf564ccc21d12e63fafee3d7cc1f6bca/pikaur-1.9.tar.gz
+[2024-05-20 14:58:45] INFO root fetch - processPackages [pikaur]: executing diffoscope
+[2024-05-20 14:58:45] INFO root fetch - processPackages [pikaur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikaur-1.8.tar.gz tmp/pikaur-1.9.tar.gz --markdown 20240520/p/pikaur/1.8-1.9/README.md --exclude *.pyd
+[2024-05-20 14:58:45] INFO root fetch - processPackages [pyzuoyz]: Remove: archive file [/home/abi/fetcher/tmp/pyzuoyz-0.1.4.tar.gz]
+[2024-05-20 14:58:45] INFO root fetch - processPackages [pyzuoyz]: Remove: archive file [/home/abi/fetcher/tmp/pyzuoyz-0.1.5.tar.gz]
+[2024-05-20 14:58:45] INFO root fetch - main [MainThread]: End processing [pyzuoyz]: success
+[2024-05-20 14:58:45] INFO root fetch - processPackages [pytranscript]: Remove: archive file [/home/abi/fetcher/tmp/pytranscript-0.2.1.tar.gz]
+[2024-05-20 14:58:45] INFO root fetch - processPackages [pytranscript]: Remove: archive file [/home/abi/fetcher/tmp/pytranscript-0.2.2.tar.gz]
+[2024-05-20 14:58:45] INFO root fetch - main [MainThread]: End processing [pytranscript]: success
+[2024-05-20 14:58:45] INFO root fetch - processPackages [uploadthing.py]: Remove: archive file [/home/abi/fetcher/tmp/uploadthing_py-0.1.2.tar.gz]
+[2024-05-20 14:58:45] INFO root fetch - processPackages [uploadthing.py]: Remove: archive file [/home/abi/fetcher/tmp/uploadthing_py-0.2.0.tar.gz]
+[2024-05-20 14:58:45] INFO root fetch - main [MainThread]: End processing [uploadthing.py]: success
+[2024-05-20 14:58:45] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-20 14:58:45] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-20 14:58:45] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-20 14:58:46] INFO root fetch - processPackages [pikaur]: Remove: archive file [/home/abi/fetcher/tmp/pikaur-1.8.tar.gz]
+[2024-05-20 14:58:46] INFO root fetch - processPackages [pikaur]: Remove: archive file [/home/abi/fetcher/tmp/pikaur-1.9.tar.gz]
+[2024-05-20 14:58:46] INFO root fetch - main [MainThread]: End processing [pikaur]: success
+[2024-05-20 14:58:46] INFO root fetch - main [MainThread]: Store serial: [23289863]

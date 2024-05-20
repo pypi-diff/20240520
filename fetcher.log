@@ -10376,3 +10376,69 @@
 [2024-05-20 10:14:57] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
 [2024-05-20 10:14:57] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-20 10:14:57] INFO root fetch - main [MainThread]: Store serial: [23286681]
+[2024-05-20 10:17:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286681]
+[2024-05-20 10:17:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 10:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: divinegift
+[2024-05-20 10:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trio-bybit
+[2024-05-20 10:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: probe-design
+[2024-05-20 10:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flatpack
+[2024-05-20 10:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audiostack
+[2024-05-20 10:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rag4p
+[2024-05-20 10:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sais-notify
+[2024-05-20 10:17:06] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-20 10:17:06] INFO root fetch - processPackages [sais-notify]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-20 10:17:06] INFO root fetch - processPackages [trio-bybit]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-20 10:17:06] INFO root fetch - processPackages [audiostack]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-20 10:17:06] INFO root fetch - processPackages [rag4p]: New version: [0.3.0] Old Version: [0.2.4]
+[2024-05-20 10:17:06] INFO root fetch - processPackages [sais-notify]: Downloading https://files.pythonhosted.org/packages/db/2d/0902668081f3585c20cd02a0b9b290d1f8ee157dee1b74e791a35e77d10c/sais_notify-0.0.3.tar.gz
+[2024-05-20 10:17:06] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-20 10:17:06] INFO root fetch - processPackages [probe-design]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-20 10:17:06] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/93/4b/13bdbc028ce1d8e8b246ed6d66727de0a3b0b4eee685fcb51d9b6b80c6ed/trio_bybit-0.2.2.tar.gz
+[2024-05-20 10:17:06] INFO root fetch - processPackages [divinegift]: New version: [2.9.2.2] Old Version: [2.9.2.1]
+[2024-05-20 10:17:06] INFO root fetch - processPackages [rag4p]: Downloading https://files.pythonhosted.org/packages/53/ee/7b40d57aab289e973f36505b761583887011c776b3164712536f0cdcfdbd/rag4p-0.2.4.tar.gz
+[2024-05-20 10:17:06] INFO root fetch - processPackages [audiostack]: Downloading https://files.pythonhosted.org/packages/b0/e8/2a99db69e3f5afb7c02319d8b99c0110ae8a625e8abdb666bbdd3e28e202/audiostack-1.3.0.tar.gz
+[2024-05-20 10:17:07] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/e4/de/217073b59e430d72d25a28f92c27d4dcfed602224c5db64977da9995539e/probe_design-0.2.8.tar.gz
+[2024-05-20 10:17:07] INFO root fetch - processPackages [trio-bybit]: Downloading https://files.pythonhosted.org/packages/ec/54/c9ba55c72190ba4f1c4e803236df50a5c81f2e652e851c93554081a22c06/trio_bybit-0.2.3.tar.gz
+[2024-05-20 10:17:07] INFO root fetch - processPackages [divinegift]: Downloading https://files.pythonhosted.org/packages/20/54/9cd490ce912447c2d9c28af6ef4a7879ad6c4951e4146bfb5408537f3941/divinegift-2.9.2.1.tar.gz
+[2024-05-20 10:17:07] INFO root fetch - processPackages [sais-notify]: Downloading https://files.pythonhosted.org/packages/31/69/5d1b5c6e151ffd80a5850563eed3bd1520d439e4a8f80e123db69ca81acc/sais_notify-0.0.4.tar.gz
+[2024-05-20 10:17:07] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-20 10:17:07] INFO root fetch - processPackages [trio-bybit]: executing diffoscope
+[2024-05-20 10:17:07] INFO root fetch - processPackages [trio-bybit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trio_bybit-0.2.2.tar.gz tmp/trio_bybit-0.2.3.tar.gz --markdown 20240520/t/trio-bybit/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-20 10:17:07] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-20 10:17:07] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240520/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-20 10:17:07] INFO root fetch - processPackages [sais-notify]: executing diffoscope
+[2024-05-20 10:17:07] INFO root fetch - processPackages [sais-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify-0.0.3.tar.gz tmp/sais_notify-0.0.4.tar.gz --markdown 20240520/s/sais-notify/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-20 10:17:07] INFO root fetch - processPackages [rag4p]: Downloading https://files.pythonhosted.org/packages/f6/a8/7b56f4b84f9e9d5ea850f00d0f73a294cab10235e544c09aa785e49e9c82/rag4p-0.3.0.tar.gz
+[2024-05-20 10:17:07] INFO root fetch - processPackages [audiostack]: Downloading https://files.pythonhosted.org/packages/bf/63/3ad7ee2d9a2d4599420024bbe3ca423b4646b623fb5d0c6e570992b38588/audiostack-1.3.1.tar.gz
+[2024-05-20 10:17:07] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/56/10/4d2bc3f41506a6a5373b6d321509f939ebc56944086733654075c23adbba/probe_design-0.2.9.tar.gz
+[2024-05-20 10:17:07] INFO root fetch - processPackages [audiostack]: executing diffoscope
+[2024-05-20 10:17:07] INFO root fetch - processPackages [audiostack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiostack-1.3.0.tar.gz tmp/audiostack-1.3.1.tar.gz --markdown 20240520/a/audiostack/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-20 10:17:07] INFO root fetch - processPackages [divinegift]: Downloading https://files.pythonhosted.org/packages/2e/f4/a6b82fab8e04ce99fd85cffa08df2970b44a8b3b33c001530d8de0e99ff8/divinegift-2.9.2.2.tar.gz
+[2024-05-20 10:17:07] INFO root fetch - processPackages [rag4p]: executing diffoscope
+[2024-05-20 10:17:07] INFO root fetch - processPackages [rag4p]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rag4p-0.2.4.tar.gz tmp/rag4p-0.3.0.tar.gz --markdown 20240520/r/rag4p/0.2.4-0.3.0/README.md --exclude *.pyd
+[2024-05-20 10:17:07] INFO root fetch - processPackages [probe-design]: executing diffoscope
+[2024-05-20 10:17:07] INFO root fetch - processPackages [probe-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probe_design-0.2.8.tar.gz tmp/probe_design-0.2.9.tar.gz --markdown 20240520/p/probe-design/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-20 10:17:07] INFO root fetch - processPackages [divinegift]: executing diffoscope
+[2024-05-20 10:17:07] INFO root fetch - processPackages [divinegift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/divinegift-2.9.2.1.tar.gz tmp/divinegift-2.9.2.2.tar.gz --markdown 20240520/d/divinegift/2.9.2.1-2.9.2.2/README.md --exclude *.pyd
+[2024-05-20 10:17:07] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.2.2.tar.gz]
+[2024-05-20 10:17:07] INFO root fetch - processPackages [trio-bybit]: Remove: archive file [/home/abi/fetcher/tmp/trio_bybit-0.2.3.tar.gz]
+[2024-05-20 10:17:07] INFO root fetch - main [MainThread]: End processing [trio-bybit]: success
+[2024-05-20 10:17:07] INFO root fetch - processPackages [sais-notify]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify-0.0.3.tar.gz]
+[2024-05-20 10:17:07] INFO root fetch - processPackages [sais-notify]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify-0.0.4.tar.gz]
+[2024-05-20 10:17:07] INFO root fetch - main [MainThread]: End processing [sais-notify]: success
+[2024-05-20 10:17:08] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-20 10:17:08] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-20 10:17:08] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-20 10:17:08] INFO root fetch - processPackages [audiostack]: Remove: archive file [/home/abi/fetcher/tmp/audiostack-1.3.0.tar.gz]
+[2024-05-20 10:17:08] INFO root fetch - processPackages [audiostack]: Remove: archive file [/home/abi/fetcher/tmp/audiostack-1.3.1.tar.gz]
+[2024-05-20 10:17:08] INFO root fetch - main [MainThread]: End processing [audiostack]: success
+[2024-05-20 10:17:08] INFO root fetch - processPackages [rag4p]: Remove: archive file [/home/abi/fetcher/tmp/rag4p-0.2.4.tar.gz]
+[2024-05-20 10:17:08] INFO root fetch - processPackages [rag4p]: Remove: archive file [/home/abi/fetcher/tmp/rag4p-0.3.0.tar.gz]
+[2024-05-20 10:17:08] INFO root fetch - main [MainThread]: End processing [rag4p]: success
+[2024-05-20 10:17:08] INFO root fetch - processPackages [divinegift]: Remove: archive file [/home/abi/fetcher/tmp/divinegift-2.9.2.1.tar.gz]
+[2024-05-20 10:17:08] INFO root fetch - processPackages [divinegift]: Remove: archive file [/home/abi/fetcher/tmp/divinegift-2.9.2.2.tar.gz]
+[2024-05-20 10:17:08] INFO root fetch - main [MainThread]: End processing [divinegift]: success
+[2024-05-20 10:17:08] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.8.tar.gz]
+[2024-05-20 10:17:08] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.9.tar.gz]
+[2024-05-20 10:17:08] INFO root fetch - main [MainThread]: End processing [probe-design]: success
+[2024-05-20 10:17:08] INFO root fetch - main [MainThread]: Store serial: [23286702]

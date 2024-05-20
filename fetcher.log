@@ -16673,3 +16673,54 @@ EOFError: EOF read where object expected
 [2024-05-20 14:27:21] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.2.dev0.tar.gz]
 [2024-05-20 14:27:21] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
 [2024-05-20 14:27:21] INFO root fetch - main [MainThread]: Store serial: [23289481]
+[2024-05-20 14:29:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289481]
+[2024-05-20 14:29:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 14:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netlas
+[2024-05-20 14:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: no-cyclic-imports
+[2024-05-20 14:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trinitrotoluolz
+[2024-05-20 14:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sherlockpipe
+[2024-05-20 14:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: burial-mounds
+[2024-05-20 14:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyopenhc
+[2024-05-20 14:29:30] INFO root fetch - processPackages [burial-mounds]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-20 14:29:30] INFO root fetch - processPackages [pyopenhc]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 14:29:30] INFO root fetch - processPackages [no-cyclic-imports]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-05-20 14:29:30] WARNING root fetch - processPackages [trinitrotoluolz]: Skipping, unable to determine old version
+[2024-05-20 14:29:30] INFO root fetch - main [MainThread]: End processing [trinitrotoluolz] error
+[2024-05-20 14:29:30] INFO root fetch - processPackages [burial-mounds]: Downloading https://files.pythonhosted.org/packages/e6/db/f1888ffffd0ef4c8a569539e9b33d221786c8cd9f333cefd57840194c339/burial_mounds-0.1.3.tar.gz
+[2024-05-20 14:29:30] INFO root fetch - processPackages [pyopenhc]: Downloading https://files.pythonhosted.org/packages/b2/6e/9b4e89ab2019dab65ea7a5f591626b4ae80e43083d3aac84e46681193548/pyopenhc-0.1.0-py3-none-win_amd64.whl
+[2024-05-20 14:29:30] INFO root fetch - processPackages [netlas]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-20 14:29:30] INFO root fetch - processPackages [no-cyclic-imports]: Downloading https://files.pythonhosted.org/packages/3f/b3/270722c691daabf990abd535caff423932184c170e02370c3a92dac70ef8/no_cyclic_imports-1.0.0.tar.gz
+[2024-05-20 14:29:30] INFO root fetch - processPackages [sherlockpipe]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-20 14:29:30] INFO root fetch - processPackages [netlas]: Downloading https://files.pythonhosted.org/packages/95/ba/49cf980b7ccf1155b9a35e7da4a870d1ef94e74fab1cf1bed7fe6365fd16/netlas-0.5.0.tar.gz
+[2024-05-20 14:29:30] INFO root fetch - processPackages [burial-mounds]: Downloading https://files.pythonhosted.org/packages/2f/64/3748913ccbb059b1b8241f68f463a8d91664627627cf4fffecbd85cd8b59/burial_mounds-0.1.4.tar.gz
+[2024-05-20 14:29:31] INFO root fetch - processPackages [no-cyclic-imports]: Downloading https://files.pythonhosted.org/packages/7f/43/dc5a7ce42918662493efb2819888328578318f49daed635e8e04b9f36d09/no_cyclic_imports-2.0.0.tar.gz
+[2024-05-20 14:29:31] INFO root fetch - processPackages [sherlockpipe]: Downloading https://files.pythonhosted.org/packages/46/3f/013fa1d25538474036ba7d400e78b06a89cd003c01a6c3f3e0a0aaa4a42a/sherlockpipe-0.9.6.tar.gz
+[2024-05-20 14:29:31] INFO root fetch - processPackages [pyopenhc]: Downloading https://files.pythonhosted.org/packages/26/f7/910ce6018321c02f17e94783ad80bad8e260d6a43bfd9ecf021f52736854/pyopenhc-0.1.1-py3-none-macosx_14_0_universal2.whl
+[2024-05-20 14:29:31] INFO root fetch - processPackages [burial-mounds]: executing diffoscope
+[2024-05-20 14:29:31] INFO root fetch - processPackages [burial-mounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burial_mounds-0.1.3.tar.gz tmp/burial_mounds-0.1.4.tar.gz --markdown 20240520/b/burial-mounds/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-20 14:29:31] INFO root fetch - processPackages [no-cyclic-imports]: executing diffoscope
+[2024-05-20 14:29:31] INFO root fetch - processPackages [no-cyclic-imports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/no_cyclic_imports-1.0.0.tar.gz tmp/no_cyclic_imports-2.0.0.tar.gz --markdown 20240520/n/no-cyclic-imports/1.0.0-2.0.0/README.md --exclude *.pyd
+[2024-05-20 14:29:31] INFO root fetch - processPackages [netlas]: Downloading https://files.pythonhosted.org/packages/8c/e7/33ecf5cf63762e180cbed7cf7cbd5e9266289a213bec95695bb231ae3a39/netlas-0.5.1.tar.gz
+[2024-05-20 14:29:31] INFO root fetch - processPackages [pyopenhc]: executing diffoscope
+[2024-05-20 14:29:31] INFO root fetch - processPackages [pyopenhc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopenhc-0.1.0-py3-none-win_amd64.whl.zip tmp/pyopenhc-0.1.1-py3-none-macosx_14_0_universal2.whl.zip --markdown 20240520/p/pyopenhc/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 14:29:31] INFO root fetch - processPackages [sherlockpipe]: Downloading https://files.pythonhosted.org/packages/04/d1/dcaf4b4f6fadabc4d5e9dbfb757378dbf810235e486f3eae3c57c7e6f88f/sherlockpipe-0.9.7.tar.gz
+[2024-05-20 14:29:31] INFO root fetch - processPackages [netlas]: executing diffoscope
+[2024-05-20 14:29:31] INFO root fetch - processPackages [netlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netlas-0.5.0.tar.gz tmp/netlas-0.5.1.tar.gz --markdown 20240520/n/netlas/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-20 14:29:31] INFO root fetch - processPackages [sherlockpipe]: executing diffoscope
+[2024-05-20 14:29:31] INFO root fetch - processPackages [sherlockpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherlockpipe-0.9.6.tar.gz tmp/sherlockpipe-0.9.7.tar.gz --markdown 20240520/s/sherlockpipe/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-20 14:29:31] INFO root fetch - processPackages [burial-mounds]: Remove: archive file [/home/abi/fetcher/tmp/burial_mounds-0.1.3.tar.gz]
+[2024-05-20 14:29:31] INFO root fetch - processPackages [burial-mounds]: Remove: archive file [/home/abi/fetcher/tmp/burial_mounds-0.1.4.tar.gz]
+[2024-05-20 14:29:31] INFO root fetch - main [MainThread]: End processing [burial-mounds]: success
+[2024-05-20 14:29:31] INFO root fetch - processPackages [no-cyclic-imports]: Remove: archive file [/home/abi/fetcher/tmp/no_cyclic_imports-1.0.0.tar.gz]
+[2024-05-20 14:29:31] INFO root fetch - processPackages [no-cyclic-imports]: Remove: archive file [/home/abi/fetcher/tmp/no_cyclic_imports-2.0.0.tar.gz]
+[2024-05-20 14:29:31] INFO root fetch - main [MainThread]: End processing [no-cyclic-imports]: success
+[2024-05-20 14:29:32] INFO root fetch - processPackages [pyopenhc]: Remove: archive file [/home/abi/fetcher/tmp/pyopenhc-0.1.0-py3-none-win_amd64.whl.zip]
+[2024-05-20 14:29:32] INFO root fetch - processPackages [pyopenhc]: Remove: archive file [/home/abi/fetcher/tmp/pyopenhc-0.1.1-py3-none-macosx_14_0_universal2.whl.zip]
+[2024-05-20 14:29:32] INFO root fetch - main [MainThread]: End processing [pyopenhc]: success
+[2024-05-20 14:29:32] INFO root fetch - processPackages [netlas]: Remove: archive file [/home/abi/fetcher/tmp/netlas-0.5.0.tar.gz]
+[2024-05-20 14:29:32] INFO root fetch - processPackages [netlas]: Remove: archive file [/home/abi/fetcher/tmp/netlas-0.5.1.tar.gz]
+[2024-05-20 14:29:32] INFO root fetch - main [MainThread]: End processing [netlas]: success
+[2024-05-20 14:29:32] INFO root fetch - processPackages [sherlockpipe]: Remove: archive file [/home/abi/fetcher/tmp/sherlockpipe-0.9.6.tar.gz]
+[2024-05-20 14:29:32] INFO root fetch - processPackages [sherlockpipe]: Remove: archive file [/home/abi/fetcher/tmp/sherlockpipe-0.9.7.tar.gz]
+[2024-05-20 14:29:32] INFO root fetch - main [MainThread]: End processing [sherlockpipe]: success
+[2024-05-20 14:29:32] INFO root fetch - main [MainThread]: Store serial: [23289510]

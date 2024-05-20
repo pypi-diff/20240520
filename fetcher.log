@@ -24804,3 +24804,133 @@ EOFError: EOF read where object expected
 [2024-05-20 19:14:51] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-1.2.2.tar.gz]
 [2024-05-20 19:14:51] INFO root fetch - main [MainThread]: End processing [aiotx]: success
 [2024-05-20 19:14:51] INFO root fetch - main [MainThread]: Store serial: [23293142]
+[2024-05-20 19:16:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23293142]
+[2024-05-20 19:17:01] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-20 19:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-05-20 19:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tree-sitter-earthfile
+[2024-05-20 19:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pinecone-notebooks
+[2024-05-20 19:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hpo-toolkit
+[2024-05-20 19:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radprompter
+[2024-05-20 19:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hello-robot-stretch-body
+[2024-05-20 19:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2024-05-20 19:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AzizKitten
+[2024-05-20 19:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-emr-serverless-spark20230808
+[2024-05-20 19:17:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: verifyvoice
+[2024-05-20 19:17:01] INFO root fetch - processPackages [pinecone-notebooks]: New version: [0.1.1rc1] Old Version: [0.1.0rc1]
+[2024-05-20 19:17:01] INFO root fetch - processPackages [radprompter]: New version: [1.1.5] Old Version: [1.1.3]
+[2024-05-20 19:17:01] INFO root fetch - processPackages [tree-sitter-earthfile]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-20 19:17:01] INFO root fetch - processPackages [alibabacloud-emr-serverless-spark20230808]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-20 19:17:01] INFO root fetch - processPackages [pinecone-notebooks]: Downloading https://files.pythonhosted.org/packages/ca/6c/50172534dd4003ae68ecf5982efe1a465aaa9f196301f0d0bd91143d48b5/pinecone_notebooks-0.1.0rc1.tar.gz
+[2024-05-20 19:17:01] INFO root fetch - processPackages [radprompter]: Downloading https://files.pythonhosted.org/packages/c7/0f/763e6fac8ccd84cfb778d873437c393597793fea51befab2a51fd76981ff/radprompter-1.1.3.tar.gz
+[2024-05-20 19:17:01] INFO root fetch - processPackages [AzizKitten]: New version: [11.1.2] Old Version: [11.1.1]
+[2024-05-20 19:17:01] WARNING root fetch - processPackages [verifyvoice]: Skipping, unable to determine old version
+[2024-05-20 19:17:01] INFO root fetch - processPackages [verifyvoice]: Start processing: pyopencga
+[2024-05-20 19:17:01] INFO root fetch - main [MainThread]: End processing [verifyvoice] error
+[2024-05-20 19:17:01] INFO root fetch - processPackages [hpo-toolkit]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-20 19:17:01] INFO root fetch - processPackages [hello-robot-stretch-body]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-20 19:17:01] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-20 19:17:01] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-20 19:17:01] INFO root fetch - processPackages [pyopencga]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-05-20 19:17:01] INFO root fetch - processPackages [tree-sitter-earthfile]: Downloading https://files.pythonhosted.org/packages/97/a8/3db6d032004002f928ac96e02811b262e767bb815c1c179a9ed38a89cf62/tree_sitter_earthfile-0.4.0-cp38-abi3-win_amd64.whl
+[2024-05-20 19:17:01] INFO root fetch - processPackages [alibabacloud-emr-serverless-spark20230808]: Downloading https://files.pythonhosted.org/packages/c7/71/6b8ea0314b9a0134f1fe7e4ebd1ef72e75147b998b83e098e91012ddd516/alibabacloud_emr-serverless-spark20230808-1.0.1.tar.gz
+[2024-05-20 19:17:01] INFO root fetch - processPackages [pinecone-notebooks]: Downloading https://files.pythonhosted.org/packages/71/48/e47e2094b0a5ffacd77be75461760aca1bf48675082f609b355b5dd20c93/pinecone_notebooks-0.1.1rc1.tar.gz
+[2024-05-20 19:17:01] INFO root fetch - processPackages [hello-robot-stretch-body]: Downloading https://files.pythonhosted.org/packages/34/6d/c2f4fc88c5ee93e0335a9eec18e8ac7f4e6a5e69955498d10b53d657df9d/hello_robot_stretch_body-0.7.8.tar.gz
+[2024-05-20 19:17:01] INFO root fetch - processPackages [AzizKitten]: Downloading https://files.pythonhosted.org/packages/25/cf/d55dfce1eb0cfe126efcc36877fb093010f140e9b86a8499751064217297/azizkitten-11.1.1.tar.gz
+[2024-05-20 19:17:01] INFO root fetch - processPackages [hpo-toolkit]: Downloading https://files.pythonhosted.org/packages/89/eb/ad451a04adf2f1bc42307c493e5c10c8126dde1bb9ecc2b1a1ae6709eb8d/hpo-toolkit-0.5.0.tar.gz
+[2024-05-20 19:17:01] INFO root fetch - processPackages [radprompter]: Downloading https://files.pythonhosted.org/packages/f1/8a/29d98f6238f0b4eaad9fac04ae3d4f12b67bbe34cefe18299015c7cfd5be/radprompter-1.1.5.tar.gz
+[2024-05-20 19:17:01] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-20 19:17:01] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-20 19:17:02] INFO root fetch - processPackages [pinecone-notebooks]: executing diffoscope
+[2024-05-20 19:17:02] INFO root fetch - processPackages [pinecone-notebooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone_notebooks-0.1.0rc1.tar.gz tmp/pinecone_notebooks-0.1.1rc1.tar.gz --markdown 20240520/p/pinecone-notebooks/0.1.0rc1-0.1.1rc1/README.md --exclude *.pyd
+[2024-05-20 19:17:02] INFO root fetch - processPackages [pyopencga]: Downloading https://files.pythonhosted.org/packages/2b/14/936827e953f83b62835302c9340d5267987b06fcfc774988782227d75ee1/pyopencga-3.0.0.tar.gz
+[2024-05-20 19:17:02] INFO root fetch - processPackages [radprompter]: executing diffoscope
+[2024-05-20 19:17:02] INFO root fetch - processPackages [radprompter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radprompter-1.1.3.tar.gz tmp/radprompter-1.1.5.tar.gz --markdown 20240520/r/radprompter/1.1.3-1.1.5/README.md --exclude *.pyd
+[2024-05-20 19:17:02] INFO root fetch - processPackages [tree-sitter-earthfile]: Downloading https://files.pythonhosted.org/packages/f2/10/eb17eef8af3358a6938687163f8fd9ae9cdf18dca5afcbd3d8c827aa86ba/tree_sitter_earthfile-0.4.1-cp38-abi3-win_amd64.whl
+[2024-05-20 19:17:02] INFO root fetch - processPackages [alibabacloud-emr-serverless-spark20230808]: Downloading https://files.pythonhosted.org/packages/4e/44/69db7d4097850e1912aaedf38c2d68ba33adde5a9416a85beea01bfbc23d/alibabacloud_emr-serverless-spark20230808-1.1.0.tar.gz
+[2024-05-20 19:17:02] INFO root fetch - processPackages [AzizKitten]: Downloading https://files.pythonhosted.org/packages/e6/34/13d24287725a170e23533eb444c06e862643e27cbcdf1f3ac8c1820b1e68/azizkitten-11.1.2.tar.gz
+[2024-05-20 19:17:02] INFO root fetch - processPackages [hpo-toolkit]: Downloading https://files.pythonhosted.org/packages/a9/56/1b6490efabe8d97a315fc638211638ce0df3d77c7409ab536ee70eeaa8d7/hpo_toolkit-0.5.1.tar.gz
+[2024-05-20 19:17:02] INFO root fetch - processPackages [alibabacloud-emr-serverless-spark20230808]: executing diffoscope
+[2024-05-20 19:17:02] INFO root fetch - processPackages [alibabacloud-emr-serverless-spark20230808]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_emr-serverless-spark20230808-1.0.1.tar.gz tmp/alibabacloud_emr-serverless-spark20230808-1.1.0.tar.gz --markdown 20240520/a/alibabacloud-emr-serverless-spark20230808/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-20 19:17:02] INFO root fetch - processPackages [hello-robot-stretch-body]: Downloading https://files.pythonhosted.org/packages/55/b6/ab83246a576763366d06c70f8e955e386747dd1667fa52e1bd51bf021912/hello_robot_stretch_body-0.7.9.tar.gz
+[2024-05-20 19:17:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-20 19:17:02] INFO root fetch - processPackages [AzizKitten]: executing diffoscope
+[2024-05-20 19:17:02] INFO root fetch - processPackages [AzizKitten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azizkitten-11.1.1.tar.gz tmp/azizkitten-11.1.2.tar.gz --markdown 20240520/A/AzizKitten/11.1.1-11.1.2/README.md --exclude *.pyd
+[2024-05-20 19:17:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-20 19:17:02] INFO root fetch - processPackages [tree-sitter-earthfile]: executing diffoscope
+[2024-05-20 19:17:02] INFO root fetch - processPackages [tree-sitter-earthfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_sitter_earthfile-0.4.0-cp38-abi3-win_amd64.whl.zip tmp/tree_sitter_earthfile-0.4.1-cp38-abi3-win_amd64.whl.zip --markdown 20240520/t/tree-sitter-earthfile/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-20 19:17:02] INFO root fetch - processPackages [hpo-toolkit]: executing diffoscope
+[2024-05-20 19:17:02] INFO root fetch - processPackages [hpo-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpo-toolkit-0.5.0.tar.gz tmp/hpo_toolkit-0.5.1.tar.gz --markdown 20240520/h/hpo-toolkit/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-20 19:17:02] INFO root fetch - processPackages [hello-robot-stretch-body]: executing diffoscope
+[2024-05-20 19:17:02] INFO root fetch - processPackages [hello-robot-stretch-body]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello_robot_stretch_body-0.7.8.tar.gz tmp/hello_robot_stretch_body-0.7.9.tar.gz --markdown 20240520/h/hello-robot-stretch-body/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-20 19:17:02] INFO root fetch - processPackages [pyopencga]: Downloading https://files.pythonhosted.org/packages/bc/3d/5bbd42ef2403d6d84af1b09b2c9de94dce644323490ba3e69fe18e160797/pyopencga-3.1.0.tar.gz
+[2024-05-20 19:17:02] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-20 19:17:02] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240520/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-20 19:17:02] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-20 19:17:02] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240520/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-20 19:17:02] INFO root fetch - processPackages [pyopencga]: executing diffoscope
+[2024-05-20 19:17:02] INFO root fetch - processPackages [pyopencga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyopencga-3.0.0.tar.gz tmp/pyopencga-3.1.0.tar.gz --markdown 20240520/p/pyopencga/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-05-20 19:17:02] INFO root fetch - processPackages [pinecone-notebooks]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_notebooks-0.1.0rc1.tar.gz]
+[2024-05-20 19:17:02] INFO root fetch - processPackages [pinecone-notebooks]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_notebooks-0.1.1rc1.tar.gz]
+[2024-05-20 19:17:02] INFO root fetch - processPackages [pinecone-notebooks]: Start processing: radprompter
+[2024-05-20 19:17:02] INFO root fetch - main [MainThread]: End processing [pinecone-notebooks]: success
+[2024-05-20 19:17:02] INFO root fetch - processPackages [radprompter]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-20 19:17:02] INFO root fetch - processPackages [radprompter]: Downloading https://files.pythonhosted.org/packages/b1/2e/3bd9b814344d2834eb5e4ef27f9382aca7410c689a45e9f024efb0d20219/radprompter-1.1.6-py3-none-any.whl
+[2024-05-20 19:17:03] INFO root fetch - processPackages [radprompter]: Remove: archive file [/home/abi/fetcher/tmp/radprompter-1.1.3.tar.gz]
+[2024-05-20 19:17:03] INFO root fetch - processPackages [radprompter]: Remove: archive file [/home/abi/fetcher/tmp/radprompter-1.1.5.tar.gz]
+[2024-05-20 19:17:03] INFO root fetch - processPackages [radprompter]: Start processing: hello-robot-stretch-body-tools
+[2024-05-20 19:17:03] INFO root fetch - main [MainThread]: End processing [radprompter]: success
+[2024-05-20 19:17:03] INFO root fetch - processPackages [AzizKitten]: Remove: archive file [/home/abi/fetcher/tmp/azizkitten-11.1.1.tar.gz]
+[2024-05-20 19:17:03] INFO root fetch - processPackages [AzizKitten]: Remove: archive file [/home/abi/fetcher/tmp/azizkitten-11.1.2.tar.gz]
+[2024-05-20 19:17:03] INFO root fetch - processPackages [AzizKitten]: Start processing: alibabacloud-dataworks-public20200518
+[2024-05-20 19:17:03] INFO root fetch - main [MainThread]: End processing [AzizKitten]: success
+[2024-05-20 19:17:03] INFO root fetch - processPackages [radprompter]: Downloading https://files.pythonhosted.org/packages/74/4b/6d3ee7242c6c207af9e95d18b0278069d3f7e8b2ec0dff5d57f0200e45b0/radprompter-1.1.7.tar.gz
+[2024-05-20 19:17:03] INFO root fetch - processPackages [tree-sitter-earthfile]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_earthfile-0.4.0-cp38-abi3-win_amd64.whl.zip]
+[2024-05-20 19:17:03] INFO root fetch - processPackages [tree-sitter-earthfile]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_earthfile-0.4.1-cp38-abi3-win_amd64.whl.zip]
+[2024-05-20 19:17:03] INFO root fetch - processPackages [tree-sitter-earthfile]: Start processing: alibabacloud-opt20210730
+[2024-05-20 19:17:03] INFO root fetch - main [MainThread]: End processing [tree-sitter-earthfile]: success
+[2024-05-20 19:17:03] INFO root fetch - processPackages [hello-robot-stretch-body-tools]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-20 19:17:03] INFO root fetch - processPackages [alibabacloud-emr-serverless-spark20230808]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_emr-serverless-spark20230808-1.0.1.tar.gz]
+[2024-05-20 19:17:03] INFO root fetch - processPackages [alibabacloud-emr-serverless-spark20230808]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_emr-serverless-spark20230808-1.1.0.tar.gz]
+[2024-05-20 19:17:03] INFO root fetch - main [MainThread]: End processing [alibabacloud-emr-serverless-spark20230808]: success
+[2024-05-20 19:17:03] INFO root fetch - processPackages [radprompter]: executing diffoscope
+[2024-05-20 19:17:03] INFO root fetch - processPackages [radprompter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radprompter-1.1.6-py3-none-any.whl.zip tmp/radprompter-1.1.7.tar.gz --markdown 20240520/r/radprompter/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-20 19:17:03] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: New version: [5.6.0] Old Version: [5.5.0]
+[2024-05-20 19:17:03] INFO root fetch - processPackages [alibabacloud-opt20210730]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-20 19:17:03] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-20 19:17:03] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-20 19:17:03] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-20 19:17:03] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-20 19:17:03] INFO root fetch - processPackages [hello-robot-stretch-body-tools]: Downloading https://files.pythonhosted.org/packages/ff/44/b45b48fa1109e266e6136e6a174bdfa9f6b73caeb5bab4d3abef3d6737c9/hello_robot_stretch_body_tools-0.7.8.tar.gz
+[2024-05-20 19:17:03] INFO root fetch - processPackages [alibabacloud-opt20210730]: Downloading https://files.pythonhosted.org/packages/18/20/cef97310b14067f637aee96d4cd0292d9646659a41865d281d2b43b15168/alibabacloud_opt20210730-1.0.1.tar.gz
+[2024-05-20 19:17:03] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: Downloading https://files.pythonhosted.org/packages/f0/d3/d439bda6121b92fb2984ce83c1da01ff9b2d1b3a8706ec7a5368ee1222ea/alibabacloud_dataworks-public20200518-5.5.0.tar.gz
+[2024-05-20 19:17:03] INFO root fetch - processPackages [pyopencga]: Remove: archive file [/home/abi/fetcher/tmp/pyopencga-3.0.0.tar.gz]
+[2024-05-20 19:17:03] INFO root fetch - processPackages [pyopencga]: Remove: archive file [/home/abi/fetcher/tmp/pyopencga-3.1.0.tar.gz]
+[2024-05-20 19:17:03] INFO root fetch - main [MainThread]: End processing [pyopencga]: success
+[2024-05-20 19:17:03] INFO root fetch - processPackages [hello-robot-stretch-body]: Remove: archive file [/home/abi/fetcher/tmp/hello_robot_stretch_body-0.7.8.tar.gz]
+[2024-05-20 19:17:03] INFO root fetch - processPackages [hello-robot-stretch-body]: Remove: archive file [/home/abi/fetcher/tmp/hello_robot_stretch_body-0.7.9.tar.gz]
+[2024-05-20 19:17:03] INFO root fetch - main [MainThread]: End processing [hello-robot-stretch-body]: success
+[2024-05-20 19:17:03] INFO root fetch - processPackages [hpo-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/hpo-toolkit-0.5.0.tar.gz]
+[2024-05-20 19:17:03] INFO root fetch - processPackages [hpo-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/hpo_toolkit-0.5.1.tar.gz]
+[2024-05-20 19:17:03] INFO root fetch - main [MainThread]: End processing [hpo-toolkit]: success
+[2024-05-20 19:17:03] INFO root fetch - processPackages [hello-robot-stretch-body-tools]: Downloading https://files.pythonhosted.org/packages/46/91/2b975471eee228dcc6ca2e8e0411b3098d7940408275542535d56a03800c/hello-robot-stretch-body-tools-0.7.9.tar.gz
+[2024-05-20 19:17:04] INFO root fetch - processPackages [alibabacloud-opt20210730]: Downloading https://files.pythonhosted.org/packages/07/2d/43ae2257e78ead2ea151557f6e84cae75d0854c511d6e772ddc91b29de52/alibabacloud_opt20210730-1.0.2.tar.gz
+[2024-05-20 19:17:04] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: Downloading https://files.pythonhosted.org/packages/cd/45/a7b845d6a9f840120157aebf15514b1e25b15f42f76af3484999049ceb90/alibabacloud_dataworks-public20200518-5.6.0.tar.gz
+[2024-05-20 19:17:04] INFO root fetch - processPackages [radprompter]: Remove: archive file [/home/abi/fetcher/tmp/radprompter-1.1.6-py3-none-any.whl.zip]
+[2024-05-20 19:17:04] INFO root fetch - processPackages [radprompter]: Remove: archive file [/home/abi/fetcher/tmp/radprompter-1.1.7.tar.gz]
+[2024-05-20 19:17:04] INFO root fetch - main [MainThread]: End processing [radprompter]: success
+[2024-05-20 19:17:04] INFO root fetch - processPackages [hello-robot-stretch-body-tools]: executing diffoscope
+[2024-05-20 19:17:04] INFO root fetch - processPackages [hello-robot-stretch-body-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello_robot_stretch_body_tools-0.7.8.tar.gz tmp/hello-robot-stretch-body-tools-0.7.9.tar.gz --markdown 20240520/h/hello-robot-stretch-body-tools/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-20 19:17:04] INFO root fetch - processPackages [alibabacloud-opt20210730]: executing diffoscope
+[2024-05-20 19:17:04] INFO root fetch - processPackages [alibabacloud-opt20210730]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_opt20210730-1.0.1.tar.gz tmp/alibabacloud_opt20210730-1.0.2.tar.gz --markdown 20240520/a/alibabacloud-opt20210730/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-20 19:17:04] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: executing diffoscope
+[2024-05-20 19:17:04] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dataworks-public20200518-5.5.0.tar.gz tmp/alibabacloud_dataworks-public20200518-5.6.0.tar.gz --markdown 20240520/a/alibabacloud-dataworks-public20200518/5.5.0-5.6.0/README.md --exclude *.pyd
+[2024-05-20 19:17:04] INFO root fetch - processPackages [hello-robot-stretch-body-tools]: Remove: archive file [/home/abi/fetcher/tmp/hello_robot_stretch_body_tools-0.7.8.tar.gz]
+[2024-05-20 19:17:04] INFO root fetch - processPackages [hello-robot-stretch-body-tools]: Remove: archive file [/home/abi/fetcher/tmp/hello-robot-stretch-body-tools-0.7.9.tar.gz]
+[2024-05-20 19:17:04] INFO root fetch - main [MainThread]: End processing [hello-robot-stretch-body-tools]: success
+[2024-05-20 19:17:04] INFO root fetch - processPackages [alibabacloud-opt20210730]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_opt20210730-1.0.1.tar.gz]
+[2024-05-20 19:17:04] INFO root fetch - processPackages [alibabacloud-opt20210730]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_opt20210730-1.0.2.tar.gz]
+[2024-05-20 19:17:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-opt20210730]: success
+[2024-05-20 19:17:07] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dataworks-public20200518-5.5.0.tar.gz]
+[2024-05-20 19:17:07] INFO root fetch - processPackages [alibabacloud-dataworks-public20200518]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dataworks-public20200518-5.6.0.tar.gz]
+[2024-05-20 19:17:07] INFO root fetch - main [MainThread]: End processing [alibabacloud-dataworks-public20200518]: success
+[2024-05-20 19:17:07] INFO root fetch - main [MainThread]: Store serial: [23293198]

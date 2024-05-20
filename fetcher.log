@@ -24083,3 +24083,72 @@ EOFError: EOF read where object expected
 [2024-05-20 18:47:31] INFO root fetch - processPackages [datarobot-early-access]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_early_access-3.5.0.2024.5.6.tar.gz]
 [2024-05-20 18:47:31] INFO root fetch - main [MainThread]: End processing [datarobot-early-access]: success
 [2024-05-20 18:47:31] INFO root fetch - main [MainThread]: Store serial: [23292675]
+[2024-05-20 18:49:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292675]
+[2024-05-20 18:49:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 18:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qnngds
+[2024-05-20 18:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intensity-logger
+[2024-05-20 18:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ouro-py
+[2024-05-20 18:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-jobspy
+[2024-05-20 18:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-index-readers-sec-filings
+[2024-05-20 18:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-management
+[2024-05-20 18:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shakemap-modules
+[2024-05-20 18:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rime-sdk
+[2024-05-20 18:49:40] INFO root fetch - processPackages [ouro-py]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-20 18:49:40] INFO root fetch - processPackages [llama-index-readers-sec-filings]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-20 18:49:40] INFO root fetch - processPackages [shakemap-modules]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 18:49:40] INFO root fetch - processPackages [qnngds]: New version: [2.5.0] Old Version: [2.4.1]
+[2024-05-20 18:49:40] INFO root fetch - processPackages [ml-management]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-20 18:49:40] INFO root fetch - processPackages [rime-sdk]: New version: [2.9.0rc0] Old Version: [2.8.0rc9]
+[2024-05-20 18:49:40] WARNING root fetch - processPackages [intensity-logger]: Skipping, unable to determine old version
+[2024-05-20 18:49:40] INFO root fetch - main [MainThread]: End processing [intensity-logger] error
+[2024-05-20 18:49:40] INFO root fetch - processPackages [python-jobspy]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-20 18:49:40] INFO root fetch - processPackages [llama-index-readers-sec-filings]: Downloading https://files.pythonhosted.org/packages/a3/e9/540d9ed058a97f9cc3f7bb3b11a050bf65c9c6bbc912541b84f54c6e1f6d/llama_index_readers_sec_filings-0.1.3.tar.gz
+[2024-05-20 18:49:40] INFO root fetch - processPackages [ouro-py]: Downloading https://files.pythonhosted.org/packages/d3/d4/e7241db947d18bdbccbfd3d86a6af0f8f6c260f924d440c2f8f0bc0ce9ee/ouro_py-0.0.4.tar.gz
+[2024-05-20 18:49:40] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/0f/70/032271ec1677413d18df09dbd3d9276c09aa5685645702a3b513c39da974/ml-management-0.0.98.tar.gz
+[2024-05-20 18:49:40] INFO root fetch - processPackages [shakemap-modules]: Downloading https://files.pythonhosted.org/packages/7a/86/0bd74cdf6c15a6a0dcaa5e1abc2971c8c36f1be33ee30c11b3e30292a63e/shakemap-modules-1.0.8.tar.gz
+[2024-05-20 18:49:40] INFO root fetch - processPackages [qnngds]: Downloading https://files.pythonhosted.org/packages/25/1a/85962a383d940153748ef9e90b1c5f68495439b0ef09bfbceb74c5b7fc20/qnngds-2.4.1.tar.gz
+[2024-05-20 18:49:41] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/82/d0/af2bc54a7ae81e59f924b38132b45b3fa131069dcddc38c084be863230b7/rime_sdk-2.8.0rc9.tar.gz
+[2024-05-20 18:49:41] INFO root fetch - processPackages [python-jobspy]: Downloading https://files.pythonhosted.org/packages/42/33/08ef8e7a64d0894c1237311d2085c335c700e9a5a2406d23e511738b2ffa/python_jobspy-1.1.8.tar.gz
+[2024-05-20 18:49:41] INFO root fetch - processPackages [llama-index-readers-sec-filings]: Downloading https://files.pythonhosted.org/packages/93/e7/b774321eed36a75a1bbc7a85aee870de758ef3af483684b83503900843b8/llama_index_readers_sec_filings-0.1.4.tar.gz
+[2024-05-20 18:49:41] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/56/35/39bdda14e67992ce6ddc370729a71712171e07a61411d9f6f96e81e2edae/ml-management-0.0.99.tar.gz
+[2024-05-20 18:49:41] INFO root fetch - processPackages [shakemap-modules]: Downloading https://files.pythonhosted.org/packages/ba/c2/96f54a2d014612a52000ed209b562d2f7bbe8ba6d887a69c358c4f5d5213/shakemap-modules-1.0.9.tar.gz
+[2024-05-20 18:49:41] INFO root fetch - processPackages [ouro-py]: Downloading https://files.pythonhosted.org/packages/30/d6/33594f18eb02d81eba330cf6125fa4695db70f7562af4ecb108175cc63c1/ouro_py-0.0.5.tar.gz
+[2024-05-20 18:49:41] INFO root fetch - processPackages [qnngds]: Downloading https://files.pythonhosted.org/packages/e4/ba/fedf27eadbeb34ed16a070773dc96c1dd0cb59965ce068525adbbbbf16b7/qnngds-2.5.0.tar.gz
+[2024-05-20 18:49:41] INFO root fetch - processPackages [llama-index-readers-sec-filings]: executing diffoscope
+[2024-05-20 18:49:41] INFO root fetch - processPackages [llama-index-readers-sec-filings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_readers_sec_filings-0.1.3.tar.gz tmp/llama_index_readers_sec_filings-0.1.4.tar.gz --markdown 20240520/l/llama-index-readers-sec-filings/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-20 18:49:41] INFO root fetch - processPackages [ml-management]: executing diffoscope
+[2024-05-20 18:49:41] INFO root fetch - processPackages [ml-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-management-0.0.98.tar.gz tmp/ml-management-0.0.99.tar.gz --markdown 20240520/m/ml-management/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-20 18:49:41] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/1f/27/5c2ff7420339753d7590f9629647edd100b995f766d1a1f8b09f9d6d49cc/rime_sdk-2.9.0rc0.tar.gz
+[2024-05-20 18:49:41] INFO root fetch - processPackages [ouro-py]: executing diffoscope
+[2024-05-20 18:49:41] INFO root fetch - processPackages [ouro-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ouro_py-0.0.4.tar.gz tmp/ouro_py-0.0.5.tar.gz --markdown 20240520/o/ouro-py/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-20 18:49:41] INFO root fetch - processPackages [shakemap-modules]: executing diffoscope
+[2024-05-20 18:49:41] INFO root fetch - processPackages [shakemap-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakemap-modules-1.0.8.tar.gz tmp/shakemap-modules-1.0.9.tar.gz --markdown 20240520/s/shakemap-modules/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 18:49:41] INFO root fetch - processPackages [python-jobspy]: Downloading https://files.pythonhosted.org/packages/9b/06/17911413082f9906dac737cb749303c9bbe15fd6843109ef016a1ca23686/python_jobspy-1.1.9.tar.gz
+[2024-05-20 18:49:41] INFO root fetch - processPackages [qnngds]: executing diffoscope
+[2024-05-20 18:49:41] INFO root fetch - processPackages [qnngds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qnngds-2.4.1.tar.gz tmp/qnngds-2.5.0.tar.gz --markdown 20240520/q/qnngds/2.4.1-2.5.0/README.md --exclude *.pyd
+[2024-05-20 18:49:41] INFO root fetch - processPackages [python-jobspy]: executing diffoscope
+[2024-05-20 18:49:41] INFO root fetch - processPackages [python-jobspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_jobspy-1.1.8.tar.gz tmp/python_jobspy-1.1.9.tar.gz --markdown 20240520/p/python-jobspy/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-20 18:49:41] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-05-20 18:49:41] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.8.0rc9.tar.gz tmp/rime_sdk-2.9.0rc0.tar.gz --markdown 20240520/r/rime-sdk/2.8.0rc9-2.9.0rc0/README.md --exclude *.pyd
+[2024-05-20 18:49:42] INFO root fetch - processPackages [llama-index-readers-sec-filings]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_sec_filings-0.1.3.tar.gz]
+[2024-05-20 18:49:42] INFO root fetch - processPackages [llama-index-readers-sec-filings]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_sec_filings-0.1.4.tar.gz]
+[2024-05-20 18:49:42] INFO root fetch - main [MainThread]: End processing [llama-index-readers-sec-filings]: success
+[2024-05-20 18:49:42] INFO root fetch - processPackages [ouro-py]: Remove: archive file [/home/abi/fetcher/tmp/ouro_py-0.0.4.tar.gz]
+[2024-05-20 18:49:42] INFO root fetch - processPackages [ouro-py]: Remove: archive file [/home/abi/fetcher/tmp/ouro_py-0.0.5.tar.gz]
+[2024-05-20 18:49:42] INFO root fetch - main [MainThread]: End processing [ouro-py]: success
+[2024-05-20 18:49:42] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.98.tar.gz]
+[2024-05-20 18:49:42] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.99.tar.gz]
+[2024-05-20 18:49:42] INFO root fetch - main [MainThread]: End processing [ml-management]: success
+[2024-05-20 18:49:42] INFO root fetch - processPackages [python-jobspy]: Remove: archive file [/home/abi/fetcher/tmp/python_jobspy-1.1.8.tar.gz]
+[2024-05-20 18:49:42] INFO root fetch - processPackages [python-jobspy]: Remove: archive file [/home/abi/fetcher/tmp/python_jobspy-1.1.9.tar.gz]
+[2024-05-20 18:49:42] INFO root fetch - main [MainThread]: End processing [python-jobspy]: success
+[2024-05-20 18:49:42] INFO root fetch - processPackages [qnngds]: Remove: archive file [/home/abi/fetcher/tmp/qnngds-2.4.1.tar.gz]
+[2024-05-20 18:49:42] INFO root fetch - processPackages [qnngds]: Remove: archive file [/home/abi/fetcher/tmp/qnngds-2.5.0.tar.gz]
+[2024-05-20 18:49:42] INFO root fetch - main [MainThread]: End processing [qnngds]: success
+[2024-05-20 18:49:42] INFO root fetch - processPackages [shakemap-modules]: Remove: archive file [/home/abi/fetcher/tmp/shakemap-modules-1.0.8.tar.gz]
+[2024-05-20 18:49:42] INFO root fetch - processPackages [shakemap-modules]: Remove: archive file [/home/abi/fetcher/tmp/shakemap-modules-1.0.9.tar.gz]
+[2024-05-20 18:49:42] INFO root fetch - main [MainThread]: End processing [shakemap-modules]: success
+[2024-05-20 18:49:47] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc9.tar.gz]
+[2024-05-20 18:49:47] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.9.0rc0.tar.gz]
+[2024-05-20 18:49:47] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-05-20 18:49:47] INFO root fetch - main [MainThread]: Store serial: [23292699]

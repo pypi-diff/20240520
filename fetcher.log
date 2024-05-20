@@ -13575,3 +13575,56 @@
 [2024-05-20 12:18:31] INFO root fetch - processPackages [adbutils]: Remove: archive file [/home/abi/fetcher/tmp/adbutils-2.7.0.tar.gz]
 [2024-05-20 12:18:31] INFO root fetch - main [MainThread]: End processing [adbutils]: success
 [2024-05-20 12:18:31] INFO root fetch - main [MainThread]: Store serial: [23288037]
+[2024-05-20 12:20:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288037]
+[2024-05-20 12:20:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 12:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: altstore-proxy
+[2024-05-20 12:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylampo-client
+[2024-05-20 12:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arena-client
+[2024-05-20 12:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flatpack
+[2024-05-20 12:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prophecy-libs
+[2024-05-20 12:20:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: medaka
+[2024-05-20 12:20:40] INFO root fetch - processPackages [prophecy-libs]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-20 12:20:40] INFO root fetch - processPackages [altstore-proxy]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-20 12:20:40] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.82]
+[2024-05-20 12:20:40] INFO root fetch - processPackages [pylampo-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-20 12:20:40] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/55/0a/90561ca774443a2a8fc7836ec65bd203b9a55822454194896bfcda5affbb/prophecy-libs-1.8.8.tar.gz
+[2024-05-20 12:20:40] INFO root fetch - processPackages [altstore-proxy]: Downloading https://files.pythonhosted.org/packages/79/fd/c72d3f948e433a658f458956aaab1afdcfc6d54f5e774c01e9197c07d098/altstore_proxy-1.2.3.tar.gz
+[2024-05-20 12:20:40] INFO root fetch - processPackages [arena-client]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-20 12:20:40] INFO root fetch - processPackages [medaka]: New version: [1.9.1] Old Version: [1.8.2]
+[2024-05-20 12:20:41] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/96/3d/484f3d0cd7f772728a2aae87081c5ff55c2b2ee4004dd1de171f99d16089/flatpack-3.4.82.tar.gz
+[2024-05-20 12:20:41] INFO root fetch - processPackages [pylampo-client]: Downloading https://files.pythonhosted.org/packages/85/a8/68ca8e03341e3e3283ad51d1b91d7e01d517b2ea9c613f58790dfc16aec3/pylampo_client-0.0.1.tar.gz
+[2024-05-20 12:20:41] INFO root fetch - processPackages [arena-client]: Downloading https://files.pythonhosted.org/packages/1b/36/a844b95597efafe500a3b1992a9c995832251b88ad0661df43254cdb8157/arena_client-0.2.0.tar.gz
+[2024-05-20 12:20:41] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/4d/26/13eca2b0b22483c0bcc9a426ef208809d6e938fda5d639cd2122eaf7bd06/prophecy-libs-1.8.9.tar.gz
+[2024-05-20 12:20:41] INFO root fetch - processPackages [altstore-proxy]: Downloading https://files.pythonhosted.org/packages/e5/55/0a75f99f6af736aeac1d29fa97e98747e1b33e3587f8da098702238ec708/altstore_proxy-1.2.4.tar.gz
+[2024-05-20 12:20:41] INFO root fetch - processPackages [medaka]: Downloading https://files.pythonhosted.org/packages/7e/a4/7bce2febf66a89cb644a769a0c45a1e15eae28eb7b094affa5124e23deda/medaka-1.8.2.tar.gz
+[2024-05-20 12:20:41] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-20 12:20:41] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2024-05-20 12:20:41] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.8.8.tar.gz tmp/prophecy-libs-1.8.9.tar.gz --markdown 20240520/p/prophecy-libs/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-20 12:20:41] WARNING root fetch - processPackages [medaka]: Skipping package: exceeds size limit 16797046>=10485760
+[2024-05-20 12:20:41] INFO root fetch - main [MainThread]: End processing [medaka] error
+[2024-05-20 12:20:41] INFO root fetch - processPackages [altstore-proxy]: executing diffoscope
+[2024-05-20 12:20:41] INFO root fetch - processPackages [altstore-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altstore_proxy-1.2.3.tar.gz tmp/altstore_proxy-1.2.4.tar.gz --markdown 20240520/a/altstore-proxy/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-20 12:20:41] INFO root fetch - processPackages [pylampo-client]: Downloading https://files.pythonhosted.org/packages/2b/2c/ca264df611ab7990fffd7e3308077c20219a430c1ffeee9f542546e5faa1/pylampo_client-0.0.2.tar.gz
+[2024-05-20 12:20:41] INFO root fetch - processPackages [arena-client]: Downloading https://files.pythonhosted.org/packages/24/89/8e54e807095183ce99e12544f63f82aeb74dbe451bd423c3c6713ab58bf3/arena_client-0.2.1.tar.gz
+[2024-05-20 12:20:41] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-20 12:20:41] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.82.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240520/f/flatpack/3.4.82-3.4.9/README.md --exclude *.pyd
+[2024-05-20 12:20:41] INFO root fetch - processPackages [pylampo-client]: executing diffoscope
+[2024-05-20 12:20:41] INFO root fetch - processPackages [pylampo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylampo_client-0.0.1.tar.gz tmp/pylampo_client-0.0.2.tar.gz --markdown 20240520/p/pylampo-client/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-20 12:20:41] INFO root fetch - processPackages [arena-client]: executing diffoscope
+[2024-05-20 12:20:41] INFO root fetch - processPackages [arena-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arena_client-0.2.0.tar.gz tmp/arena_client-0.2.1.tar.gz --markdown 20240520/a/arena-client/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-20 12:20:42] INFO root fetch - processPackages [altstore-proxy]: Remove: archive file [/home/abi/fetcher/tmp/altstore_proxy-1.2.3.tar.gz]
+[2024-05-20 12:20:42] INFO root fetch - processPackages [altstore-proxy]: Remove: archive file [/home/abi/fetcher/tmp/altstore_proxy-1.2.4.tar.gz]
+[2024-05-20 12:20:42] INFO root fetch - main [MainThread]: End processing [altstore-proxy]: success
+[2024-05-20 12:20:42] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.8.tar.gz]
+[2024-05-20 12:20:42] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.9.tar.gz]
+[2024-05-20 12:20:42] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2024-05-20 12:20:42] INFO root fetch - processPackages [pylampo-client]: Remove: archive file [/home/abi/fetcher/tmp/pylampo_client-0.0.1.tar.gz]
+[2024-05-20 12:20:42] INFO root fetch - processPackages [pylampo-client]: Remove: archive file [/home/abi/fetcher/tmp/pylampo_client-0.0.2.tar.gz]
+[2024-05-20 12:20:42] INFO root fetch - main [MainThread]: End processing [pylampo-client]: success
+[2024-05-20 12:20:42] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.82.tar.gz]
+[2024-05-20 12:20:42] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-20 12:20:42] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-20 12:20:42] INFO root fetch - processPackages [arena-client]: Remove: archive file [/home/abi/fetcher/tmp/arena_client-0.2.0.tar.gz]
+[2024-05-20 12:20:42] INFO root fetch - processPackages [arena-client]: Remove: archive file [/home/abi/fetcher/tmp/arena_client-0.2.1.tar.gz]
+[2024-05-20 12:20:42] INFO root fetch - main [MainThread]: End processing [arena-client]: success
+[2024-05-20 12:20:42] INFO root fetch - main [MainThread]: Store serial: [23288056]

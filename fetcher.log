@@ -12393,3 +12393,75 @@
 [2024-05-20 11:27:39] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.3.tar.gz]
 [2024-05-20 11:27:39] INFO root fetch - main [MainThread]: End processing [pyslth]: success
 [2024-05-20 11:27:39] INFO root fetch - main [MainThread]: Store serial: [23287537]
+[2024-05-20 11:29:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287537]
+[2024-05-20 11:29:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 11:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipy-test-xiaoqiang
+[2024-05-20 11:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eralchemy2
+[2024-05-20 11:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tq42-grpc-client
+[2024-05-20 11:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nsegpt
+[2024-05-20 11:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-tools
+[2024-05-20 11:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sacroischiadicz
+[2024-05-20 11:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zfx
+[2024-05-20 11:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ca-vntl-helper
+[2024-05-20 11:29:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: moonstreamdb-v3
+[2024-05-20 11:29:49] INFO root fetch - processPackages [ca-vntl-helper]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-20 11:29:49] INFO root fetch - processPackages [pipy-test-xiaoqiang]: New version: [1.1.2] Old Version: [1.1.0]
+[2024-05-20 11:29:49] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 11:29:49] INFO root fetch - processPackages [eralchemy2]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-20 11:29:49] INFO root fetch - processPackages [langchain-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-20 11:29:49] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/13/83/565aea3fa50ced46088f0ffdc4ee90943db4a14343c60cd5ebd8c52009ce/ca_vntl_helper-1.1.2.tar.gz
+[2024-05-20 11:29:49] INFO root fetch - processPackages [moonstreamdb-v3]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-20 11:29:49] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-20 11:29:49] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-20 11:29:49] WARNING root fetch - processPackages [sacroischiadicz]: Skipping, unable to determine old version
+[2024-05-20 11:29:49] INFO root fetch - main [MainThread]: End processing [sacroischiadicz] error
+[2024-05-20 11:29:49] WARNING root fetch - processPackages [nsegpt]: Skipping, unable to determine old version
+[2024-05-20 11:29:49] INFO root fetch - main [MainThread]: End processing [nsegpt] error
+[2024-05-20 11:29:49] INFO root fetch - processPackages [eralchemy2]: Downloading https://files.pythonhosted.org/packages/67/bf/164de5e0cae2cc25a43503b589542493b198471af6019755e8fed65e9a82/eralchemy2-1.4.0.tar.gz
+[2024-05-20 11:29:49] INFO root fetch - processPackages [pipy-test-xiaoqiang]: Downloading https://files.pythonhosted.org/packages/7e/68/991da0a39f5c1d7c78fb6f7739d19d9a9af70b8d860279732bc38b0e9119/pipy-test-xiaoqiang-1.1.0.tar.gz
+[2024-05-20 11:29:49] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/6b/00/163bdee32da39c08882b88ee6983de813905743f23581dbfb76b13a9fe9a/langchain-tools-0.1.5.tar.gz
+[2024-05-20 11:29:49] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-05-20 11:29:49] INFO root fetch - processPackages [moonstreamdb-v3]: Downloading https://files.pythonhosted.org/packages/d8/83/73a914048db222232645a4f8573377e8771b9d89747ab233208ada9e1925/moonstreamdb-v3-0.0.4.tar.gz
+[2024-05-20 11:29:49] INFO root fetch - processPackages [eralchemy2]: Downloading https://files.pythonhosted.org/packages/29/b2/192f1f9b0eebd0169549e291bb9ca1b522636c48b530af655524e2a20896/eralchemy2-1.4.1-py3-none-any.whl
+[2024-05-20 11:29:49] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-20 11:29:49] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/cf/25/9d47cc2c84391ec2938a90838e49ede3e160adac5120144d8052428e063a/langchain-tools-0.1.6.tar.gz
+[2024-05-20 11:29:49] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/5a/87/f33f77f466422d91cb76dfc1270255029129993f2d86e8df0e8c8e07456d/ca_vntl_helper-1.1.3.tar.gz
+[2024-05-20 11:29:49] INFO root fetch - processPackages [pipy-test-xiaoqiang]: Downloading https://files.pythonhosted.org/packages/76/ba/f139f045ce87c624d2d0bd7ab8ba9b201c67ed3769e4670fd54f92a4114f/pipy-test-xiaoqiang-1.1.2.tar.gz
+[2024-05-20 11:29:49] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-20 11:29:49] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240520/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 11:29:49] INFO root fetch - processPackages [eralchemy2]: executing diffoscope
+[2024-05-20 11:29:49] INFO root fetch - processPackages [eralchemy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eralchemy2-1.4.0.tar.gz tmp/eralchemy2-1.4.1-py3-none-any.whl.zip --markdown 20240520/e/eralchemy2/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-20 11:29:49] INFO root fetch - processPackages [langchain-tools]: executing diffoscope
+[2024-05-20 11:29:49] INFO root fetch - processPackages [langchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-tools-0.1.5.tar.gz tmp/langchain-tools-0.1.6.tar.gz --markdown 20240520/l/langchain-tools/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-20 11:29:49] INFO root fetch - processPackages [pipy-test-xiaoqiang]: executing diffoscope
+[2024-05-20 11:29:49] INFO root fetch - processPackages [pipy-test-xiaoqiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipy-test-xiaoqiang-1.1.0.tar.gz tmp/pipy-test-xiaoqiang-1.1.2.tar.gz --markdown 20240520/p/pipy-test-xiaoqiang/1.1.0-1.1.2/README.md --exclude *.pyd
+[2024-05-20 11:29:49] INFO root fetch - processPackages [ca-vntl-helper]: executing diffoscope
+[2024-05-20 11:29:49] INFO root fetch - processPackages [ca-vntl-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ca_vntl_helper-1.1.2.tar.gz tmp/ca_vntl_helper-1.1.3.tar.gz --markdown 20240520/c/ca-vntl-helper/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-20 11:29:49] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-05-20 11:29:49] INFO root fetch - processPackages [moonstreamdb-v3]: Downloading https://files.pythonhosted.org/packages/3c/fd/484f062deeaec419a3f2e57a49c8198ebbc90a53bcd560884d4db36ce6a0/moonstreamdb-v3-0.0.5.tar.gz
+[2024-05-20 11:29:49] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-05-20 11:29:49] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240520/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-20 11:29:50] INFO root fetch - processPackages [moonstreamdb-v3]: executing diffoscope
+[2024-05-20 11:29:50] INFO root fetch - processPackages [moonstreamdb-v3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonstreamdb-v3-0.0.4.tar.gz tmp/moonstreamdb-v3-0.0.5.tar.gz --markdown 20240520/m/moonstreamdb-v3/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-20 11:29:50] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-1.1.2.tar.gz]
+[2024-05-20 11:29:50] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-1.1.3.tar.gz]
+[2024-05-20 11:29:50] INFO root fetch - main [MainThread]: End processing [ca-vntl-helper]: success
+[2024-05-20 11:29:50] INFO root fetch - processPackages [pipy-test-xiaoqiang]: Remove: archive file [/home/abi/fetcher/tmp/pipy-test-xiaoqiang-1.1.0.tar.gz]
+[2024-05-20 11:29:50] INFO root fetch - processPackages [pipy-test-xiaoqiang]: Remove: archive file [/home/abi/fetcher/tmp/pipy-test-xiaoqiang-1.1.2.tar.gz]
+[2024-05-20 11:29:50] INFO root fetch - main [MainThread]: End processing [pipy-test-xiaoqiang]: success
+[2024-05-20 11:29:50] INFO root fetch - processPackages [eralchemy2]: Remove: archive file [/home/abi/fetcher/tmp/eralchemy2-1.4.0.tar.gz]
+[2024-05-20 11:29:50] INFO root fetch - processPackages [eralchemy2]: Remove: archive file [/home/abi/fetcher/tmp/eralchemy2-1.4.1-py3-none-any.whl.zip]
+[2024-05-20 11:29:50] INFO root fetch - main [MainThread]: End processing [eralchemy2]: success
+[2024-05-20 11:29:50] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-20 11:29:50] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-20 11:29:50] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-20 11:29:50] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.5.tar.gz]
+[2024-05-20 11:29:50] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.6.tar.gz]
+[2024-05-20 11:29:50] INFO root fetch - main [MainThread]: End processing [langchain-tools]: success
+[2024-05-20 11:29:50] INFO root fetch - processPackages [moonstreamdb-v3]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-v3-0.0.4.tar.gz]
+[2024-05-20 11:29:50] INFO root fetch - processPackages [moonstreamdb-v3]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-v3-0.0.5.tar.gz]
+[2024-05-20 11:29:50] INFO root fetch - main [MainThread]: End processing [moonstreamdb-v3]: success
+[2024-05-20 11:29:51] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-05-20 11:29:51] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-05-20 11:29:51] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-05-20 11:29:51] INFO root fetch - main [MainThread]: Store serial: [23287568]

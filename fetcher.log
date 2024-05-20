@@ -11917,3 +11917,77 @@
 [2024-05-20 11:10:09] INFO root fetch - processPackages [typegraph]: Remove: archive file [/home/abi/fetcher/tmp/typegraph-0.4.1.tar.gz]
 [2024-05-20 11:10:09] INFO root fetch - main [MainThread]: End processing [typegraph]: success
 [2024-05-20 11:10:09] INFO root fetch - main [MainThread]: Store serial: [23287332]
+[2024-05-20 11:12:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287332]
+[2024-05-20 11:12:19] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-20 11:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mad-notifications
+[2024-05-20 11:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wlkata-mirobot-Virtual
+[2024-05-20 11:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipy-test-xiaoqiang
+[2024-05-20 11:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docmesh-server
+[2024-05-20 11:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cads-api-client
+[2024-05-20 11:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sema-toolchain
+[2024-05-20 11:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: comet-toolbox
+[2024-05-20 11:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: duwi-smarthome-sdk
+[2024-05-20 11:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mypy-dev
+[2024-05-20 11:12:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Solverz
+[2024-05-20 11:12:19] INFO root fetch - processPackages [duwi-smarthome-sdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-20 11:12:19] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-20 11:12:19] INFO root fetch - processPackages [sema-toolchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 11:12:19] WARNING root fetch - processPackages [pipy-test-xiaoqiang]: Skipping, unable to determine old version
+[2024-05-20 11:12:19] INFO root fetch - main [MainThread]: End processing [pipy-test-xiaoqiang] error
+[2024-05-20 11:12:19] WARNING root fetch - processPackages [Solverz]: Skipping, unable to determine old version
+[2024-05-20 11:12:19] INFO root fetch - main [MainThread]: End processing [Solverz] error
+[2024-05-20 11:12:20] INFO root fetch - processPackages [mad-notifications]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-20 11:12:20] INFO root fetch - processPackages [duwi-smarthome-sdk]: Downloading https://files.pythonhosted.org/packages/91/37/e37c04a849b2ee3122a9ae8cf47e40a42d39aef81da62d72332b3f9071c6/duwi_smarthome_sdk-0.1.2.tar.gz
+[2024-05-20 11:12:20] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/9f/e3/b9f762029218fe3ab2b976c3a780db1d74069dbfc79afc413293c2008ff0/wlkata_mirobot_Virtual-1.2.2.tar.gz
+[2024-05-20 11:12:20] INFO root fetch - processPackages [sema-toolchain]: Downloading https://files.pythonhosted.org/packages/49/b0/9a63d67bc221cd6dd966645d6dcf93ef51979f56f1c0393892902bd39bb3/sema_toolchain-0.0.8.tar.gz
+[2024-05-20 11:12:20] INFO root fetch - processPackages [cads-api-client]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 11:12:20] INFO root fetch - processPackages [comet-toolbox]: New version: [0.4.1] Old Version: [0.3.7]
+[2024-05-20 11:12:20] INFO root fetch - processPackages [mad-notifications]: Downloading https://files.pythonhosted.org/packages/30/86/cd8b3bc57ad0af2b8cb2019918c62c749979aeebe787a015fa2d9d675a19/mad_notifications-2.2.0.tar.gz
+[2024-05-20 11:12:20] INFO root fetch - processPackages [docmesh-server]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-20 11:12:20] INFO root fetch - processPackages [mypy-dev]: New version: [1.9.0b1] Old Version: [1.11.0a3]
+[2024-05-20 11:12:20] INFO root fetch - processPackages [comet-toolbox]: Downloading https://files.pythonhosted.org/packages/71/af/8dac2478bb1acc6ad0633476a16927d2f4d8b41ef99cd7f259fe9940e102/comet_toolbox-0.3.7.tar.gz
+[2024-05-20 11:12:20] INFO root fetch - processPackages [cads-api-client]: Downloading https://files.pythonhosted.org/packages/18/18/912c9a31555cbedbe96cc68423071078a8dcc4c97ca31a749d6ec7250974/cads_api_client-1.0.2.tar.gz
+[2024-05-20 11:12:20] INFO root fetch - processPackages [docmesh-server]: Downloading https://files.pythonhosted.org/packages/f8/28/8295fcec48f791e17e0176638bd133b071e0958820b24f4ea30f6827fce8/docmesh_server-0.0.5.tar.gz
+[2024-05-20 11:12:20] INFO root fetch - processPackages [duwi-smarthome-sdk]: Downloading https://files.pythonhosted.org/packages/4b/b9/b4666da5695924e26e7e35b14f72e41fa77a41d2d2bd3fdf28a2b7c58df0/duwi_smarthome_sdk-0.1.3.tar.gz
+[2024-05-20 11:12:20] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/23/66/2fc84fac12d269bc310d8f1cc666d59653ccd675427f5bbf3a29a3e11d0e/wlkata_mirobot_Virtual-1.2.3.tar.gz
+[2024-05-20 11:12:20] INFO root fetch - processPackages [sema-toolchain]: Downloading https://files.pythonhosted.org/packages/fd/21/5c440230c265828b2c056a7fa1b906d0b07721179681a9ea1ec435eba2ab/sema_toolchain-0.0.9.tar.gz
+[2024-05-20 11:12:20] INFO root fetch - processPackages [mypy-dev]: Downloading https://files.pythonhosted.org/packages/81/75/8077431f48bea6985128bd3bce002f3217ef04a69eafe3110e272f9b690e/mypy_dev-1.11.0a3-cp38-cp38-macosx_10_9_x86_64.whl
+[2024-05-20 11:12:20] INFO root fetch - processPackages [duwi-smarthome-sdk]: executing diffoscope
+[2024-05-20 11:12:20] INFO root fetch - processPackages [duwi-smarthome-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk-0.1.2.tar.gz tmp/duwi_smarthome_sdk-0.1.3.tar.gz --markdown 20240520/d/duwi-smarthome-sdk/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-20 11:12:20] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: executing diffoscope
+[2024-05-20 11:12:20] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wlkata_mirobot_Virtual-1.2.2.tar.gz tmp/wlkata_mirobot_Virtual-1.2.3.tar.gz --markdown 20240520/w/wlkata-mirobot-Virtual/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-20 11:12:20] INFO root fetch - processPackages [mad-notifications]: Downloading https://files.pythonhosted.org/packages/dd/bc/1840fcd725d10b4fc0b9b5c58f287c79045b5e3356943018e0a3b1447f66/mad_notifications-2.2.1.tar.gz
+[2024-05-20 11:12:20] INFO root fetch - processPackages [sema-toolchain]: executing diffoscope
+[2024-05-20 11:12:20] INFO root fetch - processPackages [sema-toolchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sema_toolchain-0.0.8.tar.gz tmp/sema_toolchain-0.0.9.tar.gz --markdown 20240520/s/sema-toolchain/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 11:12:20] INFO root fetch - processPackages [mad-notifications]: executing diffoscope
+[2024-05-20 11:12:20] INFO root fetch - processPackages [mad-notifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mad_notifications-2.2.0.tar.gz tmp/mad_notifications-2.2.1.tar.gz --markdown 20240520/m/mad-notifications/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-20 11:12:20] INFO root fetch - processPackages [cads-api-client]: Downloading https://files.pythonhosted.org/packages/9e/25/359f61afb8ec644ee97478615756df6a9721f64f680e46097d1358abbbbf/cads_api_client-1.0.3.tar.gz
+[2024-05-20 11:12:20] INFO root fetch - processPackages [docmesh-server]: Downloading https://files.pythonhosted.org/packages/29/e3/95de33a7866c36beae206b2f4cfb7c37e43b95616201c2a65f6190a4cd91/docmesh_server-0.0.6.tar.gz
+[2024-05-20 11:12:20] INFO root fetch - processPackages [cads-api-client]: executing diffoscope
+[2024-05-20 11:12:20] INFO root fetch - processPackages [cads-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cads_api_client-1.0.2.tar.gz tmp/cads_api_client-1.0.3.tar.gz --markdown 20240520/c/cads-api-client/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 11:12:20] INFO root fetch - processPackages [docmesh-server]: executing diffoscope
+[2024-05-20 11:12:20] INFO root fetch - processPackages [docmesh-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_server-0.0.5.tar.gz tmp/docmesh_server-0.0.6.tar.gz --markdown 20240520/d/docmesh-server/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-20 11:12:21] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.2.2.tar.gz]
+[2024-05-20 11:12:21] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.2.3.tar.gz]
+[2024-05-20 11:12:21] INFO root fetch - main [MainThread]: End processing [wlkata-mirobot-Virtual]: success
+[2024-05-20 11:12:21] INFO root fetch - processPackages [duwi-smarthome-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk-0.1.2.tar.gz]
+[2024-05-20 11:12:21] INFO root fetch - processPackages [duwi-smarthome-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk-0.1.3.tar.gz]
+[2024-05-20 11:12:21] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk]: success
+[2024-05-20 11:12:21] WARNING root fetch - processPackages [mypy-dev]: Skipping package: exceeds size limit 10813664>=10485760
+[2024-05-20 11:12:21] INFO root fetch - main [MainThread]: End processing [mypy-dev] error
+[2024-05-20 11:12:21] INFO root fetch - processPackages [sema-toolchain]: Remove: archive file [/home/abi/fetcher/tmp/sema_toolchain-0.0.8.tar.gz]
+[2024-05-20 11:12:21] INFO root fetch - processPackages [sema-toolchain]: Remove: archive file [/home/abi/fetcher/tmp/sema_toolchain-0.0.9.tar.gz]
+[2024-05-20 11:12:21] INFO root fetch - main [MainThread]: End processing [sema-toolchain]: success
+[2024-05-20 11:12:21] INFO root fetch - processPackages [mad-notifications]: Remove: archive file [/home/abi/fetcher/tmp/mad_notifications-2.2.0.tar.gz]
+[2024-05-20 11:12:21] INFO root fetch - processPackages [mad-notifications]: Remove: archive file [/home/abi/fetcher/tmp/mad_notifications-2.2.1.tar.gz]
+[2024-05-20 11:12:21] INFO root fetch - main [MainThread]: End processing [mad-notifications]: success
+[2024-05-20 11:12:21] INFO root fetch - processPackages [comet-toolbox]: Downloading https://files.pythonhosted.org/packages/da/4b/209782cc15d05c0e9eb37e06c2a36b70222e884a5735a9b08b7de760a95f/comet_toolbox-0.4.1.tar.gz
+[2024-05-20 11:12:21] INFO root fetch - processPackages [docmesh-server]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_server-0.0.5.tar.gz]
+[2024-05-20 11:12:21] INFO root fetch - processPackages [docmesh-server]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_server-0.0.6.tar.gz]
+[2024-05-20 11:12:21] INFO root fetch - main [MainThread]: End processing [docmesh-server]: success
+[2024-05-20 11:12:21] WARNING root fetch - processPackages [comet-toolbox]: Skipping package: exceeds size limit 10716133>=10485760
+[2024-05-20 11:12:21] INFO root fetch - main [MainThread]: End processing [comet-toolbox] error
+[2024-05-20 11:12:21] INFO root fetch - processPackages [cads-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cads_api_client-1.0.2.tar.gz]
+[2024-05-20 11:12:21] INFO root fetch - processPackages [cads-api-client]: Remove: archive file [/home/abi/fetcher/tmp/cads_api_client-1.0.3.tar.gz]
+[2024-05-20 11:12:21] INFO root fetch - main [MainThread]: End processing [cads-api-client]: success
+[2024-05-20 11:12:21] INFO root fetch - main [MainThread]: Store serial: [23287370]

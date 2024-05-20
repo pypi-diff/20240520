@@ -3627,3 +3627,54 @@
 [2024-05-20 02:54:58] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.4.tar.gz]
 [2024-05-20 02:54:58] INFO root fetch - main [MainThread]: End processing [tmticket]: success
 [2024-05-20 02:54:58] INFO root fetch - main [MainThread]: Store serial: [23283128]
+[2024-05-20 02:57:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283128]
+[2024-05-20 02:57:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 02:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yoto-api
+[2024-05-20 02:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dt-extensions-models
+[2024-05-20 02:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bitpay
+[2024-05-20 02:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: REVHubInterface
+[2024-05-20 02:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eras
+[2024-05-20 02:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RecursiveNamespace
+[2024-05-20 02:57:06] INFO root fetch - processPackages [REVHubInterface]: New version: [1.3.3.dev9] Old Version: [1.3.3.dev8]
+[2024-05-20 02:57:06] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-20 02:57:06] INFO root fetch - processPackages [dt-extensions-models]: New version: [0.0.13] Old Version: [0.0.12]
+[2024-05-20 02:57:06] WARNING root fetch - processPackages [RecursiveNamespace]: Skipping, unable to determine old version
+[2024-05-20 02:57:06] INFO root fetch - main [MainThread]: End processing [RecursiveNamespace] error
+[2024-05-20 02:57:06] INFO root fetch - processPackages [eras]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-20 02:57:06] INFO root fetch - processPackages [bitpay]: New version: [6.0.3] Old Version: [6.0.2]
+[2024-05-20 02:57:06] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/0d/90/3c74a9c7310ba2da2e673cb67d3e8c65e5460209759ef2fa291efce82ab5/revhubinterface-1.3.3.dev8.tar.gz
+[2024-05-20 02:57:06] INFO root fetch - processPackages [dt-extensions-models]: Downloading https://files.pythonhosted.org/packages/a1/91/b5f61ef53203c9b89b2717947b349c7dcd1177eeecc56b32ecf1a6e6594c/dt_extensions_models-0.0.12.tar.gz
+[2024-05-20 02:57:06] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-20 02:57:06] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/3d/b3/4905c67fb1528ca50fd708ea8f8064881d830a20772bcc35b4eca6640c96/eras-0.2.7.tar.gz
+[2024-05-20 02:57:06] INFO root fetch - processPackages [bitpay]: Downloading https://files.pythonhosted.org/packages/f2/50/b6474cc27960447f452df6140971a0ec401ac1e48091d4cd23900749893b/bitpay-6.0.2.tar.gz
+[2024-05-20 02:57:06] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-20 02:57:06] INFO root fetch - processPackages [dt-extensions-models]: Downloading https://files.pythonhosted.org/packages/83/f8/3d67f7c2a39022625ce74020ba47644f0ea5890bcd53f1365c085f43196c/dt_extensions_models-0.0.13.tar.gz
+[2024-05-20 02:57:06] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/47/93/e2ab5da20dcdca793ff04faa5aa5f38bb3f149e7bf70c77c15ac7d127689/revhubinterface-1.3.3.dev9.tar.gz
+[2024-05-20 02:57:06] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-20 02:57:06] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240520/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-20 02:57:06] INFO root fetch - processPackages [dt-extensions-models]: executing diffoscope
+[2024-05-20 02:57:06] INFO root fetch - processPackages [dt-extensions-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dt_extensions_models-0.0.12.tar.gz tmp/dt_extensions_models-0.0.13.tar.gz --markdown 20240520/d/dt-extensions-models/0.0.12-0.0.13/README.md --exclude *.pyd
+[2024-05-20 02:57:07] INFO root fetch - processPackages [REVHubInterface]: executing diffoscope
+[2024-05-20 02:57:07] INFO root fetch - processPackages [REVHubInterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revhubinterface-1.3.3.dev8.tar.gz tmp/revhubinterface-1.3.3.dev9.tar.gz --markdown 20240520/R/REVHubInterface/1.3.3.dev8-1.3.3.dev9/README.md --exclude *.pyd
+[2024-05-20 02:57:07] INFO root fetch - processPackages [bitpay]: Downloading https://files.pythonhosted.org/packages/a6/9e/ecd7d952b2346c2164b2228d453228bfe6662de60111bba7fb909b02c84c/bitpay-6.0.3.tar.gz
+[2024-05-20 02:57:07] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/13/48/3c3566e9d786fa1adf3ff6a7000ceb815de5f81d1deb590b19cb3de9fa4f/eras-0.2.8.tar.gz
+[2024-05-20 02:57:07] INFO root fetch - processPackages [bitpay]: executing diffoscope
+[2024-05-20 02:57:07] INFO root fetch - processPackages [bitpay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitpay-6.0.2.tar.gz tmp/bitpay-6.0.3.tar.gz --markdown 20240520/b/bitpay/6.0.2-6.0.3/README.md --exclude *.pyd
+[2024-05-20 02:57:07] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-20 02:57:07] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.2.7.tar.gz tmp/eras-0.2.8.tar.gz --markdown 20240520/e/eras/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-20 02:57:07] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-20 02:57:07] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-20 02:57:07] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-20 02:57:07] INFO root fetch - processPackages [dt-extensions-models]: Remove: archive file [/home/abi/fetcher/tmp/dt_extensions_models-0.0.12.tar.gz]
+[2024-05-20 02:57:07] INFO root fetch - processPackages [dt-extensions-models]: Remove: archive file [/home/abi/fetcher/tmp/dt_extensions_models-0.0.13.tar.gz]
+[2024-05-20 02:57:07] INFO root fetch - main [MainThread]: End processing [dt-extensions-models]: success
+[2024-05-20 02:57:07] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev8.tar.gz]
+[2024-05-20 02:57:07] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev9.tar.gz]
+[2024-05-20 02:57:07] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
+[2024-05-20 02:57:07] INFO root fetch - processPackages [bitpay]: Remove: archive file [/home/abi/fetcher/tmp/bitpay-6.0.2.tar.gz]
+[2024-05-20 02:57:07] INFO root fetch - processPackages [bitpay]: Remove: archive file [/home/abi/fetcher/tmp/bitpay-6.0.3.tar.gz]
+[2024-05-20 02:57:07] INFO root fetch - main [MainThread]: End processing [bitpay]: success
+[2024-05-20 02:57:08] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.2.7.tar.gz]
+[2024-05-20 02:57:08] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.2.8.tar.gz]
+[2024-05-20 02:57:08] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-20 02:57:08] INFO root fetch - main [MainThread]: Store serial: [23283148]

@@ -8092,3 +8092,93 @@
 [2024-05-20 08:18:27] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240519.tar.gz]
 [2024-05-20 08:18:27] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-05-20 08:18:27] INFO root fetch - main [MainThread]: Store serial: [23285363]
+[2024-05-20 08:20:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285363]
+[2024-05-20 08:20:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-20 08:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weavel
+[2024-05-20 08:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paicorelib
+[2024-05-20 08:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poja-by-tanjona
+[2024-05-20 08:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: withholdsz
+[2024-05-20 08:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gisdecorator
+[2024-05-20 08:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fake-bpy-module-latest
+[2024-05-20 08:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fake-bpy-module
+[2024-05-20 08:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: htt
+[2024-05-20 08:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: webpage-content-scraper
+[2024-05-20 08:20:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ipython-args
+[2024-05-20 08:20:36] INFO root fetch - processPackages [webpage-content-scraper]: New version: [0.2] Old Version: [0.1]
+[2024-05-20 08:20:36] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240519] Old Version: [20240518]
+[2024-05-20 08:20:36] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240519] Old Version: [20240518]
+[2024-05-20 08:20:36] INFO root fetch - processPackages [paicorelib]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-20 08:20:36] INFO root fetch - processPackages [weavel]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-20 08:20:36] WARNING root fetch - processPackages [gisdecorator]: Skipping, unable to determine old version
+[2024-05-20 08:20:36] INFO root fetch - processPackages [gisdecorator]: Start processing: cf2tf
+[2024-05-20 08:20:36] INFO root fetch - main [MainThread]: End processing [gisdecorator] error
+[2024-05-20 08:20:36] INFO root fetch - processPackages [poja-by-tanjona]: New version: [13.1.0] Old Version: [13.0.0]
+[2024-05-20 08:20:36] INFO root fetch - processPackages [htt]: New version: [0.9] Old Version: [0.8]
+[2024-05-20 08:20:36] WARNING root fetch - processPackages [withholdsz]: Skipping, unable to determine old version
+[2024-05-20 08:20:36] INFO root fetch - main [MainThread]: End processing [withholdsz] error
+[2024-05-20 08:20:36] INFO root fetch - processPackages [webpage-content-scraper]: Downloading https://files.pythonhosted.org/packages/b1/93/8fbe0831ef567cee0dfaedf69e5fcb262b71b6b54dc780e552a3481a8b17/webpage_content_scraper-0.1.tar.gz
+[2024-05-20 08:20:36] INFO root fetch - processPackages [ipython-args]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 08:20:36] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/ba/5e/456b7e5bfb41848af187520ca1fdc813896d268847592a2a8671f9011797/fake_bpy_module-20240518.tar.gz
+[2024-05-20 08:20:36] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/a2/4f/3370f012bed1848f6ee12e672907ed5d2799fcc87b24a08d972e4573de92/fake_bpy_module_latest-20240518.tar.gz
+[2024-05-20 08:20:36] INFO root fetch - processPackages [paicorelib]: Downloading https://files.pythonhosted.org/packages/47/98/37909d512fc0c5fb7a267eddadcd375531c4ddba7e97ef457b92060a886e/paicorelib-1.1.1.tar.gz
+[2024-05-20 08:20:36] INFO root fetch - processPackages [weavel]: Downloading https://files.pythonhosted.org/packages/f7/18/846ebc5ff1f30b58906b76e3519dbe1a0c845587ea77fd8a02153f003bcf/weavel-0.4.3.tar.gz
+[2024-05-20 08:20:36] INFO root fetch - processPackages [cf2tf]: New version: [0.8.1a4] Old Version: [0.8.1a3]
+[2024-05-20 08:20:36] INFO root fetch - processPackages [poja-by-tanjona]: Downloading https://files.pythonhosted.org/packages/f7/a5/02e9b7021235468c618966861c326fc81aa47df0ed281f5e520a9c51a3e4/poja-by-tanjona-13.0.0.tar.gz
+[2024-05-20 08:20:37] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/44/9f/4e24bd8cc850dd610afb0047bea11fbc8885507fe8ecf1f06b0486d45c93/htt-0.8.tar.gz
+[2024-05-20 08:20:37] INFO root fetch - processPackages [ipython-args]: Downloading https://files.pythonhosted.org/packages/93/83/a79c159f2f7c9b6ba0cdf11ee20d2d084441771c424cb1bbf2b224c12efa/ipython_args-1.0.2.tar.gz
+[2024-05-20 08:20:37] INFO root fetch - processPackages [webpage-content-scraper]: Downloading https://files.pythonhosted.org/packages/c2/22/37d7e1ebe97404e20811a78548b7de05c4feef800a067c13c46bf3086504/webpage_content_scraper-0.2.tar.gz
+[2024-05-20 08:20:37] INFO root fetch - processPackages [webpage-content-scraper]: executing diffoscope
+[2024-05-20 08:20:37] INFO root fetch - processPackages [webpage-content-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webpage_content_scraper-0.1.tar.gz tmp/webpage_content_scraper-0.2.tar.gz --markdown 20240520/w/webpage-content-scraper/0.1-0.2/README.md --exclude *.pyd
+[2024-05-20 08:20:37] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/08/cc/7a83a1d06489bee6b45cb2bdeb48640f10336ce40b0995687ef37ffeac26/cf2tf-0.8.1a3.tar.gz
+[2024-05-20 08:20:37] INFO root fetch - processPackages [paicorelib]: Downloading https://files.pythonhosted.org/packages/f3/2d/5d95a83e0d44cff655be0606f804068d3614e852e5972ebb37d641cb13a8/paicorelib-1.1.2.tar.gz
+[2024-05-20 08:20:37] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/f2/c5/c1ed2ec4c780c3c17781b423d585bc473693c23b6b11980a39f7b2057928/fake_bpy_module-20240519.tar.gz
+[2024-05-20 08:20:37] INFO root fetch - processPackages [poja-by-tanjona]: Downloading https://files.pythonhosted.org/packages/d2/7f/f7dce4782fc9be86f765597b29b0e269221e84f1a8463956f11152ad80a9/poja-by-tanjona-13.1.0.tar.gz
+[2024-05-20 08:20:37] INFO root fetch - processPackages [weavel]: Downloading https://files.pythonhosted.org/packages/d8/81/c9e15f8dbd8ba17dc7c0b158a870df1da3b5d3c79c4a554f178a67908297/weavel-0.4.4.tar.gz
+[2024-05-20 08:20:37] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/8b/c8/692f6e834359e11c0c52b1cc6f9facb01fa068072ce9b5c22910f620942f/fake_bpy_module_latest-20240519.tar.gz
+[2024-05-20 08:20:37] INFO root fetch - processPackages [paicorelib]: executing diffoscope
+[2024-05-20 08:20:37] INFO root fetch - processPackages [paicorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paicorelib-1.1.1.tar.gz tmp/paicorelib-1.1.2.tar.gz --markdown 20240520/p/paicorelib/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-20 08:20:37] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/87/6a/ca73587d0d0b4fffad8f8daad555cb2903ae583af0db8bd1e235267f8122/htt-0.9.tar.gz
+[2024-05-20 08:20:37] INFO root fetch - processPackages [ipython-args]: Downloading https://files.pythonhosted.org/packages/5f/e6/feebd8f4ef84c6bb823d52378ae20328bb8f5f6e50aa70909786ec74e6f7/ipython_args-1.0.3.tar.gz
+[2024-05-20 08:20:37] INFO root fetch - processPackages [poja-by-tanjona]: executing diffoscope
+[2024-05-20 08:20:37] INFO root fetch - processPackages [poja-by-tanjona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poja-by-tanjona-13.0.0.tar.gz tmp/poja-by-tanjona-13.1.0.tar.gz --markdown 20240520/p/poja-by-tanjona/13.0.0-13.1.0/README.md --exclude *.pyd
+[2024-05-20 08:20:37] INFO root fetch - processPackages [weavel]: executing diffoscope
+[2024-05-20 08:20:37] INFO root fetch - processPackages [weavel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weavel-0.4.3.tar.gz tmp/weavel-0.4.4.tar.gz --markdown 20240520/w/weavel/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-20 08:20:37] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-05-20 08:20:37] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240518.tar.gz tmp/fake_bpy_module-20240519.tar.gz --markdown 20240520/f/fake-bpy-module/20240518-20240519/README.md --exclude *.pyd
+[2024-05-20 08:20:37] INFO root fetch - processPackages [htt]: executing diffoscope
+[2024-05-20 08:20:37] INFO root fetch - processPackages [htt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htt-0.8.tar.gz tmp/htt-0.9.tar.gz --markdown 20240520/h/htt/0.8-0.9/README.md --exclude *.pyd
+[2024-05-20 08:20:37] INFO root fetch - processPackages [cf2tf]: Downloading https://files.pythonhosted.org/packages/2c/e0/55ddb80ac357b2bd5dba6f24f78101b4ab7da3acb8218c2a2086b888b824/cf2tf-0.8.1a4.tar.gz
+[2024-05-20 08:20:37] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-05-20 08:20:37] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240518.tar.gz tmp/fake_bpy_module_latest-20240519.tar.gz --markdown 20240520/f/fake-bpy-module-latest/20240518-20240519/README.md --exclude *.pyd
+[2024-05-20 08:20:37] INFO root fetch - processPackages [ipython-args]: executing diffoscope
+[2024-05-20 08:20:37] INFO root fetch - processPackages [ipython-args]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython_args-1.0.2.tar.gz tmp/ipython_args-1.0.3.tar.gz --markdown 20240520/i/ipython-args/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 08:20:37] INFO root fetch - processPackages [cf2tf]: executing diffoscope
+[2024-05-20 08:20:37] INFO root fetch - processPackages [cf2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf2tf-0.8.1a3.tar.gz tmp/cf2tf-0.8.1a4.tar.gz --markdown 20240520/c/cf2tf/0.8.1a3-0.8.1a4/README.md --exclude *.pyd
+[2024-05-20 08:20:37] INFO root fetch - processPackages [webpage-content-scraper]: Remove: archive file [/home/abi/fetcher/tmp/webpage_content_scraper-0.1.tar.gz]
+[2024-05-20 08:20:37] INFO root fetch - processPackages [webpage-content-scraper]: Remove: archive file [/home/abi/fetcher/tmp/webpage_content_scraper-0.2.tar.gz]
+[2024-05-20 08:20:37] INFO root fetch - main [MainThread]: End processing [webpage-content-scraper]: success
+[2024-05-20 08:20:38] INFO root fetch - processPackages [paicorelib]: Remove: archive file [/home/abi/fetcher/tmp/paicorelib-1.1.1.tar.gz]
+[2024-05-20 08:20:38] INFO root fetch - processPackages [paicorelib]: Remove: archive file [/home/abi/fetcher/tmp/paicorelib-1.1.2.tar.gz]
+[2024-05-20 08:20:38] INFO root fetch - main [MainThread]: End processing [paicorelib]: success
+[2024-05-20 08:20:38] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.8.tar.gz]
+[2024-05-20 08:20:38] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.9.tar.gz]
+[2024-05-20 08:20:38] INFO root fetch - main [MainThread]: End processing [htt]: success
+[2024-05-20 08:20:38] INFO root fetch - processPackages [poja-by-tanjona]: Remove: archive file [/home/abi/fetcher/tmp/poja-by-tanjona-13.0.0.tar.gz]
+[2024-05-20 08:20:38] INFO root fetch - processPackages [poja-by-tanjona]: Remove: archive file [/home/abi/fetcher/tmp/poja-by-tanjona-13.1.0.tar.gz]
+[2024-05-20 08:20:38] INFO root fetch - main [MainThread]: End processing [poja-by-tanjona]: success
+[2024-05-20 08:20:38] INFO root fetch - processPackages [weavel]: Remove: archive file [/home/abi/fetcher/tmp/weavel-0.4.3.tar.gz]
+[2024-05-20 08:20:38] INFO root fetch - processPackages [weavel]: Remove: archive file [/home/abi/fetcher/tmp/weavel-0.4.4.tar.gz]
+[2024-05-20 08:20:38] INFO root fetch - main [MainThread]: End processing [weavel]: success
+[2024-05-20 08:20:38] INFO root fetch - processPackages [ipython-args]: Remove: archive file [/home/abi/fetcher/tmp/ipython_args-1.0.2.tar.gz]
+[2024-05-20 08:20:38] INFO root fetch - processPackages [ipython-args]: Remove: archive file [/home/abi/fetcher/tmp/ipython_args-1.0.3.tar.gz]
+[2024-05-20 08:20:38] INFO root fetch - main [MainThread]: End processing [ipython-args]: success
+[2024-05-20 08:20:38] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.8.1a3.tar.gz]
+[2024-05-20 08:20:38] INFO root fetch - processPackages [cf2tf]: Remove: archive file [/home/abi/fetcher/tmp/cf2tf-0.8.1a4.tar.gz]
+[2024-05-20 08:20:38] INFO root fetch - main [MainThread]: End processing [cf2tf]: success
+[2024-05-20 08:20:51] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240518.tar.gz]
+[2024-05-20 08:20:51] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240519.tar.gz]
+[2024-05-20 08:20:51] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-05-20 08:20:51] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240518.tar.gz]
+[2024-05-20 08:20:51] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240519.tar.gz]
+[2024-05-20 08:20:51] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-05-20 08:20:51] INFO root fetch - main [MainThread]: Store serial: [23285400]

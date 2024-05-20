@@ -15169,3 +15169,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 13:21:35] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
 [2024-05-20 13:21:35] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-05-20 13:21:35] INFO root fetch - main [MainThread]: Store serial: [23288667]
+[2024-05-20 13:23:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288667]
+[2024-05-20 13:23:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 13:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lib-version-urlphishing
+[2024-05-20 13:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tree-sitter-requirements
+[2024-05-20 13:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testsegmtor
+[2024-05-20 13:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cli-app-directory
+[2024-05-20 13:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kcli
+[2024-05-20 13:23:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: m-kafka-sdk-v2
+[2024-05-20 13:23:44] WARNING root fetch - processPackages [cli-app-directory]: Skipping, unable to determine old version
+[2024-05-20 13:23:44] INFO root fetch - main [MainThread]: End processing [cli-app-directory] error
+[2024-05-20 13:23:44] INFO root fetch - processPackages [lib-version-urlphishing]: New version: [2.3.1] Old Version: [2.2.9]
+[2024-05-20 13:23:44] INFO root fetch - processPackages [kcli]: New version: [99.0.202405201047] Old Version: [99.0.202405201020]
+[2024-05-20 13:23:44] WARNING root fetch - processPackages [testsegmtor]: Skipping, unable to determine old version
+[2024-05-20 13:23:44] INFO root fetch - main [MainThread]: End processing [testsegmtor] error
+[2024-05-20 13:23:44] INFO root fetch - processPackages [tree-sitter-requirements]: New version: [0.4.0] Old Version: [0.3.3]
+[2024-05-20 13:23:44] INFO root fetch - processPackages [m-kafka-sdk-v2]: New version: [1.0.2] Old Version: [1.0.1rc3]
+[2024-05-20 13:23:44] INFO root fetch - processPackages [lib-version-urlphishing]: Downloading https://files.pythonhosted.org/packages/c2/ac/b3abb431768c8da77518fa9c70821347653825a34cf8889e7af365a179db/lib_version_urlphishing-2.2.9.tar.gz
+[2024-05-20 13:23:44] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f9/47/ff860ce5ae72057bd86d41c03ec1778404f4a75d7678ac97b8367341cb63/kcli-99.0.202405201020.tar.gz
+[2024-05-20 13:23:44] INFO root fetch - processPackages [m-kafka-sdk-v2]: Downloading https://files.pythonhosted.org/packages/fd/11/8b53f1ec55aa156e40de31345751c4806aab0ac796579ed107255c4fa9f1/m-kafka-sdk-v2-1.0.1rc3.tar.gz
+[2024-05-20 13:23:44] INFO root fetch - processPackages [tree-sitter-requirements]: Downloading https://files.pythonhosted.org/packages/8b/bc/8b85585a0a17d0773143babca85b5e6885b0b93d3f10344e0cce3d9b056d/tree_sitter_requirements-0.3.3-cp38-abi3-win_amd64.whl
+[2024-05-20 13:23:44] INFO root fetch - processPackages [lib-version-urlphishing]: Downloading https://files.pythonhosted.org/packages/32/67/303bc98c9372043bac7e41807eb1779adae475cffd4f677802843185b6b9/lib_version_urlphishing-2.3.1.tar.gz
+[2024-05-20 13:23:44] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/8b/c0/4e5eb144c2edc207bb14fc9ee60df39eedf66fae576d37f1016beec3d4d2/kcli-99.0.202405201047.tar.gz
+[2024-05-20 13:23:44] INFO root fetch - processPackages [lib-version-urlphishing]: executing diffoscope
+[2024-05-20 13:23:44] INFO root fetch - processPackages [lib-version-urlphishing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_urlphishing-2.2.9.tar.gz tmp/lib_version_urlphishing-2.3.1.tar.gz --markdown 20240520/l/lib-version-urlphishing/2.2.9-2.3.1/README.md --exclude *.pyd
+[2024-05-20 13:23:44] INFO root fetch - processPackages [tree-sitter-requirements]: Downloading https://files.pythonhosted.org/packages/3d/64/1d6e2054992f314bf1bc3aa23f7d4ddab3518aff72be6316bc66d25af9c0/tree-sitter-requirements-0.4.0.tar.gz
+[2024-05-20 13:23:44] INFO root fetch - processPackages [m-kafka-sdk-v2]: Downloading https://files.pythonhosted.org/packages/1a/5f/d76dec0558dc3e2f82504e2a7f95ff9865b848e3b628c858484746ad476a/m_kafka_sdk_v2-1.0.2.tar.gz
+[2024-05-20 13:23:44] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-20 13:23:44] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405201020.tar.gz tmp/kcli-99.0.202405201047.tar.gz --markdown 20240520/k/kcli/99.0.202405201020-99.0.202405201047/README.md --exclude *.pyd
+[2024-05-20 13:23:45] INFO root fetch - processPackages [tree-sitter-requirements]: executing diffoscope
+[2024-05-20 13:23:45] INFO root fetch - processPackages [tree-sitter-requirements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_sitter_requirements-0.3.3-cp38-abi3-win_amd64.whl.zip tmp/tree-sitter-requirements-0.4.0.tar.gz --markdown 20240520/t/tree-sitter-requirements/0.3.3-0.4.0/README.md --exclude *.pyd
+[2024-05-20 13:23:45] INFO root fetch - processPackages [m-kafka-sdk-v2]: executing diffoscope
+[2024-05-20 13:23:45] INFO root fetch - processPackages [m-kafka-sdk-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-kafka-sdk-v2-1.0.1rc3.tar.gz tmp/m_kafka_sdk_v2-1.0.2.tar.gz --markdown 20240520/m/m-kafka-sdk-v2/1.0.1rc3-1.0.2/README.md --exclude *.pyd
+[2024-05-20 13:23:45] INFO root fetch - processPackages [lib-version-urlphishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-2.2.9.tar.gz]
+[2024-05-20 13:23:45] INFO root fetch - processPackages [lib-version-urlphishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-2.3.1.tar.gz]
+[2024-05-20 13:23:45] INFO root fetch - main [MainThread]: End processing [lib-version-urlphishing]: success
+[2024-05-20 13:23:45] INFO root fetch - processPackages [tree-sitter-requirements]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_requirements-0.3.3-cp38-abi3-win_amd64.whl.zip]
+[2024-05-20 13:23:45] INFO root fetch - processPackages [tree-sitter-requirements]: Remove: archive file [/home/abi/fetcher/tmp/tree-sitter-requirements-0.4.0.tar.gz]
+[2024-05-20 13:23:45] INFO root fetch - main [MainThread]: End processing [tree-sitter-requirements]: success
+[2024-05-20 13:23:45] INFO root fetch - processPackages [m-kafka-sdk-v2]: Remove: archive file [/home/abi/fetcher/tmp/m-kafka-sdk-v2-1.0.1rc3.tar.gz]
+[2024-05-20 13:23:45] INFO root fetch - processPackages [m-kafka-sdk-v2]: Remove: archive file [/home/abi/fetcher/tmp/m_kafka_sdk_v2-1.0.2.tar.gz]
+[2024-05-20 13:23:45] INFO root fetch - main [MainThread]: End processing [m-kafka-sdk-v2]: success
+[2024-05-20 13:23:47] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405201020.tar.gz]
+[2024-05-20 13:23:47] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405201047.tar.gz]
+[2024-05-20 13:23:47] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-20 13:23:47] INFO root fetch - main [MainThread]: Store serial: [23288694]

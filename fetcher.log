@@ -5031,3 +5031,15 @@
 [2024-05-20 04:31:27] WARNING root fetch - processPackages [pipecat-ai]: Skipping package: exceeds size limit 33485745>=10485760
 [2024-05-20 04:31:27] INFO root fetch - main [MainThread]: End processing [pipecat-ai] error
 [2024-05-20 04:31:27] INFO root fetch - main [MainThread]: Store serial: [23283835]
+[2024-05-20 04:33:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283835]
+[2024-05-20 04:33:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 04:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vr180-convert
+[2024-05-20 04:33:36] INFO root fetch - processPackages [vr180-convert]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-20 04:33:36] INFO root fetch - processPackages [vr180-convert]: Downloading https://files.pythonhosted.org/packages/b4/65/f72373df6962476c96b48af0f3c7271932d67aeb94dbcb700ca898738eab/vr180_convert-0.3.0.tar.gz
+[2024-05-20 04:33:36] INFO root fetch - processPackages [vr180-convert]: Downloading https://files.pythonhosted.org/packages/b1/f6/4ddfbe897656ba26a44b7cf4d615cc00916400349437c5377a6ad237a281/vr180_convert-0.3.1.tar.gz
+[2024-05-20 04:33:36] INFO root fetch - processPackages [vr180-convert]: executing diffoscope
+[2024-05-20 04:33:36] INFO root fetch - processPackages [vr180-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vr180_convert-0.3.0.tar.gz tmp/vr180_convert-0.3.1.tar.gz --markdown 20240520/v/vr180-convert/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-20 04:33:37] INFO root fetch - processPackages [vr180-convert]: Remove: archive file [/home/abi/fetcher/tmp/vr180_convert-0.3.0.tar.gz]
+[2024-05-20 04:33:37] INFO root fetch - processPackages [vr180-convert]: Remove: archive file [/home/abi/fetcher/tmp/vr180_convert-0.3.1.tar.gz]
+[2024-05-20 04:33:37] INFO root fetch - main [MainThread]: End processing [vr180-convert]: success
+[2024-05-20 04:33:37] INFO root fetch - main [MainThread]: Store serial: [23283839]

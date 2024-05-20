@@ -10149,3 +10149,54 @@
 [2024-05-20 10:01:54] INFO root fetch - processPackages [secimport]: Remove: archive file [/home/abi/fetcher/tmp/secimport-0.9.2.tar.gz]
 [2024-05-20 10:01:54] INFO root fetch - main [MainThread]: End processing [secimport]: success
 [2024-05-20 10:01:54] INFO root fetch - main [MainThread]: Store serial: [23286592]
+[2024-05-20 10:03:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286592]
+[2024-05-20 10:04:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 10:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: loshz
+[2024-05-20 10:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-alinlp20200629
+[2024-05-20 10:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sais-notify
+[2024-05-20 10:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai-models
+[2024-05-20 10:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bridgecrew
+[2024-05-20 10:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quickresize
+[2024-05-20 10:04:03] WARNING root fetch - processPackages [loshz]: Skipping, unable to determine old version
+[2024-05-20 10:04:03] INFO root fetch - main [MainThread]: End processing [loshz] error
+[2024-05-20 10:04:03] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.97] Old Version: [3.2.96]
+[2024-05-20 10:04:03] INFO root fetch - processPackages [quickresize]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-20 10:04:03] INFO root fetch - processPackages [sais-notify]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-20 10:04:03] INFO root fetch - processPackages [alibabacloud-alinlp20200629]: New version: [3.0.0] Old Version: [2.8.2]
+[2024-05-20 10:04:03] INFO root fetch - processPackages [ai-models]: New version: [0.6.0] Old Version: [0.5.7]
+[2024-05-20 10:04:03] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/fc/82/c9951aacb6977009bd11e7a1faf43ed2bbc86381cc50badea5c8a9fd8432/bridgecrew-3.2.96.tar.gz
+[2024-05-20 10:04:03] INFO root fetch - processPackages [sais-notify]: Downloading https://files.pythonhosted.org/packages/83/c2/eb514f483b69de71f897ac3510207a79108dd9b51159dd58e77c02c1b38c/sais_notify-0.0.1.tar.gz
+[2024-05-20 10:04:03] INFO root fetch - processPackages [quickresize]: Downloading https://files.pythonhosted.org/packages/ac/70/37462997f935068181755f504320ba9edf67182dde6bd8e0b404e6dc24ba/quickresize-0.2.0.tar.gz
+[2024-05-20 10:04:03] INFO root fetch - processPackages [alibabacloud-alinlp20200629]: Downloading https://files.pythonhosted.org/packages/3b/64/7be4315584d523ea7295020ae52be0f9369403e522a1eea92821569c167d/alibabacloud_alinlp20200629-2.8.2.tar.gz
+[2024-05-20 10:04:03] INFO root fetch - processPackages [ai-models]: Downloading https://files.pythonhosted.org/packages/24/50/f6a84d158e97cbf78ffad63437ef137e15078aa3e3b7d2ceae4e45885330/ai_models-0.5.7.tar.gz
+[2024-05-20 10:04:03] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/08/3a/4e547e820af254dddacf444af0b1b3bb32c7b65bf073114aa04916e6a6e2/bridgecrew-3.2.97.tar.gz
+[2024-05-20 10:04:03] INFO root fetch - processPackages [sais-notify]: Downloading https://files.pythonhosted.org/packages/90/35/c05fb6afd5437581be9d9e043a3330e5c979cb34062dd3105f6a8b1d12b9/sais_notify-0.0.2.tar.gz
+[2024-05-20 10:04:03] INFO root fetch - processPackages [quickresize]: Downloading https://files.pythonhosted.org/packages/69/5e/df28d0e1cb0a5648644bb8a116df2846102c54852559a421d62592762a22/quickresize-0.3.0.tar.gz
+[2024-05-20 10:04:03] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-20 10:04:03] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.96.tar.gz tmp/bridgecrew-3.2.97.tar.gz --markdown 20240520/b/bridgecrew/3.2.96-3.2.97/README.md --exclude *.pyd
+[2024-05-20 10:04:03] INFO root fetch - processPackages [alibabacloud-alinlp20200629]: Downloading https://files.pythonhosted.org/packages/77/d1/e539d29d92fa8797f1868f556b0f2678a724e3402e83e009fbb9e194c444/alibabacloud_alinlp20200629-3.0.0.tar.gz
+[2024-05-20 10:04:03] INFO root fetch - processPackages [ai-models]: Downloading https://files.pythonhosted.org/packages/3f/49/f6f3c70ba757c7b1cc9eeabcdba4ca747410bc6a84112539501e19f45212/ai_models-0.6.0.tar.gz
+[2024-05-20 10:04:03] INFO root fetch - processPackages [sais-notify]: executing diffoscope
+[2024-05-20 10:04:03] INFO root fetch - processPackages [sais-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify-0.0.1.tar.gz tmp/sais_notify-0.0.2.tar.gz --markdown 20240520/s/sais-notify/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-20 10:04:03] INFO root fetch - processPackages [alibabacloud-alinlp20200629]: executing diffoscope
+[2024-05-20 10:04:03] INFO root fetch - processPackages [alibabacloud-alinlp20200629]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_alinlp20200629-2.8.2.tar.gz tmp/alibabacloud_alinlp20200629-3.0.0.tar.gz --markdown 20240520/a/alibabacloud-alinlp20200629/2.8.2-3.0.0/README.md --exclude *.pyd
+[2024-05-20 10:04:03] INFO root fetch - processPackages [ai-models]: executing diffoscope
+[2024-05-20 10:04:03] INFO root fetch - processPackages [ai-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_models-0.5.7.tar.gz tmp/ai_models-0.6.0.tar.gz --markdown 20240520/a/ai-models/0.5.7-0.6.0/README.md --exclude *.pyd
+[2024-05-20 10:04:03] INFO root fetch - processPackages [quickresize]: executing diffoscope
+[2024-05-20 10:04:03] INFO root fetch - processPackages [quickresize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickresize-0.2.0.tar.gz tmp/quickresize-0.3.0.tar.gz --markdown 20240520/q/quickresize/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-20 10:04:04] INFO root fetch - processPackages [sais-notify]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify-0.0.1.tar.gz]
+[2024-05-20 10:04:04] INFO root fetch - processPackages [sais-notify]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify-0.0.2.tar.gz]
+[2024-05-20 10:04:04] INFO root fetch - main [MainThread]: End processing [sais-notify]: success
+[2024-05-20 10:04:04] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.96.tar.gz]
+[2024-05-20 10:04:04] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.97.tar.gz]
+[2024-05-20 10:04:04] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-20 10:04:04] INFO root fetch - processPackages [quickresize]: Remove: archive file [/home/abi/fetcher/tmp/quickresize-0.2.0.tar.gz]
+[2024-05-20 10:04:04] INFO root fetch - processPackages [quickresize]: Remove: archive file [/home/abi/fetcher/tmp/quickresize-0.3.0.tar.gz]
+[2024-05-20 10:04:04] INFO root fetch - main [MainThread]: End processing [quickresize]: success
+[2024-05-20 10:04:04] INFO root fetch - processPackages [ai-models]: Remove: archive file [/home/abi/fetcher/tmp/ai_models-0.5.7.tar.gz]
+[2024-05-20 10:04:04] INFO root fetch - processPackages [ai-models]: Remove: archive file [/home/abi/fetcher/tmp/ai_models-0.6.0.tar.gz]
+[2024-05-20 10:04:04] INFO root fetch - main [MainThread]: End processing [ai-models]: success
+[2024-05-20 10:04:04] INFO root fetch - processPackages [alibabacloud-alinlp20200629]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_alinlp20200629-2.8.2.tar.gz]
+[2024-05-20 10:04:04] INFO root fetch - processPackages [alibabacloud-alinlp20200629]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_alinlp20200629-3.0.0.tar.gz]
+[2024-05-20 10:04:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-alinlp20200629]: success
+[2024-05-20 10:04:04] INFO root fetch - main [MainThread]: Store serial: [23286612]

@@ -14342,3 +14342,44 @@
 [2024-05-20 12:47:21] INFO root fetch - processPackages [evtool]: Remove: archive file [/home/abi/fetcher/tmp/evtool-0.0.3.tar.gz]
 [2024-05-20 12:47:21] INFO root fetch - main [MainThread]: End processing [evtool]: success
 [2024-05-20 12:47:21] INFO root fetch - main [MainThread]: Store serial: [23288310]
+[2024-05-20 12:49:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288310]
+[2024-05-20 12:49:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 12:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: file-crusher
+[2024-05-20 12:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2024-05-20 12:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opentelemetry-instrumentation-milvus
+[2024-05-20 12:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NearBeach
+[2024-05-20 12:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emoji
+[2024-05-20 12:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-server-action-navigate
+[2024-05-20 12:49:30] INFO root fetch - processPackages [file-crusher]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-20 12:49:30] INFO root fetch - processPackages [emoji]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-20 12:49:30] INFO root fetch - processPackages [emoji]: Downloading https://files.pythonhosted.org/packages/73/eb/335ac266110ecc112c28d0360012c863fe3781c5555be52eb69790037751/emoji-2.8.0.tar.gz
+[2024-05-20 12:49:30] WARNING root fetch - processPackages [opentelemetry-instrumentation-milvus]: Skipping, unable to determine old version
+[2024-05-20 12:49:30] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-milvus] error
+[2024-05-20 12:49:30] INFO root fetch - processPackages [NearBeach]: New version: [0.31.9] Old Version: [0.31.8]
+[2024-05-20 12:49:30] WARNING root fetch - processPackages [odoo-addon-server-action-navigate]: Skipping, unable to determine old version
+[2024-05-20 12:49:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-server-action-navigate] error
+[2024-05-20 12:49:30] INFO root fetch - processPackages [kcli]: New version: [99.0.202405201047] Old Version: [99.0.202405201020]
+[2024-05-20 12:49:30] INFO root fetch - processPackages [file-crusher]: Downloading https://files.pythonhosted.org/packages/1c/a8/e029f90f7da8d0cde7fc65562df8bd49cf12f5e1efd99581558bccdf1601/file_crusher-0.2.0.tar.gz
+[2024-05-20 12:49:30] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f9/47/ff860ce5ae72057bd86d41c03ec1778404f4a75d7678ac97b8367341cb63/kcli-99.0.202405201020.tar.gz
+[2024-05-20 12:49:30] INFO root fetch - processPackages [emoji]: Downloading https://files.pythonhosted.org/packages/3e/29/8a183335d6a4bad794aaf6d0ea9116a751c6df471a6b8e8f1e9bb9f00aae/emoji-2.9.0.tar.gz
+[2024-05-20 12:49:30] INFO root fetch - processPackages [NearBeach]: Downloading https://files.pythonhosted.org/packages/d3/c9/4444a9584fae7ddaa87ff4efa7f16f8833a3827e50758749323b05d77edd/nearbeach-0.31.8.tar.gz
+[2024-05-20 12:49:30] INFO root fetch - processPackages [emoji]: executing diffoscope
+[2024-05-20 12:49:30] INFO root fetch - processPackages [emoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emoji-2.8.0.tar.gz tmp/emoji-2.9.0.tar.gz --markdown 20240520/e/emoji/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-20 12:49:30] INFO root fetch - processPackages [file-crusher]: Downloading https://files.pythonhosted.org/packages/e3/11/ee2bbc78a74adddd44c9d6ed82ed892361a9ec17e1aff3388ab1001b7cc0/file_crusher-0.2.1.tar.gz
+[2024-05-20 12:49:30] WARNING root fetch - processPackages [NearBeach]: Skipping package: exceeds size limit 32530107>=10485760
+[2024-05-20 12:49:30] INFO root fetch - main [MainThread]: End processing [NearBeach] error
+[2024-05-20 12:49:30] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/8b/c0/4e5eb144c2edc207bb14fc9ee60df39eedf66fae576d37f1016beec3d4d2/kcli-99.0.202405201047.tar.gz
+[2024-05-20 12:49:31] INFO root fetch - processPackages [file-crusher]: executing diffoscope
+[2024-05-20 12:49:31] INFO root fetch - processPackages [file-crusher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file_crusher-0.2.0.tar.gz tmp/file_crusher-0.2.1.tar.gz --markdown 20240520/f/file-crusher/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-20 12:49:31] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-20 12:49:31] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405201020.tar.gz tmp/kcli-99.0.202405201047.tar.gz --markdown 20240520/k/kcli/99.0.202405201020-99.0.202405201047/README.md --exclude *.pyd
+[2024-05-20 12:49:31] INFO root fetch - processPackages [file-crusher]: Remove: archive file [/home/abi/fetcher/tmp/file_crusher-0.2.0.tar.gz]
+[2024-05-20 12:49:31] INFO root fetch - processPackages [file-crusher]: Remove: archive file [/home/abi/fetcher/tmp/file_crusher-0.2.1.tar.gz]
+[2024-05-20 12:49:31] INFO root fetch - main [MainThread]: End processing [file-crusher]: success
+[2024-05-20 12:49:32] INFO root fetch - processPackages [emoji]: Remove: archive file [/home/abi/fetcher/tmp/emoji-2.8.0.tar.gz]
+[2024-05-20 12:49:32] INFO root fetch - processPackages [emoji]: Remove: archive file [/home/abi/fetcher/tmp/emoji-2.9.0.tar.gz]
+[2024-05-20 12:49:32] INFO root fetch - main [MainThread]: End processing [emoji]: success
+[2024-05-20 12:49:33] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405201020.tar.gz]
+[2024-05-20 12:49:33] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405201047.tar.gz]
+[2024-05-20 12:49:33] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-20 12:49:33] INFO root fetch - main [MainThread]: Store serial: [23288329]

@@ -15214,3 +15214,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 13:23:47] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405201047.tar.gz]
 [2024-05-20 13:23:47] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-05-20 13:23:47] INFO root fetch - main [MainThread]: Store serial: [23288694]
+[2024-05-20 13:25:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288694]
+[2024-05-20 13:25:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 13:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: camera-service
+[2024-05-20 13:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cibuildwheel
+[2024-05-20 13:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe-21
+[2024-05-20 13:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchrl-nightly
+[2024-05-20 13:25:56] WARNING root fetch - processPackages [camera-service]: Skipping, unable to determine old version
+[2024-05-20 13:25:56] INFO root fetch - main [MainThread]: End processing [camera-service] error
+[2024-05-20 13:25:56] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240520] Old Version: [2.5.0b20240519]
+[2024-05-20 13:25:56] INFO root fetch - processPackages [cibuildwheel]: New version: [2.9.0] Old Version: [2.8.1]
+[2024-05-20 13:25:56] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/a3/af/39806deb5409014aacfc405a3541f917d38f41ee5a7c3bf6b8f0a98dab20/bigdl_core_xe_21-2.5.0b20240519-cp39-cp39-win_amd64.whl
+[2024-05-20 13:25:56] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-20 13:25:56] INFO root fetch - processPackages [cibuildwheel]: Downloading https://files.pythonhosted.org/packages/38/cb/e51b06f669cf1270d8ff52b63a58fa70b728147520c18d5c5b1b7ae3b2e7/cibuildwheel-2.8.1.tar.gz
+[2024-05-20 13:25:56] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 33869854>=10485760
+[2024-05-20 13:25:56] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-20 13:25:56] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/a5/6d/9461214af24f1d24305421c7f45896fa740108e193fceb8f3145648e07e2/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl
+[2024-05-20 13:25:57] INFO root fetch - processPackages [cibuildwheel]: Downloading https://files.pythonhosted.org/packages/1b/a1/1bcea94b340d553572bbd3c11f610982abe7c36492296bc0ad16660d181c/cibuildwheel-2.9.0.tar.gz
+[2024-05-20 13:25:57] INFO root fetch - processPackages [cibuildwheel]: executing diffoscope
+[2024-05-20 13:25:57] INFO root fetch - processPackages [cibuildwheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cibuildwheel-2.8.1.tar.gz tmp/cibuildwheel-2.9.0.tar.gz --markdown 20240520/c/cibuildwheel/2.8.1-2.9.0/README.md --exclude *.pyd
+[2024-05-20 13:25:57] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/e9/e4/1d21a71adb0d6367cd81a5f47617cabf90f99ac96a421dda991f6aeefff2/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl
+[2024-05-20 13:25:57] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-05-20 13:25:57] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20240520/t/torchrl-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-20 13:25:58] INFO root fetch - processPackages [cibuildwheel]: Remove: archive file [/home/abi/fetcher/tmp/cibuildwheel-2.8.1.tar.gz]
+[2024-05-20 13:25:58] INFO root fetch - processPackages [cibuildwheel]: Remove: archive file [/home/abi/fetcher/tmp/cibuildwheel-2.9.0.tar.gz]
+[2024-05-20 13:25:58] INFO root fetch - main [MainThread]: End processing [cibuildwheel]: success
+[2024-05-20 13:25:58] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 13:25:58] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 13:25:58] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-05-20 13:25:58] INFO root fetch - main [MainThread]: Store serial: [23288705]

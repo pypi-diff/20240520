@@ -23095,3 +23095,66 @@ EOFError: EOF read where object expected
 [2024-05-20 18:10:04] INFO root fetch - processPackages [requests]: Remove: archive file [/home/abi/fetcher/tmp/requests-2.9.2.tar.gz]
 [2024-05-20 18:10:04] INFO root fetch - main [MainThread]: End processing [requests]: success
 [2024-05-20 18:10:04] INFO root fetch - main [MainThread]: Store serial: [23292257]
+[2024-05-20 18:12:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292257]
+[2024-05-20 18:12:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 18:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scenvi
+[2024-05-20 18:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aspose-barcode-for-python-via-net
+[2024-05-20 18:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fol_parser
+[2024-05-20 18:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quad-iou
+[2024-05-20 18:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dartmouth-langchain
+[2024-05-20 18:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fol_parser
+[2024-05-20 18:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: servicenow-api
+[2024-05-20 18:12:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dalf
+[2024-05-20 18:12:13] INFO root fetch - processPackages [quad-iou]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-05-20 18:12:13] INFO root fetch - processPackages [fol_parser]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-20 18:12:13] INFO root fetch - processPackages [servicenow-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-20 18:12:13] INFO root fetch - processPackages [fol_parser]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-20 18:12:13] INFO root fetch - processPackages [scenvi]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-20 18:12:13] INFO root fetch - processPackages [quad-iou]: Downloading https://files.pythonhosted.org/packages/64/c5/7197d5ac3e2e536c3da4d3256840317e1ec377a97a408e06f1cd599a0028/quad_iou-0.0.0.tar.gz
+[2024-05-20 18:12:13] INFO root fetch - processPackages [dartmouth-langchain]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-20 18:12:13] WARNING root fetch - processPackages [dalf]: Skipping, unable to determine old version
+[2024-05-20 18:12:13] INFO root fetch - processPackages [aspose-barcode-for-python-via-net]: New version: [24.5] Old Version: [24.4]
+[2024-05-20 18:12:13] INFO root fetch - main [MainThread]: End processing [dalf] error
+[2024-05-20 18:12:13] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/2a/96/cc447e9247636a3ca7fe607e05a327a7076f254221c5c20c960f2d6689fd/servicenow_api-0.8.0-py2.py3-none-any.whl
+[2024-05-20 18:12:14] INFO root fetch - processPackages [fol_parser]: Downloading https://files.pythonhosted.org/packages/79/5f/ea6614e7229c99d17d7d518575424b8f96cb4ae3c2bf81eacd07986db488/fol_parser-0.2.0.tar.gz
+[2024-05-20 18:12:14] INFO root fetch - processPackages [fol_parser]: Downloading https://files.pythonhosted.org/packages/79/5f/ea6614e7229c99d17d7d518575424b8f96cb4ae3c2bf81eacd07986db488/fol_parser-0.2.0.tar.gz
+[2024-05-20 18:12:14] INFO root fetch - processPackages [scenvi]: Downloading https://files.pythonhosted.org/packages/ca/c6/3c62ff319459bd32be9ab3a0ed6c4e4964b1e5a6adfe063e822bd9a4171c/scenvi-0.3.3.tar.gz
+[2024-05-20 18:12:14] INFO root fetch - processPackages [quad-iou]: Downloading https://files.pythonhosted.org/packages/c3/92/63a8e77ee6490c8c547b2f91b5fd203a1f550e702530b212f0663342c0d9/quad_iou-0.1.0.tar.gz
+[2024-05-20 18:12:14] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/76/cb/16788288b3e511d9ebf0b67d4e1cd59966bc918931d1953e5f137a9ff712/servicenow_api-0.9.0-py2.py3-none-any.whl
+[2024-05-20 18:12:14] INFO root fetch - processPackages [dartmouth-langchain]: Downloading https://files.pythonhosted.org/packages/ba/77/fc26165e0563d480244f67b58f3f10191d47b70dee908ec07fc36fa474a6/dartmouth_langchain-0.0.6.tar.gz
+[2024-05-20 18:12:14] INFO root fetch - processPackages [aspose-barcode-for-python-via-net]: Downloading https://files.pythonhosted.org/packages/ef/fb/4d6c5370a067ec0dfced895d781f179ad393cc1c30c843d7be817c16dfed/aspose_barcode_for_python_via_net-24.4-py3-none-win_amd64.whl
+[2024-05-20 18:12:14] WARNING root fetch - processPackages [aspose-barcode-for-python-via-net]: Skipping package: exceeds size limit 40554625>=10485760
+[2024-05-20 18:12:14] INFO root fetch - main [MainThread]: End processing [aspose-barcode-for-python-via-net] error
+[2024-05-20 18:12:14] INFO root fetch - processPackages [quad-iou]: executing diffoscope
+[2024-05-20 18:12:14] INFO root fetch - processPackages [quad-iou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quad_iou-0.0.0.tar.gz tmp/quad_iou-0.1.0.tar.gz --markdown 20240520/q/quad-iou/0.0.0-0.1.0/README.md --exclude *.pyd
+[2024-05-20 18:12:14] INFO root fetch - processPackages [servicenow-api]: executing diffoscope
+[2024-05-20 18:12:14] INFO root fetch - processPackages [servicenow-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip --markdown 20240520/s/servicenow-api/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-20 18:12:14] INFO root fetch - processPackages [fol_parser]: Downloading https://files.pythonhosted.org/packages/a2/fd/d8d407c9011f1194d70c15ef79760ac298e62055961c1c33fcd565a17c08/fol_parser-0.3.0.tar.gz
+[2024-05-20 18:12:14] INFO root fetch - processPackages [fol_parser]: Downloading https://files.pythonhosted.org/packages/a2/fd/d8d407c9011f1194d70c15ef79760ac298e62055961c1c33fcd565a17c08/fol_parser-0.3.0.tar.gz
+[2024-05-20 18:12:14] INFO root fetch - processPackages [dartmouth-langchain]: Downloading https://files.pythonhosted.org/packages/e7/9d/2657c7f2288638f6ea07ceae38ae2ee7c77adff46d669aded4dd07307d4a/dartmouth_langchain-0.0.7.tar.gz
+[2024-05-20 18:12:14] INFO root fetch - processPackages [scenvi]: Downloading https://files.pythonhosted.org/packages/25/67/aed049f52e3ffdd63ec253ec261f3123a40f192b5386de4254da87046b81/scenvi-0.3.4.tar.gz
+[2024-05-20 18:12:14] INFO root fetch - processPackages [fol_parser]: executing diffoscope
+[2024-05-20 18:12:14] INFO root fetch - processPackages [fol_parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fol_parser-0.2.0.tar.gz tmp/fol_parser-0.3.0.tar.gz --markdown 20240520/f/fol_parser/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-20 18:12:14] INFO root fetch - processPackages [scenvi]: executing diffoscope
+[2024-05-20 18:12:14] INFO root fetch - processPackages [scenvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scenvi-0.3.3.tar.gz tmp/scenvi-0.3.4.tar.gz --markdown 20240520/s/scenvi/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-20 18:12:14] INFO root fetch - processPackages [dartmouth-langchain]: executing diffoscope
+[2024-05-20 18:12:14] INFO root fetch - processPackages [dartmouth-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartmouth_langchain-0.0.6.tar.gz tmp/dartmouth_langchain-0.0.7.tar.gz --markdown 20240520/d/dartmouth-langchain/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-20 18:12:14] INFO root fetch - processPackages [fol_parser]: executing diffoscope
+[2024-05-20 18:12:14] INFO root fetch - processPackages [fol_parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fol_parser-0.2.0.tar.gz tmp/fol_parser-0.3.0.tar.gz --markdown 20240520/f/fol_parser/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-20 18:12:14] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-20 18:12:14] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-20 18:12:14] INFO root fetch - main [MainThread]: End processing [servicenow-api]: success
+[2024-05-20 18:12:14] INFO root fetch - processPackages [quad-iou]: Remove: archive file [/home/abi/fetcher/tmp/quad_iou-0.0.0.tar.gz]
+[2024-05-20 18:12:14] INFO root fetch - processPackages [quad-iou]: Remove: archive file [/home/abi/fetcher/tmp/quad_iou-0.1.0.tar.gz]
+[2024-05-20 18:12:14] INFO root fetch - main [MainThread]: End processing [quad-iou]: success
+[2024-05-20 18:12:15] INFO root fetch - processPackages [fol_parser]: Remove: archive file [/home/abi/fetcher/tmp/fol_parser-0.2.0.tar.gz]
+[2024-05-20 18:12:15] INFO root fetch - processPackages [fol_parser]: Remove: archive file [/home/abi/fetcher/tmp/fol_parser-0.3.0.tar.gz]
+[2024-05-20 18:12:15] INFO root fetch - main [MainThread]: End processing [fol_parser]: success
+[2024-05-20 18:12:15] INFO root fetch - processPackages [scenvi]: Remove: archive file [/home/abi/fetcher/tmp/scenvi-0.3.3.tar.gz]
+[2024-05-20 18:12:15] INFO root fetch - processPackages [scenvi]: Remove: archive file [/home/abi/fetcher/tmp/scenvi-0.3.4.tar.gz]
+[2024-05-20 18:12:15] INFO root fetch - main [MainThread]: End processing [scenvi]: success
+[2024-05-20 18:12:15] INFO root fetch - processPackages [dartmouth-langchain]: Remove: archive file [/home/abi/fetcher/tmp/dartmouth_langchain-0.0.6.tar.gz]
+[2024-05-20 18:12:15] INFO root fetch - processPackages [dartmouth-langchain]: Remove: archive file [/home/abi/fetcher/tmp/dartmouth_langchain-0.0.7.tar.gz]
+[2024-05-20 18:12:15] INFO root fetch - main [MainThread]: End processing [dartmouth-langchain]: success
+[2024-05-20 18:12:15] INFO root fetch - main [MainThread]: End processing [fol_parser]: success
+[2024-05-20 18:12:15] INFO root fetch - main [MainThread]: Store serial: [23292284]

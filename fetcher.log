@@ -22526,3 +22526,81 @@ EOFError: EOF read where object expected
 [2024-05-20 17:47:29] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2024-05-20 17:47:29] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2024-05-20 17:47:29] INFO root fetch - main [MainThread]: Store serial: [23291987]
+[2024-05-20 17:49:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291987]
+[2024-05-20 17:49:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 17:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tq42-grpc-client
+[2024-05-20 17:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rudimentz
+[2024-05-20 17:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2024-05-20 17:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langgraph
+[2024-05-20 17:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modal
+[2024-05-20 17:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modal-client
+[2024-05-20 17:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyedifice
+[2024-05-20 17:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dve-lumipy-testing
+[2024-05-20 17:49:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lokzzpylib
+[2024-05-20 17:49:38] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-20 17:49:38] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-20 17:49:38] INFO root fetch - processPackages [langgraph]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 17:49:38] WARNING root fetch - processPackages [rudimentz]: Skipping, unable to determine old version
+[2024-05-20 17:49:38] INFO root fetch - main [MainThread]: End processing [rudimentz] error
+[2024-05-20 17:49:38] INFO root fetch - processPackages [lokzzpylib]: New version: [0.2.dev9] Old Version: [0.2.dev88]
+[2024-05-20 17:49:38] INFO root fetch - processPackages [pyedifice]: New version: [0.6.0] Old Version: [0.5.6]
+[2024-05-20 17:49:38] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-05-20 17:49:38] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 17:49:38] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-20 17:49:38] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-20 17:49:38] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-20 17:49:39] INFO root fetch - processPackages [langgraph]: Downloading https://files.pythonhosted.org/packages/c3/4c/9b4e9602b53407f902478465aed68d9de3c50e5d87e57689b587d47b3da7/langgraph-0.0.8.tar.gz
+[2024-05-20 17:49:39] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/2f/3f/97f2d9421d4920b5b58427e75e2f9a394135eb4609ba0f211ff5f7ffcca9/lokzzpylib-0.2.dev88.tar.gz
+[2024-05-20 17:49:39] INFO root fetch - processPackages [pyedifice]: Downloading https://files.pythonhosted.org/packages/91/83/5915fe529eb3cb29e43836478c1b0cc599386b303ee56cdaae4b603f8cb4/pyedifice-0.5.6.tar.gz
+[2024-05-20 17:49:39] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-20 17:49:39] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-05-20 17:49:39] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-20 17:49:39] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-20 17:49:39] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-20 17:49:39] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-05-20 17:49:39] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240520/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-20 17:49:39] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-20 17:49:39] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240520/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-20 17:49:39] INFO root fetch - processPackages [langgraph]: Downloading https://files.pythonhosted.org/packages/f4/a0/daf7cdeb4d1bf5e82dbc320b0a09159087efca3e06f23971c0144e7114f0/langgraph-0.0.9.tar.gz
+[2024-05-20 17:49:39] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-20 17:49:39] INFO root fetch - processPackages [lokzzpylib]: Downloading https://files.pythonhosted.org/packages/d3/9b/e4bbf15840f86c58df052ec37f778b6563255557c0f8edc61797a91a6dcf/lokzzpylib-0.2.dev9.tar.gz
+[2024-05-20 17:49:39] INFO root fetch - processPackages [langgraph]: executing diffoscope
+[2024-05-20 17:49:39] INFO root fetch - processPackages [langgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph-0.0.8.tar.gz tmp/langgraph-0.0.9.tar.gz --markdown 20240520/l/langgraph/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 17:49:39] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-20 17:49:39] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240520/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-20 17:49:39] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-20 17:49:39] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-20 17:49:39] INFO root fetch - processPackages [lokzzpylib]: executing diffoscope
+[2024-05-20 17:49:39] INFO root fetch - processPackages [lokzzpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lokzzpylib-0.2.dev88.tar.gz tmp/lokzzpylib-0.2.dev9.tar.gz --markdown 20240520/l/lokzzpylib/0.2.dev88-0.2.dev9/README.md --exclude *.pyd
+[2024-05-20 17:49:39] INFO root fetch - processPackages [pyedifice]: Downloading https://files.pythonhosted.org/packages/8a/0f/590ee2adc8ca2bcaeac57f0b85769086e725807d19014eaf278d417d999e/pyedifice-0.6.0.tar.gz
+[2024-05-20 17:49:39] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-20 17:49:39] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240520/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-20 17:49:39] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-20 17:49:39] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240520/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 17:49:40] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-20 17:49:40] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-20 17:49:40] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-20 17:49:40] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev88.tar.gz]
+[2024-05-20 17:49:40] INFO root fetch - processPackages [lokzzpylib]: Remove: archive file [/home/abi/fetcher/tmp/lokzzpylib-0.2.dev9.tar.gz]
+[2024-05-20 17:49:40] INFO root fetch - main [MainThread]: End processing [lokzzpylib]: success
+[2024-05-20 17:49:40] INFO root fetch - processPackages [pyedifice]: executing diffoscope
+[2024-05-20 17:49:40] INFO root fetch - processPackages [pyedifice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyedifice-0.5.6.tar.gz tmp/pyedifice-0.6.0.tar.gz --markdown 20240520/p/pyedifice/0.5.6-0.6.0/README.md --exclude *.pyd
+[2024-05-20 17:49:40] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.8.tar.gz]
+[2024-05-20 17:49:40] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.9.tar.gz]
+[2024-05-20 17:49:40] INFO root fetch - main [MainThread]: End processing [langgraph]: success
+[2024-05-20 17:49:41] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-05-20 17:49:41] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-05-20 17:49:41] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-05-20 17:49:41] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-20 17:49:41] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-20 17:49:41] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-20 17:49:41] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-20 17:49:41] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-20 17:49:41] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-20 17:49:42] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-20 17:49:42] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-20 17:49:42] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-20 17:49:45] INFO root fetch - processPackages [pyedifice]: Remove: archive file [/home/abi/fetcher/tmp/pyedifice-0.5.6.tar.gz]
+[2024-05-20 17:49:45] INFO root fetch - processPackages [pyedifice]: Remove: archive file [/home/abi/fetcher/tmp/pyedifice-0.6.0.tar.gz]
+[2024-05-20 17:49:45] INFO root fetch - main [MainThread]: End processing [pyedifice]: success
+[2024-05-20 17:49:45] INFO root fetch - main [MainThread]: Store serial: [23292012]

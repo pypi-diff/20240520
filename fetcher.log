@@ -16153,3 +16153,45 @@ EOFError: EOF read where object expected
 [2024-05-20 14:03:11] INFO root fetch - processPackages [django-helusers]: Remove: archive file [/home/abi/fetcher/tmp/django-helusers-0.9.0.tar.gz]
 [2024-05-20 14:03:11] INFO root fetch - main [MainThread]: End processing [django-helusers]: success
 [2024-05-20 14:03:11] INFO root fetch - main [MainThread]: Store serial: [23289149]
+[2024-05-20 14:05:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289149]
+[2024-05-20 14:05:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 14:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imsciences
+[2024-05-20 14:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-new-launcher
+[2024-05-20 14:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prototwin-cmdbuff
+[2024-05-20 14:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sais-notify
+[2024-05-20 14:05:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bonsai-prp
+[2024-05-20 14:05:20] INFO root fetch - processPackages [sais-notify]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-20 14:05:20] INFO root fetch - processPackages [imsciences]: New version: [0.5.7.6] Old Version: [0.5.7.5]
+[2024-05-20 14:05:20] INFO root fetch - processPackages [bonsai-prp]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-20 14:05:20] INFO root fetch - processPackages [sais-notify]: Downloading https://files.pythonhosted.org/packages/30/c1/f2617f0c637df8cced34042949ae9071ca2840409fddd3b0c2db33ea4ca2/sais_notify-0.0.6.tar.gz
+[2024-05-20 14:05:20] INFO root fetch - processPackages [jupyterlab-new-launcher]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-20 14:05:20] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/ab/47/8b96b197fbdf6f8841ce5befa6d0cc3f5b740a5710567cb00372e569779b/imsciences-0.5.7.5.tar.gz
+[2024-05-20 14:05:20] WARNING root fetch - processPackages [prototwin-cmdbuff]: Skipping, unable to determine old version
+[2024-05-20 14:05:20] INFO root fetch - main [MainThread]: End processing [prototwin-cmdbuff] error
+[2024-05-20 14:05:21] INFO root fetch - processPackages [bonsai-prp]: Downloading https://files.pythonhosted.org/packages/9b/ba/c732d196db103ec8815265cd5857c7a8150d8b3124032832c54877436466/bonsai_prp-0.8.1.tar.gz
+[2024-05-20 14:05:21] INFO root fetch - processPackages [jupyterlab-new-launcher]: Downloading https://files.pythonhosted.org/packages/e5/f3/0870a714017ea6441303aab7515e8905a3ea9bc00665c0331c6182071c9f/jupyterlab_new_launcher-0.3.2.tar.gz
+[2024-05-20 14:05:21] INFO root fetch - processPackages [sais-notify]: Downloading https://files.pythonhosted.org/packages/1f/7c/fba68337090c6753c080748f24165427ffb7e92a0804ae450ca34d210d0d/sais_notify-0.0.7.tar.gz
+[2024-05-20 14:05:21] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/93/ef/a33a759b33956e631167ed0cbb83b4aa21c4502f6a56a09756af24daf393/imsciences-0.5.7.6.tar.gz
+[2024-05-20 14:05:21] INFO root fetch - processPackages [sais-notify]: executing diffoscope
+[2024-05-20 14:05:21] INFO root fetch - processPackages [sais-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify-0.0.6.tar.gz tmp/sais_notify-0.0.7.tar.gz --markdown 20240520/s/sais-notify/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-20 14:05:21] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-20 14:05:21] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.7.5.tar.gz tmp/imsciences-0.5.7.6.tar.gz --markdown 20240520/i/imsciences/0.5.7.5-0.5.7.6/README.md --exclude *.pyd
+[2024-05-20 14:05:21] INFO root fetch - processPackages [bonsai-prp]: Downloading https://files.pythonhosted.org/packages/e3/87/30177b48831174b301b93cca50b7eb9d44616ca262489070e462019d257c/bonsai_prp-0.8.2.tar.gz
+[2024-05-20 14:05:21] INFO root fetch - processPackages [jupyterlab-new-launcher]: Downloading https://files.pythonhosted.org/packages/fb/de/0f5bfc84cf9900789decf9c75e105976e8c28553c20f2353f9857bd4fc78/jupyterlab_new_launcher-0.3.3.tar.gz
+[2024-05-20 14:05:21] INFO root fetch - processPackages [bonsai-prp]: executing diffoscope
+[2024-05-20 14:05:21] INFO root fetch - processPackages [bonsai-prp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bonsai_prp-0.8.1.tar.gz tmp/bonsai_prp-0.8.2.tar.gz --markdown 20240520/b/bonsai-prp/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-20 14:05:21] INFO root fetch - processPackages [jupyterlab-new-launcher]: executing diffoscope
+[2024-05-20 14:05:21] INFO root fetch - processPackages [jupyterlab-new-launcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_new_launcher-0.3.2.tar.gz tmp/jupyterlab_new_launcher-0.3.3.tar.gz --markdown 20240520/j/jupyterlab-new-launcher/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-20 14:05:21] INFO root fetch - processPackages [sais-notify]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify-0.0.6.tar.gz]
+[2024-05-20 14:05:21] INFO root fetch - processPackages [sais-notify]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify-0.0.7.tar.gz]
+[2024-05-20 14:05:21] INFO root fetch - main [MainThread]: End processing [sais-notify]: success
+[2024-05-20 14:05:22] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.5.tar.gz]
+[2024-05-20 14:05:22] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.6.tar.gz]
+[2024-05-20 14:05:22] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-20 14:05:22] INFO root fetch - processPackages [bonsai-prp]: Remove: archive file [/home/abi/fetcher/tmp/bonsai_prp-0.8.1.tar.gz]
+[2024-05-20 14:05:22] INFO root fetch - processPackages [bonsai-prp]: Remove: archive file [/home/abi/fetcher/tmp/bonsai_prp-0.8.2.tar.gz]
+[2024-05-20 14:05:22] INFO root fetch - main [MainThread]: End processing [bonsai-prp]: success
+[2024-05-20 14:05:22] INFO root fetch - processPackages [jupyterlab-new-launcher]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_new_launcher-0.3.2.tar.gz]
+[2024-05-20 14:05:22] INFO root fetch - processPackages [jupyterlab-new-launcher]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_new_launcher-0.3.3.tar.gz]
+[2024-05-20 14:05:22] INFO root fetch - main [MainThread]: End processing [jupyterlab-new-launcher]: success
+[2024-05-20 14:05:22] INFO root fetch - main [MainThread]: Store serial: [23289218]

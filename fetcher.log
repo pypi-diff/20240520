@@ -3983,3 +3983,45 @@
 [2024-05-20 03:14:50] INFO root fetch - processPackages [kent]: Remove: archive file [/home/abi/fetcher/tmp/kent-2.0.0.tar.gz]
 [2024-05-20 03:14:50] INFO root fetch - main [MainThread]: End processing [kent]: success
 [2024-05-20 03:14:50] INFO root fetch - main [MainThread]: Store serial: [23283254]
+[2024-05-20 03:16:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283254]
+[2024-05-20 03:16:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 03:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyDecision
+[2024-05-20 03:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: soupsavvy
+[2024-05-20 03:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphae
+[2024-05-20 03:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eras
+[2024-05-20 03:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kamangir
+[2024-05-20 03:16:59] INFO root fetch - processPackages [eras]: New version: [0.3.0] Old Version: [0.2.8]
+[2024-05-20 03:16:59] WARNING root fetch - processPackages [kamangir]: Skipping, unable to determine old version
+[2024-05-20 03:16:59] INFO root fetch - main [MainThread]: End processing [kamangir] error
+[2024-05-20 03:16:59] INFO root fetch - processPackages [pyDecision]: New version: [4.5.5] Old Version: [4.5.4]
+[2024-05-20 03:16:59] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/13/48/3c3566e9d786fa1adf3ff6a7000ceb815de5f81d1deb590b19cb3de9fa4f/eras-0.2.8.tar.gz
+[2024-05-20 03:16:59] INFO root fetch - processPackages [sphae]: New version: [1.4.1] Old Version: [1.4]
+[2024-05-20 03:16:59] INFO root fetch - processPackages [soupsavvy]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-20 03:16:59] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/63/e8/d9cd22c6dbad73e6e3d2800d102d02035a47a631c9fcfc5b7370168ffb36/pyDecision-4.5.4.tar.gz
+[2024-05-20 03:16:59] INFO root fetch - processPackages [sphae]: Downloading https://files.pythonhosted.org/packages/2e/3b/d3cfd2e78947debaccb1ad921e4229589adc95d583f03fe4b00af009bcab/sphae-1.4.tar.gz
+[2024-05-20 03:17:00] INFO root fetch - processPackages [soupsavvy]: Downloading https://files.pythonhosted.org/packages/c7/75/3c5323da4c62b83e1f71e9a25f525ee05bc3f801047f167ef39882f4ecaa/soupsavvy-0.1.4.tar.gz
+[2024-05-20 03:17:00] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/8b/fe/796025aa96ba3bb3d2fd7e46de8c74f2460be882e63b7950dc346cfa4a74/eras-0.3.0.tar.gz
+[2024-05-20 03:17:00] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-20 03:17:00] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.2.8.tar.gz tmp/eras-0.3.0.tar.gz --markdown 20240520/e/eras/0.2.8-0.3.0/README.md --exclude *.pyd
+[2024-05-20 03:17:00] INFO root fetch - processPackages [sphae]: Downloading https://files.pythonhosted.org/packages/90/36/d2814f567a1408739c8e66de346981d027a3f57173a4fa0a98b9edffd237/sphae-1.4.1.tar.gz
+[2024-05-20 03:17:00] INFO root fetch - processPackages [pyDecision]: Downloading https://files.pythonhosted.org/packages/71/f3/acc02b3ff4678e7b332cda22e184e22f4bdfade49ae7440b68026ce3be57/pyDecision-4.5.5.tar.gz
+[2024-05-20 03:17:00] INFO root fetch - processPackages [soupsavvy]: Downloading https://files.pythonhosted.org/packages/0b/20/2e84e75f4e6103e17f454cacefa82fa1310a66eae47872491e42de0167ae/soupsavvy-0.1.5.tar.gz
+[2024-05-20 03:17:00] INFO root fetch - processPackages [sphae]: executing diffoscope
+[2024-05-20 03:17:00] INFO root fetch - processPackages [sphae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphae-1.4.tar.gz tmp/sphae-1.4.1.tar.gz --markdown 20240520/s/sphae/1.4-1.4.1/README.md --exclude *.pyd
+[2024-05-20 03:17:00] INFO root fetch - processPackages [soupsavvy]: executing diffoscope
+[2024-05-20 03:17:00] INFO root fetch - processPackages [soupsavvy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soupsavvy-0.1.4.tar.gz tmp/soupsavvy-0.1.5.tar.gz --markdown 20240520/s/soupsavvy/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-20 03:17:00] INFO root fetch - processPackages [pyDecision]: executing diffoscope
+[2024-05-20 03:17:00] INFO root fetch - processPackages [pyDecision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDecision-4.5.4.tar.gz tmp/pyDecision-4.5.5.tar.gz --markdown 20240520/p/pyDecision/4.5.4-4.5.5/README.md --exclude *.pyd
+[2024-05-20 03:17:00] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.2.8.tar.gz]
+[2024-05-20 03:17:00] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.3.0.tar.gz]
+[2024-05-20 03:17:00] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-20 03:17:01] INFO root fetch - processPackages [soupsavvy]: Remove: archive file [/home/abi/fetcher/tmp/soupsavvy-0.1.4.tar.gz]
+[2024-05-20 03:17:01] INFO root fetch - processPackages [soupsavvy]: Remove: archive file [/home/abi/fetcher/tmp/soupsavvy-0.1.5.tar.gz]
+[2024-05-20 03:17:01] INFO root fetch - main [MainThread]: End processing [soupsavvy]: success
+[2024-05-20 03:17:01] INFO root fetch - processPackages [sphae]: Remove: archive file [/home/abi/fetcher/tmp/sphae-1.4.tar.gz]
+[2024-05-20 03:17:01] INFO root fetch - processPackages [sphae]: Remove: archive file [/home/abi/fetcher/tmp/sphae-1.4.1.tar.gz]
+[2024-05-20 03:17:01] INFO root fetch - main [MainThread]: End processing [sphae]: success
+[2024-05-20 03:17:01] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.5.4.tar.gz]
+[2024-05-20 03:17:01] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.5.5.tar.gz]
+[2024-05-20 03:17:01] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
+[2024-05-20 03:17:01] INFO root fetch - main [MainThread]: Store serial: [23283273]

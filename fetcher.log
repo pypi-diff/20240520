@@ -21200,3 +21200,35 @@ EOFError: EOF read where object expected
 [2024-05-20 17:00:23] INFO root fetch - processPackages [ebsdtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebsdtorch-0.1.1.tar.gz]
 [2024-05-20 17:00:23] INFO root fetch - main [MainThread]: End processing [ebsdtorch]: success
 [2024-05-20 17:00:23] INFO root fetch - main [MainThread]: Store serial: [23291411]
+[2024-05-20 17:02:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291411]
+[2024-05-20 17:02:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 17:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kimmdy
+[2024-05-20 17:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bimonthliesz
+[2024-05-20 17:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: my-scrcpy
+[2024-05-20 17:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yoto-api
+[2024-05-20 17:02:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rodrigo-test-library
+[2024-05-20 17:02:32] INFO root fetch - processPackages [my-scrcpy]: New version: [0.2] Old Version: [0.1]
+[2024-05-20 17:02:32] WARNING root fetch - processPackages [rodrigo-test-library]: Skipping, unable to determine old version
+[2024-05-20 17:02:32] INFO root fetch - main [MainThread]: End processing [rodrigo-test-library] error
+[2024-05-20 17:02:32] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-20 17:02:32] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-20 17:02:32] INFO root fetch - processPackages [kimmdy]: New version: [6.7.0] Old Version: [6.6.1]
+[2024-05-20 17:02:32] WARNING root fetch - processPackages [bimonthliesz]: Skipping, unable to determine old version
+[2024-05-20 17:02:32] INFO root fetch - main [MainThread]: End processing [bimonthliesz] error
+[2024-05-20 17:02:32] INFO root fetch - processPackages [my-scrcpy]: Downloading https://files.pythonhosted.org/packages/56/40/71891ef4ac418ad9ec9e9c5bd0e92fec8b78ef7a0bc63a604c9fca7d05e2/my_scrcpy-0.1.tar.gz
+[2024-05-20 17:02:32] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-20 17:02:32] INFO root fetch - processPackages [kimmdy]: Downloading https://files.pythonhosted.org/packages/63/1c/553d75dc44791faf150b3a77fc77f84ecabb65832f9b029b8ab077234516/kimmdy-6.6.1.tar.gz
+[2024-05-20 17:02:32] WARNING root fetch - processPackages [kimmdy]: Skipping package: exceeds size limit 39060087>=10485760
+[2024-05-20 17:02:32] INFO root fetch - main [MainThread]: End processing [kimmdy] error
+[2024-05-20 17:02:32] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-20 17:02:32] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240520/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-20 17:02:32] INFO root fetch - processPackages [my-scrcpy]: Downloading https://files.pythonhosted.org/packages/b1/88/45f10542bd034de4db09ac8e818109445f661ea216cc0398e152f5e44f42/my_scrcpy-0.2.tar.gz
+[2024-05-20 17:02:32] INFO root fetch - processPackages [my-scrcpy]: executing diffoscope
+[2024-05-20 17:02:32] INFO root fetch - processPackages [my-scrcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_scrcpy-0.1.tar.gz tmp/my_scrcpy-0.2.tar.gz --markdown 20240520/m/my-scrcpy/0.1-0.2/README.md --exclude *.pyd
+[2024-05-20 17:02:33] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-20 17:02:33] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-20 17:02:33] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-20 17:02:33] INFO root fetch - processPackages [my-scrcpy]: Remove: archive file [/home/abi/fetcher/tmp/my_scrcpy-0.1.tar.gz]
+[2024-05-20 17:02:33] INFO root fetch - processPackages [my-scrcpy]: Remove: archive file [/home/abi/fetcher/tmp/my_scrcpy-0.2.tar.gz]
+[2024-05-20 17:02:33] INFO root fetch - main [MainThread]: End processing [my-scrcpy]: success
+[2024-05-20 17:02:33] INFO root fetch - main [MainThread]: Store serial: [23291430]

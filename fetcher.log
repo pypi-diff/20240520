@@ -13960,3 +13960,60 @@
 [2024-05-20 12:31:39] INFO root fetch - processPackages [jolt]: Remove: archive file [/home/abi/fetcher/tmp/jolt-0.9.97.tar.gz]
 [2024-05-20 12:31:39] INFO root fetch - main [MainThread]: End processing [jolt]: success
 [2024-05-20 12:31:39] INFO root fetch - main [MainThread]: Store serial: [23288171]
+[2024-05-20 12:33:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288171]
+[2024-05-20 12:33:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 12:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycatia
+[2024-05-20 12:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk
+[2024-05-20 12:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gene4mVCF
+[2024-05-20 12:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-sdk-preview
+[2024-05-20 12:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cmrsim
+[2024-05-20 12:33:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reasonify-headless
+[2024-05-20 12:33:48] INFO root fetch - processPackages [gene4mVCF]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-20 12:33:48] INFO root fetch - processPackages [reasonify-headless]: New version: [0.1.0a6] Old Version: [0.1.0a5]
+[2024-05-20 12:33:48] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-20 12:33:48] INFO root fetch - processPackages [cmrsim]: New version: [0.31] Old Version: [0.30]
+[2024-05-20 12:33:48] INFO root fetch - processPackages [pycatia]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-20 12:33:48] INFO root fetch - processPackages [reasonify-headless]: Downloading https://files.pythonhosted.org/packages/74/61/032e1b7790b14425a350cc83760fd6ddcf5bbecab32e4caab1a61dc46773/reasonify_headless-0.1.0a5.tar.gz
+[2024-05-20 12:33:48] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.1.98] Old Version: [1.1.97]
+[2024-05-20 12:33:48] INFO root fetch - processPackages [gene4mVCF]: Downloading https://files.pythonhosted.org/packages/b0/32/3fd679a626a7665a1d1c49072bc0cc698637f2cf102fe0b13c0ff9234e67/gene4mvcf-1.0.3.tar.gz
+[2024-05-20 12:33:48] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/15/56/0526e0499d9414b698f8c1260f8aac2e2a3209a0dc66949600aff2c28199/lusid_sdk-2.1.98.tar.gz
+[2024-05-20 12:33:48] INFO root fetch - processPackages [cmrsim]: Downloading https://files.pythonhosted.org/packages/1f/a0/bee1165a4c38264798c99109cf46cc628ad09a6ee8d6e07425cf0fddff1a/cmrsim-0.30.tar.gz
+[2024-05-20 12:33:48] INFO root fetch - processPackages [pycatia]: Downloading https://files.pythonhosted.org/packages/a7/bc/76a7862a0e57191581070bdff8c496154ef4afb1c74d76b0a0e3a2918390/pycatia-0.6.8.tar.gz
+[2024-05-20 12:33:48] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f9/fb/fc53cb5d0455e9bbd1207566684f6f2cd700268ae435d3172e9489e357d8/lusid-sdk-preview-1.1.97.tar.gz
+[2024-05-20 12:33:48] INFO root fetch - processPackages [gene4mVCF]: Downloading https://files.pythonhosted.org/packages/ea/65/35b285b33241d29af93499e8893894db2ce25848f3e4d7e815b72c7badf1/gene4mvcf-1.0.4.tar.gz
+[2024-05-20 12:33:48] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/2c/d6/b08aeae5c238a1e7a8cd3ba4a93d6c65acd45e317b927d0f06091d65479d/lusid_sdk-2.1.99.tar.gz
+[2024-05-20 12:33:48] INFO root fetch - processPackages [reasonify-headless]: Downloading https://files.pythonhosted.org/packages/99/c1/3cda111b66afd303531b4e79430039f412c3432424c7c02c0093ba24979f/reasonify_headless-0.1.0a6.tar.gz
+[2024-05-20 12:33:48] INFO root fetch - processPackages [gene4mVCF]: executing diffoscope
+[2024-05-20 12:33:48] INFO root fetch - processPackages [gene4mVCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gene4mvcf-1.0.3.tar.gz tmp/gene4mvcf-1.0.4.tar.gz --markdown 20240520/g/gene4mVCF/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-20 12:33:48] INFO root fetch - processPackages [reasonify-headless]: executing diffoscope
+[2024-05-20 12:33:48] INFO root fetch - processPackages [reasonify-headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasonify_headless-0.1.0a5.tar.gz tmp/reasonify_headless-0.1.0a6.tar.gz --markdown 20240520/r/reasonify-headless/0.1.0a5-0.1.0a6/README.md --exclude *.pyd
+[2024-05-20 12:33:48] INFO root fetch - processPackages [cmrsim]: Downloading https://files.pythonhosted.org/packages/4d/96/4148ca57c4516f5419fa5327fc73aa742575c7276b655e0119a09590f013/cmrsim-0.31.tar.gz
+[2024-05-20 12:33:48] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-20 12:33:48] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.98.tar.gz tmp/lusid_sdk-2.1.99.tar.gz --markdown 20240520/l/lusid-sdk/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-20 12:33:49] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/c5/34/68330ec346008829c8b0f483665ee7ae8ba394a18406fd563696f8ee59e8/lusid-sdk-preview-1.1.98.tar.gz
+[2024-05-20 12:33:49] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2024-05-20 12:33:49] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.1.97.tar.gz tmp/lusid-sdk-preview-1.1.98.tar.gz --markdown 20240520/l/lusid-sdk-preview/1.1.97-1.1.98/README.md --exclude *.pyd
+[2024-05-20 12:33:49] INFO root fetch - processPackages [pycatia]: Downloading https://files.pythonhosted.org/packages/67/5f/427610b345123536e143425f1d81deccd06e6d32f0dce54497bf17f4fd01/pycatia-0.6.9.tar.gz
+[2024-05-20 12:33:49] INFO root fetch - processPackages [cmrsim]: executing diffoscope
+[2024-05-20 12:33:49] INFO root fetch - processPackages [cmrsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmrsim-0.30.tar.gz tmp/cmrsim-0.31.tar.gz --markdown 20240520/c/cmrsim/0.30-0.31/README.md --exclude *.pyd
+[2024-05-20 12:33:49] INFO root fetch - processPackages [reasonify-headless]: Remove: archive file [/home/abi/fetcher/tmp/reasonify_headless-0.1.0a5.tar.gz]
+[2024-05-20 12:33:49] INFO root fetch - processPackages [reasonify-headless]: Remove: archive file [/home/abi/fetcher/tmp/reasonify_headless-0.1.0a6.tar.gz]
+[2024-05-20 12:33:49] INFO root fetch - main [MainThread]: End processing [reasonify-headless]: success
+[2024-05-20 12:33:49] INFO root fetch - processPackages [gene4mVCF]: Remove: archive file [/home/abi/fetcher/tmp/gene4mvcf-1.0.3.tar.gz]
+[2024-05-20 12:33:49] INFO root fetch - processPackages [gene4mVCF]: Remove: archive file [/home/abi/fetcher/tmp/gene4mvcf-1.0.4.tar.gz]
+[2024-05-20 12:33:49] INFO root fetch - main [MainThread]: End processing [gene4mVCF]: success
+[2024-05-20 12:33:49] INFO root fetch - processPackages [pycatia]: executing diffoscope
+[2024-05-20 12:33:49] INFO root fetch - processPackages [pycatia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatia-0.6.8.tar.gz tmp/pycatia-0.6.9.tar.gz --markdown 20240520/p/pycatia/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-20 12:33:50] INFO root fetch - processPackages [cmrsim]: Remove: archive file [/home/abi/fetcher/tmp/cmrsim-0.30.tar.gz]
+[2024-05-20 12:33:50] INFO root fetch - processPackages [cmrsim]: Remove: archive file [/home/abi/fetcher/tmp/cmrsim-0.31.tar.gz]
+[2024-05-20 12:33:50] INFO root fetch - main [MainThread]: End processing [cmrsim]: success
+[2024-05-20 12:33:53] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.98.tar.gz]
+[2024-05-20 12:33:53] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
+[2024-05-20 12:33:53] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-20 12:33:55] INFO root fetch - processPackages [pycatia]: Remove: archive file [/home/abi/fetcher/tmp/pycatia-0.6.8.tar.gz]
+[2024-05-20 12:33:55] INFO root fetch - processPackages [pycatia]: Remove: archive file [/home/abi/fetcher/tmp/pycatia-0.6.9.tar.gz]
+[2024-05-20 12:33:55] INFO root fetch - main [MainThread]: End processing [pycatia]: success
+[2024-05-20 12:34:03] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.97.tar.gz]
+[2024-05-20 12:34:03] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
+[2024-05-20 12:34:03] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2024-05-20 12:34:03] INFO root fetch - main [MainThread]: Store serial: [23288187]

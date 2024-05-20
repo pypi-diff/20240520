@@ -4896,3 +4896,69 @@
 [2024-05-20 04:22:36] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.45.tar.gz]
 [2024-05-20 04:22:36] INFO root fetch - main [MainThread]: End processing [langflow-base]: success
 [2024-05-20 04:22:36] INFO root fetch - main [MainThread]: Store serial: [23283737]
+[2024-05-20 04:24:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283737]
+[2024-05-20 04:24:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 04:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wwbot
+[2024-05-20 04:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-embeddings-upstage
+[2024-05-20 04:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tach
+[2024-05-20 04:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autora-experiment-runner-firebase-prolific
+[2024-05-20 04:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-WebOb
+[2024-05-20 04:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-Pillow
+[2024-05-20 04:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-pygit2
+[2024-05-20 04:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: voluminalz
+[2024-05-20 04:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llama-index-llms-upstage
+[2024-05-20 04:24:46] INFO root fetch - processPackages [wwbot]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-20 04:24:46] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: New version: [1.0.0b5] Old Version: [1.0.0b4]
+[2024-05-20 04:24:46] WARNING root fetch - processPackages [voluminalz]: Skipping, unable to determine old version
+[2024-05-20 04:24:46] INFO root fetch - main [MainThread]: End processing [voluminalz] error
+[2024-05-20 04:24:46] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Downloading https://files.pythonhosted.org/packages/76/b4/8ae65d3dc37486eff1a192a4735c3f407c6ac08950c09f445b2827779a34/autora_experiment_runner_firebase_prolific-1.0.0b4.tar.gz
+[2024-05-20 04:24:46] INFO root fetch - processPackages [types-WebOb]: New version: [1.8.0.5] Old Version: [1.8.0.4]
+[2024-05-20 04:24:46] INFO root fetch - processPackages [types-pygit2]: New version: [1.15.0.20240520] Old Version: [1.14.0.20240317]
+[2024-05-20 04:24:46] INFO root fetch - processPackages [types-Pillow]: New version: [9.5.0.6] Old Version: [9.5.0.5]
+[2024-05-20 04:24:46] INFO root fetch - processPackages [tach]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-20 04:24:46] WARNING root fetch - processPackages [llama-index-embeddings-upstage]: Skipping, unable to determine old version
+[2024-05-20 04:24:46] INFO root fetch - main [MainThread]: End processing [llama-index-embeddings-upstage] error
+[2024-05-20 04:24:46] WARNING root fetch - processPackages [llama-index-llms-upstage]: Skipping, unable to determine old version
+[2024-05-20 04:24:46] INFO root fetch - main [MainThread]: End processing [llama-index-llms-upstage] error
+[2024-05-20 04:24:46] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/cb/82/6d649ea6cfea2b965b5a389d3c51e25e823a41162609f3c6a685185e79b3/wwbot-0.0.5.tar.gz
+[2024-05-20 04:24:46] INFO root fetch - processPackages [tach]: Downloading https://files.pythonhosted.org/packages/40/73/b918ff3da2fe4b133abaa71a4e1cf78e879828d023603f3d9334f1b1a387/tach-0.1.9.tar.gz
+[2024-05-20 04:24:46] INFO root fetch - processPackages [types-WebOb]: Downloading https://files.pythonhosted.org/packages/a3/55/f79624c720af671c50dbd7a9daeb2c0e730a24c6a7580e07c1cbc48695ea/types-WebOb-1.8.0.4.tar.gz
+[2024-05-20 04:24:46] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Downloading https://files.pythonhosted.org/packages/09/76/0a33d9ef9cdcc30f25d59be1044222dc7e8453b965c47b0e8db23bc3714a/autora_experiment_runner_firebase_prolific-1.0.0b5.tar.gz
+[2024-05-20 04:24:46] INFO root fetch - processPackages [types-Pillow]: Downloading https://files.pythonhosted.org/packages/fe/b4/ffa2908d4b69a4cb983289fdf30cb11ca33bee293012fc663529fcba7615/types-Pillow-9.5.0.5.tar.gz
+[2024-05-20 04:24:46] INFO root fetch - processPackages [types-pygit2]: Downloading https://files.pythonhosted.org/packages/16/0f/cf77f18cba7e2ad3d69c79bab806565ec57ef88648693fee2ba998163903/types-pygit2-1.14.0.20240317.tar.gz
+[2024-05-20 04:24:46] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: executing diffoscope
+[2024-05-20 04:24:46] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora_experiment_runner_firebase_prolific-1.0.0b4.tar.gz tmp/autora_experiment_runner_firebase_prolific-1.0.0b5.tar.gz --markdown 20240520/a/autora-experiment-runner-firebase-prolific/1.0.0b4-1.0.0b5/README.md --exclude *.pyd
+[2024-05-20 04:24:46] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/c3/e9/37a5f7987aad1d628c6af01492dc5402987208b266b6a980795a6766a60d/wwbot-0.0.6.tar.gz
+[2024-05-20 04:24:46] INFO root fetch - processPackages [wwbot]: executing diffoscope
+[2024-05-20 04:24:46] INFO root fetch - processPackages [wwbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwbot-0.0.5.tar.gz tmp/wwbot-0.0.6.tar.gz --markdown 20240520/w/wwbot/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-20 04:24:47] INFO root fetch - processPackages [tach]: Downloading https://files.pythonhosted.org/packages/27/9f/f09b7cf929d4ebcf19ae62e4e4e3715021162ff844648694be1113dfeda3/tach-0.2.0.tar.gz
+[2024-05-20 04:24:47] INFO root fetch - processPackages [types-Pillow]: Downloading https://files.pythonhosted.org/packages/2d/78/d71281c253ba82f7630f5fabef175ea2f19556f2d1004eecae276e71bc75/types-Pillow-9.5.0.6.tar.gz
+[2024-05-20 04:24:47] INFO root fetch - processPackages [tach]: executing diffoscope
+[2024-05-20 04:24:47] INFO root fetch - processPackages [tach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tach-0.1.9.tar.gz tmp/tach-0.2.0.tar.gz --markdown 20240520/t/tach/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-20 04:24:47] INFO root fetch - processPackages [types-WebOb]: Downloading https://files.pythonhosted.org/packages/44/7c/ee21fbe8f570651a3e45e491f5a89bc5e95908d3de5992f5f4d9599435f9/types-WebOb-1.8.0.5.tar.gz
+[2024-05-20 04:24:47] INFO root fetch - processPackages [types-Pillow]: executing diffoscope
+[2024-05-20 04:24:47] INFO root fetch - processPackages [types-Pillow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Pillow-9.5.0.5.tar.gz tmp/types-Pillow-9.5.0.6.tar.gz --markdown 20240520/t/types-Pillow/9.5.0.5-9.5.0.6/README.md --exclude *.pyd
+[2024-05-20 04:24:47] INFO root fetch - processPackages [types-pygit2]: Downloading https://files.pythonhosted.org/packages/1a/62/ec579b11cd3eb20141bdb202b7a51ac1d6179fade118203185ac5ad69fa3/types-pygit2-1.15.0.20240520.tar.gz
+[2024-05-20 04:24:47] INFO root fetch - processPackages [types-pygit2]: executing diffoscope
+[2024-05-20 04:24:47] INFO root fetch - processPackages [types-pygit2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pygit2-1.14.0.20240317.tar.gz tmp/types-pygit2-1.15.0.20240520.tar.gz --markdown 20240520/t/types-pygit2/1.14.0.20240317-1.15.0.20240520/README.md --exclude *.pyd
+[2024-05-20 04:24:47] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_firebase_prolific-1.0.0b4.tar.gz]
+[2024-05-20 04:24:47] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_firebase_prolific-1.0.0b5.tar.gz]
+[2024-05-20 04:24:47] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-firebase-prolific]: success
+[2024-05-20 04:24:47] INFO root fetch - processPackages [types-WebOb]: executing diffoscope
+[2024-05-20 04:24:47] INFO root fetch - processPackages [types-WebOb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-WebOb-1.8.0.4.tar.gz tmp/types-WebOb-1.8.0.5.tar.gz --markdown 20240520/t/types-WebOb/1.8.0.4-1.8.0.5/README.md --exclude *.pyd
+[2024-05-20 04:24:47] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.5.tar.gz]
+[2024-05-20 04:24:47] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.6.tar.gz]
+[2024-05-20 04:24:47] INFO root fetch - main [MainThread]: End processing [wwbot]: success
+[2024-05-20 04:24:47] INFO root fetch - processPackages [types-Pillow]: Remove: archive file [/home/abi/fetcher/tmp/types-Pillow-9.5.0.5.tar.gz]
+[2024-05-20 04:24:47] INFO root fetch - processPackages [types-Pillow]: Remove: archive file [/home/abi/fetcher/tmp/types-Pillow-9.5.0.6.tar.gz]
+[2024-05-20 04:24:47] INFO root fetch - main [MainThread]: End processing [types-Pillow]: success
+[2024-05-20 04:24:47] INFO root fetch - processPackages [tach]: Remove: archive file [/home/abi/fetcher/tmp/tach-0.1.9.tar.gz]
+[2024-05-20 04:24:47] INFO root fetch - processPackages [tach]: Remove: archive file [/home/abi/fetcher/tmp/tach-0.2.0.tar.gz]
+[2024-05-20 04:24:48] INFO root fetch - main [MainThread]: End processing [tach]: success
+[2024-05-20 04:24:48] INFO root fetch - processPackages [types-WebOb]: Remove: archive file [/home/abi/fetcher/tmp/types-WebOb-1.8.0.4.tar.gz]
+[2024-05-20 04:24:48] INFO root fetch - processPackages [types-WebOb]: Remove: archive file [/home/abi/fetcher/tmp/types-WebOb-1.8.0.5.tar.gz]
+[2024-05-20 04:24:48] INFO root fetch - main [MainThread]: End processing [types-WebOb]: success
+[2024-05-20 04:24:48] INFO root fetch - processPackages [types-pygit2]: Remove: archive file [/home/abi/fetcher/tmp/types-pygit2-1.14.0.20240317.tar.gz]
+[2024-05-20 04:24:48] INFO root fetch - processPackages [types-pygit2]: Remove: archive file [/home/abi/fetcher/tmp/types-pygit2-1.15.0.20240520.tar.gz]
+[2024-05-20 04:24:48] INFO root fetch - main [MainThread]: End processing [types-pygit2]: success
+[2024-05-20 04:24:48] INFO root fetch - main [MainThread]: Store serial: [23283769]

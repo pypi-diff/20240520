@@ -23251,3 +23251,51 @@ EOFError: EOF read where object expected
 [2024-05-20 18:16:38] INFO root fetch - processPackages [ToolBiox]: Remove: archive file [/home/abi/fetcher/tmp/ToolBiox-0.0.9.tar.gz]
 [2024-05-20 18:16:38] INFO root fetch - main [MainThread]: End processing [ToolBiox]: success
 [2024-05-20 18:16:38] INFO root fetch - main [MainThread]: Store serial: [23292315]
+[2024-05-20 18:18:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292315]
+[2024-05-20 18:18:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 18:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: he6-cres-spec-sims
+[2024-05-20 18:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unique-colorlogger
+[2024-05-20 18:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fol_parser
+[2024-05-20 18:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: delphi-epidata
+[2024-05-20 18:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opensr-test
+[2024-05-20 18:18:47] INFO root fetch - processPackages [he6-cres-spec-sims]: New version: [0.2.0] Old Version: [0.1.5]
+[2024-05-20 18:18:47] INFO root fetch - processPackages [unique-colorlogger]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 18:18:47] INFO root fetch - processPackages [fol_parser]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-20 18:18:47] INFO root fetch - processPackages [he6-cres-spec-sims]: Downloading https://files.pythonhosted.org/packages/f5/e3/f4183b78e51eed2daba573fcf64c336d1a7ad5242a7ecf087e8cd5e00780/he6_cres_spec_sims-0.1.5.tar.gz
+[2024-05-20 18:18:47] INFO root fetch - processPackages [delphi-epidata]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-05-20 18:18:47] INFO root fetch - processPackages [opensr-test]: New version: [0.9.0] Old Version: [0.2.9]
+[2024-05-20 18:18:48] INFO root fetch - processPackages [unique-colorlogger]: Downloading https://files.pythonhosted.org/packages/9d/18/0ad458d03e0e77ebe4ec9e7a7e86b649ed27185451c22c149b0f9796a173/unique_colorlogger-0.1.0.tar.gz
+[2024-05-20 18:18:48] INFO root fetch - processPackages [fol_parser]: Downloading https://files.pythonhosted.org/packages/4a/c4/3db03427943652fdf859ab8ff7871a67ef55049e52706598fd9c0a839c62/fol_parser-0.4.0.tar.gz
+[2024-05-20 18:18:48] INFO root fetch - processPackages [delphi-epidata]: Downloading https://files.pythonhosted.org/packages/2e/2b/92f36399b9e6d4593791628c2125fd025db2a93d41e8e31d9ab8aeffc49e/delphi_epidata-4.1.8.tar.gz
+[2024-05-20 18:18:48] INFO root fetch - processPackages [opensr-test]: Downloading https://files.pythonhosted.org/packages/69/14/520a21aefdf2ae939d9ba7e0d33451b279c393f1ec0fefe54aaaa9840900/opensr_test-0.2.9.tar.gz
+[2024-05-20 18:18:48] INFO root fetch - processPackages [he6-cres-spec-sims]: Downloading https://files.pythonhosted.org/packages/55/3b/45f6ada6698392c7d5f5b3f56b7ab6ed5a1c76407d012bb3345e6c8a7304/he6_cres_spec_sims-0.2.0.tar.gz
+[2024-05-20 18:18:48] INFO root fetch - processPackages [unique-colorlogger]: Downloading https://files.pythonhosted.org/packages/0a/47/32ef79f3f2d350e5cd65c10f3150309f3ee6077d402999ab43ab47c1bf3d/unique_colorlogger-0.1.1.tar.gz
+[2024-05-20 18:18:48] INFO root fetch - processPackages [unique-colorlogger]: executing diffoscope
+[2024-05-20 18:18:48] INFO root fetch - processPackages [unique-colorlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unique_colorlogger-0.1.0.tar.gz tmp/unique_colorlogger-0.1.1.tar.gz --markdown 20240520/u/unique-colorlogger/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 18:18:48] INFO root fetch - processPackages [he6-cres-spec-sims]: executing diffoscope
+[2024-05-20 18:18:48] INFO root fetch - processPackages [he6-cres-spec-sims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/he6_cres_spec_sims-0.1.5.tar.gz tmp/he6_cres_spec_sims-0.2.0.tar.gz --markdown 20240520/h/he6-cres-spec-sims/0.1.5-0.2.0/README.md --exclude *.pyd
+[2024-05-20 18:18:48] INFO root fetch - processPackages [fol_parser]: Downloading https://files.pythonhosted.org/packages/ce/f9/55e3f06c960aaa15a138e140e603edb21e9df91f1ed73577a8633b1c00fc/fol_parser-0.5.0.tar.gz
+[2024-05-20 18:18:48] INFO root fetch - processPackages [opensr-test]: Downloading https://files.pythonhosted.org/packages/e0/12/8da10b165fc01b8863cd7f9ac3c98c3b713caf76b290ae6ef3679422fd0a/opensr_test-0.9.0.tar.gz
+[2024-05-20 18:18:48] INFO root fetch - processPackages [delphi-epidata]: Downloading https://files.pythonhosted.org/packages/71/be/f83f9efb201ade0dd611f4d1cd6d33f7ec3f91010a24b74c13812dab9f36/delphi_epidata-4.1.9.tar.gz
+[2024-05-20 18:18:48] INFO root fetch - processPackages [opensr-test]: executing diffoscope
+[2024-05-20 18:18:48] INFO root fetch - processPackages [opensr-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr_test-0.2.9.tar.gz tmp/opensr_test-0.9.0.tar.gz --markdown 20240520/o/opensr-test/0.2.9-0.9.0/README.md --exclude *.pyd
+[2024-05-20 18:18:48] INFO root fetch - processPackages [delphi-epidata]: executing diffoscope
+[2024-05-20 18:18:48] INFO root fetch - processPackages [delphi-epidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphi_epidata-4.1.8.tar.gz tmp/delphi_epidata-4.1.9.tar.gz --markdown 20240520/d/delphi-epidata/4.1.8-4.1.9/README.md --exclude *.pyd
+[2024-05-20 18:18:48] INFO root fetch - processPackages [fol_parser]: executing diffoscope
+[2024-05-20 18:18:48] INFO root fetch - processPackages [fol_parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fol_parser-0.4.0.tar.gz tmp/fol_parser-0.5.0.tar.gz --markdown 20240520/f/fol_parser/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-20 18:18:48] INFO root fetch - processPackages [unique-colorlogger]: Remove: archive file [/home/abi/fetcher/tmp/unique_colorlogger-0.1.0.tar.gz]
+[2024-05-20 18:18:48] INFO root fetch - processPackages [unique-colorlogger]: Remove: archive file [/home/abi/fetcher/tmp/unique_colorlogger-0.1.1.tar.gz]
+[2024-05-20 18:18:48] INFO root fetch - main [MainThread]: End processing [unique-colorlogger]: success
+[2024-05-20 18:18:49] INFO root fetch - processPackages [delphi-epidata]: Remove: archive file [/home/abi/fetcher/tmp/delphi_epidata-4.1.8.tar.gz]
+[2024-05-20 18:18:49] INFO root fetch - processPackages [delphi-epidata]: Remove: archive file [/home/abi/fetcher/tmp/delphi_epidata-4.1.9.tar.gz]
+[2024-05-20 18:18:49] INFO root fetch - main [MainThread]: End processing [delphi-epidata]: success
+[2024-05-20 18:18:49] INFO root fetch - processPackages [opensr-test]: Remove: archive file [/home/abi/fetcher/tmp/opensr_test-0.2.9.tar.gz]
+[2024-05-20 18:18:49] INFO root fetch - processPackages [opensr-test]: Remove: archive file [/home/abi/fetcher/tmp/opensr_test-0.9.0.tar.gz]
+[2024-05-20 18:18:49] INFO root fetch - main [MainThread]: End processing [opensr-test]: success
+[2024-05-20 18:18:49] INFO root fetch - processPackages [he6-cres-spec-sims]: Remove: archive file [/home/abi/fetcher/tmp/he6_cres_spec_sims-0.1.5.tar.gz]
+[2024-05-20 18:18:49] INFO root fetch - processPackages [he6-cres-spec-sims]: Remove: archive file [/home/abi/fetcher/tmp/he6_cres_spec_sims-0.2.0.tar.gz]
+[2024-05-20 18:18:49] INFO root fetch - main [MainThread]: End processing [he6-cres-spec-sims]: success
+[2024-05-20 18:18:49] INFO root fetch - processPackages [fol_parser]: Remove: archive file [/home/abi/fetcher/tmp/fol_parser-0.4.0.tar.gz]
+[2024-05-20 18:18:49] INFO root fetch - processPackages [fol_parser]: Remove: archive file [/home/abi/fetcher/tmp/fol_parser-0.5.0.tar.gz]
+[2024-05-20 18:18:49] INFO root fetch - main [MainThread]: End processing [fol_parser]: success
+[2024-05-20 18:18:49] INFO root fetch - main [MainThread]: Store serial: [23292333]

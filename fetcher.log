@@ -17230,3 +17230,135 @@ EOFError: EOF read where object expected
 [2024-05-20 14:49:29] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.4.2.post1716209289.tar.gz]
 [2024-05-20 14:49:29] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
 [2024-05-20 14:49:29] INFO root fetch - main [MainThread]: Store serial: [23289763]
+[2024-05-20 14:51:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289763]
+[2024-05-20 14:51:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-20 14:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adri-storage
+[2024-05-20 14:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: digitalhub-ml
+[2024-05-20 14:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wawona
+[2024-05-20 14:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: g2p-mix
+[2024-05-20 14:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audiconnectpy
+[2024-05-20 14:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finbourne-identity-sdk
+[2024-05-20 14:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: betwatch
+[2024-05-20 14:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inference
+[2024-05-20 14:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inference-cli
+[2024-05-20 14:51:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xspamguard
+[2024-05-20 14:51:38] INFO root fetch - processPackages [adri-storage]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-20 14:51:38] INFO root fetch - processPackages [audiconnectpy]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-05-20 14:51:38] WARNING root fetch - processPackages [xspamguard]: Skipping, unable to determine old version
+[2024-05-20 14:51:38] INFO root fetch - processPackages [xspamguard]: Start processing: inference-core
+[2024-05-20 14:51:38] INFO root fetch - main [MainThread]: End processing [xspamguard] error
+[2024-05-20 14:51:38] INFO root fetch - processPackages [betwatch]: New version: [1.3.0] Old Version: [1.2.3]
+[2024-05-20 14:51:38] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-20 14:51:39] INFO root fetch - processPackages [g2p-mix]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-20 14:51:39] INFO root fetch - processPackages [wawona]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-20 14:51:39] INFO root fetch - processPackages [adri-storage]: Downloading https://files.pythonhosted.org/packages/e1/ab/fe94750839081e4cf9658442e042f71d4778cd7beeb7a4b1f37c1cd151ba/adri_storage-0.0.1.tar.gz
+[2024-05-20 14:51:39] INFO root fetch - processPackages [digitalhub-ml]: New version: [0.5.0b0] Old Version: [0.4.0b8]
+[2024-05-20 14:51:39] INFO root fetch - processPackages [inference]: New version: [0.9.9rc23] Old Version: [0.9.9]
+[2024-05-20 14:51:39] INFO root fetch - processPackages [inference-cli]: New version: [0.9.9rc23] Old Version: [0.9.9]
+[2024-05-20 14:51:39] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/26/33/da7ba6795335069bae8761e17ea0398aa7e82c29aebb7e87d32dcd35ecc6/audiconnectpy-2.2.2.tar.gz
+[2024-05-20 14:51:39] INFO root fetch - processPackages [betwatch]: Downloading https://files.pythonhosted.org/packages/ed/9c/73385513cc269c29f740d6eae76c20dd107e5a676f26d5191a9207e1cab0/betwatch-1.2.3.tar.gz
+[2024-05-20 14:51:39] INFO root fetch - processPackages [inference-core]: New version: [0.9.9rc23] Old Version: [0.9.9]
+[2024-05-20 14:51:39] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-20 14:51:39] INFO root fetch - processPackages [g2p-mix]: Downloading https://files.pythonhosted.org/packages/f0/21/d1b5e1fdfc7f98a0acbd0ade6bf16d3203cd534b8f6edc5d15e3b2758b92/g2p-mix-0.4.8.tar.gz
+[2024-05-20 14:51:39] INFO root fetch - processPackages [wawona]: Downloading https://files.pythonhosted.org/packages/37/31/3db8385d6fbd13c90444fbbd5d4eeb2a5b742f81bf81a34f8ac63e79577a/wawona-1.1.2.tar.gz
+[2024-05-20 14:51:39] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/cd/32/0809aacb0d06e249bb7c90f7a0bd2d51f60acb5284030ed74935f0f621d1/digitalhub_ml-0.4.0b8.tar.gz
+[2024-05-20 14:51:39] INFO root fetch - processPackages [adri-storage]: Downloading https://files.pythonhosted.org/packages/36/d7/03ccf1ab4e11312b7629c31142afc865fa7ba54b3bf7ffed1b65a1fff9f4/adri_storage-0.0.2.tar.gz
+[2024-05-20 14:51:39] INFO root fetch - processPackages [inference]: Downloading https://files.pythonhosted.org/packages/b2/44/8087d6d3367e7ceafbbd5c479e3d90b18ed857cec20916923127b16d96e3/inference-0.9.9-py3-none-any.whl
+[2024-05-20 14:51:39] INFO root fetch - processPackages [inference-cli]: Downloading https://files.pythonhosted.org/packages/5d/d3/767b2e0338006241b84ed5335e563226a745f567678ab1538067eccb2306/inference_cli-0.9.9-py3-none-any.whl
+[2024-05-20 14:51:39] INFO root fetch - processPackages [inference-core]: Downloading https://files.pythonhosted.org/packages/96/6e/eff0c627f7611ac7201239bf17796a620b32ebb4a5391d64448a26f0c670/inference_core-0.9.9-py3-none-any.whl
+[2024-05-20 14:51:39] INFO root fetch - processPackages [betwatch]: Downloading https://files.pythonhosted.org/packages/a1/7b/d70edd2c4a35b00264a53820e8735ec21494b9d9b87ed72a2f4bc1e8d377/betwatch-1.3.0.tar.gz
+[2024-05-20 14:51:39] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/6e/a5/e7a70b9a5c98a37e35601e64f54695a5df0599d8654e192ea3a9ff966e45/audiconnectpy-2.2.3.tar.gz
+[2024-05-20 14:51:39] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-20 14:51:39] INFO root fetch - processPackages [adri-storage]: executing diffoscope
+[2024-05-20 14:51:39] INFO root fetch - processPackages [adri-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adri_storage-0.0.1.tar.gz tmp/adri_storage-0.0.2.tar.gz --markdown 20240520/a/adri-storage/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-20 14:51:39] INFO root fetch - processPackages [betwatch]: executing diffoscope
+[2024-05-20 14:51:39] INFO root fetch - processPackages [betwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betwatch-1.2.3.tar.gz tmp/betwatch-1.3.0.tar.gz --markdown 20240520/b/betwatch/1.2.3-1.3.0/README.md --exclude *.pyd
+[2024-05-20 14:51:39] INFO root fetch - processPackages [audiconnectpy]: executing diffoscope
+[2024-05-20 14:51:39] INFO root fetch - processPackages [audiconnectpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiconnectpy-2.2.2.tar.gz tmp/audiconnectpy-2.2.3.tar.gz --markdown 20240520/a/audiconnectpy/2.2.2-2.2.3/README.md --exclude *.pyd
+[2024-05-20 14:51:39] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/18/e2/af6044b63aa9255f91142e8cdb223ff9ccddba57c40a40d0f814ed64c22c/digitalhub_ml-0.5.0b0.tar.gz
+[2024-05-20 14:51:39] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-20 14:51:39] INFO root fetch - processPackages [wawona]: Downloading https://files.pythonhosted.org/packages/67/c1/c83aeea4984217f2dd1918065043ff53f4354bb6e7dfbab17c1321b04de6/wawona-1.2.0.tar.gz
+[2024-05-20 14:51:39] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240520/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-20 14:51:39] INFO root fetch - processPackages [g2p-mix]: Downloading https://files.pythonhosted.org/packages/57/cb/f7ac3f7712a5b3cf5d801a4b914d5925d13aaac42c6e3c21ef317c680b87/g2p-mix-0.4.9.tar.gz
+[2024-05-20 14:51:39] INFO root fetch - processPackages [inference-cli]: Downloading https://files.pythonhosted.org/packages/6e/1b/99398d23f30d77ab3550db23fd820cac9608f5608cf5fe4f5784fd9f2556/inference_cli-0.9.9rc23-py3-none-any.whl
+[2024-05-20 14:51:39] INFO root fetch - processPackages [inference]: Downloading https://files.pythonhosted.org/packages/8a/30/7138f45acce6f0be8ed5bf6674a2c37d08cc2e3f9bcd75e9594cffdf0ff3/inference-0.9.9rc23-py3-none-any.whl
+[2024-05-20 14:51:39] INFO root fetch - processPackages [digitalhub-ml]: executing diffoscope
+[2024-05-20 14:51:39] INFO root fetch - processPackages [digitalhub-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_ml-0.4.0b8.tar.gz tmp/digitalhub_ml-0.5.0b0.tar.gz --markdown 20240520/d/digitalhub-ml/0.4.0b8-0.5.0b0/README.md --exclude *.pyd
+[2024-05-20 14:51:39] INFO root fetch - processPackages [inference-core]: Downloading https://files.pythonhosted.org/packages/6b/66/a826c04238ffc07c7a58cc640b708f1a96b58865a6d3330b9fc993f36e04/inference_core-0.9.9rc23-py3-none-any.whl
+[2024-05-20 14:51:39] INFO root fetch - processPackages [wawona]: executing diffoscope
+[2024-05-20 14:51:39] INFO root fetch - processPackages [wawona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wawona-1.1.2.tar.gz tmp/wawona-1.2.0.tar.gz --markdown 20240520/w/wawona/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-20 14:51:40] INFO root fetch - processPackages [inference]: executing diffoscope
+[2024-05-20 14:51:40] INFO root fetch - processPackages [inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inference-0.9.9-py3-none-any.whl.zip tmp/inference-0.9.9rc23-py3-none-any.whl.zip --markdown 20240520/i/inference/0.9.9-0.9.9rc23/README.md --exclude *.pyd
+[2024-05-20 14:51:40] INFO root fetch - processPackages [inference-cli]: executing diffoscope
+[2024-05-20 14:51:40] INFO root fetch - processPackages [inference-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inference_cli-0.9.9-py3-none-any.whl.zip tmp/inference_cli-0.9.9rc23-py3-none-any.whl.zip --markdown 20240520/i/inference-cli/0.9.9-0.9.9rc23/README.md --exclude *.pyd
+[2024-05-20 14:51:40] INFO root fetch - processPackages [inference-core]: executing diffoscope
+[2024-05-20 14:51:40] INFO root fetch - processPackages [inference-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inference_core-0.9.9-py3-none-any.whl.zip tmp/inference_core-0.9.9rc23-py3-none-any.whl.zip --markdown 20240520/i/inference-core/0.9.9-0.9.9rc23/README.md --exclude *.pyd
+[2024-05-20 14:51:40] INFO root fetch - processPackages [g2p-mix]: executing diffoscope
+[2024-05-20 14:51:40] INFO root fetch - processPackages [g2p-mix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g2p-mix-0.4.8.tar.gz tmp/g2p-mix-0.4.9.tar.gz --markdown 20240520/g/g2p-mix/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-20 14:51:40] INFO root fetch - processPackages [adri-storage]: Remove: archive file [/home/abi/fetcher/tmp/adri_storage-0.0.1.tar.gz]
+[2024-05-20 14:51:40] INFO root fetch - processPackages [adri-storage]: Remove: archive file [/home/abi/fetcher/tmp/adri_storage-0.0.2.tar.gz]
+[2024-05-20 14:51:40] INFO root fetch - processPackages [adri-storage]: Start processing: inference-cpu
+[2024-05-20 14:51:40] INFO root fetch - main [MainThread]: End processing [adri-storage]: success
+[2024-05-20 14:51:40] INFO root fetch - processPackages [audiconnectpy]: Remove: archive file [/home/abi/fetcher/tmp/audiconnectpy-2.2.2.tar.gz]
+[2024-05-20 14:51:40] INFO root fetch - processPackages [audiconnectpy]: Remove: archive file [/home/abi/fetcher/tmp/audiconnectpy-2.2.3.tar.gz]
+[2024-05-20 14:51:40] INFO root fetch - processPackages [audiconnectpy]: Start processing: inference-gpu
+[2024-05-20 14:51:40] INFO root fetch - main [MainThread]: End processing [audiconnectpy]: success
+[2024-05-20 14:51:40] INFO root fetch - processPackages [inference-cpu]: New version: [0.9.9rc23] Old Version: [0.9.9]
+[2024-05-20 14:51:40] INFO root fetch - processPackages [inference-gpu]: New version: [0.9.9rc23] Old Version: [0.9.9]
+[2024-05-20 14:51:40] INFO root fetch - processPackages [betwatch]: Remove: archive file [/home/abi/fetcher/tmp/betwatch-1.2.3.tar.gz]
+[2024-05-20 14:51:40] INFO root fetch - processPackages [betwatch]: Remove: archive file [/home/abi/fetcher/tmp/betwatch-1.3.0.tar.gz]
+[2024-05-20 14:51:40] INFO root fetch - processPackages [betwatch]: Start processing: inference-sdk
+[2024-05-20 14:51:40] INFO root fetch - main [MainThread]: End processing [betwatch]: success
+[2024-05-20 14:51:40] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.4.0b8.tar.gz]
+[2024-05-20 14:51:40] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.5.0b0.tar.gz]
+[2024-05-20 14:51:40] INFO root fetch - processPackages [digitalhub-ml]: Start processing: pulumi-aws-native
+[2024-05-20 14:51:40] INFO root fetch - main [MainThread]: End processing [digitalhub-ml]: success
+[2024-05-20 14:51:40] INFO root fetch - processPackages [wawona]: Remove: archive file [/home/abi/fetcher/tmp/wawona-1.1.2.tar.gz]
+[2024-05-20 14:51:40] INFO root fetch - processPackages [wawona]: Remove: archive file [/home/abi/fetcher/tmp/wawona-1.2.0.tar.gz]
+[2024-05-20 14:51:40] INFO root fetch - main [MainThread]: End processing [wawona]: success
+[2024-05-20 14:51:40] INFO root fetch - processPackages [inference-cpu]: Downloading https://files.pythonhosted.org/packages/02/23/38f756e29e9d74b3ff0e376f544b0c329050cc57b5bfa8456efa6656920a/inference_cpu-0.9.9-py3-none-any.whl
+[2024-05-20 14:51:40] INFO root fetch - processPackages [inference-sdk]: New version: [0.9.9rc23] Old Version: [0.9.9]
+[2024-05-20 14:51:40] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-20 14:51:40] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-20 14:51:40] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-20 14:51:40] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-05-20 14:51:40] INFO root fetch - processPackages [inference-gpu]: Downloading https://files.pythonhosted.org/packages/e3/44/7e86ef531d9672b66a2ab461c0f39fe367c4c7522a885fc8f71bd40254bf/inference_gpu-0.9.9-py3-none-any.whl
+[2024-05-20 14:51:41] INFO root fetch - processPackages [inference-sdk]: Downloading https://files.pythonhosted.org/packages/52/69/82520739fe7adb3fba8c81d9769cdcb891e822de3f53b430ce763ff5489b/inference_sdk-0.9.9-py3-none-any.whl
+[2024-05-20 14:51:41] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-05-20 14:51:41] INFO root fetch - processPackages [g2p-mix]: Remove: archive file [/home/abi/fetcher/tmp/g2p-mix-0.4.8.tar.gz]
+[2024-05-20 14:51:41] INFO root fetch - processPackages [g2p-mix]: Remove: archive file [/home/abi/fetcher/tmp/g2p-mix-0.4.9.tar.gz]
+[2024-05-20 14:51:41] INFO root fetch - main [MainThread]: End processing [g2p-mix]: success
+[2024-05-20 14:51:41] INFO root fetch - processPackages [inference-cpu]: Downloading https://files.pythonhosted.org/packages/5c/80/41ad4963d5f9d68624238fb5e4b40ec5b4ddfa6b07abcaa2fb179eab2a88/inference_cpu-0.9.9rc23-py3-none-any.whl
+[2024-05-20 14:51:41] INFO root fetch - processPackages [inference-gpu]: Downloading https://files.pythonhosted.org/packages/9e/c0/0c238a7737cfdb7c9fbbc656916ead04e973b1bdf2b04e79cf923a2e75a8/inference_gpu-0.9.9rc23-py3-none-any.whl
+[2024-05-20 14:51:41] INFO root fetch - processPackages [inference-cpu]: executing diffoscope
+[2024-05-20 14:51:41] INFO root fetch - processPackages [inference-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inference_cpu-0.9.9-py3-none-any.whl.zip tmp/inference_cpu-0.9.9rc23-py3-none-any.whl.zip --markdown 20240520/i/inference-cpu/0.9.9-0.9.9rc23/README.md --exclude *.pyd
+[2024-05-20 14:51:41] INFO root fetch - processPackages [inference-gpu]: executing diffoscope
+[2024-05-20 14:51:41] INFO root fetch - processPackages [inference-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inference_gpu-0.9.9-py3-none-any.whl.zip tmp/inference_gpu-0.9.9rc23-py3-none-any.whl.zip --markdown 20240520/i/inference-gpu/0.9.9-0.9.9rc23/README.md --exclude *.pyd
+[2024-05-20 14:51:41] INFO root fetch - processPackages [inference-sdk]: Downloading https://files.pythonhosted.org/packages/b1/7a/8d07a14a7cc4da4746edf0fc008e72ccaa949d903ced0b787c7eefd715b5/inference_sdk-0.9.9rc23-py3-none-any.whl
+[2024-05-20 14:51:41] INFO root fetch - processPackages [inference]: Remove: archive file [/home/abi/fetcher/tmp/inference-0.9.9-py3-none-any.whl.zip]
+[2024-05-20 14:51:41] INFO root fetch - processPackages [inference]: Remove: archive file [/home/abi/fetcher/tmp/inference-0.9.9rc23-py3-none-any.whl.zip]
+[2024-05-20 14:51:41] INFO root fetch - main [MainThread]: End processing [inference]: success
+[2024-05-20 14:51:41] INFO root fetch - processPackages [inference-cli]: Remove: archive file [/home/abi/fetcher/tmp/inference_cli-0.9.9-py3-none-any.whl.zip]
+[2024-05-20 14:51:41] INFO root fetch - processPackages [inference-cli]: Remove: archive file [/home/abi/fetcher/tmp/inference_cli-0.9.9rc23-py3-none-any.whl.zip]
+[2024-05-20 14:51:41] INFO root fetch - processPackages [inference-sdk]: executing diffoscope
+[2024-05-20 14:51:41] INFO root fetch - processPackages [inference-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inference_sdk-0.9.9-py3-none-any.whl.zip tmp/inference_sdk-0.9.9rc23-py3-none-any.whl.zip --markdown 20240520/i/inference-sdk/0.9.9-0.9.9rc23/README.md --exclude *.pyd
+[2024-05-20 14:51:41] INFO root fetch - main [MainThread]: End processing [inference-cli]: success
+[2024-05-20 14:51:41] INFO root fetch - processPackages [inference-core]: Remove: archive file [/home/abi/fetcher/tmp/inference_core-0.9.9-py3-none-any.whl.zip]
+[2024-05-20 14:51:41] INFO root fetch - processPackages [inference-core]: Remove: archive file [/home/abi/fetcher/tmp/inference_core-0.9.9rc23-py3-none-any.whl.zip]
+[2024-05-20 14:51:41] INFO root fetch - main [MainThread]: End processing [inference-core]: success
+[2024-05-20 14:51:42] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-05-20 14:51:42] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-05-20 14:51:42] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240520/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-05-20 14:51:42] INFO root fetch - processPackages [inference-cpu]: Remove: archive file [/home/abi/fetcher/tmp/inference_cpu-0.9.9-py3-none-any.whl.zip]
+[2024-05-20 14:51:42] INFO root fetch - processPackages [inference-cpu]: Remove: archive file [/home/abi/fetcher/tmp/inference_cpu-0.9.9rc23-py3-none-any.whl.zip]
+[2024-05-20 14:51:42] INFO root fetch - main [MainThread]: End processing [inference-cpu]: success
+[2024-05-20 14:51:42] INFO root fetch - processPackages [inference-gpu]: Remove: archive file [/home/abi/fetcher/tmp/inference_gpu-0.9.9-py3-none-any.whl.zip]
+[2024-05-20 14:51:42] INFO root fetch - processPackages [inference-gpu]: Remove: archive file [/home/abi/fetcher/tmp/inference_gpu-0.9.9rc23-py3-none-any.whl.zip]
+[2024-05-20 14:51:42] INFO root fetch - main [MainThread]: End processing [inference-gpu]: success
+[2024-05-20 14:51:42] INFO root fetch - processPackages [inference-sdk]: Remove: archive file [/home/abi/fetcher/tmp/inference_sdk-0.9.9-py3-none-any.whl.zip]
+[2024-05-20 14:51:42] INFO root fetch - processPackages [inference-sdk]: Remove: archive file [/home/abi/fetcher/tmp/inference_sdk-0.9.9rc23-py3-none-any.whl.zip]
+[2024-05-20 14:51:42] INFO root fetch - main [MainThread]: End processing [inference-sdk]: success
+[2024-05-20 14:51:56] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-05-20 14:51:56] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-05-20 14:51:56] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-05-20 14:51:56] INFO root fetch - main [MainThread]: Store serial: [23289802]

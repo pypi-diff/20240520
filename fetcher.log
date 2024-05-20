@@ -4599,3 +4599,49 @@
 [2024-05-20 03:56:49] INFO root fetch - processPackages [alibabacloud-chatbot20220408]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_chatbot20220408-2.0.0.tar.gz]
 [2024-05-20 03:56:49] INFO root fetch - main [MainThread]: End processing [alibabacloud-chatbot20220408]: success
 [2024-05-20 03:56:49] INFO root fetch - main [MainThread]: Store serial: [23283541]
+[2024-05-20 03:58:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283541]
+[2024-05-20 03:58:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 03:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easytl
+[2024-05-20 03:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sop-deutils
+[2024-05-20 03:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TitanicSurvivalModel100424
+[2024-05-20 03:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hydrobot
+[2024-05-20 03:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmticket
+[2024-05-20 03:58:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aclysz
+[2024-05-20 03:58:58] INFO root fetch - processPackages [tmticket]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-20 03:58:58] INFO root fetch - processPackages [sop-deutils]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-20 03:58:58] INFO root fetch - processPackages [hydrobot]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-20 03:58:58] INFO root fetch - processPackages [TitanicSurvivalModel100424]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-20 03:58:58] INFO root fetch - processPackages [easytl]: New version: [0.4.0a0] Old Version: [0.3.3]
+[2024-05-20 03:58:58] INFO root fetch - processPackages [sop-deutils]: Downloading https://files.pythonhosted.org/packages/90/25/061e7abb0dc44de63510dded7da9654bc6f0a284ca9a978c052e8bdcd739/sop_deutils-0.9.8.tar.gz
+[2024-05-20 03:58:58] WARNING root fetch - processPackages [aclysz]: Skipping, unable to determine old version
+[2024-05-20 03:58:58] INFO root fetch - main [MainThread]: End processing [aclysz] error
+[2024-05-20 03:58:58] ERROR root fetch - processPackages [tmticket]: Unable to fetch info: No such project/version 'tmticket' 0.2.6
+[2024-05-20 03:58:58] INFO root fetch - main [MainThread]: End processing [tmticket] error
+[2024-05-20 03:58:58] INFO root fetch - processPackages [TitanicSurvivalModel100424]: Downloading https://files.pythonhosted.org/packages/ba/21/18a771bc41576012ffe0223f94fb8a391bedd42cc97108a568ed4e4d84c6/titanicsurvivalmodel100424-0.1.1.tar.gz
+[2024-05-20 03:58:58] INFO root fetch - processPackages [sop-deutils]: Downloading https://files.pythonhosted.org/packages/72/95/95da46c4d54440e29e58711f950067fb490f12e5d5cd23f645102a47e372/sop_deutils-0.9.9.tar.gz
+[2024-05-20 03:58:58] INFO root fetch - processPackages [hydrobot]: Downloading https://files.pythonhosted.org/packages/e0/5d/546c087c46b9788e0bb41dfdeea6a3ed44ba24c2272ad1cb5cc25047bb47/hydrobot-0.6.1.tar.gz
+[2024-05-20 03:58:58] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/fc/6d/2124819feed36f89427cdda87454e9a27d2126434ed4e791887019edb667/easytl-0.3.3.tar.gz
+[2024-05-20 03:58:58] INFO root fetch - processPackages [sop-deutils]: executing diffoscope
+[2024-05-20 03:58:58] INFO root fetch - processPackages [sop-deutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sop_deutils-0.9.8.tar.gz tmp/sop_deutils-0.9.9.tar.gz --markdown 20240520/s/sop-deutils/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-20 03:58:58] INFO root fetch - processPackages [TitanicSurvivalModel100424]: Downloading https://files.pythonhosted.org/packages/1b/17/6911814df5912e014db85788785ddc2f3ed0ea7ff1425d360f81fcb7de64/titanicsurvivalmodel100424-0.1.2.tar.gz
+[2024-05-20 03:58:59] INFO root fetch - processPackages [TitanicSurvivalModel100424]: executing diffoscope
+[2024-05-20 03:58:59] INFO root fetch - processPackages [TitanicSurvivalModel100424]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titanicsurvivalmodel100424-0.1.1.tar.gz tmp/titanicsurvivalmodel100424-0.1.2.tar.gz --markdown 20240520/T/TitanicSurvivalModel100424/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-20 03:58:59] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/5b/2c/1a6e130951dae071decd630bf52aacd127eb4aa3dbc779d8ed92ddfa1c8c/easytl-0.4.0a0.tar.gz
+[2024-05-20 03:58:59] INFO root fetch - processPackages [hydrobot]: Downloading https://files.pythonhosted.org/packages/f6/52/b8b022a83316a94993c25c88bde4ece71c67caaabe72f94ff6a1873f9434/hydrobot-0.6.2.tar.gz
+[2024-05-20 03:58:59] INFO root fetch - processPackages [easytl]: executing diffoscope
+[2024-05-20 03:58:59] INFO root fetch - processPackages [easytl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easytl-0.3.3.tar.gz tmp/easytl-0.4.0a0.tar.gz --markdown 20240520/e/easytl/0.3.3-0.4.0a0/README.md --exclude *.pyd
+[2024-05-20 03:58:59] INFO root fetch - processPackages [hydrobot]: executing diffoscope
+[2024-05-20 03:58:59] INFO root fetch - processPackages [hydrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrobot-0.6.1.tar.gz tmp/hydrobot-0.6.2.tar.gz --markdown 20240520/h/hydrobot/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-20 03:58:59] INFO root fetch - processPackages [sop-deutils]: Remove: archive file [/home/abi/fetcher/tmp/sop_deutils-0.9.8.tar.gz]
+[2024-05-20 03:58:59] INFO root fetch - processPackages [sop-deutils]: Remove: archive file [/home/abi/fetcher/tmp/sop_deutils-0.9.9.tar.gz]
+[2024-05-20 03:58:59] INFO root fetch - main [MainThread]: End processing [sop-deutils]: success
+[2024-05-20 03:58:59] INFO root fetch - processPackages [TitanicSurvivalModel100424]: Remove: archive file [/home/abi/fetcher/tmp/titanicsurvivalmodel100424-0.1.1.tar.gz]
+[2024-05-20 03:58:59] INFO root fetch - processPackages [TitanicSurvivalModel100424]: Remove: archive file [/home/abi/fetcher/tmp/titanicsurvivalmodel100424-0.1.2.tar.gz]
+[2024-05-20 03:58:59] INFO root fetch - main [MainThread]: End processing [TitanicSurvivalModel100424]: success
+[2024-05-20 03:58:59] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.3.3.tar.gz]
+[2024-05-20 03:58:59] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.4.0a0.tar.gz]
+[2024-05-20 03:58:59] INFO root fetch - main [MainThread]: End processing [easytl]: success
+[2024-05-20 03:59:00] INFO root fetch - processPackages [hydrobot]: Remove: archive file [/home/abi/fetcher/tmp/hydrobot-0.6.1.tar.gz]
+[2024-05-20 03:59:00] INFO root fetch - processPackages [hydrobot]: Remove: archive file [/home/abi/fetcher/tmp/hydrobot-0.6.2.tar.gz]
+[2024-05-20 03:59:00] INFO root fetch - main [MainThread]: End processing [hydrobot]: success
+[2024-05-20 03:59:00] INFO root fetch - main [MainThread]: Store serial: [23283629]

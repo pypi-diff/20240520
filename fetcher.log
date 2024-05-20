@@ -5913,3 +5913,54 @@
 [2024-05-20 05:39:27] INFO root fetch - processPackages [airbyte-source-glassfrog]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_glassfrog-0.2.5.tar.gz]
 [2024-05-20 05:39:27] INFO root fetch - main [MainThread]: End processing [airbyte-source-glassfrog]: success
 [2024-05-20 05:39:27] INFO root fetch - main [MainThread]: Store serial: [23284183]
+[2024-05-20 05:41:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284183]
+[2024-05-20 05:41:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 05:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-timely
+[2024-05-20 05:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ventures
+[2024-05-20 05:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-copper
+[2024-05-20 05:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: singlestickz
+[2024-05-20 05:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opmentis
+[2024-05-20 05:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gmspy
+[2024-05-20 05:41:35] INFO root fetch - processPackages [opmentis]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 05:41:35] INFO root fetch - processPackages [airbyte-source-timely]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-20 05:41:35] INFO root fetch - processPackages [opmentis]: Downloading https://files.pythonhosted.org/packages/e1/25/2f4964b0f3c56c4a596334804b6cb008c7df9407c68e40e4a9971dd68ea5/opmentis-0.1.0.tar.gz
+[2024-05-20 05:41:35] INFO root fetch - processPackages [ventures]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-20 05:41:35] INFO root fetch - processPackages [gmspy]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-20 05:41:35] INFO root fetch - processPackages [airbyte-source-copper]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-20 05:41:35] WARNING root fetch - processPackages [singlestickz]: Skipping, unable to determine old version
+[2024-05-20 05:41:35] INFO root fetch - main [MainThread]: End processing [singlestickz] error
+[2024-05-20 05:41:35] INFO root fetch - processPackages [airbyte-source-timely]: Downloading https://files.pythonhosted.org/packages/b2/61/863283f7f10aef8ca23aed3497815da330761ef217548a90b0ee19cb2cac/airbyte_source_timely-0.3.4.tar.gz
+[2024-05-20 05:41:35] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/19/a3/ea2f4c7ee19abddc4f5e994d18988f265978291ef6cffa87d70d3c3882d7/ventures-1.0.0.tar.gz
+[2024-05-20 05:41:35] INFO root fetch - processPackages [airbyte-source-copper]: Downloading https://files.pythonhosted.org/packages/6c/a8/f14178523721712393ad2ce1e8f931efeb8405a313b09f940ca75f498d1b/airbyte_source_copper-0.3.4.tar.gz
+[2024-05-20 05:41:35] INFO root fetch - processPackages [gmspy]: Downloading https://files.pythonhosted.org/packages/dd/d6/074239691bd8fd058497e8abe925f2bdf4b353615e37a2e30295b555ac4a/gmspy-0.0.4.tar.gz
+[2024-05-20 05:41:36] INFO root fetch - processPackages [opmentis]: Downloading https://files.pythonhosted.org/packages/31/8c/9ecae38f99583ae36dd00175958013b1683761769edbf76e3df2c039fb64/opmentis-0.1.1.tar.gz
+[2024-05-20 05:41:36] INFO root fetch - processPackages [opmentis]: executing diffoscope
+[2024-05-20 05:41:36] INFO root fetch - processPackages [opmentis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opmentis-0.1.0.tar.gz tmp/opmentis-0.1.1.tar.gz --markdown 20240520/o/opmentis/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 05:41:36] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/7f/55/71814ef77eb6efa2bbc6946b756175dd176ab88325be170fabcbcb39ba18/ventures-1.1.0.tar.gz
+[2024-05-20 05:41:36] INFO root fetch - processPackages [gmspy]: Downloading https://files.pythonhosted.org/packages/7f/59/e55184f57c082171c7bbe23f7f7eaa8b94ac914348f508d3329b2969fd30/gmspy-0.0.5.tar.gz
+[2024-05-20 05:41:36] INFO root fetch - processPackages [airbyte-source-timely]: Downloading https://files.pythonhosted.org/packages/9c/72/b3ee8ee9ec69c730a636f84084d25303abd3f99a76c69e45fdca3922e5aa/airbyte_source_timely-0.3.5.tar.gz
+[2024-05-20 05:41:36] INFO root fetch - processPackages [airbyte-source-copper]: Downloading https://files.pythonhosted.org/packages/cc/93/9b420239dd7d0a93d8d16b04a674832d333d6a1e12d3c60369fe6548bbe1/airbyte_source_copper-0.3.5.tar.gz
+[2024-05-20 05:41:36] INFO root fetch - processPackages [ventures]: executing diffoscope
+[2024-05-20 05:41:36] INFO root fetch - processPackages [ventures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ventures-1.0.0.tar.gz tmp/ventures-1.1.0.tar.gz --markdown 20240520/v/ventures/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-20 05:41:36] INFO root fetch - processPackages [airbyte-source-timely]: executing diffoscope
+[2024-05-20 05:41:36] INFO root fetch - processPackages [airbyte-source-timely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_timely-0.3.4.tar.gz tmp/airbyte_source_timely-0.3.5.tar.gz --markdown 20240520/a/airbyte-source-timely/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-20 05:41:36] INFO root fetch - processPackages [gmspy]: executing diffoscope
+[2024-05-20 05:41:36] INFO root fetch - processPackages [gmspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmspy-0.0.4.tar.gz tmp/gmspy-0.0.5.tar.gz --markdown 20240520/g/gmspy/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-20 05:41:36] INFO root fetch - processPackages [airbyte-source-copper]: executing diffoscope
+[2024-05-20 05:41:36] INFO root fetch - processPackages [airbyte-source-copper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_copper-0.3.4.tar.gz tmp/airbyte_source_copper-0.3.5.tar.gz --markdown 20240520/a/airbyte-source-copper/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-20 05:41:36] INFO root fetch - processPackages [opmentis]: Remove: archive file [/home/abi/fetcher/tmp/opmentis-0.1.0.tar.gz]
+[2024-05-20 05:41:36] INFO root fetch - processPackages [opmentis]: Remove: archive file [/home/abi/fetcher/tmp/opmentis-0.1.1.tar.gz]
+[2024-05-20 05:41:36] INFO root fetch - main [MainThread]: End processing [opmentis]: success
+[2024-05-20 05:41:37] INFO root fetch - processPackages [airbyte-source-timely]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_timely-0.3.4.tar.gz]
+[2024-05-20 05:41:37] INFO root fetch - processPackages [airbyte-source-timely]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_timely-0.3.5.tar.gz]
+[2024-05-20 05:41:37] INFO root fetch - main [MainThread]: End processing [airbyte-source-timely]: success
+[2024-05-20 05:41:37] INFO root fetch - processPackages [airbyte-source-copper]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_copper-0.3.4.tar.gz]
+[2024-05-20 05:41:37] INFO root fetch - processPackages [airbyte-source-copper]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_copper-0.3.5.tar.gz]
+[2024-05-20 05:41:37] INFO root fetch - main [MainThread]: End processing [airbyte-source-copper]: success
+[2024-05-20 05:41:37] INFO root fetch - processPackages [gmspy]: Remove: archive file [/home/abi/fetcher/tmp/gmspy-0.0.4.tar.gz]
+[2024-05-20 05:41:37] INFO root fetch - processPackages [gmspy]: Remove: archive file [/home/abi/fetcher/tmp/gmspy-0.0.5.tar.gz]
+[2024-05-20 05:41:37] INFO root fetch - main [MainThread]: End processing [gmspy]: success
+[2024-05-20 05:41:37] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.0.0.tar.gz]
+[2024-05-20 05:41:37] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.1.0.tar.gz]
+[2024-05-20 05:41:37] INFO root fetch - main [MainThread]: End processing [ventures]: success
+[2024-05-20 05:41:37] INFO root fetch - main [MainThread]: Store serial: [23284201]

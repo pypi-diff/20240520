@@ -25132,3 +25132,108 @@ EOFError: EOF read where object expected
 [2024-05-20 19:23:47] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.9.tar.gz]
 [2024-05-20 19:23:47] INFO root fetch - main [MainThread]: End processing [carbon-python-sdk]: success
 [2024-05-20 19:23:47] INFO root fetch - main [MainThread]: Store serial: [23293288]
+[2024-05-20 19:25:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23293288]
+[2024-05-20 19:25:56] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-20 19:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hugedict
+[2024-05-20 19:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imas-tools
+[2024-05-20 19:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vital-ai-vitalsigns
+[2024-05-20 19:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qualystbx
+[2024-05-20 19:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quantum-pecos
+[2024-05-20 19:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pecblocks
+[2024-05-20 19:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: buildbot
+[2024-05-20 19:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mimllearning
+[2024-05-20 19:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: buildbot-badges
+[2024-05-20 19:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: buildbot-console-view
+[2024-05-20 19:25:56] INFO root fetch - processPackages [imas-tools]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-20 19:25:56] INFO root fetch - processPackages [qualystbx]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-20 19:25:56] INFO root fetch - processPackages [mimllearning]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-20 19:25:56] WARNING root fetch - processPackages [pecblocks]: Skipping, unable to determine old version
+[2024-05-20 19:25:56] INFO root fetch - processPackages [pecblocks]: Start processing: buildbot-grid-view
+[2024-05-20 19:25:56] INFO root fetch - main [MainThread]: End processing [pecblocks] error
+[2024-05-20 19:25:56] INFO root fetch - processPackages [imas-tools]: Downloading https://files.pythonhosted.org/packages/af/cd/777a710bbd2df9636e7c308431df293057904fd01ee63337a9bec51d5717/imas_tools-0.4.1.tar.gz
+[2024-05-20 19:25:56] INFO root fetch - processPackages [vital-ai-vitalsigns]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 19:25:56] INFO root fetch - processPackages [quantum-pecos]: New version: [0.6.0.dev2] Old Version: [0.6.0.dev1]
+[2024-05-20 19:25:56] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/3d/13/d82c3acb0e9ea3a9ff76fe6e73a521edc75e84ab686d483a4f360a6a88cb/qualystbx-0.7.0.tar.gz
+[2024-05-20 19:25:56] INFO root fetch - processPackages [buildbot-badges]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-20 19:25:56] INFO root fetch - processPackages [buildbot]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-20 19:25:56] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/1c/48/40f4dbf0e105605605e237bae655955a2350d1635e5fb9cc648bac7bb8b2/mimllearning-0.5.2.tar.gz
+[2024-05-20 19:25:56] INFO root fetch - processPackages [buildbot-console-view]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-20 19:25:56] INFO root fetch - processPackages [hugedict]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-20 19:25:56] INFO root fetch - processPackages [buildbot-grid-view]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-20 19:25:57] INFO root fetch - processPackages [vital-ai-vitalsigns]: Downloading https://files.pythonhosted.org/packages/1b/05/a348c770dfa33dae22c9a0899f5440ba9a0668597ea1f04fca2715e082f2/vital-ai-vitalsigns-0.1.8.tar.gz
+[2024-05-20 19:25:57] INFO root fetch - processPackages [quantum-pecos]: Downloading https://files.pythonhosted.org/packages/5a/6a/b46e1c94c570ed6315978c9b1a001d3b8fad1d1437be112f69653d3f6487/quantum_pecos-0.6.0.dev1.tar.gz
+[2024-05-20 19:25:57] INFO root fetch - processPackages [buildbot-badges]: Downloading https://files.pythonhosted.org/packages/b9/6b/d358d3dc5b07a39c7143dce559ea9e3bc17e05382d41c941faa18d2cce05/buildbot-badges-3.9.1.tar.gz
+[2024-05-20 19:25:57] INFO root fetch - processPackages [buildbot]: Downloading https://files.pythonhosted.org/packages/d8/46/9a52aef68aec5cafc2484ff942d43861f8bce56148f972ac77684f5db481/buildbot-3.9.1.tar.gz
+[2024-05-20 19:25:57] INFO root fetch - processPackages [qualystbx]: Downloading https://files.pythonhosted.org/packages/88/de/04f9bde377b2e4f3959a99661bf58cb5824a3b55cd37d179c781c0db6773/qualystbx-0.8.0.tar.gz
+[2024-05-20 19:25:57] INFO root fetch - processPackages [hugedict]: Downloading https://files.pythonhosted.org/packages/d9/ec/67623f8628a4bcad24dd3709e5b462a7b8edc3186d0970efc26ec8dcfcaa/hugedict-2.9.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-20 19:25:57] INFO root fetch - processPackages [buildbot-console-view]: Downloading https://files.pythonhosted.org/packages/a3/8f/06e4490d0ba42ada9147f748c1298c7733a49ea2c30dd5d0b7ae9447bd3f/buildbot-console-view-3.9.1.tar.gz
+[2024-05-20 19:25:57] INFO root fetch - processPackages [imas-tools]: Downloading https://files.pythonhosted.org/packages/0d/41/0c580f5d53736de1a57371c304cb0d9cd4576417b35870c279c09f17be1a/imas_tools-0.4.2.tar.gz
+[2024-05-20 19:25:57] INFO root fetch - processPackages [buildbot-grid-view]: Downloading https://files.pythonhosted.org/packages/56/f0/8a4b83ab75767e2c55bce617484f24c5e860de1078f412c43841cbcf4fab/buildbot-grid-view-3.9.1.tar.gz
+[2024-05-20 19:25:57] INFO root fetch - processPackages [qualystbx]: executing diffoscope
+[2024-05-20 19:25:57] INFO root fetch - processPackages [qualystbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qualystbx-0.7.0.tar.gz tmp/qualystbx-0.8.0.tar.gz --markdown 20240520/q/qualystbx/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-20 19:25:57] INFO root fetch - processPackages [imas-tools]: executing diffoscope
+[2024-05-20 19:25:57] INFO root fetch - processPackages [imas-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imas_tools-0.4.1.tar.gz tmp/imas_tools-0.4.2.tar.gz --markdown 20240520/i/imas-tools/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-20 19:25:57] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/ba/71/8a38eec985e12e1eeb5ab7cca1764dd55c83c3816c5897117edc5bef2dc1/mimllearning-0.5.3.tar.gz
+[2024-05-20 19:25:57] INFO root fetch - processPackages [quantum-pecos]: Downloading https://files.pythonhosted.org/packages/5a/d1/edcb0bb8dd073ac1cb11ffd361ba5c2a94394dcafcc67dd0bd291afbe440/quantum_pecos-0.6.0.dev2.tar.gz
+[2024-05-20 19:25:57] INFO root fetch - processPackages [vital-ai-vitalsigns]: Downloading https://files.pythonhosted.org/packages/c1/2a/83697e835fcca252a1e641e70739005ce2d7b821e3ed28ac64d9a51040ad/vital-ai-vitalsigns-0.1.9.tar.gz
+[2024-05-20 19:25:57] INFO root fetch - processPackages [buildbot-badges]: Downloading https://files.pythonhosted.org/packages/0a/0a/21c209069c677e2cd4befaa8369ca82aa92341c05b659da19c27abb892f4/buildbot-badges-3.9.2.tar.gz
+[2024-05-20 19:25:57] INFO root fetch - processPackages [quantum-pecos]: executing diffoscope
+[2024-05-20 19:25:57] INFO root fetch - processPackages [quantum-pecos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantum_pecos-0.6.0.dev1.tar.gz tmp/quantum_pecos-0.6.0.dev2.tar.gz --markdown 20240520/q/quantum-pecos/0.6.0.dev1-0.6.0.dev2/README.md --exclude *.pyd
+[2024-05-20 19:25:57] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-20 19:25:57] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.5.2.tar.gz tmp/mimllearning-0.5.3.tar.gz --markdown 20240520/m/mimllearning/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-20 19:25:57] INFO root fetch - processPackages [buildbot-grid-view]: Downloading https://files.pythonhosted.org/packages/05/4e/da9a540edd748663415c9ac5c481c0435f609454ab9f46259b6659dd308e/buildbot-grid-view-3.9.2.tar.gz
+[2024-05-20 19:25:57] INFO root fetch - processPackages [buildbot-console-view]: Downloading https://files.pythonhosted.org/packages/b5/fe/255f8ff4e93415d6d04eb05722675625e6df57f2fc60bb691dd6dfc31f13/buildbot-console-view-3.9.2.tar.gz
+[2024-05-20 19:25:57] INFO root fetch - processPackages [buildbot-badges]: executing diffoscope
+[2024-05-20 19:25:57] INFO root fetch - processPackages [buildbot-badges]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-badges-3.9.1.tar.gz tmp/buildbot-badges-3.9.2.tar.gz --markdown 20240520/b/buildbot-badges/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-20 19:25:57] INFO root fetch - processPackages [vital-ai-vitalsigns]: executing diffoscope
+[2024-05-20 19:25:57] INFO root fetch - processPackages [vital-ai-vitalsigns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vital-ai-vitalsigns-0.1.8.tar.gz tmp/vital-ai-vitalsigns-0.1.9.tar.gz --markdown 20240520/v/vital-ai-vitalsigns/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 19:25:57] INFO root fetch - processPackages [buildbot-grid-view]: executing diffoscope
+[2024-05-20 19:25:57] INFO root fetch - processPackages [buildbot-grid-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-grid-view-3.9.1.tar.gz tmp/buildbot-grid-view-3.9.2.tar.gz --markdown 20240520/b/buildbot-grid-view/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-20 19:25:57] INFO root fetch - processPackages [buildbot-console-view]: executing diffoscope
+[2024-05-20 19:25:57] INFO root fetch - processPackages [buildbot-console-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-console-view-3.9.1.tar.gz tmp/buildbot-console-view-3.9.2.tar.gz --markdown 20240520/b/buildbot-console-view/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-20 19:25:58] INFO root fetch - processPackages [imas-tools]: Remove: archive file [/home/abi/fetcher/tmp/imas_tools-0.4.1.tar.gz]
+[2024-05-20 19:25:58] INFO root fetch - processPackages [imas-tools]: Remove: archive file [/home/abi/fetcher/tmp/imas_tools-0.4.2.tar.gz]
+[2024-05-20 19:25:58] INFO root fetch - processPackages [imas-tools]: Start processing: buildbot-pkg
+[2024-05-20 19:25:58] INFO root fetch - main [MainThread]: End processing [imas-tools]: success
+[2024-05-20 19:25:58] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.7.0.tar.gz]
+[2024-05-20 19:25:58] INFO root fetch - processPackages [qualystbx]: Remove: archive file [/home/abi/fetcher/tmp/qualystbx-0.8.0.tar.gz]
+[2024-05-20 19:25:58] INFO root fetch - main [MainThread]: End processing [qualystbx]: success
+[2024-05-20 19:25:58] INFO root fetch - processPackages [buildbot-pkg]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-20 19:25:58] INFO root fetch - processPackages [buildbot-badges]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-badges-3.9.1.tar.gz]
+[2024-05-20 19:25:58] INFO root fetch - processPackages [buildbot-badges]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-badges-3.9.2.tar.gz]
+[2024-05-20 19:25:58] INFO root fetch - main [MainThread]: End processing [buildbot-badges]: success
+[2024-05-20 19:25:58] INFO root fetch - processPackages [buildbot-grid-view]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-grid-view-3.9.1.tar.gz]
+[2024-05-20 19:25:58] INFO root fetch - processPackages [buildbot-grid-view]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-grid-view-3.9.2.tar.gz]
+[2024-05-20 19:25:58] INFO root fetch - main [MainThread]: End processing [buildbot-grid-view]: success
+[2024-05-20 19:25:58] INFO root fetch - processPackages [hugedict]: Downloading https://files.pythonhosted.org/packages/92/61/4109a9c0c7bb01eefb965b5b386abacc7d6a554e4c79c6de0bdcb1d32d8a/hugedict-2.9.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-20 19:25:58] INFO root fetch - processPackages [buildbot-pkg]: Downloading https://files.pythonhosted.org/packages/c4/99/3b8776e98c08b19eafcb685bc9e7a690d5bceec4a3f1a66072e576dfdecf/buildbot-pkg-3.9.1.tar.gz
+[2024-05-20 19:25:58] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.5.2.tar.gz]
+[2024-05-20 19:25:58] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.5.3.tar.gz]
+[2024-05-20 19:25:58] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-20 19:25:58] INFO root fetch - processPackages [buildbot-console-view]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-console-view-3.9.1.tar.gz]
+[2024-05-20 19:25:58] INFO root fetch - processPackages [vital-ai-vitalsigns]: Remove: archive file [/home/abi/fetcher/tmp/vital-ai-vitalsigns-0.1.8.tar.gz]
+[2024-05-20 19:25:58] INFO root fetch - processPackages [buildbot-console-view]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-console-view-3.9.2.tar.gz]
+[2024-05-20 19:25:58] INFO root fetch - processPackages [vital-ai-vitalsigns]: Remove: archive file [/home/abi/fetcher/tmp/vital-ai-vitalsigns-0.1.9.tar.gz]
+[2024-05-20 19:25:58] INFO root fetch - main [MainThread]: End processing [vital-ai-vitalsigns]: success
+[2024-05-20 19:25:58] INFO root fetch - main [MainThread]: End processing [buildbot-console-view]: success
+[2024-05-20 19:25:58] INFO root fetch - processPackages [buildbot-pkg]: Downloading https://files.pythonhosted.org/packages/3e/1f/8c6672784ae3c7b2a7e964b4f072a049706710206ba9d6a048f681fee7e8/buildbot-pkg-3.9.2.tar.gz
+[2024-05-20 19:25:59] INFO root fetch - processPackages [buildbot-pkg]: executing diffoscope
+[2024-05-20 19:25:59] INFO root fetch - processPackages [buildbot-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-pkg-3.9.1.tar.gz tmp/buildbot-pkg-3.9.2.tar.gz --markdown 20240520/b/buildbot-pkg/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-20 19:25:59] INFO root fetch - processPackages [quantum-pecos]: Remove: archive file [/home/abi/fetcher/tmp/quantum_pecos-0.6.0.dev1.tar.gz]
+[2024-05-20 19:25:59] INFO root fetch - processPackages [quantum-pecos]: Remove: archive file [/home/abi/fetcher/tmp/quantum_pecos-0.6.0.dev2.tar.gz]
+[2024-05-20 19:25:59] INFO root fetch - main [MainThread]: End processing [quantum-pecos]: success
+[2024-05-20 19:25:59] INFO root fetch - processPackages [buildbot]: Downloading https://files.pythonhosted.org/packages/44/98/0333941204ef2643121f09109525205c959cff450c1d1c006f7973bbf3fe/buildbot-3.9.2.tar.gz
+[2024-05-20 19:25:59] INFO root fetch - processPackages [buildbot-pkg]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-pkg-3.9.1.tar.gz]
+[2024-05-20 19:25:59] INFO root fetch - processPackages [buildbot-pkg]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-pkg-3.9.2.tar.gz]
+[2024-05-20 19:25:59] INFO root fetch - main [MainThread]: End processing [buildbot-pkg]: success
+[2024-05-20 19:25:59] INFO root fetch - processPackages [hugedict]: executing diffoscope
+[2024-05-20 19:25:59] INFO root fetch - processPackages [hugedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugedict-2.9.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/hugedict-2.9.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240520/h/hugedict/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-20 19:26:00] INFO root fetch - processPackages [buildbot]: executing diffoscope
+[2024-05-20 19:26:00] INFO root fetch - processPackages [buildbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-3.9.1.tar.gz tmp/buildbot-3.9.2.tar.gz --markdown 20240520/b/buildbot/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-20 19:26:03] INFO root fetch - processPackages [buildbot]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-3.9.1.tar.gz]
+[2024-05-20 19:26:03] INFO root fetch - processPackages [buildbot]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-3.9.2.tar.gz]
+[2024-05-20 19:26:03] INFO root fetch - main [MainThread]: End processing [buildbot]: success
+[2024-05-20 19:26:59] INFO root fetch - processPackages [hugedict]: Remove: archive file [/home/abi/fetcher/tmp/hugedict-2.9.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-20 19:26:59] INFO root fetch - processPackages [hugedict]: Remove: archive file [/home/abi/fetcher/tmp/hugedict-2.9.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-20 19:26:59] INFO root fetch - main [MainThread]: End processing [hugedict]: success
+[2024-05-20 19:26:59] INFO root fetch - main [MainThread]: Store serial: [23293373]

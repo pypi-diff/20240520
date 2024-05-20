@@ -5643,3 +5643,45 @@
 [2024-05-20 05:19:55] INFO root fetch - main [MainThread]: End processing [jzai]: success
 [2024-05-20 05:19:55] INFO root fetch - main [MainThread]: End processing [jzai]: success
 [2024-05-20 05:19:55] INFO root fetch - main [MainThread]: Store serial: [23284092]
+[2024-05-20 05:21:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284092]
+[2024-05-20 05:22:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 05:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyzuoyz
+[2024-05-20 05:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-dm20151123
+[2024-05-20 05:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imperceptiblenessz
+[2024-05-20 05:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-odm-helper
+[2024-05-20 05:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docmesh-cli
+[2024-05-20 05:22:04] INFO root fetch - processPackages [docmesh-cli]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-20 05:22:04] WARNING root fetch - processPackages [imperceptiblenessz]: Skipping, unable to determine old version
+[2024-05-20 05:22:04] INFO root fetch - main [MainThread]: End processing [imperceptiblenessz] error
+[2024-05-20 05:22:04] INFO root fetch - processPackages [alibabacloud-dm20151123]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-20 05:22:04] INFO root fetch - processPackages [fastapi-odm-helper]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-20 05:22:04] INFO root fetch - processPackages [pyzuoyz]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-20 05:22:04] INFO root fetch - processPackages [alibabacloud-dm20151123]: Downloading https://files.pythonhosted.org/packages/87/e8/d28207aedef40de5f029a3c6f8b12b491e3c1edd6f12bfabc6aef99216e8/alibabacloud_dm20151123-1.1.1.tar.gz
+[2024-05-20 05:22:04] INFO root fetch - processPackages [docmesh-cli]: Downloading https://files.pythonhosted.org/packages/f9/f5/4022ad2c4e3a2e194a176d53a830f6251051073939121183d777d7ec3448/docmesh_cli-0.0.7.tar.gz
+[2024-05-20 05:22:04] INFO root fetch - processPackages [pyzuoyz]: Downloading https://files.pythonhosted.org/packages/8e/8c/4a47bc04b3173439eeed787f44278b83539808dbfa0a853cb04b4636e7aa/pyzuoyz-0.1.4.tar.gz
+[2024-05-20 05:22:04] INFO root fetch - processPackages [fastapi-odm-helper]: Downloading https://files.pythonhosted.org/packages/28/b4/400ad1dc13d3f4106f367c61970711443a58b673d6bd373223f4fcd4c05c/fastapi_odm_helper-0.0.7.tar.gz
+[2024-05-20 05:22:04] INFO root fetch - processPackages [fastapi-odm-helper]: Downloading https://files.pythonhosted.org/packages/e5/7c/147f340993141d1e9845170b3f8cdb71b59ffbac2d9607dfcaafac979c51/fastapi_odm_helper-0.0.8.tar.gz
+[2024-05-20 05:22:04] INFO root fetch - processPackages [alibabacloud-dm20151123]: Downloading https://files.pythonhosted.org/packages/64/79/0c812b3a024ca82ade06553e73cd410d96f8bdf5465c0a4b9de7c199dac4/alibabacloud_dm20151123-1.1.2.tar.gz
+[2024-05-20 05:22:04] INFO root fetch - processPackages [docmesh-cli]: Downloading https://files.pythonhosted.org/packages/52/01/e0b242a120b46fbd3ea11f242cce6164ceba11c4caaa6c0f51714f6c4a81/docmesh_cli-0.0.8.tar.gz
+[2024-05-20 05:22:04] INFO root fetch - processPackages [pyzuoyz]: Downloading https://files.pythonhosted.org/packages/33/73/0a0dfd5756e4f11bc24deff9200893562ff930443ce5b81f72dfb8e387e0/pyzuoyz-0.1.5.tar.gz
+[2024-05-20 05:22:04] INFO root fetch - processPackages [fastapi-odm-helper]: executing diffoscope
+[2024-05-20 05:22:04] INFO root fetch - processPackages [fastapi-odm-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_odm_helper-0.0.7.tar.gz tmp/fastapi_odm_helper-0.0.8.tar.gz --markdown 20240520/f/fastapi-odm-helper/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-20 05:22:04] INFO root fetch - processPackages [alibabacloud-dm20151123]: executing diffoscope
+[2024-05-20 05:22:04] INFO root fetch - processPackages [alibabacloud-dm20151123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dm20151123-1.1.1.tar.gz tmp/alibabacloud_dm20151123-1.1.2.tar.gz --markdown 20240520/a/alibabacloud-dm20151123/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-20 05:22:04] INFO root fetch - processPackages [docmesh-cli]: executing diffoscope
+[2024-05-20 05:22:04] INFO root fetch - processPackages [docmesh-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_cli-0.0.7.tar.gz tmp/docmesh_cli-0.0.8.tar.gz --markdown 20240520/d/docmesh-cli/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-20 05:22:04] INFO root fetch - processPackages [pyzuoyz]: executing diffoscope
+[2024-05-20 05:22:04] INFO root fetch - processPackages [pyzuoyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzuoyz-0.1.4.tar.gz tmp/pyzuoyz-0.1.5.tar.gz --markdown 20240520/p/pyzuoyz/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-20 05:22:05] INFO root fetch - processPackages [pyzuoyz]: Remove: archive file [/home/abi/fetcher/tmp/pyzuoyz-0.1.4.tar.gz]
+[2024-05-20 05:22:05] INFO root fetch - processPackages [pyzuoyz]: Remove: archive file [/home/abi/fetcher/tmp/pyzuoyz-0.1.5.tar.gz]
+[2024-05-20 05:22:05] INFO root fetch - main [MainThread]: End processing [pyzuoyz]: success
+[2024-05-20 05:22:05] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.7.tar.gz]
+[2024-05-20 05:22:05] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.8.tar.gz]
+[2024-05-20 05:22:05] INFO root fetch - main [MainThread]: End processing [docmesh-cli]: success
+[2024-05-20 05:22:05] INFO root fetch - processPackages [fastapi-odm-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_odm_helper-0.0.7.tar.gz]
+[2024-05-20 05:22:05] INFO root fetch - processPackages [fastapi-odm-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_odm_helper-0.0.8.tar.gz]
+[2024-05-20 05:22:05] INFO root fetch - main [MainThread]: End processing [fastapi-odm-helper]: success
+[2024-05-20 05:22:05] INFO root fetch - processPackages [alibabacloud-dm20151123]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dm20151123-1.1.1.tar.gz]
+[2024-05-20 05:22:05] INFO root fetch - processPackages [alibabacloud-dm20151123]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dm20151123-1.1.2.tar.gz]
+[2024-05-20 05:22:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-dm20151123]: success
+[2024-05-20 05:22:05] INFO root fetch - main [MainThread]: Store serial: [23284107]

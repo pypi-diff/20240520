@@ -23799,3 +23799,75 @@ EOFError: EOF read where object expected
 [2024-05-20 18:36:34] INFO root fetch - processPackages [pytplot-mpl-temp]: Remove: archive file [/home/abi/fetcher/tmp/pytplot-mpl-temp-2.2.9.tar.gz]
 [2024-05-20 18:36:34] INFO root fetch - main [MainThread]: End processing [pytplot-mpl-temp]: success
 [2024-05-20 18:36:34] INFO root fetch - main [MainThread]: Store serial: [23292560]
+[2024-05-20 18:38:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292560]
+[2024-05-20 18:38:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 18:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyprland
+[2024-05-20 18:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-re3data
+[2024-05-20 18:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-glucose
+[2024-05-20 18:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hgraph
+[2024-05-20 18:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyFunceble-dev
+[2024-05-20 18:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gen-wrappers
+[2024-05-20 18:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: malevich-coretools
+[2024-05-20 18:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SimpleAI-Image
+[2024-05-20 18:38:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: codedepot-ai
+[2024-05-20 18:38:43] INFO root fetch - processPackages [gen-wrappers]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-20 18:38:43] INFO root fetch - processPackages [codedepot-ai]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 18:38:43] WARNING root fetch - processPackages [SimpleAI-Image]: Skipping, unable to determine old version
+[2024-05-20 18:38:43] INFO root fetch - main [MainThread]: End processing [SimpleAI-Image] error
+[2024-05-20 18:38:43] INFO root fetch - processPackages [pyprland]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-05-20 18:38:43] WARNING root fetch - processPackages [python-re3data]: Skipping, unable to determine old version
+[2024-05-20 18:38:43] INFO root fetch - main [MainThread]: End processing [python-re3data] error
+[2024-05-20 18:38:43] INFO root fetch - processPackages [gen-wrappers]: Downloading https://files.pythonhosted.org/packages/36/21/0d2a7029aef3dd49d0dfea0e9b6fe07d7175e0b0a579c610917891839a0f/gen_wrappers-0.4.3.tar.gz
+[2024-05-20 18:38:43] INFO root fetch - processPackages [codedepot-ai]: Downloading https://files.pythonhosted.org/packages/35/65/eb03e78897e076f2612867b739a9a276994aa0c5e4a7a68a1b5b55f1f992/codedepot_ai-0.1.0.tar.gz
+[2024-05-20 18:38:43] INFO root fetch - processPackages [edc-glucose]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-20 18:38:43] INFO root fetch - processPackages [malevich-coretools]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-20 18:38:43] INFO root fetch - processPackages [hgraph]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-20 18:38:43] INFO root fetch - processPackages [pyprland]: Downloading https://files.pythonhosted.org/packages/c1/e4/a6d65b2823c1f0e1fec8a0dc0e77ab71b6b9852853667281867a48b48265/pyprland-2.3.0.tar.gz
+[2024-05-20 18:38:43] INFO root fetch - processPackages [PyFunceble-dev]: New version: [4.2.9] Old Version: [4.2.7]
+[2024-05-20 18:38:43] INFO root fetch - processPackages [edc-glucose]: Downloading https://files.pythonhosted.org/packages/b1/d8/3de9e4cf984214f2ed0da3dfd133cdef541efc1222be40b80dbb685aaa6d/edc-glucose-0.3.6.tar.gz
+[2024-05-20 18:38:43] INFO root fetch - processPackages [pyprland]: Downloading https://files.pythonhosted.org/packages/0a/37/203773f67ef45f1eaaede10d7d6086b648c2cd58a58ec21a5e0f196835c8/pyprland-2.3.1.tar.gz
+[2024-05-20 18:38:43] INFO root fetch - processPackages [malevich-coretools]: Downloading https://files.pythonhosted.org/packages/19/2b/be0cf01b7951184161da03cc56b1973a03c69f9df961482e7f4d54c3e67f/malevich-coretools-0.3.8.tar.gz
+[2024-05-20 18:38:43] INFO root fetch - processPackages [hgraph]: Downloading https://files.pythonhosted.org/packages/da/ad/e83b1d8661a0e583d3a8e4e301911d6797358607dad40d27057574e75081/hgraph-0.2.8.tar.gz
+[2024-05-20 18:38:43] INFO root fetch - processPackages [PyFunceble-dev]: Downloading https://files.pythonhosted.org/packages/a9/09/2ffbe87530f0aece577d1ebfa1ea3ff3585590610c864c8b8d3e5b18411c/PyFunceble-dev-4.2.7.tar.gz
+[2024-05-20 18:38:43] INFO root fetch - processPackages [codedepot-ai]: Downloading https://files.pythonhosted.org/packages/32/3b/08e0c00efa83df61dfb19609e7a8014042c8f1b90425e85c3d010adf367e/codedepot_ai-0.1.1.tar.gz
+[2024-05-20 18:38:43] INFO root fetch - processPackages [gen-wrappers]: Downloading https://files.pythonhosted.org/packages/13/b7/d214a89d6fad298b661381da723af6dd667b7085122e8d863c10e6ce48e7/gen_wrappers-0.4.4.tar.gz
+[2024-05-20 18:38:44] INFO root fetch - processPackages [pyprland]: executing diffoscope
+[2024-05-20 18:38:44] INFO root fetch - processPackages [pyprland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprland-2.3.0.tar.gz tmp/pyprland-2.3.1.tar.gz --markdown 20240520/p/pyprland/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-05-20 18:38:44] INFO root fetch - processPackages [codedepot-ai]: executing diffoscope
+[2024-05-20 18:38:44] INFO root fetch - processPackages [codedepot-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_ai-0.1.0.tar.gz tmp/codedepot_ai-0.1.1.tar.gz --markdown 20240520/c/codedepot-ai/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 18:38:44] INFO root fetch - processPackages [gen-wrappers]: executing diffoscope
+[2024-05-20 18:38:44] INFO root fetch - processPackages [gen-wrappers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen_wrappers-0.4.3.tar.gz tmp/gen_wrappers-0.4.4.tar.gz --markdown 20240520/g/gen-wrappers/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-20 18:38:44] INFO root fetch - processPackages [edc-glucose]: Downloading https://files.pythonhosted.org/packages/24/5e/b3f519b29addbdfe00da67723813f82c4b56b45a206b7de9926eb01adf87/edc_glucose-0.3.7.tar.gz
+[2024-05-20 18:38:44] INFO root fetch - processPackages [malevich-coretools]: Downloading https://files.pythonhosted.org/packages/bc/dc/3e56dcdbfb2b5a97eefc8722426aff37a862de6e6a2beaa02472053ebe7d/malevich-coretools-0.3.9.tar.gz
+[2024-05-20 18:38:44] INFO root fetch - processPackages [hgraph]: Downloading https://files.pythonhosted.org/packages/22/05/43ea3ada7d538f8592b51d36721d624366793ada729a497eaaff2db9b540/hgraph-0.2.9.tar.gz
+[2024-05-20 18:38:44] INFO root fetch - processPackages [PyFunceble-dev]: Downloading https://files.pythonhosted.org/packages/8d/a6/ce1b409ecb908fd4d991b77970805c1b0d784005b2b00817f8b4233ac9d4/PyFunceble-dev-4.2.9.tar.gz
+[2024-05-20 18:38:44] INFO root fetch - processPackages [edc-glucose]: executing diffoscope
+[2024-05-20 18:38:44] INFO root fetch - processPackages [edc-glucose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-glucose-0.3.6.tar.gz tmp/edc_glucose-0.3.7.tar.gz --markdown 20240520/e/edc-glucose/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-20 18:38:44] INFO root fetch - processPackages [malevich-coretools]: executing diffoscope
+[2024-05-20 18:38:44] INFO root fetch - processPackages [malevich-coretools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malevich-coretools-0.3.8.tar.gz tmp/malevich-coretools-0.3.9.tar.gz --markdown 20240520/m/malevich-coretools/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-20 18:38:44] INFO root fetch - processPackages [hgraph]: executing diffoscope
+[2024-05-20 18:38:44] INFO root fetch - processPackages [hgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgraph-0.2.8.tar.gz tmp/hgraph-0.2.9.tar.gz --markdown 20240520/h/hgraph/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-20 18:38:44] INFO root fetch - processPackages [PyFunceble-dev]: executing diffoscope
+[2024-05-20 18:38:44] INFO root fetch - processPackages [PyFunceble-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFunceble-dev-4.2.7.tar.gz tmp/PyFunceble-dev-4.2.9.tar.gz --markdown 20240520/P/PyFunceble-dev/4.2.7-4.2.9/README.md --exclude *.pyd
+[2024-05-20 18:38:44] INFO root fetch - processPackages [codedepot-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_ai-0.1.0.tar.gz]
+[2024-05-20 18:38:44] INFO root fetch - processPackages [codedepot-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_ai-0.1.1.tar.gz]
+[2024-05-20 18:38:44] INFO root fetch - main [MainThread]: End processing [codedepot-ai]: success
+[2024-05-20 18:38:44] INFO root fetch - processPackages [gen-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/gen_wrappers-0.4.3.tar.gz]
+[2024-05-20 18:38:44] INFO root fetch - processPackages [gen-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/gen_wrappers-0.4.4.tar.gz]
+[2024-05-20 18:38:44] INFO root fetch - main [MainThread]: End processing [gen-wrappers]: success
+[2024-05-20 18:38:44] INFO root fetch - processPackages [pyprland]: Remove: archive file [/home/abi/fetcher/tmp/pyprland-2.3.0.tar.gz]
+[2024-05-20 18:38:44] INFO root fetch - processPackages [pyprland]: Remove: archive file [/home/abi/fetcher/tmp/pyprland-2.3.1.tar.gz]
+[2024-05-20 18:38:44] INFO root fetch - main [MainThread]: End processing [pyprland]: success
+[2024-05-20 18:38:45] INFO root fetch - processPackages [malevich-coretools]: Remove: archive file [/home/abi/fetcher/tmp/malevich-coretools-0.3.8.tar.gz]
+[2024-05-20 18:38:45] INFO root fetch - processPackages [malevich-coretools]: Remove: archive file [/home/abi/fetcher/tmp/malevich-coretools-0.3.9.tar.gz]
+[2024-05-20 18:38:45] INFO root fetch - main [MainThread]: End processing [malevich-coretools]: success
+[2024-05-20 18:38:45] INFO root fetch - processPackages [edc-glucose]: Remove: archive file [/home/abi/fetcher/tmp/edc-glucose-0.3.6.tar.gz]
+[2024-05-20 18:38:45] INFO root fetch - processPackages [edc-glucose]: Remove: archive file [/home/abi/fetcher/tmp/edc_glucose-0.3.7.tar.gz]
+[2024-05-20 18:38:45] INFO root fetch - main [MainThread]: End processing [edc-glucose]: success
+[2024-05-20 18:38:45] INFO root fetch - processPackages [hgraph]: Remove: archive file [/home/abi/fetcher/tmp/hgraph-0.2.8.tar.gz]
+[2024-05-20 18:38:45] INFO root fetch - processPackages [hgraph]: Remove: archive file [/home/abi/fetcher/tmp/hgraph-0.2.9.tar.gz]
+[2024-05-20 18:38:45] INFO root fetch - main [MainThread]: End processing [hgraph]: success
+[2024-05-20 18:38:46] INFO root fetch - processPackages [PyFunceble-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyFunceble-dev-4.2.7.tar.gz]
+[2024-05-20 18:38:46] INFO root fetch - processPackages [PyFunceble-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyFunceble-dev-4.2.9.tar.gz]
+[2024-05-20 18:38:46] INFO root fetch - main [MainThread]: End processing [PyFunceble-dev]: success
+[2024-05-20 18:38:46] INFO root fetch - main [MainThread]: Store serial: [23292591]

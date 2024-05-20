@@ -10042,3 +10042,36 @@
 [2024-05-20 09:55:21] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.1.tar.gz]
 [2024-05-20 09:55:21] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2024-05-20 09:55:21] INFO root fetch - main [MainThread]: Store serial: [23286549]
+[2024-05-20 09:57:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286549]
+[2024-05-20 09:57:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyggseqlogo
+[2024-05-20 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-test-common
+[2024-05-20 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sporadicnessz
+[2024-05-20 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2024-05-20 09:57:30] INFO root fetch - processPackages [pyggseqlogo]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-20 09:57:30] INFO root fetch - processPackages [auto-test-common]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-20 09:57:30] WARNING root fetch - processPackages [sporadicnessz]: Skipping, unable to determine old version
+[2024-05-20 09:57:30] INFO root fetch - main [MainThread]: End processing [sporadicnessz] error
+[2024-05-20 09:57:30] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240520] Old Version: [2.17.0.dev20240519]
+[2024-05-20 09:57:30] INFO root fetch - processPackages [pyggseqlogo]: Downloading https://files.pythonhosted.org/packages/f5/c6/d9559efb527d2c1e683a0ee38ebf0e227845626e5caecfe3166af39b12b6/pyggseqlogo-1.1.0.tar.gz
+[2024-05-20 09:57:30] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/07/44/abeda499183d94a9cb8f98ee9c2bed1985fcece6c26cc9afe0fad8e004aa/auto-test-common-2.0.8.tar.gz
+[2024-05-20 09:57:30] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/76/91/e3db14be9964d538e420e3475cae9c780d1122f7f75f01aa07a6bbfbb92e/tf_nightly-2.17.0.dev20240519-cp39-cp39-win_amd64.whl
+[2024-05-20 09:57:31] INFO root fetch - processPackages [pyggseqlogo]: Downloading https://files.pythonhosted.org/packages/2b/2b/0c2ec63aa3f313f7c14b50363da33293f8a3ddf542d30189663be4f242a1/pyggseqlogo-1.1.1.tar.gz
+[2024-05-20 09:57:31] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/4b/d9/45b8e5de52b2857ca21235c1c40feeefd0eac18ec1e4533427d05525845b/auto-test-common-2.0.9.tar.gz
+[2024-05-20 09:57:31] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/31/2f/259cfcb1c5643764b04ee67a0d2b47c29bbb2de8ccf6da1a396ac8a06544/tf_nightly-2.17.0.dev20240520-cp39-cp39-win_amd64.whl
+[2024-05-20 09:57:31] INFO root fetch - processPackages [pyggseqlogo]: executing diffoscope
+[2024-05-20 09:57:31] INFO root fetch - processPackages [pyggseqlogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyggseqlogo-1.1.0.tar.gz tmp/pyggseqlogo-1.1.1.tar.gz --markdown 20240520/p/pyggseqlogo/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-20 09:57:31] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2024-05-20 09:57:31] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-2.0.8.tar.gz tmp/auto-test-common-2.0.9.tar.gz --markdown 20240520/a/auto-test-common/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-20 09:57:31] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-20 09:57:31] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240519-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240520-cp39-cp39-win_amd64.whl.zip --markdown 20240520/t/tf-nightly/2.17.0.dev20240519-2.17.0.dev20240520/README.md --exclude *.pyd
+[2024-05-20 09:57:31] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240519-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 09:57:31] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240520-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 09:57:31] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-20 09:57:31] INFO root fetch - processPackages [pyggseqlogo]: Remove: archive file [/home/abi/fetcher/tmp/pyggseqlogo-1.1.0.tar.gz]
+[2024-05-20 09:57:31] INFO root fetch - processPackages [pyggseqlogo]: Remove: archive file [/home/abi/fetcher/tmp/pyggseqlogo-1.1.1.tar.gz]
+[2024-05-20 09:57:31] INFO root fetch - main [MainThread]: End processing [pyggseqlogo]: success
+[2024-05-20 09:57:31] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.8.tar.gz]
+[2024-05-20 09:57:31] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.9.tar.gz]
+[2024-05-20 09:57:31] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2024-05-20 09:57:31] INFO root fetch - main [MainThread]: Store serial: [23286562]

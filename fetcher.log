@@ -5225,3 +5225,42 @@
 [2024-05-20 04:47:17] INFO root fetch - processPackages [scmrepo]: Remove: archive file [/home/abi/fetcher/tmp/scmrepo-3.3.4.tar.gz]
 [2024-05-20 04:47:17] INFO root fetch - main [MainThread]: End processing [scmrepo]: success
 [2024-05-20 04:47:17] INFO root fetch - main [MainThread]: Store serial: [23283907]
+[2024-05-20 04:49:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283907]
+[2024-05-20 04:49:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 04:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yoto-api
+[2024-05-20 04:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-tools-duckduckgo
+[2024-05-20 04:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Nuitka-winsvc
+[2024-05-20 04:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: betterschema
+[2024-05-20 04:49:26] INFO root fetch - processPackages [betterschema]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 04:49:26] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-20 04:49:26] INFO root fetch - processPackages [Nuitka-winsvc]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-05-20 04:49:26] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-20 04:49:26] INFO root fetch - processPackages [betterschema]: Downloading https://files.pythonhosted.org/packages/1e/38/c4454b42d2fdf99df61a25551a6a06ccb4ca66e340946fe223ee1ab9c001/betterschema-0.1.8.tar.gz
+[2024-05-20 04:49:26] INFO root fetch - processPackages [llama-index-tools-duckduckgo]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 04:49:26] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/99/cd/e31202b11332208fce9e8deb333321ad4796b37a122ec7375fbdf59fd80d/nuitka_winsvc-2.2.2.tar.gz
+[2024-05-20 04:49:26] INFO root fetch - processPackages [llama-index-tools-duckduckgo]: Downloading https://files.pythonhosted.org/packages/bd/5d/8807ebb32e15a48a7cae49c37fae46a23dae59c1e249279eddecca0330b5/llama_index_tools_duckduckgo-0.1.0.tar.gz
+[2024-05-20 04:49:26] INFO root fetch - processPackages [betterschema]: Downloading https://files.pythonhosted.org/packages/9f/0d/826ff1e3b4772c505194babfcc2ab7784bd5f7f13f65bfb0aa861b1c63c0/betterschema-0.1.9.tar.gz
+[2024-05-20 04:49:26] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-20 04:49:26] INFO root fetch - processPackages [betterschema]: executing diffoscope
+[2024-05-20 04:49:26] INFO root fetch - processPackages [betterschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterschema-0.1.8.tar.gz tmp/betterschema-0.1.9.tar.gz --markdown 20240520/b/betterschema/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 04:49:26] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-20 04:49:26] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240520/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-20 04:49:26] INFO root fetch - processPackages [llama-index-tools-duckduckgo]: Downloading https://files.pythonhosted.org/packages/c7/3e/b1b832710e6205c99e55a22d84f1604aef157018cb8017e39820b5ac7ec5/llama_index_tools_duckduckgo-0.1.1.tar.gz
+[2024-05-20 04:49:27] INFO root fetch - processPackages [llama-index-tools-duckduckgo]: executing diffoscope
+[2024-05-20 04:49:27] INFO root fetch - processPackages [llama-index-tools-duckduckgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_tools_duckduckgo-0.1.0.tar.gz tmp/llama_index_tools_duckduckgo-0.1.1.tar.gz --markdown 20240520/l/llama-index-tools-duckduckgo/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 04:49:27] INFO root fetch - processPackages [Nuitka-winsvc]: Downloading https://files.pythonhosted.org/packages/e4/63/6be74b285bf0ecf68be192be73a30027c79d1e1b7350b4ae3bd05d3d4eab/nuitka_winsvc-2.2.3.tar.gz
+[2024-05-20 04:49:27] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-20 04:49:27] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-20 04:49:27] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-20 04:49:27] INFO root fetch - processPackages [betterschema]: Remove: archive file [/home/abi/fetcher/tmp/betterschema-0.1.8.tar.gz]
+[2024-05-20 04:49:27] INFO root fetch - processPackages [betterschema]: Remove: archive file [/home/abi/fetcher/tmp/betterschema-0.1.9.tar.gz]
+[2024-05-20 04:49:27] INFO root fetch - main [MainThread]: End processing [betterschema]: success
+[2024-05-20 04:49:27] INFO root fetch - processPackages [llama-index-tools-duckduckgo]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_tools_duckduckgo-0.1.0.tar.gz]
+[2024-05-20 04:49:27] INFO root fetch - processPackages [llama-index-tools-duckduckgo]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_tools_duckduckgo-0.1.1.tar.gz]
+[2024-05-20 04:49:27] INFO root fetch - main [MainThread]: End processing [llama-index-tools-duckduckgo]: success
+[2024-05-20 04:49:27] INFO root fetch - processPackages [Nuitka-winsvc]: executing diffoscope
+[2024-05-20 04:49:27] INFO root fetch - processPackages [Nuitka-winsvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuitka_winsvc-2.2.2.tar.gz tmp/nuitka_winsvc-2.2.3.tar.gz --markdown 20240520/N/Nuitka-winsvc/2.2.2-2.2.3/README.md --exclude *.pyd
+[2024-05-20 04:49:35] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/nuitka_winsvc-2.2.2.tar.gz]
+[2024-05-20 04:49:35] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/nuitka_winsvc-2.2.3.tar.gz]
+[2024-05-20 04:49:35] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
+[2024-05-20 04:49:35] INFO root fetch - main [MainThread]: Store serial: [23283918]

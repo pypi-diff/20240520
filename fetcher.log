@@ -21031,3 +21031,81 @@ EOFError: EOF read where object expected
 [2024-05-20 16:53:43] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
 [2024-05-20 16:53:43] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
 [2024-05-20 16:53:43] INFO root fetch - main [MainThread]: Store serial: [23291351]
+[2024-05-20 16:55:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291351]
+[2024-05-20 16:55:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 16:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-bdd-report
+[2024-05-20 16:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agricore_sp_models
+[2024-05-20 16:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fn5
+[2024-05-20 16:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-matter-server
+[2024-05-20 16:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ktaga-lab
+[2024-05-20 16:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-workflow-sdk
+[2024-05-20 16:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jrpystan
+[2024-05-20 16:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Flask-AppBuilder
+[2024-05-20 16:55:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flatpack
+[2024-05-20 16:55:52] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-20 16:55:52] INFO root fetch - processPackages [agricore_sp_models]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-20 16:55:52] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.85]
+[2024-05-20 16:55:52] INFO root fetch - processPackages [fn5]: New version: [2.0.0] Old Version: [1.2.2rc2]
+[2024-05-20 16:55:52] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/d5/b7/0c32c08fe0b3327878c0d7b7006b46298b3dca469a326a75a439bfd0f0f1/lusid_workflow_sdk-2.1.8.tar.gz
+[2024-05-20 16:55:52] WARNING root fetch - processPackages [ktaga-lab]: Skipping, unable to determine old version
+[2024-05-20 16:55:52] INFO root fetch - main [MainThread]: End processing [ktaga-lab] error
+[2024-05-20 16:55:52] INFO root fetch - processPackages [jrpystan]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-20 16:55:52] INFO root fetch - processPackages [pytest-bdd-report]: New version: [1.0.2b0] Old Version: [1.0.1]
+[2024-05-20 16:55:52] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/99/3b/b1847ba262596ccdb2f2745d722aa75dade6d77edde9077aa24e0867d5f0/agricore_sp_models-0.5.8.tar.gz
+[2024-05-20 16:55:52] INFO root fetch - processPackages [Flask-AppBuilder]: New version: [4.5.0rc1] Old Version: [4.4.1rc2]
+[2024-05-20 16:55:52] INFO root fetch - processPackages [python-matter-server]: New version: [6.0.1] Old Version: [6.0.0b1]
+[2024-05-20 16:55:52] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/55/b7/6a6757450632949c42a93a97e5b683676892032bf01d8dab6fd35d4131b1/flatpack-3.4.85.tar.gz
+[2024-05-20 16:55:52] INFO root fetch - processPackages [fn5]: Downloading https://files.pythonhosted.org/packages/29/b7/353c017df1fe8c7123ebfc55789a4955c65886afaaa3534c91856cd25916/fn5-1.2.2rc2.tar.gz
+[2024-05-20 16:55:52] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/23/c0/5f5908f038983f29f46a445ed5ff331d6086d5c6cb128e4502bf223fd90b/lusid_workflow_sdk-2.1.9.tar.gz
+[2024-05-20 16:55:52] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/4f/c3/15dc30bfa86b2dc97f35cb28d8ef45f99d8a64f480013f5b15c7b47dde11/agricore_sp_models-0.5.9.tar.gz
+[2024-05-20 16:55:52] INFO root fetch - processPackages [pytest-bdd-report]: Downloading https://files.pythonhosted.org/packages/2d/16/e7e8b976f7a5bf16b9e874c105d7732523fe0fe4548124a84e66fe594eee/pytest_bdd_report-1.0.1.tar.gz
+[2024-05-20 16:55:52] INFO root fetch - processPackages [jrpystan]: Downloading https://files.pythonhosted.org/packages/c2/5c/045dbbfb579b0fb5814d2f6d0bf16de80e653c68e111508d1e4d0145d708/jrpystan-1.1.1.tar.gz
+[2024-05-20 16:55:52] INFO root fetch - processPackages [Flask-AppBuilder]: Downloading https://files.pythonhosted.org/packages/34/a4/adc2c67d876d2f172b0019c3b87e0597eb36fef54cd5afbc2f574610f2c2/Flask-AppBuilder-4.4.1rc2.tar.gz
+[2024-05-20 16:55:52] INFO root fetch - processPackages [python-matter-server]: Downloading https://files.pythonhosted.org/packages/60/83/f4ef0023def0da660c65abf1eea3a9f0c08187b39cd867e42ec0b7746114/python_matter_server-6.0.0b1.tar.gz
+[2024-05-20 16:55:52] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-20 16:55:52] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-05-20 16:55:52] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.1.8.tar.gz tmp/lusid_workflow_sdk-2.1.9.tar.gz --markdown 20240520/l/lusid-workflow-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-20 16:55:52] INFO root fetch - processPackages [agricore_sp_models]: executing diffoscope
+[2024-05-20 16:55:52] INFO root fetch - processPackages [agricore_sp_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agricore_sp_models-0.5.8.tar.gz tmp/agricore_sp_models-0.5.9.tar.gz --markdown 20240520/a/agricore_sp_models/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-20 16:55:52] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-20 16:55:52] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.85.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240520/f/flatpack/3.4.85-3.4.9/README.md --exclude *.pyd
+[2024-05-20 16:55:53] INFO root fetch - processPackages [fn5]: Downloading https://files.pythonhosted.org/packages/60/65/32b819fb950109a0371cce0027870d06492b3b447f627e4ecc6205d9cbd2/fn5-2.0.0.tar.gz
+[2024-05-20 16:55:53] INFO root fetch - processPackages [jrpystan]: Downloading https://files.pythonhosted.org/packages/12/bf/0ef1bc002ff98e394d6fb8918f6a2f30a446f75ed32933c0799e2dcccfba/jrpystan-1.1.2.tar.gz
+[2024-05-20 16:55:53] INFO root fetch - processPackages [pytest-bdd-report]: Downloading https://files.pythonhosted.org/packages/a2/21/db7b6f30cf02ec60590161f18f64dfbc8014bf4c27793824296801421bb5/pytest_bdd_report-1.0.2b0.tar.gz
+[2024-05-20 16:55:53] INFO root fetch - processPackages [fn5]: executing diffoscope
+[2024-05-20 16:55:53] INFO root fetch - processPackages [fn5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fn5-1.2.2rc2.tar.gz tmp/fn5-2.0.0.tar.gz --markdown 20240520/f/fn5/1.2.2rc2-2.0.0/README.md --exclude *.pyd
+[2024-05-20 16:55:53] INFO root fetch - processPackages [python-matter-server]: Downloading https://files.pythonhosted.org/packages/05/3f/1284ee34824f2728656b76daebd29db4fc9b2b723302509b5b85cd5ab3a0/python_matter_server-6.0.1.tar.gz
+[2024-05-20 16:55:53] INFO root fetch - processPackages [jrpystan]: executing diffoscope
+[2024-05-20 16:55:53] INFO root fetch - processPackages [jrpystan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jrpystan-1.1.1.tar.gz tmp/jrpystan-1.1.2.tar.gz --markdown 20240520/j/jrpystan/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-20 16:55:53] INFO root fetch - processPackages [pytest-bdd-report]: executing diffoscope
+[2024-05-20 16:55:53] INFO root fetch - processPackages [pytest-bdd-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_bdd_report-1.0.1.tar.gz tmp/pytest_bdd_report-1.0.2b0.tar.gz --markdown 20240520/p/pytest-bdd-report/1.0.1-1.0.2b0/README.md --exclude *.pyd
+[2024-05-20 16:55:53] INFO root fetch - processPackages [python-matter-server]: executing diffoscope
+[2024-05-20 16:55:53] INFO root fetch - processPackages [python-matter-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_matter_server-6.0.0b1.tar.gz tmp/python_matter_server-6.0.1.tar.gz --markdown 20240520/p/python-matter-server/6.0.0b1-6.0.1/README.md --exclude *.pyd
+[2024-05-20 16:55:53] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.8.tar.gz]
+[2024-05-20 16:55:53] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.9.tar.gz]
+[2024-05-20 16:55:53] INFO root fetch - main [MainThread]: End processing [agricore_sp_models]: success
+[2024-05-20 16:55:53] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.85.tar.gz]
+[2024-05-20 16:55:53] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-20 16:55:53] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-20 16:55:53] INFO root fetch - processPackages [fn5]: Remove: archive file [/home/abi/fetcher/tmp/fn5-1.2.2rc2.tar.gz]
+[2024-05-20 16:55:53] INFO root fetch - processPackages [fn5]: Remove: archive file [/home/abi/fetcher/tmp/fn5-2.0.0.tar.gz]
+[2024-05-20 16:55:53] INFO root fetch - main [MainThread]: End processing [fn5]: success
+[2024-05-20 16:55:53] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.8.tar.gz]
+[2024-05-20 16:55:53] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.9.tar.gz]
+[2024-05-20 16:55:53] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-05-20 16:55:54] INFO root fetch - processPackages [jrpystan]: Remove: archive file [/home/abi/fetcher/tmp/jrpystan-1.1.1.tar.gz]
+[2024-05-20 16:55:54] INFO root fetch - processPackages [jrpystan]: Remove: archive file [/home/abi/fetcher/tmp/jrpystan-1.1.2.tar.gz]
+[2024-05-20 16:55:54] INFO root fetch - main [MainThread]: End processing [jrpystan]: success
+[2024-05-20 16:55:54] INFO root fetch - processPackages [pytest-bdd-report]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bdd_report-1.0.1.tar.gz]
+[2024-05-20 16:55:54] INFO root fetch - processPackages [pytest-bdd-report]: Remove: archive file [/home/abi/fetcher/tmp/pytest_bdd_report-1.0.2b0.tar.gz]
+[2024-05-20 16:55:54] INFO root fetch - main [MainThread]: End processing [pytest-bdd-report]: success
+[2024-05-20 16:55:54] INFO root fetch - processPackages [python-matter-server]: Remove: archive file [/home/abi/fetcher/tmp/python_matter_server-6.0.0b1.tar.gz]
+[2024-05-20 16:55:54] INFO root fetch - processPackages [python-matter-server]: Remove: archive file [/home/abi/fetcher/tmp/python_matter_server-6.0.1.tar.gz]
+[2024-05-20 16:55:54] INFO root fetch - main [MainThread]: End processing [python-matter-server]: success
+[2024-05-20 16:55:55] INFO root fetch - processPackages [Flask-AppBuilder]: Downloading https://files.pythonhosted.org/packages/f3/b5/7426952128801201a26ec1f181d2aef9002c55c333db2278907db5c41b0a/Flask-AppBuilder-4.5.0rc1.tar.gz
+[2024-05-20 16:55:57] INFO root fetch - processPackages [Flask-AppBuilder]: executing diffoscope
+[2024-05-20 16:55:57] INFO root fetch - processPackages [Flask-AppBuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-AppBuilder-4.4.1rc2.tar.gz tmp/Flask-AppBuilder-4.5.0rc1.tar.gz --markdown 20240520/F/Flask-AppBuilder/4.4.1rc2-4.5.0rc1/README.md --exclude *.pyd
+[2024-05-20 16:56:01] INFO root fetch - processPackages [Flask-AppBuilder]: Remove: archive file [/home/abi/fetcher/tmp/Flask-AppBuilder-4.4.1rc2.tar.gz]
+[2024-05-20 16:56:01] INFO root fetch - processPackages [Flask-AppBuilder]: Remove: archive file [/home/abi/fetcher/tmp/Flask-AppBuilder-4.5.0rc1.tar.gz]
+[2024-05-20 16:56:01] INFO root fetch - main [MainThread]: End processing [Flask-AppBuilder]: success
+[2024-05-20 16:56:01] INFO root fetch - main [MainThread]: Store serial: [23291379]

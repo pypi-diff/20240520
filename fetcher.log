@@ -7180,3 +7180,32 @@
 [2024-05-20 07:05:31] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.80.0.tar.gz]
 [2024-05-20 07:05:31] INFO root fetch - main [MainThread]: End processing [dvcx]: success
 [2024-05-20 07:05:31] INFO root fetch - main [MainThread]: Store serial: [23284749]
+[2024-05-20 07:07:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284749]
+[2024-05-20 07:07:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 07:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webpage-content-scraper
+[2024-05-20 07:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: techgram
+[2024-05-20 07:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ckanext-ark
+[2024-05-20 07:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Html-Flask
+[2024-05-20 07:07:40] INFO root fetch - processPackages [ckanext-ark]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 07:07:40] INFO root fetch - processPackages [webpage-content-scraper]: New version: [0.2] Old Version: [0.1]
+[2024-05-20 07:07:40] INFO root fetch - processPackages [techgram]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 07:07:40] WARNING root fetch - processPackages [Html-Flask]: Skipping, unable to determine old version
+[2024-05-20 07:07:40] INFO root fetch - main [MainThread]: End processing [Html-Flask] error
+[2024-05-20 07:07:40] INFO root fetch - processPackages [webpage-content-scraper]: Downloading https://files.pythonhosted.org/packages/b1/93/8fbe0831ef567cee0dfaedf69e5fcb262b71b6b54dc780e552a3481a8b17/webpage_content_scraper-0.1.tar.gz
+[2024-05-20 07:07:40] INFO root fetch - processPackages [ckanext-ark]: Downloading https://files.pythonhosted.org/packages/aa/88/7548b1dcceb67ac8d2c935d00347074b5d06d3e55ee428b3dec8dfca0a5a/ckanext-ark-1.0.2.tar.gz
+[2024-05-20 07:07:40] INFO root fetch - processPackages [techgram]: Downloading https://files.pythonhosted.org/packages/bb/6a/8f42ce2261917180e04383db934b3337df0e0e91cb53fa81e5c1a25f8e52/techgram-1.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-20 07:07:40] WARNING root fetch - processPackages [techgram]: Skipping package: exceeds size limit 11235555>=10485760
+[2024-05-20 07:07:40] INFO root fetch - main [MainThread]: End processing [techgram] error
+[2024-05-20 07:07:41] INFO root fetch - processPackages [webpage-content-scraper]: Downloading https://files.pythonhosted.org/packages/c2/22/37d7e1ebe97404e20811a78548b7de05c4feef800a067c13c46bf3086504/webpage_content_scraper-0.2.tar.gz
+[2024-05-20 07:07:41] INFO root fetch - processPackages [ckanext-ark]: Downloading https://files.pythonhosted.org/packages/97/1b/6ef82b5b90d7e86f9f892817a75a3aec3e974a36e0179ed031039bd0424a/ckanext_ark-1.0.3.tar.gz
+[2024-05-20 07:07:41] INFO root fetch - processPackages [webpage-content-scraper]: executing diffoscope
+[2024-05-20 07:07:41] INFO root fetch - processPackages [webpage-content-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webpage_content_scraper-0.1.tar.gz tmp/webpage_content_scraper-0.2.tar.gz --markdown 20240520/w/webpage-content-scraper/0.1-0.2/README.md --exclude *.pyd
+[2024-05-20 07:07:41] INFO root fetch - processPackages [ckanext-ark]: executing diffoscope
+[2024-05-20 07:07:41] INFO root fetch - processPackages [ckanext-ark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-ark-1.0.2.tar.gz tmp/ckanext_ark-1.0.3.tar.gz --markdown 20240520/c/ckanext-ark/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 07:07:41] INFO root fetch - processPackages [webpage-content-scraper]: Remove: archive file [/home/abi/fetcher/tmp/webpage_content_scraper-0.1.tar.gz]
+[2024-05-20 07:07:41] INFO root fetch - processPackages [webpage-content-scraper]: Remove: archive file [/home/abi/fetcher/tmp/webpage_content_scraper-0.2.tar.gz]
+[2024-05-20 07:07:41] INFO root fetch - main [MainThread]: End processing [webpage-content-scraper]: success
+[2024-05-20 07:07:41] INFO root fetch - processPackages [ckanext-ark]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-ark-1.0.2.tar.gz]
+[2024-05-20 07:07:41] INFO root fetch - processPackages [ckanext-ark]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_ark-1.0.3.tar.gz]
+[2024-05-20 07:07:41] INFO root fetch - main [MainThread]: End processing [ckanext-ark]: success
+[2024-05-20 07:07:41] INFO root fetch - main [MainThread]: Store serial: [23284772]

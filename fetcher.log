@@ -12040,3 +12040,94 @@
 [2024-05-20 11:14:32] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
 [2024-05-20 11:14:32] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
 [2024-05-20 11:14:32] INFO root fetch - main [MainThread]: Store serial: [23287400]
+[2024-05-20 11:16:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287400]
+[2024-05-20 11:16:40] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-20 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-05-20 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GraphRetrieval
+[2024-05-20 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: freepaths
+[2024-05-20 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kit4dl
+[2024-05-20 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvfuser-cu121
+[2024-05-20 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: common-tools-ai-bnq
+[2024-05-20 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2024-05-20 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trilium-py
+[2024-05-20 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: urlgenie
+[2024-05-20 11:16:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nvfuser-cu118
+[2024-05-20 11:16:41] INFO root fetch - processPackages [urlgenie]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-20 11:16:41] INFO root fetch - processPackages [GraphRetrieval]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-20 11:16:41] INFO root fetch - processPackages [freepaths]: New version: [1.9.1] Old Version: [1.9]
+[2024-05-20 11:16:41] INFO root fetch - processPackages [trilium-py]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 11:16:41] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.5.dev20240519] Old Version: [0.2.5.dev20240518]
+[2024-05-20 11:16:41] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.5.dev20240519] Old Version: [0.2.5.dev20240518]
+[2024-05-20 11:16:41] INFO root fetch - processPackages [kit4dl]: New version: [2023.9b2] Old Version: [2023.9b1]
+[2024-05-20 11:16:41] INFO root fetch - processPackages [common-tools-ai-bnq]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-05-20 11:16:41] INFO root fetch - processPackages [urlgenie]: Downloading https://files.pythonhosted.org/packages/f2/3a/619a28a5f4df7d2c12ecb0a61b77f50f2a5852ab722d212d1c04c8e55f28/urlgenie-1.0.0.tar.gz
+[2024-05-20 11:16:41] INFO root fetch - processPackages [GraphRetrieval]: Downloading https://files.pythonhosted.org/packages/d1/0b/0f1d776409ad8377671ae60564e16afa70e87644ce8c059146180bf8996b/graphretrieval-0.1.2.tar.gz
+[2024-05-20 11:16:41] INFO root fetch - processPackages [trilium-py]: Downloading https://files.pythonhosted.org/packages/ad/e5/ea7fcdf2338182fd304116f7715ab681fe7748885adc94d71acbee57f7d4/trilium_py-0.9.0-py3-none-any.whl
+[2024-05-20 11:16:41] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/66/de/0dfa9468cbc8391a10bf37e66548c480e4f39c2db26525cb6a5e1e2b7fb6/nvfuser_cu118-0.2.5.dev20240518.tar.gz
+[2024-05-20 11:16:41] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-20 11:16:41] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-20 11:16:41] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b0/8e/2bff630eee1f5a52bc1fa3eba4b7d130fc213d33ed63faa383442310bd34/nvfuser_cu121-0.2.5.dev20240518.tar.gz
+[2024-05-20 11:16:41] INFO root fetch - processPackages [freepaths]: Downloading https://files.pythonhosted.org/packages/96/81/b1abd46ea2ad81bd2389d8efd50d56f39aa2e200c46a2bc59b86a70a540c/freepaths-1.9.tar.gz
+[2024-05-20 11:16:41] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/dd/4d/f93ab584d3f6d00e825a2593005c72ea59c1bf6f977cc0c9faad92a3a9ae/common-tools-ai-bnq-0.1.9.tar.gz
+[2024-05-20 11:16:41] INFO root fetch - processPackages [kit4dl]: Downloading https://files.pythonhosted.org/packages/ab/b6/0d234c0791d7ba067fbcbe82fda46e7bb51adb24e0c1d11f544af8420779/kit4dl-2023.9b1.tar.gz
+[2024-05-20 11:16:41] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-20 11:16:41] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-20 11:16:41] INFO root fetch - processPackages [urlgenie]: Downloading https://files.pythonhosted.org/packages/2b/e8/1525a71f51bded4b9ef7a7cfe8faab2fd1bf1e3579301d826ae81efddb23/urlgenie-1.1.0.tar.gz
+[2024-05-20 11:16:41] INFO root fetch - processPackages [trilium-py]: Downloading https://files.pythonhosted.org/packages/70/f5/8d0affcb0f6f35e2edfacaa6a03b497c80f87e896c9071e8ad44e5a7090b/trilium_py-0.9.1-py3-none-any.whl
+[2024-05-20 11:16:41] INFO root fetch - processPackages [freepaths]: Downloading https://files.pythonhosted.org/packages/7d/fd/673ec6e5deacd9c8be9025a9e5e5f1a44f46e1e659c2afa1e2cd6a6cbd56/freepaths-1.9.1.tar.gz
+[2024-05-20 11:16:41] INFO root fetch - processPackages [GraphRetrieval]: Downloading https://files.pythonhosted.org/packages/8d/8c/8ad17ac6445e0a7ceafcc1f2ee8388194b3485b47191b61bf4c21969bbb9/graphretrieval-0.1.3.tar.gz
+[2024-05-20 11:16:41] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/50/d4/afd255c420db48c93e66a55683bfea4a7e0135448e501b7806068a255dbd/nvfuser_cu118-0.2.5.dev20240519.tar.gz
+[2024-05-20 11:16:41] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/0a/ae/6b8d39ddd83cdefab6f2671d0a977b988ee4327b30e1420e7a18a4199e0a/nvfuser_cu121-0.2.5.dev20240519.tar.gz
+[2024-05-20 11:16:41] INFO root fetch - processPackages [urlgenie]: executing diffoscope
+[2024-05-20 11:16:41] INFO root fetch - processPackages [urlgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urlgenie-1.0.0.tar.gz tmp/urlgenie-1.1.0.tar.gz --markdown 20240520/u/urlgenie/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-20 11:16:41] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/a9/c7/64c0bc8320dadc4d4edaad4fa756aa85506444e302c80e603a3318a45b21/common-tools-ai-bnq-0.2.0.tar.gz
+[2024-05-20 11:16:41] INFO root fetch - processPackages [trilium-py]: executing diffoscope
+[2024-05-20 11:16:41] INFO root fetch - processPackages [trilium-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trilium_py-0.9.0-py3-none-any.whl.zip tmp/trilium_py-0.9.1-py3-none-any.whl.zip --markdown 20240520/t/trilium-py/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 11:16:42] INFO root fetch - processPackages [kit4dl]: Downloading https://files.pythonhosted.org/packages/2e/23/2b393abbbc0eb72f8a8aa563b98d1a1d96c3ed90c93c58f1f7a176bd03ea/kit4dl-2023.9b2.tar.gz
+[2024-05-20 11:16:42] INFO root fetch - processPackages [GraphRetrieval]: executing diffoscope
+[2024-05-20 11:16:42] INFO root fetch - processPackages [GraphRetrieval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphretrieval-0.1.2.tar.gz tmp/graphretrieval-0.1.3.tar.gz --markdown 20240520/G/GraphRetrieval/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-20 11:16:42] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-05-20 11:16:42] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.5.dev20240518.tar.gz tmp/nvfuser_cu118-0.2.5.dev20240519.tar.gz --markdown 20240520/n/nvfuser-cu118/0.2.5.dev20240518-0.2.5.dev20240519/README.md --exclude *.pyd
+[2024-05-20 11:16:42] INFO root fetch - processPackages [freepaths]: executing diffoscope
+[2024-05-20 11:16:42] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-20 11:16:42] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.5.dev20240518.tar.gz tmp/nvfuser_cu121-0.2.5.dev20240519.tar.gz --markdown 20240520/n/nvfuser-cu121/0.2.5.dev20240518-0.2.5.dev20240519/README.md --exclude *.pyd
+[2024-05-20 11:16:42] INFO root fetch - processPackages [freepaths]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freepaths-1.9.tar.gz tmp/freepaths-1.9.1.tar.gz --markdown 20240520/f/freepaths/1.9-1.9.1/README.md --exclude *.pyd
+[2024-05-20 11:16:42] INFO root fetch - processPackages [common-tools-ai-bnq]: executing diffoscope
+[2024-05-20 11:16:42] INFO root fetch - processPackages [common-tools-ai-bnq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-tools-ai-bnq-0.1.9.tar.gz tmp/common-tools-ai-bnq-0.2.0.tar.gz --markdown 20240520/c/common-tools-ai-bnq/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-05-20 11:16:42] INFO root fetch - processPackages [kit4dl]: executing diffoscope
+[2024-05-20 11:16:42] INFO root fetch - processPackages [kit4dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kit4dl-2023.9b1.tar.gz tmp/kit4dl-2023.9b2.tar.gz --markdown 20240520/k/kit4dl/2023.9b1-2023.9b2/README.md --exclude *.pyd
+[2024-05-20 11:16:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-20 11:16:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-20 11:16:42] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-20 11:16:42] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240520/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-20 11:16:42] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-20 11:16:42] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240520/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-20 11:16:42] INFO root fetch - processPackages [urlgenie]: Remove: archive file [/home/abi/fetcher/tmp/urlgenie-1.0.0.tar.gz]
+[2024-05-20 11:16:42] INFO root fetch - processPackages [urlgenie]: Remove: archive file [/home/abi/fetcher/tmp/urlgenie-1.1.0.tar.gz]
+[2024-05-20 11:16:42] INFO root fetch - main [MainThread]: End processing [urlgenie]: success
+[2024-05-20 11:16:42] INFO root fetch - processPackages [trilium-py]: Remove: archive file [/home/abi/fetcher/tmp/trilium_py-0.9.0-py3-none-any.whl.zip]
+[2024-05-20 11:16:42] INFO root fetch - processPackages [trilium-py]: Remove: archive file [/home/abi/fetcher/tmp/trilium_py-0.9.1-py3-none-any.whl.zip]
+[2024-05-20 11:16:42] INFO root fetch - main [MainThread]: End processing [trilium-py]: success
+[2024-05-20 11:16:43] INFO root fetch - processPackages [GraphRetrieval]: Remove: archive file [/home/abi/fetcher/tmp/graphretrieval-0.1.2.tar.gz]
+[2024-05-20 11:16:43] INFO root fetch - processPackages [GraphRetrieval]: Remove: archive file [/home/abi/fetcher/tmp/graphretrieval-0.1.3.tar.gz]
+[2024-05-20 11:16:43] INFO root fetch - main [MainThread]: End processing [GraphRetrieval]: success
+[2024-05-20 11:16:43] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.5.dev20240518.tar.gz]
+[2024-05-20 11:16:43] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.5.dev20240519.tar.gz]
+[2024-05-20 11:16:43] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-05-20 11:16:43] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.5.dev20240518.tar.gz]
+[2024-05-20 11:16:43] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.5.dev20240519.tar.gz]
+[2024-05-20 11:16:43] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-20 11:16:43] INFO root fetch - processPackages [freepaths]: Remove: archive file [/home/abi/fetcher/tmp/freepaths-1.9.tar.gz]
+[2024-05-20 11:16:43] INFO root fetch - processPackages [freepaths]: Remove: archive file [/home/abi/fetcher/tmp/freepaths-1.9.1.tar.gz]
+[2024-05-20 11:16:43] INFO root fetch - main [MainThread]: End processing [freepaths]: success
+[2024-05-20 11:16:43] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.1.9.tar.gz]
+[2024-05-20 11:16:43] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.2.0.tar.gz]
+[2024-05-20 11:16:43] INFO root fetch - main [MainThread]: End processing [common-tools-ai-bnq]: success
+[2024-05-20 11:16:43] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-20 11:16:43] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-20 11:16:43] INFO root fetch - processPackages [kit4dl]: Remove: archive file [/home/abi/fetcher/tmp/kit4dl-2023.9b1.tar.gz]
+[2024-05-20 11:16:43] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-20 11:16:43] INFO root fetch - processPackages [kit4dl]: Remove: archive file [/home/abi/fetcher/tmp/kit4dl-2023.9b2.tar.gz]
+[2024-05-20 11:16:43] INFO root fetch - main [MainThread]: End processing [kit4dl]: success
+[2024-05-20 11:16:43] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-20 11:16:43] INFO root fetch - main [MainThread]: Store serial: [23287425]

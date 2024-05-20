@@ -12846,3 +12846,58 @@
 [2024-05-20 11:47:20] INFO root fetch - processPackages [bluepy3]: Remove: archive file [/home/abi/fetcher/tmp/bluepy3-2.8.1.tar.gz]
 [2024-05-20 11:47:20] INFO root fetch - main [MainThread]: End processing [bluepy3]: success
 [2024-05-20 11:47:20] INFO root fetch - main [MainThread]: Store serial: [23287692]
+[2024-05-20 11:49:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287692]
+[2024-05-20 11:49:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 11:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testplans
+[2024-05-20 11:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-gemini-api
+[2024-05-20 11:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spacy-thai
+[2024-05-20 11:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: actionbot-gws
+[2024-05-20 11:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudpss-hydrogen
+[2024-05-20 11:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2024-05-20 11:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: insurgencyz
+[2024-05-20 11:49:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wled
+[2024-05-20 11:49:29] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240520.7.59.257934] Old Version: [20240517.19.31.733848]
+[2024-05-20 11:49:29] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/13/90/cc132c31d550875a9ce509989071f146152ff3128ba33147a7d21bf3327f/certora-cli-alpha-master-20240517.19.31.733848.tar.gz
+[2024-05-20 11:49:29] INFO root fetch - processPackages [wled]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-20 11:49:29] INFO root fetch - processPackages [testplans]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-20 11:49:29] INFO root fetch - processPackages [spacy-thai]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-20 11:49:29] WARNING root fetch - processPackages [actionbot-gws]: Skipping, unable to determine old version
+[2024-05-20 11:49:29] INFO root fetch - main [MainThread]: End processing [actionbot-gws] error
+[2024-05-20 11:49:29] INFO root fetch - processPackages [cloudpss-hydrogen]: New version: [4.0.0a9] Old Version: [4.0.0a8]
+[2024-05-20 11:49:29] INFO root fetch - processPackages [python-gemini-api]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-05-20 11:49:29] WARNING root fetch - processPackages [insurgencyz]: Skipping, unable to determine old version
+[2024-05-20 11:49:29] INFO root fetch - main [MainThread]: End processing [insurgencyz] error
+[2024-05-20 11:49:29] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14525824>=10485760
+[2024-05-20 11:49:29] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-20 11:49:29] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/9a/de/3389d80b149db1ae4c29994170b455dd6c32ea87a26ff9991a62f9762737/testplans-0.2.8.tar.gz
+[2024-05-20 11:49:29] INFO root fetch - processPackages [spacy-thai]: Downloading https://files.pythonhosted.org/packages/fa/25/145491811adf6c2ebdf7baf7d5943d068e64d75befe9649db4b072d5ccea/spacy_thai-0.7.4-py3-none-any.whl
+[2024-05-20 11:49:29] INFO root fetch - processPackages [python-gemini-api]: Downloading https://files.pythonhosted.org/packages/df/92/933ff04cb3c679d643c1c60a056f42f9d700aa265c44d69427a5e8379850/python_gemini_api-2.4.8.tar.gz
+[2024-05-20 11:49:29] INFO root fetch - processPackages [wled]: Downloading https://files.pythonhosted.org/packages/ac/81/fba63b0c186d1d73e7468e55e278af61ecc8717694d0a3ead28ffd6eee47/wled-0.8.0.tar.gz
+[2024-05-20 11:49:29] WARNING root fetch - processPackages [spacy-thai]: Skipping package: exceeds size limit 15708592>=10485760
+[2024-05-20 11:49:29] INFO root fetch - main [MainThread]: End processing [spacy-thai] error
+[2024-05-20 11:49:29] INFO root fetch - processPackages [cloudpss-hydrogen]: Downloading https://files.pythonhosted.org/packages/f9/66/05c88e60cbb85081ea11044f4befc5da7224e3d8c9226e9a90d81f0e81df/cloudpss-hydrogen-4.0.0a8.tar.gz
+[2024-05-20 11:49:29] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/f6/cd/f3b75623bc341c15c15958d03d1b67397d070e6149583dd0afce21a893f9/testplans-0.2.9.tar.gz
+[2024-05-20 11:49:29] INFO root fetch - processPackages [cloudpss-hydrogen]: Downloading https://files.pythonhosted.org/packages/33/fc/770a55dccf8ced7726cd4226638e4eaad76425dcd2d8dfad66150187c274/cloudpss-hydrogen-4.0.0a9.tar.gz
+[2024-05-20 11:49:29] INFO root fetch - processPackages [python-gemini-api]: Downloading https://files.pythonhosted.org/packages/47/1e/5e383b7f0029280e106563a369e5df187d611eb67cb57ce5584fbf916840/python_gemini_api-2.4.9.tar.gz
+[2024-05-20 11:49:29] INFO root fetch - processPackages [wled]: Downloading https://files.pythonhosted.org/packages/4a/9e/149119a313f114a309824aaa6d231954524f7d5ce1e63dfb73a0705aeade/wled-0.9.0.tar.gz
+[2024-05-20 11:49:29] INFO root fetch - processPackages [testplans]: executing diffoscope
+[2024-05-20 11:49:29] INFO root fetch - processPackages [testplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testplans-0.2.8.tar.gz tmp/testplans-0.2.9.tar.gz --markdown 20240520/t/testplans/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-20 11:49:29] INFO root fetch - processPackages [cloudpss-hydrogen]: executing diffoscope
+[2024-05-20 11:49:29] INFO root fetch - processPackages [cloudpss-hydrogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-hydrogen-4.0.0a8.tar.gz tmp/cloudpss-hydrogen-4.0.0a9.tar.gz --markdown 20240520/c/cloudpss-hydrogen/4.0.0a8-4.0.0a9/README.md --exclude *.pyd
+[2024-05-20 11:49:29] INFO root fetch - processPackages [wled]: executing diffoscope
+[2024-05-20 11:49:29] INFO root fetch - processPackages [wled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wled-0.8.0.tar.gz tmp/wled-0.9.0.tar.gz --markdown 20240520/w/wled/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-20 11:49:29] INFO root fetch - processPackages [python-gemini-api]: executing diffoscope
+[2024-05-20 11:49:29] INFO root fetch - processPackages [python-gemini-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_gemini_api-2.4.8.tar.gz tmp/python_gemini_api-2.4.9.tar.gz --markdown 20240520/p/python-gemini-api/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-05-20 11:49:30] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.8.tar.gz]
+[2024-05-20 11:49:30] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.9.tar.gz]
+[2024-05-20 11:49:30] INFO root fetch - main [MainThread]: End processing [testplans]: success
+[2024-05-20 11:49:30] INFO root fetch - processPackages [cloudpss-hydrogen]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-hydrogen-4.0.0a8.tar.gz]
+[2024-05-20 11:49:30] INFO root fetch - processPackages [cloudpss-hydrogen]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-hydrogen-4.0.0a9.tar.gz]
+[2024-05-20 11:49:30] INFO root fetch - processPackages [wled]: Remove: archive file [/home/abi/fetcher/tmp/wled-0.8.0.tar.gz]
+[2024-05-20 11:49:30] INFO root fetch - main [MainThread]: End processing [cloudpss-hydrogen]: success
+[2024-05-20 11:49:30] INFO root fetch - processPackages [wled]: Remove: archive file [/home/abi/fetcher/tmp/wled-0.9.0.tar.gz]
+[2024-05-20 11:49:30] INFO root fetch - main [MainThread]: End processing [wled]: success
+[2024-05-20 11:49:30] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python_gemini_api-2.4.8.tar.gz]
+[2024-05-20 11:49:30] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python_gemini_api-2.4.9.tar.gz]
+[2024-05-20 11:49:30] INFO root fetch - main [MainThread]: End processing [python-gemini-api]: success
+[2024-05-20 11:49:30] INFO root fetch - main [MainThread]: Store serial: [23287726]

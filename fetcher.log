@@ -5183,3 +5183,45 @@
 [2024-05-20 04:45:07] INFO root fetch - processPackages [freepaths]: Remove: archive file [/home/abi/fetcher/tmp/freepaths-1.9.1.tar.gz]
 [2024-05-20 04:45:07] INFO root fetch - main [MainThread]: End processing [freepaths]: success
 [2024-05-20 04:45:07] INFO root fetch - main [MainThread]: Store serial: [23283890]
+[2024-05-20 04:47:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283890]
+[2024-05-20 04:47:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 04:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marigold-depth
+[2024-05-20 04:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autora-experiment-runner-recruitment-manager-prolific
+[2024-05-20 04:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scmrepo
+[2024-05-20 04:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cc521-evolution
+[2024-05-20 04:47:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scoutbook_parser
+[2024-05-20 04:47:16] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2024-05-20 04:47:16] INFO root fetch - processPackages [cc521-evolution]: New version: [1.0.6] Old Version: [1.0.4]
+[2024-05-20 04:47:16] INFO root fetch - processPackages [scoutbook_parser]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 04:47:16] WARNING root fetch - processPackages [marigold-depth]: Skipping, unable to determine old version
+[2024-05-20 04:47:16] INFO root fetch - main [MainThread]: End processing [marigold-depth] error
+[2024-05-20 04:47:16] INFO root fetch - processPackages [scmrepo]: New version: [3.3.4] Old Version: [3.3.3]
+[2024-05-20 04:47:16] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Downloading https://files.pythonhosted.org/packages/fb/25/1d59b86b3c4be58f91bf80c18f80ab9595397d91b88a3ad4888d3ae69a10/autora_experiment_runner_recruitment_manager_prolific-1.0.0b8.tar.gz
+[2024-05-20 04:47:16] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/cb/af/8cefee227997b6e3fe30da0ae2c31049cc60b92d76e910b4beca5fc29702/scoutbook_parser-0.9.0.tar.gz
+[2024-05-20 04:47:16] INFO root fetch - processPackages [cc521-evolution]: Downloading https://files.pythonhosted.org/packages/be/2d/0722e9e330c03ddbda30712f9f03c30d9a5c3f411a48cdea10dac2cf1d73/cc521_evolution-1.0.4.tar.gz
+[2024-05-20 04:47:16] INFO root fetch - processPackages [scmrepo]: Downloading https://files.pythonhosted.org/packages/7d/ad/d422fee6fd96b142bf6848cfad6a3c095162df59cbfa06cc122b4131bd17/scmrepo-3.3.3.tar.gz
+[2024-05-20 04:47:16] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Downloading https://files.pythonhosted.org/packages/aa/17/7487bff781dcc7adbd7c5e78c7ebc67776d10768a27b9f4e79abcc9091f7/autora_experiment_runner_recruitment_manager_prolific-1.0.0b9.tar.gz
+[2024-05-20 04:47:16] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/a8/b3/755d2ce577e69aa85bd7c4589be4f7a8f4e54f64a3f1c5e0dd3aef5db4d8/scoutbook_parser-0.9.1.tar.gz
+[2024-05-20 04:47:16] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: executing diffoscope
+[2024-05-20 04:47:16] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b8.tar.gz tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b9.tar.gz --markdown 20240520/a/autora-experiment-runner-recruitment-manager-prolific/1.0.0b8-1.0.0b9/README.md --exclude *.pyd
+[2024-05-20 04:47:16] INFO root fetch - processPackages [cc521-evolution]: Downloading https://files.pythonhosted.org/packages/a9/6c/680459e815224dc512fa0c0edc98050eb9724ebe0ee9a2fbdc39f450658f/cc521_evolution-1.0.6.tar.gz
+[2024-05-20 04:47:16] INFO root fetch - processPackages [scoutbook_parser]: executing diffoscope
+[2024-05-20 04:47:16] INFO root fetch - processPackages [scoutbook_parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoutbook_parser-0.9.0.tar.gz tmp/scoutbook_parser-0.9.1.tar.gz --markdown 20240520/s/scoutbook_parser/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 04:47:16] INFO root fetch - processPackages [cc521-evolution]: executing diffoscope
+[2024-05-20 04:47:16] INFO root fetch - processPackages [cc521-evolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc521_evolution-1.0.4.tar.gz tmp/cc521_evolution-1.0.6.tar.gz --markdown 20240520/c/cc521-evolution/1.0.4-1.0.6/README.md --exclude *.pyd
+[2024-05-20 04:47:16] INFO root fetch - processPackages [scmrepo]: Downloading https://files.pythonhosted.org/packages/91/ab/32bda5ffc51ba4a9a0f27faa200f13594b2f93316bb65f6afc5270a61461/scmrepo-3.3.4.tar.gz
+[2024-05-20 04:47:17] INFO root fetch - processPackages [scmrepo]: executing diffoscope
+[2024-05-20 04:47:17] INFO root fetch - processPackages [scmrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scmrepo-3.3.3.tar.gz tmp/scmrepo-3.3.4.tar.gz --markdown 20240520/s/scmrepo/3.3.3-3.3.4/README.md --exclude *.pyd
+[2024-05-20 04:47:17] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b8.tar.gz]
+[2024-05-20 04:47:17] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b9.tar.gz]
+[2024-05-20 04:47:17] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-recruitment-manager-prolific]: success
+[2024-05-20 04:47:17] INFO root fetch - processPackages [cc521-evolution]: Remove: archive file [/home/abi/fetcher/tmp/cc521_evolution-1.0.4.tar.gz]
+[2024-05-20 04:47:17] INFO root fetch - processPackages [cc521-evolution]: Remove: archive file [/home/abi/fetcher/tmp/cc521_evolution-1.0.6.tar.gz]
+[2024-05-20 04:47:17] INFO root fetch - main [MainThread]: End processing [cc521-evolution]: success
+[2024-05-20 04:47:17] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.0.tar.gz]
+[2024-05-20 04:47:17] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.1.tar.gz]
+[2024-05-20 04:47:17] INFO root fetch - main [MainThread]: End processing [scoutbook_parser]: success
+[2024-05-20 04:47:17] INFO root fetch - processPackages [scmrepo]: Remove: archive file [/home/abi/fetcher/tmp/scmrepo-3.3.3.tar.gz]
+[2024-05-20 04:47:17] INFO root fetch - processPackages [scmrepo]: Remove: archive file [/home/abi/fetcher/tmp/scmrepo-3.3.4.tar.gz]
+[2024-05-20 04:47:17] INFO root fetch - main [MainThread]: End processing [scmrepo]: success
+[2024-05-20 04:47:17] INFO root fetch - main [MainThread]: Store serial: [23283907]

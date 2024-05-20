@@ -24651,3 +24651,90 @@ EOFError: EOF read where object expected
 [2024-05-20 19:10:26] INFO root fetch - processPackages [namer]: Remove: archive file [/home/abi/fetcher/tmp/namer-1.9.8.tar.gz]
 [2024-05-20 19:10:26] INFO root fetch - main [MainThread]: End processing [namer]: success
 [2024-05-20 19:10:26] INFO root fetch - main [MainThread]: Store serial: [23293091]
+[2024-05-20 19:12:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23293091]
+[2024-05-20 19:12:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-20 19:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cambridge
+[2024-05-20 19:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-d1db
+[2024-05-20 19:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bent
+[2024-05-20 19:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: titiler.core
+[2024-05-20 19:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: titiler.mosaic
+[2024-05-20 19:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: titiler.application
+[2024-05-20 19:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: titiler.extensions
+[2024-05-20 19:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: titiler
+[2024-05-20 19:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: litellm
+[2024-05-20 19:12:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aws-xray-sdk
+[2024-05-20 19:12:36] WARNING root fetch - processPackages [django-d1db]: Skipping, unable to determine old version
+[2024-05-20 19:12:36] INFO root fetch - main [MainThread]: End processing [django-d1db] error
+[2024-05-20 19:12:36] INFO root fetch - processPackages [cambridge]: New version: [3.9.6] Old Version: [3.9.5]
+[2024-05-20 19:12:36] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-05-20 19:12:36] INFO root fetch - processPackages [titiler]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-20 19:12:36] INFO root fetch - processPackages [bent]: New version: [0.0.9] Old Version: [0.0.65]
+[2024-05-20 19:12:36] INFO root fetch - processPackages [titiler.application]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-20 19:12:36] INFO root fetch - processPackages [titiler.core]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-20 19:12:36] INFO root fetch - processPackages [aws-xray-sdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-20 19:12:36] INFO root fetch - processPackages [titiler.extensions]: New version: [0.18.3] Old Version: [0.18.2]
+[2024-05-20 19:12:36] INFO root fetch - processPackages [titiler.mosaic]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-20 19:12:36] INFO root fetch - processPackages [cambridge]: Downloading https://files.pythonhosted.org/packages/20/90/bff646eb30249e09a17eada6f0f358b2fb0b0f149e113bdc0e02bcbfb941/cambridge-3.9.5.tar.gz
+[2024-05-20 19:12:36] INFO root fetch - processPackages [titiler.core]: Downloading https://files.pythonhosted.org/packages/97/2f/6bc1ef0e1aca51ba470d94f5fa32850308c07b110759c632bdf5926bf833/titiler.core-0.8.1.tar.gz
+[2024-05-20 19:12:36] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-05-20 19:12:36] INFO root fetch - processPackages [titiler]: Downloading https://files.pythonhosted.org/packages/41/dc/ab9cf7a39b7645d7264863cdbdef3be8ff6b75b35846b2341d6edeb0c0df/titiler-0.8.1.tar.gz
+[2024-05-20 19:12:36] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/3c/57/3a8eea0581029d2d19d261d45660b59cdb7b90513f920e05dc444c385239/bent-0.0.65.tar.gz
+[2024-05-20 19:12:36] INFO root fetch - processPackages [titiler.application]: Downloading https://files.pythonhosted.org/packages/a4/45/99b9cf2384c8cef0aafa53f4dd87b1f801b3a9e224de560955bd5d8cc832/titiler.application-0.8.1.tar.gz
+[2024-05-20 19:12:36] INFO root fetch - processPackages [aws-xray-sdk]: Downloading https://files.pythonhosted.org/packages/f5/3d/8b58be10b0976942c993c9cd312fbee7b79c455a9d74a06601a784ac306e/aws-xray-sdk-2.8.0.tar.gz
+[2024-05-20 19:12:36] INFO root fetch - processPackages [titiler.extensions]: Downloading https://files.pythonhosted.org/packages/83/4c/fe058927cf994a56b49ae6d81b4317d5628e4743cec636ca002c54f6f94b/titiler.extensions-0.18.2.tar.gz
+[2024-05-20 19:12:36] INFO root fetch - processPackages [titiler.mosaic]: Downloading https://files.pythonhosted.org/packages/64/df/78d67b0ef785ad61c4ff27da86f52a14a7051e25b7c2ee4bad40a8555cdf/titiler.mosaic-0.8.1.tar.gz
+[2024-05-20 19:12:36] INFO root fetch - processPackages [cambridge]: Downloading https://files.pythonhosted.org/packages/33/a1/8553fa8acffda89c43b1fbafd7d0ba849cc3a07579b0abddff37e9f9863c/cambridge-3.9.6.tar.gz
+[2024-05-20 19:12:36] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/90/0b/e90bc1c1cde3dc26fe2b1f4a0648bdbf77fa5cd447091e4accd93b6ce8bb/bent-0.0.9.tar.gz
+[2024-05-20 19:12:36] INFO root fetch - processPackages [titiler.application]: Downloading https://files.pythonhosted.org/packages/fd/1c/135d8048e6dea392025148fca0d327db1c54246f093d117a48f0dfc45144/titiler.application-0.9.0.tar.gz
+[2024-05-20 19:12:37] INFO root fetch - processPackages [titiler]: Downloading https://files.pythonhosted.org/packages/2d/a8/789412eeaaecf169bd27c5d17249338b6e372505215d3f4b89588fffd4b2/titiler-0.9.0.tar.gz
+[2024-05-20 19:12:37] INFO root fetch - processPackages [cambridge]: executing diffoscope
+[2024-05-20 19:12:37] INFO root fetch - processPackages [cambridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cambridge-3.9.5.tar.gz tmp/cambridge-3.9.6.tar.gz --markdown 20240520/c/cambridge/3.9.5-3.9.6/README.md --exclude *.pyd
+[2024-05-20 19:12:37] INFO root fetch - processPackages [titiler.application]: executing diffoscope
+[2024-05-20 19:12:37] INFO root fetch - processPackages [titiler.application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.application-0.8.1.tar.gz tmp/titiler.application-0.9.0.tar.gz --markdown 20240520/t/titiler.application/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-20 19:12:37] INFO root fetch - processPackages [bent]: executing diffoscope
+[2024-05-20 19:12:37] INFO root fetch - processPackages [bent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bent-0.0.65.tar.gz tmp/bent-0.0.9.tar.gz --markdown 20240520/b/bent/0.0.65-0.0.9/README.md --exclude *.pyd
+[2024-05-20 19:12:37] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-05-20 19:12:37] INFO root fetch - processPackages [titiler]: executing diffoscope
+[2024-05-20 19:12:37] INFO root fetch - processPackages [titiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler-0.8.1.tar.gz tmp/titiler-0.9.0.tar.gz --markdown 20240520/t/titiler/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-20 19:12:37] INFO root fetch - processPackages [titiler.extensions]: Downloading https://files.pythonhosted.org/packages/17/8a/5247ad59447afddb026bd6c11424a068aba560a4a76de36433e77b98dd8e/titiler.extensions-0.18.3.tar.gz
+[2024-05-20 19:12:37] INFO root fetch - processPackages [aws-xray-sdk]: Downloading https://files.pythonhosted.org/packages/49/26/927206007f1ac57b0801046dc9baed8df9ccbdc7622b79bdaf0c193e8051/aws-xray-sdk-2.9.0.tar.gz
+[2024-05-20 19:12:37] INFO root fetch - processPackages [titiler.mosaic]: Downloading https://files.pythonhosted.org/packages/60/39/308d945c15924ddd98ef46a95ad34562b1215fe14e9fc145f439e29aa195/titiler.mosaic-0.9.0.tar.gz
+[2024-05-20 19:12:37] INFO root fetch - processPackages [titiler.extensions]: executing diffoscope
+[2024-05-20 19:12:37] INFO root fetch - processPackages [titiler.extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.extensions-0.18.2.tar.gz tmp/titiler.extensions-0.18.3.tar.gz --markdown 20240520/t/titiler.extensions/0.18.2-0.18.3/README.md --exclude *.pyd
+[2024-05-20 19:12:37] INFO root fetch - processPackages [titiler.core]: Downloading https://files.pythonhosted.org/packages/37/09/ee6935b6b91c59a9456045daf3dd1a6225aaa257a1173b717e40411d49af/titiler.core-0.9.0.tar.gz
+[2024-05-20 19:12:37] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-05-20 19:12:37] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240520/l/litellm/1.9.5-1.9.dev0/README.md --exclude *.pyd
+[2024-05-20 19:12:37] INFO root fetch - processPackages [aws-xray-sdk]: executing diffoscope
+[2024-05-20 19:12:37] INFO root fetch - processPackages [aws-xray-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-xray-sdk-2.8.0.tar.gz tmp/aws-xray-sdk-2.9.0.tar.gz --markdown 20240520/a/aws-xray-sdk/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-20 19:12:37] INFO root fetch - processPackages [titiler.mosaic]: executing diffoscope
+[2024-05-20 19:12:37] INFO root fetch - processPackages [titiler.mosaic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.mosaic-0.8.1.tar.gz tmp/titiler.mosaic-0.9.0.tar.gz --markdown 20240520/t/titiler.mosaic/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-20 19:12:37] INFO root fetch - processPackages [titiler.core]: executing diffoscope
+[2024-05-20 19:12:37] INFO root fetch - processPackages [titiler.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.core-0.8.1.tar.gz tmp/titiler.core-0.9.0.tar.gz --markdown 20240520/t/titiler.core/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-20 19:12:38] INFO root fetch - processPackages [titiler]: Remove: archive file [/home/abi/fetcher/tmp/titiler-0.8.1.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - processPackages [titiler]: Remove: archive file [/home/abi/fetcher/tmp/titiler-0.9.0.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - main [MainThread]: End processing [titiler]: success
+[2024-05-20 19:12:38] INFO root fetch - processPackages [titiler.application]: Remove: archive file [/home/abi/fetcher/tmp/titiler.application-0.8.1.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - processPackages [titiler.application]: Remove: archive file [/home/abi/fetcher/tmp/titiler.application-0.9.0.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - main [MainThread]: End processing [titiler.application]: success
+[2024-05-20 19:12:38] INFO root fetch - processPackages [titiler.extensions]: Remove: archive file [/home/abi/fetcher/tmp/titiler.extensions-0.18.2.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - processPackages [titiler.extensions]: Remove: archive file [/home/abi/fetcher/tmp/titiler.extensions-0.18.3.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - main [MainThread]: End processing [titiler.extensions]: success
+[2024-05-20 19:12:38] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.65.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.9.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - main [MainThread]: End processing [bent]: success
+[2024-05-20 19:12:38] INFO root fetch - processPackages [titiler.mosaic]: Remove: archive file [/home/abi/fetcher/tmp/titiler.mosaic-0.8.1.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - processPackages [titiler.mosaic]: Remove: archive file [/home/abi/fetcher/tmp/titiler.mosaic-0.9.0.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - main [MainThread]: End processing [titiler.mosaic]: success
+[2024-05-20 19:12:38] INFO root fetch - processPackages [cambridge]: Remove: archive file [/home/abi/fetcher/tmp/cambridge-3.9.5.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - processPackages [cambridge]: Remove: archive file [/home/abi/fetcher/tmp/cambridge-3.9.6.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - main [MainThread]: End processing [cambridge]: success
+[2024-05-20 19:12:38] INFO root fetch - processPackages [titiler.core]: Remove: archive file [/home/abi/fetcher/tmp/titiler.core-0.8.1.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - processPackages [titiler.core]: Remove: archive file [/home/abi/fetcher/tmp/titiler.core-0.9.0.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - main [MainThread]: End processing [titiler.core]: success
+[2024-05-20 19:12:38] INFO root fetch - processPackages [aws-xray-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aws-xray-sdk-2.8.0.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - processPackages [aws-xray-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aws-xray-sdk-2.9.0.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - main [MainThread]: End processing [aws-xray-sdk]: success
+[2024-05-20 19:12:38] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-05-20 19:12:38] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-05-20 19:12:38] INFO root fetch - main [MainThread]: Store serial: [23293121]

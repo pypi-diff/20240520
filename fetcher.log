@@ -17939,3 +17939,117 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:07:36] INFO root fetch - processPackages [large-image-source-openslide]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-openslide-1.9.1.dev8.tar.gz]
 [2024-05-20 15:07:36] INFO root fetch - main [MainThread]: End processing [large-image-source-openslide]: success
 [2024-05-20 15:07:36] INFO root fetch - main [MainThread]: Store serial: [23289985]
+[2024-05-20 15:09:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289985]
+[2024-05-20 15:09:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-20 15:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: large-image-source-pil
+[2024-05-20 15:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: large-image-source-rasterio
+[2024-05-20 15:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tksheet
+[2024-05-20 15:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: large-image-source-test
+[2024-05-20 15:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: large-image-source-tiff
+[2024-05-20 15:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: large-image-source-tifffile
+[2024-05-20 15:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: daemonsz
+[2024-05-20 15:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: large-image-source-vips
+[2024-05-20 15:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: large-image-source-zarr
+[2024-05-20 15:09:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xspace-dl
+[2024-05-20 15:09:45] INFO root fetch - processPackages [tksheet]: New version: [7.1.9] Old Version: [7.1.8]
+[2024-05-20 15:09:45] INFO root fetch - processPackages [xspace-dl]: New version: [0.1.23] Old Version: [0.1.22]
+[2024-05-20 15:09:45] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/d4/d6/d786a82908cf46bbc2d1940352a7c0b5cf8dc83da49f110b12b93e0f0d21/xspace-dl-0.1.22.tar.gz
+[2024-05-20 15:09:45] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/e1/d1/7d3935e2e7fc9a270abf70eb8510edded54952637da5a1271cc5edb3a601/tksheet-7.1.8.tar.gz
+[2024-05-20 15:09:45] WARNING root fetch - processPackages [daemonsz]: Skipping, unable to determine old version
+[2024-05-20 15:09:45] INFO root fetch - processPackages [daemonsz]: Start processing: ediri-fly
+[2024-05-20 15:09:45] INFO root fetch - main [MainThread]: End processing [daemonsz] error
+[2024-05-20 15:09:45] INFO root fetch - processPackages [large-image-source-zarr]: New version: [1.28.3.dev6] Old Version: [1.28.3.dev4]
+[2024-05-20 15:09:45] INFO root fetch - processPackages [large-image-source-tifffile]: New version: [1.28.3.dev6] Old Version: [1.28.3.dev4]
+[2024-05-20 15:09:45] INFO root fetch - processPackages [large-image-source-rasterio]: New version: [1.28.3.dev6] Old Version: [1.28.3.dev4]
+[2024-05-20 15:09:45] INFO root fetch - processPackages [large-image-source-vips]: New version: [1.28.3.dev6] Old Version: [1.28.3.dev4]
+[2024-05-20 15:09:45] INFO root fetch - processPackages [large-image-source-test]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:09:45] INFO root fetch - processPackages [large-image-source-tiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:09:45] INFO root fetch - processPackages [large-image-source-pil]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:09:45] INFO root fetch - processPackages [ediri-fly]: New version: [0.1.13] Old Version: [0.1.11]
+[2024-05-20 15:09:45] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/04/91/def7c15423426c151e8c3d2c2c3cc289c59d0c9991337033c210578bc83a/large-image-source-tifffile-1.28.3.dev4.tar.gz
+[2024-05-20 15:09:45] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/05/ce/81034c7419935fd746b6918780ea4bfde46e86869946fa41906267d6f2d9/large-image-source-zarr-1.28.3.dev4.tar.gz
+[2024-05-20 15:09:45] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/f4/a6/f9c8f89a179e91b61ba3303e6ee4f77b95609f549aca467017c71b943401/tksheet-7.1.9.tar.gz
+[2024-05-20 15:09:45] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/67/1f/79a041c8d8e8d83873bf10d1da967227dad702fd3eb031b697e7dcac7644/large-image-source-vips-1.28.3.dev4.tar.gz
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/c8/6c/639ce1332a92ec143e7c9da2387f456c02c39a55ba0669e8cedf16dcba13/large-image-source-rasterio-1.28.3.dev4.tar.gz
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/de/d8/11a04e7da12bfb1cea85e4c0ff3b470f2d1e1b4f18bdbc908482765c9bef/large-image-source-tiff-1.9.1.dev6.tar.gz
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-pil]: Downloading https://files.pythonhosted.org/packages/62/43/ee7dff22ed2010638ae04420c847d0eeeffd3ec95c15aef5dd78c0f9de79/large-image-source-pil-1.9.1.dev6.tar.gz
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/8d/5f/0655a339ab1bb6dda15d0c4e174a5c2f0eae690a497018f912f490f67c26/large-image-source-test-1.9.1.dev6.tar.gz
+[2024-05-20 15:09:46] INFO root fetch - processPackages [ediri-fly]: Downloading https://files.pythonhosted.org/packages/93/04/9bb176023aa0bee5cdd896a5627ccddeff8be4a6ac04e7e2214b64408648/ediri_fly-0.1.11.tar.gz
+[2024-05-20 15:09:46] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/b0/c3/cf33f3c0617899dc353d65b4985219b26d00cf02d63a48d368c7b0048a26/xspace-dl-0.1.23.tar.gz
+[2024-05-20 15:09:46] INFO root fetch - processPackages [tksheet]: executing diffoscope
+[2024-05-20 15:09:46] INFO root fetch - processPackages [tksheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tksheet-7.1.8.tar.gz tmp/tksheet-7.1.9.tar.gz --markdown 20240520/t/tksheet/7.1.8-7.1.9/README.md --exclude *.pyd
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/63/6f/279e4e2d015025c0244d51b0196f09b6165b22d33586bfb159c3bfaa26df/large-image-source-zarr-1.28.3.dev6.tar.gz
+[2024-05-20 15:09:46] INFO root fetch - processPackages [xspace-dl]: executing diffoscope
+[2024-05-20 15:09:46] INFO root fetch - processPackages [xspace-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspace-dl-0.1.22.tar.gz tmp/xspace-dl-0.1.23.tar.gz --markdown 20240520/x/xspace-dl/0.1.22-0.1.23/README.md --exclude *.pyd
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/a9/45/fc13789b55ddc7856736b65e5b4dabf6accf892c63004288c33ab32aba8c/large-image-source-vips-1.28.3.dev6.tar.gz
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/72/b7/014ae63963299a5acef94e7ae73f1b5af8f2d642ee05a4ec2ffbe3a1ab70/large-image-source-tifffile-1.28.3.dev6.tar.gz
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/59/fd/85010827dcfb31a43360ecb5fc659be3439f2f1fe9ccdb0febc47aacbb5d/large-image-source-rasterio-1.28.3.dev6.tar.gz
+[2024-05-20 15:09:46] INFO root fetch - processPackages [ediri-fly]: Downloading https://files.pythonhosted.org/packages/ed/5b/1db42bb5eb0876092c8a89c46744efb26b9ac3a78db7f0bd9c411e8baaf4/ediri_fly-0.1.13.tar.gz
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-pil]: Downloading https://files.pythonhosted.org/packages/51/73/2b201201e4bd4d42037d602dc35d468eba8131dce691debda3e43e3817f7/large-image-source-pil-1.9.1.dev8.tar.gz
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/6c/52/b863313751b2cf1efc96557c639944027ef1db00dedd386ad79707764cfe/large-image-source-test-1.9.1.dev8.tar.gz
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/1d/e4/def78005a865fada3d6d1f1d1b45d1dc76a9ba074c2b7284b81717b67cea/large-image-source-tiff-1.9.1.dev8.tar.gz
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-zarr]: executing diffoscope
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-zarr-1.28.3.dev4.tar.gz tmp/large-image-source-zarr-1.28.3.dev6.tar.gz --markdown 20240520/l/large-image-source-zarr/1.28.3.dev4-1.28.3.dev6/README.md --exclude *.pyd
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-tifffile]: executing diffoscope
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tifffile-1.28.3.dev4.tar.gz tmp/large-image-source-tifffile-1.28.3.dev6.tar.gz --markdown 20240520/l/large-image-source-tifffile/1.28.3.dev4-1.28.3.dev6/README.md --exclude *.pyd
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-rasterio]: executing diffoscope
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-rasterio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-rasterio-1.28.3.dev4.tar.gz tmp/large-image-source-rasterio-1.28.3.dev6.tar.gz --markdown 20240520/l/large-image-source-rasterio/1.28.3.dev4-1.28.3.dev6/README.md --exclude *.pyd
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-vips]: executing diffoscope
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-vips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-vips-1.28.3.dev4.tar.gz tmp/large-image-source-vips-1.28.3.dev6.tar.gz --markdown 20240520/l/large-image-source-vips/1.28.3.dev4-1.28.3.dev6/README.md --exclude *.pyd
+[2024-05-20 15:09:46] INFO root fetch - processPackages [ediri-fly]: executing diffoscope
+[2024-05-20 15:09:46] INFO root fetch - processPackages [ediri-fly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ediri_fly-0.1.11.tar.gz tmp/ediri_fly-0.1.13.tar.gz --markdown 20240520/e/ediri-fly/0.1.11-0.1.13/README.md --exclude *.pyd
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-test]: executing diffoscope
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-test-1.9.1.dev6.tar.gz tmp/large-image-source-test-1.9.1.dev8.tar.gz --markdown 20240520/l/large-image-source-test/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-pil]: executing diffoscope
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-pil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-pil-1.9.1.dev6.tar.gz tmp/large-image-source-pil-1.9.1.dev8.tar.gz --markdown 20240520/l/large-image-source-pil/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-tiff]: executing diffoscope
+[2024-05-20 15:09:46] INFO root fetch - processPackages [large-image-source-tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tiff-1.9.1.dev6.tar.gz tmp/large-image-source-tiff-1.9.1.dev8.tar.gz --markdown 20240520/l/large-image-source-tiff/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:09:47] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.1.22.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.1.23.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - processPackages [xspace-dl]: Start processing: blues-lib
+[2024-05-20 15:09:47] INFO root fetch - main [MainThread]: End processing [xspace-dl]: success
+[2024-05-20 15:09:47] INFO root fetch - processPackages [blues-lib]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-20 15:09:47] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/50/16/975c7a30228267251fedbc0fe991e6f96f5313f614ea886ebd9848d1bfc3/blues_lib-1.1.8.tar.gz
+[2024-05-20 15:09:47] INFO root fetch - processPackages [tksheet]: Remove: archive file [/home/abi/fetcher/tmp/tksheet-7.1.8.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - processPackages [tksheet]: Remove: archive file [/home/abi/fetcher/tmp/tksheet-7.1.9.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - processPackages [tksheet]: Start processing: lusid-workflow-sdk-preview
+[2024-05-20 15:09:47] INFO root fetch - main [MainThread]: End processing [tksheet]: success
+[2024-05-20 15:09:47] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.996] Old Version: [0.1.995]
+[2024-05-20 15:09:47] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/64/4c/b37bdd30e913905227cf3085ef64b3b8382dd95843df82a7577ff36813a8/blues_lib-1.1.9.tar.gz
+[2024-05-20 15:09:47] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.28.3.dev4.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.28.3.dev6.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - main [MainThread]: End processing [large-image-source-zarr]: success
+[2024-05-20 15:09:47] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/56/ac/c34b1b8edd4a745ceacc5a310a38b3dcca685fe17507cacc1cd57db81fdd/lusid-workflow-sdk-preview-0.1.995.tar.gz
+[2024-05-20 15:09:47] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev6.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev8.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - main [MainThread]: End processing [large-image-source-test]: success
+[2024-05-20 15:09:47] INFO root fetch - processPackages [blues-lib]: executing diffoscope
+[2024-05-20 15:09:47] INFO root fetch - processPackages [blues-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blues_lib-1.1.8.tar.gz tmp/blues_lib-1.1.9.tar.gz --markdown 20240520/b/blues-lib/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-20 15:09:47] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.28.3.dev4.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.28.3.dev6.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - main [MainThread]: End processing [large-image-source-rasterio]: success
+[2024-05-20 15:09:47] INFO root fetch - processPackages [ediri-fly]: Remove: archive file [/home/abi/fetcher/tmp/ediri_fly-0.1.11.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - processPackages [ediri-fly]: Remove: archive file [/home/abi/fetcher/tmp/ediri_fly-0.1.13.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - main [MainThread]: End processing [ediri-fly]: success
+[2024-05-20 15:09:47] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.28.3.dev4.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.28.3.dev6.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
+[2024-05-20 15:09:47] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.28.3.dev4.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.28.3.dev6.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - main [MainThread]: End processing [large-image-source-tifffile]: success
+[2024-05-20 15:09:47] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ad/65/93d0e7790f005c1bba7ae75a47e2b35b3d8a514713f549fccca0619a2df9/lusid-workflow-sdk-preview-0.1.996.tar.gz
+[2024-05-20 15:09:47] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev6.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev8.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - main [MainThread]: End processing [large-image-source-tiff]: success
+[2024-05-20 15:09:47] INFO root fetch - processPackages [large-image-source-pil]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-pil-1.9.1.dev6.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - processPackages [large-image-source-pil]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-pil-1.9.1.dev8.tar.gz]
+[2024-05-20 15:09:47] INFO root fetch - main [MainThread]: End processing [large-image-source-pil]: success
+[2024-05-20 15:09:47] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-05-20 15:09:47] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz --markdown 20240520/l/lusid-workflow-sdk-preview/0.1.995-0.1.996/README.md --exclude *.pyd
+[2024-05-20 15:09:48] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.1.8.tar.gz]
+[2024-05-20 15:09:48] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.1.9.tar.gz]
+[2024-05-20 15:09:48] INFO root fetch - main [MainThread]: End processing [blues-lib]: success
+[2024-05-20 15:09:49] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz]
+[2024-05-20 15:09:49] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
+[2024-05-20 15:09:49] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-05-20 15:09:49] INFO root fetch - main [MainThread]: Store serial: [23290025]

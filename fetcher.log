@@ -11586,3 +11586,45 @@
 [2024-05-20 11:01:03] INFO root fetch - processPackages [twinlib]: Remove: archive file [/home/abi/fetcher/tmp/twinlib-0.2.0.tar.gz]
 [2024-05-20 11:01:03] INFO root fetch - main [MainThread]: End processing [twinlib]: success
 [2024-05-20 11:01:03] INFO root fetch - main [MainThread]: Store serial: [23287194]
+[2024-05-20 11:03:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287194]
+[2024-05-20 11:03:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 11:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ysfutils
+[2024-05-20 11:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cogflow
+[2024-05-20 11:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sais-notify-test
+[2024-05-20 11:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-ecies
+[2024-05-20 11:03:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: solar-registry
+[2024-05-20 11:03:12] INFO root fetch - processPackages [sais-notify-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 11:03:12] INFO root fetch - processPackages [solar-registry]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-20 11:03:12] INFO root fetch - processPackages [cogflow]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-20 11:03:12] WARNING root fetch - processPackages [python-ecies]: Skipping, unable to determine old version
+[2024-05-20 11:03:12] INFO root fetch - main [MainThread]: End processing [python-ecies] error
+[2024-05-20 11:03:12] INFO root fetch - processPackages [ysfutils]: New version: [1.0.16] Old Version: [1.0.15]
+[2024-05-20 11:03:12] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/0e/f2/d054c6d47257d36b6862b3c6612ca69f03a2aa4b63af145d0ea8a522075a/solar_registry-0.2.8.tar.gz
+[2024-05-20 11:03:12] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/94/42/07c0e25844ffdc6494e7447658dc084d6435c7343816264387d435ddb98d/sais_notify_test-0.0.8.tar.gz
+[2024-05-20 11:03:12] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/3a/44/2dd887dfefc5e198a68539c2565726dced636a615597d201136d1a92a466/cogflow-1.9.8.tar.gz
+[2024-05-20 11:03:12] INFO root fetch - processPackages [ysfutils]: Downloading https://files.pythonhosted.org/packages/09/b3/7aadfa53a5f0e5e5d6cdbb4b2f992d92de1e20ff8cebdc169eb70fb50fab/ysfutils-1.0.15.tar.gz
+[2024-05-20 11:03:12] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/af/7a/ac17f0daa7ab738fe2f5e638d62f2cb8c0c1f86f8cadd5913ea740c174aa/sais_notify_test-0.0.9.tar.gz
+[2024-05-20 11:03:12] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/cd/40/34eee216b08c5fa01cbb36635892aad7693c83fa5e87387b29ae05c737f0/solar_registry-0.2.9.tar.gz
+[2024-05-20 11:03:12] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/0e/16/8f5f931a1aa5b5143fe0b0ad8fd8950276383f3e063a3d599473897f4af3/cogflow-1.9.9.tar.gz
+[2024-05-20 11:03:12] INFO root fetch - processPackages [sais-notify-test]: executing diffoscope
+[2024-05-20 11:03:12] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-20 11:03:12] INFO root fetch - processPackages [sais-notify-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify_test-0.0.8.tar.gz tmp/sais_notify_test-0.0.9.tar.gz --markdown 20240520/s/sais-notify-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 11:03:12] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.8.tar.gz tmp/solar_registry-0.2.9.tar.gz --markdown 20240520/s/solar-registry/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-20 11:03:12] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-20 11:03:12] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.8.tar.gz tmp/cogflow-1.9.9.tar.gz --markdown 20240520/c/cogflow/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-20 11:03:13] INFO root fetch - processPackages [ysfutils]: Downloading https://files.pythonhosted.org/packages/56/19/6d03a7b8bd5f96e58c13b67a091bdb12d1e3f83c1a81c7a8d18a10be4532/ysfutils-1.0.16.tar.gz
+[2024-05-20 11:03:13] INFO root fetch - processPackages [ysfutils]: executing diffoscope
+[2024-05-20 11:03:13] INFO root fetch - processPackages [ysfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ysfutils-1.0.15.tar.gz tmp/ysfutils-1.0.16.tar.gz --markdown 20240520/y/ysfutils/1.0.15-1.0.16/README.md --exclude *.pyd
+[2024-05-20 11:03:13] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.8.tar.gz]
+[2024-05-20 11:03:13] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.9.tar.gz]
+[2024-05-20 11:03:13] INFO root fetch - main [MainThread]: End processing [sais-notify-test]: success
+[2024-05-20 11:03:13] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.8.tar.gz]
+[2024-05-20 11:03:13] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.9.tar.gz]
+[2024-05-20 11:03:13] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-20 11:03:13] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.8.tar.gz]
+[2024-05-20 11:03:13] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.9.tar.gz]
+[2024-05-20 11:03:13] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-20 11:03:13] INFO root fetch - processPackages [ysfutils]: Remove: archive file [/home/abi/fetcher/tmp/ysfutils-1.0.15.tar.gz]
+[2024-05-20 11:03:13] INFO root fetch - processPackages [ysfutils]: Remove: archive file [/home/abi/fetcher/tmp/ysfutils-1.0.16.tar.gz]
+[2024-05-20 11:03:13] INFO root fetch - main [MainThread]: End processing [ysfutils]: success
+[2024-05-20 11:03:13] INFO root fetch - main [MainThread]: Store serial: [23287213]

@@ -14785,3 +14785,36 @@
 [2024-05-20 13:08:14] INFO root fetch - processPackages [starlette-async-jinja]: Remove: archive file [/home/abi/fetcher/tmp/starlette_async_jinja-1.7.6.tar.gz]
 [2024-05-20 13:08:14] INFO root fetch - main [MainThread]: End processing [starlette-async-jinja]: success
 [2024-05-20 13:08:14] INFO root fetch - main [MainThread]: Store serial: [23288540]
+[2024-05-20 13:10:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288540]
+[2024-05-20 13:10:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 13:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mteb
+[2024-05-20 13:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-workflow-sdk-preview
+[2024-05-20 13:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-workflow-sdk
+[2024-05-20 13:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yamlvault
+[2024-05-20 13:10:23] WARNING root fetch - processPackages [yamlvault]: Skipping, unable to determine old version
+[2024-05-20 13:10:23] INFO root fetch - main [MainThread]: End processing [yamlvault] error
+[2024-05-20 13:10:23] INFO root fetch - processPackages [mteb]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-20 13:10:23] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-20 13:10:23] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.996] Old Version: [0.1.995]
+[2024-05-20 13:10:23] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/aa/99/be58df74a89833b5d44fbd8f00e5c99b4ca82aa67a9c1487fd782328d3b5/mteb-1.9.2.tar.gz
+[2024-05-20 13:10:23] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/d5/b7/0c32c08fe0b3327878c0d7b7006b46298b3dca469a326a75a439bfd0f0f1/lusid_workflow_sdk-2.1.8.tar.gz
+[2024-05-20 13:10:23] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/56/ac/c34b1b8edd4a745ceacc5a310a38b3dcca685fe17507cacc1cd57db81fdd/lusid-workflow-sdk-preview-0.1.995.tar.gz
+[2024-05-20 13:10:23] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/1a/05/483a4778dcfb42b672c3c28ac435e64d386b1df507d3c0059e5da9194653/mteb-1.9.3.tar.gz
+[2024-05-20 13:10:24] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-20 13:10:24] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.2.tar.gz tmp/mteb-1.9.3.tar.gz --markdown 20240520/m/mteb/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-20 13:10:24] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/23/c0/5f5908f038983f29f46a445ed5ff331d6086d5c6cb128e4502bf223fd90b/lusid_workflow_sdk-2.1.9.tar.gz
+[2024-05-20 13:10:24] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ad/65/93d0e7790f005c1bba7ae75a47e2b35b3d8a514713f549fccca0619a2df9/lusid-workflow-sdk-preview-0.1.996.tar.gz
+[2024-05-20 13:10:24] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-05-20 13:10:24] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.1.8.tar.gz tmp/lusid_workflow_sdk-2.1.9.tar.gz --markdown 20240520/l/lusid-workflow-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-20 13:10:24] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-05-20 13:10:24] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz --markdown 20240520/l/lusid-workflow-sdk-preview/0.1.995-0.1.996/README.md --exclude *.pyd
+[2024-05-20 13:10:25] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.8.tar.gz]
+[2024-05-20 13:10:25] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.9.tar.gz]
+[2024-05-20 13:10:25] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-05-20 13:10:25] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz]
+[2024-05-20 13:10:25] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
+[2024-05-20 13:10:25] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-05-20 13:10:26] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.2.tar.gz]
+[2024-05-20 13:10:26] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
+[2024-05-20 13:10:26] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-20 13:10:26] INFO root fetch - main [MainThread]: Store serial: [23288553]

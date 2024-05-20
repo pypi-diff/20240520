@@ -2185,3 +2185,27 @@
 [2024-05-20 02:10:39] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.5.6.tar.gz]
 [2024-05-20 02:10:39] INFO root fetch - main [MainThread]: End processing [tinyticker]: success
 [2024-05-20 02:10:39] INFO root fetch - main [MainThread]: Store serial: [23282506]
+[2024-05-20 02:12:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282506]
+[2024-05-20 02:12:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 02:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-quantizers-nightly
+[2024-05-20 02:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gangliosidez
+[2024-05-20 02:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-events-notify
+[2024-05-20 02:12:47] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240519.post1204] Old Version: [1.5.0.20240518.post1053]
+[2024-05-20 02:12:47] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-20 02:12:48] WARNING root fetch - processPackages [gangliosidez]: Skipping, unable to determine old version
+[2024-05-20 02:12:48] INFO root fetch - main [MainThread]: End processing [gangliosidez] error
+[2024-05-20 02:12:48] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/db/0d/d60cc44d57d59502387299eab259c18690c2fc3b19b5cfeb9609dcd73bae/mct-quantizers-nightly-1.5.0.20240518.post1053.tar.gz
+[2024-05-20 02:12:48] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-20 02:12:48] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-20 02:12:48] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/65/75/19de68a80d17934747d6976f4bb239308bd19f173b181323c56883d94439/mct-quantizers-nightly-1.5.0.20240519.post1204.tar.gz
+[2024-05-20 02:12:48] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-20 02:12:48] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240520/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-20 02:12:48] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-20 02:12:48] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240518.post1053.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240519.post1204.tar.gz --markdown 20240520/m/mct-quantizers-nightly/1.5.0.20240518.post1053-1.5.0.20240519.post1204/README.md --exclude *.pyd
+[2024-05-20 02:12:48] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-20 02:12:48] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-20 02:12:48] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-20 02:12:49] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240518.post1053.tar.gz]
+[2024-05-20 02:12:49] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240519.post1204.tar.gz]
+[2024-05-20 02:12:49] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-20 02:12:49] INFO root fetch - main [MainThread]: Store serial: [23282516]

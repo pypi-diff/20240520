@@ -7458,3 +7458,36 @@
 [2024-05-20 07:21:43] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.5.tar.gz]
 [2024-05-20 07:21:43] INFO root fetch - main [MainThread]: End processing [dash-pydantic-form]: success
 [2024-05-20 07:21:43] INFO root fetch - main [MainThread]: Store serial: [23284971]
+[2024-05-20 07:23:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284971]
+[2024-05-20 07:23:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 07:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelmerge
+[2024-05-20 07:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyluba
+[2024-05-20 07:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: truthfullyz
+[2024-05-20 07:23:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: azure-mgmt-security
+[2024-05-20 07:23:51] INFO root fetch - processPackages [modelmerge]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-20 07:23:52] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/e9/4c/5b40640c1695e78479224a79e4fcd420d859de682fabe1341a15079132be/modelmerge-0.5.1.tar.gz
+[2024-05-20 07:23:52] WARNING root fetch - processPackages [truthfullyz]: Skipping, unable to determine old version
+[2024-05-20 07:23:52] INFO root fetch - processPackages [azure-mgmt-security]: New version: [7.0.0] Old Version: [6.0.0]
+[2024-05-20 07:23:52] INFO root fetch - main [MainThread]: End processing [truthfullyz] error
+[2024-05-20 07:23:52] INFO root fetch - processPackages [pyluba]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 07:23:52] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/52/99/e29e1d5ada99bf72806e253adb260c8ac9718c47fdfc9c9a26d99fcc0d52/pyluba-0.0.8.tar.gz
+[2024-05-20 07:23:52] INFO root fetch - processPackages [azure-mgmt-security]: Downloading https://files.pythonhosted.org/packages/25/b2/bbe822bca8dc617ac5fab0eb40e5786a2ed933b484a3238af5b7a19e6deb/azure-mgmt-security-6.0.0.tar.gz
+[2024-05-20 07:23:52] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/e1/94/53736db5ca24b47c1be548808ecb52909a505b6681d8329d76a9ae129e2c/modelmerge-0.5.2.tar.gz
+[2024-05-20 07:23:52] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-20 07:23:52] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.5.1.tar.gz tmp/modelmerge-0.5.2.tar.gz --markdown 20240520/m/modelmerge/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-20 07:23:52] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/84/ab/a79a516adda0073565ebbe893c1269969eb2e11db4ea3957e1d76e1ebf9e/pyluba-0.0.9.tar.gz
+[2024-05-20 07:23:52] INFO root fetch - processPackages [pyluba]: executing diffoscope
+[2024-05-20 07:23:52] INFO root fetch - processPackages [pyluba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyluba-0.0.8.tar.gz tmp/pyluba-0.0.9.tar.gz --markdown 20240520/p/pyluba/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 07:23:52] INFO root fetch - processPackages [azure-mgmt-security]: Downloading https://files.pythonhosted.org/packages/3d/90/13186657355452bdce44f27db6b194b99f78f8c185301b47624fff6d9531/azure-mgmt-security-7.0.0.tar.gz
+[2024-05-20 07:23:52] INFO root fetch - processPackages [azure-mgmt-security]: executing diffoscope
+[2024-05-20 07:23:52] INFO root fetch - processPackages [azure-mgmt-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-security-6.0.0.tar.gz tmp/azure-mgmt-security-7.0.0.tar.gz --markdown 20240520/a/azure-mgmt-security/6.0.0-7.0.0/README.md --exclude *.pyd
+[2024-05-20 07:23:53] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.5.1.tar.gz]
+[2024-05-20 07:23:53] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.5.2.tar.gz]
+[2024-05-20 07:23:53] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-20 07:23:53] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.8.tar.gz]
+[2024-05-20 07:23:53] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.9.tar.gz]
+[2024-05-20 07:23:53] INFO root fetch - main [MainThread]: End processing [pyluba]: success
+[2024-05-20 07:23:58] INFO root fetch - processPackages [azure-mgmt-security]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-security-6.0.0.tar.gz]
+[2024-05-20 07:23:58] INFO root fetch - processPackages [azure-mgmt-security]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-security-7.0.0.tar.gz]
+[2024-05-20 07:23:58] INFO root fetch - main [MainThread]: End processing [azure-mgmt-security]: success
+[2024-05-20 07:23:58] INFO root fetch - main [MainThread]: Store serial: [23284984]

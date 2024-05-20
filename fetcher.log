@@ -23958,3 +23958,66 @@ EOFError: EOF read where object expected
 [2024-05-20 18:43:08] INFO root fetch - processPackages [airbyte-source-github]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_github-1.7.3.tar.gz]
 [2024-05-20 18:43:08] INFO root fetch - main [MainThread]: End processing [airbyte-source-github]: success
 [2024-05-20 18:43:08] INFO root fetch - main [MainThread]: Store serial: [23292626]
+[2024-05-20 18:45:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292626]
+[2024-05-20 18:45:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 18:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: goslide-api
+[2024-05-20 18:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: buildz
+[2024-05-20 18:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airfuse
+[2024-05-20 18:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansibleguy-webui
+[2024-05-20 18:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: create-redirect
+[2024-05-20 18:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: malevich-coretools
+[2024-05-20 18:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2024-05-20 18:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: acarpellousz
+[2024-05-20 18:45:17] INFO root fetch - processPackages [malevich-coretools]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-20 18:45:17] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-20 18:45:17] INFO root fetch - processPackages [buildz]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-20 18:45:17] WARNING root fetch - processPackages [acarpellousz]: Skipping, unable to determine old version
+[2024-05-20 18:45:17] INFO root fetch - main [MainThread]: End processing [acarpellousz] error
+[2024-05-20 18:45:17] INFO root fetch - processPackages [goslide-api]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-05-20 18:45:17] WARNING root fetch - processPackages [airfuse]: Skipping, unable to determine old version
+[2024-05-20 18:45:17] INFO root fetch - main [MainThread]: End processing [airfuse] error
+[2024-05-20 18:45:17] INFO root fetch - processPackages [create-redirect]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-20 18:45:17] INFO root fetch - processPackages [malevich-coretools]: Downloading https://files.pythonhosted.org/packages/19/2b/be0cf01b7951184161da03cc56b1973a03c69f9df961482e7f4d54c3e67f/malevich-coretools-0.3.8.tar.gz
+[2024-05-20 18:45:17] INFO root fetch - processPackages [ansibleguy-webui]: New version: [0.0.21.post2] Old Version: [0.0.20]
+[2024-05-20 18:45:17] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-20 18:45:17] INFO root fetch - processPackages [buildz]: Downloading https://files.pythonhosted.org/packages/64/45/61e07d13bb4fd08dfd58e97715a7833f0b522df4bfd9517c5e013ba5c63a/buildz-0.5.6.tar.gz
+[2024-05-20 18:45:17] INFO root fetch - processPackages [ansibleguy-webui]: Downloading https://files.pythonhosted.org/packages/0b/7b/cd85a533271a30df123000bbbf16906e87f4e777cce392396a69d1f3fbcd/ansibleguy_webui-0.0.20.tar.gz
+[2024-05-20 18:45:17] INFO root fetch - processPackages [create-redirect]: Downloading https://files.pythonhosted.org/packages/0d/2b/13a20dc702765037d7236ef3302d4559c6bd089db736bc5d7c13f0e5cfa2/create_redirect-0.2.0.tar.gz
+[2024-05-20 18:45:17] INFO root fetch - processPackages [goslide-api]: Downloading https://files.pythonhosted.org/packages/5d/5f/a34bd3c84d0c031aa1388bea234578ef2d60ae7d1ca64eab9d0ea0ec4ee8/goslide-api-0.6.7.tar.gz
+[2024-05-20 18:45:17] INFO root fetch - processPackages [malevich-coretools]: Downloading https://files.pythonhosted.org/packages/bc/dc/3e56dcdbfb2b5a97eefc8722426aff37a862de6e6a2beaa02472053ebe7d/malevich-coretools-0.3.9.tar.gz
+[2024-05-20 18:45:17] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-20 18:45:18] INFO root fetch - processPackages [malevich-coretools]: executing diffoscope
+[2024-05-20 18:45:18] INFO root fetch - processPackages [malevich-coretools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malevich-coretools-0.3.8.tar.gz tmp/malevich-coretools-0.3.9.tar.gz --markdown 20240520/m/malevich-coretools/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-20 18:45:18] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-20 18:45:18] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240520/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-20 18:45:18] INFO root fetch - processPackages [buildz]: Downloading https://files.pythonhosted.org/packages/bf/4d/889a40768b34484642c9513e07eea2221fd0fc9a7c7d2a2b70c9a53f1efe/buildz-0.5.7.tar.gz
+[2024-05-20 18:45:18] INFO root fetch - processPackages [goslide-api]: Downloading https://files.pythonhosted.org/packages/f2/96/641e32544a7fe6fc5fa046696094d00cc2d30e20ef81dc23d9d3e1641bf4/goslide-api-0.6.8.tar.gz
+[2024-05-20 18:45:18] INFO root fetch - processPackages [create-redirect]: Downloading https://files.pythonhosted.org/packages/ab/5b/cf5458a136b8d1bfb3d232c412394ad98f05bdafff4853bb11b124bc35ae/create_redirect-0.2.1.tar.gz
+[2024-05-20 18:45:18] INFO root fetch - processPackages [ansibleguy-webui]: Downloading https://files.pythonhosted.org/packages/68/89/7c24c49185902968162c9568b088d7bb8746f1dd5fc2939b844b4c8e49f7/ansibleguy_webui-0.0.21.post2.tar.gz
+[2024-05-20 18:45:18] INFO root fetch - processPackages [goslide-api]: executing diffoscope
+[2024-05-20 18:45:18] INFO root fetch - processPackages [goslide-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goslide-api-0.6.7.tar.gz tmp/goslide-api-0.6.8.tar.gz --markdown 20240520/g/goslide-api/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-05-20 18:45:18] INFO root fetch - processPackages [create-redirect]: executing diffoscope
+[2024-05-20 18:45:18] INFO root fetch - processPackages [create-redirect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_redirect-0.2.0.tar.gz tmp/create_redirect-0.2.1.tar.gz --markdown 20240520/c/create-redirect/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-20 18:45:18] INFO root fetch - processPackages [buildz]: executing diffoscope
+[2024-05-20 18:45:18] INFO root fetch - processPackages [buildz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildz-0.5.6.tar.gz tmp/buildz-0.5.7.tar.gz --markdown 20240520/b/buildz/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-20 18:45:18] INFO root fetch - processPackages [ansibleguy-webui]: executing diffoscope
+[2024-05-20 18:45:18] INFO root fetch - processPackages [ansibleguy-webui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansibleguy_webui-0.0.20.tar.gz tmp/ansibleguy_webui-0.0.21.post2.tar.gz --markdown 20240520/a/ansibleguy-webui/0.0.20-0.0.21.post2/README.md --exclude *.pyd
+[2024-05-20 18:45:18] INFO root fetch - processPackages [malevich-coretools]: Remove: archive file [/home/abi/fetcher/tmp/malevich-coretools-0.3.8.tar.gz]
+[2024-05-20 18:45:18] INFO root fetch - processPackages [malevich-coretools]: Remove: archive file [/home/abi/fetcher/tmp/malevich-coretools-0.3.9.tar.gz]
+[2024-05-20 18:45:18] INFO root fetch - main [MainThread]: End processing [malevich-coretools]: success
+[2024-05-20 18:45:18] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-20 18:45:18] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-20 18:45:18] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-20 18:45:18] INFO root fetch - processPackages [create-redirect]: Remove: archive file [/home/abi/fetcher/tmp/create_redirect-0.2.0.tar.gz]
+[2024-05-20 18:45:18] INFO root fetch - processPackages [create-redirect]: Remove: archive file [/home/abi/fetcher/tmp/create_redirect-0.2.1.tar.gz]
+[2024-05-20 18:45:18] INFO root fetch - main [MainThread]: End processing [create-redirect]: success
+[2024-05-20 18:45:18] INFO root fetch - processPackages [goslide-api]: Remove: archive file [/home/abi/fetcher/tmp/goslide-api-0.6.7.tar.gz]
+[2024-05-20 18:45:18] INFO root fetch - processPackages [goslide-api]: Remove: archive file [/home/abi/fetcher/tmp/goslide-api-0.6.8.tar.gz]
+[2024-05-20 18:45:18] INFO root fetch - main [MainThread]: End processing [goslide-api]: success
+[2024-05-20 18:45:19] INFO root fetch - processPackages [buildz]: Remove: archive file [/home/abi/fetcher/tmp/buildz-0.5.6.tar.gz]
+[2024-05-20 18:45:19] INFO root fetch - processPackages [buildz]: Remove: archive file [/home/abi/fetcher/tmp/buildz-0.5.7.tar.gz]
+[2024-05-20 18:45:19] INFO root fetch - main [MainThread]: End processing [buildz]: success
+[2024-05-20 18:45:19] INFO root fetch - processPackages [ansibleguy-webui]: Remove: archive file [/home/abi/fetcher/tmp/ansibleguy_webui-0.0.20.tar.gz]
+[2024-05-20 18:45:19] INFO root fetch - processPackages [ansibleguy-webui]: Remove: archive file [/home/abi/fetcher/tmp/ansibleguy_webui-0.0.21.post2.tar.gz]
+[2024-05-20 18:45:19] INFO root fetch - main [MainThread]: End processing [ansibleguy-webui]: success
+[2024-05-20 18:45:19] INFO root fetch - main [MainThread]: Store serial: [23292652]

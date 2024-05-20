@@ -20332,3 +20332,156 @@ EOFError: EOF read where object expected
 [2024-05-20 16:26:12] INFO root fetch - processPackages [nonebot-plugin-docs]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_docs-2.3.1.tar.gz]
 [2024-05-20 16:26:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-docs]: success
 [2024-05-20 16:26:12] INFO root fetch - main [MainThread]: Store serial: [23291060]
+[2024-05-20 16:28:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291060]
+[2024-05-20 16:28:25] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-05-20 16:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sedcreator
+[2024-05-20 16:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chemfusekit
+[2024-05-20 16:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TheengsGateway
+[2024-05-20 16:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-cdk
+[2024-05-20 16:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: masculinenessz
+[2024-05-20 16:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pandasaurus-cxg
+[2024-05-20 16:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TA-Lib
+[2024-05-20 16:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: desktop-env
+[2024-05-20 16:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-master
+[2024-05-20 16:28:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nvidia-dali-nightly-cuda120
+[2024-05-20 16:28:26] INFO root fetch - processPackages [desktop-env]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 16:28:26] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240520.9.48.224649] Old Version: [20240520.7.59.257934]
+[2024-05-20 16:28:26] INFO root fetch - processPackages [pandasaurus-cxg]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 16:28:26] INFO root fetch - processPackages [desktop-env]: Downloading https://files.pythonhosted.org/packages/56/31/7b6552d8199fbe4871c70de1fd81920b3869270b706439d1c214499d6b22/desktop_env-0.1.8.tar.gz
+[2024-05-20 16:28:26] INFO root fetch - processPackages [sedcreator]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-20 16:28:26] INFO root fetch - processPackages [chemfusekit]: New version: [1.1.0b2] Old Version: [1.1.0b1]
+[2024-05-20 16:28:26] INFO root fetch - processPackages [TheengsGateway]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-20 16:28:26] WARNING root fetch - processPackages [masculinenessz]: Skipping, unable to determine old version
+[2024-05-20 16:28:26] INFO root fetch - processPackages [masculinenessz]: Start processing: matematikk
+[2024-05-20 16:28:26] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.39.0.dev20240520] Old Version: [1.39.0.dev20240517]
+[2024-05-20 16:28:26] INFO root fetch - main [MainThread]: End processing [masculinenessz] error
+[2024-05-20 16:28:26] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/1e/73/0fe8e125534d6c777aed9470190a4f8521b74d48acdc93cfcef558eb727c/certora-cli-alpha-master-20240520.7.59.257934.tar.gz
+[2024-05-20 16:28:26] INFO root fetch - processPackages [TA-Lib]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-20 16:28:26] INFO root fetch - processPackages [airbyte-cdk]: New version: [1.0.0] Old Version: [0.90.0]
+[2024-05-20 16:28:26] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14525798>=10485760
+[2024-05-20 16:28:26] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: django-gcloud-connectors
+[2024-05-20 16:28:26] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-20 16:28:26] INFO root fetch - processPackages [matematikk]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-20 16:28:26] WARNING root fetch - processPackages [TA-Lib]: fallback to get urls: [0.4.8]
+[2024-05-20 16:28:26] INFO root fetch - processPackages [django-gcloud-connectors]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-20 16:28:26] INFO root fetch - processPackages [sedcreator]: Downloading https://files.pythonhosted.org/packages/ad/06/31246e0dda454ab5b50ae6e253b2764e90180a5198089d24fa3a1c0ab810/sedcreator-0.9.3.tar.gz
+[2024-05-20 16:28:26] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/85/44/e8300d13adb05dbb738f97f6b1acde151aebc3cb0aa84745e82d0c12152f/nvidia_dali_nightly_cuda120-1.39.0.dev20240517.tar.gz
+[2024-05-20 16:28:26] INFO root fetch - processPackages [pandasaurus-cxg]: Downloading https://files.pythonhosted.org/packages/64/2d/2807af122db034b8d83afa963e466965df075172e9f2ec27fd8a2417c4da/pandasaurus_cxg-0.1.8.tar.gz
+[2024-05-20 16:28:26] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/4f/86/48f4b938f609667aebd54316f9e28194fdc694765119039ea3108afdb88e/chemfusekit-1.1.0b1.tar.gz
+[2024-05-20 16:28:26] INFO root fetch - processPackages [desktop-env]: Downloading https://files.pythonhosted.org/packages/34/c2/44dbe104fd250bc98e5640f34fa477ed837da112a8e7f87030a9d64589a9/desktop_env-0.1.9.tar.gz
+[2024-05-20 16:28:26] INFO root fetch - processPackages [TheengsGateway]: Downloading https://files.pythonhosted.org/packages/81/d7/8f14000c6c85bdf3c240b050f4623c496bd1224f2019f236c954a1017974/TheengsGateway-1.4.0.tar.gz
+[2024-05-20 16:28:26] WARNING root fetch - processPackages [TA-Lib]: None
+[2024-05-20 16:28:26] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/46/0f/f4c3d36ded4e948b0605af75c2c16719d920096812ada41dce8fec6b32fa/airbyte_cdk-0.90.0.tar.gz
+[2024-05-20 16:28:26] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/b9/0f/0e2ea1c838d839f658d451461a2f978947f6ab41a8f4e102104cc5b587a8/matematikk-0.0.98.tar.gz
+[2024-05-20 16:28:26] WARNING root fetch - processPackages [sedcreator]: Skipping package: exceeds size limit 23618634>=10485760
+[2024-05-20 16:28:26] INFO root fetch - processPackages [sedcreator]: Start processing: protoc-polyglot
+[2024-05-20 16:28:26] INFO root fetch - main [MainThread]: End processing [sedcreator] error
+[2024-05-20 16:28:26] WARNING root fetch - processPackages [TA-Lib]: None
+[2024-05-20 16:28:26] WARNING root fetch - processPackages [TA-Lib]: unable to get url for both version [0.4.8]
+[2024-05-20 16:28:26] INFO root fetch - processPackages [django-gcloud-connectors]: Downloading https://files.pythonhosted.org/packages/19/b5/786dc665bea4109e50380a63ea091a1f73fd5eefb6e22b5092b16fb3425c/django-gcloud-connectors-1.1.0.tar.gz
+[2024-05-20 16:28:26] WARNING root fetch - processPackages [TA-Lib]: None
+[2024-05-20 16:28:26] INFO root fetch - processPackages [TA-Lib]: Start processing: chemfusekit
+[2024-05-20 16:28:26] INFO root fetch - main [MainThread]: End processing [TA-Lib] error
+[2024-05-20 16:28:26] INFO root fetch - processPackages [desktop-env]: executing diffoscope
+[2024-05-20 16:28:26] INFO root fetch - processPackages [desktop-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desktop_env-0.1.8.tar.gz tmp/desktop_env-0.1.9.tar.gz --markdown 20240520/d/desktop-env/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 16:28:26] WARNING root fetch - processPackages [protoc-polyglot]: Skipping, unable to determine old version
+[2024-05-20 16:28:26] INFO root fetch - processPackages [protoc-polyglot]: Start processing: xspace-dl
+[2024-05-20 16:28:26] INFO root fetch - main [MainThread]: End processing [protoc-polyglot] error
+[2024-05-20 16:28:26] INFO root fetch - processPackages [chemfusekit]: New version: [1.1.0b2] Old Version: [1.1.0b1]
+[2024-05-20 16:28:26] INFO root fetch - processPackages [xspace-dl]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-20 16:28:26] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/ba/d1/907a2303ec8d0c4c2f01a0d2f9fd6e3de3387f6c25c32de3800152e437fb/matematikk-0.0.99.tar.gz
+[2024-05-20 16:28:26] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/32/03/291e2c6d7799c720d7cda1b9191538a3de58d52aadc858995529a930e5d6/nvidia_dali_nightly_cuda120-1.39.0.dev20240520.tar.gz
+[2024-05-20 16:28:27] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/4a/e8/b6c7e514db2ab1d13753b5c67be9129a5c9b5e9955f499ea44a244ef22f4/xspace-dl-0.2.1.tar.gz
+[2024-05-20 16:28:27] INFO root fetch - processPackages [pandasaurus-cxg]: Downloading https://files.pythonhosted.org/packages/3b/11/12c892f1b671db289eb4b886a4e9dadafc1d823fa0f5894656044b3f4022/pandasaurus_cxg-0.1.9.tar.gz
+[2024-05-20 16:28:27] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/6d/56/87ef92c93c7836fedc46e87cf38642d21c55eed636c1ee25fa2e6589b78a/airbyte_cdk-1.0.0.tar.gz
+[2024-05-20 16:28:27] INFO root fetch - processPackages [TheengsGateway]: Downloading https://files.pythonhosted.org/packages/8a/84/f3169ed99840776b7b65db807b584ba9b040958e6dcb085802f7d95d266f/theengsgateway-1.5.0.tar.gz
+[2024-05-20 16:28:27] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2024-05-20 16:28:27] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240517.tar.gz tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240520.tar.gz --markdown 20240520/n/nvidia-dali-nightly-cuda120/1.39.0.dev20240517-1.39.0.dev20240520/README.md --exclude *.pyd
+[2024-05-20 16:28:27] INFO root fetch - processPackages [matematikk]: executing diffoscope
+[2024-05-20 16:28:27] INFO root fetch - processPackages [matematikk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matematikk-0.0.98.tar.gz tmp/matematikk-0.0.99.tar.gz --markdown 20240520/m/matematikk/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-20 16:28:27] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/bc/1c/d1c41c5f8fa25bd474f379dddd64d4ff282d37c5e6932fda4e3220868c08/chemfusekit-1.1.0b2.tar.gz
+[2024-05-20 16:28:27] INFO root fetch - processPackages [chemfusekit]: Downloading https://files.pythonhosted.org/packages/bc/1c/d1c41c5f8fa25bd474f379dddd64d4ff282d37c5e6932fda4e3220868c08/chemfusekit-1.1.0b2.tar.gz
+[2024-05-20 16:28:27] INFO root fetch - processPackages [pandasaurus-cxg]: executing diffoscope
+[2024-05-20 16:28:27] INFO root fetch - processPackages [pandasaurus-cxg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasaurus_cxg-0.1.8.tar.gz tmp/pandasaurus_cxg-0.1.9.tar.gz --markdown 20240520/p/pandasaurus-cxg/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 16:28:27] INFO root fetch - processPackages [django-gcloud-connectors]: Downloading https://files.pythonhosted.org/packages/e3/b5/ccc735b81ddc1292e23ba50ac643581a619463644ee57308adec7dc835e2/django-gcloud-connectors-1.2.0.tar.gz
+[2024-05-20 16:28:27] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/1a/0b/19c90e2db9403b78d1ce7dc5f7139c3f99acaa0a65df8b05de81b9a08659/xspace-dl-0.2.2.tar.gz
+[2024-05-20 16:28:27] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2024-05-20 16:28:27] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_cdk-0.90.0.tar.gz tmp/airbyte_cdk-1.0.0.tar.gz --markdown 20240520/a/airbyte-cdk/0.90.0-1.0.0/README.md --exclude *.pyd
+[2024-05-20 16:28:27] INFO root fetch - processPackages [xspace-dl]: executing diffoscope
+[2024-05-20 16:28:27] INFO root fetch - processPackages [xspace-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspace-dl-0.2.1.tar.gz tmp/xspace-dl-0.2.2.tar.gz --markdown 20240520/x/xspace-dl/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-20 16:28:27] INFO root fetch - processPackages [desktop-env]: Remove: archive file [/home/abi/fetcher/tmp/desktop_env-0.1.8.tar.gz]
+[2024-05-20 16:28:27] INFO root fetch - processPackages [desktop-env]: Remove: archive file [/home/abi/fetcher/tmp/desktop_env-0.1.9.tar.gz]
+[2024-05-20 16:28:27] INFO root fetch - processPackages [desktop-env]: Start processing: mns-common
+[2024-05-20 16:28:27] INFO root fetch - main [MainThread]: End processing [desktop-env]: success
+[2024-05-20 16:28:27] INFO root fetch - processPackages [mns-common]: New version: [1.1.1.7] Old Version: [1.1.1.6]
+[2024-05-20 16:28:27] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/84/3d/eb4d8a7a8d777c2a2182cf0a7e29d9f83f15afb2bc1a246dafebfc201a1f/mns_common-1.1.1.6.tar.gz
+[2024-05-20 16:28:27] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240517.tar.gz]
+[2024-05-20 16:28:27] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240520.tar.gz]
+[2024-05-20 16:28:27] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Start processing: wds-client
+[2024-05-20 16:28:27] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2024-05-20 16:28:27] INFO root fetch - processPackages [django-gcloud-connectors]: executing diffoscope
+[2024-05-20 16:28:27] INFO root fetch - processPackages [django-gcloud-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-gcloud-connectors-1.1.0.tar.gz tmp/django-gcloud-connectors-1.2.0.tar.gz --markdown 20240520/d/django-gcloud-connectors/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-20 16:28:27] INFO root fetch - processPackages [TheengsGateway]: executing diffoscope
+[2024-05-20 16:28:27] INFO root fetch - processPackages [TheengsGateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheengsGateway-1.4.0.tar.gz tmp/theengsgateway-1.5.0.tar.gz --markdown 20240520/T/TheengsGateway/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-20 16:28:27] INFO root fetch - processPackages [wds-client]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-20 16:28:27] INFO root fetch - processPackages [pandasaurus-cxg]: Remove: archive file [/home/abi/fetcher/tmp/pandasaurus_cxg-0.1.8.tar.gz]
+[2024-05-20 16:28:27] INFO root fetch - processPackages [pandasaurus-cxg]: Remove: archive file [/home/abi/fetcher/tmp/pandasaurus_cxg-0.1.9.tar.gz]
+[2024-05-20 16:28:27] INFO root fetch - processPackages [pandasaurus-cxg]: Start processing: easy-dict-linshangsheng
+[2024-05-20 16:28:27] INFO root fetch - main [MainThread]: End processing [pandasaurus-cxg]: success
+[2024-05-20 16:28:28] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/c8/5a/9f9d8d4830712d227a572fdf66b3b3b9fd02101e0386c8274fc8d0fa307e/mns_common-1.1.1.7.tar.gz
+[2024-05-20 16:28:28] WARNING root fetch - processPackages [easy-dict-linshangsheng]: Skipping, unable to determine old version
+[2024-05-20 16:28:28] INFO root fetch - processPackages [easy-dict-linshangsheng]: Start processing: DodonaCLI
+[2024-05-20 16:28:28] INFO root fetch - main [MainThread]: End processing [easy-dict-linshangsheng] error
+[2024-05-20 16:28:28] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/0f/13/f8f5ce776d5e6c45710191ce000f55ce2aa4db4287f33750e7a820c6b6ca/wds_client-0.4.0.tar.gz
+[2024-05-20 16:28:28] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-20 16:28:28] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.1.6.tar.gz tmp/mns_common-1.1.1.7.tar.gz --markdown 20240520/m/mns-common/1.1.1.6-1.1.1.7/README.md --exclude *.pyd
+[2024-05-20 16:28:28] INFO root fetch - processPackages [chemfusekit]: executing diffoscope
+[2024-05-20 16:28:28] INFO root fetch - processPackages [chemfusekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemfusekit-1.1.0b1.tar.gz tmp/chemfusekit-1.1.0b2.tar.gz --markdown 20240520/c/chemfusekit/1.1.0b1-1.1.0b2/README.md --exclude *.pyd
+[2024-05-20 16:28:28] INFO root fetch - processPackages [DodonaCLI]: New version: [2024.5.20] Old Version: [2024.5.16]
+[2024-05-20 16:28:28] INFO root fetch - processPackages [chemfusekit]: executing diffoscope
+[2024-05-20 16:28:28] INFO root fetch - processPackages [chemfusekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemfusekit-1.1.0b1.tar.gz tmp/chemfusekit-1.1.0b2.tar.gz --markdown 20240520/c/chemfusekit/1.1.0b1-1.1.0b2/README.md --exclude *.pyd
+[2024-05-20 16:28:28] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.2.1.tar.gz]
+[2024-05-20 16:28:28] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.2.2.tar.gz]
+[2024-05-20 16:28:28] INFO root fetch - processPackages [xspace-dl]: Start processing: wwbot
+[2024-05-20 16:28:28] INFO root fetch - main [MainThread]: End processing [xspace-dl]: success
+[2024-05-20 16:28:28] INFO root fetch - processPackages [wwbot]: New version: [0.0.8rc0] Old Version: [0.0.8b0]
+[2024-05-20 16:28:28] INFO root fetch - processPackages [DodonaCLI]: Downloading https://files.pythonhosted.org/packages/eb/97/9b3d8ce728450971ff383e2f6e32f54c08f040d113d445d994857c461ef9/dodonacli-2024.5.16.tar.gz
+[2024-05-20 16:28:28] INFO root fetch - processPackages [wds-client]: Downloading https://files.pythonhosted.org/packages/4c/56/df0ab6dddf3b7da9dffde6a58c54c0dfb02b597c1b8d3c705342a6a01881/wds_client-0.5.0.tar.gz
+[2024-05-20 16:28:28] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/22/d8/386631b06495641cc5fdf70b7ddccd99da8e40e5b3f68e3cec10a45ead4e/wwbot-0.0.8b0.tar.gz
+[2024-05-20 16:28:28] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.98.tar.gz]
+[2024-05-20 16:28:28] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.99.tar.gz]
+[2024-05-20 16:28:28] INFO root fetch - main [MainThread]: End processing [matematikk]: success
+[2024-05-20 16:28:28] INFO root fetch - processPackages [wds-client]: executing diffoscope
+[2024-05-20 16:28:28] INFO root fetch - processPackages [wds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wds_client-0.4.0.tar.gz tmp/wds_client-0.5.0.tar.gz --markdown 20240520/w/wds-client/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-20 16:28:28] INFO root fetch - processPackages [DodonaCLI]: Downloading https://files.pythonhosted.org/packages/3f/2d/1ed9434213d2277423eea857bbdc5652d63a4281221ca11ab6a18af85029/dodonacli-2024.5.20.tar.gz
+[2024-05-20 16:28:28] INFO root fetch - processPackages [TheengsGateway]: Remove: archive file [/home/abi/fetcher/tmp/TheengsGateway-1.4.0.tar.gz]
+[2024-05-20 16:28:28] INFO root fetch - processPackages [TheengsGateway]: Remove: archive file [/home/abi/fetcher/tmp/theengsgateway-1.5.0.tar.gz]
+[2024-05-20 16:28:28] INFO root fetch - main [MainThread]: End processing [TheengsGateway]: success
+[2024-05-20 16:28:28] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/f0/d6/539254b35a392b94716fc626b6b39fc2c1eeecf81b065028e8a8fa69ff5c/wwbot-0.0.8rc0.tar.gz
+[2024-05-20 16:28:29] INFO root fetch - processPackages [wwbot]: executing diffoscope
+[2024-05-20 16:28:29] INFO root fetch - processPackages [wwbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwbot-0.0.8b0.tar.gz tmp/wwbot-0.0.8rc0.tar.gz --markdown 20240520/w/wwbot/0.0.8b0-0.0.8rc0/README.md --exclude *.pyd
+[2024-05-20 16:28:29] INFO root fetch - processPackages [DodonaCLI]: executing diffoscope
+[2024-05-20 16:28:29] INFO root fetch - processPackages [DodonaCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dodonacli-2024.5.16.tar.gz tmp/dodonacli-2024.5.20.tar.gz --markdown 20240520/D/DodonaCLI/2024.5.16-2024.5.20/README.md --exclude *.pyd
+[2024-05-20 16:28:29] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.1.6.tar.gz]
+[2024-05-20 16:28:29] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.1.7.tar.gz]
+[2024-05-20 16:28:29] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-20 16:28:29] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_cdk-0.90.0.tar.gz]
+[2024-05-20 16:28:29] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_cdk-1.0.0.tar.gz]
+[2024-05-20 16:28:29] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2024-05-20 16:28:29] INFO root fetch - processPackages [django-gcloud-connectors]: Remove: archive file [/home/abi/fetcher/tmp/django-gcloud-connectors-1.1.0.tar.gz]
+[2024-05-20 16:28:29] INFO root fetch - processPackages [django-gcloud-connectors]: Remove: archive file [/home/abi/fetcher/tmp/django-gcloud-connectors-1.2.0.tar.gz]
+[2024-05-20 16:28:29] INFO root fetch - main [MainThread]: End processing [django-gcloud-connectors]: success
+[2024-05-20 16:28:29] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.0b1.tar.gz]
+[2024-05-20 16:28:29] INFO root fetch - processPackages [chemfusekit]: Remove: archive file [/home/abi/fetcher/tmp/chemfusekit-1.1.0b2.tar.gz]
+[2024-05-20 16:28:29] INFO root fetch - main [MainThread]: End processing [chemfusekit]: success
+[2024-05-20 16:28:29] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.8b0.tar.gz]
+[2024-05-20 16:28:29] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.8rc0.tar.gz]
+[2024-05-20 16:28:29] INFO root fetch - main [MainThread]: End processing [wwbot]: success
+[2024-05-20 16:28:29] INFO root fetch - processPackages [wds-client]: Remove: archive file [/home/abi/fetcher/tmp/wds_client-0.4.0.tar.gz]
+[2024-05-20 16:28:29] INFO root fetch - processPackages [wds-client]: Remove: archive file [/home/abi/fetcher/tmp/wds_client-0.5.0.tar.gz]
+[2024-05-20 16:28:29] INFO root fetch - main [MainThread]: End processing [wds-client]: success
+[2024-05-20 16:28:29] INFO root fetch - main [MainThread]: End processing [chemfusekit]: success
+[2024-05-20 16:28:29] INFO root fetch - processPackages [DodonaCLI]: Remove: archive file [/home/abi/fetcher/tmp/dodonacli-2024.5.16.tar.gz]
+[2024-05-20 16:28:29] INFO root fetch - processPackages [DodonaCLI]: Remove: archive file [/home/abi/fetcher/tmp/dodonacli-2024.5.20.tar.gz]
+[2024-05-20 16:28:29] INFO root fetch - main [MainThread]: End processing [DodonaCLI]: success
+[2024-05-20 16:28:29] INFO root fetch - main [MainThread]: Store serial: [23291123]

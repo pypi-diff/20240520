@@ -5279,3 +5279,15 @@
 [2024-05-20 04:51:45] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.0.5.tar.gz]
 [2024-05-20 04:51:45] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
 [2024-05-20 04:51:45] INFO root fetch - main [MainThread]: Store serial: [23283925]
+[2024-05-20 04:53:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283925]
+[2024-05-20 04:53:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 04:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypomes-s3
+[2024-05-20 04:53:53] INFO root fetch - processPackages [pypomes-s3]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-20 04:53:53] INFO root fetch - processPackages [pypomes-s3]: Downloading https://files.pythonhosted.org/packages/77/d5/d2d7239a3536aadbbcdfbd265ea7a1e4798b779aa3792cf28ed683246404/pypomes_s3-0.3.7.tar.gz
+[2024-05-20 04:53:54] INFO root fetch - processPackages [pypomes-s3]: Downloading https://files.pythonhosted.org/packages/7d/b0/2347cea262be52feaa9a05839397a9e7939bb8a6795e90ec0fb54b76edf1/pypomes_s3-0.3.8.tar.gz
+[2024-05-20 04:53:54] INFO root fetch - processPackages [pypomes-s3]: executing diffoscope
+[2024-05-20 04:53:54] INFO root fetch - processPackages [pypomes-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_s3-0.3.7.tar.gz tmp/pypomes_s3-0.3.8.tar.gz --markdown 20240520/p/pypomes-s3/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-20 04:53:54] INFO root fetch - processPackages [pypomes-s3]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_s3-0.3.7.tar.gz]
+[2024-05-20 04:53:54] INFO root fetch - processPackages [pypomes-s3]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_s3-0.3.8.tar.gz]
+[2024-05-20 04:53:54] INFO root fetch - main [MainThread]: End processing [pypomes-s3]: success
+[2024-05-20 04:53:54] INFO root fetch - main [MainThread]: Store serial: [23283928]

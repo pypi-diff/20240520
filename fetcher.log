@@ -5868,3 +5868,36 @@
 [2024-05-20 05:35:07] INFO root fetch - processPackages [quool]: Remove: archive file [/home/abi/fetcher/tmp/quool-5.1.0.tar.gz]
 [2024-05-20 05:35:07] INFO root fetch - main [MainThread]: End processing [quool]: success
 [2024-05-20 05:35:07] INFO root fetch - main [MainThread]: Store serial: [23284168]
+[2024-05-20 05:37:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284168]
+[2024-05-20 05:37:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 05:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mgolddepthlib
+[2024-05-20 05:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinx-plot-directive
+[2024-05-20 05:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arteriofibrosisz
+[2024-05-20 05:37:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cc521-evolution
+[2024-05-20 05:37:16] INFO root fetch - processPackages [mgolddepthlib]: New version: [0.2.1] Old Version: [0.2]
+[2024-05-20 05:37:16] INFO root fetch - processPackages [cc521-evolution]: New version: [1.1.0] Old Version: [1.0.7]
+[2024-05-20 05:37:16] INFO root fetch - processPackages [cc521-evolution]: Downloading https://files.pythonhosted.org/packages/84/ff/f8bbc8ba71aae15507cff69cc28f0dc26273e5a235665d403aa6dcc2bb33/cc521_evolution-1.0.7.tar.gz
+[2024-05-20 05:37:16] WARNING root fetch - processPackages [arteriofibrosisz]: Skipping, unable to determine old version
+[2024-05-20 05:37:16] INFO root fetch - main [MainThread]: End processing [arteriofibrosisz] error
+[2024-05-20 05:37:16] INFO root fetch - processPackages [sphinx-plot-directive]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 05:37:16] INFO root fetch - processPackages [mgolddepthlib]: Downloading https://files.pythonhosted.org/packages/6d/67/e28c4152056b7ac58b1a464fe8c067822db2b2fd8e214b2782b97c95e52b/mgolddepthlib-0.2.tar.gz
+[2024-05-20 05:37:16] INFO root fetch - processPackages [sphinx-plot-directive]: Downloading https://files.pythonhosted.org/packages/0b/f2/39a6f150d213cbfc31bca5ffde1d7ad84b10da04cfa9ec9a21ed4e9e17f7/sphinx-plot-directive-1.0.2.tar.gz
+[2024-05-20 05:37:16] INFO root fetch - processPackages [cc521-evolution]: Downloading https://files.pythonhosted.org/packages/49/8c/666ccc254e1826c6cbd54f6838ffe341d2484e16a66c220224404cc90d75/cc521_evolution-1.1.0.tar.gz
+[2024-05-20 05:37:16] INFO root fetch - processPackages [mgolddepthlib]: Downloading https://files.pythonhosted.org/packages/25/41/780be5da0450a5f3050d749d46370880ce58ccfa785f38b4567e4034e9ec/mgolddepthlib-0.2.1.tar.gz
+[2024-05-20 05:37:16] INFO root fetch - processPackages [cc521-evolution]: executing diffoscope
+[2024-05-20 05:37:16] INFO root fetch - processPackages [cc521-evolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc521_evolution-1.0.7.tar.gz tmp/cc521_evolution-1.1.0.tar.gz --markdown 20240520/c/cc521-evolution/1.0.7-1.1.0/README.md --exclude *.pyd
+[2024-05-20 05:37:16] INFO root fetch - processPackages [mgolddepthlib]: executing diffoscope
+[2024-05-20 05:37:16] INFO root fetch - processPackages [mgolddepthlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mgolddepthlib-0.2.tar.gz tmp/mgolddepthlib-0.2.1.tar.gz --markdown 20240520/m/mgolddepthlib/0.2-0.2.1/README.md --exclude *.pyd
+[2024-05-20 05:37:16] INFO root fetch - processPackages [sphinx-plot-directive]: Downloading https://files.pythonhosted.org/packages/92/77/c343dbdda7f81c49cf24e6d71e3d0b095177af535f00e4d87a14561a29b9/sphinx-plot-directive-1.0.3.tar.gz
+[2024-05-20 05:37:16] INFO root fetch - processPackages [sphinx-plot-directive]: executing diffoscope
+[2024-05-20 05:37:16] INFO root fetch - processPackages [sphinx-plot-directive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-plot-directive-1.0.2.tar.gz tmp/sphinx-plot-directive-1.0.3.tar.gz --markdown 20240520/s/sphinx-plot-directive/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 05:37:17] INFO root fetch - processPackages [cc521-evolution]: Remove: archive file [/home/abi/fetcher/tmp/cc521_evolution-1.0.7.tar.gz]
+[2024-05-20 05:37:17] INFO root fetch - processPackages [cc521-evolution]: Remove: archive file [/home/abi/fetcher/tmp/cc521_evolution-1.1.0.tar.gz]
+[2024-05-20 05:37:17] INFO root fetch - main [MainThread]: End processing [cc521-evolution]: success
+[2024-05-20 05:37:17] INFO root fetch - processPackages [sphinx-plot-directive]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-plot-directive-1.0.2.tar.gz]
+[2024-05-20 05:37:17] INFO root fetch - processPackages [sphinx-plot-directive]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-plot-directive-1.0.3.tar.gz]
+[2024-05-20 05:37:17] INFO root fetch - main [MainThread]: End processing [sphinx-plot-directive]: success
+[2024-05-20 05:37:17] INFO root fetch - processPackages [mgolddepthlib]: Remove: archive file [/home/abi/fetcher/tmp/mgolddepthlib-0.2.tar.gz]
+[2024-05-20 05:37:17] INFO root fetch - processPackages [mgolddepthlib]: Remove: archive file [/home/abi/fetcher/tmp/mgolddepthlib-0.2.1.tar.gz]
+[2024-05-20 05:37:17] INFO root fetch - main [MainThread]: End processing [mgolddepthlib]: success
+[2024-05-20 05:37:17] INFO root fetch - main [MainThread]: Store serial: [23284180]

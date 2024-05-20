@@ -17007,3 +17007,65 @@ EOFError: EOF read where object expected
 [2024-05-20 14:42:45] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240519-py3-none-win_amd64.whl.zip]
 [2024-05-20 14:42:45] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2024-05-20 14:42:45] INFO root fetch - main [MainThread]: Store serial: [23289645]
+[2024-05-20 14:44:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289645]
+[2024-05-20 14:44:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 14:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-llm
+[2024-05-20 14:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uploadthing.py
+[2024-05-20 14:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slippersz
+[2024-05-20 14:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-azure-native
+[2024-05-20 14:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lineseg
+[2024-05-20 14:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: catalystwan
+[2024-05-20 14:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pykolofinance
+[2024-05-20 14:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyE2
+[2024-05-20 14:44:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qase-robotframework
+[2024-05-20 14:44:56] INFO root fetch - processPackages [uploadthing.py]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-20 14:44:56] INFO root fetch - processPackages [qase-robotframework]: New version: [3.0.0b2] Old Version: [3.0.0b1]
+[2024-05-20 14:44:56] INFO root fetch - processPackages [catalystwan]: New version: [0.33.6.dev0] Old Version: [0.33.6]
+[2024-05-20 14:44:56] INFO root fetch - processPackages [PyE2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-20 14:44:56] WARNING root fetch - processPackages [slippersz]: Skipping, unable to determine old version
+[2024-05-20 14:44:56] INFO root fetch - main [MainThread]: End processing [slippersz] error
+[2024-05-20 14:44:56] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240520] Old Version: [2.5.0b20240519]
+[2024-05-20 14:44:56] WARNING root fetch - processPackages [pykolofinance]: Skipping, unable to determine old version
+[2024-05-20 14:44:56] INFO root fetch - main [MainThread]: End processing [pykolofinance] error
+[2024-05-20 14:44:56] WARNING root fetch - processPackages [lineseg]: Skipping, unable to determine old version
+[2024-05-20 14:44:56] INFO root fetch - main [MainThread]: End processing [lineseg] error
+[2024-05-20 14:44:56] INFO root fetch - processPackages [uploadthing.py]: Downloading https://files.pythonhosted.org/packages/b4/67/ba4c0888266f940d98288e27c52ae0c7e7508a63deb35dcfc04e358129d3/uploadthing_py-0.1.1.tar.gz
+[2024-05-20 14:44:56] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.9.1a1696416212] Old Version: [2.9.1a1696411987]
+[2024-05-20 14:44:56] INFO root fetch - processPackages [qase-robotframework]: Downloading https://files.pythonhosted.org/packages/c7/dd/dae3d9ec9b5e05ef8d11b9210d5ccc3aa0de484b51612b2e13731b4c94e5/qase_robotframework-3.0.0b1.tar.gz
+[2024-05-20 14:44:56] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/61/17/5ebb5e0d4e05c4cfc67dbdce18f45ab487ae89673ef19179975491cd284a/catalystwan-0.33.6.tar.gz
+[2024-05-20 14:44:56] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/7c/1f/ddc8b7c8209074ff0d22a75a309898a450f3e9e4116be5a7194e75d33974/pye2-0.7.8.tar.gz
+[2024-05-20 14:44:56] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/6f/12/b43d3ce7d7737326784f8018fc9cf1c895b0c935a86a707308a880bc8216/bigdl_llm-2.5.0b20240519-py3-none-win_amd64.whl
+[2024-05-20 14:44:56] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/7c/39/23e88d5a9a544cb9a75a9c0b077f73c9c90cb756d8e32766dfffb90f8833/pulumi_azure_native-2.9.1a1696411987.tar.gz
+[2024-05-20 14:44:57] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27430128>=10485760
+[2024-05-20 14:44:57] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2024-05-20 14:44:57] INFO root fetch - processPackages [qase-robotframework]: Downloading https://files.pythonhosted.org/packages/42/64/e0b9dc82d8930e9459bf6ef86064b4def599565265b943f1e44d91a7f60b/qase_robotframework-3.0.0b2.tar.gz
+[2024-05-20 14:44:57] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/e9/40/83bee283c4c5388414ec9563877eaf42c60425426715578ebc136fe413cb/pye2-0.7.9.tar.gz
+[2024-05-20 14:44:57] INFO root fetch - processPackages [uploadthing.py]: Downloading https://files.pythonhosted.org/packages/79/81/2e5fa120c6b183d9a80d5c1f83898c15bfdbeb22e2f4bf3a19e004fd3791/uploadthing_py-0.1.2.tar.gz
+[2024-05-20 14:44:57] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/66/6f/e015046634c1a9d97888edcccd3dcdcf3bd48bc33b1d50c1329b87eab580/catalystwan-0.33.6.dev0.tar.gz
+[2024-05-20 14:44:57] INFO root fetch - processPackages [qase-robotframework]: executing diffoscope
+[2024-05-20 14:44:57] INFO root fetch - processPackages [qase-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qase_robotframework-3.0.0b1.tar.gz tmp/qase_robotframework-3.0.0b2.tar.gz --markdown 20240520/q/qase-robotframework/3.0.0b1-3.0.0b2/README.md --exclude *.pyd
+[2024-05-20 14:44:57] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-05-20 14:44:57] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.7.8.tar.gz tmp/pye2-0.7.9.tar.gz --markdown 20240520/P/PyE2/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-20 14:44:57] INFO root fetch - processPackages [uploadthing.py]: executing diffoscope
+[2024-05-20 14:44:57] INFO root fetch - processPackages [uploadthing.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uploadthing_py-0.1.1.tar.gz tmp/uploadthing_py-0.1.2.tar.gz --markdown 20240520/u/uploadthing.py/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-20 14:44:57] INFO root fetch - processPackages [catalystwan]: executing diffoscope
+[2024-05-20 14:44:57] INFO root fetch - processPackages [catalystwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalystwan-0.33.6.tar.gz tmp/catalystwan-0.33.6.dev0.tar.gz --markdown 20240520/c/catalystwan/0.33.6-0.33.6.dev0/README.md --exclude *.pyd
+[2024-05-20 14:44:57] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/9b/c6/b2a7c2105da587db54a59264456d793485c55e5d84d5f7d763887170942b/bigdl_llm-2.5.0b20240520-py3-none-win_amd64.whl
+[2024-05-20 14:44:57] INFO root fetch - processPackages [qase-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/qase_robotframework-3.0.0b1.tar.gz]
+[2024-05-20 14:44:57] INFO root fetch - processPackages [qase-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/qase_robotframework-3.0.0b2.tar.gz]
+[2024-05-20 14:44:57] INFO root fetch - main [MainThread]: End processing [qase-robotframework]: success
+[2024-05-20 14:44:57] INFO root fetch - processPackages [uploadthing.py]: Remove: archive file [/home/abi/fetcher/tmp/uploadthing_py-0.1.1.tar.gz]
+[2024-05-20 14:44:57] INFO root fetch - processPackages [uploadthing.py]: Remove: archive file [/home/abi/fetcher/tmp/uploadthing_py-0.1.2.tar.gz]
+[2024-05-20 14:44:57] INFO root fetch - main [MainThread]: End processing [uploadthing.py]: success
+[2024-05-20 14:44:58] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.8.tar.gz]
+[2024-05-20 14:44:58] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
+[2024-05-20 14:44:58] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-05-20 14:44:58] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-05-20 14:44:58] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240519-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240520-py3-none-win_amd64.whl.zip --markdown 20240520/b/bigdl-llm/2.5.0b20240519-2.5.0b20240520/README.md --exclude *.pyd
+[2024-05-20 14:44:59] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240519-py3-none-win_amd64.whl.zip]
+[2024-05-20 14:44:59] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240520-py3-none-win_amd64.whl.zip]
+[2024-05-20 14:44:59] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-05-20 14:44:59] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.6.tar.gz]
+[2024-05-20 14:44:59] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.6.dev0.tar.gz]
+[2024-05-20 14:44:59] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
+[2024-05-20 14:44:59] INFO root fetch - main [MainThread]: Store serial: [23289680]

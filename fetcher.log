@@ -5264,3 +5264,18 @@
 [2024-05-20 04:49:35] INFO root fetch - processPackages [Nuitka-winsvc]: Remove: archive file [/home/abi/fetcher/tmp/nuitka_winsvc-2.2.3.tar.gz]
 [2024-05-20 04:49:35] INFO root fetch - main [MainThread]: End processing [Nuitka-winsvc]: success
 [2024-05-20 04:49:35] INFO root fetch - main [MainThread]: Store serial: [23283918]
+[2024-05-20 04:51:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283918]
+[2024-05-20 04:51:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 04:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonextensiblenessz
+[2024-05-20 04:51:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypomes-core
+[2024-05-20 04:51:44] INFO root fetch - processPackages [pypomes-core]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-20 04:51:44] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/7d/9e/e0cd91e3f52d695a978ca7d264b61c7dc2ce3e03764bb4ad59eec940c1cf/pypomes_core-1.0.4.tar.gz
+[2024-05-20 04:51:44] WARNING root fetch - processPackages [nonextensiblenessz]: Skipping, unable to determine old version
+[2024-05-20 04:51:44] INFO root fetch - main [MainThread]: End processing [nonextensiblenessz] error
+[2024-05-20 04:51:44] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/ab/1b/8e54f9ccb61e73a833c6b0f0f49de5fdec3f8f54241deac47ed116665801/pypomes_core-1.0.5.tar.gz
+[2024-05-20 04:51:45] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2024-05-20 04:51:45] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-1.0.4.tar.gz tmp/pypomes_core-1.0.5.tar.gz --markdown 20240520/p/pypomes-core/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-20 04:51:45] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.0.4.tar.gz]
+[2024-05-20 04:51:45] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-1.0.5.tar.gz]
+[2024-05-20 04:51:45] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2024-05-20 04:51:45] INFO root fetch - main [MainThread]: Store serial: [23283925]

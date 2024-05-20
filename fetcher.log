@@ -9057,3 +9057,18 @@
 [2024-05-20 09:02:56] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.3.8.tar.gz]
 [2024-05-20 09:02:56] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
 [2024-05-20 09:02:56] INFO root fetch - main [MainThread]: Store serial: [23285979]
+[2024-05-20 09:05:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285979]
+[2024-05-20 09:05:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 09:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emr-serverless-customauth
+[2024-05-20 09:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crossword-puzzle
+[2024-05-20 09:05:05] INFO root fetch - processPackages [crossword-puzzle]: New version: [1.2.75] Old Version: [1.2.74]
+[2024-05-20 09:05:05] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/89/60/7e184957811b7ccf971aad4a11a2d73ed1d072238e6ae03b409da8882ec9/crossword_puzzle-1.2.74.tar.gz
+[2024-05-20 09:05:05] WARNING root fetch - processPackages [emr-serverless-customauth]: Skipping, unable to determine old version
+[2024-05-20 09:05:05] INFO root fetch - main [MainThread]: End processing [emr-serverless-customauth] error
+[2024-05-20 09:05:06] INFO root fetch - processPackages [crossword-puzzle]: Downloading https://files.pythonhosted.org/packages/84/f4/e8aab7fbfd557f7b1bc05dc420b70cbda7f00b11ebbae9b0d14566748a26/crossword_puzzle-1.2.75.tar.gz
+[2024-05-20 09:05:06] INFO root fetch - processPackages [crossword-puzzle]: executing diffoscope
+[2024-05-20 09:05:06] INFO root fetch - processPackages [crossword-puzzle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossword_puzzle-1.2.74.tar.gz tmp/crossword_puzzle-1.2.75.tar.gz --markdown 20240520/c/crossword-puzzle/1.2.74-1.2.75/README.md --exclude *.pyd
+[2024-05-20 09:05:27] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.74.tar.gz]
+[2024-05-20 09:05:27] INFO root fetch - processPackages [crossword-puzzle]: Remove: archive file [/home/abi/fetcher/tmp/crossword_puzzle-1.2.75.tar.gz]
+[2024-05-20 09:05:27] INFO root fetch - main [MainThread]: End processing [crossword-puzzle]: success
+[2024-05-20 09:05:27] INFO root fetch - main [MainThread]: Store serial: [23285991]

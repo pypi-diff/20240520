@@ -6075,3 +6075,38 @@
 [2024-05-20 05:52:23] INFO root fetch - processPackages [aio-client]: Remove: archive file [/home/abi/fetcher/tmp/aio-client-1.8.6.tar.gz]
 [2024-05-20 05:52:23] INFO root fetch - main [MainThread]: End processing [aio-client]: success
 [2024-05-20 05:52:23] INFO root fetch - main [MainThread]: Store serial: [23284284]
+[2024-05-20 05:54:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284284]
+[2024-05-20 05:54:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 05:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: increff-runner
+[2024-05-20 05:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libTSCANAPI
+[2024-05-20 05:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vvdutils
+[2024-05-20 05:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foca
+[2024-05-20 05:54:32] INFO root fetch - processPackages [increff-runner]: New version: [4.2] Old Version: [4.1]
+[2024-05-20 05:54:32] INFO root fetch - processPackages [vvdutils]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-20 05:54:32] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/29/07/a67de4bc7e27358d0b93187c5ca6c357c200714954140ec0df7f0f2a791a/increff_runner-4.1-py3-none-any.whl
+[2024-05-20 05:54:32] INFO root fetch - processPackages [foca]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-20 05:54:32] INFO root fetch - processPackages [libTSCANAPI]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-20 05:54:32] INFO root fetch - processPackages [vvdutils]: Downloading https://files.pythonhosted.org/packages/70/8f/1974c530318120f6eb2776f4837194da5c48d9a39d5e16319219a32b3422/vvdutils-0.0.3.tar.gz
+[2024-05-20 05:54:32] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/6a/7e/4be98a53066debd3b58db5a7269bbdd6d21ff989515e0a092a5c38f1be8d/increff_runner-4.2-py3-none-any.whl
+[2024-05-20 05:54:32] INFO root fetch - processPackages [foca]: Downloading https://files.pythonhosted.org/packages/2e/ae/67586cd7fcbb487eff64130203f8414d431d919038eea688509790c7ad77/foca-0.8.0.tar.gz
+[2024-05-20 05:54:32] INFO root fetch - processPackages [libTSCANAPI]: Downloading https://files.pythonhosted.org/packages/ad/f3/0471d26d627d304c0b5f9bdcb6a74935f852f09c91991f180b69ecfd8871/libTSCANAPI-1.3.8.tar.gz
+[2024-05-20 05:54:32] WARNING root fetch - processPackages [libTSCANAPI]: Skipping package: exceeds size limit 19197850>=10485760
+[2024-05-20 05:54:32] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2024-05-20 05:54:32] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-05-20 05:54:32] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-4.1-py3-none-any.whl.zip tmp/increff_runner-4.2-py3-none-any.whl.zip --markdown 20240520/i/increff-runner/4.1-4.2/README.md --exclude *.pyd
+[2024-05-20 05:54:32] INFO root fetch - processPackages [vvdutils]: Downloading https://files.pythonhosted.org/packages/0f/e4/6ea813856bee9d14616c918900422530e711979df296d7e05813f2d9064e/vvdutils-0.0.4.tar.gz
+[2024-05-20 05:54:32] INFO root fetch - processPackages [foca]: Downloading https://files.pythonhosted.org/packages/d6/ed/7ea75b6ac5817ffdb6ad289ff3dc44f6dab87c838ef57b7f002957212843/foca-0.9.0.tar.gz
+[2024-05-20 05:54:32] INFO root fetch - processPackages [foca]: executing diffoscope
+[2024-05-20 05:54:32] INFO root fetch - processPackages [foca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foca-0.8.0.tar.gz tmp/foca-0.9.0.tar.gz --markdown 20240520/f/foca/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-20 05:54:32] INFO root fetch - processPackages [vvdutils]: executing diffoscope
+[2024-05-20 05:54:32] INFO root fetch - processPackages [vvdutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vvdutils-0.0.3.tar.gz tmp/vvdutils-0.0.4.tar.gz --markdown 20240520/v/vvdutils/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-20 05:54:33] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.1-py3-none-any.whl.zip]
+[2024-05-20 05:54:33] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.2-py3-none-any.whl.zip]
+[2024-05-20 05:54:33] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-05-20 05:54:33] INFO root fetch - processPackages [vvdutils]: Remove: archive file [/home/abi/fetcher/tmp/vvdutils-0.0.3.tar.gz]
+[2024-05-20 05:54:33] INFO root fetch - processPackages [vvdutils]: Remove: archive file [/home/abi/fetcher/tmp/vvdutils-0.0.4.tar.gz]
+[2024-05-20 05:54:33] INFO root fetch - main [MainThread]: End processing [vvdutils]: success
+[2024-05-20 05:54:33] INFO root fetch - processPackages [foca]: Remove: archive file [/home/abi/fetcher/tmp/foca-0.8.0.tar.gz]
+[2024-05-20 05:54:33] INFO root fetch - processPackages [foca]: Remove: archive file [/home/abi/fetcher/tmp/foca-0.9.0.tar.gz]
+[2024-05-20 05:54:33] INFO root fetch - main [MainThread]: End processing [foca]: success
+[2024-05-20 05:54:33] INFO root fetch - main [MainThread]: Store serial: [23284292]

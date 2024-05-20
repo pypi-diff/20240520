@@ -15145,3 +15145,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 13:19:23] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_table_reader_plugin-2.2.2.tar.gz]
 [2024-05-20 13:19:23] INFO root fetch - main [MainThread]: End processing [mkdocs-table-reader-plugin]: success
 [2024-05-20 13:19:23] INFO root fetch - main [MainThread]: Store serial: [23288650]
+[2024-05-20 13:21:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288650]
+[2024-05-20 13:21:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 13:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-table-reader-plugin
+[2024-05-20 13:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qwak-core
+[2024-05-20 13:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fhrerz
+[2024-05-20 13:21:32] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-20 13:21:32] INFO root fetch - processPackages [qwak-core]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-20 13:21:32] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: Downloading https://files.pythonhosted.org/packages/2e/7f/d88dc4313c0abc3d9168d6018c830737bf08693ce45f87ab20a7ee799cb9/mkdocs_table_reader_plugin-2.2.1.tar.gz
+[2024-05-20 13:21:32] WARNING root fetch - processPackages [fhrerz]: Skipping, unable to determine old version
+[2024-05-20 13:21:32] INFO root fetch - main [MainThread]: End processing [fhrerz] error
+[2024-05-20 13:21:32] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/40/dc/9bf7a0a11e5d16704620fd9a2d038eee79e38d502983f2c9975412d1053c/qwak_core-0.4.8.tar.gz
+[2024-05-20 13:21:32] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: Downloading https://files.pythonhosted.org/packages/8a/4a/3aa751547c4332370f93ec0041c68f9c91f26084288cb60f8001e2187922/mkdocs_table_reader_plugin-2.2.2.tar.gz
+[2024-05-20 13:21:32] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/fe/09/8867573c92d18e200499a583b45f6adb1552d9e721e39370c8aa578b7080/qwak_core-0.4.9.tar.gz
+[2024-05-20 13:21:32] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: executing diffoscope
+[2024-05-20 13:21:32] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_table_reader_plugin-2.2.1.tar.gz tmp/mkdocs_table_reader_plugin-2.2.2.tar.gz --markdown 20240520/m/mkdocs-table-reader-plugin/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-20 13:21:32] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-20 13:21:32] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.8.tar.gz tmp/qwak_core-0.4.9.tar.gz --markdown 20240520/q/qwak-core/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-20 13:21:33] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_table_reader_plugin-2.2.1.tar.gz]
+[2024-05-20 13:21:33] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_table_reader_plugin-2.2.2.tar.gz]
+[2024-05-20 13:21:33] INFO root fetch - main [MainThread]: End processing [mkdocs-table-reader-plugin]: success
+[2024-05-20 13:21:35] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.8.tar.gz]
+[2024-05-20 13:21:35] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
+[2024-05-20 13:21:35] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-20 13:21:35] INFO root fetch - main [MainThread]: Store serial: [23288667]

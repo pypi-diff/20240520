@@ -8662,3 +8662,30 @@
 [2024-05-20 08:43:12] INFO root fetch - processPackages [sdkfabric-notion]: Remove: archive file [/home/abi/fetcher/tmp/sdkfabric_notion-0.1.2.tar.gz]
 [2024-05-20 08:43:12] INFO root fetch - main [MainThread]: End processing [sdkfabric-notion]: success
 [2024-05-20 08:43:12] INFO root fetch - main [MainThread]: Store serial: [23285644]
+[2024-05-20 08:45:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285644]
+[2024-05-20 08:45:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 08:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: misleep
+[2024-05-20 08:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hitherwardsz
+[2024-05-20 08:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metaffi-api
+[2024-05-20 08:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enchante
+[2024-05-20 08:45:21] WARNING root fetch - processPackages [enchante]: Skipping, unable to determine old version
+[2024-05-20 08:45:21] INFO root fetch - main [MainThread]: End processing [enchante] error
+[2024-05-20 08:45:21] INFO root fetch - processPackages [metaffi-api]: New version: [0.0.28] Old Version: [0.0.27]
+[2024-05-20 08:45:21] INFO root fetch - processPackages [metaffi-api]: Downloading https://files.pythonhosted.org/packages/80/09/534672924999c17ddfe19479ffb6ee02dbd27d531b1bcaaa06ddda9cc9a0/metaffi_api-0.0.27-py3-none-any.whl
+[2024-05-20 08:45:21] INFO root fetch - processPackages [misleep]: New version: [0.2.6b0] Old Version: [0.2.5b0]
+[2024-05-20 08:45:21] WARNING root fetch - processPackages [hitherwardsz]: Skipping, unable to determine old version
+[2024-05-20 08:45:21] INFO root fetch - main [MainThread]: End processing [hitherwardsz] error
+[2024-05-20 08:45:21] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/f3/47/f653d75352f8c2ee8dfc5526703d449c533fbf7f783118be11f1f61f9309/misleep-0.2.5b0.tar.gz
+[2024-05-20 08:45:21] INFO root fetch - processPackages [metaffi-api]: Downloading https://files.pythonhosted.org/packages/e3/d8/4f96ce56a7b08737ba6d670b3a683f8e298304086106b5028aaf0fe23e26/metaffi_api-0.0.28.tar.gz
+[2024-05-20 08:45:21] INFO root fetch - processPackages [metaffi-api]: executing diffoscope
+[2024-05-20 08:45:21] INFO root fetch - processPackages [metaffi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaffi_api-0.0.27-py3-none-any.whl.zip tmp/metaffi_api-0.0.28.tar.gz --markdown 20240520/m/metaffi-api/0.0.27-0.0.28/README.md --exclude *.pyd
+[2024-05-20 08:45:21] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/15/74/908df3421875552e1a579da2fe610ab716dd725c3f58da4a4001fe0c4282/misleep-0.2.6b0.tar.gz
+[2024-05-20 08:45:21] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-05-20 08:45:21] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.2.5b0.tar.gz tmp/misleep-0.2.6b0.tar.gz --markdown 20240520/m/misleep/0.2.5b0-0.2.6b0/README.md --exclude *.pyd
+[2024-05-20 08:45:22] INFO root fetch - processPackages [metaffi-api]: Remove: archive file [/home/abi/fetcher/tmp/metaffi_api-0.0.27-py3-none-any.whl.zip]
+[2024-05-20 08:45:22] INFO root fetch - processPackages [metaffi-api]: Remove: archive file [/home/abi/fetcher/tmp/metaffi_api-0.0.28.tar.gz]
+[2024-05-20 08:45:22] INFO root fetch - main [MainThread]: End processing [metaffi-api]: success
+[2024-05-20 08:45:22] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.5b0.tar.gz]
+[2024-05-20 08:45:22] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.6b0.tar.gz]
+[2024-05-20 08:45:22] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-05-20 08:45:22] INFO root fetch - main [MainThread]: Store serial: [23285657]

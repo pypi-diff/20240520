@@ -15948,3 +15948,64 @@ EOFError: EOF read where object expected
 [2024-05-20 13:52:18] INFO root fetch - processPackages [Solverz]: Remove: archive file [/home/abi/fetcher/tmp/solverz-0.0.1rc2.tar.gz]
 [2024-05-20 13:52:18] INFO root fetch - main [MainThread]: End processing [Solverz]: success
 [2024-05-20 13:52:18] INFO root fetch - main [MainThread]: Store serial: [23289009]
+[2024-05-20 13:54:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289009]
+[2024-05-20 13:54:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 13:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Brightify
+[2024-05-20 13:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: helm-hawk
+[2024-05-20 13:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-gpt
+[2024-05-20 13:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sunray
+[2024-05-20 13:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ndpprep
+[2024-05-20 13:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: server-templates
+[2024-05-20 13:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-node-binding
+[2024-05-20 13:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-master
+[2024-05-20 13:54:28] INFO root fetch - processPackages [ndpprep]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-20 13:54:28] WARNING root fetch - processPackages [Brightify]: Skipping, unable to determine old version
+[2024-05-20 13:54:28] INFO root fetch - main [MainThread]: End processing [Brightify] error
+[2024-05-20 13:54:28] INFO root fetch - processPackages [server-templates]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-20 13:54:28] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240520.9.48.224649] Old Version: [20240520.7.59.257934]
+[2024-05-20 13:54:28] INFO root fetch - processPackages [ndpprep]: Downloading https://files.pythonhosted.org/packages/0f/4f/4e15373630f154bd1e5823888afae489cf4df899059276c39a8d66c85284/ndpprep-0.0.3.tar.gz
+[2024-05-20 13:54:28] INFO root fetch - processPackages [nonebot-plugin-gpt]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 13:54:28] INFO root fetch - processPackages [server-templates]: Downloading https://files.pythonhosted.org/packages/59/df/f5673e6af5207982271068cff01271982666f35556ff8fcf33d629e902d6/server_templates-0.2.8.tar.gz
+[2024-05-20 13:54:28] INFO root fetch - processPackages [sunray]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-20 13:54:28] INFO root fetch - processPackages [helm-hawk]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-20 13:54:28] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [4.0.0.post1316] Old Version: [3.1.0.post1305]
+[2024-05-20 13:54:28] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/1e/73/0fe8e125534d6c777aed9470190a4f8521b74d48acdc93cfcef558eb727c/certora-cli-alpha-master-20240520.7.59.257934.tar.gz
+[2024-05-20 13:54:28] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14525798>=10485760
+[2024-05-20 13:54:28] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-20 13:54:28] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/91/5e/c139bcf2d7ff04452cbcb85c33087558df02e3faed0e75f13dac818b947d/nucliadb_node_binding-3.1.0.post1305-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-20 13:54:28] INFO root fetch - processPackages [nonebot-plugin-gpt]: Downloading https://files.pythonhosted.org/packages/d3/b8/e98732cabdc5211650e901088c2fde40acd5a0131b175d00468129132813/nonebot-plugin-gpt-0.0.8.tar.gz
+[2024-05-20 13:54:28] INFO root fetch - processPackages [server-templates]: Downloading https://files.pythonhosted.org/packages/11/84/d7da14623575908f087ae536a6c380ca047ec1dbd8e633d855019a35bb7c/server_templates-0.2.9.tar.gz
+[2024-05-20 13:54:28] INFO root fetch - processPackages [sunray]: Downloading https://files.pythonhosted.org/packages/ff/fb/a9a8a02158a751a13b7023a8311df447844af5161864e6ae93991128aa8c/sunray-0.3.0-py3-none-any.whl
+[2024-05-20 13:54:28] WARNING root fetch - processPackages [nucliadb-node-binding]: Skipping package: exceeds size limit 12107915>=10485760
+[2024-05-20 13:54:28] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding] error
+[2024-05-20 13:54:28] INFO root fetch - processPackages [helm-hawk]: Downloading https://files.pythonhosted.org/packages/e2/bb/f699d26965d999093d149ff1cc718b2450f43da9df75e64866eb3429d8a6/helm_hawk-0.0.3.tar.gz
+[2024-05-20 13:54:28] INFO root fetch - processPackages [ndpprep]: Downloading https://files.pythonhosted.org/packages/5c/9c/e358064528a6568192fca7ca6fb690a9f01d1f5ad5bd5bc6f37305f72336/ndpprep-0.0.4.tar.gz
+[2024-05-20 13:54:28] INFO root fetch - processPackages [server-templates]: executing diffoscope
+[2024-05-20 13:54:28] INFO root fetch - processPackages [server-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/server_templates-0.2.8.tar.gz tmp/server_templates-0.2.9.tar.gz --markdown 20240520/s/server-templates/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-20 13:54:28] INFO root fetch - processPackages [ndpprep]: executing diffoscope
+[2024-05-20 13:54:28] INFO root fetch - processPackages [ndpprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndpprep-0.0.3.tar.gz tmp/ndpprep-0.0.4.tar.gz --markdown 20240520/n/ndpprep/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-20 13:54:28] INFO root fetch - processPackages [sunray]: Downloading https://files.pythonhosted.org/packages/ac/17/650cc8e84c1c2e5e045450e969f64f7d0ebc84176628b54476a8c7962c4a/sunray-0.3.1-py3-none-any.whl
+[2024-05-20 13:54:28] INFO root fetch - processPackages [nonebot-plugin-gpt]: Downloading https://files.pythonhosted.org/packages/3d/9f/81d150090fcea62c65939c289c40f03dc27e061ec4bc33f5dafeb79fc785/nonebot-plugin-gpt-0.0.9.tar.gz
+[2024-05-20 13:54:28] INFO root fetch - processPackages [helm-hawk]: Downloading https://files.pythonhosted.org/packages/41/e9/4f84cc2cbe0965ce6a7143a56f7030198f38ec485b18adf0750d86e47517/helm_hawk-0.0.4.tar.gz
+[2024-05-20 13:54:28] INFO root fetch - processPackages [sunray]: executing diffoscope
+[2024-05-20 13:54:28] INFO root fetch - processPackages [sunray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunray-0.3.0-py3-none-any.whl.zip tmp/sunray-0.3.1-py3-none-any.whl.zip --markdown 20240520/s/sunray/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-20 13:54:28] INFO root fetch - processPackages [nonebot-plugin-gpt]: executing diffoscope
+[2024-05-20 13:54:28] INFO root fetch - processPackages [nonebot-plugin-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-gpt-0.0.8.tar.gz tmp/nonebot-plugin-gpt-0.0.9.tar.gz --markdown 20240520/n/nonebot-plugin-gpt/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 13:54:28] INFO root fetch - processPackages [helm-hawk]: executing diffoscope
+[2024-05-20 13:54:28] INFO root fetch - processPackages [helm-hawk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helm_hawk-0.0.3.tar.gz tmp/helm_hawk-0.0.4.tar.gz --markdown 20240520/h/helm-hawk/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-20 13:54:29] INFO root fetch - processPackages [ndpprep]: Remove: archive file [/home/abi/fetcher/tmp/ndpprep-0.0.3.tar.gz]
+[2024-05-20 13:54:29] INFO root fetch - processPackages [ndpprep]: Remove: archive file [/home/abi/fetcher/tmp/ndpprep-0.0.4.tar.gz]
+[2024-05-20 13:54:29] INFO root fetch - main [MainThread]: End processing [ndpprep]: success
+[2024-05-20 13:54:29] INFO root fetch - processPackages [server-templates]: Remove: archive file [/home/abi/fetcher/tmp/server_templates-0.2.8.tar.gz]
+[2024-05-20 13:54:29] INFO root fetch - processPackages [server-templates]: Remove: archive file [/home/abi/fetcher/tmp/server_templates-0.2.9.tar.gz]
+[2024-05-20 13:54:29] INFO root fetch - main [MainThread]: End processing [server-templates]: success
+[2024-05-20 13:54:29] INFO root fetch - processPackages [nonebot-plugin-gpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-gpt-0.0.8.tar.gz]
+[2024-05-20 13:54:29] INFO root fetch - processPackages [nonebot-plugin-gpt]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-gpt-0.0.9.tar.gz]
+[2024-05-20 13:54:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-gpt]: success
+[2024-05-20 13:54:29] INFO root fetch - processPackages [sunray]: Remove: archive file [/home/abi/fetcher/tmp/sunray-0.3.0-py3-none-any.whl.zip]
+[2024-05-20 13:54:29] INFO root fetch - processPackages [sunray]: Remove: archive file [/home/abi/fetcher/tmp/sunray-0.3.1-py3-none-any.whl.zip]
+[2024-05-20 13:54:29] INFO root fetch - main [MainThread]: End processing [sunray]: success
+[2024-05-20 13:54:29] INFO root fetch - processPackages [helm-hawk]: Remove: archive file [/home/abi/fetcher/tmp/helm_hawk-0.0.3.tar.gz]
+[2024-05-20 13:54:29] INFO root fetch - processPackages [helm-hawk]: Remove: archive file [/home/abi/fetcher/tmp/helm_hawk-0.0.4.tar.gz]
+[2024-05-20 13:54:29] INFO root fetch - main [MainThread]: End processing [helm-hawk]: success
+[2024-05-20 13:54:29] INFO root fetch - main [MainThread]: Store serial: [23289050]

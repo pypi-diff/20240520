@@ -8689,3 +8689,69 @@
 [2024-05-20 08:45:22] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.6b0.tar.gz]
 [2024-05-20 08:45:22] INFO root fetch - main [MainThread]: End processing [misleep]: success
 [2024-05-20 08:45:22] INFO root fetch - main [MainThread]: Store serial: [23285657]
+[2024-05-20 08:47:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285657]
+[2024-05-20 08:47:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 08:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enchante
+[2024-05-20 08:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TitanicSurvivalModel100424
+[2024-05-20 08:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rime-sdk
+[2024-05-20 08:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bricks-py
+[2024-05-20 08:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phys2cvr
+[2024-05-20 08:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gmaps-avoid-swiss
+[2024-05-20 08:47:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zf-pd
+[2024-05-20 08:47:31] INFO root fetch - processPackages [enchante]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 08:47:31] INFO root fetch - processPackages [TitanicSurvivalModel100424]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-20 08:47:31] INFO root fetch - processPackages [bricks-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 08:47:31] INFO root fetch - processPackages [gmaps-avoid-swiss]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 08:47:31] INFO root fetch - processPackages [phys2cvr]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-20 08:47:31] INFO root fetch - processPackages [zf-pd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 08:47:31] INFO root fetch - processPackages [rime-sdk]: New version: [2.8.0rc9] Old Version: [2.8.0rc8]
+[2024-05-20 08:47:31] INFO root fetch - processPackages [enchante]: Downloading https://files.pythonhosted.org/packages/6a/f8/3d1b6954c82421c4ecd7e209e6e1be5f145590c1a57cc67fc87ca17bac4d/enchante-0.1.0.tar.gz
+[2024-05-20 08:47:31] INFO root fetch - processPackages [bricks-py]: Downloading https://files.pythonhosted.org/packages/9f/3b/fe690ce21e4cf52d02199cdf608df918687abd881cac6b38642818f34388/bricks-py-0.0.8.tar.gz
+[2024-05-20 08:47:31] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/5f/ee/9f99cee94313fd0846bc0b261c0a705f5b9f0b87d20d6934a77d616566e0/rime_sdk-2.8.0rc8.tar.gz
+[2024-05-20 08:47:31] INFO root fetch - processPackages [zf-pd]: Downloading https://files.pythonhosted.org/packages/7e/5b/a2dcd317a3b7bfa6b5a6c1087f368dc97831c50b5aa07e56e4f119692cce/zf-pd-0.0.8.tar.gz
+[2024-05-20 08:47:31] INFO root fetch - processPackages [gmaps-avoid-swiss]: Downloading https://files.pythonhosted.org/packages/a9/91/b477ee38ed523aa98a2c86556078abf849a7372e42c60fdb64cd4541ba43/gmaps_avoid_swiss-0.1.8.tar.gz
+[2024-05-20 08:47:32] INFO root fetch - processPackages [phys2cvr]: Downloading https://files.pythonhosted.org/packages/0a/59/6a3e29d2a133536d86ea73f7f80dce43ce8df41d1d7de80d32657a753735/phys2cvr-0.8.0.tar.gz
+[2024-05-20 08:47:32] INFO root fetch - processPackages [TitanicSurvivalModel100424]: Downloading https://files.pythonhosted.org/packages/ba/21/18a771bc41576012ffe0223f94fb8a391bedd42cc97108a568ed4e4d84c6/titanicsurvivalmodel100424-0.1.1.tar.gz
+[2024-05-20 08:47:32] INFO root fetch - processPackages [enchante]: Downloading https://files.pythonhosted.org/packages/46/37/f25082047795d77c854019e7c767f8c477fd8ad45de79529229dd065fdac/enchante-0.1.1.tar.gz
+[2024-05-20 08:47:32] INFO root fetch - processPackages [TitanicSurvivalModel100424]: Downloading https://files.pythonhosted.org/packages/1b/17/6911814df5912e014db85788785ddc2f3ed0ea7ff1425d360f81fcb7de64/titanicsurvivalmodel100424-0.1.2.tar.gz
+[2024-05-20 08:47:32] INFO root fetch - processPackages [enchante]: executing diffoscope
+[2024-05-20 08:47:32] INFO root fetch - processPackages [enchante]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enchante-0.1.0.tar.gz tmp/enchante-0.1.1.tar.gz --markdown 20240520/e/enchante/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 08:47:32] INFO root fetch - processPackages [bricks-py]: Downloading https://files.pythonhosted.org/packages/29/6d/568fde747d2d51ed35954f550b7e5a646c59d12c5fd987f07e9ea267ae9c/bricks-py-0.0.9.tar.gz
+[2024-05-20 08:47:32] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/82/d0/af2bc54a7ae81e59f924b38132b45b3fa131069dcddc38c084be863230b7/rime_sdk-2.8.0rc9.tar.gz
+[2024-05-20 08:47:32] INFO root fetch - processPackages [gmaps-avoid-swiss]: Downloading https://files.pythonhosted.org/packages/3d/60/89f4cd568c8d2d7be8bc3a9629f7ac8ce0c4715348777e5481066b9c4827/gmaps_avoid_swiss-0.1.9.tar.gz
+[2024-05-20 08:47:32] INFO root fetch - processPackages [TitanicSurvivalModel100424]: executing diffoscope
+[2024-05-20 08:47:32] INFO root fetch - processPackages [TitanicSurvivalModel100424]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titanicsurvivalmodel100424-0.1.1.tar.gz tmp/titanicsurvivalmodel100424-0.1.2.tar.gz --markdown 20240520/T/TitanicSurvivalModel100424/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-20 08:47:32] INFO root fetch - processPackages [bricks-py]: executing diffoscope
+[2024-05-20 08:47:32] INFO root fetch - processPackages [bricks-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bricks-py-0.0.8.tar.gz tmp/bricks-py-0.0.9.tar.gz --markdown 20240520/b/bricks-py/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 08:47:32] INFO root fetch - processPackages [phys2cvr]: Downloading https://files.pythonhosted.org/packages/cc/c4/c7fc1fddcdf7e782b08593f33a302ea13b5b8b63a5fd8992d645205ee061/phys2cvr-0.9.0.tar.gz
+[2024-05-20 08:47:32] INFO root fetch - processPackages [zf-pd]: Downloading https://files.pythonhosted.org/packages/51/dd/11079a378bf124099ab35947ee1d79b1504e3b81c546095863c7bf9e67d9/zf-pd-0.0.9.tar.gz
+[2024-05-20 08:47:32] INFO root fetch - processPackages [gmaps-avoid-swiss]: executing diffoscope
+[2024-05-20 08:47:32] INFO root fetch - processPackages [gmaps-avoid-swiss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmaps_avoid_swiss-0.1.8.tar.gz tmp/gmaps_avoid_swiss-0.1.9.tar.gz --markdown 20240520/g/gmaps-avoid-swiss/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 08:47:32] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-05-20 08:47:32] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.8.0rc8.tar.gz tmp/rime_sdk-2.8.0rc9.tar.gz --markdown 20240520/r/rime-sdk/2.8.0rc8-2.8.0rc9/README.md --exclude *.pyd
+[2024-05-20 08:47:32] INFO root fetch - processPackages [phys2cvr]: executing diffoscope
+[2024-05-20 08:47:32] INFO root fetch - processPackages [phys2cvr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phys2cvr-0.8.0.tar.gz tmp/phys2cvr-0.9.0.tar.gz --markdown 20240520/p/phys2cvr/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-20 08:47:32] INFO root fetch - processPackages [zf-pd]: executing diffoscope
+[2024-05-20 08:47:32] INFO root fetch - processPackages [zf-pd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zf-pd-0.0.8.tar.gz tmp/zf-pd-0.0.9.tar.gz --markdown 20240520/z/zf-pd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 08:47:33] INFO root fetch - processPackages [enchante]: Remove: archive file [/home/abi/fetcher/tmp/enchante-0.1.0.tar.gz]
+[2024-05-20 08:47:33] INFO root fetch - processPackages [enchante]: Remove: archive file [/home/abi/fetcher/tmp/enchante-0.1.1.tar.gz]
+[2024-05-20 08:47:33] INFO root fetch - main [MainThread]: End processing [enchante]: success
+[2024-05-20 08:47:33] INFO root fetch - processPackages [TitanicSurvivalModel100424]: Remove: archive file [/home/abi/fetcher/tmp/titanicsurvivalmodel100424-0.1.1.tar.gz]
+[2024-05-20 08:47:33] INFO root fetch - processPackages [TitanicSurvivalModel100424]: Remove: archive file [/home/abi/fetcher/tmp/titanicsurvivalmodel100424-0.1.2.tar.gz]
+[2024-05-20 08:47:33] INFO root fetch - main [MainThread]: End processing [TitanicSurvivalModel100424]: success
+[2024-05-20 08:47:33] INFO root fetch - processPackages [gmaps-avoid-swiss]: Remove: archive file [/home/abi/fetcher/tmp/gmaps_avoid_swiss-0.1.8.tar.gz]
+[2024-05-20 08:47:33] INFO root fetch - processPackages [gmaps-avoid-swiss]: Remove: archive file [/home/abi/fetcher/tmp/gmaps_avoid_swiss-0.1.9.tar.gz]
+[2024-05-20 08:47:33] INFO root fetch - main [MainThread]: End processing [gmaps-avoid-swiss]: success
+[2024-05-20 08:47:33] INFO root fetch - processPackages [phys2cvr]: Remove: archive file [/home/abi/fetcher/tmp/phys2cvr-0.8.0.tar.gz]
+[2024-05-20 08:47:33] INFO root fetch - processPackages [phys2cvr]: Remove: archive file [/home/abi/fetcher/tmp/phys2cvr-0.9.0.tar.gz]
+[2024-05-20 08:47:33] INFO root fetch - main [MainThread]: End processing [phys2cvr]: success
+[2024-05-20 08:47:33] INFO root fetch - processPackages [bricks-py]: Remove: archive file [/home/abi/fetcher/tmp/bricks-py-0.0.8.tar.gz]
+[2024-05-20 08:47:33] INFO root fetch - processPackages [bricks-py]: Remove: archive file [/home/abi/fetcher/tmp/bricks-py-0.0.9.tar.gz]
+[2024-05-20 08:47:33] INFO root fetch - main [MainThread]: End processing [bricks-py]: success
+[2024-05-20 08:47:33] INFO root fetch - processPackages [zf-pd]: Remove: archive file [/home/abi/fetcher/tmp/zf-pd-0.0.8.tar.gz]
+[2024-05-20 08:47:33] INFO root fetch - processPackages [zf-pd]: Remove: archive file [/home/abi/fetcher/tmp/zf-pd-0.0.9.tar.gz]
+[2024-05-20 08:47:33] INFO root fetch - main [MainThread]: End processing [zf-pd]: success
+[2024-05-20 08:47:35] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc8.tar.gz]
+[2024-05-20 08:47:35] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc9.tar.gz]
+[2024-05-20 08:47:35] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-05-20 08:47:35] INFO root fetch - main [MainThread]: Store serial: [23285678]

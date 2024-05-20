@@ -16946,3 +16946,64 @@ EOFError: EOF read where object expected
 [2024-05-20 14:40:34] INFO root fetch - processPackages [perun.proxygui]: Remove: archive file [/home/abi/fetcher/tmp/perun.proxygui-7.0.0.tar.gz]
 [2024-05-20 14:40:34] INFO root fetch - main [MainThread]: End processing [perun.proxygui]: success
 [2024-05-20 14:40:34] INFO root fetch - main [MainThread]: Store serial: [23289613]
+[2024-05-20 14:42:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289613]
+[2024-05-20 14:42:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 14:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: filecrusher
+[2024-05-20 14:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keelson
+[2024-05-20 14:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: e2e-sae
+[2024-05-20 14:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyPPG
+[2024-05-20 14:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tempclone
+[2024-05-20 14:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blypack
+[2024-05-20 14:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hydrodatasource
+[2024-05-20 14:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xspace-dl
+[2024-05-20 14:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-llm
+[2024-05-20 14:42:43] INFO root fetch - processPackages [filecrusher]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-20 14:42:43] WARNING root fetch - processPackages [blypack]: Skipping, unable to determine old version
+[2024-05-20 14:42:43] INFO root fetch - main [MainThread]: End processing [blypack] error
+[2024-05-20 14:42:43] WARNING root fetch - processPackages [tempclone]: Skipping, unable to determine old version
+[2024-05-20 14:42:43] INFO root fetch - main [MainThread]: End processing [tempclone] error
+[2024-05-20 14:42:43] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240519] Old Version: [2.5.0b20240518]
+[2024-05-20 14:42:43] WARNING root fetch - processPackages [xspace-dl]: Skipping, unable to determine old version
+[2024-05-20 14:42:43] INFO root fetch - main [MainThread]: End processing [xspace-dl] error
+[2024-05-20 14:42:43] INFO root fetch - processPackages [e2e-sae]: New version: [1.0.0] Old Version: [0.0.3]
+[2024-05-20 14:42:43] INFO root fetch - processPackages [keelson]: New version: [0.3.5rc1] Old Version: [0.3.4]
+[2024-05-20 14:42:43] INFO root fetch - processPackages [hydrodatasource]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-20 14:42:43] INFO root fetch - processPackages [pyPPG]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 14:42:43] ERROR root fetch - processPackages [filecrusher]: Unable to fetch info: No such project/version 'filecrusher' 0.2.2
+[2024-05-20 14:42:43] INFO root fetch - main [MainThread]: End processing [filecrusher] error
+[2024-05-20 14:42:43] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/8d/1e/4059dfed3ff325076054fb44fbef5794420caadd699e9c9858c697a8691e/bigdl_llm-2.5.0b20240518-py3-none-win_amd64.whl
+[2024-05-20 14:42:43] INFO root fetch - processPackages [e2e-sae]: Downloading https://files.pythonhosted.org/packages/4b/48/6a4915b1cad4c7fb591a12c61329ce90f2fa6cb74affed6bdfac17029e30/e2e_sae-0.0.3.tar.gz
+[2024-05-20 14:42:43] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/b4/b9/d42529519d6fd6e703c012edc6d1d508ce5121789733055fff72abeae6c9/keelson-0.3.4-py3-none-any.whl
+[2024-05-20 14:42:43] INFO root fetch - processPackages [pyPPG]: Downloading https://files.pythonhosted.org/packages/d8/69/8c5d47dfa1af99cac12ffe36c6fd4d16ac364d27bddb5f9af5653709bd17/pyPPG-1.0.8.tar.gz
+[2024-05-20 14:42:43] INFO root fetch - processPackages [hydrodatasource]: Downloading https://files.pythonhosted.org/packages/bf/4a/a267c85718084733c8c9c0c67671f1541e0caf0ffed51da82deeafd07eb7/hydrodatasource-0.0.1.tar.gz
+[2024-05-20 14:42:43] INFO root fetch - processPackages [e2e-sae]: Downloading https://files.pythonhosted.org/packages/75/b5/fbaa3a9c33ed21bbfbd65278ea1475e3381179942c4321c32433577b8b9d/e2e_sae-1.0.0.tar.gz
+[2024-05-20 14:42:43] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/aa/06/28bd75bc2d0ffdf67bf0688c142b645be5baec8a408867f66763f9d92ed3/keelson-0.3.5rc1-py3-none-any.whl
+[2024-05-20 14:42:43] INFO root fetch - processPackages [hydrodatasource]: Downloading https://files.pythonhosted.org/packages/f5/15/7b656ae609269776e4dc139ca1f7c32fe48fa69f4dd0c61912e12f69b392/hydrodatasource-0.0.2.tar.gz
+[2024-05-20 14:42:44] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/6f/12/b43d3ce7d7737326784f8018fc9cf1c895b0c935a86a707308a880bc8216/bigdl_llm-2.5.0b20240519-py3-none-win_amd64.whl
+[2024-05-20 14:42:44] INFO root fetch - processPackages [hydrodatasource]: executing diffoscope
+[2024-05-20 14:42:44] INFO root fetch - processPackages [hydrodatasource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrodatasource-0.0.1.tar.gz tmp/hydrodatasource-0.0.2.tar.gz --markdown 20240520/h/hydrodatasource/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-20 14:42:44] INFO root fetch - processPackages [e2e-sae]: executing diffoscope
+[2024-05-20 14:42:44] INFO root fetch - processPackages [e2e-sae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2e_sae-0.0.3.tar.gz tmp/e2e_sae-1.0.0.tar.gz --markdown 20240520/e/e2e-sae/0.0.3-1.0.0/README.md --exclude *.pyd
+[2024-05-20 14:42:44] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-05-20 14:42:44] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.4-py3-none-any.whl.zip tmp/keelson-0.3.5rc1-py3-none-any.whl.zip --markdown 20240520/k/keelson/0.3.4-0.3.5rc1/README.md --exclude *.pyd
+[2024-05-20 14:42:44] INFO root fetch - processPackages [pyPPG]: Downloading https://files.pythonhosted.org/packages/3b/48/f8c25fac0335b0b72b616b8d5003315d0c40adb71abb1770992f58ba1835/pyPPG-1.0.9.tar.gz
+[2024-05-20 14:42:44] INFO root fetch - processPackages [pyPPG]: executing diffoscope
+[2024-05-20 14:42:44] INFO root fetch - processPackages [pyPPG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyPPG-1.0.8.tar.gz tmp/pyPPG-1.0.9.tar.gz --markdown 20240520/p/pyPPG/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 14:42:44] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-05-20 14:42:44] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240518-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240519-py3-none-win_amd64.whl.zip --markdown 20240520/b/bigdl-llm/2.5.0b20240518-2.5.0b20240519/README.md --exclude *.pyd
+[2024-05-20 14:42:44] INFO root fetch - processPackages [e2e-sae]: Remove: archive file [/home/abi/fetcher/tmp/e2e_sae-0.0.3.tar.gz]
+[2024-05-20 14:42:44] INFO root fetch - processPackages [e2e-sae]: Remove: archive file [/home/abi/fetcher/tmp/e2e_sae-1.0.0.tar.gz]
+[2024-05-20 14:42:44] INFO root fetch - main [MainThread]: End processing [e2e-sae]: success
+[2024-05-20 14:42:44] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.4-py3-none-any.whl.zip]
+[2024-05-20 14:42:44] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.5rc1-py3-none-any.whl.zip]
+[2024-05-20 14:42:44] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-05-20 14:42:45] INFO root fetch - processPackages [hydrodatasource]: Remove: archive file [/home/abi/fetcher/tmp/hydrodatasource-0.0.1.tar.gz]
+[2024-05-20 14:42:45] INFO root fetch - processPackages [hydrodatasource]: Remove: archive file [/home/abi/fetcher/tmp/hydrodatasource-0.0.2.tar.gz]
+[2024-05-20 14:42:45] INFO root fetch - main [MainThread]: End processing [hydrodatasource]: success
+[2024-05-20 14:42:45] INFO root fetch - processPackages [pyPPG]: Remove: archive file [/home/abi/fetcher/tmp/pyPPG-1.0.8.tar.gz]
+[2024-05-20 14:42:45] INFO root fetch - processPackages [pyPPG]: Remove: archive file [/home/abi/fetcher/tmp/pyPPG-1.0.9.tar.gz]
+[2024-05-20 14:42:45] INFO root fetch - main [MainThread]: End processing [pyPPG]: success
+[2024-05-20 14:42:45] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240518-py3-none-win_amd64.whl.zip]
+[2024-05-20 14:42:45] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240519-py3-none-win_amd64.whl.zip]
+[2024-05-20 14:42:45] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-05-20 14:42:45] INFO root fetch - main [MainThread]: Store serial: [23289645]

@@ -21648,3 +21648,57 @@ EOFError: EOF read where object expected
 [2024-05-20 17:16:15] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.4.tar.gz]
 [2024-05-20 17:16:15] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
 [2024-05-20 17:16:15] INFO root fetch - main [MainThread]: Store serial: [23291618]
+[2024-05-20 17:18:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291618]
+[2024-05-20 17:18:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 17:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foundationdb
+[2024-05-20 17:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fn5
+[2024-05-20 17:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ktaga-lab
+[2024-05-20 17:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sitfastz
+[2024-05-20 17:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyuptech
+[2024-05-20 17:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flatpack
+[2024-05-20 17:18:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pix2text
+[2024-05-20 17:18:24] WARNING root fetch - processPackages [ktaga-lab]: Skipping, unable to determine old version
+[2024-05-20 17:18:24] INFO root fetch - main [MainThread]: End processing [ktaga-lab] error
+[2024-05-20 17:18:24] INFO root fetch - processPackages [fn5]: New version: [2.0.0] Old Version: [1.2.2rc2]
+[2024-05-20 17:18:24] INFO root fetch - processPackages [pyuptech]: New version: [0.1.5.1] Old Version: [0.1.5]
+[2024-05-20 17:18:24] INFO root fetch - processPackages [fn5]: Downloading https://files.pythonhosted.org/packages/29/b7/353c017df1fe8c7123ebfc55789a4955c65886afaaa3534c91856cd25916/fn5-1.2.2rc2.tar.gz
+[2024-05-20 17:18:24] INFO root fetch - processPackages [pyuptech]: Downloading https://files.pythonhosted.org/packages/11/5a/be92e4167d0837ca24d28b534906b92abddea94c217c98939be375eb1f27/pyuptech-0.1.5.tar.gz
+[2024-05-20 17:18:24] WARNING root fetch - processPackages [sitfastz]: Skipping, unable to determine old version
+[2024-05-20 17:18:24] INFO root fetch - main [MainThread]: End processing [sitfastz] error
+[2024-05-20 17:18:24] INFO root fetch - processPackages [foundationdb]: New version: [7.3.9] Old Version: [7.3.8]
+[2024-05-20 17:18:24] INFO root fetch - processPackages [pix2text]: New version: [1.1.0.4] Old Version: [1.1.0.3]
+[2024-05-20 17:18:24] INFO root fetch - processPackages [flatpack]: New version: [3.4.90] Old Version: [3.4.9]
+[2024-05-20 17:18:24] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-20 17:18:24] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/36/96/36db8b7aba7d9fb4662c1a3a88b362801e73bb1c0d469e8c291a11b74c97/foundationdb-7.3.8.tar.gz
+[2024-05-20 17:18:24] INFO root fetch - processPackages [fn5]: Downloading https://files.pythonhosted.org/packages/60/65/32b819fb950109a0371cce0027870d06492b3b447f627e4ecc6205d9cbd2/fn5-2.0.0.tar.gz
+[2024-05-20 17:18:24] INFO root fetch - processPackages [pix2text]: Downloading https://files.pythonhosted.org/packages/da/fa/ce0419545c9ab929ef0909d4644f9e5b2240d16568dcd1f7ca18ff2da56f/pix2text-1.1.0.3.tar.gz
+[2024-05-20 17:18:25] INFO root fetch - processPackages [fn5]: executing diffoscope
+[2024-05-20 17:18:25] INFO root fetch - processPackages [fn5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fn5-1.2.2rc2.tar.gz tmp/fn5-2.0.0.tar.gz --markdown 20240520/f/fn5/1.2.2rc2-2.0.0/README.md --exclude *.pyd
+[2024-05-20 17:18:25] INFO root fetch - processPackages [pyuptech]: Downloading https://files.pythonhosted.org/packages/84/e5/04d8449fa03c6612d401a9b62eddd1b929fb91fd392664fb06f6a67ab873/pyuptech-0.1.5.1.tar.gz
+[2024-05-20 17:18:25] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/70/d3/8e51527ceca2f915b07cfb0b4067e2b7f693f6eaeb1cebb2d78a6c169348/flatpack-3.4.90.tar.gz
+[2024-05-20 17:18:25] INFO root fetch - processPackages [pyuptech]: executing diffoscope
+[2024-05-20 17:18:25] INFO root fetch - processPackages [pyuptech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuptech-0.1.5.tar.gz tmp/pyuptech-0.1.5.1.tar.gz --markdown 20240520/p/pyuptech/0.1.5-0.1.5.1/README.md --exclude *.pyd
+[2024-05-20 17:18:25] INFO root fetch - processPackages [foundationdb]: Downloading https://files.pythonhosted.org/packages/5b/02/44abfcfdcc2abd0e108e45890ed5a02185aceeb90e378a8531fc45597dd9/foundationdb-7.3.9.tar.gz
+[2024-05-20 17:18:25] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-20 17:18:25] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.9.tar.gz tmp/flatpack-3.4.90.tar.gz --markdown 20240520/f/flatpack/3.4.9-3.4.90/README.md --exclude *.pyd
+[2024-05-20 17:18:25] INFO root fetch - processPackages [pix2text]: Downloading https://files.pythonhosted.org/packages/38/18/e131f835104159991addfb8c6864d8acad2f179fe5bc70b442039ab85f4b/pix2text-1.1.0.4.tar.gz
+[2024-05-20 17:18:25] INFO root fetch - processPackages [foundationdb]: executing diffoscope
+[2024-05-20 17:18:25] INFO root fetch - processPackages [foundationdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundationdb-7.3.8.tar.gz tmp/foundationdb-7.3.9.tar.gz --markdown 20240520/f/foundationdb/7.3.8-7.3.9/README.md --exclude *.pyd
+[2024-05-20 17:18:25] INFO root fetch - processPackages [pix2text]: executing diffoscope
+[2024-05-20 17:18:25] INFO root fetch - processPackages [pix2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pix2text-1.1.0.3.tar.gz tmp/pix2text-1.1.0.4.tar.gz --markdown 20240520/p/pix2text/1.1.0.3-1.1.0.4/README.md --exclude *.pyd
+[2024-05-20 17:18:25] INFO root fetch - processPackages [fn5]: Remove: archive file [/home/abi/fetcher/tmp/fn5-1.2.2rc2.tar.gz]
+[2024-05-20 17:18:25] INFO root fetch - processPackages [fn5]: Remove: archive file [/home/abi/fetcher/tmp/fn5-2.0.0.tar.gz]
+[2024-05-20 17:18:25] INFO root fetch - main [MainThread]: End processing [fn5]: success
+[2024-05-20 17:18:25] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-20 17:18:25] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.90.tar.gz]
+[2024-05-20 17:18:25] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-20 17:18:25] INFO root fetch - processPackages [pyuptech]: Remove: archive file [/home/abi/fetcher/tmp/pyuptech-0.1.5.tar.gz]
+[2024-05-20 17:18:25] INFO root fetch - processPackages [pyuptech]: Remove: archive file [/home/abi/fetcher/tmp/pyuptech-0.1.5.1.tar.gz]
+[2024-05-20 17:18:25] INFO root fetch - main [MainThread]: End processing [pyuptech]: success
+[2024-05-20 17:18:25] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.8.tar.gz]
+[2024-05-20 17:18:25] INFO root fetch - processPackages [foundationdb]: Remove: archive file [/home/abi/fetcher/tmp/foundationdb-7.3.9.tar.gz]
+[2024-05-20 17:18:25] INFO root fetch - main [MainThread]: End processing [foundationdb]: success
+[2024-05-20 17:18:26] INFO root fetch - processPackages [pix2text]: Remove: archive file [/home/abi/fetcher/tmp/pix2text-1.1.0.3.tar.gz]
+[2024-05-20 17:18:26] INFO root fetch - processPackages [pix2text]: Remove: archive file [/home/abi/fetcher/tmp/pix2text-1.1.0.4.tar.gz]
+[2024-05-20 17:18:26] INFO root fetch - main [MainThread]: End processing [pix2text]: success
+[2024-05-20 17:18:26] INFO root fetch - main [MainThread]: Store serial: [23291639]

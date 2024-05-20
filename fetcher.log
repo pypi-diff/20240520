@@ -15873,3 +15873,78 @@ EOFError: EOF read where object expected
 [2024-05-20 13:50:07] INFO root fetch - processPackages [olas-operate-middleware]: Remove: archive file [/home/abi/fetcher/tmp/olas_operate_middleware-0.1.0rc9.tar.gz]
 [2024-05-20 13:50:07] INFO root fetch - main [MainThread]: End processing [olas-operate-middleware]: success
 [2024-05-20 13:50:07] INFO root fetch - main [MainThread]: Store serial: [23288981]
+[2024-05-20 13:52:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288981]
+[2024-05-20 13:52:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-20 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twinlib
+[2024-05-20 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Solverz
+[2024-05-20 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-paas
+[2024-05-20 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dig-ass-chat-protos
+[2024-05-20 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dig-ass-critic-protos
+[2024-05-20 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dig-ass-ep-protos
+[2024-05-20 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dig-ass-ocr-protos
+[2024-05-20 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reversedz
+[2024-05-20 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dig-ass-text-protos
+[2024-05-20 13:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Brightify
+[2024-05-20 13:52:16] WARNING root fetch - processPackages [netbox-paas]: Skipping, unable to determine old version
+[2024-05-20 13:52:16] INFO root fetch - processPackages [twinlib]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-05-20 13:52:16] INFO root fetch - main [MainThread]: End processing [netbox-paas] error
+[2024-05-20 13:52:16] INFO root fetch - processPackages [twinlib]: Downloading https://files.pythonhosted.org/packages/60/48/6cdc6500bf6fffacc6c66d22adfc5b14cb9779ac2f47d374bbedf975ec79/twinlib-0.1.7.tar.gz
+[2024-05-20 13:52:16] INFO root fetch - processPackages [Solverz]: New version: [0.0.1rc2] Old Version: [0.0.1rc1]
+[2024-05-20 13:52:16] INFO root fetch - processPackages [dig-ass-ocr-protos]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-20 13:52:16] INFO root fetch - processPackages [dig-ass-critic-protos]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-20 13:52:16] INFO root fetch - processPackages [dig-ass-ep-protos]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 13:52:16] WARNING root fetch - processPackages [reversedz]: Skipping, unable to determine old version
+[2024-05-20 13:52:16] INFO root fetch - main [MainThread]: End processing [reversedz] error
+[2024-05-20 13:52:16] INFO root fetch - processPackages [dig-ass-chat-protos]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 13:52:16] INFO root fetch - processPackages [dig-ass-text-protos]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-20 13:52:16] WARNING root fetch - processPackages [Brightify]: Skipping, unable to determine old version
+[2024-05-20 13:52:16] INFO root fetch - main [MainThread]: End processing [Brightify] error
+[2024-05-20 13:52:16] INFO root fetch - processPackages [twinlib]: Downloading https://files.pythonhosted.org/packages/af/26/22861c5792c2704e809e765e172d1b14e8de407a5efe7d4800dd74f084bf/twinlib-0.2.0.tar.gz
+[2024-05-20 13:52:16] INFO root fetch - processPackages [Solverz]: Downloading https://files.pythonhosted.org/packages/c1/c1/e580d84adf92d8d50604ed8a2b2fad78903464ff680eea4c85eabcc5a1dc/solverz-0.0.1rc1.tar.gz
+[2024-05-20 13:52:16] INFO root fetch - processPackages [dig-ass-ocr-protos]: Downloading https://files.pythonhosted.org/packages/5b/15/153bccb8b82eb213620cc721e99800f0d9f89091ee4551b4d6287cdfd64a/dig_ass_ocr_protos-0.0.7.tar.gz
+[2024-05-20 13:52:16] INFO root fetch - processPackages [dig-ass-text-protos]: Downloading https://files.pythonhosted.org/packages/65/e7/77455d6f9a177bea930406169d7a4aadfeb982a36c46f2dadc668eab4751/dig_ass_text_protos-1.0.3.tar.gz
+[2024-05-20 13:52:16] INFO root fetch - processPackages [dig-ass-chat-protos]: Downloading https://files.pythonhosted.org/packages/8d/90/94bb5eb3ab5af6d9963530557c19ea5707c87db9432b9eec66689af0bb27/dig_ass_chat_protos-1.0.2.tar.gz
+[2024-05-20 13:52:16] INFO root fetch - processPackages [dig-ass-ep-protos]: Downloading https://files.pythonhosted.org/packages/55/86/7b275b5cb366ca8dfdaa9a249bc8d11e6dcd81470ec4c812e5c23b57f3ef/dig_ass_ep_protos-1.0.2.tar.gz
+[2024-05-20 13:52:16] INFO root fetch - processPackages [dig-ass-critic-protos]: Downloading https://files.pythonhosted.org/packages/7a/9b/a9b72203be67668e612728d297f37551624aa0c08ee96fc535496acb28e7/dig_ass_critic_protos-1.0.5.tar.gz
+[2024-05-20 13:52:16] INFO root fetch - processPackages [twinlib]: executing diffoscope
+[2024-05-20 13:52:16] INFO root fetch - processPackages [twinlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twinlib-0.1.7.tar.gz tmp/twinlib-0.2.0.tar.gz --markdown 20240520/t/twinlib/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-ocr-protos]: Downloading https://files.pythonhosted.org/packages/9d/f9/7f3cb8b0e042d3a1205856efd4b64c318b79af11f520d885ebc26c42d270/dig_ass_ocr_protos-0.0.8.tar.gz
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-text-protos]: Downloading https://files.pythonhosted.org/packages/82/26/dc2c9d2baf4572e09a2ec2df1d8179b0704f46bcc8fd5625c14bbd3f20b3/dig_ass_text_protos-1.0.4.tar.gz
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-ep-protos]: Downloading https://files.pythonhosted.org/packages/4f/2b/d570a13f5f616324a7e9ef4f82293f782d7a885a25572480660eccf3a54b/dig_ass_ep_protos-1.0.3.tar.gz
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-chat-protos]: Downloading https://files.pythonhosted.org/packages/2e/50/76ac8bf112096f31a5147bc3f99cd2a2472aec1423b676fded2dfc276c03/dig_ass_chat_protos-1.0.3.tar.gz
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-critic-protos]: Downloading https://files.pythonhosted.org/packages/65/c1/9f9dffb2109e1e06e28d35995acb404f84a9e35ec896acb712b9fb6b716f/dig_ass_critic_protos-1.0.6.tar.gz
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-ep-protos]: executing diffoscope
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-ep-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_ep_protos-1.0.2.tar.gz tmp/dig_ass_ep_protos-1.0.3.tar.gz --markdown 20240520/d/dig-ass-ep-protos/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-chat-protos]: executing diffoscope
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-chat-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_chat_protos-1.0.2.tar.gz tmp/dig_ass_chat_protos-1.0.3.tar.gz --markdown 20240520/d/dig-ass-chat-protos/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-critic-protos]: executing diffoscope
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-critic-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_critic_protos-1.0.5.tar.gz tmp/dig_ass_critic_protos-1.0.6.tar.gz --markdown 20240520/d/dig-ass-critic-protos/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-20 13:52:17] INFO root fetch - processPackages [Solverz]: Downloading https://files.pythonhosted.org/packages/c6/a3/344ef81d65d4594f2193897f2aeeecd45fc84e5d82ab50fbc15125437e1b/solverz-0.0.1rc2.tar.gz
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-ocr-protos]: executing diffoscope
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-ocr-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_ocr_protos-0.0.7.tar.gz tmp/dig_ass_ocr_protos-0.0.8.tar.gz --markdown 20240520/d/dig-ass-ocr-protos/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-text-protos]: executing diffoscope
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-text-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_text_protos-1.0.3.tar.gz tmp/dig_ass_text_protos-1.0.4.tar.gz --markdown 20240520/d/dig-ass-text-protos/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-20 13:52:17] INFO root fetch - processPackages [twinlib]: Remove: archive file [/home/abi/fetcher/tmp/twinlib-0.1.7.tar.gz]
+[2024-05-20 13:52:17] INFO root fetch - processPackages [twinlib]: Remove: archive file [/home/abi/fetcher/tmp/twinlib-0.2.0.tar.gz]
+[2024-05-20 13:52:17] INFO root fetch - main [MainThread]: End processing [twinlib]: success
+[2024-05-20 13:52:17] INFO root fetch - processPackages [Solverz]: executing diffoscope
+[2024-05-20 13:52:17] INFO root fetch - processPackages [Solverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solverz-0.0.1rc1.tar.gz tmp/solverz-0.0.1rc2.tar.gz --markdown 20240520/S/Solverz/0.0.1rc1-0.0.1rc2/README.md --exclude *.pyd
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-critic-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_critic_protos-1.0.5.tar.gz]
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-critic-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_critic_protos-1.0.6.tar.gz]
+[2024-05-20 13:52:17] INFO root fetch - main [MainThread]: End processing [dig-ass-critic-protos]: success
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-chat-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_chat_protos-1.0.2.tar.gz]
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-ocr-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ocr_protos-0.0.7.tar.gz]
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-chat-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_chat_protos-1.0.3.tar.gz]
+[2024-05-20 13:52:17] INFO root fetch - processPackages [dig-ass-ocr-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ocr_protos-0.0.8.tar.gz]
+[2024-05-20 13:52:17] INFO root fetch - main [MainThread]: End processing [dig-ass-chat-protos]: success
+[2024-05-20 13:52:17] INFO root fetch - main [MainThread]: End processing [dig-ass-ocr-protos]: success
+[2024-05-20 13:52:18] INFO root fetch - processPackages [dig-ass-text-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_text_protos-1.0.3.tar.gz]
+[2024-05-20 13:52:18] INFO root fetch - processPackages [dig-ass-text-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_text_protos-1.0.4.tar.gz]
+[2024-05-20 13:52:18] INFO root fetch - main [MainThread]: End processing [dig-ass-text-protos]: success
+[2024-05-20 13:52:18] INFO root fetch - processPackages [dig-ass-ep-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ep_protos-1.0.2.tar.gz]
+[2024-05-20 13:52:18] INFO root fetch - processPackages [dig-ass-ep-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ep_protos-1.0.3.tar.gz]
+[2024-05-20 13:52:18] INFO root fetch - main [MainThread]: End processing [dig-ass-ep-protos]: success
+[2024-05-20 13:52:18] INFO root fetch - processPackages [Solverz]: Remove: archive file [/home/abi/fetcher/tmp/solverz-0.0.1rc1.tar.gz]
+[2024-05-20 13:52:18] INFO root fetch - processPackages [Solverz]: Remove: archive file [/home/abi/fetcher/tmp/solverz-0.0.1rc2.tar.gz]
+[2024-05-20 13:52:18] INFO root fetch - main [MainThread]: End processing [Solverz]: success
+[2024-05-20 13:52:18] INFO root fetch - main [MainThread]: Store serial: [23289009]

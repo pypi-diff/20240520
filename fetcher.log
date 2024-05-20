@@ -22756,3 +22756,69 @@ EOFError: EOF read where object expected
 [2024-05-20 17:54:34] INFO root fetch - processPackages [streamlit-datatables-net]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_datatables_net-0.0.9-py3-none-any.whl.zip]
 [2024-05-20 17:54:34] INFO root fetch - main [MainThread]: End processing [streamlit-datatables-net]: success
 [2024-05-20 17:54:34] INFO root fetch - main [MainThread]: Store serial: [23292066]
+[2024-05-20 17:56:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292066]
+[2024-05-20 17:56:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 17:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xklb
+[2024-05-20 17:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idyntree
+[2024-05-20 17:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minimd
+[2024-05-20 17:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WrenchCL
+[2024-05-20 17:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: italian-ats-evaluator
+[2024-05-20 17:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: daktari
+[2024-05-20 17:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stateless-sdk
+[2024-05-20 17:56:44] INFO root fetch - processPackages [italian-ats-evaluator]: New version: [2.0.0] Old Version: [1.0.2]
+[2024-05-20 17:56:44] INFO root fetch - processPackages [WrenchCL]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-20 17:56:44] INFO root fetch - processPackages [xklb]: New version: [2.8.9] Old Version: [2.8.7]
+[2024-05-20 17:56:44] INFO root fetch - processPackages [minimd]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-20 17:56:44] INFO root fetch - processPackages [italian-ats-evaluator]: Downloading https://files.pythonhosted.org/packages/f2/e2/a8e9920a9480ec448ab0e3cf00850154e969aa6eac2e4cab874b2cd01457/italian_ats_evaluator-1.0.2.tar.gz
+[2024-05-20 17:56:44] INFO root fetch - processPackages [stateless-sdk]: New version: [0.0.9b3] Old Version: [0.0.9b2]
+[2024-05-20 17:56:44] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-20 17:56:44] INFO root fetch - processPackages [WrenchCL]: Downloading https://files.pythonhosted.org/packages/8d/d5/b68a52790c3c3f491607f3721dfdc8890ebf716ce1ea955b158c7d22fcc6/WrenchCL-2.1.4.tar.gz
+[2024-05-20 17:56:44] INFO root fetch - processPackages [idyntree]: New version: [9.1.1.dev7] Old Version: [9.1.1.dev66]
+[2024-05-20 17:56:44] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/d0/4c/dd8350e7201f303ad86c28ba6e4c3856a9aebf36175bf2091b4f223b9c8c/xklb-2.8.7.tar.gz
+[2024-05-20 17:56:44] INFO root fetch - processPackages [minimd]: Downloading https://files.pythonhosted.org/packages/02/7b/7b082839fa8997d35ccdb83584dd1afbc16ad989104a4e06c4fd137f8d31/minimd-1.0.1.tar.gz
+[2024-05-20 17:56:44] INFO root fetch - processPackages [italian-ats-evaluator]: Downloading https://files.pythonhosted.org/packages/b1/f1/ff97f10194281c9e49b10bf126d78688ad64f55a29e6b8ce45a18bc2fbe8/italian_ats_evaluator-2.0.0.tar.gz
+[2024-05-20 17:56:44] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2024-05-20 17:56:44] INFO root fetch - processPackages [stateless-sdk]: Downloading https://files.pythonhosted.org/packages/91/ea/32220bafedf7bc17e84921739d6d7cf527146fad580807f28a1e8c906bb1/stateless-sdk-0.0.9b2.tar.gz
+[2024-05-20 17:56:44] INFO root fetch - processPackages [WrenchCL]: Downloading https://files.pythonhosted.org/packages/b3/57/b410a6b68086d58cb3ed1ea7679fee320cfba12f7846fd46a7775ead3373/WrenchCL-2.1.5.tar.gz
+[2024-05-20 17:56:44] INFO root fetch - processPackages [idyntree]: Downloading https://files.pythonhosted.org/packages/76/a5/1247ee2872af22dcbefb11765984c8d63901b3470cc9b76e60ccf663962d/idyntree-9.1.1.dev66.tar.gz
+[2024-05-20 17:56:44] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/79/9c/400b6a77dca189a0e6b267e0a874e85e6bc388a14703931b845294411c06/xklb-2.8.9.tar.gz
+[2024-05-20 17:56:44] INFO root fetch - processPackages [italian-ats-evaluator]: executing diffoscope
+[2024-05-20 17:56:44] INFO root fetch - processPackages [italian-ats-evaluator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/italian_ats_evaluator-1.0.2.tar.gz tmp/italian_ats_evaluator-2.0.0.tar.gz --markdown 20240520/i/italian-ats-evaluator/1.0.2-2.0.0/README.md --exclude *.pyd
+[2024-05-20 17:56:44] INFO root fetch - processPackages [WrenchCL]: executing diffoscope
+[2024-05-20 17:56:44] INFO root fetch - processPackages [WrenchCL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WrenchCL-2.1.4.tar.gz tmp/WrenchCL-2.1.5.tar.gz --markdown 20240520/W/WrenchCL/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-20 17:56:44] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2024-05-20 17:56:44] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.8.7.tar.gz tmp/xklb-2.8.9.tar.gz --markdown 20240520/x/xklb/2.8.7-2.8.9/README.md --exclude *.pyd
+[2024-05-20 17:56:44] INFO root fetch - processPackages [minimd]: Downloading https://files.pythonhosted.org/packages/b8/37/73250d08da94e0cf12b765daf17d9dd873178efa103559e0b8d5d462f6af/minimd-1.0.2.tar.gz
+[2024-05-20 17:56:44] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2024-05-20 17:56:44] INFO root fetch - processPackages [stateless-sdk]: Downloading https://files.pythonhosted.org/packages/27/9a/355a0d759312167070d809c3ec259f9acf31d60526197a3437bebb1ea05f/stateless-sdk-0.0.9b3.tar.gz
+[2024-05-20 17:56:44] INFO root fetch - processPackages [minimd]: executing diffoscope
+[2024-05-20 17:56:44] INFO root fetch - processPackages [minimd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minimd-1.0.1.tar.gz tmp/minimd-1.0.2.tar.gz --markdown 20240520/m/minimd/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-20 17:56:44] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2024-05-20 17:56:44] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20240520/d/daktari/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-20 17:56:44] INFO root fetch - processPackages [idyntree]: Downloading https://files.pythonhosted.org/packages/78/f2/4d2e1d78385d4212efccdb8de7298bc988fbdbce6023e2f4a830fe03727e/idyntree-9.1.1.dev7.tar.gz
+[2024-05-20 17:56:45] INFO root fetch - processPackages [stateless-sdk]: executing diffoscope
+[2024-05-20 17:56:45] INFO root fetch - processPackages [stateless-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stateless-sdk-0.0.9b2.tar.gz tmp/stateless-sdk-0.0.9b3.tar.gz --markdown 20240520/s/stateless-sdk/0.0.9b2-0.0.9b3/README.md --exclude *.pyd
+[2024-05-20 17:56:45] INFO root fetch - processPackages [idyntree]: executing diffoscope
+[2024-05-20 17:56:45] INFO root fetch - processPackages [idyntree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idyntree-9.1.1.dev66.tar.gz tmp/idyntree-9.1.1.dev7.tar.gz --markdown 20240520/i/idyntree/9.1.1.dev66-9.1.1.dev7/README.md --exclude *.pyd
+[2024-05-20 17:56:45] INFO root fetch - processPackages [italian-ats-evaluator]: Remove: archive file [/home/abi/fetcher/tmp/italian_ats_evaluator-1.0.2.tar.gz]
+[2024-05-20 17:56:45] INFO root fetch - processPackages [italian-ats-evaluator]: Remove: archive file [/home/abi/fetcher/tmp/italian_ats_evaluator-2.0.0.tar.gz]
+[2024-05-20 17:56:45] INFO root fetch - main [MainThread]: End processing [italian-ats-evaluator]: success
+[2024-05-20 17:56:45] INFO root fetch - processPackages [WrenchCL]: Remove: archive file [/home/abi/fetcher/tmp/WrenchCL-2.1.4.tar.gz]
+[2024-05-20 17:56:45] INFO root fetch - processPackages [WrenchCL]: Remove: archive file [/home/abi/fetcher/tmp/WrenchCL-2.1.5.tar.gz]
+[2024-05-20 17:56:45] INFO root fetch - main [MainThread]: End processing [WrenchCL]: success
+[2024-05-20 17:56:45] INFO root fetch - processPackages [minimd]: Remove: archive file [/home/abi/fetcher/tmp/minimd-1.0.1.tar.gz]
+[2024-05-20 17:56:45] INFO root fetch - processPackages [minimd]: Remove: archive file [/home/abi/fetcher/tmp/minimd-1.0.2.tar.gz]
+[2024-05-20 17:56:45] INFO root fetch - main [MainThread]: End processing [minimd]: success
+[2024-05-20 17:56:45] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2024-05-20 17:56:45] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2024-05-20 17:56:45] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2024-05-20 17:56:45] INFO root fetch - processPackages [stateless-sdk]: Remove: archive file [/home/abi/fetcher/tmp/stateless-sdk-0.0.9b2.tar.gz]
+[2024-05-20 17:56:45] INFO root fetch - processPackages [stateless-sdk]: Remove: archive file [/home/abi/fetcher/tmp/stateless-sdk-0.0.9b3.tar.gz]
+[2024-05-20 17:56:45] INFO root fetch - main [MainThread]: End processing [stateless-sdk]: success
+[2024-05-20 17:56:45] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.7.tar.gz]
+[2024-05-20 17:56:45] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.8.9.tar.gz]
+[2024-05-20 17:56:45] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2024-05-20 17:56:54] INFO root fetch - processPackages [idyntree]: Remove: archive file [/home/abi/fetcher/tmp/idyntree-9.1.1.dev66.tar.gz]
+[2024-05-20 17:56:54] INFO root fetch - processPackages [idyntree]: Remove: archive file [/home/abi/fetcher/tmp/idyntree-9.1.1.dev7.tar.gz]
+[2024-05-20 17:56:54] INFO root fetch - main [MainThread]: End processing [idyntree]: success
+[2024-05-20 17:56:54] INFO root fetch - main [MainThread]: Store serial: [23292092]

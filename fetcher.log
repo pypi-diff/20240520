@@ -6413,3 +6413,38 @@
 [2024-05-20 06:27:52] WARNING root fetch - processPackages [whiggingz]: Skipping, unable to determine old version
 [2024-05-20 06:27:52] INFO root fetch - main [MainThread]: End processing [whiggingz] error
 [2024-05-20 06:27:52] INFO root fetch - main [MainThread]: Store serial: [23284421]
+[2024-05-20 06:29:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284421]
+[2024-05-20 06:30:01] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-20 06:32:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284423]
+[2024-05-20 06:32:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abcli
+[2024-05-20 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: named-arrays
+[2024-05-20 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: carcassesz
+[2024-05-20 06:32:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deps-manager
+[2024-05-20 06:32:06] INFO root fetch - processPackages [deps-manager]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-20 06:32:06] INFO root fetch - processPackages [abcli]: New version: [8.190.1] Old Version: [8.186.1]
+[2024-05-20 06:32:06] INFO root fetch - processPackages [named-arrays]: New version: [0.4.0] Old Version: [0.3.7]
+[2024-05-20 06:32:06] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/b5/d1/da7535318e019922f3368823fd1ba7d3706c2401bb686f24db92aa77fe92/abcli-8.186.1.tar.gz
+[2024-05-20 06:32:06] INFO root fetch - processPackages [deps-manager]: Downloading https://files.pythonhosted.org/packages/75/e3/dea9b04abe899077a9a4efaf782272421e5f9dba05c6d46a25cde2863e26/deps-manager-1.0.4.tar.gz
+[2024-05-20 06:32:06] WARNING root fetch - processPackages [carcassesz]: Skipping, unable to determine old version
+[2024-05-20 06:32:06] INFO root fetch - main [MainThread]: End processing [carcassesz] error
+[2024-05-20 06:32:06] INFO root fetch - processPackages [named-arrays]: Downloading https://files.pythonhosted.org/packages/d4/79/5d9c585d0744dd0a4efe8a47b9438ad216e3539bc8338f66dc3774e5af32/named-arrays-0.3.7.tar.gz
+[2024-05-20 06:32:07] INFO root fetch - processPackages [named-arrays]: Downloading https://files.pythonhosted.org/packages/bd/d5/6f18b9f36598cc3ac460da4305219a568a28d627eda326dd5f64417082b6/named_arrays-0.4.0.tar.gz
+[2024-05-20 06:32:07] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/8a/c5/f7acf6dfcdafb6fbaac1ae7bc1665d4c3cf9ab7f3677921cfcef7983f835/abcli-8.190.1.tar.gz
+[2024-05-20 06:32:07] INFO root fetch - processPackages [deps-manager]: Downloading https://files.pythonhosted.org/packages/35/b4/a47a4ef71e1a25343deba5f04ee277dacf10becae5b3499be66bcd26aca6/deps-manager-1.0.5.tar.gz
+[2024-05-20 06:32:07] INFO root fetch - processPackages [named-arrays]: executing diffoscope
+[2024-05-20 06:32:07] INFO root fetch - processPackages [named-arrays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/named-arrays-0.3.7.tar.gz tmp/named_arrays-0.4.0.tar.gz --markdown 20240520/n/named-arrays/0.3.7-0.4.0/README.md --exclude *.pyd
+[2024-05-20 06:32:07] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-05-20 06:32:07] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-8.186.1.tar.gz tmp/abcli-8.190.1.tar.gz --markdown 20240520/a/abcli/8.186.1-8.190.1/README.md --exclude *.pyd
+[2024-05-20 06:32:07] INFO root fetch - processPackages [deps-manager]: executing diffoscope
+[2024-05-20 06:32:07] INFO root fetch - processPackages [deps-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deps-manager-1.0.4.tar.gz tmp/deps-manager-1.0.5.tar.gz --markdown 20240520/d/deps-manager/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-20 06:32:07] INFO root fetch - processPackages [deps-manager]: Remove: archive file [/home/abi/fetcher/tmp/deps-manager-1.0.4.tar.gz]
+[2024-05-20 06:32:07] INFO root fetch - processPackages [deps-manager]: Remove: archive file [/home/abi/fetcher/tmp/deps-manager-1.0.5.tar.gz]
+[2024-05-20 06:32:07] INFO root fetch - main [MainThread]: End processing [deps-manager]: success
+[2024-05-20 06:32:07] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.186.1.tar.gz]
+[2024-05-20 06:32:07] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.190.1.tar.gz]
+[2024-05-20 06:32:07] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-05-20 06:32:08] INFO root fetch - processPackages [named-arrays]: Remove: archive file [/home/abi/fetcher/tmp/named-arrays-0.3.7.tar.gz]
+[2024-05-20 06:32:08] INFO root fetch - processPackages [named-arrays]: Remove: archive file [/home/abi/fetcher/tmp/named_arrays-0.4.0.tar.gz]
+[2024-05-20 06:32:08] INFO root fetch - main [MainThread]: End processing [named-arrays]: success
+[2024-05-20 06:32:08] INFO root fetch - main [MainThread]: Store serial: [23284435]

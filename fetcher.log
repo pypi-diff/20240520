@@ -12609,3 +12609,99 @@
 [2024-05-20 11:38:37] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.5.9.tar.gz]
 [2024-05-20 11:38:37] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
 [2024-05-20 11:38:37] INFO root fetch - main [MainThread]: Store serial: [23287614]
+[2024-05-20 11:40:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287614]
+[2024-05-20 11:40:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-20 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipython-ngql
+[2024-05-20 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manhuntingz
+[2024-05-20 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kit4dl
+[2024-05-20 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-nebulagraph
+[2024-05-20 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymodins
+[2024-05-20 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wizata-dsapi
+[2024-05-20 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cycode
+[2024-05-20 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: braintools
+[2024-05-20 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: murfey
+[2024-05-20 11:40:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: doxmlparser
+[2024-05-20 11:40:46] INFO root fetch - processPackages [kit4dl]: New version: [2023.9b2] Old Version: [2023.9b1]
+[2024-05-20 11:40:46] INFO root fetch - processPackages [wizata-dsapi]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-20 11:40:46] INFO root fetch - processPackages [cycode]: New version: [1.9.6.dev1] Old Version: [1.9.5.dev5]
+[2024-05-20 11:40:46] INFO root fetch - processPackages [jupyter-nebulagraph]: New version: [0.9.1] Old Version: [0.12.1]
+[2024-05-20 11:40:46] WARNING root fetch - processPackages [manhuntingz]: Skipping, unable to determine old version
+[2024-05-20 11:40:46] INFO root fetch - processPackages [manhuntingz]: Start processing: arclet-entari
+[2024-05-20 11:40:46] INFO root fetch - main [MainThread]: End processing [manhuntingz] error
+[2024-05-20 11:40:46] INFO root fetch - processPackages [ipython-ngql]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 11:40:46] INFO root fetch - processPackages [braintools]: New version: [0.0.3.post20240520] Old Version: [0.0.3]
+[2024-05-20 11:40:46] INFO root fetch - processPackages [pymodins]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-20 11:40:46] INFO root fetch - processPackages [doxmlparser]: New version: [1.11.0] Old Version: [1.10.0]
+[2024-05-20 11:40:46] INFO root fetch - processPackages [murfey]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-20 11:40:46] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/31/b9/642d3bb62da98cc25253d924a94d95d33b01dcb06e718a57455cf5442e7c/wizata_dsapi-1.0.3.tar.gz
+[2024-05-20 11:40:46] INFO root fetch - processPackages [kit4dl]: Downloading https://files.pythonhosted.org/packages/ab/b6/0d234c0791d7ba067fbcbe82fda46e7bb51adb24e0c1d11f544af8420779/kit4dl-2023.9b1.tar.gz
+[2024-05-20 11:40:46] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/cf/e1/9cb3a2b3bee08a39b3d30e6a4efecb8851fb584cb9c0f4a7bbadf8d5528e/jupyter_nebulagraph-0.12.1.tar.gz
+[2024-05-20 11:40:46] INFO root fetch - processPackages [arclet-entari]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-20 11:40:46] INFO root fetch - processPackages [braintools]: Downloading https://files.pythonhosted.org/packages/04/0b/eb9e544e338973c4aabd74110f0c297423e3d41bb1de040c2a66aed3f89c/braintools-0.0.3-py2.py3-none-any.whl
+[2024-05-20 11:40:46] INFO root fetch - processPackages [pymodins]: Downloading https://files.pythonhosted.org/packages/c6/e8/53e9ef4844dfc9401a28e6f8368c4a171d223b3128872e4e369560cae652/pymodins-0.1.7.tar.gz
+[2024-05-20 11:40:46] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/57/f1/26e9e2b7a0b9fd8fc6b011758da990329df36337e38cf312f30ac765c0cc/cycode-1.9.5.dev5.tar.gz
+[2024-05-20 11:40:46] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/80/b3/2a63cf17e883ec2bfb25a7e07bb4b569260172bd03d466bebbbd1c1b2545/murfey-0.9.8.tar.gz
+[2024-05-20 11:40:46] INFO root fetch - processPackages [doxmlparser]: Downloading https://files.pythonhosted.org/packages/32/64/41103f77c2f0af4bc10698b76ac8d8d9464c22b332ddbabd09bef04059ca/doxmlparser-1.10.0-py3-none-any.whl
+[2024-05-20 11:40:46] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/29/8c/9d77f828925990c5c1f92de36b653cbc1ee6e73b634725e3d098b12f8d05/ipython-ngql-0.9.0.tar.gz
+[2024-05-20 11:40:46] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/03/21/3aba3b958f54d7fba757bc5c5e635414bac546cab394d7fc2edec3052eb5/wizata_dsapi-1.0.4.tar.gz
+[2024-05-20 11:40:46] INFO root fetch - processPackages [kit4dl]: Downloading https://files.pythonhosted.org/packages/2e/23/2b393abbbc0eb72f8a8aa563b98d1a1d96c3ed90c93c58f1f7a176bd03ea/kit4dl-2023.9b2.tar.gz
+[2024-05-20 11:40:46] INFO root fetch - processPackages [arclet-entari]: Downloading https://files.pythonhosted.org/packages/42/e2/9ca9db900f02661dc0422aa1849a0994c95b3fcee0818a64d29582f4a8bf/arclet_entari-0.4.0.tar.gz
+[2024-05-20 11:40:47] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2024-05-20 11:40:47] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata_dsapi-1.0.3.tar.gz tmp/wizata_dsapi-1.0.4.tar.gz --markdown 20240520/w/wizata-dsapi/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-20 11:40:47] INFO root fetch - processPackages [kit4dl]: executing diffoscope
+[2024-05-20 11:40:47] INFO root fetch - processPackages [kit4dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kit4dl-2023.9b1.tar.gz tmp/kit4dl-2023.9b2.tar.gz --markdown 20240520/k/kit4dl/2023.9b1-2023.9b2/README.md --exclude *.pyd
+[2024-05-20 11:40:47] INFO root fetch - processPackages [pymodins]: Downloading https://files.pythonhosted.org/packages/79/e5/fd54a1ee4b3913987bdf0db0c96dd85c8d897ed1892dc1bea967daa6fb84/pymodins-0.1.8.tar.gz
+[2024-05-20 11:40:47] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/1e/36/2bd2318a3185566999ef171ead515c66e093ebe35ef120dcc194a7e4a4e8/cycode-1.9.6.dev1.tar.gz
+[2024-05-20 11:40:47] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/88/06/2fe02a0f2247e1cb1535a7e370f17dac6a53217d2cf9259b8dde3aa9e34a/jupyter_nebulagraph-0.9.1.tar.gz
+[2024-05-20 11:40:47] INFO root fetch - processPackages [braintools]: Downloading https://files.pythonhosted.org/packages/32/57/caab276d901a4fe236ad11e93e59f7e744afbab6273629e6ead58060ad49/braintools-0.0.3.post20240520-py2.py3-none-any.whl
+[2024-05-20 11:40:47] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/85/5b/d739e0d6e616df491f6ad44156d4ac4eb6a9a8f3e125574cf1a49296483b/ipython-ngql-0.9.1.tar.gz
+[2024-05-20 11:40:47] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/41/36/17b8c3b4dd1ba8e5f1dccd6d6eaa0ccf95a84030a1a9869912aada70795e/murfey-0.9.9.tar.gz
+[2024-05-20 11:40:47] INFO root fetch - processPackages [doxmlparser]: Downloading https://files.pythonhosted.org/packages/6a/1f/7a6a321e3f9744298e5867157416c5cc5440db4655a41b7b6afdafae446f/doxmlparser-1.11.0-py3-none-any.whl
+[2024-05-20 11:40:47] INFO root fetch - processPackages [jupyter-nebulagraph]: executing diffoscope
+[2024-05-20 11:40:47] INFO root fetch - processPackages [jupyter-nebulagraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_nebulagraph-0.12.1.tar.gz tmp/jupyter_nebulagraph-0.9.1.tar.gz --markdown 20240520/j/jupyter-nebulagraph/0.12.1-0.9.1/README.md --exclude *.pyd
+[2024-05-20 11:40:47] INFO root fetch - processPackages [pymodins]: executing diffoscope
+[2024-05-20 11:40:47] INFO root fetch - processPackages [pymodins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodins-0.1.7.tar.gz tmp/pymodins-0.1.8.tar.gz --markdown 20240520/p/pymodins/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-20 11:40:47] INFO root fetch - processPackages [ipython-ngql]: executing diffoscope
+[2024-05-20 11:40:47] INFO root fetch - processPackages [ipython-ngql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-ngql-0.9.0.tar.gz tmp/ipython-ngql-0.9.1.tar.gz --markdown 20240520/i/ipython-ngql/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 11:40:47] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2024-05-20 11:40:47] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-1.9.5.dev5.tar.gz tmp/cycode-1.9.6.dev1.tar.gz --markdown 20240520/c/cycode/1.9.5.dev5-1.9.6.dev1/README.md --exclude *.pyd
+[2024-05-20 11:40:47] INFO root fetch - processPackages [arclet-entari]: Downloading https://files.pythonhosted.org/packages/11/b9/da679ff516124533128b2b199c937b7ad1080b029129be411ca1640f470f/arclet_entari-0.4.1.tar.gz
+[2024-05-20 11:40:47] INFO root fetch - processPackages [braintools]: executing diffoscope
+[2024-05-20 11:40:47] INFO root fetch - processPackages [braintools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintools-0.0.3-py2.py3-none-any.whl.zip tmp/braintools-0.0.3.post20240520-py2.py3-none-any.whl.zip --markdown 20240520/b/braintools/0.0.3-0.0.3.post20240520/README.md --exclude *.pyd
+[2024-05-20 11:40:47] INFO root fetch - processPackages [murfey]: executing diffoscope
+[2024-05-20 11:40:47] INFO root fetch - processPackages [murfey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murfey-0.9.8.tar.gz tmp/murfey-0.9.9.tar.gz --markdown 20240520/m/murfey/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-20 11:40:47] INFO root fetch - processPackages [doxmlparser]: executing diffoscope
+[2024-05-20 11:40:47] INFO root fetch - processPackages [doxmlparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doxmlparser-1.10.0-py3-none-any.whl.zip tmp/doxmlparser-1.11.0-py3-none-any.whl.zip --markdown 20240520/d/doxmlparser/1.10.0-1.11.0/README.md --exclude *.pyd
+[2024-05-20 11:40:47] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata_dsapi-1.0.3.tar.gz]
+[2024-05-20 11:40:47] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata_dsapi-1.0.4.tar.gz]
+[2024-05-20 11:40:47] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2024-05-20 11:40:48] INFO root fetch - processPackages [arclet-entari]: executing diffoscope
+[2024-05-20 11:40:48] INFO root fetch - processPackages [arclet-entari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet_entari-0.4.0.tar.gz tmp/arclet_entari-0.4.1.tar.gz --markdown 20240520/a/arclet-entari/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-20 11:40:48] INFO root fetch - processPackages [kit4dl]: Remove: archive file [/home/abi/fetcher/tmp/kit4dl-2023.9b1.tar.gz]
+[2024-05-20 11:40:48] INFO root fetch - processPackages [kit4dl]: Remove: archive file [/home/abi/fetcher/tmp/kit4dl-2023.9b2.tar.gz]
+[2024-05-20 11:40:48] INFO root fetch - main [MainThread]: End processing [kit4dl]: success
+[2024-05-20 11:40:48] INFO root fetch - processPackages [pymodins]: Remove: archive file [/home/abi/fetcher/tmp/pymodins-0.1.7.tar.gz]
+[2024-05-20 11:40:48] INFO root fetch - processPackages [pymodins]: Remove: archive file [/home/abi/fetcher/tmp/pymodins-0.1.8.tar.gz]
+[2024-05-20 11:40:48] INFO root fetch - main [MainThread]: End processing [pymodins]: success
+[2024-05-20 11:40:48] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.12.1.tar.gz]
+[2024-05-20 11:40:48] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.9.1.tar.gz]
+[2024-05-20 11:40:48] INFO root fetch - main [MainThread]: End processing [jupyter-nebulagraph]: success
+[2024-05-20 11:40:48] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.0.tar.gz]
+[2024-05-20 11:40:48] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.1.tar.gz]
+[2024-05-20 11:40:48] INFO root fetch - main [MainThread]: End processing [ipython-ngql]: success
+[2024-05-20 11:40:48] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.5.dev5.tar.gz]
+[2024-05-20 11:40:48] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.6.dev1.tar.gz]
+[2024-05-20 11:40:48] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2024-05-20 11:40:48] INFO root fetch - processPackages [braintools]: Remove: archive file [/home/abi/fetcher/tmp/braintools-0.0.3-py2.py3-none-any.whl.zip]
+[2024-05-20 11:40:48] INFO root fetch - processPackages [braintools]: Remove: archive file [/home/abi/fetcher/tmp/braintools-0.0.3.post20240520-py2.py3-none-any.whl.zip]
+[2024-05-20 11:40:48] INFO root fetch - main [MainThread]: End processing [braintools]: success
+[2024-05-20 11:40:48] INFO root fetch - processPackages [doxmlparser]: Remove: archive file [/home/abi/fetcher/tmp/doxmlparser-1.10.0-py3-none-any.whl.zip]
+[2024-05-20 11:40:48] INFO root fetch - processPackages [doxmlparser]: Remove: archive file [/home/abi/fetcher/tmp/doxmlparser-1.11.0-py3-none-any.whl.zip]
+[2024-05-20 11:40:48] INFO root fetch - main [MainThread]: End processing [doxmlparser]: success
+[2024-05-20 11:40:48] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.9.8.tar.gz]
+[2024-05-20 11:40:48] INFO root fetch - processPackages [murfey]: Remove: archive file [/home/abi/fetcher/tmp/murfey-0.9.9.tar.gz]
+[2024-05-20 11:40:48] INFO root fetch - main [MainThread]: End processing [murfey]: success
+[2024-05-20 11:40:48] INFO root fetch - processPackages [arclet-entari]: Remove: archive file [/home/abi/fetcher/tmp/arclet_entari-0.4.0.tar.gz]
+[2024-05-20 11:40:48] INFO root fetch - processPackages [arclet-entari]: Remove: archive file [/home/abi/fetcher/tmp/arclet_entari-0.4.1.tar.gz]
+[2024-05-20 11:40:48] INFO root fetch - main [MainThread]: End processing [arclet-entari]: success
+[2024-05-20 11:40:48] INFO root fetch - main [MainThread]: Store serial: [23287642]

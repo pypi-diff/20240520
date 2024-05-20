@@ -5537,3 +5537,59 @@
 [2024-05-20 05:11:18] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-4.2-py3-none-any.whl.zip]
 [2024-05-20 05:11:18] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
 [2024-05-20 05:11:18] INFO root fetch - main [MainThread]: Store serial: [23284046]
+[2024-05-20 05:13:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284046]
+[2024-05-20 05:13:27] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-20 05:15:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284047]
+[2024-05-20 05:15:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 05:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: migro
+[2024-05-20 05:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqlogic
+[2024-05-20 05:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: REVHubInterface
+[2024-05-20 05:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datable-ai
+[2024-05-20 05:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrnaseq
+[2024-05-20 05:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uredinealz
+[2024-05-20 05:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deepdog
+[2024-05-20 05:15:32] INFO root fetch - processPackages [seqlogic]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-20 05:15:32] INFO root fetch - processPackages [REVHubInterface]: New version: [1.3.3.dev9] Old Version: [1.3.3.dev8]
+[2024-05-20 05:15:32] INFO root fetch - processPackages [migro]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-20 05:15:33] WARNING root fetch - processPackages [scrnaseq]: Skipping, unable to determine old version
+[2024-05-20 05:15:33] INFO root fetch - main [MainThread]: End processing [scrnaseq] error
+[2024-05-20 05:15:33] INFO root fetch - processPackages [datable-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 05:15:33] WARNING root fetch - processPackages [uredinealz]: Skipping, unable to determine old version
+[2024-05-20 05:15:33] INFO root fetch - main [MainThread]: End processing [uredinealz] error
+[2024-05-20 05:15:33] INFO root fetch - processPackages [seqlogic]: Downloading https://files.pythonhosted.org/packages/2b/d6/912132c46cf4e20125228fd882ae6ae1db692b95b3152aa94a5830d41c27/seqlogic-0.0.9.tar.gz
+[2024-05-20 05:15:33] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/0d/90/3c74a9c7310ba2da2e673cb67d3e8c65e5460209759ef2fa291efce82ab5/revhubinterface-1.3.3.dev8.tar.gz
+[2024-05-20 05:15:33] INFO root fetch - processPackages [deepdog]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-20 05:15:33] INFO root fetch - processPackages [migro]: Downloading https://files.pythonhosted.org/packages/7c/a5/65e280e20d2461d782a0dc8c5db111dc3101e4eac8ab98a310970ad5d19b/migro-0.3.0-py3-none-any.whl
+[2024-05-20 05:15:33] INFO root fetch - processPackages [datable-ai]: Downloading https://files.pythonhosted.org/packages/0d/54/9ede3db0429e8cd3692f7a2bf68cd471f37476f883b9e7be67d36d6fc375/datable_ai-0.0.8.tar.gz
+[2024-05-20 05:15:33] INFO root fetch - processPackages [seqlogic]: Downloading https://files.pythonhosted.org/packages/f9/0a/ea7cbad1d9a079fa531487d759b250c797d2a1f4b5ab6d8241cb03a2f143/seqlogic-0.1.0.tar.gz
+[2024-05-20 05:15:33] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/47/93/e2ab5da20dcdca793ff04faa5aa5f38bb3f149e7bf70c77c15ac7d127689/revhubinterface-1.3.3.dev9.tar.gz
+[2024-05-20 05:15:33] INFO root fetch - processPackages [deepdog]: Downloading https://files.pythonhosted.org/packages/77/40/485592aadd7e57b179379e63e63408a8257d7b1ba5213e8e942f4e970d8e/deepdog-1.2.1.tar.gz
+[2024-05-20 05:15:33] INFO root fetch - processPackages [seqlogic]: executing diffoscope
+[2024-05-20 05:15:33] INFO root fetch - processPackages [seqlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqlogic-0.0.9.tar.gz tmp/seqlogic-0.1.0.tar.gz --markdown 20240520/s/seqlogic/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-20 05:15:33] INFO root fetch - processPackages [REVHubInterface]: executing diffoscope
+[2024-05-20 05:15:33] INFO root fetch - processPackages [REVHubInterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revhubinterface-1.3.3.dev8.tar.gz tmp/revhubinterface-1.3.3.dev9.tar.gz --markdown 20240520/R/REVHubInterface/1.3.3.dev8-1.3.3.dev9/README.md --exclude *.pyd
+[2024-05-20 05:15:33] INFO root fetch - processPackages [migro]: Downloading https://files.pythonhosted.org/packages/2a/9c/421794c52f333f6af8f383a218d31c44481a2b50a83e8172205441d381ec/migro-0.4.0-py3-none-any.whl
+[2024-05-20 05:15:33] INFO root fetch - processPackages [datable-ai]: Downloading https://files.pythonhosted.org/packages/33/e2/c47c381e255df97f2ba7c51a0b06c03d78559b35344db1666610ba4682d3/datable_ai-0.0.9.tar.gz
+[2024-05-20 05:15:33] INFO root fetch - processPackages [migro]: executing diffoscope
+[2024-05-20 05:15:33] INFO root fetch - processPackages [migro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migro-0.3.0-py3-none-any.whl.zip tmp/migro-0.4.0-py3-none-any.whl.zip --markdown 20240520/m/migro/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-20 05:15:33] INFO root fetch - processPackages [deepdog]: Downloading https://files.pythonhosted.org/packages/a4/d2/81c750d1b238d37d8cab16d620d43ad95a4e8d03fa9b433af055815eb860/deepdog-1.3.0.tar.gz
+[2024-05-20 05:15:33] INFO root fetch - processPackages [datable-ai]: executing diffoscope
+[2024-05-20 05:15:33] INFO root fetch - processPackages [datable-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datable_ai-0.0.8.tar.gz tmp/datable_ai-0.0.9.tar.gz --markdown 20240520/d/datable-ai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 05:15:33] INFO root fetch - processPackages [deepdog]: executing diffoscope
+[2024-05-20 05:15:33] INFO root fetch - processPackages [deepdog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdog-1.2.1.tar.gz tmp/deepdog-1.3.0.tar.gz --markdown 20240520/d/deepdog/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-20 05:15:34] INFO root fetch - processPackages [seqlogic]: Remove: archive file [/home/abi/fetcher/tmp/seqlogic-0.0.9.tar.gz]
+[2024-05-20 05:15:34] INFO root fetch - processPackages [seqlogic]: Remove: archive file [/home/abi/fetcher/tmp/seqlogic-0.1.0.tar.gz]
+[2024-05-20 05:15:34] INFO root fetch - main [MainThread]: End processing [seqlogic]: success
+[2024-05-20 05:15:34] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev8.tar.gz]
+[2024-05-20 05:15:34] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev9.tar.gz]
+[2024-05-20 05:15:34] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
+[2024-05-20 05:15:34] INFO root fetch - processPackages [migro]: Remove: archive file [/home/abi/fetcher/tmp/migro-0.3.0-py3-none-any.whl.zip]
+[2024-05-20 05:15:34] INFO root fetch - processPackages [migro]: Remove: archive file [/home/abi/fetcher/tmp/migro-0.4.0-py3-none-any.whl.zip]
+[2024-05-20 05:15:34] INFO root fetch - main [MainThread]: End processing [migro]: success
+[2024-05-20 05:15:34] INFO root fetch - processPackages [datable-ai]: Remove: archive file [/home/abi/fetcher/tmp/datable_ai-0.0.8.tar.gz]
+[2024-05-20 05:15:34] INFO root fetch - processPackages [datable-ai]: Remove: archive file [/home/abi/fetcher/tmp/datable_ai-0.0.9.tar.gz]
+[2024-05-20 05:15:34] INFO root fetch - main [MainThread]: End processing [datable-ai]: success
+[2024-05-20 05:15:34] INFO root fetch - processPackages [deepdog]: Remove: archive file [/home/abi/fetcher/tmp/deepdog-1.2.1.tar.gz]
+[2024-05-20 05:15:34] INFO root fetch - processPackages [deepdog]: Remove: archive file [/home/abi/fetcher/tmp/deepdog-1.3.0.tar.gz]
+[2024-05-20 05:15:34] INFO root fetch - main [MainThread]: End processing [deepdog]: success
+[2024-05-20 05:15:34] INFO root fetch - main [MainThread]: Store serial: [23284073]

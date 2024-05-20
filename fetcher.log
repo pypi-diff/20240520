@@ -11495,3 +11495,41 @@
 [2024-05-20 10:56:34] INFO root fetch - processPackages [elastic-apm]: Remove: archive file [/home/abi/fetcher/tmp/elastic-apm-6.9.1.tar.gz]
 [2024-05-20 10:56:34] INFO root fetch - main [MainThread]: End processing [elastic-apm]: success
 [2024-05-20 10:56:34] INFO root fetch - main [MainThread]: Store serial: [23287162]
+[2024-05-20 10:58:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287162]
+[2024-05-20 10:58:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 10:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rnavirhost
+[2024-05-20 10:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qwak-core
+[2024-05-20 10:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastblocks
+[2024-05-20 10:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TINTOlib
+[2024-05-20 10:58:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: resiancyz
+[2024-05-20 10:58:43] INFO root fetch - processPackages [rnavirhost]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-20 10:58:43] INFO root fetch - processPackages [fastblocks]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-20 10:58:43] INFO root fetch - processPackages [fastblocks]: Downloading https://files.pythonhosted.org/packages/d5/89/efa0cb558a4caf7022c54d8c922bac1be6e2b561d11c567bfd586a0971da/fastblocks-0.4.1.tar.gz
+[2024-05-20 10:58:43] INFO root fetch - processPackages [TINTOlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 10:58:43] WARNING root fetch - processPackages [resiancyz]: Skipping, unable to determine old version
+[2024-05-20 10:58:43] INFO root fetch - main [MainThread]: End processing [resiancyz] error
+[2024-05-20 10:58:43] INFO root fetch - processPackages [qwak-core]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-20 10:58:43] INFO root fetch - processPackages [rnavirhost]: Downloading https://files.pythonhosted.org/packages/c9/96/9aa4193b818bfc9a305131d56a4d641ffb4db32aec20228870b4c2752876/rnavirhost-1.0.1.tar.gz
+[2024-05-20 10:58:43] WARNING root fetch - processPackages [rnavirhost]: Skipping package: exceeds size limit 63284917>=10485760
+[2024-05-20 10:58:43] INFO root fetch - main [MainThread]: End processing [rnavirhost] error
+[2024-05-20 10:58:43] INFO root fetch - processPackages [TINTOlib]: Downloading https://files.pythonhosted.org/packages/88/66/5ff78a7354d96c5cb6040119eab2be915cdf9e9570f5bf18b1c2dba81c64/tintolib-0.0.8.tar.gz
+[2024-05-20 10:58:43] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/40/dc/9bf7a0a11e5d16704620fd9a2d038eee79e38d502983f2c9975412d1053c/qwak_core-0.4.8.tar.gz
+[2024-05-20 10:58:43] INFO root fetch - processPackages [fastblocks]: Downloading https://files.pythonhosted.org/packages/62/27/73d95d97899843e1d7dd322a2b515fad7a0ccf38879dd08a12cbbdc75c58/fastblocks-0.4.2.tar.gz
+[2024-05-20 10:58:43] INFO root fetch - processPackages [fastblocks]: executing diffoscope
+[2024-05-20 10:58:43] INFO root fetch - processPackages [fastblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastblocks-0.4.1.tar.gz tmp/fastblocks-0.4.2.tar.gz --markdown 20240520/f/fastblocks/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-20 10:58:43] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/fe/09/8867573c92d18e200499a583b45f6adb1552d9e721e39370c8aa578b7080/qwak_core-0.4.9.tar.gz
+[2024-05-20 10:58:44] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-20 10:58:44] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.8.tar.gz tmp/qwak_core-0.4.9.tar.gz --markdown 20240520/q/qwak-core/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-20 10:58:44] INFO root fetch - processPackages [TINTOlib]: Downloading https://files.pythonhosted.org/packages/c4/27/a91d5cfaf102a55a2a1c9d05c61fa9b4e7a94ef94ddb79a837edafdb6324/tintolib-0.0.9.tar.gz
+[2024-05-20 10:58:44] INFO root fetch - processPackages [fastblocks]: Remove: archive file [/home/abi/fetcher/tmp/fastblocks-0.4.1.tar.gz]
+[2024-05-20 10:58:44] INFO root fetch - processPackages [fastblocks]: Remove: archive file [/home/abi/fetcher/tmp/fastblocks-0.4.2.tar.gz]
+[2024-05-20 10:58:44] INFO root fetch - main [MainThread]: End processing [fastblocks]: success
+[2024-05-20 10:58:44] INFO root fetch - processPackages [TINTOlib]: executing diffoscope
+[2024-05-20 10:58:44] INFO root fetch - processPackages [TINTOlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tintolib-0.0.8.tar.gz tmp/tintolib-0.0.9.tar.gz --markdown 20240520/T/TINTOlib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 10:58:46] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.8.tar.gz]
+[2024-05-20 10:58:46] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
+[2024-05-20 10:58:46] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-20 10:58:53] INFO root fetch - processPackages [TINTOlib]: Remove: archive file [/home/abi/fetcher/tmp/tintolib-0.0.8.tar.gz]
+[2024-05-20 10:58:53] INFO root fetch - processPackages [TINTOlib]: Remove: archive file [/home/abi/fetcher/tmp/tintolib-0.0.9.tar.gz]
+[2024-05-20 10:58:53] INFO root fetch - main [MainThread]: End processing [TINTOlib]: success
+[2024-05-20 10:58:53] INFO root fetch - main [MainThread]: Store serial: [23287178]

@@ -4569,3 +4569,33 @@
 [2024-05-20 03:54:39] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.4.1.tar.gz]
 [2024-05-20 03:54:39] INFO root fetch - main [MainThread]: End processing [unibox]: success
 [2024-05-20 03:54:39] INFO root fetch - main [MainThread]: Store serial: [23283528]
+[2024-05-20 03:56:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283528]
+[2024-05-20 03:56:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 03:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: textlong
+[2024-05-20 03:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-chatbot20220408
+[2024-05-20 03:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eras
+[2024-05-20 03:56:47] INFO root fetch - processPackages [textlong]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-20 03:56:47] INFO root fetch - processPackages [eras]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-20 03:56:47] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/ce/d9/4bb6a9106604b59a46fd993fc8fcc9512e03b5bdda08aa401aa025dc2db6/eras-0.3.1.tar.gz
+[2024-05-20 03:56:47] INFO root fetch - processPackages [textlong]: Downloading https://files.pythonhosted.org/packages/d7/19/7329ff9a0cfdde3ec5fe375ebc5318010a18d66eb47a56b9d7a7ee9f98b6/textlong-0.1.6.tar.gz
+[2024-05-20 03:56:48] INFO root fetch - processPackages [alibabacloud-chatbot20220408]: New version: [2.0.0] Old Version: [1.1.0]
+[2024-05-20 03:56:48] INFO root fetch - processPackages [textlong]: Downloading https://files.pythonhosted.org/packages/d1/80/261848ef3f27e058a7b4527c0162da8f667cee225cf24f3306d26a0daa2e/textlong-0.1.7.tar.gz
+[2024-05-20 03:56:48] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/15/83/c1f291d81671b3ceecbe58df970b26c48c965b8a0d27e52a7812e293b908/eras-0.3.2.tar.gz
+[2024-05-20 03:56:48] INFO root fetch - processPackages [alibabacloud-chatbot20220408]: Downloading https://files.pythonhosted.org/packages/e9/4b/49d24ae64fe6d5226f05a90e9d706126e689aa77fd1456dd25c0b51cbe34/alibabacloud_chatbot20220408-1.1.0-py3-none-any.whl
+[2024-05-20 03:56:48] INFO root fetch - processPackages [textlong]: executing diffoscope
+[2024-05-20 03:56:48] INFO root fetch - processPackages [textlong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textlong-0.1.6.tar.gz tmp/textlong-0.1.7.tar.gz --markdown 20240520/t/textlong/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-20 03:56:48] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-20 03:56:48] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.3.1.tar.gz tmp/eras-0.3.2.tar.gz --markdown 20240520/e/eras/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-20 03:56:48] INFO root fetch - processPackages [alibabacloud-chatbot20220408]: Downloading https://files.pythonhosted.org/packages/b3/8e/13a11d9cad6e1359f027d72dfc786900231659cc4e9dd112606c73c32342/alibabacloud_chatbot20220408-2.0.0.tar.gz
+[2024-05-20 03:56:48] INFO root fetch - processPackages [alibabacloud-chatbot20220408]: executing diffoscope
+[2024-05-20 03:56:48] INFO root fetch - processPackages [alibabacloud-chatbot20220408]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_chatbot20220408-1.1.0-py3-none-any.whl.zip tmp/alibabacloud_chatbot20220408-2.0.0.tar.gz --markdown 20240520/a/alibabacloud-chatbot20220408/1.1.0-2.0.0/README.md --exclude *.pyd
+[2024-05-20 03:56:49] INFO root fetch - processPackages [textlong]: Remove: archive file [/home/abi/fetcher/tmp/textlong-0.1.6.tar.gz]
+[2024-05-20 03:56:49] INFO root fetch - processPackages [textlong]: Remove: archive file [/home/abi/fetcher/tmp/textlong-0.1.7.tar.gz]
+[2024-05-20 03:56:49] INFO root fetch - main [MainThread]: End processing [textlong]: success
+[2024-05-20 03:56:49] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.3.1.tar.gz]
+[2024-05-20 03:56:49] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.3.2.tar.gz]
+[2024-05-20 03:56:49] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-20 03:56:49] INFO root fetch - processPackages [alibabacloud-chatbot20220408]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_chatbot20220408-1.1.0-py3-none-any.whl.zip]
+[2024-05-20 03:56:49] INFO root fetch - processPackages [alibabacloud-chatbot20220408]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_chatbot20220408-2.0.0.tar.gz]
+[2024-05-20 03:56:49] INFO root fetch - main [MainThread]: End processing [alibabacloud-chatbot20220408]: success
+[2024-05-20 03:56:49] INFO root fetch - main [MainThread]: Store serial: [23283541]

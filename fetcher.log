@@ -19832,3 +19832,130 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 16:10:37] INFO root fetch - processPackages [gi-docgen]: Remove: archive file [/home/abi/fetcher/tmp/gi_docgen-2024.1.tar.gz]
 [2024-05-20 16:10:37] INFO root fetch - main [MainThread]: End processing [gi-docgen]: success
 [2024-05-20 16:10:37] INFO root fetch - main [MainThread]: Store serial: [23290876]
+[2024-05-20 16:12:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290876]
+[2024-05-20 16:12:59] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-20 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slot-can
+[2024-05-20 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: epure
+[2024-05-20 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: us-vis
+[2024-05-20 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biliup
+[2024-05-20 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langroid
+[2024-05-20 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: user-context-remote
+[2024-05-20 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vios
+[2024-05-20 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lbTool
+[2024-05-20 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gps-building-blocks
+[2024-05-20 16:12:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: beignet
+[2024-05-20 16:12:59] INFO root fetch - processPackages [biliup]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-20 16:12:59] INFO root fetch - processPackages [beignet]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-20 16:12:59] INFO root fetch - processPackages [lbTool]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-05-20 16:12:59] INFO root fetch - processPackages [langroid]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-20 16:12:59] WARNING root fetch - processPackages [slot-can]: Skipping, unable to determine old version
+[2024-05-20 16:12:59] INFO root fetch - processPackages [slot-can]: Start processing: pyhid-usb-relay
+[2024-05-20 16:12:59] INFO root fetch - main [MainThread]: End processing [slot-can] error
+[2024-05-20 16:12:59] WARNING root fetch - processPackages [us-vis]: Skipping, unable to determine old version
+[2024-05-20 16:12:59] INFO root fetch - main [MainThread]: End processing [us-vis] error
+[2024-05-20 16:12:59] INFO root fetch - processPackages [epure]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-20 16:12:59] INFO root fetch - processPackages [gps-building-blocks]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-20 16:12:59] INFO root fetch - processPackages [vios]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-05-20 16:12:59] INFO root fetch - processPackages [user-context-remote]: New version: [0.0.81] Old Version: [0.0.80]
+[2024-05-20 16:12:59] INFO root fetch - processPackages [beignet]: Downloading https://files.pythonhosted.org/packages/83/8e/1b39bdc678a3352d236180e3bbf5a863973b990b5e438cdc99d5d068773f/beignet-0.0.3.tar.gz
+[2024-05-20 16:12:59] INFO root fetch - processPackages [lbTool]: Downloading https://files.pythonhosted.org/packages/26/6b/0a0d114a998b048e2bba82f3bfe04aa8a58e43d86943d16abb98bc23b56d/lbtool-1.3.4.tar.gz
+[2024-05-20 16:12:59] INFO root fetch - processPackages [biliup]: Downloading https://files.pythonhosted.org/packages/33/26/87446b9e80024414938248abd6d5d23524d52b9a0e07980909695db33a0a/biliup-0.4.8.tar.gz
+[2024-05-20 16:12:59] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/ab/bb/220d2ce35d659c9c3f621a8e92246d4d25420d75def80d96d19a8abf2b62/langroid-0.1.98.tar.gz
+[2024-05-20 16:12:59] INFO root fetch - processPackages [pyhid-usb-relay]: New version: [1.2.0] Old Version: [1.0.1]
+[2024-05-20 16:12:59] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/b6/c9/521545b92ec929027912a3436074a31b25616b4032b5df296e7bcfaa5c82/vios-2.4.1-py3-none-any.whl
+[2024-05-20 16:12:59] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/6e/c0/2ff88bb86937ad17b19fa19f21079eb6d36d0ac0df7c9cf1e0af8a3125cc/epure-0.3.8.tar.gz
+[2024-05-20 16:12:59] INFO root fetch - processPackages [lbTool]: Downloading https://files.pythonhosted.org/packages/b1/09/814ec3f3448069ccd3385f434345efe1bc3142ab9d3845766bba32869257/lbtool-1.3.5.tar.gz
+[2024-05-20 16:12:59] INFO root fetch - processPackages [user-context-remote]: Downloading https://files.pythonhosted.org/packages/12/90/30cb005e1d4cb118ece050a258e190c449dbf0ce3ca1ba280c4222f36202/user_context_remote-0.0.80.tar.gz
+[2024-05-20 16:12:59] INFO root fetch - processPackages [biliup]: Downloading https://files.pythonhosted.org/packages/ca/50/28c81627954370eeba7075b44c9ef20597ed8f140a1390c814dd976e6c70/biliup-0.4.9.tar.gz
+[2024-05-20 16:12:59] INFO root fetch - processPackages [pyhid-usb-relay]: Downloading https://files.pythonhosted.org/packages/5d/89/6a2d8bb4d579b33c18070d556912bfb2532199c7664bf3df7c869fab3988/pyhid_usb_relay-1.0.1.tar.gz
+[2024-05-20 16:12:59] INFO root fetch - processPackages [langroid]: Downloading https://files.pythonhosted.org/packages/e0/31/f66ec6ea338a8eb66884a575a589c46c9cda101c179d652dccf9a12f918f/langroid-0.1.99.tar.gz
+[2024-05-20 16:13:00] ERROR root fetch - processPackages [beignet]: Unable to fetch info: No such project/version 'beignet' 0.0.4
+[2024-05-20 16:13:00] INFO root fetch - main [MainThread]: End processing [beignet] error
+[2024-05-20 16:13:00] INFO root fetch - processPackages [gps-building-blocks]: executing diffoscope
+[2024-05-20 16:13:00] INFO root fetch - processPackages [gps-building-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gps_building_blocks-1.98.0-py3-none-any.whl.zip tmp/gps_building_blocks-1.99.0-py3-none-any.whl.zip --markdown 20240520/g/gps-building-blocks/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-20 16:13:00] INFO root fetch - processPackages [lbTool]: executing diffoscope
+[2024-05-20 16:13:00] INFO root fetch - processPackages [lbTool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbtool-1.3.4.tar.gz tmp/lbtool-1.3.5.tar.gz --markdown 20240520/l/lbTool/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-05-20 16:13:00] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2024-05-20 16:13:00] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.98.tar.gz tmp/langroid-0.1.99.tar.gz --markdown 20240520/l/langroid/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-20 16:13:00] INFO root fetch - processPackages [biliup]: executing diffoscope
+[2024-05-20 16:13:00] INFO root fetch - processPackages [biliup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliup-0.4.8.tar.gz tmp/biliup-0.4.9.tar.gz --markdown 20240520/b/biliup/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-20 16:13:00] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/ad/37/bfc1fe79f314da0055a2c6cfa05b2130afc82c9f506387c3629c5a750b78/vios-2.4.2-py3-none-any.whl
+[2024-05-20 16:13:00] INFO root fetch - processPackages [user-context-remote]: Downloading https://files.pythonhosted.org/packages/d2/02/200df23ca0d1120e512d5572cfabe62f4b0533dce501433b5ddba9eb699c/user_context_remote-0.0.81.tar.gz
+[2024-05-20 16:13:00] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/ba/87/f79d99beb6727d805fb8ccaee51415615d9cab9ff8e06eb3704130b1d9e5/epure-0.3.9.tar.gz
+[2024-05-20 16:13:00] INFO root fetch - processPackages [vios]: executing diffoscope
+[2024-05-20 16:13:00] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-2.4.1-py3-none-any.whl.zip tmp/vios-2.4.2-py3-none-any.whl.zip --markdown 20240520/v/vios/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-05-20 16:13:00] INFO root fetch - processPackages [pyhid-usb-relay]: Downloading https://files.pythonhosted.org/packages/d4/68/9b23e50a35b161092f20733cfb4badd0b5b70e594d49b8db7c32b74f8770/pyhid_usb_relay-1.2.0.tar.gz
+[2024-05-20 16:13:00] INFO root fetch - processPackages [epure]: executing diffoscope
+[2024-05-20 16:13:00] INFO root fetch - processPackages [epure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epure-0.3.8.tar.gz tmp/epure-0.3.9.tar.gz --markdown 20240520/e/epure/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-20 16:13:00] INFO root fetch - processPackages [user-context-remote]: executing diffoscope
+[2024-05-20 16:13:00] INFO root fetch - processPackages [user-context-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user_context_remote-0.0.80.tar.gz tmp/user_context_remote-0.0.81.tar.gz --markdown 20240520/u/user-context-remote/0.0.80-0.0.81/README.md --exclude *.pyd
+[2024-05-20 16:13:00] INFO root fetch - processPackages [pyhid-usb-relay]: executing diffoscope
+[2024-05-20 16:13:00] INFO root fetch - processPackages [pyhid-usb-relay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhid_usb_relay-1.0.1.tar.gz tmp/pyhid_usb_relay-1.2.0.tar.gz --markdown 20240520/p/pyhid-usb-relay/1.0.1-1.2.0/README.md --exclude *.pyd
+[2024-05-20 16:13:00] INFO root fetch - processPackages [lbTool]: Remove: archive file [/home/abi/fetcher/tmp/lbtool-1.3.4.tar.gz]
+[2024-05-20 16:13:00] INFO root fetch - processPackages [lbTool]: Remove: archive file [/home/abi/fetcher/tmp/lbtool-1.3.5.tar.gz]
+[2024-05-20 16:13:00] INFO root fetch - main [MainThread]: End processing [lbTool]: success
+[2024-05-20 16:13:01] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.4.1-py3-none-any.whl.zip]
+[2024-05-20 16:13:01] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.4.2-py3-none-any.whl.zip]
+[2024-05-20 16:13:01] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2024-05-20 16:13:01] ERROR root fetch - processPackages [gps-building-blocks]: Diffoscope failed: time="2024-05-20T16:13:00+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2024-05-20 16:13:01] INFO root fetch - main [MainThread]: End processing [gps-building-blocks] error
+[2024-05-20 16:13:01] INFO root fetch - processPackages [biliup]: Remove: archive file [/home/abi/fetcher/tmp/biliup-0.4.8.tar.gz]
+[2024-05-20 16:13:01] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.98.tar.gz]
+[2024-05-20 16:13:01] INFO root fetch - processPackages [biliup]: Remove: archive file [/home/abi/fetcher/tmp/biliup-0.4.9.tar.gz]
+[2024-05-20 16:13:01] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.99.tar.gz]
+[2024-05-20 16:13:01] INFO root fetch - main [MainThread]: End processing [biliup]: success
+[2024-05-20 16:13:01] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2024-05-20 16:13:01] INFO root fetch - processPackages [pyhid-usb-relay]: Remove: archive file [/home/abi/fetcher/tmp/pyhid_usb_relay-1.0.1.tar.gz]
+[2024-05-20 16:13:01] INFO root fetch - processPackages [pyhid-usb-relay]: Remove: archive file [/home/abi/fetcher/tmp/pyhid_usb_relay-1.2.0.tar.gz]
+[2024-05-20 16:13:01] INFO root fetch - main [MainThread]: End processing [pyhid-usb-relay]: success
+[2024-05-20 16:13:01] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user_context_remote-0.0.80.tar.gz]
+[2024-05-20 16:13:01] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user_context_remote-0.0.81.tar.gz]
+[2024-05-20 16:13:01] INFO root fetch - main [MainThread]: End processing [user-context-remote]: success
+[2024-05-20 16:13:01] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.3.8.tar.gz]
+[2024-05-20 16:13:01] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.3.9.tar.gz]
+[2024-05-20 16:13:01] INFO root fetch - main [MainThread]: End processing [epure]: success
+[2024-05-20 16:13:01] INFO root fetch - main [MainThread]: Store serial: [23290916]

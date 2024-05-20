@@ -21586,3 +21586,65 @@ EOFError: EOF read where object expected
 [2024-05-20 17:14:04] INFO root fetch - processPackages [flow.record]: Remove: archive file [/home/abi/fetcher/tmp/flow.record-3.9.dev9-py3-none-any.whl.zip]
 [2024-05-20 17:14:04] INFO root fetch - main [MainThread]: End processing [flow.record]: success
 [2024-05-20 17:14:04] INFO root fetch - main [MainThread]: Store serial: [23291582]
+[2024-05-20 17:16:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291582]
+[2024-05-20 17:16:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 17:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xspace-dl
+[2024-05-20 17:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: termii-py
+[2024-05-20 17:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-azure-native
+[2024-05-20 17:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zfx
+[2024-05-20 17:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flatpack
+[2024-05-20 17:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TreeSAK
+[2024-05-20 17:16:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metalarchivist
+[2024-05-20 17:16:13] INFO root fetch - processPackages [xspace-dl]: New version: [0.2.23] Old Version: [0.2.22]
+[2024-05-20 17:16:13] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 17:16:13] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-20 17:16:13] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.88]
+[2024-05-20 17:16:13] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.9.1a1696416212] Old Version: [2.9.1a1696411987]
+[2024-05-20 17:16:13] INFO root fetch - processPackages [termii-py]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-20 17:16:13] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-20 17:16:13] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/d2/b0/97e3e7cc9b90c4fe56792b56a91d753a1c0a3661d549a57e9571faf27c61/xspace-dl-0.2.22.tar.gz
+[2024-05-20 17:16:13] INFO root fetch - processPackages [metalarchivist]: New version: [0.4] Old Version: [0.3.5]
+[2024-05-20 17:16:13] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/7c/39/23e88d5a9a544cb9a75a9c0b077f73c9c90cb756d8e32766dfffb90f8833/pulumi_azure_native-2.9.1a1696411987.tar.gz
+[2024-05-20 17:16:13] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-05-20 17:16:13] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27430128>=10485760
+[2024-05-20 17:16:13] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2024-05-20 17:16:13] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/96/3a/99baf35b48ef515795bb380c62cdbd7028c69b96bb3eabbce12e337c6f6e/flatpack-3.4.88.tar.gz
+[2024-05-20 17:16:13] INFO root fetch - processPackages [termii-py]: Downloading https://files.pythonhosted.org/packages/e2/58/55579df87050203b54679b67ecc0fc37c4ec174c159042816223bbe28bf0/termii_py-0.1.5.tar.gz
+[2024-05-20 17:16:13] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-20 17:16:13] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/1d/6d/3e62a0dcb32fc77f47d44a6ffeec475f9d3d0a538741d1c45dd4f16a716b/metalarchivist-0.3.5.tar.gz
+[2024-05-20 17:16:13] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-05-20 17:16:14] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-20 17:16:14] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240520/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 17:16:14] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/9a/33/4c19a803b5fcb6d55c56395348f4793d6668df6fd6e84b2b4d4858768aa6/xspace-dl-0.2.23.tar.gz
+[2024-05-20 17:16:14] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-20 17:16:14] INFO root fetch - processPackages [xspace-dl]: executing diffoscope
+[2024-05-20 17:16:14] INFO root fetch - processPackages [xspace-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspace-dl-0.2.22.tar.gz tmp/xspace-dl-0.2.23.tar.gz --markdown 20240520/x/xspace-dl/0.2.22-0.2.23/README.md --exclude *.pyd
+[2024-05-20 17:16:14] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-05-20 17:16:14] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240520/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-20 17:16:14] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-20 17:16:14] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.88.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240520/f/flatpack/3.4.88-3.4.9/README.md --exclude *.pyd
+[2024-05-20 17:16:14] INFO root fetch - processPackages [termii-py]: Downloading https://files.pythonhosted.org/packages/a0/7f/f24617237020cb77290088e46eab7e81de4cf4ebb4d9f47a99a97e7d90ec/termii_py-0.1.6.tar.gz
+[2024-05-20 17:16:14] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/8a/0b/b05eb638396f255b63ec012573c1e47d2f41ac909f4a74b8d06810e2fe15/metalarchivist-0.4.tar.gz
+[2024-05-20 17:16:14] INFO root fetch - processPackages [metalarchivist]: executing diffoscope
+[2024-05-20 17:16:14] INFO root fetch - processPackages [metalarchivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalarchivist-0.3.5.tar.gz tmp/metalarchivist-0.4.tar.gz --markdown 20240520/m/metalarchivist/0.3.5-0.4/README.md --exclude *.pyd
+[2024-05-20 17:16:14] INFO root fetch - processPackages [termii-py]: executing diffoscope
+[2024-05-20 17:16:14] INFO root fetch - processPackages [termii-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termii_py-0.1.5.tar.gz tmp/termii_py-0.1.6.tar.gz --markdown 20240520/t/termii-py/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-20 17:16:14] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-20 17:16:14] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-20 17:16:14] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-20 17:16:14] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.2.22.tar.gz]
+[2024-05-20 17:16:14] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.2.23.tar.gz]
+[2024-05-20 17:16:14] INFO root fetch - main [MainThread]: End processing [xspace-dl]: success
+[2024-05-20 17:16:14] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-05-20 17:16:14] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-05-20 17:16:14] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-05-20 17:16:14] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.88.tar.gz]
+[2024-05-20 17:16:14] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-20 17:16:14] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-20 17:16:15] INFO root fetch - processPackages [termii-py]: Remove: archive file [/home/abi/fetcher/tmp/termii_py-0.1.5.tar.gz]
+[2024-05-20 17:16:15] INFO root fetch - processPackages [termii-py]: Remove: archive file [/home/abi/fetcher/tmp/termii_py-0.1.6.tar.gz]
+[2024-05-20 17:16:15] INFO root fetch - main [MainThread]: End processing [termii-py]: success
+[2024-05-20 17:16:15] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.3.5.tar.gz]
+[2024-05-20 17:16:15] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.4.tar.gz]
+[2024-05-20 17:16:15] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
+[2024-05-20 17:16:15] INFO root fetch - main [MainThread]: Store serial: [23291618]

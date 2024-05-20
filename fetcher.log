@@ -5291,3 +5291,36 @@
 [2024-05-20 04:53:54] INFO root fetch - processPackages [pypomes-s3]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_s3-0.3.8.tar.gz]
 [2024-05-20 04:53:54] INFO root fetch - main [MainThread]: End processing [pypomes-s3]: success
 [2024-05-20 04:53:54] INFO root fetch - main [MainThread]: Store serial: [23283928]
+[2024-05-20 04:55:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283928]
+[2024-05-20 04:56:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 04:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdal
+[2024-05-20 04:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qtmodel
+[2024-05-20 04:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datamaxi
+[2024-05-20 04:56:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nunchionz
+[2024-05-20 04:56:03] INFO root fetch - processPackages [datamaxi]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-20 04:56:03] WARNING root fetch - processPackages [nunchionz]: Skipping, unable to determine old version
+[2024-05-20 04:56:03] INFO root fetch - main [MainThread]: End processing [nunchionz] error
+[2024-05-20 04:56:03] INFO root fetch - processPackages [qtmodel]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-20 04:56:03] INFO root fetch - processPackages [pdal]: New version: [3.4.3] Old Version: [3.4.2]
+[2024-05-20 04:56:03] INFO root fetch - processPackages [datamaxi]: Downloading https://files.pythonhosted.org/packages/1c/5f/63600dbd9be47a0544a360013de1e81b73a13c2b98cb133a8ae260d05134/datamaxi-0.2.0.tar.gz
+[2024-05-20 04:56:03] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/ac/50/4d8986090b4d46f7f7ad2d5bf0de9f3e18679bb0a5ca8fa583033c7f4ee9/qtmodel-0.3.4.tar.gz
+[2024-05-20 04:56:03] INFO root fetch - processPackages [pdal]: Downloading https://files.pythonhosted.org/packages/23/4a/8712a862dbd3fa251a5da603f2f8cd6eafcb37652c4bf09e0f0214b92760/pdal-3.4.2.tar.gz
+[2024-05-20 04:56:04] INFO root fetch - processPackages [datamaxi]: Downloading https://files.pythonhosted.org/packages/97/fe/b8091f1ae37b55b9d0a88df957c01fc1ea2a81c46fe4ed88916f09bf42a1/datamaxi-0.3.0.tar.gz
+[2024-05-20 04:56:04] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/61/b6/e6331acab0dfe1f792a67950c04ac1b0757bb48efa4aa90a4c16fc4453a2/qtmodel-0.3.5.tar.gz
+[2024-05-20 04:56:04] INFO root fetch - processPackages [pdal]: Downloading https://files.pythonhosted.org/packages/58/e0/ee1112e313541d252de2896a7d94dc8da63868a5b5af2c2380eb0a54a974/pdal-3.4.3.tar.gz
+[2024-05-20 04:56:04] INFO root fetch - processPackages [datamaxi]: executing diffoscope
+[2024-05-20 04:56:04] INFO root fetch - processPackages [datamaxi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamaxi-0.2.0.tar.gz tmp/datamaxi-0.3.0.tar.gz --markdown 20240520/d/datamaxi/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-20 04:56:04] INFO root fetch - processPackages [qtmodel]: executing diffoscope
+[2024-05-20 04:56:04] INFO root fetch - processPackages [qtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmodel-0.3.4.tar.gz tmp/qtmodel-0.3.5.tar.gz --markdown 20240520/q/qtmodel/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-20 04:56:04] INFO root fetch - processPackages [pdal]: executing diffoscope
+[2024-05-20 04:56:04] INFO root fetch - processPackages [pdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdal-3.4.2.tar.gz tmp/pdal-3.4.3.tar.gz --markdown 20240520/p/pdal/3.4.2-3.4.3/README.md --exclude *.pyd
+[2024-05-20 04:56:04] INFO root fetch - processPackages [datamaxi]: Remove: archive file [/home/abi/fetcher/tmp/datamaxi-0.2.0.tar.gz]
+[2024-05-20 04:56:04] INFO root fetch - processPackages [datamaxi]: Remove: archive file [/home/abi/fetcher/tmp/datamaxi-0.3.0.tar.gz]
+[2024-05-20 04:56:04] INFO root fetch - main [MainThread]: End processing [datamaxi]: success
+[2024-05-20 04:56:05] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.4.tar.gz]
+[2024-05-20 04:56:05] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.5.tar.gz]
+[2024-05-20 04:56:05] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
+[2024-05-20 04:56:05] INFO root fetch - processPackages [pdal]: Remove: archive file [/home/abi/fetcher/tmp/pdal-3.4.2.tar.gz]
+[2024-05-20 04:56:05] INFO root fetch - processPackages [pdal]: Remove: archive file [/home/abi/fetcher/tmp/pdal-3.4.3.tar.gz]
+[2024-05-20 04:56:05] INFO root fetch - main [MainThread]: End processing [pdal]: success
+[2024-05-20 04:56:05] INFO root fetch - main [MainThread]: Store serial: [23283940]

@@ -18522,3 +18522,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:25:16] INFO root fetch - processPackages [pyprland]: Remove: archive file [/home/abi/fetcher/tmp/pyprland-2.3.1.tar.gz]
 [2024-05-20 15:25:16] INFO root fetch - main [MainThread]: End processing [pyprland]: success
 [2024-05-20 15:25:16] INFO root fetch - main [MainThread]: Store serial: [23290217]
+[2024-05-20 15:27:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290217]
+[2024-05-20 15:27:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 15:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pantos-common
+[2024-05-20 15:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biapy
+[2024-05-20 15:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-statblock-plugin
+[2024-05-20 15:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wwbot
+[2024-05-20 15:27:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyanfis
+[2024-05-20 15:27:26] INFO root fetch - processPackages [wwbot]: New version: [0.0.7] Old Version: [0.0.6a0]
+[2024-05-20 15:27:26] WARNING root fetch - processPackages [mkdocs-statblock-plugin]: Skipping, unable to determine old version
+[2024-05-20 15:27:26] INFO root fetch - main [MainThread]: End processing [mkdocs-statblock-plugin] error
+[2024-05-20 15:27:26] INFO root fetch - processPackages [pantos-common]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-20 15:27:26] WARNING root fetch - processPackages [pyanfis]: Skipping, unable to determine old version
+[2024-05-20 15:27:26] INFO root fetch - processPackages [biapy]: New version: [3.4.4] Old Version: [3.4.3]
+[2024-05-20 15:27:26] INFO root fetch - main [MainThread]: End processing [pyanfis] error
+[2024-05-20 15:27:26] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/50/ed/b99abaa39936654b48d9de3d910214ff3c2eb2b4178a9dfd874c739c9d4f/wwbot-0.0.6a0.tar.gz
+[2024-05-20 15:27:26] INFO root fetch - processPackages [biapy]: Downloading https://files.pythonhosted.org/packages/c4/c9/9777d8a697b2bf1eb6d523d92cef7bc4ad409079702e253e1e09ac05af42/biapy-3.4.3.tar.gz
+[2024-05-20 15:27:26] INFO root fetch - processPackages [pantos-common]: Downloading https://files.pythonhosted.org/packages/1b/ff/1ac053de724dd476a92b7df67543eba44ac96ae0269bf90956ef62bd04a2/pantos_common-1.2.0-py3-none-any.whl
+[2024-05-20 15:27:27] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/80/ad/3d648ad62fd0999e150582372f853208af3cf489c174cbeac4c2aa827973/wwbot-0.0.7.tar.gz
+[2024-05-20 15:27:27] INFO root fetch - processPackages [wwbot]: executing diffoscope
+[2024-05-20 15:27:27] INFO root fetch - processPackages [wwbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwbot-0.0.6a0.tar.gz tmp/wwbot-0.0.7.tar.gz --markdown 20240520/w/wwbot/0.0.6a0-0.0.7/README.md --exclude *.pyd
+[2024-05-20 15:27:27] INFO root fetch - processPackages [biapy]: Downloading https://files.pythonhosted.org/packages/23/7a/0c02fc5f62f38d872bbd871014f2dc13988ce71ecc1d87efbeb3f9ab6033/biapy-3.4.4.tar.gz
+[2024-05-20 15:27:27] INFO root fetch - processPackages [pantos-common]: Downloading https://files.pythonhosted.org/packages/aa/54/70225e47795a8ce55f7fc54aa9c4cb8e0eff0802edec8734fa7398533779/pantos_common-1.3.0.tar.gz
+[2024-05-20 15:27:27] INFO root fetch - processPackages [pantos-common]: executing diffoscope
+[2024-05-20 15:27:27] INFO root fetch - processPackages [pantos-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pantos_common-1.2.0-py3-none-any.whl.zip tmp/pantos_common-1.3.0.tar.gz --markdown 20240520/p/pantos-common/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-20 15:27:27] INFO root fetch - processPackages [biapy]: executing diffoscope
+[2024-05-20 15:27:27] INFO root fetch - processPackages [biapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biapy-3.4.3.tar.gz tmp/biapy-3.4.4.tar.gz --markdown 20240520/b/biapy/3.4.3-3.4.4/README.md --exclude *.pyd
+[2024-05-20 15:27:27] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.6a0.tar.gz]
+[2024-05-20 15:27:27] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.7.tar.gz]
+[2024-05-20 15:27:27] INFO root fetch - main [MainThread]: End processing [wwbot]: success
+[2024-05-20 15:27:27] INFO root fetch - processPackages [pantos-common]: Remove: archive file [/home/abi/fetcher/tmp/pantos_common-1.2.0-py3-none-any.whl.zip]
+[2024-05-20 15:27:27] INFO root fetch - processPackages [pantos-common]: Remove: archive file [/home/abi/fetcher/tmp/pantos_common-1.3.0.tar.gz]
+[2024-05-20 15:27:27] INFO root fetch - main [MainThread]: End processing [pantos-common]: success
+[2024-05-20 15:27:28] INFO root fetch - processPackages [biapy]: Remove: archive file [/home/abi/fetcher/tmp/biapy-3.4.3.tar.gz]
+[2024-05-20 15:27:28] INFO root fetch - processPackages [biapy]: Remove: archive file [/home/abi/fetcher/tmp/biapy-3.4.4.tar.gz]
+[2024-05-20 15:27:28] INFO root fetch - main [MainThread]: End processing [biapy]: success
+[2024-05-20 15:27:28] INFO root fetch - main [MainThread]: Store serial: [23290240]

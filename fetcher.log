@@ -3678,3 +3678,18 @@
 [2024-05-20 02:57:08] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.2.8.tar.gz]
 [2024-05-20 02:57:08] INFO root fetch - main [MainThread]: End processing [eras]: success
 [2024-05-20 02:57:08] INFO root fetch - main [MainThread]: Store serial: [23283148]
+[2024-05-20 02:59:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283148]
+[2024-05-20 02:59:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 02:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osteochondromatousz
+[2024-05-20 02:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eras
+[2024-05-20 02:59:16] INFO root fetch - processPackages [eras]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-20 02:59:16] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/3d/b3/4905c67fb1528ca50fd708ea8f8064881d830a20772bcc35b4eca6640c96/eras-0.2.7.tar.gz
+[2024-05-20 02:59:16] WARNING root fetch - processPackages [osteochondromatousz]: Skipping, unable to determine old version
+[2024-05-20 02:59:16] INFO root fetch - main [MainThread]: End processing [osteochondromatousz] error
+[2024-05-20 02:59:16] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/13/48/3c3566e9d786fa1adf3ff6a7000ceb815de5f81d1deb590b19cb3de9fa4f/eras-0.2.8.tar.gz
+[2024-05-20 02:59:16] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-20 02:59:16] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.2.7.tar.gz tmp/eras-0.2.8.tar.gz --markdown 20240520/e/eras/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-20 02:59:17] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.2.7.tar.gz]
+[2024-05-20 02:59:17] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.2.8.tar.gz]
+[2024-05-20 02:59:17] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-20 02:59:17] INFO root fetch - main [MainThread]: Store serial: [23283155]

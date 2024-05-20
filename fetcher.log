@@ -7631,3 +7631,21 @@
 [2024-05-20 07:36:58] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
 [2024-05-20 07:36:58] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
 [2024-05-20 07:36:58] INFO root fetch - main [MainThread]: Store serial: [23285064]
+[2024-05-20 07:39:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285064]
+[2024-05-20 07:39:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 07:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: allegiancyz
+[2024-05-20 07:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proconfig
+[2024-05-20 07:39:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epmatools
+[2024-05-20 07:39:07] WARNING root fetch - processPackages [proconfig]: Skipping, unable to determine old version
+[2024-05-20 07:39:07] INFO root fetch - main [MainThread]: End processing [proconfig] error
+[2024-05-20 07:39:07] WARNING root fetch - processPackages [allegiancyz]: Skipping, unable to determine old version
+[2024-05-20 07:39:07] INFO root fetch - main [MainThread]: End processing [allegiancyz] error
+[2024-05-20 07:39:07] INFO root fetch - processPackages [epmatools]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 07:39:07] INFO root fetch - processPackages [epmatools]: Downloading https://files.pythonhosted.org/packages/1c/0e/0d3129625b185fca211eeb9f5ab9b0056911ca503c14c4977be5d17ddb73/epmatools-0.0.2.tar.gz
+[2024-05-20 07:39:08] INFO root fetch - processPackages [epmatools]: Downloading https://files.pythonhosted.org/packages/d5/fb/753bc0f72ec9aa08e6ddece8ee7256036a83640b6aa779fcc7d29789fe07/epmatools-0.0.3.tar.gz
+[2024-05-20 07:39:09] INFO root fetch - processPackages [epmatools]: executing diffoscope
+[2024-05-20 07:39:09] INFO root fetch - processPackages [epmatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epmatools-0.0.2.tar.gz tmp/epmatools-0.0.3.tar.gz --markdown 20240520/e/epmatools/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 07:39:13] INFO root fetch - processPackages [epmatools]: Remove: archive file [/home/abi/fetcher/tmp/epmatools-0.0.2.tar.gz]
+[2024-05-20 07:39:13] INFO root fetch - processPackages [epmatools]: Remove: archive file [/home/abi/fetcher/tmp/epmatools-0.0.3.tar.gz]
+[2024-05-20 07:39:13] INFO root fetch - main [MainThread]: End processing [epmatools]: success
+[2024-05-20 07:39:13] INFO root fetch - main [MainThread]: Store serial: [23285086]

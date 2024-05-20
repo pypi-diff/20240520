@@ -18663,3 +18663,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:29:54] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
 [2024-05-20 15:29:54] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-05-20 15:29:54] INFO root fetch - main [MainThread]: Store serial: [23290278]
+[2024-05-20 15:31:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290278]
+[2024-05-20 15:32:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-20 15:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superblocks-agent
+[2024-05-20 15:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HomeDirectory
+[2024-05-20 15:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentier-glossary
+[2024-05-20 15:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ktaga-lab
+[2024-05-20 15:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kde-material-you-colors
+[2024-05-20 15:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-aws-native
+[2024-05-20 15:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stsci.image
+[2024-05-20 15:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: decoutilities
+[2024-05-20 15:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-workflow-sdk
+[2024-05-20 15:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vizbeauty
+[2024-05-20 15:32:04] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-05-20 15:32:04] WARNING root fetch - processPackages [HomeDirectory]: Skipping, unable to determine old version
+[2024-05-20 15:32:04] INFO root fetch - processPackages [HomeDirectory]: Start processing: mrfix
+[2024-05-20 15:32:04] INFO root fetch - main [MainThread]: End processing [HomeDirectory] error
+[2024-05-20 15:32:04] INFO root fetch - processPackages [decoutilities]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-20 15:32:04] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-20 15:32:04] INFO root fetch - processPackages [mrfix]: New version: [6.0.3] Old Version: [6.0.2]
+[2024-05-20 15:32:04] INFO root fetch - processPackages [kde-material-you-colors]: New version: [1.9.1] Old Version: [1.8.0]
+[2024-05-20 15:32:04] INFO root fetch - processPackages [stsci.image]: New version: [2.3.8] Old Version: [2.3.7]
+[2024-05-20 15:32:04] INFO root fetch - processPackages [superblocks-agent]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-20 15:32:04] INFO root fetch - processPackages [sentier-glossary]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-20 15:32:04] INFO root fetch - processPackages [vizbeauty]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-20 15:32:04] WARNING root fetch - processPackages [ktaga-lab]: Skipping, unable to determine old version
+[2024-05-20 15:32:04] INFO root fetch - main [MainThread]: End processing [ktaga-lab] error
+[2024-05-20 15:32:04] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-05-20 15:32:04] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/65/ab/43a9f2bcfe7e3098ad1e6c3c199c512ba2aab8e40b4b6553719095e2addd/decoutilities-0.2.4.tar.gz
+[2024-05-20 15:32:04] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/d5/b7/0c32c08fe0b3327878c0d7b7006b46298b3dca469a326a75a439bfd0f0f1/lusid_workflow_sdk-2.1.8.tar.gz
+[2024-05-20 15:32:04] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/f6/9a/43aba98afb1b8870c7b955c9b1b078208144319f6490c916abe8a8a06c4f/mrfix-6.0.2.tar.gz
+[2024-05-20 15:32:04] INFO root fetch - processPackages [superblocks-agent]: Downloading https://files.pythonhosted.org/packages/69/62/552ec476afa8984a10c32fc875c1d1d2633c1455ba0d8046b2ea10f52c8f/superblocks-agent-0.0.4.tar.gz
+[2024-05-20 15:32:04] INFO root fetch - processPackages [vizbeauty]: Downloading https://files.pythonhosted.org/packages/0f/18/18e0dcabd29e5f2920fe46f7124096ab6e75bd6b63e69c9447cc95dbfe53/vizbeauty-0.0.1.tar.gz
+[2024-05-20 15:32:04] INFO root fetch - processPackages [kde-material-you-colors]: Downloading https://files.pythonhosted.org/packages/ed/05/6276c1251c3f8b3a0da03d8b553c70a294aec2528889ef93321cc9b625d2/kde-material-you-colors-1.8.0.tar.gz
+[2024-05-20 15:32:04] INFO root fetch - processPackages [stsci.image]: Downloading https://files.pythonhosted.org/packages/d2/a2/8a9f38338f18fb96c1b8719aa8fe04cff4d2a42434d6d371bf3902a60495/stsci_image-2.3.7.tar.gz
+[2024-05-20 15:32:04] INFO root fetch - processPackages [sentier-glossary]: Downloading https://files.pythonhosted.org/packages/41/44/96c5c00041076972adbec00bba57d675b3f091d018f352069792ccb0b676/sentier_glossary-0.1.0.tar.gz
+[2024-05-20 15:32:04] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/fc/55/c515b0262c51939567a0ad56368eb8118408592e17a67a3f0c830d71ce2f/decoutilities-0.2.5.tar.gz
+[2024-05-20 15:32:04] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/23/c0/5f5908f038983f29f46a445ed5ff331d6086d5c6cb128e4502bf223fd90b/lusid_workflow_sdk-2.1.9.tar.gz
+[2024-05-20 15:32:04] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/3b/99/6a5c39438aed6292f8c3dd1101455a5bc1d9808f68b1e1b2e4d4588a129f/mrfix-6.0.3.tar.gz
+[2024-05-20 15:32:05] INFO root fetch - processPackages [decoutilities]: executing diffoscope
+[2024-05-20 15:32:05] INFO root fetch - processPackages [decoutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoutilities-0.2.4.tar.gz tmp/decoutilities-0.2.5.tar.gz --markdown 20240520/d/decoutilities/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-20 15:32:05] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-05-20 15:32:05] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.1.8.tar.gz tmp/lusid_workflow_sdk-2.1.9.tar.gz --markdown 20240520/l/lusid-workflow-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-20 15:32:05] INFO root fetch - processPackages [superblocks-agent]: Downloading https://files.pythonhosted.org/packages/5f/b5/385d0078cc4bf20880c670814261cfa828b48958cbaaa8681a16f54186da/superblocks-agent-0.0.5.tar.gz
+[2024-05-20 15:32:05] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-05-20 15:32:05] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2024-05-20 15:32:05] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-6.0.2.tar.gz tmp/mrfix-6.0.3.tar.gz --markdown 20240520/m/mrfix/6.0.2-6.0.3/README.md --exclude *.pyd
+[2024-05-20 15:32:05] INFO root fetch - processPackages [stsci.image]: Downloading https://files.pythonhosted.org/packages/81/f8/21603b461f367649039781d83446005892550c0d009204313aad474dab7f/stsci_image-2.3.8.tar.gz
+[2024-05-20 15:32:05] INFO root fetch - processPackages [kde-material-you-colors]: Downloading https://files.pythonhosted.org/packages/7a/b2/26d238257a5a1b3562ca9e9da60c59d299f90fb376565c597d419ed6a70d/kde_material_you_colors-1.9.1.tar.gz
+[2024-05-20 15:32:05] INFO root fetch - processPackages [vizbeauty]: Downloading https://files.pythonhosted.org/packages/6d/44/94982a8bb25fd5ae8d03c0aec3ff561d7ca256edd79ded9727355ffb0a07/VizBeauty-0.1.0.tar.gz
+[2024-05-20 15:32:05] INFO root fetch - processPackages [sentier-glossary]: Downloading https://files.pythonhosted.org/packages/0b/e5/a06d834105c95a7a6b1ba3ac679dabf8fcf3b0cbf05e9d0d5122cd867445/sentier_glossary-0.2.0.tar.gz
+[2024-05-20 15:32:05] INFO root fetch - processPackages [superblocks-agent]: executing diffoscope
+[2024-05-20 15:32:05] INFO root fetch - processPackages [superblocks-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superblocks-agent-0.0.4.tar.gz tmp/superblocks-agent-0.0.5.tar.gz --markdown 20240520/s/superblocks-agent/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-20 15:32:05] INFO root fetch - processPackages [vizbeauty]: executing diffoscope
+[2024-05-20 15:32:05] INFO root fetch - processPackages [vizbeauty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vizbeauty-0.0.1.tar.gz tmp/VizBeauty-0.1.0.tar.gz --markdown 20240520/v/vizbeauty/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-20 15:32:05] INFO root fetch - processPackages [sentier-glossary]: executing diffoscope
+[2024-05-20 15:32:05] INFO root fetch - processPackages [sentier-glossary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentier_glossary-0.1.0.tar.gz tmp/sentier_glossary-0.2.0.tar.gz --markdown 20240520/s/sentier-glossary/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-20 15:32:05] INFO root fetch - processPackages [stsci.image]: executing diffoscope
+[2024-05-20 15:32:05] INFO root fetch - processPackages [stsci.image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stsci_image-2.3.7.tar.gz tmp/stsci_image-2.3.8.tar.gz --markdown 20240520/s/stsci.image/2.3.7-2.3.8/README.md --exclude *.pyd
+[2024-05-20 15:32:05] INFO root fetch - processPackages [kde-material-you-colors]: executing diffoscope
+[2024-05-20 15:32:05] INFO root fetch - processPackages [kde-material-you-colors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kde-material-you-colors-1.8.0.tar.gz tmp/kde_material_you_colors-1.9.1.tar.gz --markdown 20240520/k/kde-material-you-colors/1.8.0-1.9.1/README.md --exclude *.pyd
+[2024-05-20 15:32:05] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-05-20 15:32:05] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240520/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-05-20 15:32:05] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.2.4.tar.gz]
+[2024-05-20 15:32:05] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.2.5.tar.gz]
+[2024-05-20 15:32:05] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
+[2024-05-20 15:32:05] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-6.0.2.tar.gz]
+[2024-05-20 15:32:05] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-6.0.3.tar.gz]
+[2024-05-20 15:32:05] INFO root fetch - main [MainThread]: End processing [mrfix]: success
+[2024-05-20 15:32:06] INFO root fetch - processPackages [vizbeauty]: Remove: archive file [/home/abi/fetcher/tmp/vizbeauty-0.0.1.tar.gz]
+[2024-05-20 15:32:06] INFO root fetch - processPackages [vizbeauty]: Remove: archive file [/home/abi/fetcher/tmp/VizBeauty-0.1.0.tar.gz]
+[2024-05-20 15:32:06] INFO root fetch - main [MainThread]: End processing [vizbeauty]: success
+[2024-05-20 15:32:06] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.8.tar.gz]
+[2024-05-20 15:32:06] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.9.tar.gz]
+[2024-05-20 15:32:06] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-05-20 15:32:06] INFO root fetch - processPackages [sentier-glossary]: Remove: archive file [/home/abi/fetcher/tmp/sentier_glossary-0.1.0.tar.gz]
+[2024-05-20 15:32:06] INFO root fetch - processPackages [sentier-glossary]: Remove: archive file [/home/abi/fetcher/tmp/sentier_glossary-0.2.0.tar.gz]
+[2024-05-20 15:32:06] INFO root fetch - main [MainThread]: End processing [sentier-glossary]: success
+[2024-05-20 15:32:06] INFO root fetch - processPackages [superblocks-agent]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-agent-0.0.4.tar.gz]
+[2024-05-20 15:32:06] INFO root fetch - processPackages [superblocks-agent]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-agent-0.0.5.tar.gz]
+[2024-05-20 15:32:06] INFO root fetch - main [MainThread]: End processing [superblocks-agent]: success
+[2024-05-20 15:32:06] INFO root fetch - processPackages [stsci.image]: Remove: archive file [/home/abi/fetcher/tmp/stsci_image-2.3.7.tar.gz]
+[2024-05-20 15:32:06] INFO root fetch - processPackages [stsci.image]: Remove: archive file [/home/abi/fetcher/tmp/stsci_image-2.3.8.tar.gz]
+[2024-05-20 15:32:06] INFO root fetch - main [MainThread]: End processing [stsci.image]: success
+[2024-05-20 15:32:06] INFO root fetch - processPackages [kde-material-you-colors]: Remove: archive file [/home/abi/fetcher/tmp/kde-material-you-colors-1.8.0.tar.gz]
+[2024-05-20 15:32:06] INFO root fetch - processPackages [kde-material-you-colors]: Remove: archive file [/home/abi/fetcher/tmp/kde_material_you_colors-1.9.1.tar.gz]
+[2024-05-20 15:32:06] INFO root fetch - main [MainThread]: End processing [kde-material-you-colors]: success
+[2024-05-20 15:32:19] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-05-20 15:32:19] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-05-20 15:32:19] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-05-20 15:32:19] INFO root fetch - main [MainThread]: Store serial: [23290331]

@@ -5324,3 +5324,27 @@
 [2024-05-20 04:56:05] INFO root fetch - processPackages [pdal]: Remove: archive file [/home/abi/fetcher/tmp/pdal-3.4.3.tar.gz]
 [2024-05-20 04:56:05] INFO root fetch - main [MainThread]: End processing [pdal]: success
 [2024-05-20 04:56:05] INFO root fetch - main [MainThread]: Store serial: [23283940]
+[2024-05-20 04:58:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283940]
+[2024-05-20 04:58:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 04:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checksec-py
+[2024-05-20 04:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cacheline
+[2024-05-20 04:58:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: calculate-mean
+[2024-05-20 04:58:13] WARNING root fetch - processPackages [calculate-mean]: Skipping, unable to determine old version
+[2024-05-20 04:58:13] INFO root fetch - main [MainThread]: End processing [calculate-mean] error
+[2024-05-20 04:58:13] INFO root fetch - processPackages [checksec-py]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-20 04:58:13] INFO root fetch - processPackages [cacheline]: New version: [0.0.2.dev9] Old Version: [0.0.2.dev8]
+[2024-05-20 04:58:13] INFO root fetch - processPackages [checksec-py]: Downloading https://files.pythonhosted.org/packages/7a/32/f905c88fb8d280ad6165454be45f92c9363419ef2370c9d26eea71dfd738/checksec_py-0.7.1.tar.gz
+[2024-05-20 04:58:13] INFO root fetch - processPackages [cacheline]: Downloading https://files.pythonhosted.org/packages/83/43/30cb7524884592bea2849d344f4360cf1c1d51ba9adc717a082ba5455cde/cacheline-0.0.2.dev8.tar.gz
+[2024-05-20 04:58:14] INFO root fetch - processPackages [cacheline]: Downloading https://files.pythonhosted.org/packages/e5/81/2092b4cd33ee4a3617dbbbe07c7cd17cb0b1af143e9c29b46d43e9fff8d4/cacheline-0.0.2.dev9.tar.gz
+[2024-05-20 04:58:14] INFO root fetch - processPackages [checksec-py]: Downloading https://files.pythonhosted.org/packages/7a/37/07955c868ca109a270610eafbbbd1bbef5588cc5e35ceb3108bbacc06ac1/checksec_py-0.7.2.tar.gz
+[2024-05-20 04:58:14] INFO root fetch - processPackages [checksec-py]: executing diffoscope
+[2024-05-20 04:58:14] INFO root fetch - processPackages [checksec-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checksec_py-0.7.1.tar.gz tmp/checksec_py-0.7.2.tar.gz --markdown 20240520/c/checksec-py/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-20 04:58:14] INFO root fetch - processPackages [cacheline]: executing diffoscope
+[2024-05-20 04:58:14] INFO root fetch - processPackages [cacheline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cacheline-0.0.2.dev8.tar.gz tmp/cacheline-0.0.2.dev9.tar.gz --markdown 20240520/c/cacheline/0.0.2.dev8-0.0.2.dev9/README.md --exclude *.pyd
+[2024-05-20 04:58:14] INFO root fetch - processPackages [cacheline]: Remove: archive file [/home/abi/fetcher/tmp/cacheline-0.0.2.dev8.tar.gz]
+[2024-05-20 04:58:14] INFO root fetch - processPackages [cacheline]: Remove: archive file [/home/abi/fetcher/tmp/cacheline-0.0.2.dev9.tar.gz]
+[2024-05-20 04:58:14] INFO root fetch - main [MainThread]: End processing [cacheline]: success
+[2024-05-20 04:58:14] INFO root fetch - processPackages [checksec-py]: Remove: archive file [/home/abi/fetcher/tmp/checksec_py-0.7.1.tar.gz]
+[2024-05-20 04:58:14] INFO root fetch - processPackages [checksec-py]: Remove: archive file [/home/abi/fetcher/tmp/checksec_py-0.7.2.tar.gz]
+[2024-05-20 04:58:14] INFO root fetch - main [MainThread]: End processing [checksec-py]: success
+[2024-05-20 04:58:14] INFO root fetch - main [MainThread]: Store serial: [23283953]

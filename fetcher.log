@@ -18558,3 +18558,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:27:28] INFO root fetch - processPackages [biapy]: Remove: archive file [/home/abi/fetcher/tmp/biapy-3.4.4.tar.gz]
 [2024-05-20 15:27:28] INFO root fetch - main [MainThread]: End processing [biapy]: success
 [2024-05-20 15:27:28] INFO root fetch - main [MainThread]: Store serial: [23290240]
+[2024-05-20 15:29:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290240]
+[2024-05-20 15:29:38] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-20 15:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imsciences
+[2024-05-20 15:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: JS-Flask-Install
+[2024-05-20 15:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bravaorm
+[2024-05-20 15:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matematikk
+[2024-05-20 15:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangoldp-energiepartagee
+[2024-05-20 15:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: notifications-python-client
+[2024-05-20 15:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-aws-native
+[2024-05-20 15:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cat-win
+[2024-05-20 15:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-workflow-sdk-preview
+[2024-05-20 15:29:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: colicweedz
+[2024-05-20 15:29:38] INFO root fetch - processPackages [imsciences]: New version: [0.5.8.1] Old Version: [0.5.8.0]
+[2024-05-20 15:29:38] INFO root fetch - processPackages [JS-Flask-Install]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-20 15:29:38] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-20 15:29:38] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-05-20 15:29:38] INFO root fetch - processPackages [matematikk]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-20 15:29:38] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.996] Old Version: [0.1.995]
+[2024-05-20 15:29:38] INFO root fetch - processPackages [notifications-python-client]: New version: [9.1.0] Old Version: [9.0.0]
+[2024-05-20 15:29:38] INFO root fetch - processPackages [bravaorm]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 15:29:38] WARNING root fetch - processPackages [colicweedz]: Skipping, unable to determine old version
+[2024-05-20 15:29:38] INFO root fetch - processPackages [colicweedz]: Start processing: defisheye
+[2024-05-20 15:29:38] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/99/17/bda25e37abecbc9a3ebe174a73e024f9eef9e0df8026df5f6068794495ed/imsciences-0.5.8.0.tar.gz
+[2024-05-20 15:29:38] INFO root fetch - main [MainThread]: End processing [colicweedz] error
+[2024-05-20 15:29:38] INFO root fetch - processPackages [cat-win]: New version: [1.7.9] Old Version: [1.7.8]
+[2024-05-20 15:29:38] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/b9/0f/0e2ea1c838d839f658d451461a2f978947f6ab41a8f4e102104cc5b587a8/matematikk-0.0.98.tar.gz
+[2024-05-20 15:29:38] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-20 15:29:38] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/56/ac/c34b1b8edd4a745ceacc5a310a38b3dcca685fe17507cacc1cd57db81fdd/lusid-workflow-sdk-preview-0.1.995.tar.gz
+[2024-05-20 15:29:38] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-05-20 15:29:38] INFO root fetch - processPackages [JS-Flask-Install]: Downloading https://files.pythonhosted.org/packages/64/09/f54369da38856ac1ad4a4d740489792ea71f187bc85cb119a23b87a55136/js_flask_install-0.1.tar.gz
+[2024-05-20 15:29:38] INFO root fetch - processPackages [defisheye]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-20 15:29:38] INFO root fetch - processPackages [bravaorm]: Downloading https://files.pythonhosted.org/packages/a2/6f/a1da75cacec5269a6b5f1a665b31f157396fb6cc99ee65bf5f412ec7c9b3/bravaorm-0.0.8.tar.gz
+[2024-05-20 15:29:38] INFO root fetch - processPackages [notifications-python-client]: Downloading https://files.pythonhosted.org/packages/3d/50/b75be19cf527d3bed6c6958aaba28fef3d2e120f3c399be4ac25b626ff8b/notifications_python_client-9.0.0-py3-none-any.whl
+[2024-05-20 15:29:38] INFO root fetch - processPackages [cat-win]: Downloading https://files.pythonhosted.org/packages/a3/9a/485b64a62801e3d47d56bcae04bbd041fd12c36f1b071f96e22fbcf6b4dd/cat_win-1.7.8-py3-none-any.whl
+[2024-05-20 15:29:38] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/ba/d1/907a2303ec8d0c4c2f01a0d2f9fd6e3de3387f6c25c32de3800152e437fb/matematikk-0.0.99.tar.gz
+[2024-05-20 15:29:38] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ad/65/93d0e7790f005c1bba7ae75a47e2b35b3d8a514713f549fccca0619a2df9/lusid-workflow-sdk-preview-0.1.996.tar.gz
+[2024-05-20 15:29:38] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-20 15:29:38] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/cb/2c/6825573dbddeedb9385bebe32d686f9901f7a627038919bda11aa11f88f3/imsciences-0.5.8.1.tar.gz
+[2024-05-20 15:29:38] INFO root fetch - processPackages [defisheye]: Downloading https://files.pythonhosted.org/packages/0d/d9/8739b538143536b9c2cfb9a6adbc181416c1e2750fde1f9a70f503adef93/defisheye-1.3.0-py3-none-any.whl
+[2024-05-20 15:29:38] INFO root fetch - processPackages [matematikk]: executing diffoscope
+[2024-05-20 15:29:38] INFO root fetch - processPackages [matematikk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matematikk-0.0.98.tar.gz tmp/matematikk-0.0.99.tar.gz --markdown 20240520/m/matematikk/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-20 15:29:39] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-05-20 15:29:39] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz --markdown 20240520/l/lusid-workflow-sdk-preview/0.1.995-0.1.996/README.md --exclude *.pyd
+[2024-05-20 15:29:39] INFO root fetch - processPackages [JS-Flask-Install]: Downloading https://files.pythonhosted.org/packages/8d/06/5a0eb6dc938d5dc84561db63bc20660b2cdc342488cdb1d9ac1e91dab6a5/js_flask_install-0.1.1.tar.gz
+[2024-05-20 15:29:39] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-05-20 15:29:39] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-20 15:29:39] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.8.0.tar.gz tmp/imsciences-0.5.8.1.tar.gz --markdown 20240520/i/imsciences/0.5.8.0-0.5.8.1/README.md --exclude *.pyd
+[2024-05-20 15:29:39] INFO root fetch - processPackages [bravaorm]: Downloading https://files.pythonhosted.org/packages/c1/58/400b73b01ba81ba232cea3a11247b60def43689286244945fa9a6f449ba0/bravaorm-0.0.9.tar.gz
+[2024-05-20 15:29:39] INFO root fetch - processPackages [notifications-python-client]: Downloading https://files.pythonhosted.org/packages/b7/4b/3410b0686382778d0e9bdfafa18241a2223447caaa971ad62dde5af2a1a5/notifications_python_client-9.1.0-py3-none-any.whl
+[2024-05-20 15:29:39] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-20 15:29:39] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240520/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-20 15:29:39] INFO root fetch - processPackages [JS-Flask-Install]: executing diffoscope
+[2024-05-20 15:29:39] INFO root fetch - processPackages [JS-Flask-Install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/js_flask_install-0.1.tar.gz tmp/js_flask_install-0.1.1.tar.gz --markdown 20240520/J/JS-Flask-Install/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-20 15:29:39] INFO root fetch - processPackages [bravaorm]: executing diffoscope
+[2024-05-20 15:29:39] INFO root fetch - processPackages [bravaorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bravaorm-0.0.8.tar.gz tmp/bravaorm-0.0.9.tar.gz --markdown 20240520/b/bravaorm/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 15:29:39] INFO root fetch - processPackages [defisheye]: Downloading https://files.pythonhosted.org/packages/67/4d/7c845d70f423608e7b5ef0d011b4e498086cb4e5461ef084944509578b8f/defisheye-1.4.0.tar.gz
+[2024-05-20 15:29:39] INFO root fetch - processPackages [cat-win]: Downloading https://files.pythonhosted.org/packages/3c/17/509997327d90ba6f50ed13c2c414538866df9b52f0cbd7a8553198d1337d/cat_win-1.7.9-py3-none-any.whl
+[2024-05-20 15:29:39] INFO root fetch - processPackages [notifications-python-client]: executing diffoscope
+[2024-05-20 15:29:39] INFO root fetch - processPackages [notifications-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notifications_python_client-9.0.0-py3-none-any.whl.zip tmp/notifications_python_client-9.1.0-py3-none-any.whl.zip --markdown 20240520/n/notifications-python-client/9.0.0-9.1.0/README.md --exclude *.pyd
+[2024-05-20 15:29:39] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-05-20 15:29:39] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240520/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/README.md --exclude *.pyd
+[2024-05-20 15:29:39] INFO root fetch - processPackages [defisheye]: executing diffoscope
+[2024-05-20 15:29:39] INFO root fetch - processPackages [defisheye]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defisheye-1.3.0-py3-none-any.whl.zip tmp/defisheye-1.4.0.tar.gz --markdown 20240520/d/defisheye/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-20 15:29:39] INFO root fetch - processPackages [cat-win]: executing diffoscope
+[2024-05-20 15:29:39] INFO root fetch - processPackages [cat-win]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cat_win-1.7.8-py3-none-any.whl.zip tmp/cat_win-1.7.9-py3-none-any.whl.zip --markdown 20240520/c/cat-win/1.7.8-1.7.9/README.md --exclude *.pyd
+[2024-05-20 15:29:40] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.8.0.tar.gz]
+[2024-05-20 15:29:40] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.8.1.tar.gz]
+[2024-05-20 15:29:40] INFO root fetch - processPackages [imsciences]: Start processing: cbrkit
+[2024-05-20 15:29:40] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-20 15:29:40] INFO root fetch - processPackages [cbrkit]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 15:29:40] INFO root fetch - processPackages [notifications-python-client]: Remove: archive file [/home/abi/fetcher/tmp/notifications_python_client-9.0.0-py3-none-any.whl.zip]
+[2024-05-20 15:29:40] INFO root fetch - processPackages [notifications-python-client]: Remove: archive file [/home/abi/fetcher/tmp/notifications_python_client-9.1.0-py3-none-any.whl.zip]
+[2024-05-20 15:29:40] INFO root fetch - main [MainThread]: End processing [notifications-python-client]: success
+[2024-05-20 15:29:40] INFO root fetch - processPackages [bravaorm]: Remove: archive file [/home/abi/fetcher/tmp/bravaorm-0.0.8.tar.gz]
+[2024-05-20 15:29:40] INFO root fetch - processPackages [bravaorm]: Remove: archive file [/home/abi/fetcher/tmp/bravaorm-0.0.9.tar.gz]
+[2024-05-20 15:29:40] INFO root fetch - main [MainThread]: End processing [bravaorm]: success
+[2024-05-20 15:29:40] INFO root fetch - processPackages [JS-Flask-Install]: Remove: archive file [/home/abi/fetcher/tmp/js_flask_install-0.1.tar.gz]
+[2024-05-20 15:29:40] INFO root fetch - processPackages [JS-Flask-Install]: Remove: archive file [/home/abi/fetcher/tmp/js_flask_install-0.1.1.tar.gz]
+[2024-05-20 15:29:40] INFO root fetch - main [MainThread]: End processing [JS-Flask-Install]: success
+[2024-05-20 15:29:40] INFO root fetch - processPackages [cbrkit]: Downloading https://files.pythonhosted.org/packages/55/ad/9dd96a108131c3384b68b3752ffcec0deb4761273e21ef1970a37a188642/cbrkit-0.9.0.tar.gz
+[2024-05-20 15:29:40] INFO root fetch - processPackages [defisheye]: Remove: archive file [/home/abi/fetcher/tmp/defisheye-1.3.0-py3-none-any.whl.zip]
+[2024-05-20 15:29:40] INFO root fetch - processPackages [defisheye]: Remove: archive file [/home/abi/fetcher/tmp/defisheye-1.4.0.tar.gz]
+[2024-05-20 15:29:40] INFO root fetch - main [MainThread]: End processing [defisheye]: success
+[2024-05-20 15:29:40] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.98.tar.gz]
+[2024-05-20 15:29:40] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.99.tar.gz]
+[2024-05-20 15:29:40] INFO root fetch - main [MainThread]: End processing [matematikk]: success
+[2024-05-20 15:29:40] INFO root fetch - processPackages [cbrkit]: Downloading https://files.pythonhosted.org/packages/25/b8/28463c55fed243cbfe33a4d54c06aca71fe208ce9c3bf13c9f421dbab730/cbrkit-0.9.1.tar.gz
+[2024-05-20 15:29:40] INFO root fetch - processPackages [cbrkit]: executing diffoscope
+[2024-05-20 15:29:40] INFO root fetch - processPackages [cbrkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbrkit-0.9.0.tar.gz tmp/cbrkit-0.9.1.tar.gz --markdown 20240520/c/cbrkit/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 15:29:40] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-20 15:29:40] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-20 15:29:40] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-20 15:29:40] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz]
+[2024-05-20 15:29:40] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
+[2024-05-20 15:29:40] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-05-20 15:29:41] INFO root fetch - processPackages [cat-win]: Remove: archive file [/home/abi/fetcher/tmp/cat_win-1.7.8-py3-none-any.whl.zip]
+[2024-05-20 15:29:41] INFO root fetch - processPackages [cat-win]: Remove: archive file [/home/abi/fetcher/tmp/cat_win-1.7.9-py3-none-any.whl.zip]
+[2024-05-20 15:29:41] INFO root fetch - main [MainThread]: End processing [cat-win]: success
+[2024-05-20 15:29:41] INFO root fetch - processPackages [cbrkit]: Remove: archive file [/home/abi/fetcher/tmp/cbrkit-0.9.0.tar.gz]
+[2024-05-20 15:29:41] INFO root fetch - processPackages [cbrkit]: Remove: archive file [/home/abi/fetcher/tmp/cbrkit-0.9.1.tar.gz]
+[2024-05-20 15:29:41] INFO root fetch - main [MainThread]: End processing [cbrkit]: success
+[2024-05-20 15:29:54] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-05-20 15:29:54] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-05-20 15:29:54] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-05-20 15:29:54] INFO root fetch - main [MainThread]: Store serial: [23290278]

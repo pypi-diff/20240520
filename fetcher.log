@@ -14017,3 +14017,95 @@
 [2024-05-20 12:34:03] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.1.98.tar.gz]
 [2024-05-20 12:34:03] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2024-05-20 12:34:03] INFO root fetch - main [MainThread]: Store serial: [23288187]
+[2024-05-20 12:36:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288187]
+[2024-05-20 12:36:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-20 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reasonify-headless
+[2024-05-20 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gramex
+[2024-05-20 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpenGeode-core
+[2024-05-20 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conva-ai
+[2024-05-20 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: novelWriter
+[2024-05-20 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: freechat-sdk
+[2024-05-20 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: accelerated-scan
+[2024-05-20 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vvdutils
+[2024-05-20 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wol-api
+[2024-05-20 12:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kerplunkz
+[2024-05-20 12:36:12] INFO root fetch - processPackages [reasonify-headless]: New version: [0.1.0a7] Old Version: [0.1.0a6]
+[2024-05-20 12:36:12] INFO root fetch - processPackages [vvdutils]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-20 12:36:12] INFO root fetch - processPackages [reasonify-headless]: Downloading https://files.pythonhosted.org/packages/99/c1/3cda111b66afd303531b4e79430039f412c3432424c7c02c0093ba24979f/reasonify_headless-0.1.0a6.tar.gz
+[2024-05-20 12:36:12] WARNING root fetch - processPackages [kerplunkz]: Skipping, unable to determine old version
+[2024-05-20 12:36:12] INFO root fetch - processPackages [kerplunkz]: Start processing: mail-devel
+[2024-05-20 12:36:12] INFO root fetch - main [MainThread]: End processing [kerplunkz] error
+[2024-05-20 12:36:12] INFO root fetch - processPackages [vvdutils]: Downloading https://files.pythonhosted.org/packages/70/8f/1974c530318120f6eb2776f4837194da5c48d9a39d5e16319219a32b3422/vvdutils-0.0.3.tar.gz
+[2024-05-20 12:36:12] INFO root fetch - processPackages [freechat-sdk]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-05-20 12:36:12] INFO root fetch - processPackages [accelerated-scan]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-20 12:36:12] INFO root fetch - processPackages [conva-ai]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 12:36:12] INFO root fetch - processPackages [wol-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-20 12:36:12] INFO root fetch - processPackages [gramex]: New version: [1.94.2] Old Version: [1.94.1]
+[2024-05-20 12:36:12] INFO root fetch - processPackages [novelWriter]: New version: [2.4rc1] Old Version: [2.4b1]
+[2024-05-20 12:36:12] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.20.0rc1]
+[2024-05-20 12:36:12] INFO root fetch - processPackages [mail-devel]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-20 12:36:12] INFO root fetch - processPackages [wol-api]: Downloading https://files.pythonhosted.org/packages/e1/1d/151c6b78110dc5f33565a9613d3859027f7750768c941332c6a989cecc0d/wol_api-1.0.3.tar.gz
+[2024-05-20 12:36:12] INFO root fetch - processPackages [accelerated-scan]: Downloading https://files.pythonhosted.org/packages/50/32/39f4d32e8bab141b0737c07000bdfc4391b7b1368992b178c08764cb478f/accelerated_scan-0.1.2.tar.gz
+[2024-05-20 12:36:12] INFO root fetch - processPackages [conva-ai]: Downloading https://files.pythonhosted.org/packages/61/53/a9acd35d19616d5305207cbdf261c1baa17b6069837defc93e4d11aea25c/conva_ai-0.1.0.tar.gz
+[2024-05-20 12:36:12] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/51/61/805e84ab952d205cf72ce2eabddde97028c8584bb94627819a13a475efee/OpenGeode_core-14.20.0rc1-cp39-cp39-win_amd64.whl
+[2024-05-20 12:36:12] INFO root fetch - processPackages [freechat-sdk]: Downloading https://files.pythonhosted.org/packages/fd/b2/f8ddc4170b29a97dcf6cabe09ba19ec2b90c938b0f3e5bdcc63822fc4fd8/freechat_sdk-1.0.0-py3-none-any.whl
+[2024-05-20 12:36:12] INFO root fetch - processPackages [gramex]: Downloading https://files.pythonhosted.org/packages/e8/79/9938a14ed8d1103b4c1be82c318e32988e8969f9439649a858ec132f5f57/gramex-1.94.1.tar.gz
+[2024-05-20 12:36:12] INFO root fetch - processPackages [novelWriter]: Downloading https://files.pythonhosted.org/packages/ab/af/0a82d54961e984a1c566617e20da37b84e6a9f6a54ad19be522375fa27b2/novelWriter-2.4b1.tar.gz
+[2024-05-20 12:36:12] INFO root fetch - processPackages [vvdutils]: Downloading https://files.pythonhosted.org/packages/0f/e4/6ea813856bee9d14616c918900422530e711979df296d7e05813f2d9064e/vvdutils-0.0.4.tar.gz
+[2024-05-20 12:36:12] INFO root fetch - processPackages [reasonify-headless]: Downloading https://files.pythonhosted.org/packages/9c/ab/a05177c962d615969019a5cf1fb2ea9f494affac887e029f77c7f0a65ee7/reasonify_headless-0.1.0a7.tar.gz
+[2024-05-20 12:36:12] INFO root fetch - processPackages [mail-devel]: Downloading https://files.pythonhosted.org/packages/35/7b/cda1427810406e9c0de9e4c673e1df409c2867115b3f4fabb4d67a58df57/mail_devel-0.8.2-py3-none-any.whl
+[2024-05-20 12:36:13] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 11743363>=10485760
+[2024-05-20 12:36:13] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2024-05-20 12:36:13] INFO root fetch - processPackages [reasonify-headless]: executing diffoscope
+[2024-05-20 12:36:13] INFO root fetch - processPackages [reasonify-headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasonify_headless-0.1.0a6.tar.gz tmp/reasonify_headless-0.1.0a7.tar.gz --markdown 20240520/r/reasonify-headless/0.1.0a6-0.1.0a7/README.md --exclude *.pyd
+[2024-05-20 12:36:13] INFO root fetch - processPackages [vvdutils]: executing diffoscope
+[2024-05-20 12:36:13] INFO root fetch - processPackages [vvdutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vvdutils-0.0.3.tar.gz tmp/vvdutils-0.0.4.tar.gz --markdown 20240520/v/vvdutils/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-20 12:36:13] INFO root fetch - processPackages [wol-api]: Downloading https://files.pythonhosted.org/packages/92/18/9048e915b9c360a1396beb69e606c53597c206dc485c0d39ed3998da22c6/wol_api-1.0.4.tar.gz
+[2024-05-20 12:36:13] INFO root fetch - processPackages [conva-ai]: Downloading https://files.pythonhosted.org/packages/0d/49/b6371b6d176d60cbafad58d2144794568fae5925fe741b54faf861b029a4/conva_ai-0.1.1.tar.gz
+[2024-05-20 12:36:13] INFO root fetch - processPackages [accelerated-scan]: Downloading https://files.pythonhosted.org/packages/ee/ee/8920c5f35b2cccb8fae8ae35866983ee92bd9835c8c37edfbb107ea9cea9/accelerated_scan-0.2.0.tar.gz
+[2024-05-20 12:36:13] INFO root fetch - processPackages [wol-api]: executing diffoscope
+[2024-05-20 12:36:13] INFO root fetch - processPackages [wol-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wol_api-1.0.3.tar.gz tmp/wol_api-1.0.4.tar.gz --markdown 20240520/w/wol-api/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-20 12:36:13] INFO root fetch - processPackages [conva-ai]: executing diffoscope
+[2024-05-20 12:36:13] INFO root fetch - processPackages [conva-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conva_ai-0.1.0.tar.gz tmp/conva_ai-0.1.1.tar.gz --markdown 20240520/c/conva-ai/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 12:36:13] INFO root fetch - processPackages [accelerated-scan]: executing diffoscope
+[2024-05-20 12:36:13] INFO root fetch - processPackages [accelerated-scan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelerated_scan-0.1.2.tar.gz tmp/accelerated_scan-0.2.0.tar.gz --markdown 20240520/a/accelerated-scan/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-20 12:36:13] INFO root fetch - processPackages [freechat-sdk]: Downloading https://files.pythonhosted.org/packages/9a/3d/3611899e6d779f74222cb3bb3550d106662dd560b2a2ccaa5f89451c9fd1/freechat_sdk-1.0.2-py3-none-any.whl
+[2024-05-20 12:36:13] INFO root fetch - processPackages [gramex]: Downloading https://files.pythonhosted.org/packages/00/1a/763fa90014345ba3bf038a37825957c6ec357ba4e4765bf99797a1eab612/gramex-1.94.2.tar.gz
+[2024-05-20 12:36:13] INFO root fetch - processPackages [mail-devel]: Downloading https://files.pythonhosted.org/packages/41/15/6a556623ffe0755bb6d0417b6c9b7f66536af65ace4e7ceb09ba0cf348ec/mail_devel-0.9.0-py3-none-any.whl
+[2024-05-20 12:36:13] INFO root fetch - processPackages [mail-devel]: executing diffoscope
+[2024-05-20 12:36:13] INFO root fetch - processPackages [mail-devel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mail_devel-0.8.2-py3-none-any.whl.zip tmp/mail_devel-0.9.0-py3-none-any.whl.zip --markdown 20240520/m/mail-devel/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-20 12:36:13] INFO root fetch - processPackages [gramex]: executing diffoscope
+[2024-05-20 12:36:13] INFO root fetch - processPackages [gramex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gramex-1.94.1.tar.gz tmp/gramex-1.94.2.tar.gz --markdown 20240520/g/gramex/1.94.1-1.94.2/README.md --exclude *.pyd
+[2024-05-20 12:36:13] INFO root fetch - processPackages [novelWriter]: Downloading https://files.pythonhosted.org/packages/e6/0b/c3f12c4f384eb527e53ef4e12e1c3a2a10405ba7b70b29dc8a343232e412/novelWriter-2.4rc1.tar.gz
+[2024-05-20 12:36:13] INFO root fetch - processPackages [freechat-sdk]: executing diffoscope
+[2024-05-20 12:36:13] INFO root fetch - processPackages [freechat-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freechat_sdk-1.0.0-py3-none-any.whl.zip tmp/freechat_sdk-1.0.2-py3-none-any.whl.zip --markdown 20240520/f/freechat-sdk/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-05-20 12:36:13] INFO root fetch - processPackages [reasonify-headless]: Remove: archive file [/home/abi/fetcher/tmp/reasonify_headless-0.1.0a6.tar.gz]
+[2024-05-20 12:36:13] INFO root fetch - processPackages [reasonify-headless]: Remove: archive file [/home/abi/fetcher/tmp/reasonify_headless-0.1.0a7.tar.gz]
+[2024-05-20 12:36:13] INFO root fetch - main [MainThread]: End processing [reasonify-headless]: success
+[2024-05-20 12:36:13] INFO root fetch - processPackages [novelWriter]: executing diffoscope
+[2024-05-20 12:36:13] INFO root fetch - processPackages [novelWriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novelWriter-2.4b1.tar.gz tmp/novelWriter-2.4rc1.tar.gz --markdown 20240520/n/novelWriter/2.4b1-2.4rc1/README.md --exclude *.pyd
+[2024-05-20 12:36:13] INFO root fetch - processPackages [wol-api]: Remove: archive file [/home/abi/fetcher/tmp/wol_api-1.0.3.tar.gz]
+[2024-05-20 12:36:13] INFO root fetch - processPackages [wol-api]: Remove: archive file [/home/abi/fetcher/tmp/wol_api-1.0.4.tar.gz]
+[2024-05-20 12:36:13] INFO root fetch - main [MainThread]: End processing [wol-api]: success
+[2024-05-20 12:36:14] INFO root fetch - processPackages [vvdutils]: Remove: archive file [/home/abi/fetcher/tmp/vvdutils-0.0.3.tar.gz]
+[2024-05-20 12:36:14] INFO root fetch - processPackages [vvdutils]: Remove: archive file [/home/abi/fetcher/tmp/vvdutils-0.0.4.tar.gz]
+[2024-05-20 12:36:14] INFO root fetch - main [MainThread]: End processing [vvdutils]: success
+[2024-05-20 12:36:14] INFO root fetch - processPackages [accelerated-scan]: Remove: archive file [/home/abi/fetcher/tmp/accelerated_scan-0.1.2.tar.gz]
+[2024-05-20 12:36:14] INFO root fetch - processPackages [accelerated-scan]: Remove: archive file [/home/abi/fetcher/tmp/accelerated_scan-0.2.0.tar.gz]
+[2024-05-20 12:36:14] INFO root fetch - main [MainThread]: End processing [accelerated-scan]: success
+[2024-05-20 12:36:14] INFO root fetch - processPackages [conva-ai]: Remove: archive file [/home/abi/fetcher/tmp/conva_ai-0.1.0.tar.gz]
+[2024-05-20 12:36:14] INFO root fetch - processPackages [conva-ai]: Remove: archive file [/home/abi/fetcher/tmp/conva_ai-0.1.1.tar.gz]
+[2024-05-20 12:36:14] INFO root fetch - main [MainThread]: End processing [conva-ai]: success
+[2024-05-20 12:36:14] INFO root fetch - processPackages [mail-devel]: Remove: archive file [/home/abi/fetcher/tmp/mail_devel-0.8.2-py3-none-any.whl.zip]
+[2024-05-20 12:36:14] INFO root fetch - processPackages [mail-devel]: Remove: archive file [/home/abi/fetcher/tmp/mail_devel-0.9.0-py3-none-any.whl.zip]
+[2024-05-20 12:36:14] INFO root fetch - main [MainThread]: End processing [mail-devel]: success
+[2024-05-20 12:36:15] INFO root fetch - processPackages [gramex]: Remove: archive file [/home/abi/fetcher/tmp/gramex-1.94.1.tar.gz]
+[2024-05-20 12:36:15] INFO root fetch - processPackages [gramex]: Remove: archive file [/home/abi/fetcher/tmp/gramex-1.94.2.tar.gz]
+[2024-05-20 12:36:15] INFO root fetch - main [MainThread]: End processing [gramex]: success
+[2024-05-20 12:36:16] INFO root fetch - processPackages [freechat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/freechat_sdk-1.0.0-py3-none-any.whl.zip]
+[2024-05-20 12:36:16] INFO root fetch - processPackages [freechat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/freechat_sdk-1.0.2-py3-none-any.whl.zip]
+[2024-05-20 12:36:16] INFO root fetch - main [MainThread]: End processing [freechat-sdk]: success
+[2024-05-20 12:36:17] INFO root fetch - processPackages [novelWriter]: Remove: archive file [/home/abi/fetcher/tmp/novelWriter-2.4b1.tar.gz]
+[2024-05-20 12:36:17] INFO root fetch - processPackages [novelWriter]: Remove: archive file [/home/abi/fetcher/tmp/novelWriter-2.4rc1.tar.gz]
+[2024-05-20 12:36:17] INFO root fetch - main [MainThread]: End processing [novelWriter]: success
+[2024-05-20 12:36:17] INFO root fetch - main [MainThread]: Store serial: [23288223]

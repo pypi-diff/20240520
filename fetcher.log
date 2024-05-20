@@ -10119,3 +10119,33 @@
 [2024-05-20 09:59:44] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.6.dev0.tar.gz]
 [2024-05-20 09:59:44] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
 [2024-05-20 09:59:44] INFO root fetch - main [MainThread]: Store serial: [23286578]
+[2024-05-20 10:01:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286578]
+[2024-05-20 10:01:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 10:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smo_rejection
+[2024-05-20 10:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proconfig
+[2024-05-20 10:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-pos-payment-method-change-policy
+[2024-05-20 10:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: secimport
+[2024-05-20 10:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: loshz
+[2024-05-20 10:01:53] INFO root fetch - processPackages [smo_rejection]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-20 10:01:53] WARNING root fetch - processPackages [proconfig]: Skipping, unable to determine old version
+[2024-05-20 10:01:53] INFO root fetch - main [MainThread]: End processing [proconfig] error
+[2024-05-20 10:01:53] INFO root fetch - processPackages [smo_rejection]: Downloading https://files.pythonhosted.org/packages/08/63/e1724dbaead3a704e0c787defd18af6538dcdab778a49613edd8982fa418/smo_rejection-0.4.0.tar.gz
+[2024-05-20 10:01:53] WARNING root fetch - processPackages [odoo-addon-pos-payment-method-change-policy]: Skipping, unable to determine old version
+[2024-05-20 10:01:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-payment-method-change-policy] error
+[2024-05-20 10:01:53] INFO root fetch - processPackages [secimport]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-20 10:01:53] WARNING root fetch - processPackages [loshz]: Skipping, unable to determine old version
+[2024-05-20 10:01:53] INFO root fetch - main [MainThread]: End processing [loshz] error
+[2024-05-20 10:01:53] INFO root fetch - processPackages [secimport]: Downloading https://files.pythonhosted.org/packages/00/3f/95931b849d0725f13caef597f68f39f28110d9f8b28842af45876a79c51c/secimport-0.9.1.tar.gz
+[2024-05-20 10:01:53] INFO root fetch - processPackages [smo_rejection]: Downloading https://files.pythonhosted.org/packages/ee/b4/794066d5d6d707b81e04d66d83066a8c579c754b7ec90c636deef1d95a6f/smo_rejection-0.4.1.tar.gz
+[2024-05-20 10:01:53] INFO root fetch - processPackages [smo_rejection]: executing diffoscope
+[2024-05-20 10:01:53] INFO root fetch - processPackages [smo_rejection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smo_rejection-0.4.0.tar.gz tmp/smo_rejection-0.4.1.tar.gz --markdown 20240520/s/smo_rejection/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-20 10:01:53] INFO root fetch - processPackages [secimport]: Downloading https://files.pythonhosted.org/packages/90/db/79b86e3b74032506b772aa51ab23a758eecee63b794c244655ce1e5c87ec/secimport-0.9.2.tar.gz
+[2024-05-20 10:01:53] INFO root fetch - processPackages [secimport]: executing diffoscope
+[2024-05-20 10:01:53] INFO root fetch - processPackages [secimport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secimport-0.9.1.tar.gz tmp/secimport-0.9.2.tar.gz --markdown 20240520/s/secimport/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-20 10:01:54] INFO root fetch - processPackages [smo_rejection]: Remove: archive file [/home/abi/fetcher/tmp/smo_rejection-0.4.0.tar.gz]
+[2024-05-20 10:01:54] INFO root fetch - processPackages [smo_rejection]: Remove: archive file [/home/abi/fetcher/tmp/smo_rejection-0.4.1.tar.gz]
+[2024-05-20 10:01:54] INFO root fetch - main [MainThread]: End processing [smo_rejection]: success
+[2024-05-20 10:01:54] INFO root fetch - processPackages [secimport]: Remove: archive file [/home/abi/fetcher/tmp/secimport-0.9.1.tar.gz]
+[2024-05-20 10:01:54] INFO root fetch - processPackages [secimport]: Remove: archive file [/home/abi/fetcher/tmp/secimport-0.9.2.tar.gz]
+[2024-05-20 10:01:54] INFO root fetch - main [MainThread]: End processing [secimport]: success
+[2024-05-20 10:01:54] INFO root fetch - main [MainThread]: Store serial: [23286592]

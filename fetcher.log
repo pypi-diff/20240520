@@ -22948,3 +22948,42 @@ EOFError: EOF read where object expected
 [2024-05-20 18:03:28] INFO root fetch - processPackages [modern-colorthief]: Remove: archive file [/home/abi/fetcher/tmp/modern_colorthief-0.1.5-pp39-pypy39_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
 [2024-05-20 18:03:28] INFO root fetch - main [MainThread]: End processing [modern-colorthief]: success
 [2024-05-20 18:03:28] INFO root fetch - main [MainThread]: Store serial: [23292172]
+[2024-05-20 18:05:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292172]
+[2024-05-20 18:05:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 18:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grep-ast
+[2024-05-20 18:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eulertools
+[2024-05-20 18:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: italian-ats-evaluator
+[2024-05-20 18:05:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skilleter-thingy
+[2024-05-20 18:05:37] INFO root fetch - processPackages [italian-ats-evaluator]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-20 18:05:37] INFO root fetch - processPackages [grep-ast]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-20 18:05:37] INFO root fetch - processPackages [eulertools]: New version: [3.0.0] Old Version: [2.1.0]
+[2024-05-20 18:05:37] INFO root fetch - processPackages [italian-ats-evaluator]: Downloading https://files.pythonhosted.org/packages/b1/f1/ff97f10194281c9e49b10bf126d78688ad64f55a29e6b8ce45a18bc2fbe8/italian_ats_evaluator-2.0.0.tar.gz
+[2024-05-20 18:05:37] INFO root fetch - processPackages [grep-ast]: Downloading https://files.pythonhosted.org/packages/5f/f9/8d75567c1394b5387a92a9d2ec3e943bf77686203489177f4f5668ce60a1/grep_ast-0.3.0.tar.gz
+[2024-05-20 18:05:37] INFO root fetch - processPackages [eulertools]: Downloading https://files.pythonhosted.org/packages/81/93/20d0f9c81d6a41ee0b5163be680e7916e36d992fe61ac88946054f007154/eulertools-2.1.0.tar.gz
+[2024-05-20 18:05:37] INFO root fetch - processPackages [skilleter-thingy]: New version: [0.0.46] Old Version: [0.0.45]
+[2024-05-20 18:05:38] INFO root fetch - processPackages [grep-ast]: Downloading https://files.pythonhosted.org/packages/55/5f/e954ee77db17cfeea8561045d26c0d06ea95892ae7a20186a48fe1d658f6/grep_ast-0.3.1.tar.gz
+[2024-05-20 18:05:38] INFO root fetch - processPackages [eulertools]: Downloading https://files.pythonhosted.org/packages/95/b5/a65118fb6f5fe3f81e9789eaeb6e62df6616e42f68f90bfd1a4afb191fe2/eulertools-3.0.0.tar.gz
+[2024-05-20 18:05:38] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/43/5c/a8d78dbc0839d8c45e8ca9844e5df84cfad5bfce42e64a6ab1267ca252b2/skilleter_thingy-0.0.45.tar.gz
+[2024-05-20 18:05:38] INFO root fetch - processPackages [grep-ast]: executing diffoscope
+[2024-05-20 18:05:38] INFO root fetch - processPackages [grep-ast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grep_ast-0.3.0.tar.gz tmp/grep_ast-0.3.1.tar.gz --markdown 20240520/g/grep-ast/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-20 18:05:38] INFO root fetch - processPackages [eulertools]: executing diffoscope
+[2024-05-20 18:05:38] INFO root fetch - processPackages [eulertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eulertools-2.1.0.tar.gz tmp/eulertools-3.0.0.tar.gz --markdown 20240520/e/eulertools/2.1.0-3.0.0/README.md --exclude *.pyd
+[2024-05-20 18:05:38] INFO root fetch - processPackages [italian-ats-evaluator]: Downloading https://files.pythonhosted.org/packages/57/08/f1fbd8cbe339b37819458037211ce20601883f1008b483c823bd90338c73/italian_ats_evaluator-2.0.1.tar.gz
+[2024-05-20 18:05:38] INFO root fetch - processPackages [italian-ats-evaluator]: executing diffoscope
+[2024-05-20 18:05:38] INFO root fetch - processPackages [italian-ats-evaluator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/italian_ats_evaluator-2.0.0.tar.gz tmp/italian_ats_evaluator-2.0.1.tar.gz --markdown 20240520/i/italian-ats-evaluator/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-20 18:05:38] INFO root fetch - processPackages [skilleter-thingy]: Downloading https://files.pythonhosted.org/packages/d6/9c/18e498f11d9c06ea255722d95f1ab55a075c73298568eb37e435250c69f4/skilleter_thingy-0.0.46.tar.gz
+[2024-05-20 18:05:38] INFO root fetch - processPackages [skilleter-thingy]: executing diffoscope
+[2024-05-20 18:05:38] INFO root fetch - processPackages [skilleter-thingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skilleter_thingy-0.0.45.tar.gz tmp/skilleter_thingy-0.0.46.tar.gz --markdown 20240520/s/skilleter-thingy/0.0.45-0.0.46/README.md --exclude *.pyd
+[2024-05-20 18:05:38] INFO root fetch - processPackages [grep-ast]: Remove: archive file [/home/abi/fetcher/tmp/grep_ast-0.3.0.tar.gz]
+[2024-05-20 18:05:38] INFO root fetch - processPackages [grep-ast]: Remove: archive file [/home/abi/fetcher/tmp/grep_ast-0.3.1.tar.gz]
+[2024-05-20 18:05:38] INFO root fetch - main [MainThread]: End processing [grep-ast]: success
+[2024-05-20 18:05:38] INFO root fetch - processPackages [italian-ats-evaluator]: Remove: archive file [/home/abi/fetcher/tmp/italian_ats_evaluator-2.0.0.tar.gz]
+[2024-05-20 18:05:38] INFO root fetch - processPackages [italian-ats-evaluator]: Remove: archive file [/home/abi/fetcher/tmp/italian_ats_evaluator-2.0.1.tar.gz]
+[2024-05-20 18:05:38] INFO root fetch - main [MainThread]: End processing [italian-ats-evaluator]: success
+[2024-05-20 18:05:39] INFO root fetch - processPackages [eulertools]: Remove: archive file [/home/abi/fetcher/tmp/eulertools-2.1.0.tar.gz]
+[2024-05-20 18:05:39] INFO root fetch - processPackages [eulertools]: Remove: archive file [/home/abi/fetcher/tmp/eulertools-3.0.0.tar.gz]
+[2024-05-20 18:05:39] INFO root fetch - main [MainThread]: End processing [eulertools]: success
+[2024-05-20 18:05:39] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.45.tar.gz]
+[2024-05-20 18:05:39] INFO root fetch - processPackages [skilleter-thingy]: Remove: archive file [/home/abi/fetcher/tmp/skilleter_thingy-0.0.46.tar.gz]
+[2024-05-20 18:05:39] INFO root fetch - main [MainThread]: End processing [skilleter-thingy]: success
+[2024-05-20 18:05:39] INFO root fetch - main [MainThread]: Store serial: [23292217]

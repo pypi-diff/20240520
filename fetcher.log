@@ -12778,3 +12778,45 @@
 [2024-05-20 11:42:59] INFO root fetch - processPackages [doxmlparser]: Remove: archive file [/home/abi/fetcher/tmp/doxmlparser-1.11.0-py3-none-any.whl.zip]
 [2024-05-20 11:42:59] INFO root fetch - main [MainThread]: End processing [doxmlparser]: success
 [2024-05-20 11:42:59] INFO root fetch - main [MainThread]: Store serial: [23287664]
+[2024-05-20 11:45:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287664]
+[2024-05-20 11:45:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 11:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wol-api
+[2024-05-20 11:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amilib
+[2024-05-20 11:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxsim
+[2024-05-20 11:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonzoologicalz
+[2024-05-20 11:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alita-sdk
+[2024-05-20 11:45:08] INFO root fetch - processPackages [wol-api]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 11:45:08] INFO root fetch - processPackages [alita-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-20 11:45:08] INFO root fetch - processPackages [amilib]: New version: [0.1.1a0] Old Version: [0.1.1]
+[2024-05-20 11:45:08] INFO root fetch - processPackages [wol-api]: Downloading https://files.pythonhosted.org/packages/35/fc/af94fcb6d6e549e27d355c3f96cbd56c3d0bbff0af76150013485b2d4d4b/wol_api-1.0.2.tar.gz
+[2024-05-20 11:45:08] INFO root fetch - processPackages [jaxsim]: New version: [0.2.dev92] Old Version: [0.2.dev87]
+[2024-05-20 11:45:08] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/1d/be/29d81a7b70ac303d682a815de204eaf77bd8b5455a80529df4abc8136a54/alita_sdk-0.1.7.tar.gz
+[2024-05-20 11:45:08] INFO root fetch - processPackages [amilib]: Downloading https://files.pythonhosted.org/packages/98/d7/8432b0040f6de277c426d1d4411e8e163c3a44a4f69ea116d2ec2b5c4768/amilib-0.1.1.tar.gz
+[2024-05-20 11:45:08] WARNING root fetch - processPackages [nonzoologicalz]: Skipping, unable to determine old version
+[2024-05-20 11:45:08] INFO root fetch - main [MainThread]: End processing [nonzoologicalz] error
+[2024-05-20 11:45:08] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/b5/25/4a27bb25679ce17fef64a522f1af1c8722d2ec06d59735f1ddf7d16201d9/jaxsim-0.2.dev87.tar.gz
+[2024-05-20 11:45:08] INFO root fetch - processPackages [amilib]: Downloading https://files.pythonhosted.org/packages/3b/83/135e00c19ba9ff5e8afd1ba99052cd49e7f1493e3ca0d5f1983139068098/amilib-0.1.1a0.tar.gz
+[2024-05-20 11:45:08] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/58/77/699a43c7f5d3229ed63ff8d8eaba7999323921fbe9a94d3dd2d8b0f9b7a6/alita_sdk-0.1.8.tar.gz
+[2024-05-20 11:45:08] INFO root fetch - processPackages [wol-api]: Downloading https://files.pythonhosted.org/packages/e1/1d/151c6b78110dc5f33565a9613d3859027f7750768c941332c6a989cecc0d/wol_api-1.0.3.tar.gz
+[2024-05-20 11:45:08] INFO root fetch - processPackages [amilib]: executing diffoscope
+[2024-05-20 11:45:08] INFO root fetch - processPackages [amilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amilib-0.1.1.tar.gz tmp/amilib-0.1.1a0.tar.gz --markdown 20240520/a/amilib/0.1.1-0.1.1a0/README.md --exclude *.pyd
+[2024-05-20 11:45:08] INFO root fetch - processPackages [wol-api]: executing diffoscope
+[2024-05-20 11:45:08] INFO root fetch - processPackages [wol-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wol_api-1.0.2.tar.gz tmp/wol_api-1.0.3.tar.gz --markdown 20240520/w/wol-api/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 11:45:08] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-05-20 11:45:08] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.1.7.tar.gz tmp/alita_sdk-0.1.8.tar.gz --markdown 20240520/a/alita-sdk/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-20 11:45:08] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/5f/f3/d7774afb77c6832c188a48524d674234d264ab4e593515aac50ba544ea66/jaxsim-0.2.dev92.tar.gz
+[2024-05-20 11:45:09] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2024-05-20 11:45:09] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.2.dev87.tar.gz tmp/jaxsim-0.2.dev92.tar.gz --markdown 20240520/j/jaxsim/0.2.dev87-0.2.dev92/README.md --exclude *.pyd
+[2024-05-20 11:45:09] INFO root fetch - processPackages [wol-api]: Remove: archive file [/home/abi/fetcher/tmp/wol_api-1.0.2.tar.gz]
+[2024-05-20 11:45:09] INFO root fetch - processPackages [wol-api]: Remove: archive file [/home/abi/fetcher/tmp/wol_api-1.0.3.tar.gz]
+[2024-05-20 11:45:09] INFO root fetch - main [MainThread]: End processing [wol-api]: success
+[2024-05-20 11:45:09] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.7.tar.gz]
+[2024-05-20 11:45:09] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.8.tar.gz]
+[2024-05-20 11:45:09] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-05-20 11:45:09] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.1.1.tar.gz]
+[2024-05-20 11:45:09] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.1.1a0.tar.gz]
+[2024-05-20 11:45:09] INFO root fetch - main [MainThread]: End processing [amilib]: success
+[2024-05-20 11:45:09] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev87.tar.gz]
+[2024-05-20 11:45:09] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev92.tar.gz]
+[2024-05-20 11:45:09] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2024-05-20 11:45:09] INFO root fetch - main [MainThread]: Store serial: [23287681]

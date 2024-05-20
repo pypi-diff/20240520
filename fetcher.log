@@ -5103,3 +5103,38 @@
 [2024-05-20 04:40:06] WARNING root fetch - processPackages [dottiestz]: Skipping, unable to determine old version
 [2024-05-20 04:40:06] INFO root fetch - main [MainThread]: End processing [dottiestz] error
 [2024-05-20 04:40:06] INFO root fetch - main [MainThread]: Store serial: [23283859]
+[2024-05-20 04:42:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283859]
+[2024-05-20 04:42:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 04:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CodingRider
+[2024-05-20 04:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tike
+[2024-05-20 04:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tradegym
+[2024-05-20 04:42:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yoto-api
+[2024-05-20 04:42:15] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-20 04:42:15] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-20 04:42:15] INFO root fetch - processPackages [tike]: New version: [0.25.7] Old Version: [0.25.6]
+[2024-05-20 04:42:15] INFO root fetch - processPackages [CodingRider]: New version: [2.8] Old Version: [2.7]
+[2024-05-20 04:42:15] INFO root fetch - processPackages [tradegym]: New version: [25.2.2] Old Version: [25.1.5]
+[2024-05-20 04:42:15] INFO root fetch - processPackages [tike]: Downloading https://files.pythonhosted.org/packages/a3/0e/7c80170cdf37944a22b05a534984eeb15377e1964f445db73c1a04a90be0/tike-0.25.6.tar.gz
+[2024-05-20 04:42:15] INFO root fetch - processPackages [tradegym]: Downloading https://files.pythonhosted.org/packages/00/22/6a53774374a6663c885b36139f8cbc6d423141a8ad41db6c2efda0653d2a/tradegym-25.1.5.tar.gz
+[2024-05-20 04:42:15] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/58/fb/8985cf87383bd01c51816ef84325aff41134602b13ca61e346eae97e8355/codingrider-2.7.tar.gz
+[2024-05-20 04:42:15] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-20 04:42:15] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-20 04:42:15] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240520/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-20 04:42:15] INFO root fetch - processPackages [tradegym]: Downloading https://files.pythonhosted.org/packages/64/36/c81959e4c989733fb47c96429e8db658364ee4fa1540d2cb8b313d939650/tradegym-25.2.2.tar.gz
+[2024-05-20 04:42:15] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/23/9c/df0e0d0fb5e5cd1df71e1fa2354d8781b94d091b45aaf7c8138cfd1edcdf/codingrider-2.8.tar.gz
+[2024-05-20 04:42:16] INFO root fetch - processPackages [CodingRider]: executing diffoscope
+[2024-05-20 04:42:16] INFO root fetch - processPackages [CodingRider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codingrider-2.7.tar.gz tmp/codingrider-2.8.tar.gz --markdown 20240520/C/CodingRider/2.7-2.8/README.md --exclude *.pyd
+[2024-05-20 04:42:16] INFO root fetch - processPackages [tradegym]: executing diffoscope
+[2024-05-20 04:42:16] INFO root fetch - processPackages [tradegym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradegym-25.1.5.tar.gz tmp/tradegym-25.2.2.tar.gz --markdown 20240520/t/tradegym/25.1.5-25.2.2/README.md --exclude *.pyd
+[2024-05-20 04:42:16] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-20 04:42:16] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-20 04:42:16] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-20 04:42:16] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/codingrider-2.7.tar.gz]
+[2024-05-20 04:42:16] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/codingrider-2.8.tar.gz]
+[2024-05-20 04:42:16] INFO root fetch - main [MainThread]: End processing [CodingRider]: success
+[2024-05-20 04:42:16] INFO root fetch - processPackages [tradegym]: Remove: archive file [/home/abi/fetcher/tmp/tradegym-25.1.5.tar.gz]
+[2024-05-20 04:42:16] INFO root fetch - processPackages [tradegym]: Remove: archive file [/home/abi/fetcher/tmp/tradegym-25.2.2.tar.gz]
+[2024-05-20 04:42:16] INFO root fetch - main [MainThread]: End processing [tradegym]: success
+[2024-05-20 04:42:57] WARNING root fetch - processPackages [tike]: Skipping package: exceeds size limit 27181953>=10485760
+[2024-05-20 04:42:57] INFO root fetch - main [MainThread]: End processing [tike] error
+[2024-05-20 04:42:57] INFO root fetch - main [MainThread]: Store serial: [23283868]

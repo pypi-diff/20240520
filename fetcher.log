@@ -12588,3 +12588,24 @@
 [2024-05-20 11:36:27] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.4.tar.gz]
 [2024-05-20 11:36:27] INFO root fetch - main [MainThread]: End processing [pyslth]: success
 [2024-05-20 11:36:27] INFO root fetch - main [MainThread]: Store serial: [23287608]
+[2024-05-20 11:38:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287608]
+[2024-05-20 11:38:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 11:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proconfig
+[2024-05-20 11:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nowcasting-datamodel
+[2024-05-20 11:38:36] INFO root fetch - processPackages [proconfig]: New version: [0.1.4] Old Version: [0.1.1]
+[2024-05-20 11:38:36] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-20 11:38:36] INFO root fetch - processPackages [proconfig]: Downloading https://files.pythonhosted.org/packages/86/9b/71ada6615e2d9ed180fb37977a488f9cc356675d582b229b8e3d629a570f/proconfig-0.1.1.tar.gz
+[2024-05-20 11:38:36] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/1c/b1/59a9915375868de28c63c4daecf8fad3f1b17f2e2e195c7e901f0d717ae2/nowcasting_datamodel-1.5.8.tar.gz
+[2024-05-20 11:38:36] INFO root fetch - processPackages [proconfig]: Downloading https://files.pythonhosted.org/packages/e9/68/6535e74681ae26941f3e82ac65c4c7236a2d30b84b5c92dc3bcf28676e7d/proconfig-0.1.4.tar.gz
+[2024-05-20 11:38:36] INFO root fetch - processPackages [proconfig]: executing diffoscope
+[2024-05-20 11:38:36] INFO root fetch - processPackages [proconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proconfig-0.1.1.tar.gz tmp/proconfig-0.1.4.tar.gz --markdown 20240520/p/proconfig/0.1.1-0.1.4/README.md --exclude *.pyd
+[2024-05-20 11:38:36] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/e1/29/2f161e72e5afe3e3a4176debc51596fb16247c07e08d93e9fcba28b2cfba/nowcasting_datamodel-1.5.9.tar.gz
+[2024-05-20 11:38:36] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2024-05-20 11:38:36] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.5.8.tar.gz tmp/nowcasting_datamodel-1.5.9.tar.gz --markdown 20240520/n/nowcasting-datamodel/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-20 11:38:37] INFO root fetch - processPackages [proconfig]: Remove: archive file [/home/abi/fetcher/tmp/proconfig-0.1.1.tar.gz]
+[2024-05-20 11:38:37] INFO root fetch - processPackages [proconfig]: Remove: archive file [/home/abi/fetcher/tmp/proconfig-0.1.4.tar.gz]
+[2024-05-20 11:38:37] INFO root fetch - main [MainThread]: End processing [proconfig]: success
+[2024-05-20 11:38:37] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.5.8.tar.gz]
+[2024-05-20 11:38:37] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.5.9.tar.gz]
+[2024-05-20 11:38:37] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2024-05-20 11:38:37] INFO root fetch - main [MainThread]: Store serial: [23287614]

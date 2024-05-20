@@ -11670,3 +11670,175 @@
 [2024-05-20 11:05:24] INFO root fetch - processPackages [kili]: Remove: archive file [/home/abi/fetcher/tmp/kili-2.99.0.tar.gz]
 [2024-05-20 11:05:24] INFO root fetch - main [MainThread]: End processing [kili]: success
 [2024-05-20 11:05:24] INFO root fetch - main [MainThread]: Store serial: [23287241]
+[2024-05-20 11:07:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287241]
+[2024-05-20 11:07:33] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-05-20 11:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.core
+[2024-05-20 11:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tui-dsg
+[2024-05-20 11:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mountain-chicken
+[2024-05-20 11:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.features
+[2024-05-20 11:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.cloud
+[2024-05-20 11:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.tabular
+[2024-05-20 11:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.multimodal
+[2024-05-20 11:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lib-version-urlphishing
+[2024-05-20 11:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogluon.timeseries
+[2024-05-20 11:07:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon
+[2024-05-20 11:07:33] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.1b20240519] Old Version: [1.1.1b20240518]
+[2024-05-20 11:07:33] INFO root fetch - processPackages [mountain-chicken]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-20 11:07:33] INFO root fetch - processPackages [lib-version-urlphishing]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-20 11:07:33] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240519] Old Version: [1.1.1b20240518]
+[2024-05-20 11:07:33] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.4.0b20240519] Old Version: [0.4.0b20240518]
+[2024-05-20 11:07:33] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240519] Old Version: [1.1.1b20240518]
+[2024-05-20 11:07:33] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240519] Old Version: [1.1.1b20240518]
+[2024-05-20 11:07:33] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240519] Old Version: [1.1.1b20240518]
+[2024-05-20 11:07:33] INFO root fetch - processPackages [tui-dsg]: New version: [202405200843] Old Version: [202404250955]
+[2024-05-20 11:07:33] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/cd/1a/d67f081e455ad043affe2e8ed40660b2536bb8aaab461ed331950d9e9fcb/autogluon.tabular-1.1.1b20240518.tar.gz
+[2024-05-20 11:07:33] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240519] Old Version: [1.1.1b20240518]
+[2024-05-20 11:07:33] INFO root fetch - processPackages [lib-version-urlphishing]: Downloading https://files.pythonhosted.org/packages/dc/88/5cd9ad927ecf3814b7a25b8013d6d69ae0555b805f3ecf0fe056aaef0d8d/lib_version_urlphishing-2.1.8.tar.gz
+[2024-05-20 11:07:33] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/a3/77/dd96f97d10ad9d116f7d9690c9c059ac095cd8094297671c43577d7f39c9/autogluon.features-1.1.1b20240518.tar.gz
+[2024-05-20 11:07:33] INFO root fetch - processPackages [mountain-chicken]: Downloading https://files.pythonhosted.org/packages/66/74/097b53b0254d401970092c0dba4b2de088a566fb24f34130eb065db784c9/mountain_chicken-0.1.5.tar.gz
+[2024-05-20 11:07:33] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/dd/9c/3886ef0c00cbfc0d31bf905a610254481d255898f819cc6984d1e43579db/autogluon.timeseries-1.1.1b20240518.tar.gz
+[2024-05-20 11:07:33] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/88/7f/56aa780db0201a2505f8c960f30842b68133b453cba7bdf6f88629d145df/autogluon.multimodal-1.1.1b20240518.tar.gz
+[2024-05-20 11:07:33] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/02/c3/b0257caf0bffed0575431fa8d6d7d93a04f383d32f987c1c084cb62536de/autogluon.core-1.1.1b20240518.tar.gz
+[2024-05-20 11:07:33] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/e5/bb/1c02ba21b4ae2dfb90204068274f07fd474e585c4859c92c9df15cbc2368/autogluon-1.1.1b20240518.tar.gz
+[2024-05-20 11:07:33] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/d8/f0/6cc5c5154cb6d990656fad4c3d1f0619bd994e898509cd36325af27099a0/autogluon.cloud-0.4.0b20240518.tar.gz
+[2024-05-20 11:07:33] INFO root fetch - processPackages [tui-dsg]: Downloading https://files.pythonhosted.org/packages/3f/9b/174f29b37028b3dc0954bc6b29eb5caecc7d04ffeeef715b94fbd4333f49/tui_dsg-202404250955.tar.gz
+[2024-05-20 11:07:33] INFO root fetch - processPackages [lib-version-urlphishing]: Downloading https://files.pythonhosted.org/packages/a7/42/9ee47bec7064e77b94000e7fe893c18d911391603d3de25d467dce525f90/lib_version_urlphishing-2.1.9.tar.gz
+[2024-05-20 11:07:33] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/0f/31/11e66d4f5614b9dfcfa9fb607a7329ba8c9f9d5d4925d9bfbfa6f286c78d/autogluon.tabular-1.1.1b20240519.tar.gz
+[2024-05-20 11:07:33] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/99/1d/1397de9df268e46f484be9d59ea68c013fef7ccfc5cd6b0186c52e1cc540/autogluon.features-1.1.1b20240519.tar.gz
+[2024-05-20 11:07:33] INFO root fetch - processPackages [mountain-chicken]: Downloading https://files.pythonhosted.org/packages/d7/c6/fdc370966ad7bc7cb25818ca8261a97e74c8950336b3dcc7586c4374ffe8/mountain_chicken-0.1.6.tar.gz
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/ec/d5/56aa116f348f90da3920af7e94642e11427e1e8e51161cace59c754330b9/autogluon.cloud-0.4.0b20240519.tar.gz
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/68/2c/f314acbeb0b2065456952c5b8b9bbfb1cc9c7c666785f9c72c64243d1dcf/autogluon.core-1.1.1b20240519.tar.gz
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/d9/70/5b25af707bba4658a780ce996a9e824d685e7097c1538a4bc555a89251e0/autogluon.timeseries-1.1.1b20240519.tar.gz
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/21/bb/60ce94fc8d962e63195dae255d05caeacd9b310231606ea7f28d8791c007/autogluon-1.1.1b20240519.tar.gz
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/a5/68/160f5391d2822ec19c2c1026dac17c9269359bd011930cd82ef7e9f771f2/autogluon.multimodal-1.1.1b20240519.tar.gz
+[2024-05-20 11:07:34] INFO root fetch - processPackages [lib-version-urlphishing]: executing diffoscope
+[2024-05-20 11:07:34] INFO root fetch - processPackages [lib-version-urlphishing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_urlphishing-2.1.8.tar.gz tmp/lib_version_urlphishing-2.1.9.tar.gz --markdown 20240520/l/lib-version-urlphishing/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.1b20240518.tar.gz tmp/autogluon.tabular-1.1.1b20240519.tar.gz --markdown 20240520/a/autogluon.tabular/1.1.1b20240518-1.1.1b20240519/README.md --exclude *.pyd
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.1b20240518.tar.gz tmp/autogluon.features-1.1.1b20240519.tar.gz --markdown 20240520/a/autogluon.features/1.1.1b20240518-1.1.1b20240519/README.md --exclude *.pyd
+[2024-05-20 11:07:34] INFO root fetch - processPackages [tui-dsg]: Downloading https://files.pythonhosted.org/packages/91/ca/355ef24c7c34d3651a85464091172597373d3a01ed69610f835a38b2e50e/tui_dsg-202405200843.tar.gz
+[2024-05-20 11:07:34] INFO root fetch - processPackages [mountain-chicken]: executing diffoscope
+[2024-05-20 11:07:34] INFO root fetch - processPackages [mountain-chicken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mountain_chicken-0.1.5.tar.gz tmp/mountain_chicken-0.1.6.tar.gz --markdown 20240520/m/mountain-chicken/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.4.0b20240518.tar.gz tmp/autogluon.cloud-0.4.0b20240519.tar.gz --markdown 20240520/a/autogluon.cloud/0.4.0b20240518-0.4.0b20240519/README.md --exclude *.pyd
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240518.tar.gz tmp/autogluon-1.1.1b20240519.tar.gz --markdown 20240520/a/autogluon/1.1.1b20240518-1.1.1b20240519/README.md --exclude *.pyd
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240518.tar.gz tmp/autogluon.core-1.1.1b20240519.tar.gz --markdown 20240520/a/autogluon.core/1.1.1b20240518-1.1.1b20240519/README.md --exclude *.pyd
+[2024-05-20 11:07:34] INFO root fetch - processPackages [tui-dsg]: executing diffoscope
+[2024-05-20 11:07:34] INFO root fetch - processPackages [tui-dsg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsg-202404250955.tar.gz tmp/tui_dsg-202405200843.tar.gz --markdown 20240520/t/tui-dsg/202404250955-202405200843/README.md --exclude *.pyd
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240518.tar.gz tmp/autogluon.timeseries-1.1.1b20240519.tar.gz --markdown 20240520/a/autogluon.timeseries/1.1.1b20240518-1.1.1b20240519/README.md --exclude *.pyd
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-05-20 11:07:34] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.1b20240518.tar.gz tmp/autogluon.multimodal-1.1.1b20240519.tar.gz --markdown 20240520/a/autogluon.multimodal/1.1.1b20240518-1.1.1b20240519/README.md --exclude *.pyd
+[2024-05-20 11:07:34] INFO root fetch - processPackages [lib-version-urlphishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-2.1.8.tar.gz]
+[2024-05-20 11:07:34] INFO root fetch - processPackages [lib-version-urlphishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-2.1.9.tar.gz]
+[2024-05-20 11:07:34] INFO root fetch - processPackages [lib-version-urlphishing]: Start processing: pyslth
+[2024-05-20 11:07:34] INFO root fetch - main [MainThread]: End processing [lib-version-urlphishing]: success
+[2024-05-20 11:07:34] INFO root fetch - processPackages [pyslth]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [mountain-chicken]: Remove: archive file [/home/abi/fetcher/tmp/mountain_chicken-0.1.5.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [mountain-chicken]: Remove: archive file [/home/abi/fetcher/tmp/mountain_chicken-0.1.6.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [mountain-chicken]: Start processing: PyE2
+[2024-05-20 11:07:35] INFO root fetch - main [MainThread]: End processing [mountain-chicken]: success
+[2024-05-20 11:07:35] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/2d/6a/93ecdaf6dada5dcb0c0722972c44d2cd1bf5af95b66f0506dd7fa0f55d3b/pyslth-0.4.1.tar.gz
+[2024-05-20 11:07:35] INFO root fetch - processPackages [PyE2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [tui-dsg]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsg-202404250955.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [tui-dsg]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsg-202405200843.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [tui-dsg]: Start processing: zfx
+[2024-05-20 11:07:35] INFO root fetch - main [MainThread]: End processing [tui-dsg]: success
+[2024-05-20 11:07:35] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240518.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240519.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon]: Start processing: sema-toolchain
+[2024-05-20 11:07:35] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-05-20 11:07:35] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/7c/1f/ddc8b7c8209074ff0d22a75a309898a450f3e9e4116be5a7194e75d33974/pye2-0.7.8.tar.gz
+[2024-05-20 11:07:35] INFO root fetch - processPackages [sema-toolchain]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.4.0b20240518.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.4.0b20240519.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.cloud]: Start processing: alibabacloud-tingwu20230930
+[2024-05-20 11:07:35] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240518.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240519.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.features]: Start processing: goblin_cbm_runner
+[2024-05-20 11:07:35] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240518.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240519.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.tabular]: Start processing: sais-notify-test
+[2024-05-20 11:07:35] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-05-20 11:07:35] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-20 11:07:35] INFO root fetch - processPackages [sais-notify-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [sema-toolchain]: Downloading https://files.pythonhosted.org/packages/6c/74/0e3d64a4f107ee6167998c475d39df470f621efa94541c057f21c41432fe/sema_toolchain-0.0.7.tar.gz
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240518.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240519.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.core]: Start processing: danila-lib
+[2024-05-20 11:07:35] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240518.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240519.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.timeseries]: Start processing: danila-lib
+[2024-05-20 11:07:35] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-05-20 11:07:35] INFO root fetch - processPackages [goblin_cbm_runner]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/50/40/911a72c7805ab0a84b4bf4b3acc823d6c15259848526f659f9102558594a/pyslth-0.4.2.tar.gz
+[2024-05-20 11:07:35] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/e9/40/83bee283c4c5388414ec9563877eaf42c60425426715578ebc136fe413cb/pye2-0.7.9.tar.gz
+[2024-05-20 11:07:35] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/94/42/07c0e25844ffdc6494e7447658dc084d6435c7343816264387d435ddb98d/sais_notify_test-0.0.8.tar.gz
+[2024-05-20 11:07:35] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-20 11:07:35] INFO root fetch - processPackages [danila-lib]: New version: [1.5.0] Old Version: [1.4.9]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [danila-lib]: New version: [1.5.0] Old Version: [1.4.9]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [sema-toolchain]: Downloading https://files.pythonhosted.org/packages/49/b0/9a63d67bc221cd6dd966645d6dcf93ef51979f56f1c0393892902bd39bb3/sema_toolchain-0.0.8.tar.gz
+[2024-05-20 11:07:35] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-05-20 11:07:35] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.7.8.tar.gz tmp/pye2-0.7.9.tar.gz --markdown 20240520/P/PyE2/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240518.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240519.tar.gz]
+[2024-05-20 11:07:35] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-05-20 11:07:35] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-20 11:07:35] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240520/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 11:07:35] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: Downloading https://files.pythonhosted.org/packages/bb/20/4c82afcb063e0c038ff228c6e90ddfa9b743b76cac0d0b0a733b56fb57d7/alibabacloud_tingwu20230930-2.0.8.tar.gz
+[2024-05-20 11:07:35] INFO root fetch - processPackages [goblin_cbm_runner]: Downloading https://files.pythonhosted.org/packages/a4/ca/760719e61c63c0467f46fdb859922d1822af5f4d9be3f25a8678e55fecfe/goblin_cbm_runner-0.3.4.tar.gz
+[2024-05-20 11:07:35] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/af/7a/ac17f0daa7ab738fe2f5e638d62f2cb8c0c1f86f8cadd5913ea740c174aa/sais_notify_test-0.0.9.tar.gz
+[2024-05-20 11:07:35] INFO root fetch - processPackages [sema-toolchain]: executing diffoscope
+[2024-05-20 11:07:35] INFO root fetch - processPackages [sema-toolchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sema_toolchain-0.0.7.tar.gz tmp/sema_toolchain-0.0.8.tar.gz --markdown 20240520/s/sema-toolchain/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-20 11:07:35] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/ff/11/872933032bed64509b3a5798045752a5a6bd71d3c40f85f02075c67d4809/danila-lib-1.4.9.tar.gz
+[2024-05-20 11:07:35] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/ff/11/872933032bed64509b3a5798045752a5a6bd71d3c40f85f02075c67d4809/danila-lib-1.4.9.tar.gz
+[2024-05-20 11:07:35] INFO root fetch - processPackages [pyslth]: executing diffoscope
+[2024-05-20 11:07:35] INFO root fetch - processPackages [pyslth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslth-0.4.1.tar.gz tmp/pyslth-0.4.2.tar.gz --markdown 20240520/p/pyslth/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-20 11:07:36] INFO root fetch - processPackages [sais-notify-test]: executing diffoscope
+[2024-05-20 11:07:36] INFO root fetch - processPackages [sais-notify-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify_test-0.0.8.tar.gz tmp/sais_notify_test-0.0.9.tar.gz --markdown 20240520/s/sais-notify-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 11:07:36] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: Downloading https://files.pythonhosted.org/packages/4d/f1/1d3f16f3f1d3023667069138f556cff4375f360b5a25d8eff3dfc9d6e484/alibabacloud_tingwu20230930-2.0.9.tar.gz
+[2024-05-20 11:07:36] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/d7/84/52f103429f8effe9e0860bbfde75888e1ffa31cf4c3b807200e5f30cecae/danila-lib-1.5.0.tar.gz
+[2024-05-20 11:07:36] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/d7/84/52f103429f8effe9e0860bbfde75888e1ffa31cf4c3b807200e5f30cecae/danila-lib-1.5.0.tar.gz
+[2024-05-20 11:07:36] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: executing diffoscope
+[2024-05-20 11:07:36] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_tingwu20230930-2.0.8.tar.gz tmp/alibabacloud_tingwu20230930-2.0.9.tar.gz --markdown 20240520/a/alibabacloud-tingwu20230930/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-20 11:07:36] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-20 11:07:36] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-20 11:07:36] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-20 11:07:36] INFO root fetch - processPackages [goblin_cbm_runner]: Downloading https://files.pythonhosted.org/packages/8c/7d/a5013d8170df6719a9c1f2a09a3095b81eece3825e0b6d2af1b171546e9c/goblin_cbm_runner-0.3.5.tar.gz
+[2024-05-20 11:07:36] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-20 11:07:36] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.4.9.tar.gz tmp/danila-lib-1.5.0.tar.gz --markdown 20240520/d/danila-lib/1.4.9-1.5.0/README.md --exclude *.pyd
+[2024-05-20 11:07:36] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-20 11:07:36] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.4.9.tar.gz tmp/danila-lib-1.5.0.tar.gz --markdown 20240520/d/danila-lib/1.4.9-1.5.0/README.md --exclude *.pyd
+[2024-05-20 11:07:36] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.8.tar.gz]
+[2024-05-20 11:07:36] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.9.tar.gz]
+[2024-05-20 11:07:36] INFO root fetch - main [MainThread]: End processing [sais-notify-test]: success
+[2024-05-20 11:07:36] INFO root fetch - processPackages [sema-toolchain]: Remove: archive file [/home/abi/fetcher/tmp/sema_toolchain-0.0.7.tar.gz]
+[2024-05-20 11:07:36] INFO root fetch - processPackages [sema-toolchain]: Remove: archive file [/home/abi/fetcher/tmp/sema_toolchain-0.0.8.tar.gz]
+[2024-05-20 11:07:36] INFO root fetch - main [MainThread]: End processing [sema-toolchain]: success
+[2024-05-20 11:07:36] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.8.tar.gz]
+[2024-05-20 11:07:36] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
+[2024-05-20 11:07:36] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-05-20 11:07:36] INFO root fetch - processPackages [goblin_cbm_runner]: executing diffoscope
+[2024-05-20 11:07:36] INFO root fetch - processPackages [goblin_cbm_runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goblin_cbm_runner-0.3.4.tar.gz tmp/goblin_cbm_runner-0.3.5.tar.gz --markdown 20240520/g/goblin_cbm_runner/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-20 11:07:36] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.1.tar.gz]
+[2024-05-20 11:07:36] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.2.tar.gz]
+[2024-05-20 11:07:36] INFO root fetch - main [MainThread]: End processing [pyslth]: success
+[2024-05-20 11:07:37] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tingwu20230930-2.0.8.tar.gz]
+[2024-05-20 11:07:37] INFO root fetch - processPackages [alibabacloud-tingwu20230930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tingwu20230930-2.0.9.tar.gz]
+[2024-05-20 11:07:37] INFO root fetch - main [MainThread]: End processing [alibabacloud-tingwu20230930]: success
+[2024-05-20 11:07:37] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.9.tar.gz]
+[2024-05-20 11:07:37] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.5.0.tar.gz]
+[2024-05-20 11:07:37] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-20 11:07:37] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-20 11:07:38] INFO root fetch - processPackages [goblin_cbm_runner]: Remove: archive file [/home/abi/fetcher/tmp/goblin_cbm_runner-0.3.4.tar.gz]
+[2024-05-20 11:07:38] INFO root fetch - processPackages [goblin_cbm_runner]: Remove: archive file [/home/abi/fetcher/tmp/goblin_cbm_runner-0.3.5.tar.gz]
+[2024-05-20 11:07:38] INFO root fetch - main [MainThread]: End processing [goblin_cbm_runner]: success
+[2024-05-20 11:07:38] INFO root fetch - main [MainThread]: Store serial: [23287297]

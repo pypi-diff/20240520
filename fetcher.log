@@ -16557,3 +16557,68 @@ EOFError: EOF read where object expected
 [2024-05-20 14:22:58] INFO root fetch - processPackages [rapid-router]: Remove: archive file [/home/abi/fetcher/tmp/rapid-router-5.9.3.tar.gz]
 [2024-05-20 14:22:58] INFO root fetch - main [MainThread]: End processing [rapid-router]: success
 [2024-05-20 14:22:58] INFO root fetch - main [MainThread]: Store serial: [23289414]
+[2024-05-20 14:25:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289414]
+[2024-05-20 14:25:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 14:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-Captchaify
+[2024-05-20 14:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imsciences
+[2024-05-20 14:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Audire
+[2024-05-20 14:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-edi-exchange-template-oca
+[2024-05-20 14:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blues-lib
+[2024-05-20 14:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: twinlib
+[2024-05-20 14:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gene4mVCF
+[2024-05-20 14:25:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: burial-mounds
+[2024-05-20 14:25:07] INFO root fetch - processPackages [flask-Captchaify]: New version: [1.6.9.5] Old Version: [1.6.9.4.1]
+[2024-05-20 14:25:07] INFO root fetch - processPackages [gene4mVCF]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-20 14:25:07] INFO root fetch - processPackages [twinlib]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-20 14:25:07] INFO root fetch - processPackages [imsciences]: New version: [0.5.7.8] Old Version: [0.5.7.7]
+[2024-05-20 14:25:07] INFO root fetch - processPackages [blues-lib]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-20 14:25:07] INFO root fetch - processPackages [flask-Captchaify]: Downloading https://files.pythonhosted.org/packages/ca/63/d08d9b329adc46ab42aaf08eb209cb987eeb207e681991c15a9ae71ef098/flask_captchaify-1.6.9.4.1.tar.gz
+[2024-05-20 14:25:07] WARNING root fetch - processPackages [Audire]: Skipping, unable to determine old version
+[2024-05-20 14:25:07] INFO root fetch - main [MainThread]: End processing [Audire] error
+[2024-05-20 14:25:07] INFO root fetch - processPackages [burial-mounds]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-20 14:25:07] INFO root fetch - processPackages [odoo-addon-edi-exchange-template-oca]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.1]
+[2024-05-20 14:25:08] INFO root fetch - processPackages [twinlib]: Downloading https://files.pythonhosted.org/packages/af/26/22861c5792c2704e809e765e172d1b14e8de407a5efe7d4800dd74f084bf/twinlib-0.2.0.tar.gz
+[2024-05-20 14:25:08] INFO root fetch - processPackages [gene4mVCF]: Downloading https://files.pythonhosted.org/packages/ea/1d/ec580328b25a22da257460644fd8ff7bea7d920d255d2a88a119657d7a58/gene4mvcf-1.0.9.tar.gz
+[2024-05-20 14:25:08] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/e7/1c/18833515939f229a4b88d942e5bdc5943247c235ef607969521d039871bb/imsciences-0.5.7.7.tar.gz
+[2024-05-20 14:25:08] WARNING root fetch - processPackages [flask-Captchaify]: Skipping package: exceeds size limit 43904194>=10485760
+[2024-05-20 14:25:08] INFO root fetch - main [MainThread]: End processing [flask-Captchaify] error
+[2024-05-20 14:25:08] INFO root fetch - processPackages [burial-mounds]: Downloading https://files.pythonhosted.org/packages/e6/db/f1888ffffd0ef4c8a569539e9b33d221786c8cd9f333cefd57840194c339/burial_mounds-0.1.3.tar.gz
+[2024-05-20 14:25:08] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/50/16/975c7a30228267251fedbc0fe991e6f96f5313f614ea886ebd9848d1bfc3/blues_lib-1.1.8.tar.gz
+[2024-05-20 14:25:08] INFO root fetch - processPackages [odoo-addon-edi-exchange-template-oca]: Downloading https://files.pythonhosted.org/packages/06/4e/fdf738d324ef0021dc14be5de9c8965aaf2f36d613033e4c72d44ca62fe6/odoo_addon_edi_exchange_template_oca-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-20 14:25:08] INFO root fetch - processPackages [gene4mVCF]: Downloading https://files.pythonhosted.org/packages/b4/f9/be819143d3d3a898bf5d43971fcf4b68bc1a9ec62db093608a56d8672ffd/gene4mvcf-1.1.0.tar.gz
+[2024-05-20 14:25:08] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/63/65/bae0dfbe5f26922569ffaf6642941e0359bf5b49d241cd8da63ae2eb4802/imsciences-0.5.7.8.tar.gz
+[2024-05-20 14:25:08] INFO root fetch - processPackages [burial-mounds]: Downloading https://files.pythonhosted.org/packages/2f/64/3748913ccbb059b1b8241f68f463a8d91664627627cf4fffecbd85cd8b59/burial_mounds-0.1.4.tar.gz
+[2024-05-20 14:25:08] INFO root fetch - processPackages [twinlib]: Downloading https://files.pythonhosted.org/packages/15/38/043a195aa89cc7e7fcd7a9724a0a77495e02f792be90329ff416ce095299/twinlib-0.2.1.tar.gz
+[2024-05-20 14:25:08] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/64/4c/b37bdd30e913905227cf3085ef64b3b8382dd95843df82a7577ff36813a8/blues_lib-1.1.9.tar.gz
+[2024-05-20 14:25:08] INFO root fetch - processPackages [gene4mVCF]: executing diffoscope
+[2024-05-20 14:25:08] INFO root fetch - processPackages [gene4mVCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gene4mvcf-1.0.9.tar.gz tmp/gene4mvcf-1.1.0.tar.gz --markdown 20240520/g/gene4mVCF/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-20 14:25:08] INFO root fetch - processPackages [twinlib]: executing diffoscope
+[2024-05-20 14:25:08] INFO root fetch - processPackages [twinlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twinlib-0.2.0.tar.gz tmp/twinlib-0.2.1.tar.gz --markdown 20240520/t/twinlib/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-20 14:25:08] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-20 14:25:08] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.7.7.tar.gz tmp/imsciences-0.5.7.8.tar.gz --markdown 20240520/i/imsciences/0.5.7.7-0.5.7.8/README.md --exclude *.pyd
+[2024-05-20 14:25:08] INFO root fetch - processPackages [burial-mounds]: executing diffoscope
+[2024-05-20 14:25:08] INFO root fetch - processPackages [burial-mounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burial_mounds-0.1.3.tar.gz tmp/burial_mounds-0.1.4.tar.gz --markdown 20240520/b/burial-mounds/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-20 14:25:08] INFO root fetch - processPackages [odoo-addon-edi-exchange-template-oca]: Downloading https://files.pythonhosted.org/packages/16/42/0a00532c60deb190b02c70c6497ddfe5e7c3b5777c33b21818f893cc1811/odoo_addon_edi_exchange_template_oca-16.0.1.1.1-py3-none-any.whl
+[2024-05-20 14:25:08] INFO root fetch - processPackages [blues-lib]: executing diffoscope
+[2024-05-20 14:25:08] INFO root fetch - processPackages [blues-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blues_lib-1.1.8.tar.gz tmp/blues_lib-1.1.9.tar.gz --markdown 20240520/b/blues-lib/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-20 14:25:08] INFO root fetch - processPackages [odoo-addon-edi-exchange-template-oca]: executing diffoscope
+[2024-05-20 14:25:08] INFO root fetch - processPackages [odoo-addon-edi-exchange-template-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_edi_exchange_template_oca-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_edi_exchange_template_oca-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240520/o/odoo-addon-edi-exchange-template-oca/16.0.1.1.0.1-16.0.1.1.1/README.md --exclude *.pyd
+[2024-05-20 14:25:09] INFO root fetch - processPackages [gene4mVCF]: Remove: archive file [/home/abi/fetcher/tmp/gene4mvcf-1.0.9.tar.gz]
+[2024-05-20 14:25:09] INFO root fetch - processPackages [gene4mVCF]: Remove: archive file [/home/abi/fetcher/tmp/gene4mvcf-1.1.0.tar.gz]
+[2024-05-20 14:25:09] INFO root fetch - main [MainThread]: End processing [gene4mVCF]: success
+[2024-05-20 14:25:09] INFO root fetch - processPackages [twinlib]: Remove: archive file [/home/abi/fetcher/tmp/twinlib-0.2.0.tar.gz]
+[2024-05-20 14:25:09] INFO root fetch - processPackages [twinlib]: Remove: archive file [/home/abi/fetcher/tmp/twinlib-0.2.1.tar.gz]
+[2024-05-20 14:25:09] INFO root fetch - main [MainThread]: End processing [twinlib]: success
+[2024-05-20 14:25:09] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.1.8.tar.gz]
+[2024-05-20 14:25:09] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.1.9.tar.gz]
+[2024-05-20 14:25:09] INFO root fetch - main [MainThread]: End processing [blues-lib]: success
+[2024-05-20 14:25:09] INFO root fetch - processPackages [burial-mounds]: Remove: archive file [/home/abi/fetcher/tmp/burial_mounds-0.1.3.tar.gz]
+[2024-05-20 14:25:09] INFO root fetch - processPackages [burial-mounds]: Remove: archive file [/home/abi/fetcher/tmp/burial_mounds-0.1.4.tar.gz]
+[2024-05-20 14:25:09] INFO root fetch - main [MainThread]: End processing [burial-mounds]: success
+[2024-05-20 14:25:09] INFO root fetch - processPackages [odoo-addon-edi-exchange-template-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_exchange_template_oca-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-20 14:25:09] INFO root fetch - processPackages [odoo-addon-edi-exchange-template-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_exchange_template_oca-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-05-20 14:25:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-edi-exchange-template-oca]: success
+[2024-05-20 14:25:09] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.7.tar.gz]
+[2024-05-20 14:25:09] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.8.tar.gz]
+[2024-05-20 14:25:09] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-20 14:25:09] INFO root fetch - main [MainThread]: Store serial: [23289452]

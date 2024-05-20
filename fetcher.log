@@ -11842,3 +11842,78 @@
 [2024-05-20 11:07:38] INFO root fetch - processPackages [goblin_cbm_runner]: Remove: archive file [/home/abi/fetcher/tmp/goblin_cbm_runner-0.3.5.tar.gz]
 [2024-05-20 11:07:38] INFO root fetch - main [MainThread]: End processing [goblin_cbm_runner]: success
 [2024-05-20 11:07:38] INFO root fetch - main [MainThread]: Store serial: [23287297]
+[2024-05-20 11:09:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287297]
+[2024-05-20 11:09:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-20 11:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sema-toolchain
+[2024-05-20 11:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docmesh-core
+[2024-05-20 11:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: typegraph
+[2024-05-20 11:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irrevealablez
+[2024-05-20 11:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: knvheatpumplib
+[2024-05-20 11:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imsciences
+[2024-05-20 11:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sais-notify-test
+[2024-05-20 11:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hdp-cairo
+[2024-05-20 11:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: infolab-common-lib
+[2024-05-20 11:09:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Crackerjack
+[2024-05-20 11:09:47] INFO root fetch - processPackages [sais-notify-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 11:09:47] INFO root fetch - processPackages [sema-toolchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 11:09:47] INFO root fetch - processPackages [docmesh-core]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-20 11:09:47] INFO root fetch - processPackages [Crackerjack]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-20 11:09:47] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/94/42/07c0e25844ffdc6494e7447658dc084d6435c7343816264387d435ddb98d/sais_notify_test-0.0.8.tar.gz
+[2024-05-20 11:09:47] INFO root fetch - processPackages [imsciences]: New version: [0.5.7.2] Old Version: [0.5.7.1]
+[2024-05-20 11:09:47] WARNING root fetch - processPackages [hdp-cairo]: Skipping, unable to determine old version
+[2024-05-20 11:09:47] INFO root fetch - main [MainThread]: End processing [hdp-cairo] error
+[2024-05-20 11:09:47] INFO root fetch - processPackages [knvheatpumplib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 11:09:47] WARNING root fetch - processPackages [infolab-common-lib]: Skipping, unable to determine old version
+[2024-05-20 11:09:47] INFO root fetch - main [MainThread]: End processing [infolab-common-lib] error
+[2024-05-20 11:09:47] INFO root fetch - processPackages [typegraph]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-20 11:09:47] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/b3/48/a98c6e656ac0fc84685030b255bd447dc3cda2dec3fde235450ef5cc71c2/docmesh_core-0.0.5.tar.gz
+[2024-05-20 11:09:47] WARNING root fetch - processPackages [irrevealablez]: Skipping, unable to determine old version
+[2024-05-20 11:09:47] INFO root fetch - main [MainThread]: End processing [irrevealablez] error
+[2024-05-20 11:09:47] INFO root fetch - processPackages [Crackerjack]: Downloading https://files.pythonhosted.org/packages/a7/40/682dbf1a6b1f3d3ad06a2cdda255b0e2c3c5397a8830e62ede4c0dd7a9ae/crackerjack-0.7.8.tar.gz
+[2024-05-20 11:09:47] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/31/94/ffe8a81002633bcb9dfb7e180d4301f1cf4b93baa1261de8b10369af5daf/imsciences-0.5.7.1.tar.gz
+[2024-05-20 11:09:48] INFO root fetch - processPackages [sema-toolchain]: Downloading https://files.pythonhosted.org/packages/49/b0/9a63d67bc221cd6dd966645d6dcf93ef51979f56f1c0393892902bd39bb3/sema_toolchain-0.0.8.tar.gz
+[2024-05-20 11:09:48] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/af/7a/ac17f0daa7ab738fe2f5e638d62f2cb8c0c1f86f8cadd5913ea740c174aa/sais_notify_test-0.0.9.tar.gz
+[2024-05-20 11:09:48] INFO root fetch - processPackages [typegraph]: Downloading https://files.pythonhosted.org/packages/8b/39/97cc13a0505b5e1d6dc93f067690fd24688cf20d736bee4728491079e0d3/typegraph-0.4.0.tar.gz
+[2024-05-20 11:09:48] INFO root fetch - processPackages [knvheatpumplib]: Downloading https://files.pythonhosted.org/packages/c6/48/c9fc64c1c822fd5e9196aa507584cd386c5e88facb7acf69558dbca78078/knvheatpumplib-0.0.8.tar.gz
+[2024-05-20 11:09:48] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/b7/b8/9ec822e449d4d2ae83cb0a25e163b1fe7f4550ae8ef73e0eb860a0cfff5d/docmesh_core-0.0.6.tar.gz
+[2024-05-20 11:09:48] INFO root fetch - processPackages [Crackerjack]: Downloading https://files.pythonhosted.org/packages/c5/75/3568b19058277b8cd82499102cf3be7570336f14e93bacedeb931e7e18cd/crackerjack-0.7.9.tar.gz
+[2024-05-20 11:09:48] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/fc/0d/118ded909f0e7699d14f255939b9e75a4bfa1a5cb397b85e74f5605b3d46/imsciences-0.5.7.2.tar.gz
+[2024-05-20 11:09:48] INFO root fetch - processPackages [sais-notify-test]: executing diffoscope
+[2024-05-20 11:09:48] INFO root fetch - processPackages [sais-notify-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify_test-0.0.8.tar.gz tmp/sais_notify_test-0.0.9.tar.gz --markdown 20240520/s/sais-notify-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 11:09:48] INFO root fetch - processPackages [docmesh-core]: executing diffoscope
+[2024-05-20 11:09:48] INFO root fetch - processPackages [docmesh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_core-0.0.5.tar.gz tmp/docmesh_core-0.0.6.tar.gz --markdown 20240520/d/docmesh-core/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-20 11:09:48] INFO root fetch - processPackages [sema-toolchain]: Downloading https://files.pythonhosted.org/packages/fd/21/5c440230c265828b2c056a7fa1b906d0b07721179681a9ea1ec435eba2ab/sema_toolchain-0.0.9.tar.gz
+[2024-05-20 11:09:48] INFO root fetch - processPackages [Crackerjack]: executing diffoscope
+[2024-05-20 11:09:48] INFO root fetch - processPackages [Crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.7.8.tar.gz tmp/crackerjack-0.7.9.tar.gz --markdown 20240520/C/Crackerjack/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-20 11:09:48] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-20 11:09:48] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.7.1.tar.gz tmp/imsciences-0.5.7.2.tar.gz --markdown 20240520/i/imsciences/0.5.7.1-0.5.7.2/README.md --exclude *.pyd
+[2024-05-20 11:09:48] INFO root fetch - processPackages [sema-toolchain]: executing diffoscope
+[2024-05-20 11:09:48] INFO root fetch - processPackages [sema-toolchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sema_toolchain-0.0.8.tar.gz tmp/sema_toolchain-0.0.9.tar.gz --markdown 20240520/s/sema-toolchain/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 11:09:48] INFO root fetch - processPackages [knvheatpumplib]: Downloading https://files.pythonhosted.org/packages/74/24/7eec549c15c7a44c0467b594131a2d0c01eca918ac7848cff39d8862c99b/knvheatpumplib-0.0.9.tar.gz
+[2024-05-20 11:09:48] INFO root fetch - processPackages [typegraph]: Downloading https://files.pythonhosted.org/packages/31/b3/f77b78483f89b947246c4ce194ffcf69d50f91e0cf1c21054cb3c7ccdda4/typegraph-0.4.1.tar.gz
+[2024-05-20 11:09:48] INFO root fetch - processPackages [knvheatpumplib]: executing diffoscope
+[2024-05-20 11:09:48] INFO root fetch - processPackages [knvheatpumplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knvheatpumplib-0.0.8.tar.gz tmp/knvheatpumplib-0.0.9.tar.gz --markdown 20240520/k/knvheatpumplib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 11:09:48] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.8.tar.gz]
+[2024-05-20 11:09:48] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.9.tar.gz]
+[2024-05-20 11:09:48] INFO root fetch - main [MainThread]: End processing [sais-notify-test]: success
+[2024-05-20 11:09:48] INFO root fetch - processPackages [typegraph]: executing diffoscope
+[2024-05-20 11:09:48] INFO root fetch - processPackages [typegraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typegraph-0.4.0.tar.gz tmp/typegraph-0.4.1.tar.gz --markdown 20240520/t/typegraph/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-20 11:09:49] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.5.tar.gz]
+[2024-05-20 11:09:49] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.6.tar.gz]
+[2024-05-20 11:09:49] INFO root fetch - main [MainThread]: End processing [docmesh-core]: success
+[2024-05-20 11:09:49] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.1.tar.gz]
+[2024-05-20 11:09:49] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.2.tar.gz]
+[2024-05-20 11:09:49] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-20 11:09:49] INFO root fetch - processPackages [sema-toolchain]: Remove: archive file [/home/abi/fetcher/tmp/sema_toolchain-0.0.8.tar.gz]
+[2024-05-20 11:09:49] INFO root fetch - processPackages [sema-toolchain]: Remove: archive file [/home/abi/fetcher/tmp/sema_toolchain-0.0.9.tar.gz]
+[2024-05-20 11:09:49] INFO root fetch - main [MainThread]: End processing [sema-toolchain]: success
+[2024-05-20 11:09:49] INFO root fetch - processPackages [Crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.7.8.tar.gz]
+[2024-05-20 11:09:49] INFO root fetch - processPackages [Crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.7.9.tar.gz]
+[2024-05-20 11:09:49] INFO root fetch - main [MainThread]: End processing [Crackerjack]: success
+[2024-05-20 11:09:49] INFO root fetch - processPackages [knvheatpumplib]: Remove: archive file [/home/abi/fetcher/tmp/knvheatpumplib-0.0.8.tar.gz]
+[2024-05-20 11:09:49] INFO root fetch - processPackages [knvheatpumplib]: Remove: archive file [/home/abi/fetcher/tmp/knvheatpumplib-0.0.9.tar.gz]
+[2024-05-20 11:09:49] INFO root fetch - main [MainThread]: End processing [knvheatpumplib]: success
+[2024-05-20 11:10:09] INFO root fetch - processPackages [typegraph]: Remove: archive file [/home/abi/fetcher/tmp/typegraph-0.4.0.tar.gz]
+[2024-05-20 11:10:09] INFO root fetch - processPackages [typegraph]: Remove: archive file [/home/abi/fetcher/tmp/typegraph-0.4.1.tar.gz]
+[2024-05-20 11:10:09] INFO root fetch - main [MainThread]: End processing [typegraph]: success
+[2024-05-20 11:10:09] INFO root fetch - main [MainThread]: Store serial: [23287332]

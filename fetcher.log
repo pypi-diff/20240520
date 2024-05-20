@@ -11372,3 +11372,48 @@
 [2024-05-20 10:52:12] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
 [2024-05-20 10:52:12] INFO root fetch - main [MainThread]: End processing [PyE2]: success
 [2024-05-20 10:52:12] INFO root fetch - main [MainThread]: Store serial: [23287117]
+[2024-05-20 10:54:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287117]
+[2024-05-20 10:54:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 10:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyepggrab
+[2024-05-20 10:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-redis-cache-reborn
+[2024-05-20 10:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jzai
+[2024-05-20 10:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gridingz
+[2024-05-20 10:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Nara
+[2024-05-20 10:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-cmethods
+[2024-05-20 10:54:21] INFO root fetch - processPackages [Nara]: New version: [0.2] Old Version: [0.1]
+[2024-05-20 10:54:21] INFO root fetch - processPackages [jzai]: New version: [59.83.49] Old Version: [59.83.48]
+[2024-05-20 10:54:21] INFO root fetch - processPackages [pyepggrab]: New version: [0.1.dev1] Old Version: [0.1.9]
+[2024-05-20 10:54:21] INFO root fetch - processPackages [Nara]: Downloading https://files.pythonhosted.org/packages/fd/87/af7d605562d50753df1fa9c53ccbf8cc03318e971f76a591d2c758e6fb2b/nara-0.1.tar.gz
+[2024-05-20 10:54:21] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/47/15/502150315f5b8e5eda09ad5fa329335c1ff1f4575dbc2fd71875cd75804c/jzai-59.83.48.tar.gz
+[2024-05-20 10:54:21] WARNING root fetch - processPackages [gridingz]: Skipping, unable to determine old version
+[2024-05-20 10:54:21] INFO root fetch - main [MainThread]: End processing [gridingz] error
+[2024-05-20 10:54:21] WARNING root fetch - processPackages [fastapi-redis-cache-reborn]: Skipping, unable to determine old version
+[2024-05-20 10:54:21] INFO root fetch - main [MainThread]: End processing [fastapi-redis-cache-reborn] error
+[2024-05-20 10:54:21] INFO root fetch - processPackages [python-cmethods]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-20 10:54:22] INFO root fetch - processPackages [pyepggrab]: Downloading https://files.pythonhosted.org/packages/76/20/87db332754b7a6aae94ecdeaccc7abc8b1fb893f76a8f64dd229f8f58b20/pyepggrab-0.1.9.tar.gz
+[2024-05-20 10:54:22] INFO root fetch - processPackages [Nara]: Downloading https://files.pythonhosted.org/packages/0d/68/df65db0f216e976ae8f5ed87f4c5863868198dfea1e7e7d7463f696311ca/nara-0.2.tar.gz
+[2024-05-20 10:54:22] INFO root fetch - processPackages [python-cmethods]: Downloading https://files.pythonhosted.org/packages/43/79/6f1961582b52171d337175c406ac18c1b989619b69b902747adbb6cd282b/python_cmethods-2.2.3.tar.gz
+[2024-05-20 10:54:22] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/8d/88/bddf14fb184d808114c2cb7b3b93d5a0f3a95fbd5b229d5f3cbfe9d217bf/jzai-59.83.49.tar.gz
+[2024-05-20 10:54:22] INFO root fetch - processPackages [Nara]: executing diffoscope
+[2024-05-20 10:54:22] INFO root fetch - processPackages [Nara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nara-0.1.tar.gz tmp/nara-0.2.tar.gz --markdown 20240520/N/Nara/0.1-0.2/README.md --exclude *.pyd
+[2024-05-20 10:54:22] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-20 10:54:22] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.48.tar.gz tmp/jzai-59.83.49.tar.gz --markdown 20240520/j/jzai/59.83.48-59.83.49/README.md --exclude *.pyd
+[2024-05-20 10:54:22] INFO root fetch - processPackages [pyepggrab]: Downloading https://files.pythonhosted.org/packages/1f/7d/b26f3fe036217e024ca4f313dfd41cde5b051940918e62f252e11858ddfe/pyepggrab-0.1.dev1.tar.gz
+[2024-05-20 10:54:22] INFO root fetch - processPackages [python-cmethods]: Downloading https://files.pythonhosted.org/packages/76/e7/747512ce837920d9b541d6eadedc5441479057a73996bd473e5b9241c126/python_cmethods-2.2.4.tar.gz
+[2024-05-20 10:54:22] INFO root fetch - processPackages [python-cmethods]: executing diffoscope
+[2024-05-20 10:54:22] INFO root fetch - processPackages [python-cmethods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_cmethods-2.2.3.tar.gz tmp/python_cmethods-2.2.4.tar.gz --markdown 20240520/p/python-cmethods/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-20 10:54:22] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.48.tar.gz]
+[2024-05-20 10:54:22] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.49.tar.gz]
+[2024-05-20 10:54:22] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-20 10:54:22] INFO root fetch - processPackages [Nara]: Remove: archive file [/home/abi/fetcher/tmp/nara-0.1.tar.gz]
+[2024-05-20 10:54:22] INFO root fetch - processPackages [Nara]: Remove: archive file [/home/abi/fetcher/tmp/nara-0.2.tar.gz]
+[2024-05-20 10:54:22] INFO root fetch - main [MainThread]: End processing [Nara]: success
+[2024-05-20 10:54:22] INFO root fetch - processPackages [pyepggrab]: executing diffoscope
+[2024-05-20 10:54:22] INFO root fetch - processPackages [pyepggrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepggrab-0.1.9.tar.gz tmp/pyepggrab-0.1.dev1.tar.gz --markdown 20240520/p/pyepggrab/0.1.9-0.1.dev1/README.md --exclude *.pyd
+[2024-05-20 10:54:23] INFO root fetch - processPackages [python-cmethods]: Remove: archive file [/home/abi/fetcher/tmp/python_cmethods-2.2.3.tar.gz]
+[2024-05-20 10:54:23] INFO root fetch - processPackages [python-cmethods]: Remove: archive file [/home/abi/fetcher/tmp/python_cmethods-2.2.4.tar.gz]
+[2024-05-20 10:54:23] INFO root fetch - main [MainThread]: End processing [python-cmethods]: success
+[2024-05-20 10:54:23] INFO root fetch - processPackages [pyepggrab]: Remove: archive file [/home/abi/fetcher/tmp/pyepggrab-0.1.9.tar.gz]
+[2024-05-20 10:54:23] INFO root fetch - processPackages [pyepggrab]: Remove: archive file [/home/abi/fetcher/tmp/pyepggrab-0.1.dev1.tar.gz]
+[2024-05-20 10:54:23] INFO root fetch - main [MainThread]: End processing [pyepggrab]: success
+[2024-05-20 10:54:23] INFO root fetch - main [MainThread]: Store serial: [23287138]

@@ -14581,3 +14581,57 @@
 [2024-05-20 12:59:25] INFO root fetch - processPackages [feedcrawler]: Remove: archive file [/home/abi/fetcher/tmp/feedcrawler-19.2.1.tar.gz]
 [2024-05-20 12:59:25] INFO root fetch - main [MainThread]: End processing [feedcrawler]: success
 [2024-05-20 12:59:25] INFO root fetch - main [MainThread]: Store serial: [23288455]
+[2024-05-20 13:01:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288455]
+[2024-05-20 13:01:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FastHPOCR
+[2024-05-20 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: budgeteer
+[2024-05-20 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snek-sploit
+[2024-05-20 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hdp-cairo-dev
+[2024-05-20 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netter
+[2024-05-20 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imsciences
+[2024-05-20 13:01:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: okesz
+[2024-05-20 13:01:34] INFO root fetch - processPackages [imsciences]: New version: [0.5.7.4] Old Version: [0.5.7.3]
+[2024-05-20 13:01:34] WARNING root fetch - processPackages [hdp-cairo-dev]: Skipping, unable to determine old version
+[2024-05-20 13:01:34] INFO root fetch - main [MainThread]: End processing [hdp-cairo-dev] error
+[2024-05-20 13:01:34] INFO root fetch - processPackages [budgeteer]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-20 13:01:34] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/94/94/2f77dca7a4b1f117c309d2ee26e5eabebcd2bf076223deb846b5cf151f84/imsciences-0.5.7.3.tar.gz
+[2024-05-20 13:01:34] WARNING root fetch - processPackages [okesz]: Skipping, unable to determine old version
+[2024-05-20 13:01:34] INFO root fetch - main [MainThread]: End processing [okesz] error
+[2024-05-20 13:01:34] INFO root fetch - processPackages [budgeteer]: Downloading https://files.pythonhosted.org/packages/2b/32/8136f3abfb516470c3f5203bcda94e063ed8b585e371aadfb44a69090fb3/budgeteer-0.1.4.tar.gz
+[2024-05-20 13:01:34] INFO root fetch - processPackages [FastHPOCR]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 13:01:34] INFO root fetch - processPackages [netter]: New version: [0.1a1] Old Version: [0.1]
+[2024-05-20 13:01:34] INFO root fetch - processPackages [snek-sploit]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-20 13:01:34] INFO root fetch - processPackages [netter]: Downloading https://files.pythonhosted.org/packages/7b/c8/3ab2a6f990ed346ab6676d7ac0c0913ac2e4081224e82cd1094bb38fbfe7/netter-0.1.tar.gz
+[2024-05-20 13:01:34] INFO root fetch - processPackages [FastHPOCR]: Downloading https://files.pythonhosted.org/packages/2c/e9/e9e44dec59e1cf41165e483804a12ec9f4bbfb50b9409085f217d08d05c4/FastHPOCR-0.1.0.tar.gz
+[2024-05-20 13:01:34] INFO root fetch - processPackages [snek-sploit]: Downloading https://files.pythonhosted.org/packages/b4/65/5f6e59a7eb02e3f14e7781d62676c11ee036be9938c6968e82d6f955eb4b/snek_sploit-0.6.0.tar.gz
+[2024-05-20 13:01:34] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/a2/4c/ecbb03d5df1db610180cc0bfef5f0dffcbee63829826a0d9ab933d237a49/imsciences-0.5.7.4.tar.gz
+[2024-05-20 13:01:34] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-20 13:01:34] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.7.3.tar.gz tmp/imsciences-0.5.7.4.tar.gz --markdown 20240520/i/imsciences/0.5.7.3-0.5.7.4/README.md --exclude *.pyd
+[2024-05-20 13:01:34] INFO root fetch - processPackages [budgeteer]: Downloading https://files.pythonhosted.org/packages/fa/94/3b1a68ec0d5a165ad8cfc8cdad5517a3bc055103a8a3f1b690188711a62f/budgeteer-0.1.5.tar.gz
+[2024-05-20 13:01:35] INFO root fetch - processPackages [snek-sploit]: Downloading https://files.pythonhosted.org/packages/20/0c/9e9d3d39ed95156b38ba9c80be919807ac7a85bd1ed2a02878e94ebc01ef/snek_sploit-0.7.0.tar.gz
+[2024-05-20 13:01:35] INFO root fetch - processPackages [budgeteer]: executing diffoscope
+[2024-05-20 13:01:35] INFO root fetch - processPackages [budgeteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budgeteer-0.1.4.tar.gz tmp/budgeteer-0.1.5.tar.gz --markdown 20240520/b/budgeteer/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-20 13:01:35] INFO root fetch - processPackages [FastHPOCR]: Downloading https://files.pythonhosted.org/packages/63/41/3aeb922ca13b08e5266a5ac83bd163aad7a0d0516c0392a59542c5422280/FastHPOCR-0.1.1.tar.gz
+[2024-05-20 13:01:35] INFO root fetch - processPackages [netter]: Downloading https://files.pythonhosted.org/packages/e8/14/ff6eb7a6ecac6a2ef6692d249411b7c2c1857e43feee95179815a8ad430b/netter-0.1a1.tar.gz
+[2024-05-20 13:01:35] INFO root fetch - processPackages [snek-sploit]: executing diffoscope
+[2024-05-20 13:01:35] INFO root fetch - processPackages [snek-sploit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snek_sploit-0.6.0.tar.gz tmp/snek_sploit-0.7.0.tar.gz --markdown 20240520/s/snek-sploit/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-20 13:01:35] INFO root fetch - processPackages [netter]: executing diffoscope
+[2024-05-20 13:01:35] INFO root fetch - processPackages [netter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netter-0.1.tar.gz tmp/netter-0.1a1.tar.gz --markdown 20240520/n/netter/0.1-0.1a1/README.md --exclude *.pyd
+[2024-05-20 13:01:35] INFO root fetch - processPackages [FastHPOCR]: executing diffoscope
+[2024-05-20 13:01:35] INFO root fetch - processPackages [FastHPOCR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastHPOCR-0.1.0.tar.gz tmp/FastHPOCR-0.1.1.tar.gz --markdown 20240520/F/FastHPOCR/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 13:01:35] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.3.tar.gz]
+[2024-05-20 13:01:35] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.4.tar.gz]
+[2024-05-20 13:01:35] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-20 13:01:35] INFO root fetch - processPackages [budgeteer]: Remove: archive file [/home/abi/fetcher/tmp/budgeteer-0.1.4.tar.gz]
+[2024-05-20 13:01:35] INFO root fetch - processPackages [budgeteer]: Remove: archive file [/home/abi/fetcher/tmp/budgeteer-0.1.5.tar.gz]
+[2024-05-20 13:01:35] INFO root fetch - main [MainThread]: End processing [budgeteer]: success
+[2024-05-20 13:01:35] INFO root fetch - processPackages [snek-sploit]: Remove: archive file [/home/abi/fetcher/tmp/snek_sploit-0.6.0.tar.gz]
+[2024-05-20 13:01:35] INFO root fetch - processPackages [snek-sploit]: Remove: archive file [/home/abi/fetcher/tmp/snek_sploit-0.7.0.tar.gz]
+[2024-05-20 13:01:35] INFO root fetch - main [MainThread]: End processing [snek-sploit]: success
+[2024-05-20 13:01:36] INFO root fetch - processPackages [netter]: Remove: archive file [/home/abi/fetcher/tmp/netter-0.1.tar.gz]
+[2024-05-20 13:01:36] INFO root fetch - processPackages [netter]: Remove: archive file [/home/abi/fetcher/tmp/netter-0.1a1.tar.gz]
+[2024-05-20 13:01:36] INFO root fetch - main [MainThread]: End processing [netter]: success
+[2024-05-20 13:01:36] INFO root fetch - processPackages [FastHPOCR]: Remove: archive file [/home/abi/fetcher/tmp/FastHPOCR-0.1.0.tar.gz]
+[2024-05-20 13:01:36] INFO root fetch - processPackages [FastHPOCR]: Remove: archive file [/home/abi/fetcher/tmp/FastHPOCR-0.1.1.tar.gz]
+[2024-05-20 13:01:36] INFO root fetch - main [MainThread]: End processing [FastHPOCR]: success
+[2024-05-20 13:01:36] INFO root fetch - main [MainThread]: Store serial: [23288480]

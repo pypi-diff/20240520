@@ -2069,3 +2069,39 @@
 [2024-05-20 02:04:06] INFO root fetch - processPackages [django-ninja-crud]: Remove: archive file [/home/abi/fetcher/tmp/django_ninja_crud-0.5.0.tar.gz]
 [2024-05-20 02:04:06] INFO root fetch - main [MainThread]: End processing [django-ninja-crud]: success
 [2024-05-20 02:04:06] INFO root fetch - main [MainThread]: Store serial: [23282456]
+[2024-05-20 02:06:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282456]
+[2024-05-20 02:06:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 02:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnxscript
+[2024-05-20 02:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-nightly
+[2024-05-20 02:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxkern-nightly
+[2024-05-20 02:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AnsiColorPrinter
+[2024-05-20 02:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: harvestmenz
+[2024-05-20 02:06:15] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-05-20 02:06:15] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240519] Old Version: [0.1.0.dev20240518]
+[2024-05-20 02:06:15] WARNING root fetch - processPackages [AnsiColorPrinter]: Skipping, unable to determine old version
+[2024-05-20 02:06:15] INFO root fetch - main [MainThread]: End processing [AnsiColorPrinter] error
+[2024-05-20 02:06:15] WARNING root fetch - processPackages [harvestmenz]: Skipping, unable to determine old version
+[2024-05-20 02:06:15] INFO root fetch - main [MainThread]: End processing [harvestmenz] error
+[2024-05-20 02:06:15] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-05-20 02:06:15] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/0f/e2/04749727973991096350f64e6c253a3395fa33b93c588057ae6976094034/onnxscript-0.1.0.dev20240518.tar.gz
+[2024-05-20 02:06:15] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240520.424] Old Version: [2.0.0.20240519.436]
+[2024-05-20 02:06:15] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-05-20 02:06:15] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/43/ff/57a7a63ead7c54c687575c88d70c68ac25787f543027ca8e8642b725c8f3/mct-nightly-2.0.0.20240519.436.tar.gz
+[2024-05-20 02:06:15] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-05-20 02:06:15] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240520/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-05-20 02:06:15] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/45/4f/c8455629d4f722ca449e33b6ec173ecb32ced79f313d47f49ff7ad3ac0da/onnxscript-0.1.0.dev20240519.tar.gz
+[2024-05-20 02:06:15] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-05-20 02:06:15] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240518.tar.gz tmp/onnxscript-0.1.0.dev20240519.tar.gz --markdown 20240520/o/onnxscript/0.1.0.dev20240518-0.1.0.dev20240519/README.md --exclude *.pyd
+[2024-05-20 02:06:15] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/c5/11/fe2da8caf01d5961f9972c97f8c9e2c2d2e7c2e142ee7b5e7290f4f13f04/mct-nightly-2.0.0.20240520.424.tar.gz
+[2024-05-20 02:06:16] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-05-20 02:06:16] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-05-20 02:06:16] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-05-20 02:06:16] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-05-20 02:06:16] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240519.436.tar.gz tmp/mct-nightly-2.0.0.20240520.424.tar.gz --markdown 20240520/m/mct-nightly/2.0.0.20240519.436-2.0.0.20240520.424/README.md --exclude *.pyd
+[2024-05-20 02:06:16] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240518.tar.gz]
+[2024-05-20 02:06:16] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240519.tar.gz]
+[2024-05-20 02:06:16] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-05-20 02:06:18] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240519.436.tar.gz]
+[2024-05-20 02:06:18] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240520.424.tar.gz]
+[2024-05-20 02:06:18] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-05-20 02:06:18] INFO root fetch - main [MainThread]: Store serial: [23282475]

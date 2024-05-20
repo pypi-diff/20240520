@@ -12211,3 +12211,69 @@
 [2024-05-20 11:21:05] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
 [2024-05-20 11:21:05] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-05-20 11:21:05] INFO root fetch - main [MainThread]: Store serial: [23287458]
+[2024-05-20 11:23:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287458]
+[2024-05-20 11:23:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 11:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databend-driver
+[2024-05-20 11:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyidi
+[2024-05-20 11:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipy-test-xiaoqiang
+[2024-05-20 11:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funcs-aux
+[2024-05-20 11:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinkerforge2mqtt
+[2024-05-20 11:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flatpack
+[2024-05-20 11:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qase-python-commons
+[2024-05-20 11:23:14] INFO root fetch - processPackages [pipy-test-xiaoqiang]: New version: [1.0.1] Old Version: [0.1.0]
+[2024-05-20 11:23:14] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.80]
+[2024-05-20 11:23:14] INFO root fetch - processPackages [tinkerforge2mqtt]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-20 11:23:14] INFO root fetch - processPackages [funcs-aux]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 11:23:14] INFO root fetch - processPackages [pyidi]: New version: [0.30.2] Old Version: [0.30.1]
+[2024-05-20 11:23:14] INFO root fetch - processPackages [databend-driver]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-20 11:23:14] INFO root fetch - processPackages [qase-python-commons]: New version: [3.0.2b8] Old Version: [3.0.2b7]
+[2024-05-20 11:23:14] INFO root fetch - processPackages [pipy-test-xiaoqiang]: Downloading https://files.pythonhosted.org/packages/a1/88/24d0b99bc70057f4653b5d57e5feb4f9c205ab342465ee759e3f5160e049/pipy-test-xiaoqiang-0.1.0.tar.gz
+[2024-05-20 11:23:14] INFO root fetch - processPackages [tinkerforge2mqtt]: Downloading https://files.pythonhosted.org/packages/99/39/a9b5ec57b4f3beefd9abf75c98e937cae51193174061b02955a934ce553c/tinkerforge2mqtt-0.8.tar.gz
+[2024-05-20 11:23:14] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/06/b9/bda3e0449c9a59dc822e5899ccd1a4a59933b04243c7c05579bee663beb8/flatpack-3.4.80.tar.gz
+[2024-05-20 11:23:14] INFO root fetch - processPackages [pyidi]: Downloading https://files.pythonhosted.org/packages/a9/f1/64db8fa52c336d2ce3a7178138a4659f1f93d432bf997907fa3d18d9dda5/pyidi-0.30.1.tar.gz
+[2024-05-20 11:23:14] INFO root fetch - processPackages [funcs-aux]: Downloading https://files.pythonhosted.org/packages/45/a7/33e0d28af789989e5337345bb665ef1b324f316a599940a8fd528d209679/funcs_aux-0.1.8.tar.gz
+[2024-05-20 11:23:14] INFO root fetch - processPackages [databend-driver]: Downloading https://files.pythonhosted.org/packages/9e/d2/0bd5410dd972dbb678b40872c610f4f48032a9640df408af5feea4cb50b1/databend_driver-0.9.4-cp37-abi3-win_amd64.whl
+[2024-05-20 11:23:14] INFO root fetch - processPackages [qase-python-commons]: Downloading https://files.pythonhosted.org/packages/5b/44/0ddd69be45155c211f69c714183a5ae4f063e3615a31d1d2c009b59a9767/qase_python_commons-3.0.2b7.tar.gz
+[2024-05-20 11:23:14] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-20 11:23:14] INFO root fetch - processPackages [pipy-test-xiaoqiang]: Downloading https://files.pythonhosted.org/packages/eb/90/f7acb2ff05b44352de6cd2a41023db42d2092962cce8793cc3b65c76cb12/pipy-test-xiaoqiang-1.0.1.tar.gz
+[2024-05-20 11:23:14] INFO root fetch - processPackages [funcs-aux]: Downloading https://files.pythonhosted.org/packages/b2/49/675da9dedb8987e385c750581c5db92150ccb54f56431f6210bbf6013063/funcs_aux-0.1.9.tar.gz
+[2024-05-20 11:23:14] INFO root fetch - processPackages [pyidi]: Downloading https://files.pythonhosted.org/packages/d9/af/6d90d9e83b45dbd738cdba0cf071abdbe2e19ab49d5f645e93e6d14b26bc/pyidi-0.30.2.tar.gz
+[2024-05-20 11:23:14] INFO root fetch - processPackages [pipy-test-xiaoqiang]: executing diffoscope
+[2024-05-20 11:23:14] INFO root fetch - processPackages [pipy-test-xiaoqiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipy-test-xiaoqiang-0.1.0.tar.gz tmp/pipy-test-xiaoqiang-1.0.1.tar.gz --markdown 20240520/p/pipy-test-xiaoqiang/0.1.0-1.0.1/README.md --exclude *.pyd
+[2024-05-20 11:23:15] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-20 11:23:15] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.80.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240520/f/flatpack/3.4.80-3.4.9/README.md --exclude *.pyd
+[2024-05-20 11:23:15] INFO root fetch - processPackages [tinkerforge2mqtt]: Downloading https://files.pythonhosted.org/packages/71/41/d1326be3a0509acc8726d4ba86bc2dc8f9c4c9681b636610937f39e6df2a/tinkerforge2mqtt-0.9.0.tar.gz
+[2024-05-20 11:23:15] INFO root fetch - processPackages [qase-python-commons]: Downloading https://files.pythonhosted.org/packages/fc/54/9e0478acf064ab2be24904b4b8e6e4cbcd2d9812f4edb05185115a823371/qase_python_commons-3.0.2b8.tar.gz
+[2024-05-20 11:23:15] INFO root fetch - processPackages [pyidi]: executing diffoscope
+[2024-05-20 11:23:15] INFO root fetch - processPackages [pyidi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyidi-0.30.1.tar.gz tmp/pyidi-0.30.2.tar.gz --markdown 20240520/p/pyidi/0.30.1-0.30.2/README.md --exclude *.pyd
+[2024-05-20 11:23:15] INFO root fetch - processPackages [funcs-aux]: executing diffoscope
+[2024-05-20 11:23:15] INFO root fetch - processPackages [funcs-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcs_aux-0.1.8.tar.gz tmp/funcs_aux-0.1.9.tar.gz --markdown 20240520/f/funcs-aux/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 11:23:15] INFO root fetch - processPackages [tinkerforge2mqtt]: executing diffoscope
+[2024-05-20 11:23:15] INFO root fetch - processPackages [tinkerforge2mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinkerforge2mqtt-0.8.tar.gz tmp/tinkerforge2mqtt-0.9.0.tar.gz --markdown 20240520/t/tinkerforge2mqtt/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-20 11:23:15] INFO root fetch - processPackages [qase-python-commons]: executing diffoscope
+[2024-05-20 11:23:15] INFO root fetch - processPackages [qase-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qase_python_commons-3.0.2b7.tar.gz tmp/qase_python_commons-3.0.2b8.tar.gz --markdown 20240520/q/qase-python-commons/3.0.2b7-3.0.2b8/README.md --exclude *.pyd
+[2024-05-20 11:23:15] INFO root fetch - processPackages [pipy-test-xiaoqiang]: Remove: archive file [/home/abi/fetcher/tmp/pipy-test-xiaoqiang-0.1.0.tar.gz]
+[2024-05-20 11:23:15] INFO root fetch - processPackages [pipy-test-xiaoqiang]: Remove: archive file [/home/abi/fetcher/tmp/pipy-test-xiaoqiang-1.0.1.tar.gz]
+[2024-05-20 11:23:15] INFO root fetch - main [MainThread]: End processing [pipy-test-xiaoqiang]: success
+[2024-05-20 11:23:15] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.80.tar.gz]
+[2024-05-20 11:23:15] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-20 11:23:15] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-20 11:23:15] INFO root fetch - processPackages [pyidi]: Remove: archive file [/home/abi/fetcher/tmp/pyidi-0.30.1.tar.gz]
+[2024-05-20 11:23:15] INFO root fetch - processPackages [pyidi]: Remove: archive file [/home/abi/fetcher/tmp/pyidi-0.30.2.tar.gz]
+[2024-05-20 11:23:15] INFO root fetch - main [MainThread]: End processing [pyidi]: success
+[2024-05-20 11:23:15] INFO root fetch - processPackages [funcs-aux]: Remove: archive file [/home/abi/fetcher/tmp/funcs_aux-0.1.8.tar.gz]
+[2024-05-20 11:23:15] INFO root fetch - processPackages [funcs-aux]: Remove: archive file [/home/abi/fetcher/tmp/funcs_aux-0.1.9.tar.gz]
+[2024-05-20 11:23:15] INFO root fetch - main [MainThread]: End processing [funcs-aux]: success
+[2024-05-20 11:23:16] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase_python_commons-3.0.2b7.tar.gz]
+[2024-05-20 11:23:16] INFO root fetch - processPackages [qase-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/qase_python_commons-3.0.2b8.tar.gz]
+[2024-05-20 11:23:16] INFO root fetch - main [MainThread]: End processing [qase-python-commons]: success
+[2024-05-20 11:23:16] INFO root fetch - processPackages [tinkerforge2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/tinkerforge2mqtt-0.8.tar.gz]
+[2024-05-20 11:23:16] INFO root fetch - processPackages [tinkerforge2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/tinkerforge2mqtt-0.9.0.tar.gz]
+[2024-05-20 11:23:16] INFO root fetch - main [MainThread]: End processing [tinkerforge2mqtt]: success
+[2024-05-20 11:23:17] INFO root fetch - processPackages [databend-driver]: Downloading https://files.pythonhosted.org/packages/b7/e3/195c2e775c9ea50822c2431f0a00f48ae03a7a10be4d3e583cce489052ee/databend_driver-0.9.5-cp37-abi3-win_amd64.whl
+[2024-05-20 11:23:17] INFO root fetch - processPackages [databend-driver]: executing diffoscope
+[2024-05-20 11:23:17] INFO root fetch - processPackages [databend-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databend_driver-0.9.4-cp37-abi3-win_amd64.whl.zip tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip --markdown 20240520/d/databend-driver/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-20 11:23:17] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.4-cp37-abi3-win_amd64.whl.zip]
+[2024-05-20 11:23:17] INFO root fetch - processPackages [databend-driver]: Remove: archive file [/home/abi/fetcher/tmp/databend_driver-0.9.5-cp37-abi3-win_amd64.whl.zip]
+[2024-05-20 11:23:17] INFO root fetch - main [MainThread]: End processing [databend-driver]: success
+[2024-05-20 11:23:17] INFO root fetch - main [MainThread]: Store serial: [23287481]

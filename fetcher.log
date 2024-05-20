@@ -9469,3 +9469,63 @@
 [2024-05-20 09:30:57] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.99.3.tar.gz]
 [2024-05-20 09:30:57] INFO root fetch - main [MainThread]: End processing [sklearn2pmml]: success
 [2024-05-20 09:30:57] INFO root fetch - main [MainThread]: Store serial: [23286308]
+[2024-05-20 09:33:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286308]
+[2024-05-20 09:33:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 09:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: herepy
+[2024-05-20 09:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ATL-Tools
+[2024-05-20 09:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: upspreadz
+[2024-05-20 09:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simple-proxy
+[2024-05-20 09:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sh1106-framework
+[2024-05-20 09:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nadeo-api
+[2024-05-20 09:33:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapix-py
+[2024-05-20 09:33:07] INFO root fetch - processPackages [sh1106-framework]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-20 09:33:07] INFO root fetch - processPackages [simple-proxy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 09:33:07] INFO root fetch - processPackages [sh1106-framework]: Downloading https://files.pythonhosted.org/packages/f8/3b/6fcbac4de7778efa43e17a32f138c66b4985bffa7b7f7038216b9f6e90ed/sh1106_framework-0.0.5.tar.gz
+[2024-05-20 09:33:07] INFO root fetch - processPackages [fastapix-py]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 09:33:07] INFO root fetch - processPackages [ATL-Tools]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-20 09:33:07] INFO root fetch - processPackages [simple-proxy]: Downloading https://files.pythonhosted.org/packages/49/1d/cbf4887d77a2dc2df6e5ed84c98173252f3c522e1c14a255b8afebbf022c/simple-proxy-0.0.8.tar.gz
+[2024-05-20 09:33:07] INFO root fetch - processPackages [nadeo-api]: New version: [0.5.1] Old Version: [0.3.4]
+[2024-05-20 09:33:07] WARNING root fetch - processPackages [upspreadz]: Skipping, unable to determine old version
+[2024-05-20 09:33:07] INFO root fetch - main [MainThread]: End processing [upspreadz] error
+[2024-05-20 09:33:07] INFO root fetch - processPackages [herepy]: New version: [3.6.3] Old Version: [3.6.2]
+[2024-05-20 09:33:07] INFO root fetch - processPackages [ATL-Tools]: Downloading https://files.pythonhosted.org/packages/4c/57/02677a8e329707c7cea55056c3b77c026fb43cc7c013f615fd66e0229e64/atl_tools-1.1.5.tar.gz
+[2024-05-20 09:33:07] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/e2/bd/d1c560b2a7c5256574f74bba6bc0c763633067e58ae41fa8bc761ffb5b76/fastapix_py-0.9.0-py3-none-any.whl
+[2024-05-20 09:33:07] INFO root fetch - processPackages [nadeo-api]: Downloading https://files.pythonhosted.org/packages/34/8d/09c54fcd4bbe46e1abd3e619ee19086767614770d5b8d55d3e58bbb46232/nadeo_api-0.3.4.tar.gz
+[2024-05-20 09:33:07] INFO root fetch - processPackages [herepy]: Downloading https://files.pythonhosted.org/packages/f2/0c/0878cc265b338cd461b14059ee968a252b7a78f3c6ea53b18fb0371ce072/herepy-3.6.2.tar.gz
+[2024-05-20 09:33:07] INFO root fetch - processPackages [sh1106-framework]: Downloading https://files.pythonhosted.org/packages/d7/ad/748c0c085cf15eee1daf1a1cd705916c5daf5b96b41a29f32c541bab158d/sh1106_framework-0.0.6.tar.gz
+[2024-05-20 09:33:07] INFO root fetch - processPackages [simple-proxy]: Downloading https://files.pythonhosted.org/packages/2c/e2/942536adfc644996ed1ca3033f3077d97ddaa5e52a8af31c6ea363c7a77e/simple-proxy-0.0.9.tar.gz
+[2024-05-20 09:33:07] INFO root fetch - processPackages [sh1106-framework]: executing diffoscope
+[2024-05-20 09:33:07] INFO root fetch - processPackages [sh1106-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh1106_framework-0.0.5.tar.gz tmp/sh1106_framework-0.0.6.tar.gz --markdown 20240520/s/sh1106-framework/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-20 09:33:07] INFO root fetch - processPackages [simple-proxy]: executing diffoscope
+[2024-05-20 09:33:07] INFO root fetch - processPackages [simple-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-proxy-0.0.8.tar.gz tmp/simple-proxy-0.0.9.tar.gz --markdown 20240520/s/simple-proxy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 09:33:08] INFO root fetch - processPackages [ATL-Tools]: Downloading https://files.pythonhosted.org/packages/da/de/dff7ca62f8f39bce34e363d583df95bc75697400b3c693485d939b48943f/atl_tools-1.1.6.tar.gz
+[2024-05-20 09:33:08] INFO root fetch - processPackages [nadeo-api]: Downloading https://files.pythonhosted.org/packages/a1/ff/0a6135d95446232960bc627e584cafdb2d59b12725bc4bed76bdaf0bf321/nadeo_api-0.5.1.tar.gz
+[2024-05-20 09:33:08] INFO root fetch - processPackages [herepy]: Downloading https://files.pythonhosted.org/packages/b9/1b/07a432be639fe986815b016877871a3fb2cbd756b6d265e5c46d5a0e5e1f/herepy-3.6.3.tar.gz
+[2024-05-20 09:33:08] INFO root fetch - processPackages [ATL-Tools]: executing diffoscope
+[2024-05-20 09:33:08] INFO root fetch - processPackages [ATL-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atl_tools-1.1.5.tar.gz tmp/atl_tools-1.1.6.tar.gz --markdown 20240520/A/ATL-Tools/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-20 09:33:08] INFO root fetch - processPackages [nadeo-api]: executing diffoscope
+[2024-05-20 09:33:08] INFO root fetch - processPackages [nadeo-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nadeo_api-0.3.4.tar.gz tmp/nadeo_api-0.5.1.tar.gz --markdown 20240520/n/nadeo-api/0.3.4-0.5.1/README.md --exclude *.pyd
+[2024-05-20 09:33:08] INFO root fetch - processPackages [herepy]: executing diffoscope
+[2024-05-20 09:33:08] INFO root fetch - processPackages [herepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herepy-3.6.2.tar.gz tmp/herepy-3.6.3.tar.gz --markdown 20240520/h/herepy/3.6.2-3.6.3/README.md --exclude *.pyd
+[2024-05-20 09:33:08] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/f4/ba/8f66be46d72f39c429091d7ee513b3e401156842d1cfcc1038d093be1661/fastapix_py-0.9.1-py3-none-any.whl
+[2024-05-20 09:33:08] INFO root fetch - processPackages [sh1106-framework]: Remove: archive file [/home/abi/fetcher/tmp/sh1106_framework-0.0.5.tar.gz]
+[2024-05-20 09:33:08] INFO root fetch - processPackages [sh1106-framework]: Remove: archive file [/home/abi/fetcher/tmp/sh1106_framework-0.0.6.tar.gz]
+[2024-05-20 09:33:08] INFO root fetch - main [MainThread]: End processing [sh1106-framework]: success
+[2024-05-20 09:33:08] INFO root fetch - processPackages [simple-proxy]: Remove: archive file [/home/abi/fetcher/tmp/simple-proxy-0.0.8.tar.gz]
+[2024-05-20 09:33:08] INFO root fetch - processPackages [simple-proxy]: Remove: archive file [/home/abi/fetcher/tmp/simple-proxy-0.0.9.tar.gz]
+[2024-05-20 09:33:08] INFO root fetch - main [MainThread]: End processing [simple-proxy]: success
+[2024-05-20 09:33:08] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/atl_tools-1.1.5.tar.gz]
+[2024-05-20 09:33:08] INFO root fetch - processPackages [ATL-Tools]: Remove: archive file [/home/abi/fetcher/tmp/atl_tools-1.1.6.tar.gz]
+[2024-05-20 09:33:08] INFO root fetch - main [MainThread]: End processing [ATL-Tools]: success
+[2024-05-20 09:33:08] INFO root fetch - processPackages [fastapix-py]: executing diffoscope
+[2024-05-20 09:33:08] INFO root fetch - processPackages [fastapix-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapix_py-0.9.0-py3-none-any.whl.zip tmp/fastapix_py-0.9.1-py3-none-any.whl.zip --markdown 20240520/f/fastapix-py/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 09:33:08] INFO root fetch - processPackages [nadeo-api]: Remove: archive file [/home/abi/fetcher/tmp/nadeo_api-0.3.4.tar.gz]
+[2024-05-20 09:33:08] INFO root fetch - processPackages [nadeo-api]: Remove: archive file [/home/abi/fetcher/tmp/nadeo_api-0.5.1.tar.gz]
+[2024-05-20 09:33:08] INFO root fetch - main [MainThread]: End processing [nadeo-api]: success
+[2024-05-20 09:33:09] INFO root fetch - processPackages [herepy]: Remove: archive file [/home/abi/fetcher/tmp/herepy-3.6.2.tar.gz]
+[2024-05-20 09:33:09] INFO root fetch - processPackages [herepy]: Remove: archive file [/home/abi/fetcher/tmp/herepy-3.6.3.tar.gz]
+[2024-05-20 09:33:09] INFO root fetch - main [MainThread]: End processing [herepy]: success
+[2024-05-20 09:33:09] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.9.0-py3-none-any.whl.zip]
+[2024-05-20 09:33:09] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.9.1-py3-none-any.whl.zip]
+[2024-05-20 09:33:09] INFO root fetch - main [MainThread]: End processing [fastapix-py]: success
+[2024-05-20 09:33:09] INFO root fetch - main [MainThread]: Store serial: [23286330]

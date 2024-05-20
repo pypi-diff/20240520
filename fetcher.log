@@ -5739,3 +5739,42 @@
 [2024-05-20 05:26:26] INFO root fetch - processPackages [s3func]: Remove: archive file [/home/abi/fetcher/tmp/s3func-0.1.5.tar.gz]
 [2024-05-20 05:26:26] INFO root fetch - main [MainThread]: End processing [s3func]: success
 [2024-05-20 05:26:26] INFO root fetch - main [MainThread]: Store serial: [23284126]
+[2024-05-20 05:28:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284126]
+[2024-05-20 05:28:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 05:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reasonify-headless
+[2024-05-20 05:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cc521-evolution
+[2024-05-20 05:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lambkid
+[2024-05-20 05:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wlkata-mirobot-Virtual
+[2024-05-20 05:28:35] INFO root fetch - processPackages [reasonify-headless]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2024-05-20 05:28:35] INFO root fetch - processPackages [cc521-evolution]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-20 05:28:35] INFO root fetch - processPackages [cc521-evolution]: Downloading https://files.pythonhosted.org/packages/a9/6c/680459e815224dc512fa0c0edc98050eb9724ebe0ee9a2fbdc39f450658f/cc521_evolution-1.0.6.tar.gz
+[2024-05-20 05:28:35] INFO root fetch - processPackages [reasonify-headless]: Downloading https://files.pythonhosted.org/packages/02/39/035b4f7d33b44eb769b20fd7a2bd1f8ecfe19b4fed29bb732843a915e2f9/reasonify_headless-0.1.0a2.tar.gz
+[2024-05-20 05:28:35] INFO root fetch - processPackages [lambkid]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-20 05:28:35] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-20 05:28:35] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/35/ad/170254f7c752ed927e23ad7127c9861b405050d99e5441b9512c25d68eda/lambkid-0.2.3.tar.gz
+[2024-05-20 05:28:35] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/9f/e3/b9f762029218fe3ab2b976c3a780db1d74069dbfc79afc413293c2008ff0/wlkata_mirobot_Virtual-1.2.2.tar.gz
+[2024-05-20 05:28:36] INFO root fetch - processPackages [cc521-evolution]: Downloading https://files.pythonhosted.org/packages/84/ff/f8bbc8ba71aae15507cff69cc28f0dc26273e5a235665d403aa6dcc2bb33/cc521_evolution-1.0.7.tar.gz
+[2024-05-20 05:28:36] INFO root fetch - processPackages [reasonify-headless]: Downloading https://files.pythonhosted.org/packages/1a/2a/7bb5058c2ba406d2b4470323c135c18da02e34950e7966ca991863c6e517/reasonify_headless-0.1.0a3.tar.gz
+[2024-05-20 05:28:36] INFO root fetch - processPackages [cc521-evolution]: executing diffoscope
+[2024-05-20 05:28:36] INFO root fetch - processPackages [cc521-evolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc521_evolution-1.0.6.tar.gz tmp/cc521_evolution-1.0.7.tar.gz --markdown 20240520/c/cc521-evolution/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-20 05:28:36] INFO root fetch - processPackages [reasonify-headless]: executing diffoscope
+[2024-05-20 05:28:36] INFO root fetch - processPackages [reasonify-headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reasonify_headless-0.1.0a2.tar.gz tmp/reasonify_headless-0.1.0a3.tar.gz --markdown 20240520/r/reasonify-headless/0.1.0a2-0.1.0a3/README.md --exclude *.pyd
+[2024-05-20 05:28:36] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Downloading https://files.pythonhosted.org/packages/23/66/2fc84fac12d269bc310d8f1cc666d59653ccd675427f5bbf3a29a3e11d0e/wlkata_mirobot_Virtual-1.2.3.tar.gz
+[2024-05-20 05:28:36] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/80/59/21a6ed059753867416cef429e536e04d0c26ac3d0a5d3782b42f7dc6e522/lambkid-0.2.4.tar.gz
+[2024-05-20 05:28:36] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: executing diffoscope
+[2024-05-20 05:28:36] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wlkata_mirobot_Virtual-1.2.2.tar.gz tmp/wlkata_mirobot_Virtual-1.2.3.tar.gz --markdown 20240520/w/wlkata-mirobot-Virtual/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-20 05:28:36] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-05-20 05:28:36] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.2.3.tar.gz tmp/lambkid-0.2.4.tar.gz --markdown 20240520/l/lambkid/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-20 05:28:36] INFO root fetch - processPackages [cc521-evolution]: Remove: archive file [/home/abi/fetcher/tmp/cc521_evolution-1.0.6.tar.gz]
+[2024-05-20 05:28:36] INFO root fetch - processPackages [cc521-evolution]: Remove: archive file [/home/abi/fetcher/tmp/cc521_evolution-1.0.7.tar.gz]
+[2024-05-20 05:28:36] INFO root fetch - main [MainThread]: End processing [cc521-evolution]: success
+[2024-05-20 05:28:36] INFO root fetch - processPackages [reasonify-headless]: Remove: archive file [/home/abi/fetcher/tmp/reasonify_headless-0.1.0a2.tar.gz]
+[2024-05-20 05:28:36] INFO root fetch - processPackages [reasonify-headless]: Remove: archive file [/home/abi/fetcher/tmp/reasonify_headless-0.1.0a3.tar.gz]
+[2024-05-20 05:28:36] INFO root fetch - main [MainThread]: End processing [reasonify-headless]: success
+[2024-05-20 05:28:36] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.3.tar.gz]
+[2024-05-20 05:28:36] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.4.tar.gz]
+[2024-05-20 05:28:36] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-05-20 05:28:37] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.2.2.tar.gz]
+[2024-05-20 05:28:37] INFO root fetch - processPackages [wlkata-mirobot-Virtual]: Remove: archive file [/home/abi/fetcher/tmp/wlkata_mirobot_Virtual-1.2.3.tar.gz]
+[2024-05-20 05:28:37] INFO root fetch - main [MainThread]: End processing [wlkata-mirobot-Virtual]: success
+[2024-05-20 05:28:37] INFO root fetch - main [MainThread]: Store serial: [23284137]

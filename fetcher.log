@@ -22131,3 +22131,59 @@ EOFError: EOF read where object expected
 [2024-05-20 17:31:41] INFO root fetch - processPackages [atr-dan]: Remove: archive file [/home/abi/fetcher/tmp/atr_dan-0.2.0rc6.tar.gz]
 [2024-05-20 17:31:41] INFO root fetch - main [MainThread]: End processing [atr-dan]: success
 [2024-05-20 17:31:41] INFO root fetch - main [MainThread]: Store serial: [23291819]
+[2024-05-20 17:33:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291819]
+[2024-05-20 17:33:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 17:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-datatables-net
+[2024-05-20 17:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: debilitatesz
+[2024-05-20 17:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sis-extras
+[2024-05-20 17:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bob-builder
+[2024-05-20 17:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: panel
+[2024-05-20 17:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zfx
+[2024-05-20 17:33:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qrules
+[2024-05-20 17:33:50] INFO root fetch - processPackages [sis-extras]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 17:33:50] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 17:33:50] INFO root fetch - processPackages [bob-builder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 17:33:50] INFO root fetch - processPackages [sis-extras]: Downloading https://files.pythonhosted.org/packages/8f/c5/9d86bcbf50ea32e1ff808e4a3c08e09e00e1ec423cf919c9627c44e7f7cb/sis_extras-0.1.0.tar.gz
+[2024-05-20 17:33:50] WARNING root fetch - processPackages [debilitatesz]: Skipping, unable to determine old version
+[2024-05-20 17:33:50] INFO root fetch - main [MainThread]: End processing [debilitatesz] error
+[2024-05-20 17:33:50] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-20 17:33:50] INFO root fetch - processPackages [streamlit-datatables-net]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 17:33:50] INFO root fetch - processPackages [qrules]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-20 17:33:50] INFO root fetch - processPackages [panel]: New version: [1.5.0a3] Old Version: [1.5.0a2]
+[2024-05-20 17:33:50] INFO root fetch - processPackages [bob-builder]: Downloading https://files.pythonhosted.org/packages/7e/0f/16324730c74c38256041457fa578228f2cb3be017c403e4b1c60f094c7cc/bob-builder-0.0.8.tar.gz
+[2024-05-20 17:33:50] INFO root fetch - processPackages [streamlit-datatables-net]: Downloading https://files.pythonhosted.org/packages/48/eb/9b59efe877488985985274b344ab7078d71085aedb0fac08b6c94bfb4960/streamlit_datatables_net-0.0.8-py3-none-any.whl
+[2024-05-20 17:33:50] INFO root fetch - processPackages [panel]: Downloading https://files.pythonhosted.org/packages/d9/cb/b3098c9d555f92737e276f5620ac7651222a9cfbdaeeabe9caa3f68c9156/panel-1.5.0a2.tar.gz
+[2024-05-20 17:33:50] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-20 17:33:50] INFO root fetch - processPackages [sis-extras]: Downloading https://files.pythonhosted.org/packages/23/f7/8cd175a51baed4962bf51eecb8151c460c7ca7fe4a63686c89aa9c359424/sis_extras-0.1.1.tar.gz
+[2024-05-20 17:33:50] INFO root fetch - processPackages [qrules]: Downloading https://files.pythonhosted.org/packages/a1/e8/c5cb4cc5cc038d9dcffd7a746caa31dc32b9b31aa216ad4d94681aae3c46/qrules-0.9.7.tar.gz
+[2024-05-20 17:33:50] INFO root fetch - processPackages [sis-extras]: executing diffoscope
+[2024-05-20 17:33:50] INFO root fetch - processPackages [sis-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sis_extras-0.1.0.tar.gz tmp/sis_extras-0.1.1.tar.gz --markdown 20240520/s/sis-extras/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 17:33:50] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-20 17:33:50] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240520/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 17:33:50] INFO root fetch - processPackages [bob-builder]: Downloading https://files.pythonhosted.org/packages/8e/fe/589db9783fabda8578d41e7b5683776d7e775ac7c2da407e03375ed4443e/bob-builder-0.0.9.tar.gz
+[2024-05-20 17:33:50] WARNING root fetch - processPackages [panel]: Skipping package: exceeds size limit 38429904>=10485760
+[2024-05-20 17:33:50] INFO root fetch - main [MainThread]: End processing [panel] error
+[2024-05-20 17:33:50] INFO root fetch - processPackages [bob-builder]: executing diffoscope
+[2024-05-20 17:33:50] INFO root fetch - processPackages [bob-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bob-builder-0.0.8.tar.gz tmp/bob-builder-0.0.9.tar.gz --markdown 20240520/b/bob-builder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 17:33:51] INFO root fetch - processPackages [streamlit-datatables-net]: Downloading https://files.pythonhosted.org/packages/38/0b/b64e0128f2c152be0bb60d76ee322bf3d5f3a46306d64203d026854b0482/streamlit_datatables_net-0.0.9-py3-none-any.whl
+[2024-05-20 17:33:51] INFO root fetch - processPackages [qrules]: Downloading https://files.pythonhosted.org/packages/d3/cc/98cc8d130f60b192577a5de0471646b4bd49a777780a8a9a8197160eb9d3/qrules-0.9.8.tar.gz
+[2024-05-20 17:33:51] INFO root fetch - processPackages [qrules]: executing diffoscope
+[2024-05-20 17:33:51] INFO root fetch - processPackages [qrules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrules-0.9.7.tar.gz tmp/qrules-0.9.8.tar.gz --markdown 20240520/q/qrules/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-20 17:33:51] INFO root fetch - processPackages [streamlit-datatables-net]: executing diffoscope
+[2024-05-20 17:33:51] INFO root fetch - processPackages [streamlit-datatables-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_datatables_net-0.0.8-py3-none-any.whl.zip tmp/streamlit_datatables_net-0.0.9-py3-none-any.whl.zip --markdown 20240520/s/streamlit-datatables-net/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 17:33:51] INFO root fetch - processPackages [sis-extras]: Remove: archive file [/home/abi/fetcher/tmp/sis_extras-0.1.0.tar.gz]
+[2024-05-20 17:33:51] INFO root fetch - processPackages [sis-extras]: Remove: archive file [/home/abi/fetcher/tmp/sis_extras-0.1.1.tar.gz]
+[2024-05-20 17:33:51] INFO root fetch - main [MainThread]: End processing [sis-extras]: success
+[2024-05-20 17:33:51] INFO root fetch - processPackages [bob-builder]: Remove: archive file [/home/abi/fetcher/tmp/bob-builder-0.0.8.tar.gz]
+[2024-05-20 17:33:51] INFO root fetch - processPackages [bob-builder]: Remove: archive file [/home/abi/fetcher/tmp/bob-builder-0.0.9.tar.gz]
+[2024-05-20 17:33:51] INFO root fetch - main [MainThread]: End processing [bob-builder]: success
+[2024-05-20 17:33:51] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-20 17:33:51] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-20 17:33:51] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-20 17:33:52] INFO root fetch - processPackages [qrules]: Remove: archive file [/home/abi/fetcher/tmp/qrules-0.9.7.tar.gz]
+[2024-05-20 17:33:52] INFO root fetch - processPackages [qrules]: Remove: archive file [/home/abi/fetcher/tmp/qrules-0.9.8.tar.gz]
+[2024-05-20 17:33:52] INFO root fetch - main [MainThread]: End processing [qrules]: success
+[2024-05-20 17:34:17] INFO root fetch - processPackages [streamlit-datatables-net]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_datatables_net-0.0.8-py3-none-any.whl.zip]
+[2024-05-20 17:34:17] INFO root fetch - processPackages [streamlit-datatables-net]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_datatables_net-0.0.9-py3-none-any.whl.zip]
+[2024-05-20 17:34:17] INFO root fetch - main [MainThread]: End processing [streamlit-datatables-net]: success
+[2024-05-20 17:34:17] INFO root fetch - main [MainThread]: Store serial: [23291841]

@@ -7132,3 +7132,18 @@
 [2024-05-20 07:01:11] INFO root fetch - processPackages [roguewave]: Remove: archive file [/home/abi/fetcher/tmp/roguewave-0.2.9.tar.gz]
 [2024-05-20 07:01:11] INFO root fetch - main [MainThread]: End processing [roguewave]: success
 [2024-05-20 07:01:11] INFO root fetch - main [MainThread]: Store serial: [23284715]
+[2024-05-20 07:03:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284715]
+[2024-05-20 07:03:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 07:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: biassedlyz
+[2024-05-20 07:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fast-multi-regex
+[2024-05-20 07:03:20] INFO root fetch - processPackages [fast-multi-regex]: New version: [0.8] Old Version: [0.7]
+[2024-05-20 07:03:20] WARNING root fetch - processPackages [biassedlyz]: Skipping, unable to determine old version
+[2024-05-20 07:03:20] INFO root fetch - main [MainThread]: End processing [biassedlyz] error
+[2024-05-20 07:03:20] INFO root fetch - processPackages [fast-multi-regex]: Downloading https://files.pythonhosted.org/packages/33/3e/bc41e29f30a951cd9ba0d623af1cc163252d33020abf03a9fb29ad52ba31/fast_multi_regex-0.7.tar.gz
+[2024-05-20 07:03:20] INFO root fetch - processPackages [fast-multi-regex]: Downloading https://files.pythonhosted.org/packages/77/60/18107bb203fe25038d06e2031e5363af72108ddf2031504aa1330a907b00/fast_multi_regex-0.8.tar.gz
+[2024-05-20 07:03:20] INFO root fetch - processPackages [fast-multi-regex]: executing diffoscope
+[2024-05-20 07:03:20] INFO root fetch - processPackages [fast-multi-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_multi_regex-0.7.tar.gz tmp/fast_multi_regex-0.8.tar.gz --markdown 20240520/f/fast-multi-regex/0.7-0.8/README.md --exclude *.pyd
+[2024-05-20 07:03:21] INFO root fetch - processPackages [fast-multi-regex]: Remove: archive file [/home/abi/fetcher/tmp/fast_multi_regex-0.7.tar.gz]
+[2024-05-20 07:03:21] INFO root fetch - processPackages [fast-multi-regex]: Remove: archive file [/home/abi/fetcher/tmp/fast_multi_regex-0.8.tar.gz]
+[2024-05-20 07:03:21] INFO root fetch - main [MainThread]: End processing [fast-multi-regex]: success
+[2024-05-20 07:03:21] INFO root fetch - main [MainThread]: Store serial: [23284730]

@@ -12542,3 +12542,49 @@
 [2024-05-20 11:34:16] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
 [2024-05-20 11:34:16] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-05-20 11:34:16] INFO root fetch - main [MainThread]: Store serial: [23287594]
+[2024-05-20 11:36:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287594]
+[2024-05-20 11:36:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 11:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-identity-sdk
+[2024-05-20 11:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyslth
+[2024-05-20 11:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yawp
+[2024-05-20 11:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-identity-sdk
+[2024-05-20 11:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sais-notify-test
+[2024-05-20 11:36:24] INFO root fetch - processPackages [sais-notify-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 11:36:24] INFO root fetch - processPackages [pyslth]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-20 11:36:24] INFO root fetch - processPackages [yawp]: New version: [2.0.0] Old Version: [1.0.0b10]
+[2024-05-20 11:36:24] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/94/42/07c0e25844ffdc6494e7447658dc084d6435c7343816264387d435ddb98d/sais_notify_test-0.0.8.tar.gz
+[2024-05-20 11:36:24] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/9e/30/2c51c79168d1dfce4e12bcfcbf365d3e78475e18e2e8ff78184e35b73068/pyslth-0.4.3.tar.gz
+[2024-05-20 11:36:24] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-20 11:36:24] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-20 11:36:25] INFO root fetch - processPackages [yawp]: Downloading https://files.pythonhosted.org/packages/38/6b/1ef250cb85afc4d295844ce2a91ed9b491168e45edd59620b5e7d46e3fe6/yawp-1.0.0b10.tar.gz
+[2024-05-20 11:36:25] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/af/7a/ac17f0daa7ab738fe2f5e638d62f2cb8c0c1f86f8cadd5913ea740c174aa/sais_notify_test-0.0.9.tar.gz
+[2024-05-20 11:36:25] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-20 11:36:25] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-20 11:36:25] INFO root fetch - processPackages [sais-notify-test]: executing diffoscope
+[2024-05-20 11:36:25] INFO root fetch - processPackages [sais-notify-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify_test-0.0.8.tar.gz tmp/sais_notify_test-0.0.9.tar.gz --markdown 20240520/s/sais-notify-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 11:36:25] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/20/d0/3b63bac1ab71482c2ed9d024125629e19b6b036ad7c0c75ff9e27b9d8a3b/pyslth-0.4.4.tar.gz
+[2024-05-20 11:36:25] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-20 11:36:25] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-20 11:36:25] INFO root fetch - processPackages [pyslth]: executing diffoscope
+[2024-05-20 11:36:25] INFO root fetch - processPackages [pyslth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslth-0.4.3.tar.gz tmp/pyslth-0.4.4.tar.gz --markdown 20240520/p/pyslth/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-20 11:36:25] INFO root fetch - processPackages [yawp]: Downloading https://files.pythonhosted.org/packages/13/30/17db15391174cad1c83b18ebaddd7a708077aadb55e184db650d42003c3b/yawp-2.0.0.tar.gz
+[2024-05-20 11:36:25] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-20 11:36:25] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240520/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-20 11:36:25] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-20 11:36:25] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240520/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-20 11:36:25] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.8.tar.gz]
+[2024-05-20 11:36:25] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.9.tar.gz]
+[2024-05-20 11:36:25] INFO root fetch - main [MainThread]: End processing [sais-notify-test]: success
+[2024-05-20 11:36:25] INFO root fetch - processPackages [yawp]: executing diffoscope
+[2024-05-20 11:36:25] INFO root fetch - processPackages [yawp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yawp-1.0.0b10.tar.gz tmp/yawp-2.0.0.tar.gz --markdown 20240520/y/yawp/1.0.0b10-2.0.0/README.md --exclude *.pyd
+[2024-05-20 11:36:26] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-20 11:36:26] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-20 11:36:26] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-20 11:36:26] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-20 11:36:27] INFO root fetch - processPackages [yawp]: Remove: archive file [/home/abi/fetcher/tmp/yawp-1.0.0b10.tar.gz]
+[2024-05-20 11:36:27] INFO root fetch - processPackages [yawp]: Remove: archive file [/home/abi/fetcher/tmp/yawp-2.0.0.tar.gz]
+[2024-05-20 11:36:27] INFO root fetch - main [MainThread]: End processing [yawp]: success
+[2024-05-20 11:36:27] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.3.tar.gz]
+[2024-05-20 11:36:27] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.4.tar.gz]
+[2024-05-20 11:36:27] INFO root fetch - main [MainThread]: End processing [pyslth]: success
+[2024-05-20 11:36:27] INFO root fetch - main [MainThread]: Store serial: [23287608]

@@ -18980,3 +18980,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:41:11] INFO root fetch - processPackages [socketsecurity]: Remove: archive file [/home/abi/fetcher/tmp/socketsecurity-0.0.68.tar.gz]
 [2024-05-20 15:41:11] INFO root fetch - main [MainThread]: End processing [socketsecurity]: success
 [2024-05-20 15:41:11] INFO root fetch - main [MainThread]: Store serial: [23290454]
+[2024-05-20 15:43:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290454]
+[2024-05-20 15:43:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 15:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LHCbDIRAC
+[2024-05-20 15:43:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zibuyu-llm
+[2024-05-20 15:43:22] INFO root fetch - processPackages [zibuyu-llm]: New version: [2.1.22] Old Version: [2.1.20]
+[2024-05-20 15:43:22] INFO root fetch - processPackages [LHCbDIRAC]: New version: [12.0.0a6] Old Version: [12.0.0a5]
+[2024-05-20 15:43:22] INFO root fetch - processPackages [zibuyu-llm]: Downloading https://files.pythonhosted.org/packages/51/1f/fc23616a22b9ea583dd82e0c0d9904daef1c6d3b808b3d7a20398ba4793e/zibuyu_llm-2.1.20-py3-none-any.whl
+[2024-05-20 15:43:22] INFO root fetch - processPackages [LHCbDIRAC]: Downloading https://files.pythonhosted.org/packages/af/b3/530d6fc2ceb54f43002ca4e497f10b195b1e5cda9647126a043e68894511/LHCbDIRAC-12.0.0a5.tar.gz
+[2024-05-20 15:43:22] INFO root fetch - processPackages [zibuyu-llm]: Downloading https://files.pythonhosted.org/packages/d6/0d/6d1c6926f940a2bc308be7c3e63735a83ea7f2992867f3acc977ba5a42a7/zibuyu_llm-2.1.22-py3-none-any.whl
+[2024-05-20 15:43:22] INFO root fetch - processPackages [LHCbDIRAC]: Downloading https://files.pythonhosted.org/packages/0b/d7/d042d87ceec5e1a340c33f891ab14c9c9de953b9f6be7087faf9e9ec46cf/LHCbDIRAC-12.0.0a6.tar.gz
+[2024-05-20 15:43:22] INFO root fetch - processPackages [zibuyu-llm]: executing diffoscope
+[2024-05-20 15:43:22] INFO root fetch - processPackages [zibuyu-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zibuyu_llm-2.1.20-py3-none-any.whl.zip tmp/zibuyu_llm-2.1.22-py3-none-any.whl.zip --markdown 20240520/z/zibuyu-llm/2.1.20-2.1.22/README.md --exclude *.pyd
+[2024-05-20 15:43:23] INFO root fetch - processPackages [LHCbDIRAC]: executing diffoscope
+[2024-05-20 15:43:23] INFO root fetch - processPackages [LHCbDIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LHCbDIRAC-12.0.0a5.tar.gz tmp/LHCbDIRAC-12.0.0a6.tar.gz --markdown 20240520/L/LHCbDIRAC/12.0.0a5-12.0.0a6/README.md --exclude *.pyd
+[2024-05-20 15:43:23] INFO root fetch - processPackages [zibuyu-llm]: Remove: archive file [/home/abi/fetcher/tmp/zibuyu_llm-2.1.20-py3-none-any.whl.zip]
+[2024-05-20 15:43:23] INFO root fetch - processPackages [zibuyu-llm]: Remove: archive file [/home/abi/fetcher/tmp/zibuyu_llm-2.1.22-py3-none-any.whl.zip]
+[2024-05-20 15:43:23] INFO root fetch - main [MainThread]: End processing [zibuyu-llm]: success
+[2024-05-20 15:43:25] INFO root fetch - processPackages [LHCbDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/LHCbDIRAC-12.0.0a5.tar.gz]
+[2024-05-20 15:43:25] INFO root fetch - processPackages [LHCbDIRAC]: Remove: archive file [/home/abi/fetcher/tmp/LHCbDIRAC-12.0.0a6.tar.gz]
+[2024-05-20 15:43:25] INFO root fetch - main [MainThread]: End processing [LHCbDIRAC]: success
+[2024-05-20 15:43:25] INFO root fetch - main [MainThread]: Store serial: [23290459]

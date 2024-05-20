@@ -13129,3 +13129,80 @@
 [2024-05-20 12:00:43] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
 [2024-05-20 12:00:43] INFO root fetch - main [MainThread]: End processing [fireducks]: success
 [2024-05-20 12:00:43] INFO root fetch - main [MainThread]: Store serial: [23287846]
+[2024-05-20 12:03:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287846]
+[2024-05-20 12:03:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-20 12:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dearwatson
+[2024-05-20 12:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rio-ui
+[2024-05-20 12:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lib-version-urlphishing
+[2024-05-20 12:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ichthyopterygiumz
+[2024-05-20 12:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: samah-fadil
+[2024-05-20 12:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydantic-resolve
+[2024-05-20 12:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-keras-nightly
+[2024-05-20 12:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bitblas
+[2024-05-20 12:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netbox-plugin-webhook-receiver
+[2024-05-20 12:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: indipydriver
+[2024-05-20 12:03:10] INFO root fetch - processPackages [rio-ui]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-20 12:03:10] INFO root fetch - processPackages [lib-version-urlphishing]: New version: [2.2.1] Old Version: [2.1.9]
+[2024-05-20 12:03:10] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024051909] Old Version: [2.17.0.dev2024051809]
+[2024-05-20 12:03:10] INFO root fetch - processPackages [dearwatson]: New version: [0.9.9] Old Version: [0.9.7]
+[2024-05-20 12:03:10] INFO root fetch - processPackages [bitblas]: New version: [0.0.1.dev6] Old Version: [0.0.1.dev5]
+[2024-05-20 12:03:10] INFO root fetch - processPackages [rio-ui]: Downloading https://files.pythonhosted.org/packages/0d/57/a9a1459b25df6a12b03f4b41a1e689b9802df8f1684001c69193e3a0da55/rio_ui-0.7.2.tar.gz
+[2024-05-20 12:03:10] INFO root fetch - processPackages [netbox-plugin-webhook-receiver]: New version: [0.4.0] Old Version: [0.2.0]
+[2024-05-20 12:03:10] INFO root fetch - processPackages [lib-version-urlphishing]: Downloading https://files.pythonhosted.org/packages/a7/42/9ee47bec7064e77b94000e7fe893c18d911391603d3de25d467dce525f90/lib_version_urlphishing-2.1.9.tar.gz
+[2024-05-20 12:03:10] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-20 12:03:10] INFO root fetch - processPackages [indipydriver]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-20 12:03:11] WARNING root fetch - processPackages [samah-fadil]: Skipping, unable to determine old version
+[2024-05-20 12:03:11] INFO root fetch - main [MainThread]: End processing [samah-fadil] error
+[2024-05-20 12:03:11] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/43/62/22dbea4b461e2b90ecfaaa81b45c6e5b9f98839c21958e77da4eb7d23530/tf_keras_nightly-2.17.0.dev2024051809.tar.gz
+[2024-05-20 12:03:11] WARNING root fetch - processPackages [ichthyopterygiumz]: Skipping, unable to determine old version
+[2024-05-20 12:03:11] INFO root fetch - main [MainThread]: End processing [ichthyopterygiumz] error
+[2024-05-20 12:03:11] INFO root fetch - processPackages [dearwatson]: Downloading https://files.pythonhosted.org/packages/0f/ba/b35bd970c84ce962034af18fa9204693d404680e78cdfb8927d1c8166e80/dearwatson-0.9.7.tar.gz
+[2024-05-20 12:03:11] INFO root fetch - processPackages [bitblas]: Downloading https://files.pythonhosted.org/packages/ff/57/b2eda3e5350ca00ab120b06ea7256299eee4c9214bb379986342a265eb3f/bitblas-0.0.1.dev5-py3-none-manylinux1_x86_64.whl
+[2024-05-20 12:03:11] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/8e/c0/a91afddaebe96f21fe4006a9e28caa39f61479745f67d19d3be639393c75/pydantic_resolve-1.9.2.tar.gz
+[2024-05-20 12:03:11] INFO root fetch - processPackages [netbox-plugin-webhook-receiver]: Downloading https://files.pythonhosted.org/packages/21/67/887223b724ec2931a4c92692c9744682cb2895d62c863684644c519dc013/netbox_plugin_webhook_receiver-0.2.0.tar.gz
+[2024-05-20 12:03:11] INFO root fetch - processPackages [indipydriver]: Downloading https://files.pythonhosted.org/packages/f5/1c/28ba48332cbd4098d16705ebd00eff699b2f41a64179a70609c6700d22bd/indipydriver-1.2.1.tar.gz
+[2024-05-20 12:03:11] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/bf/40/576567c415fbe1ce20c32ab2b15041c6f17a6f72e05f27ab979478b68fac/tf_keras_nightly-2.17.0.dev2024051909.tar.gz
+[2024-05-20 12:03:11] INFO root fetch - processPackages [lib-version-urlphishing]: Downloading https://files.pythonhosted.org/packages/ea/72/cf1f789945dcbf95177cf8233c1138918f9642ec9e1705e3c5a764e5b232/lib_version_urlphishing-2.2.1.tar.gz
+[2024-05-20 12:03:11] INFO root fetch - processPackages [rio-ui]: Downloading https://files.pythonhosted.org/packages/54/0f/8124daec98129f2866fc0625ad46f00f77e4f1881d999655ce1d5865ead9/rio_ui-0.7.3.tar.gz
+[2024-05-20 12:03:11] INFO root fetch - processPackages [lib-version-urlphishing]: executing diffoscope
+[2024-05-20 12:03:11] INFO root fetch - processPackages [lib-version-urlphishing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_urlphishing-2.1.9.tar.gz tmp/lib_version_urlphishing-2.2.1.tar.gz --markdown 20240520/l/lib-version-urlphishing/2.1.9-2.2.1/README.md --exclude *.pyd
+[2024-05-20 12:03:11] INFO root fetch - processPackages [indipydriver]: Downloading https://files.pythonhosted.org/packages/6e/d7/f4dec29edf6146ad595c9aabfca8dda219761f5fcee548f1f28762456cf2/indipydriver-1.2.2.tar.gz
+[2024-05-20 12:03:11] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-20 12:03:11] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024051809.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024051909.tar.gz --markdown 20240520/t/tf-keras-nightly/2.17.0.dev2024051809-2.17.0.dev2024051909/README.md --exclude *.pyd
+[2024-05-20 12:03:11] INFO root fetch - processPackages [netbox-plugin-webhook-receiver]: Downloading https://files.pythonhosted.org/packages/48/7d/29227493d70cc1cd41d91fa7ade0fc6cc89627bb305a82d0eeca6e6aab4b/netbox_plugin_webhook_receiver-0.4.0.tar.gz
+[2024-05-20 12:03:11] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/ae/9e/9d50726a0b1302c148a9936ed4cc42a7272d505e1f540cea52fdb856bc6c/pydantic_resolve-1.9.3.tar.gz
+[2024-05-20 12:03:11] INFO root fetch - processPackages [dearwatson]: Downloading https://files.pythonhosted.org/packages/51/ef/a9231ae823323fefdd6b2c48396a26841d854f32c634d25ea73af29197dc/dearwatson-0.9.9.tar.gz
+[2024-05-20 12:03:11] INFO root fetch - processPackages [rio-ui]: executing diffoscope
+[2024-05-20 12:03:11] INFO root fetch - processPackages [rio-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio_ui-0.7.2.tar.gz tmp/rio_ui-0.7.3.tar.gz --markdown 20240520/r/rio-ui/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-20 12:03:11] INFO root fetch - processPackages [indipydriver]: executing diffoscope
+[2024-05-20 12:03:11] INFO root fetch - processPackages [indipydriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indipydriver-1.2.1.tar.gz tmp/indipydriver-1.2.2.tar.gz --markdown 20240520/i/indipydriver/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-20 12:03:11] INFO root fetch - processPackages [dearwatson]: executing diffoscope
+[2024-05-20 12:03:11] INFO root fetch - processPackages [dearwatson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dearwatson-0.9.7.tar.gz tmp/dearwatson-0.9.9.tar.gz --markdown 20240520/d/dearwatson/0.9.7-0.9.9/README.md --exclude *.pyd
+[2024-05-20 12:03:11] INFO root fetch - processPackages [netbox-plugin-webhook-receiver]: executing diffoscope
+[2024-05-20 12:03:11] INFO root fetch - processPackages [netbox-plugin-webhook-receiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_plugin_webhook_receiver-0.2.0.tar.gz tmp/netbox_plugin_webhook_receiver-0.4.0.tar.gz --markdown 20240520/n/netbox-plugin-webhook-receiver/0.2.0-0.4.0/README.md --exclude *.pyd
+[2024-05-20 12:03:11] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2024-05-20 12:03:11] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-1.9.2.tar.gz tmp/pydantic_resolve-1.9.3.tar.gz --markdown 20240520/p/pydantic-resolve/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-20 12:03:12] INFO root fetch - processPackages [lib-version-urlphishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-2.1.9.tar.gz]
+[2024-05-20 12:03:12] INFO root fetch - processPackages [lib-version-urlphishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-2.2.1.tar.gz]
+[2024-05-20 12:03:12] INFO root fetch - main [MainThread]: End processing [lib-version-urlphishing]: success
+[2024-05-20 12:03:12] INFO root fetch - processPackages [netbox-plugin-webhook-receiver]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_webhook_receiver-0.2.0.tar.gz]
+[2024-05-20 12:03:12] INFO root fetch - processPackages [netbox-plugin-webhook-receiver]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_webhook_receiver-0.4.0.tar.gz]
+[2024-05-20 12:03:12] INFO root fetch - main [MainThread]: End processing [netbox-plugin-webhook-receiver]: success
+[2024-05-20 12:03:12] INFO root fetch - processPackages [indipydriver]: Remove: archive file [/home/abi/fetcher/tmp/indipydriver-1.2.1.tar.gz]
+[2024-05-20 12:03:12] INFO root fetch - processPackages [indipydriver]: Remove: archive file [/home/abi/fetcher/tmp/indipydriver-1.2.2.tar.gz]
+[2024-05-20 12:03:12] INFO root fetch - main [MainThread]: End processing [indipydriver]: success
+[2024-05-20 12:03:12] INFO root fetch - processPackages [dearwatson]: Remove: archive file [/home/abi/fetcher/tmp/dearwatson-0.9.7.tar.gz]
+[2024-05-20 12:03:12] INFO root fetch - processPackages [dearwatson]: Remove: archive file [/home/abi/fetcher/tmp/dearwatson-0.9.9.tar.gz]
+[2024-05-20 12:03:12] INFO root fetch - main [MainThread]: End processing [dearwatson]: success
+[2024-05-20 12:03:12] WARNING root fetch - processPackages [bitblas]: Skipping package: exceeds size limit 57514089>=10485760
+[2024-05-20 12:03:12] INFO root fetch - main [MainThread]: End processing [bitblas] error
+[2024-05-20 12:03:12] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.9.2.tar.gz]
+[2024-05-20 12:03:12] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.9.3.tar.gz]
+[2024-05-20 12:03:12] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2024-05-20 12:03:13] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.7.2.tar.gz]
+[2024-05-20 12:03:13] INFO root fetch - processPackages [rio-ui]: Remove: archive file [/home/abi/fetcher/tmp/rio_ui-0.7.3.tar.gz]
+[2024-05-20 12:03:13] INFO root fetch - main [MainThread]: End processing [rio-ui]: success
+[2024-05-20 12:03:14] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024051809.tar.gz]
+[2024-05-20 12:03:14] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024051909.tar.gz]
+[2024-05-20 12:03:14] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-20 12:03:14] INFO root fetch - main [MainThread]: Store serial: [23287882]

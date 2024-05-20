@@ -6392,3 +6392,18 @@
 [2024-05-20 06:23:34] WARNING root fetch - processPackages [invigourz]: Skipping, unable to determine old version
 [2024-05-20 06:23:34] INFO root fetch - main [MainThread]: End processing [invigourz] error
 [2024-05-20 06:23:34] INFO root fetch - main [MainThread]: Store serial: [23284408]
+[2024-05-20 06:25:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284408]
+[2024-05-20 06:25:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 06:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HTML-Boilerplate
+[2024-05-20 06:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: switch-api
+[2024-05-20 06:25:42] WARNING root fetch - processPackages [HTML-Boilerplate]: Skipping, unable to determine old version
+[2024-05-20 06:25:42] INFO root fetch - main [MainThread]: End processing [HTML-Boilerplate] error
+[2024-05-20 06:25:42] INFO root fetch - processPackages [switch-api]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-20 06:25:42] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/c5/05/be8bdeb8dc1caa1be5551a1086fd6a011e7315c3cffdf80ecc938210ad98/switch_api-0.5.6.tar.gz
+[2024-05-20 06:25:43] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/1f/48/99b8540292bd98b7984dd5ea316555197febfb178b7b823917c8a4149a45/switch_api-0.5.7.tar.gz
+[2024-05-20 06:25:43] INFO root fetch - processPackages [switch-api]: executing diffoscope
+[2024-05-20 06:25:43] INFO root fetch - processPackages [switch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switch_api-0.5.6.tar.gz tmp/switch_api-0.5.7.tar.gz --markdown 20240520/s/switch-api/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-20 06:25:44] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.6.tar.gz]
+[2024-05-20 06:25:44] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.7.tar.gz]
+[2024-05-20 06:25:44] INFO root fetch - main [MainThread]: End processing [switch-api]: success
+[2024-05-20 06:25:44] INFO root fetch - main [MainThread]: Store serial: [23284415]

@@ -4025,3 +4025,39 @@
 [2024-05-20 03:17:01] INFO root fetch - processPackages [pyDecision]: Remove: archive file [/home/abi/fetcher/tmp/pyDecision-4.5.5.tar.gz]
 [2024-05-20 03:17:01] INFO root fetch - main [MainThread]: End processing [pyDecision]: success
 [2024-05-20 03:17:01] INFO root fetch - main [MainThread]: Store serial: [23283273]
+[2024-05-20 03:19:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283273]
+[2024-05-20 03:19:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 03:19:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plyball
+[2024-05-20 03:19:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agricore_sp_models
+[2024-05-20 03:19:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: innsz
+[2024-05-20 03:19:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OZI
+[2024-05-20 03:19:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: latkerlo-jvotci
+[2024-05-20 03:19:10] INFO root fetch - processPackages [OZI]: New version: [1.8.3] Old Version: [1.8.2]
+[2024-05-20 03:19:10] WARNING root fetch - processPackages [innsz]: Skipping, unable to determine old version
+[2024-05-20 03:19:10] INFO root fetch - main [MainThread]: End processing [innsz] error
+[2024-05-20 03:19:10] INFO root fetch - processPackages [plyball]: New version: [2.2.65] Old Version: [2.2.64]
+[2024-05-20 03:19:10] WARNING root fetch - processPackages [latkerlo-jvotci]: Skipping, unable to determine old version
+[2024-05-20 03:19:10] INFO root fetch - main [MainThread]: End processing [latkerlo-jvotci] error
+[2024-05-20 03:19:10] INFO root fetch - processPackages [agricore_sp_models]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-20 03:19:10] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/c6/cb/5dac4598f47184791051f7445ec85cedee97479d18ee76d3654676f4498e/OZI-1.8.2.tar.gz
+[2024-05-20 03:19:10] INFO root fetch - processPackages [plyball]: Downloading https://files.pythonhosted.org/packages/94/44/f910d189d50aaaab9a8c5e2aef8d3e5f25a832097ae1c0b4edbf274e895b/plyball-2.2.64.tar.gz
+[2024-05-20 03:19:10] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/99/3b/b1847ba262596ccdb2f2745d722aa75dade6d77edde9077aa24e0867d5f0/agricore_sp_models-0.5.8.tar.gz
+[2024-05-20 03:19:10] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/c6/fd/7ef4336c02f3b40c016bda178293ca8df3e4ec5aeb2422ee69b9c9027fb1/OZI-1.8.3.tar.gz
+[2024-05-20 03:19:10] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-20 03:19:10] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.8.2.tar.gz tmp/OZI-1.8.3.tar.gz --markdown 20240520/O/OZI/1.8.2-1.8.3/README.md --exclude *.pyd
+[2024-05-20 03:19:10] INFO root fetch - processPackages [plyball]: Downloading https://files.pythonhosted.org/packages/ec/d5/42dedabb5065909dd53520602680b6aabb7b5cd131c23134961a8036d701/plyball-2.2.65.tar.gz
+[2024-05-20 03:19:11] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/4f/c3/15dc30bfa86b2dc97f35cb28d8ef45f99d8a64f480013f5b15c7b47dde11/agricore_sp_models-0.5.9.tar.gz
+[2024-05-20 03:19:11] INFO root fetch - processPackages [plyball]: executing diffoscope
+[2024-05-20 03:19:11] INFO root fetch - processPackages [plyball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plyball-2.2.64.tar.gz tmp/plyball-2.2.65.tar.gz --markdown 20240520/p/plyball/2.2.64-2.2.65/README.md --exclude *.pyd
+[2024-05-20 03:19:11] INFO root fetch - processPackages [agricore_sp_models]: executing diffoscope
+[2024-05-20 03:19:11] INFO root fetch - processPackages [agricore_sp_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agricore_sp_models-0.5.8.tar.gz tmp/agricore_sp_models-0.5.9.tar.gz --markdown 20240520/a/agricore_sp_models/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-20 03:19:11] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.8.2.tar.gz]
+[2024-05-20 03:19:11] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.8.3.tar.gz]
+[2024-05-20 03:19:11] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-20 03:19:11] INFO root fetch - processPackages [plyball]: Remove: archive file [/home/abi/fetcher/tmp/plyball-2.2.64.tar.gz]
+[2024-05-20 03:19:11] INFO root fetch - processPackages [plyball]: Remove: archive file [/home/abi/fetcher/tmp/plyball-2.2.65.tar.gz]
+[2024-05-20 03:19:11] INFO root fetch - main [MainThread]: End processing [plyball]: success
+[2024-05-20 03:19:11] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.8.tar.gz]
+[2024-05-20 03:19:11] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.9.tar.gz]
+[2024-05-20 03:19:11] INFO root fetch - main [MainThread]: End processing [agricore_sp_models]: success
+[2024-05-20 03:19:11] INFO root fetch - main [MainThread]: Store serial: [23283295]

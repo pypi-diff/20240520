@@ -11046,3 +11046,51 @@
 [2024-05-20 10:39:07] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post517-py3-none-any.whl.zip]
 [2024-05-20 10:39:07] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-05-20 10:39:07] INFO root fetch - main [MainThread]: Store serial: [23286976]
+[2024-05-20 10:41:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286976]
+[2024-05-20 10:41:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 10:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: storybuilder
+[2024-05-20 10:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sh1106-framework
+[2024-05-20 10:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sahi
+[2024-05-20 10:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: database-mysql-local
+[2024-05-20 10:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acceldata-sdk
+[2024-05-20 10:41:15] INFO root fetch - processPackages [sh1106-framework]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-20 10:41:15] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.306] Old Version: [0.0.305]
+[2024-05-20 10:41:15] INFO root fetch - processPackages [storybuilder]: New version: [0.0.9] Old Version: [0.0.34]
+[2024-05-20 10:41:15] INFO root fetch - processPackages [sh1106-framework]: Downloading https://files.pythonhosted.org/packages/d7/ad/748c0c085cf15eee1daf1a1cd705916c5daf5b96b41a29f32c541bab158d/sh1106_framework-0.0.6.tar.gz
+[2024-05-20 10:41:15] INFO root fetch - processPackages [acceldata-sdk]: New version: [3.5.0] Old Version: [3.4.0]
+[2024-05-20 10:41:16] INFO root fetch - processPackages [sahi]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-20 10:41:16] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/f4/48/aa66e6fd8849f48605644b655e4707e3ac741ec7e240f715237136b7b7cf/database_mysql_local-0.0.305.tar.gz
+[2024-05-20 10:41:16] INFO root fetch - processPackages [storybuilder]: Downloading https://files.pythonhosted.org/packages/86/3a/406df732adad7241d60c6422db70e13baf9028f59126e01115415d4c17a2/storybuilder-0.0.34-py3-none-any.whl
+[2024-05-20 10:41:16] INFO root fetch - processPackages [sahi]: Downloading https://files.pythonhosted.org/packages/19/40/914f67f1c2458b5bf705d202793975eda059fddf0c56bbab16c465108307/sahi-0.9.3.tar.gz
+[2024-05-20 10:41:16] INFO root fetch - processPackages [acceldata-sdk]: Downloading https://files.pythonhosted.org/packages/e1/e3/70cf81275f1cec44498a82dfed92b0b7ad8253faf188321a2808666558eb/acceldata_sdk-3.4.0.tar.gz
+[2024-05-20 10:41:16] INFO root fetch - processPackages [sh1106-framework]: Downloading https://files.pythonhosted.org/packages/dd/08/40bfca89a4c86dbb7f98664005812e735afc03fc76eaac27a86cc235b369/sh1106_framework-0.0.7.tar.gz
+[2024-05-20 10:41:16] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/e5/1d/87c7548e666143cf517e40a5a86ab8f724538c7de0714063821d4a280aea/database_mysql_local-0.0.306.tar.gz
+[2024-05-20 10:41:16] INFO root fetch - processPackages [sh1106-framework]: executing diffoscope
+[2024-05-20 10:41:16] INFO root fetch - processPackages [sh1106-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sh1106_framework-0.0.6.tar.gz tmp/sh1106_framework-0.0.7.tar.gz --markdown 20240520/s/sh1106-framework/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-20 10:41:16] INFO root fetch - processPackages [storybuilder]: Downloading https://files.pythonhosted.org/packages/12/10/5d96510eab046eea9f159c71332ebb594fc10fcb9e2a1618e641fc06adac/storybuilder-0.0.9-py3-none-any.whl
+[2024-05-20 10:41:16] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-20 10:41:16] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.305.tar.gz tmp/database_mysql_local-0.0.306.tar.gz --markdown 20240520/d/database-mysql-local/0.0.305-0.0.306/README.md --exclude *.pyd
+[2024-05-20 10:41:16] INFO root fetch - processPackages [sahi]: Downloading https://files.pythonhosted.org/packages/2a/4d/6c3cfadbc8effbc958a65edd7e42647309229080ac0da930007c0c491ba4/sahi-0.9.4.tar.gz
+[2024-05-20 10:41:16] INFO root fetch - processPackages [acceldata-sdk]: Downloading https://files.pythonhosted.org/packages/a2/6d/99096cb0f68fd9ccbd000b3a9d3cdb0e1647dd6b8645eb7e85907edaafdf/acceldata_sdk-3.5.0.tar.gz
+[2024-05-20 10:41:16] INFO root fetch - processPackages [storybuilder]: executing diffoscope
+[2024-05-20 10:41:16] INFO root fetch - processPackages [storybuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/storybuilder-0.0.34-py3-none-any.whl.zip tmp/storybuilder-0.0.9-py3-none-any.whl.zip --markdown 20240520/s/storybuilder/0.0.34-0.0.9/README.md --exclude *.pyd
+[2024-05-20 10:41:16] INFO root fetch - processPackages [sahi]: executing diffoscope
+[2024-05-20 10:41:16] INFO root fetch - processPackages [sahi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sahi-0.9.3.tar.gz tmp/sahi-0.9.4.tar.gz --markdown 20240520/s/sahi/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-20 10:41:16] INFO root fetch - processPackages [acceldata-sdk]: executing diffoscope
+[2024-05-20 10:41:16] INFO root fetch - processPackages [acceldata-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acceldata_sdk-3.4.0.tar.gz tmp/acceldata_sdk-3.5.0.tar.gz --markdown 20240520/a/acceldata-sdk/3.4.0-3.5.0/README.md --exclude *.pyd
+[2024-05-20 10:41:17] INFO root fetch - processPackages [sh1106-framework]: Remove: archive file [/home/abi/fetcher/tmp/sh1106_framework-0.0.6.tar.gz]
+[2024-05-20 10:41:17] INFO root fetch - processPackages [sh1106-framework]: Remove: archive file [/home/abi/fetcher/tmp/sh1106_framework-0.0.7.tar.gz]
+[2024-05-20 10:41:17] INFO root fetch - main [MainThread]: End processing [sh1106-framework]: success
+[2024-05-20 10:41:17] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.305.tar.gz]
+[2024-05-20 10:41:17] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.306.tar.gz]
+[2024-05-20 10:41:17] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-20 10:41:17] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.34-py3-none-any.whl.zip]
+[2024-05-20 10:41:17] INFO root fetch - processPackages [storybuilder]: Remove: archive file [/home/abi/fetcher/tmp/storybuilder-0.0.9-py3-none-any.whl.zip]
+[2024-05-20 10:41:17] INFO root fetch - main [MainThread]: End processing [storybuilder]: success
+[2024-05-20 10:41:17] INFO root fetch - processPackages [sahi]: Remove: archive file [/home/abi/fetcher/tmp/sahi-0.9.3.tar.gz]
+[2024-05-20 10:41:17] INFO root fetch - processPackages [sahi]: Remove: archive file [/home/abi/fetcher/tmp/sahi-0.9.4.tar.gz]
+[2024-05-20 10:41:17] INFO root fetch - main [MainThread]: End processing [sahi]: success
+[2024-05-20 10:41:17] INFO root fetch - processPackages [acceldata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/acceldata_sdk-3.4.0.tar.gz]
+[2024-05-20 10:41:17] INFO root fetch - processPackages [acceldata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/acceldata_sdk-3.5.0.tar.gz]
+[2024-05-20 10:41:17] INFO root fetch - main [MainThread]: End processing [acceldata-sdk]: success
+[2024-05-20 10:41:17] INFO root fetch - main [MainThread]: Store serial: [23286993]

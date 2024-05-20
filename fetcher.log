@@ -5796,3 +5796,24 @@
 [2024-05-20 05:30:46] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.6.dev20240515214331.tar.gz]
 [2024-05-20 05:30:46] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
 [2024-05-20 05:30:46] INFO root fetch - main [MainThread]: Store serial: [23284149]
+[2024-05-20 05:32:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284149]
+[2024-05-20 05:32:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 05:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nlp-nightly
+[2024-05-20 05:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: betterschema
+[2024-05-20 05:32:55] INFO root fetch - processPackages [betterschema]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 05:32:55] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-05-20 05:32:55] INFO root fetch - processPackages [betterschema]: Downloading https://files.pythonhosted.org/packages/1e/38/c4454b42d2fdf99df61a25551a6a06ccb4ca66e340946fe223ee1ab9c001/betterschema-0.1.8.tar.gz
+[2024-05-20 05:32:55] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-05-20 05:32:55] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-05-20 05:32:55] INFO root fetch - processPackages [betterschema]: Downloading https://files.pythonhosted.org/packages/9f/0d/826ff1e3b4772c505194babfcc2ab7784bd5f7f13f65bfb0aa861b1c63c0/betterschema-0.1.9.tar.gz
+[2024-05-20 05:32:55] INFO root fetch - processPackages [betterschema]: executing diffoscope
+[2024-05-20 05:32:55] INFO root fetch - processPackages [betterschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterschema-0.1.8.tar.gz tmp/betterschema-0.1.9.tar.gz --markdown 20240520/b/betterschema/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 05:32:55] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-05-20 05:32:55] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240520/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-05-20 05:32:56] INFO root fetch - processPackages [betterschema]: Remove: archive file [/home/abi/fetcher/tmp/betterschema-0.1.8.tar.gz]
+[2024-05-20 05:32:56] INFO root fetch - processPackages [betterschema]: Remove: archive file [/home/abi/fetcher/tmp/betterschema-0.1.9.tar.gz]
+[2024-05-20 05:32:56] INFO root fetch - main [MainThread]: End processing [betterschema]: success
+[2024-05-20 05:32:56] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-05-20 05:32:56] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-05-20 05:32:56] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-05-20 05:32:56] INFO root fetch - main [MainThread]: Store serial: [23284154]

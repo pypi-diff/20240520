@@ -12131,3 +12131,32 @@
 [2024-05-20 11:16:43] INFO root fetch - main [MainThread]: End processing [kit4dl]: success
 [2024-05-20 11:16:43] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-05-20 11:16:43] INFO root fetch - main [MainThread]: Store serial: [23287425]
+[2024-05-20 11:18:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287425]
+[2024-05-20 11:18:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 11:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-nextjs
+[2024-05-20 11:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HandyLLM
+[2024-05-20 11:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rnavirhost
+[2024-05-20 11:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: induedz
+[2024-05-20 11:18:52] INFO root fetch - processPackages [HandyLLM]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-20 11:18:52] INFO root fetch - processPackages [rnavirhost]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 11:18:52] INFO root fetch - processPackages [django-nextjs]: New version: [3.0.0] Old Version: [2.4.0]
+[2024-05-20 11:18:52] WARNING root fetch - processPackages [induedz]: Skipping, unable to determine old version
+[2024-05-20 11:18:52] INFO root fetch - main [MainThread]: End processing [induedz] error
+[2024-05-20 11:18:52] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/f0/e9/3c1ba3d493c2d19ad818a4af4ffb205ac52b0eab7a7f9be8a7ac24fdead6/handyllm-0.7.1.tar.gz
+[2024-05-20 11:18:52] INFO root fetch - processPackages [rnavirhost]: Downloading https://files.pythonhosted.org/packages/85/e7/f8b6c86741f80693c4ae0aee47a7cee90b490dd49973598a59822aeb15a6/rnavirhost-1.0.2.tar.gz
+[2024-05-20 11:18:52] INFO root fetch - processPackages [django-nextjs]: Downloading https://files.pythonhosted.org/packages/df/3e/451e05284896e40d6e026986f4fd82cc1f186cfeb85a398907d5b7ad3ffc/django-nextjs-2.4.0.tar.gz
+[2024-05-20 11:18:52] WARNING root fetch - processPackages [rnavirhost]: Skipping package: exceeds size limit 63285128>=10485760
+[2024-05-20 11:18:52] INFO root fetch - main [MainThread]: End processing [rnavirhost] error
+[2024-05-20 11:18:52] INFO root fetch - processPackages [django-nextjs]: Downloading https://files.pythonhosted.org/packages/e0/b1/822cad5993b3ce9f323a97307e61b4546698e0aa36b31f3df74dda107714/django_nextjs-3.0.0.tar.gz
+[2024-05-20 11:18:52] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/b3/a6/72ff120f4662ffe2c3eecdd980bc33c7d34764c5b3b96f9775a7bd988dbf/handyllm-0.7.2.tar.gz
+[2024-05-20 11:18:52] INFO root fetch - processPackages [django-nextjs]: executing diffoscope
+[2024-05-20 11:18:52] INFO root fetch - processPackages [django-nextjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-nextjs-2.4.0.tar.gz tmp/django_nextjs-3.0.0.tar.gz --markdown 20240520/d/django-nextjs/2.4.0-3.0.0/README.md --exclude *.pyd
+[2024-05-20 11:18:52] INFO root fetch - processPackages [HandyLLM]: executing diffoscope
+[2024-05-20 11:18:52] INFO root fetch - processPackages [HandyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/handyllm-0.7.1.tar.gz tmp/handyllm-0.7.2.tar.gz --markdown 20240520/H/HandyLLM/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-20 11:18:53] INFO root fetch - processPackages [django-nextjs]: Remove: archive file [/home/abi/fetcher/tmp/django-nextjs-2.4.0.tar.gz]
+[2024-05-20 11:18:53] INFO root fetch - processPackages [django-nextjs]: Remove: archive file [/home/abi/fetcher/tmp/django_nextjs-3.0.0.tar.gz]
+[2024-05-20 11:18:53] INFO root fetch - main [MainThread]: End processing [django-nextjs]: success
+[2024-05-20 11:18:53] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/handyllm-0.7.1.tar.gz]
+[2024-05-20 11:18:53] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/handyllm-0.7.2.tar.gz]
+[2024-05-20 11:18:53] INFO root fetch - main [MainThread]: End processing [HandyLLM]: success
+[2024-05-20 11:18:53] INFO root fetch - main [MainThread]: Store serial: [23287439]

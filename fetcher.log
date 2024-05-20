@@ -3439,3 +3439,27 @@
 [2024-05-20 02:41:31] INFO root fetch - processPackages [mlflow-skinny]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-skinny-2.9.2.tar.gz]
 [2024-05-20 02:41:31] INFO root fetch - main [MainThread]: End processing [mlflow-skinny]: success
 [2024-05-20 02:41:31] INFO root fetch - main [MainThread]: Store serial: [23283044]
+[2024-05-20 02:43:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283044]
+[2024-05-20 02:43:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 02:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toesz
+[2024-05-20 02:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matprops
+[2024-05-20 02:43:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: REVHubInterface
+[2024-05-20 02:43:40] INFO root fetch - processPackages [REVHubInterface]: New version: [1.3.3.dev9] Old Version: [1.3.3.dev8]
+[2024-05-20 02:43:40] INFO root fetch - processPackages [matprops]: New version: [1.0.4.1] Old Version: [1.0.4]
+[2024-05-20 02:43:40] WARNING root fetch - processPackages [toesz]: Skipping, unable to determine old version
+[2024-05-20 02:43:40] INFO root fetch - main [MainThread]: End processing [toesz] error
+[2024-05-20 02:43:40] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/0d/90/3c74a9c7310ba2da2e673cb67d3e8c65e5460209759ef2fa291efce82ab5/revhubinterface-1.3.3.dev8.tar.gz
+[2024-05-20 02:43:40] INFO root fetch - processPackages [matprops]: Downloading https://files.pythonhosted.org/packages/7a/b6/e5a09eba8bc107c614a9c95432b549cc420cc33879b9d7c90d285cdfc1dd/matprops-1.0.4.tar.gz
+[2024-05-20 02:43:40] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/47/93/e2ab5da20dcdca793ff04faa5aa5f38bb3f149e7bf70c77c15ac7d127689/revhubinterface-1.3.3.dev9.tar.gz
+[2024-05-20 02:43:40] INFO root fetch - processPackages [matprops]: Downloading https://files.pythonhosted.org/packages/5d/62/12a91ce7f4f7710baf0f5cb57065f6ca7410aa8fc737254625dae5919143/matprops-1.0.4.1.tar.gz
+[2024-05-20 02:43:40] INFO root fetch - processPackages [REVHubInterface]: executing diffoscope
+[2024-05-20 02:43:40] INFO root fetch - processPackages [REVHubInterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revhubinterface-1.3.3.dev8.tar.gz tmp/revhubinterface-1.3.3.dev9.tar.gz --markdown 20240520/R/REVHubInterface/1.3.3.dev8-1.3.3.dev9/README.md --exclude *.pyd
+[2024-05-20 02:43:40] INFO root fetch - processPackages [matprops]: executing diffoscope
+[2024-05-20 02:43:40] INFO root fetch - processPackages [matprops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matprops-1.0.4.tar.gz tmp/matprops-1.0.4.1.tar.gz --markdown 20240520/m/matprops/1.0.4-1.0.4.1/README.md --exclude *.pyd
+[2024-05-20 02:43:41] INFO root fetch - processPackages [matprops]: Remove: archive file [/home/abi/fetcher/tmp/matprops-1.0.4.tar.gz]
+[2024-05-20 02:43:41] INFO root fetch - processPackages [matprops]: Remove: archive file [/home/abi/fetcher/tmp/matprops-1.0.4.1.tar.gz]
+[2024-05-20 02:43:41] INFO root fetch - main [MainThread]: End processing [matprops]: success
+[2024-05-20 02:43:41] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev8.tar.gz]
+[2024-05-20 02:43:41] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev9.tar.gz]
+[2024-05-20 02:43:41] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
+[2024-05-20 02:43:41] INFO root fetch - main [MainThread]: Store serial: [23283054]

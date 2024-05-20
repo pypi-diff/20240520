@@ -5076,3 +5076,24 @@
 [2024-05-20 04:35:48] INFO root fetch - processPackages [galah-python]: Remove: archive file [/home/abi/fetcher/tmp/galah_python-0.9.1-py3-none-any.whl.zip]
 [2024-05-20 04:35:48] INFO root fetch - main [MainThread]: End processing [galah-python]: success
 [2024-05-20 04:35:48] INFO root fetch - main [MainThread]: Store serial: [23283850]
+[2024-05-20 04:37:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283850]
+[2024-05-20 04:37:57] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 04:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: galah-python
+[2024-05-20 04:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langflow
+[2024-05-20 04:37:57] INFO root fetch - processPackages [galah-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 04:37:57] INFO root fetch - processPackages [galah-python]: Downloading https://files.pythonhosted.org/packages/33/3e/2e3cdde537adb24797962422943b5a6aa4f173ed1645845150c2c15d8b47/galah_python-0.9.0-py3-none-any.whl
+[2024-05-20 04:37:57] INFO root fetch - processPackages [langflow]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-05-20 04:37:57] INFO root fetch - processPackages [galah-python]: Downloading https://files.pythonhosted.org/packages/4d/af/56c2727ce19cc6d6b931d0174532c5030ffe09f5639fecfa9b3c2ba6ada2/galah_python-0.9.1-py3-none-any.whl
+[2024-05-20 04:37:57] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/f1/f1/24fc8fab9078fe9a44249227b1e8c735ca2edcb3d35df1eb8fe21940eda2/langflow-1.0.0a8.tar.gz
+[2024-05-20 04:37:57] INFO root fetch - processPackages [galah-python]: executing diffoscope
+[2024-05-20 04:37:57] INFO root fetch - processPackages [galah-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galah_python-0.9.0-py3-none-any.whl.zip tmp/galah_python-0.9.1-py3-none-any.whl.zip --markdown 20240520/g/galah-python/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 04:37:57] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b0/40/f603fd33ef5b1456a6be83efd05ca28a5af58e3ed1070e760b30edb9080e/langflow-1.0.0a9.tar.gz
+[2024-05-20 04:37:57] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2024-05-20 04:37:57] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-1.0.0a8.tar.gz tmp/langflow-1.0.0a9.tar.gz --markdown 20240520/l/langflow/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-05-20 04:37:58] INFO root fetch - processPackages [galah-python]: Remove: archive file [/home/abi/fetcher/tmp/galah_python-0.9.0-py3-none-any.whl.zip]
+[2024-05-20 04:37:58] INFO root fetch - processPackages [galah-python]: Remove: archive file [/home/abi/fetcher/tmp/galah_python-0.9.1-py3-none-any.whl.zip]
+[2024-05-20 04:37:58] INFO root fetch - main [MainThread]: End processing [galah-python]: success
+[2024-05-20 04:37:58] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a8.tar.gz]
+[2024-05-20 04:37:58] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a9.tar.gz]
+[2024-05-20 04:37:58] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2024-05-20 04:37:58] INFO root fetch - main [MainThread]: Store serial: [23283855]

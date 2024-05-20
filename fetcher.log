@@ -10075,3 +10075,47 @@
 [2024-05-20 09:57:31] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-2.0.9.tar.gz]
 [2024-05-20 09:57:31] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
 [2024-05-20 09:57:31] INFO root fetch - main [MainThread]: Store serial: [23286562]
+[2024-05-20 09:59:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286562]
+[2024-05-20 09:59:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 09:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dash-pydantic-form
+[2024-05-20 09:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catalystwan
+[2024-05-20 09:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2024-05-20 09:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: habits.txt
+[2024-05-20 09:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstractcp
+[2024-05-20 09:59:40] INFO root fetch - processPackages [dash-pydantic-form]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-20 09:59:41] INFO root fetch - processPackages [dash-pydantic-form]: Downloading https://files.pythonhosted.org/packages/c2/d1/ba48fa1340fc7437f95af4f38883ef6dd62a8aa6659227d14caf169046a5/dash_pydantic_form-0.1.4.tar.gz
+[2024-05-20 09:59:41] INFO root fetch - processPackages [habits.txt]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-20 09:59:41] INFO root fetch - processPackages [catalystwan]: New version: [0.33.6.dev0] Old Version: [0.33.6]
+[2024-05-20 09:59:41] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240520.7.59.257934] Old Version: [20240517.19.31.733848]
+[2024-05-20 09:59:41] INFO root fetch - processPackages [abstractcp]: New version: [1.0.0] Old Version: [0.9.9]
+[2024-05-20 09:59:41] INFO root fetch - processPackages [habits.txt]: Downloading https://files.pythonhosted.org/packages/49/dd/48c0efcdeb784bbdfcc8ba46f9ac7cbeaafe86bfcaae3ae62de46c692844/habits_txt-0.3.6.tar.gz
+[2024-05-20 09:59:41] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/13/90/cc132c31d550875a9ce509989071f146152ff3128ba33147a7d21bf3327f/certora-cli-alpha-master-20240517.19.31.733848.tar.gz
+[2024-05-20 09:59:41] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/61/17/5ebb5e0d4e05c4cfc67dbdce18f45ab487ae89673ef19179975491cd284a/catalystwan-0.33.6.tar.gz
+[2024-05-20 09:59:41] INFO root fetch - processPackages [dash-pydantic-form]: Downloading https://files.pythonhosted.org/packages/2b/89/b6c7bcdd0ce754034defe163fb4150abd5507e771bae5f08eaca82c029ad/dash_pydantic_form-0.1.5.tar.gz
+[2024-05-20 09:59:41] INFO root fetch - processPackages [abstractcp]: Downloading https://files.pythonhosted.org/packages/a2/51/2db49e716248b26cb67bd94fbd414df6eb257a697230a1eb6be234d61c57/abstractcp-0.9.9.tar.gz
+[2024-05-20 09:59:41] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14525824>=10485760
+[2024-05-20 09:59:41] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-20 09:59:41] INFO root fetch - processPackages [dash-pydantic-form]: executing diffoscope
+[2024-05-20 09:59:41] INFO root fetch - processPackages [dash-pydantic-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_pydantic_form-0.1.4.tar.gz tmp/dash_pydantic_form-0.1.5.tar.gz --markdown 20240520/d/dash-pydantic-form/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-20 09:59:41] INFO root fetch - processPackages [habits.txt]: Downloading https://files.pythonhosted.org/packages/35/49/4389ef121182beff4c783a149e88e12f9b22e07c47fc8598e484da5ccb81/habits_txt-0.3.7.tar.gz
+[2024-05-20 09:59:41] INFO root fetch - processPackages [catalystwan]: Downloading https://files.pythonhosted.org/packages/66/6f/e015046634c1a9d97888edcccd3dcdcf3bd48bc33b1d50c1329b87eab580/catalystwan-0.33.6.dev0.tar.gz
+[2024-05-20 09:59:41] INFO root fetch - processPackages [abstractcp]: Downloading https://files.pythonhosted.org/packages/8d/1e/e6d512cb6550a364747fefa3acc9285a31463eb0158d3b78a5cff71549da/abstractcp-1.0.0.tar.gz
+[2024-05-20 09:59:41] INFO root fetch - processPackages [habits.txt]: executing diffoscope
+[2024-05-20 09:59:41] INFO root fetch - processPackages [habits.txt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habits_txt-0.3.6.tar.gz tmp/habits_txt-0.3.7.tar.gz --markdown 20240520/h/habits.txt/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-20 09:59:41] INFO root fetch - processPackages [catalystwan]: executing diffoscope
+[2024-05-20 09:59:41] INFO root fetch - processPackages [catalystwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catalystwan-0.33.6.tar.gz tmp/catalystwan-0.33.6.dev0.tar.gz --markdown 20240520/c/catalystwan/0.33.6-0.33.6.dev0/README.md --exclude *.pyd
+[2024-05-20 09:59:41] INFO root fetch - processPackages [abstractcp]: executing diffoscope
+[2024-05-20 09:59:41] INFO root fetch - processPackages [abstractcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstractcp-0.9.9.tar.gz tmp/abstractcp-1.0.0.tar.gz --markdown 20240520/a/abstractcp/0.9.9-1.0.0/README.md --exclude *.pyd
+[2024-05-20 09:59:42] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.4.tar.gz]
+[2024-05-20 09:59:42] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.5.tar.gz]
+[2024-05-20 09:59:42] INFO root fetch - main [MainThread]: End processing [dash-pydantic-form]: success
+[2024-05-20 09:59:42] INFO root fetch - processPackages [habits.txt]: Remove: archive file [/home/abi/fetcher/tmp/habits_txt-0.3.6.tar.gz]
+[2024-05-20 09:59:42] INFO root fetch - processPackages [habits.txt]: Remove: archive file [/home/abi/fetcher/tmp/habits_txt-0.3.7.tar.gz]
+[2024-05-20 09:59:42] INFO root fetch - main [MainThread]: End processing [habits.txt]: success
+[2024-05-20 09:59:42] INFO root fetch - processPackages [abstractcp]: Remove: archive file [/home/abi/fetcher/tmp/abstractcp-0.9.9.tar.gz]
+[2024-05-20 09:59:42] INFO root fetch - processPackages [abstractcp]: Remove: archive file [/home/abi/fetcher/tmp/abstractcp-1.0.0.tar.gz]
+[2024-05-20 09:59:42] INFO root fetch - main [MainThread]: End processing [abstractcp]: success
+[2024-05-20 09:59:44] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.6.tar.gz]
+[2024-05-20 09:59:44] INFO root fetch - processPackages [catalystwan]: Remove: archive file [/home/abi/fetcher/tmp/catalystwan-0.33.6.dev0.tar.gz]
+[2024-05-20 09:59:44] INFO root fetch - main [MainThread]: End processing [catalystwan]: success
+[2024-05-20 09:59:44] INFO root fetch - main [MainThread]: Store serial: [23286578]

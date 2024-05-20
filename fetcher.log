@@ -4235,3 +4235,24 @@
 [2024-05-20 03:30:03] INFO root fetch - processPackages [pytest-cleanslate]: Remove: archive file [/home/abi/fetcher/tmp/pytest_cleanslate-1.0.2.tar.gz]
 [2024-05-20 03:30:03] INFO root fetch - main [MainThread]: End processing [pytest-cleanslate]: success
 [2024-05-20 03:30:03] INFO root fetch - main [MainThread]: Store serial: [23283372]
+[2024-05-20 03:32:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283372]
+[2024-05-20 03:32:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 03:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-20 03:32:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: subsetter
+[2024-05-20 03:32:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.23a1716165280] Old Version: [0.0.23]
+[2024-05-20 03:32:12] INFO root fetch - processPackages [subsetter]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-20 03:32:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/af/9d/2a30fdbc9d3a69254172419bdf70a17845124d0ef63de5bdada1740345fc/pulumi_kubernetes_the_hard_way-0.0.23.tar.gz
+[2024-05-20 03:32:12] INFO root fetch - processPackages [subsetter]: Downloading https://files.pythonhosted.org/packages/b2/71/0ff2d08f2591e511399985833f598f4ad1f22732ee177d63121183109478/subsetter-0.3.0.tar.gz
+[2024-05-20 03:32:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/15/52/81d6b372a771ad01b635e5638a9e4acc76e0905037ad3ba0308feab67e13/pulumi_kubernetes_the_hard_way-0.0.23a1716165280.tar.gz
+[2024-05-20 03:32:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-20 03:32:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.23.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.23a1716165280.tar.gz --markdown 20240520/p/pulumi-kubernetes-the-hard-way/0.0.23-0.0.23a1716165280/README.md --exclude *.pyd
+[2024-05-20 03:32:12] INFO root fetch - processPackages [subsetter]: Downloading https://files.pythonhosted.org/packages/78/08/c97316b1140361394c042079f168ab5da2ee6ced5d4905f10f456708e4ee/subsetter-0.3.1.tar.gz
+[2024-05-20 03:32:12] INFO root fetch - processPackages [subsetter]: executing diffoscope
+[2024-05-20 03:32:12] INFO root fetch - processPackages [subsetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subsetter-0.3.0.tar.gz tmp/subsetter-0.3.1.tar.gz --markdown 20240520/s/subsetter/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-20 03:32:13] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.23.tar.gz]
+[2024-05-20 03:32:13] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.23a1716165280.tar.gz]
+[2024-05-20 03:32:13] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-20 03:32:13] INFO root fetch - processPackages [subsetter]: Remove: archive file [/home/abi/fetcher/tmp/subsetter-0.3.0.tar.gz]
+[2024-05-20 03:32:13] INFO root fetch - processPackages [subsetter]: Remove: archive file [/home/abi/fetcher/tmp/subsetter-0.3.1.tar.gz]
+[2024-05-20 03:32:13] INFO root fetch - main [MainThread]: End processing [subsetter]: success
+[2024-05-20 03:32:13] INFO root fetch - main [MainThread]: Store serial: [23283378]

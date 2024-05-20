@@ -19055,3 +19055,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:45:39] INFO root fetch - processPackages [box-sdk-gen]: Remove: archive file [/home/abi/fetcher/tmp/box_sdk_gen-1.0.0.tar.gz]
 [2024-05-20 15:45:39] INFO root fetch - main [MainThread]: End processing [box-sdk-gen]: success
 [2024-05-20 15:45:39] INFO root fetch - main [MainThread]: Store serial: [23290487]
+[2024-05-20 15:47:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290487]
+[2024-05-20 15:47:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 15:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-jtl-collector
+[2024-05-20 15:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: euc2mqtt
+[2024-05-20 15:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poetry-import-plugin
+[2024-05-20 15:47:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2024-05-20 15:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AbeewayConfig
+[2024-05-20 15:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bent
+[2024-05-20 15:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wdbo-criterion
+[2024-05-20 15:47:50] INFO root fetch - processPackages [AbeewayConfig]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-20 15:47:50] INFO root fetch - processPackages [cg]: New version: [60.7.9] Old Version: [60.7.8]
+[2024-05-20 15:47:50] INFO root fetch - processPackages [euc2mqtt]: New version: [1.0.0] Old Version: [0.0.3]
+[2024-05-20 15:47:50] INFO root fetch - processPackages [AbeewayConfig]: Downloading https://files.pythonhosted.org/packages/12/24/5582e997c5a417d8135a03ca56f3d89b1c9813cfd67d85d2123a3ed2f920/abeewayconfig-0.2.1.tar.gz
+[2024-05-20 15:47:50] WARNING root fetch - processPackages [pytest-jtl-collector]: Skipping, unable to determine old version
+[2024-05-20 15:47:50] INFO root fetch - main [MainThread]: End processing [pytest-jtl-collector] error
+[2024-05-20 15:47:50] INFO root fetch - processPackages [poetry-import-plugin]: New version: [2.1.0] Old Version: [1.2.0]
+[2024-05-20 15:47:50] INFO root fetch - processPackages [bent]: New version: [0.0.9] Old Version: [0.0.63]
+[2024-05-20 15:47:50] WARNING root fetch - processPackages [wdbo-criterion]: Skipping, unable to determine old version
+[2024-05-20 15:47:50] INFO root fetch - main [MainThread]: End processing [wdbo-criterion] error
+[2024-05-20 15:47:50] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/44/4c/2c6765cf909b3cf89d94a9f9f15ebc4762df0f315a7e114363bf0635bf61/cg-60.7.8.tar.gz
+[2024-05-20 15:47:50] INFO root fetch - processPackages [euc2mqtt]: Downloading https://files.pythonhosted.org/packages/de/d5/1239484ebbbc8f78326edfa9e383b35c994617217979af660fca2e636d3d/euc2mqtt-0.0.3.tar.gz
+[2024-05-20 15:47:50] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/c2/d1/a731ac900a11515eaa10b491bfdfa8d5e80c1bda2877fec27f763685608a/bent-0.0.63.tar.gz
+[2024-05-20 15:47:50] INFO root fetch - processPackages [AbeewayConfig]: Downloading https://files.pythonhosted.org/packages/ef/f5/fefbf6a6e7aa9e03ebb9deb11090807095a186037bba3fc4670dee00100f/abeewayconfig-0.2.2.tar.gz
+[2024-05-20 15:47:50] INFO root fetch - processPackages [poetry-import-plugin]: Downloading https://files.pythonhosted.org/packages/1b/91/a34bcd08af1e6b7bf85eca4439af91a663d9644ee6a7e1ff429b6062c38d/poetry_import_plugin-1.2.0.tar.gz
+[2024-05-20 15:47:50] INFO root fetch - processPackages [AbeewayConfig]: executing diffoscope
+[2024-05-20 15:47:50] INFO root fetch - processPackages [AbeewayConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abeewayconfig-0.2.1.tar.gz tmp/abeewayconfig-0.2.2.tar.gz --markdown 20240520/A/AbeewayConfig/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-20 15:47:50] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/38/e3ff082487603f9b23877cfe7185b58a21cb7763a1d8c0ea38640ffb90ea/cg-60.7.9-py3-none-any.whl
+[2024-05-20 15:47:50] INFO root fetch - processPackages [euc2mqtt]: Downloading https://files.pythonhosted.org/packages/33/88/d10b1e2e2f4d56de248adacd4fa40716953d848bcac8abc8b90c62724612/euc2mqtt-1.0.0.tar.gz
+[2024-05-20 15:47:50] INFO root fetch - processPackages [poetry-import-plugin]: Downloading https://files.pythonhosted.org/packages/55/db/417a0757ae16719d9e42ade46631168eb612a5792508c233e63c8050909e/poetry_import_plugin-2.1.0.tar.gz
+[2024-05-20 15:47:50] INFO root fetch - processPackages [poetry-import-plugin]: executing diffoscope
+[2024-05-20 15:47:50] INFO root fetch - processPackages [poetry-import-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_import_plugin-1.2.0.tar.gz tmp/poetry_import_plugin-2.1.0.tar.gz --markdown 20240520/p/poetry-import-plugin/1.2.0-2.1.0/README.md --exclude *.pyd
+[2024-05-20 15:47:50] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/90/0b/e90bc1c1cde3dc26fe2b1f4a0648bdbf77fa5cd447091e4accd93b6ce8bb/bent-0.0.9.tar.gz
+[2024-05-20 15:47:51] INFO root fetch - processPackages [euc2mqtt]: executing diffoscope
+[2024-05-20 15:47:51] INFO root fetch - processPackages [euc2mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/euc2mqtt-0.0.3.tar.gz tmp/euc2mqtt-1.0.0.tar.gz --markdown 20240520/e/euc2mqtt/0.0.3-1.0.0/README.md --exclude *.pyd
+[2024-05-20 15:47:51] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-20 15:47:51] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.8.tar.gz tmp/cg-60.7.9-py3-none-any.whl.zip --markdown 20240520/c/cg/60.7.8-60.7.9/README.md --exclude *.pyd
+[2024-05-20 15:47:51] INFO root fetch - processPackages [bent]: executing diffoscope
+[2024-05-20 15:47:51] INFO root fetch - processPackages [bent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bent-0.0.63.tar.gz tmp/bent-0.0.9.tar.gz --markdown 20240520/b/bent/0.0.63-0.0.9/README.md --exclude *.pyd
+[2024-05-20 15:47:51] INFO root fetch - processPackages [AbeewayConfig]: Remove: archive file [/home/abi/fetcher/tmp/abeewayconfig-0.2.1.tar.gz]
+[2024-05-20 15:47:51] INFO root fetch - processPackages [AbeewayConfig]: Remove: archive file [/home/abi/fetcher/tmp/abeewayconfig-0.2.2.tar.gz]
+[2024-05-20 15:47:51] INFO root fetch - main [MainThread]: End processing [AbeewayConfig]: success
+[2024-05-20 15:47:51] INFO root fetch - processPackages [poetry-import-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_import_plugin-1.2.0.tar.gz]
+[2024-05-20 15:47:51] INFO root fetch - processPackages [poetry-import-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_import_plugin-2.1.0.tar.gz]
+[2024-05-20 15:47:51] INFO root fetch - main [MainThread]: End processing [poetry-import-plugin]: success
+[2024-05-20 15:47:51] INFO root fetch - processPackages [euc2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/euc2mqtt-0.0.3.tar.gz]
+[2024-05-20 15:47:51] INFO root fetch - processPackages [euc2mqtt]: Remove: archive file [/home/abi/fetcher/tmp/euc2mqtt-1.0.0.tar.gz]
+[2024-05-20 15:47:51] INFO root fetch - main [MainThread]: End processing [euc2mqtt]: success
+[2024-05-20 15:47:52] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.63.tar.gz]
+[2024-05-20 15:47:52] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.9.tar.gz]
+[2024-05-20 15:47:52] INFO root fetch - main [MainThread]: End processing [bent]: success
+[2024-05-20 15:47:52] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.8.tar.gz]
+[2024-05-20 15:47:52] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
+[2024-05-20 15:47:52] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-20 15:47:52] INFO root fetch - main [MainThread]: Store serial: [23290515]

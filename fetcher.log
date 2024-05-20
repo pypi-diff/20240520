@@ -12160,3 +12160,54 @@
 [2024-05-20 11:18:53] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/handyllm-0.7.2.tar.gz]
 [2024-05-20 11:18:53] INFO root fetch - main [MainThread]: End processing [HandyLLM]: success
 [2024-05-20 11:18:53] INFO root fetch - main [MainThread]: Store serial: [23287439]
+[2024-05-20 11:20:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287439]
+[2024-05-20 11:21:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imsciences
+[2024-05-20 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cfpack
+[2024-05-20 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydivkit
+[2024-05-20 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qwak-core
+[2024-05-20 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-paas
+[2024-05-20 11:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: urlgenie
+[2024-05-20 11:21:02] INFO root fetch - processPackages [imsciences]: New version: [0.5.7.3] Old Version: [0.5.7.2]
+[2024-05-20 11:21:02] INFO root fetch - processPackages [urlgenie]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-20 11:21:02] INFO root fetch - processPackages [qwak-core]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-20 11:21:02] INFO root fetch - processPackages [cfpack]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-20 11:21:02] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/fc/0d/118ded909f0e7699d14f255939b9e75a4bfa1a5cb397b85e74f5605b3d46/imsciences-0.5.7.2.tar.gz
+[2024-05-20 11:21:02] INFO root fetch - processPackages [urlgenie]: Downloading https://files.pythonhosted.org/packages/2b/e8/1525a71f51bded4b9ef7a7cfe8faab2fd1bf1e3579301d826ae81efddb23/urlgenie-1.1.0.tar.gz
+[2024-05-20 11:21:02] WARNING root fetch - processPackages [netbox-paas]: Skipping, unable to determine old version
+[2024-05-20 11:21:02] INFO root fetch - main [MainThread]: End processing [netbox-paas] error
+[2024-05-20 11:21:02] INFO root fetch - processPackages [pydivkit]: New version: [30.1.0] Old Version: [30.0.0]
+[2024-05-20 11:21:02] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/40/dc/9bf7a0a11e5d16704620fd9a2d038eee79e38d502983f2c9975412d1053c/qwak_core-0.4.8.tar.gz
+[2024-05-20 11:21:02] INFO root fetch - processPackages [cfpack]: Downloading https://files.pythonhosted.org/packages/ff/b4/76e44ffbc7045afc3b07dc72c78d3a734db7da87511ce4d629d1c33bb5a0/cfpack-0.1.7.tar.gz
+[2024-05-20 11:21:02] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/e4/1f/b237be3262d2d91901613ce502e7bb4aecaf2526e0f4aafa453be83e98f1/pydivkit-30.0.0.tar.gz
+[2024-05-20 11:21:02] INFO root fetch - processPackages [urlgenie]: Downloading https://files.pythonhosted.org/packages/f0/b7/f77aac3ae5290626d9cbf4840bb1c4e88f437681d9f0a3d711e1135e3327/urlgenie-1.1.1.tar.gz
+[2024-05-20 11:21:02] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/94/94/2f77dca7a4b1f117c309d2ee26e5eabebcd2bf076223deb846b5cf151f84/imsciences-0.5.7.3.tar.gz
+[2024-05-20 11:21:02] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/fe/09/8867573c92d18e200499a583b45f6adb1552d9e721e39370c8aa578b7080/qwak_core-0.4.9.tar.gz
+[2024-05-20 11:21:02] INFO root fetch - processPackages [urlgenie]: executing diffoscope
+[2024-05-20 11:21:02] INFO root fetch - processPackages [urlgenie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urlgenie-1.1.0.tar.gz tmp/urlgenie-1.1.1.tar.gz --markdown 20240520/u/urlgenie/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-20 11:21:02] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-20 11:21:02] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.7.2.tar.gz tmp/imsciences-0.5.7.3.tar.gz --markdown 20240520/i/imsciences/0.5.7.2-0.5.7.3/README.md --exclude *.pyd
+[2024-05-20 11:21:02] INFO root fetch - processPackages [cfpack]: Downloading https://files.pythonhosted.org/packages/b7/61/9d956ec5d9bc7107937f5d077372bf620810eabf7b1e68d02126cb3e94c4/cfpack-0.1.8.tar.gz
+[2024-05-20 11:21:02] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-05-20 11:21:02] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.4.8.tar.gz tmp/qwak_core-0.4.9.tar.gz --markdown 20240520/q/qwak-core/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-20 11:21:02] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/0e/25/bd866593282a41af333a6c57cc31300156ea9ffd502284420ccc1dc6bc6b/pydivkit-30.1.0.tar.gz
+[2024-05-20 11:21:02] INFO root fetch - processPackages [cfpack]: executing diffoscope
+[2024-05-20 11:21:02] INFO root fetch - processPackages [cfpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfpack-0.1.7.tar.gz tmp/cfpack-0.1.8.tar.gz --markdown 20240520/c/cfpack/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-20 11:21:03] INFO root fetch - processPackages [pydivkit]: executing diffoscope
+[2024-05-20 11:21:03] INFO root fetch - processPackages [pydivkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydivkit-30.0.0.tar.gz tmp/pydivkit-30.1.0.tar.gz --markdown 20240520/p/pydivkit/30.0.0-30.1.0/README.md --exclude *.pyd
+[2024-05-20 11:21:03] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.2.tar.gz]
+[2024-05-20 11:21:03] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.3.tar.gz]
+[2024-05-20 11:21:03] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-20 11:21:03] INFO root fetch - processPackages [urlgenie]: Remove: archive file [/home/abi/fetcher/tmp/urlgenie-1.1.0.tar.gz]
+[2024-05-20 11:21:03] INFO root fetch - processPackages [urlgenie]: Remove: archive file [/home/abi/fetcher/tmp/urlgenie-1.1.1.tar.gz]
+[2024-05-20 11:21:03] INFO root fetch - main [MainThread]: End processing [urlgenie]: success
+[2024-05-20 11:21:03] INFO root fetch - processPackages [cfpack]: Remove: archive file [/home/abi/fetcher/tmp/cfpack-0.1.7.tar.gz]
+[2024-05-20 11:21:03] INFO root fetch - processPackages [cfpack]: Remove: archive file [/home/abi/fetcher/tmp/cfpack-0.1.8.tar.gz]
+[2024-05-20 11:21:03] INFO root fetch - main [MainThread]: End processing [cfpack]: success
+[2024-05-20 11:21:03] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-30.0.0.tar.gz]
+[2024-05-20 11:21:03] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-30.1.0.tar.gz]
+[2024-05-20 11:21:03] INFO root fetch - main [MainThread]: End processing [pydivkit]: success
+[2024-05-20 11:21:05] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.8.tar.gz]
+[2024-05-20 11:21:05] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.4.9.tar.gz]
+[2024-05-20 11:21:05] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-05-20 11:21:05] INFO root fetch - main [MainThread]: Store serial: [23287458]

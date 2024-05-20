@@ -5817,3 +5817,54 @@
 [2024-05-20 05:32:56] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-05-20 05:32:56] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-05-20 05:32:56] INFO root fetch - main [MainThread]: Store serial: [23284154]
+[2024-05-20 05:35:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284154]
+[2024-05-20 05:35:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 05:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fnschool
+[2024-05-20 05:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dmk-packages
+[2024-05-20 05:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quool
+[2024-05-20 05:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctrip-app-ui
+[2024-05-20 05:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opmentis
+[2024-05-20 05:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mgolddepthlib
+[2024-05-20 05:35:05] WARNING root fetch - processPackages [mgolddepthlib]: Skipping, unable to determine old version
+[2024-05-20 05:35:05] INFO root fetch - main [MainThread]: End processing [mgolddepthlib] error
+[2024-05-20 05:35:05] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-05-20 05:35:05] INFO root fetch - processPackages [fnschool]: New version: [20240520.80901.843] Old Version: [20240519.81611.835]
+[2024-05-20 05:35:05] INFO root fetch - processPackages [dmk-packages]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-20 05:35:05] INFO root fetch - processPackages [opmentis]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 05:35:05] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/d8/4c/2ff325aa575e255da7e1f50a2fb66ccdf96a84eef674e856f2f6e51ce30d/ctrip-app-ui-0.6.4.tar.gz
+[2024-05-20 05:35:05] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/ad/ff/fdfa5d66a769f2c256cf1a03fc2de6fc31f64ecbd777786bb09be9e4b602/fnschool-20240519.81611.835.tar.gz
+[2024-05-20 05:35:05] INFO root fetch - processPackages [quool]: New version: [5.1.0] Old Version: [5.0.8]
+[2024-05-20 05:35:06] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/5b/7c/04294135169ddef304f1bd273ba901e5923691a766f41a717fa3b8204edb/dmk_packages-0.7.4.tar.gz
+[2024-05-20 05:35:06] INFO root fetch - processPackages [opmentis]: Downloading https://files.pythonhosted.org/packages/e1/25/2f4964b0f3c56c4a596334804b6cb008c7df9407c68e40e4a9971dd68ea5/opmentis-0.1.0.tar.gz
+[2024-05-20 05:35:06] INFO root fetch - processPackages [quool]: Downloading https://files.pythonhosted.org/packages/56/4c/d5045a8e470b004b2e737c9d69f34c418a8f26a7ebc5f3bee4ecc808bbee/quool-5.0.8.tar.gz
+[2024-05-20 05:35:06] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/66/24/5baf3e9149b642171310d403b5a683b8847c7dc6a8a555c0d9cba16f97a5/fnschool-20240520.80901.843.tar.gz
+[2024-05-20 05:35:06] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/b2/af/25740f9cc2a6293ec965a05dfa41b3b6d63d3e2e2da43f894f681d4e2708/ctrip-app-ui-0.6.5.tar.gz
+[2024-05-20 05:35:06] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-05-20 05:35:06] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.6.4.tar.gz tmp/ctrip-app-ui-0.6.5.tar.gz --markdown 20240520/c/ctrip-app-ui/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-05-20 05:35:06] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-05-20 05:35:06] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240519.81611.835.tar.gz tmp/fnschool-20240520.80901.843.tar.gz --markdown 20240520/f/fnschool/20240519.81611.835-20240520.80901.843/README.md --exclude *.pyd
+[2024-05-20 05:35:06] INFO root fetch - processPackages [opmentis]: Downloading https://files.pythonhosted.org/packages/31/8c/9ecae38f99583ae36dd00175958013b1683761769edbf76e3df2c039fb64/opmentis-0.1.1.tar.gz
+[2024-05-20 05:35:06] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/4f/0e/79c7dc9d15a8cd303074aa29b008bf4b15999f4f21f8bf4bcaea103de56d/dmk_packages-0.7.5.tar.gz
+[2024-05-20 05:35:06] INFO root fetch - processPackages [quool]: Downloading https://files.pythonhosted.org/packages/a0/c0/d9c99eb9e36835208fd022e112d38b9dfc0a11b45fea6fdf48ef63b89ebd/quool-5.1.0.tar.gz
+[2024-05-20 05:35:06] INFO root fetch - processPackages [opmentis]: executing diffoscope
+[2024-05-20 05:35:06] INFO root fetch - processPackages [opmentis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opmentis-0.1.0.tar.gz tmp/opmentis-0.1.1.tar.gz --markdown 20240520/o/opmentis/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 05:35:06] INFO root fetch - processPackages [dmk-packages]: executing diffoscope
+[2024-05-20 05:35:06] INFO root fetch - processPackages [dmk-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmk_packages-0.7.4.tar.gz tmp/dmk_packages-0.7.5.tar.gz --markdown 20240520/d/dmk-packages/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-20 05:35:06] INFO root fetch - processPackages [quool]: executing diffoscope
+[2024-05-20 05:35:06] INFO root fetch - processPackages [quool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quool-5.0.8.tar.gz tmp/quool-5.1.0.tar.gz --markdown 20240520/q/quool/5.0.8-5.1.0/README.md --exclude *.pyd
+[2024-05-20 05:35:07] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.6.4.tar.gz]
+[2024-05-20 05:35:07] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.6.5.tar.gz]
+[2024-05-20 05:35:07] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-05-20 05:35:07] INFO root fetch - processPackages [opmentis]: Remove: archive file [/home/abi/fetcher/tmp/opmentis-0.1.0.tar.gz]
+[2024-05-20 05:35:07] INFO root fetch - processPackages [opmentis]: Remove: archive file [/home/abi/fetcher/tmp/opmentis-0.1.1.tar.gz]
+[2024-05-20 05:35:07] INFO root fetch - main [MainThread]: End processing [opmentis]: success
+[2024-05-20 05:35:07] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240519.81611.835.tar.gz]
+[2024-05-20 05:35:07] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240520.80901.843.tar.gz]
+[2024-05-20 05:35:07] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-05-20 05:35:07] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.7.4.tar.gz]
+[2024-05-20 05:35:07] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.7.5.tar.gz]
+[2024-05-20 05:35:07] INFO root fetch - main [MainThread]: End processing [dmk-packages]: success
+[2024-05-20 05:35:07] INFO root fetch - processPackages [quool]: Remove: archive file [/home/abi/fetcher/tmp/quool-5.0.8.tar.gz]
+[2024-05-20 05:35:07] INFO root fetch - processPackages [quool]: Remove: archive file [/home/abi/fetcher/tmp/quool-5.1.0.tar.gz]
+[2024-05-20 05:35:07] INFO root fetch - main [MainThread]: End processing [quool]: success
+[2024-05-20 05:35:07] INFO root fetch - main [MainThread]: Store serial: [23284168]

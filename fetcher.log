@@ -23871,3 +23871,45 @@ EOFError: EOF read where object expected
 [2024-05-20 18:38:46] INFO root fetch - processPackages [PyFunceble-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyFunceble-dev-4.2.9.tar.gz]
 [2024-05-20 18:38:46] INFO root fetch - main [MainThread]: End processing [PyFunceble-dev]: success
 [2024-05-20 18:38:46] INFO root fetch - main [MainThread]: Store serial: [23292591]
+[2024-05-20 18:40:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292591]
+[2024-05-20 18:40:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 18:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tui-dsg
+[2024-05-20 18:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinx-autoapi
+[2024-05-20 18:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shortcutz
+[2024-05-20 18:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eea.volto.policy
+[2024-05-20 18:40:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: firecrawl-py
+[2024-05-20 18:40:55] INFO root fetch - processPackages [tui-dsg]: New version: [202405201434] Old Version: [202405200843]
+[2024-05-20 18:40:55] WARNING root fetch - processPackages [shortcutz]: Skipping, unable to determine old version
+[2024-05-20 18:40:55] INFO root fetch - main [MainThread]: End processing [shortcutz] error
+[2024-05-20 18:40:55] INFO root fetch - processPackages [tui-dsg]: Downloading https://files.pythonhosted.org/packages/91/ca/355ef24c7c34d3651a85464091172597373d3a01ed69610f835a38b2e50e/tui_dsg-202405200843.tar.gz
+[2024-05-20 18:40:55] INFO root fetch - processPackages [firecrawl-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 18:40:55] INFO root fetch - processPackages [eea.volto.policy]: New version: [4.0] Old Version: [3.5]
+[2024-05-20 18:40:55] INFO root fetch - processPackages [sphinx-autoapi]: New version: [3.1.0b0] Old Version: [3.1.0a3]
+[2024-05-20 18:40:55] INFO root fetch - processPackages [firecrawl-py]: Downloading https://files.pythonhosted.org/packages/dd/4a/1b2a1f27bd6897bcf92e8afd6be799dfd218e3f13ef4f1d6c4a849631eb5/firecrawl-py-0.0.8.tar.gz
+[2024-05-20 18:40:55] INFO root fetch - processPackages [eea.volto.policy]: Downloading https://files.pythonhosted.org/packages/d4/6e/1066566e9c92be4e50ca2329dfb7d3bfff82b0c8a096a1a54e7bac706c9c/eea.volto.policy-3.5.zip
+[2024-05-20 18:40:55] INFO root fetch - processPackages [sphinx-autoapi]: Downloading https://files.pythonhosted.org/packages/bf/6c/b5bedcd69f6444e45e57d09a8c28110d59a4edef389314d2299f1dbff532/sphinx-autoapi-3.1.0a3.tar.gz
+[2024-05-20 18:40:55] INFO root fetch - processPackages [tui-dsg]: Downloading https://files.pythonhosted.org/packages/34/9f/3f78c45ce20b1cd3b92ef0c5cc5e38469b2b00131a98c695db5b9f12bbc4/tui_dsg-202405201434.tar.gz
+[2024-05-20 18:40:55] INFO root fetch - processPackages [tui-dsg]: executing diffoscope
+[2024-05-20 18:40:55] INFO root fetch - processPackages [tui-dsg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsg-202405200843.tar.gz tmp/tui_dsg-202405201434.tar.gz --markdown 20240520/t/tui-dsg/202405200843-202405201434/README.md --exclude *.pyd
+[2024-05-20 18:40:56] INFO root fetch - processPackages [eea.volto.policy]: Downloading https://files.pythonhosted.org/packages/ce/d3/24a07c2a8bfb68b11884cd6aee84c6022eb32713b06bd507ff2c0777e6c2/eea.volto.policy-4.0.zip
+[2024-05-20 18:40:56] INFO root fetch - processPackages [firecrawl-py]: Downloading https://files.pythonhosted.org/packages/5b/2d/bd36be3347bfa5266084742223768c89101550246ea4d87b7e0354dda17b/firecrawl-py-0.0.9.tar.gz
+[2024-05-20 18:40:56] INFO root fetch - processPackages [eea.volto.policy]: executing diffoscope
+[2024-05-20 18:40:56] INFO root fetch - processPackages [eea.volto.policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eea.volto.policy-3.5.zip tmp/eea.volto.policy-4.0.zip --markdown 20240520/e/eea.volto.policy/3.5-4.0/README.md --exclude *.pyd
+[2024-05-20 18:40:56] INFO root fetch - processPackages [sphinx-autoapi]: Downloading https://files.pythonhosted.org/packages/45/eb/7dfb90a761ce5f8fc406e25c3df2f20e95cef4bee537d96edf33b835a750/sphinx_autoapi-3.1b0.tar.gz
+[2024-05-20 18:40:56] INFO root fetch - processPackages [firecrawl-py]: executing diffoscope
+[2024-05-20 18:40:56] INFO root fetch - processPackages [firecrawl-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firecrawl-py-0.0.8.tar.gz tmp/firecrawl-py-0.0.9.tar.gz --markdown 20240520/f/firecrawl-py/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 18:40:56] INFO root fetch - processPackages [sphinx-autoapi]: executing diffoscope
+[2024-05-20 18:40:56] INFO root fetch - processPackages [sphinx-autoapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-autoapi-3.1.0a3.tar.gz tmp/sphinx_autoapi-3.1b0.tar.gz --markdown 20240520/s/sphinx-autoapi/3.1.0a3-3.1.0b0/README.md --exclude *.pyd
+[2024-05-20 18:40:56] INFO root fetch - processPackages [tui-dsg]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsg-202405200843.tar.gz]
+[2024-05-20 18:40:56] INFO root fetch - processPackages [tui-dsg]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsg-202405201434.tar.gz]
+[2024-05-20 18:40:56] INFO root fetch - main [MainThread]: End processing [tui-dsg]: success
+[2024-05-20 18:40:56] INFO root fetch - processPackages [firecrawl-py]: Remove: archive file [/home/abi/fetcher/tmp/firecrawl-py-0.0.8.tar.gz]
+[2024-05-20 18:40:56] INFO root fetch - processPackages [firecrawl-py]: Remove: archive file [/home/abi/fetcher/tmp/firecrawl-py-0.0.9.tar.gz]
+[2024-05-20 18:40:56] INFO root fetch - main [MainThread]: End processing [firecrawl-py]: success
+[2024-05-20 18:40:56] INFO root fetch - processPackages [eea.volto.policy]: Remove: archive file [/home/abi/fetcher/tmp/eea.volto.policy-3.5.zip]
+[2024-05-20 18:40:56] INFO root fetch - processPackages [eea.volto.policy]: Remove: archive file [/home/abi/fetcher/tmp/eea.volto.policy-4.0.zip]
+[2024-05-20 18:40:56] INFO root fetch - main [MainThread]: End processing [eea.volto.policy]: success
+[2024-05-20 18:40:57] INFO root fetch - processPackages [sphinx-autoapi]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-autoapi-3.1.0a3.tar.gz]
+[2024-05-20 18:40:57] INFO root fetch - processPackages [sphinx-autoapi]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_autoapi-3.1b0.tar.gz]
+[2024-05-20 18:40:57] INFO root fetch - main [MainThread]: End processing [sphinx-autoapi]: success
+[2024-05-20 18:40:57] INFO root fetch - main [MainThread]: Store serial: [23292607]

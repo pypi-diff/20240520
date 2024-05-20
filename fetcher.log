@@ -6039,3 +6039,15 @@
 [2024-05-20 05:48:03] INFO root fetch - main [MainThread]: End processing [ventures]: success
 [2024-05-20 05:48:03] INFO root fetch - main [MainThread]: End processing [ventures]: success
 [2024-05-20 05:48:03] INFO root fetch - main [MainThread]: Store serial: [23284271]
+[2024-05-20 05:50:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284271]
+[2024-05-20 05:50:12] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 05:50:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-taxi
+[2024-05-20 05:50:12] INFO root fetch - processPackages [llm-taxi]: New version: [0.3.1] Old Version: [0.2.1]
+[2024-05-20 05:50:12] INFO root fetch - processPackages [llm-taxi]: Downloading https://files.pythonhosted.org/packages/6d/5d/fd7b96b40fe66221f51d3bb537e53f8dd3bb0b6518e651ffa491046f4b7e/llm_taxi-0.2.1.tar.gz
+[2024-05-20 05:50:12] INFO root fetch - processPackages [llm-taxi]: Downloading https://files.pythonhosted.org/packages/27/f5/4a0fd815d58c03c683ba313ac485c746e82f7fa28b9f266d141f0d5c36da/llm_taxi-0.3.1.tar.gz
+[2024-05-20 05:50:13] INFO root fetch - processPackages [llm-taxi]: executing diffoscope
+[2024-05-20 05:50:13] INFO root fetch - processPackages [llm-taxi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_taxi-0.2.1.tar.gz tmp/llm_taxi-0.3.1.tar.gz --markdown 20240520/l/llm-taxi/0.2.1-0.3.1/README.md --exclude *.pyd
+[2024-05-20 05:50:13] INFO root fetch - processPackages [llm-taxi]: Remove: archive file [/home/abi/fetcher/tmp/llm_taxi-0.2.1.tar.gz]
+[2024-05-20 05:50:13] INFO root fetch - processPackages [llm-taxi]: Remove: archive file [/home/abi/fetcher/tmp/llm_taxi-0.3.1.tar.gz]
+[2024-05-20 05:50:13] INFO root fetch - main [MainThread]: End processing [llm-taxi]: success
+[2024-05-20 05:50:13] INFO root fetch - main [MainThread]: Store serial: [23284274]

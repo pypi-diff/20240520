@@ -13482,3 +13482,27 @@
 [2024-05-20 12:14:11] INFO root fetch - processPackages [ai4free]: Remove: archive file [/home/abi/fetcher/tmp/ai4free-0.7.tar.gz]
 [2024-05-20 12:14:11] INFO root fetch - main [MainThread]: End processing [ai4free]: success
 [2024-05-20 12:14:11] INFO root fetch - main [MainThread]: Store serial: [23287995]
+[2024-05-20 12:16:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287995]
+[2024-05-20 12:16:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 12:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hakuir
+[2024-05-20 12:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prophecy-libs
+[2024-05-20 12:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cariolesz
+[2024-05-20 12:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hakuir
+[2024-05-20 12:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: live-cells-py
+[2024-05-20 12:16:20] WARNING root fetch - processPackages [hakuir]: Skipping, unable to determine old version
+[2024-05-20 12:16:20] INFO root fetch - main [MainThread]: End processing [hakuir] error
+[2024-05-20 12:16:20] WARNING root fetch - processPackages [hakuir]: Skipping, unable to determine old version
+[2024-05-20 12:16:20] INFO root fetch - main [MainThread]: End processing [hakuir] error
+[2024-05-20 12:16:20] WARNING root fetch - processPackages [live-cells-py]: Skipping, unable to determine old version
+[2024-05-20 12:16:20] INFO root fetch - main [MainThread]: End processing [live-cells-py] error
+[2024-05-20 12:16:20] INFO root fetch - processPackages [prophecy-libs]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-20 12:16:20] WARNING root fetch - processPackages [cariolesz]: Skipping, unable to determine old version
+[2024-05-20 12:16:20] INFO root fetch - main [MainThread]: End processing [cariolesz] error
+[2024-05-20 12:16:20] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/55/0a/90561ca774443a2a8fc7836ec65bd203b9a55822454194896bfcda5affbb/prophecy-libs-1.8.8.tar.gz
+[2024-05-20 12:16:20] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/4d/26/13eca2b0b22483c0bcc9a426ef208809d6e938fda5d639cd2122eaf7bd06/prophecy-libs-1.8.9.tar.gz
+[2024-05-20 12:16:20] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2024-05-20 12:16:20] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.8.8.tar.gz tmp/prophecy-libs-1.8.9.tar.gz --markdown 20240520/p/prophecy-libs/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-20 12:16:21] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.8.tar.gz]
+[2024-05-20 12:16:21] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.9.tar.gz]
+[2024-05-20 12:16:21] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2024-05-20 12:16:21] INFO root fetch - main [MainThread]: Store serial: [23288009]

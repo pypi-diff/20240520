@@ -2161,3 +2161,27 @@
 [2024-05-20 02:08:29] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-05-20 02:08:29] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-05-20 02:08:29] INFO root fetch - main [MainThread]: Store serial: [23282497]
+[2024-05-20 02:10:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282497]
+[2024-05-20 02:10:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 02:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinyticker
+[2024-05-20 02:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: StatAssist
+[2024-05-20 02:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bvg-python
+[2024-05-20 02:10:37] INFO root fetch - processPackages [StatAssist]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-20 02:10:37] INFO root fetch - processPackages [StatAssist]: Downloading https://files.pythonhosted.org/packages/c7/0d/95048a4e2fdebe7370792d2647fd5c877fdaed92628e9f888b50e8ffe0a8/StatAssist-1.0.1.tar.gz
+[2024-05-20 02:10:37] WARNING root fetch - processPackages [bvg-python]: Skipping, unable to determine old version
+[2024-05-20 02:10:37] INFO root fetch - main [MainThread]: End processing [bvg-python] error
+[2024-05-20 02:10:37] INFO root fetch - processPackages [tinyticker]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-20 02:10:38] INFO root fetch - processPackages [StatAssist]: Downloading https://files.pythonhosted.org/packages/ab/98/03196334c76e506918df8cd7e3290f608feed6cca2e1f3a19ae438649b13/StatAssist-1.0.2.tar.gz
+[2024-05-20 02:10:38] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/02/37/679378d4117cd06849fabfa095a3deaf52fc1d975f5dd5114063c0ddfe8a/tinyticker-0.5.5.tar.gz
+[2024-05-20 02:10:38] INFO root fetch - processPackages [StatAssist]: executing diffoscope
+[2024-05-20 02:10:38] INFO root fetch - processPackages [StatAssist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StatAssist-1.0.1.tar.gz tmp/StatAssist-1.0.2.tar.gz --markdown 20240520/S/StatAssist/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-20 02:10:38] INFO root fetch - processPackages [tinyticker]: Downloading https://files.pythonhosted.org/packages/e2/4f/80168c862fc935cf2bfda26bdcdc23fff4ae6524a905e9442dc85a4d8b99/tinyticker-0.5.6.tar.gz
+[2024-05-20 02:10:38] INFO root fetch - processPackages [tinyticker]: executing diffoscope
+[2024-05-20 02:10:38] INFO root fetch - processPackages [tinyticker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyticker-0.5.5.tar.gz tmp/tinyticker-0.5.6.tar.gz --markdown 20240520/t/tinyticker/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-20 02:10:38] INFO root fetch - processPackages [StatAssist]: Remove: archive file [/home/abi/fetcher/tmp/StatAssist-1.0.1.tar.gz]
+[2024-05-20 02:10:38] INFO root fetch - processPackages [StatAssist]: Remove: archive file [/home/abi/fetcher/tmp/StatAssist-1.0.2.tar.gz]
+[2024-05-20 02:10:38] INFO root fetch - main [MainThread]: End processing [StatAssist]: success
+[2024-05-20 02:10:39] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.5.5.tar.gz]
+[2024-05-20 02:10:39] INFO root fetch - processPackages [tinyticker]: Remove: archive file [/home/abi/fetcher/tmp/tinyticker-0.5.6.tar.gz]
+[2024-05-20 02:10:39] INFO root fetch - main [MainThread]: End processing [tinyticker]: success
+[2024-05-20 02:10:39] INFO root fetch - main [MainThread]: Store serial: [23282506]

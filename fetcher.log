@@ -4708,3 +4708,18 @@
 [2024-05-20 04:03:26] INFO root fetch - processPackages [spade-anomaly-detection]: Remove: archive file [/home/abi/fetcher/tmp/spade_anomaly_detection-0.2.2.tar.gz]
 [2024-05-20 04:03:26] INFO root fetch - main [MainThread]: End processing [spade-anomaly-detection]: success
 [2024-05-20 04:03:26] INFO root fetch - main [MainThread]: Store serial: [23283663]
+[2024-05-20 04:05:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283663]
+[2024-05-20 04:05:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 04:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autora-experiment-runner-recruitment-manager-prolific
+[2024-05-20 04:05:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bullomz
+[2024-05-20 04:05:35] WARNING root fetch - processPackages [bullomz]: Skipping, unable to determine old version
+[2024-05-20 04:05:35] INFO root fetch - main [MainThread]: End processing [bullomz] error
+[2024-05-20 04:05:35] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2024-05-20 04:05:35] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Downloading https://files.pythonhosted.org/packages/fb/25/1d59b86b3c4be58f91bf80c18f80ab9595397d91b88a3ad4888d3ae69a10/autora_experiment_runner_recruitment_manager_prolific-1.0.0b8.tar.gz
+[2024-05-20 04:05:35] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Downloading https://files.pythonhosted.org/packages/aa/17/7487bff781dcc7adbd7c5e78c7ebc67776d10768a27b9f4e79abcc9091f7/autora_experiment_runner_recruitment_manager_prolific-1.0.0b9.tar.gz
+[2024-05-20 04:05:35] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: executing diffoscope
+[2024-05-20 04:05:35] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b8.tar.gz tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b9.tar.gz --markdown 20240520/a/autora-experiment-runner-recruitment-manager-prolific/1.0.0b8-1.0.0b9/README.md --exclude *.pyd
+[2024-05-20 04:05:36] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b8.tar.gz]
+[2024-05-20 04:05:36] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b9.tar.gz]
+[2024-05-20 04:05:36] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-recruitment-manager-prolific]: success
+[2024-05-20 04:05:36] INFO root fetch - main [MainThread]: Store serial: [23283671]

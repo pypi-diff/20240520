@@ -2777,3 +2777,84 @@
 [2024-05-20 02:26:54] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.9.9.tar.gz]
 [2024-05-20 02:26:54] INFO root fetch - main [MainThread]: End processing [cdktf-cdk8s]: success
 [2024-05-20 02:26:54] INFO root fetch - main [MainThread]: Store serial: [23282793]
+[2024-05-20 02:28:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282793]
+[2024-05-20 02:29:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-20 02:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vsujdzqqdnpcdjvq
+[2024-05-20 02:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matprops
+[2024-05-20 02:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vsujdzqqdnpcdjvq
+[2024-05-20 02:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vsujdzqqdnpcdjvq
+[2024-05-20 02:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: glue-utils
+[2024-05-20 02:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: REVHubInterface
+[2024-05-20 02:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-gitlab-runner
+[2024-05-20 02:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bbpb
+[2024-05-20 02:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-aurora-globaldatabase
+[2024-05-20 02:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-certbot-dns-route53
+[2024-05-20 02:29:02] INFO root fetch - processPackages [vsujdzqqdnpcdjvq]: New version: [1.10000.10009] Old Version: [1.10000.10008]
+[2024-05-20 02:29:02] INFO root fetch - processPackages [vsujdzqqdnpcdjvq]: New version: [1.10000.10009] Old Version: [1.10000.10008]
+[2024-05-20 02:29:03] INFO root fetch - processPackages [matprops]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-20 02:29:03] INFO root fetch - processPackages [vsujdzqqdnpcdjvq]: New version: [1.10000.10009] Old Version: [1.10000.10008]
+[2024-05-20 02:29:03] INFO root fetch - processPackages [REVHubInterface]: New version: [1.3.3.dev9] Old Version: [1.3.3.dev8]
+[2024-05-20 02:29:03] INFO root fetch - processPackages [glue-utils]: New version: [0.5.0] Old Version: [0.4.0rc0]
+[2024-05-20 02:29:03] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-20 02:29:03] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-20 02:29:03] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-20 02:29:03] INFO root fetch - processPackages [bbpb]: New version: [1.3.1] Old Version: [1.2.0]
+[2024-05-20 02:29:03] INFO root fetch - processPackages [vsujdzqqdnpcdjvq]: Downloading https://files.pythonhosted.org/packages/71/04/ad3b2b414feb01cfaddc3d8adcff5bebb9870d942804c5a30466c2e967ea/vsujdzqqdnpcdjvq-1.10000.10008.tar.gz
+[2024-05-20 02:29:03] INFO root fetch - processPackages [vsujdzqqdnpcdjvq]: Downloading https://files.pythonhosted.org/packages/71/04/ad3b2b414feb01cfaddc3d8adcff5bebb9870d942804c5a30466c2e967ea/vsujdzqqdnpcdjvq-1.10000.10008.tar.gz
+[2024-05-20 02:29:03] INFO root fetch - processPackages [vsujdzqqdnpcdjvq]: Downloading https://files.pythonhosted.org/packages/71/04/ad3b2b414feb01cfaddc3d8adcff5bebb9870d942804c5a30466c2e967ea/vsujdzqqdnpcdjvq-1.10000.10008.tar.gz
+[2024-05-20 02:29:03] INFO root fetch - processPackages [matprops]: Downloading https://files.pythonhosted.org/packages/6f/44/ba172ddc96fefd8ac6ef11f50d3cc9753e6e9935d020fd0bc8329fbb071e/matprops-1.0.3.tar.gz
+[2024-05-20 02:29:03] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/0d/90/3c74a9c7310ba2da2e673cb67d3e8c65e5460209759ef2fa291efce82ab5/revhubinterface-1.3.3.dev8.tar.gz
+[2024-05-20 02:29:03] WARNING root fetch - processPackages [vsujdzqqdnpcdjvq]: Skipping package: exceeds size limit 95034083>=10485760
+[2024-05-20 02:29:03] INFO root fetch - main [MainThread]: End processing [vsujdzqqdnpcdjvq] error
+[2024-05-20 02:29:03] WARNING root fetch - processPackages [vsujdzqqdnpcdjvq]: Skipping package: exceeds size limit 95034083>=10485760
+[2024-05-20 02:29:03] WARNING root fetch - processPackages [vsujdzqqdnpcdjvq]: Skipping package: exceeds size limit 95034083>=10485760
+[2024-05-20 02:29:03] INFO root fetch - main [MainThread]: End processing [vsujdzqqdnpcdjvq] error
+[2024-05-20 02:29:03] INFO root fetch - main [MainThread]: End processing [vsujdzqqdnpcdjvq] error
+[2024-05-20 02:29:03] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-20 02:29:03] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-20 02:29:03] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-20 02:29:03] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/97/25/f09e7caa9b32fc72b46eb1098617f8ea68fbe2a45f769d90cd668bd84d67/glue_utils-0.4.0rc0.tar.gz
+[2024-05-20 02:29:03] INFO root fetch - processPackages [bbpb]: Downloading https://files.pythonhosted.org/packages/97/e2/55fa2a218db70ca1832137eec1d8c8e6a7b878aeb0216b30fda0861a0952/bbpb-1.2.0.tar.gz
+[2024-05-20 02:29:03] INFO root fetch - processPackages [matprops]: Downloading https://files.pythonhosted.org/packages/7a/b6/e5a09eba8bc107c614a9c95432b549cc420cc33879b9d7c90d285cdfc1dd/matprops-1.0.4.tar.gz
+[2024-05-20 02:29:03] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/47/93/e2ab5da20dcdca793ff04faa5aa5f38bb3f149e7bf70c77c15ac7d127689/revhubinterface-1.3.3.dev9.tar.gz
+[2024-05-20 02:29:03] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-20 02:29:03] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-20 02:29:03] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-20 02:29:03] INFO root fetch - processPackages [matprops]: executing diffoscope
+[2024-05-20 02:29:03] INFO root fetch - processPackages [matprops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matprops-1.0.3.tar.gz tmp/matprops-1.0.4.tar.gz --markdown 20240520/m/matprops/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-20 02:29:03] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-20 02:29:03] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240520/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-20 02:29:03] INFO root fetch - processPackages [REVHubInterface]: executing diffoscope
+[2024-05-20 02:29:03] INFO root fetch - processPackages [REVHubInterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revhubinterface-1.3.3.dev8.tar.gz tmp/revhubinterface-1.3.3.dev9.tar.gz --markdown 20240520/R/REVHubInterface/1.3.3.dev8-1.3.3.dev9/README.md --exclude *.pyd
+[2024-05-20 02:29:03] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-20 02:29:03] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240520/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-20 02:29:03] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-20 02:29:03] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240520/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-20 02:29:03] INFO root fetch - processPackages [glue-utils]: Downloading https://files.pythonhosted.org/packages/86/9d/657b847b28a07f8c2a19085e78c13208912b796a62629eb377f8319576e9/glue_utils-0.5.0.tar.gz
+[2024-05-20 02:29:03] INFO root fetch - processPackages [bbpb]: Downloading https://files.pythonhosted.org/packages/5d/55/bfb447aab849df8c576dff7230869627223f3ca1584942f9c08e1a82b5ee/bbpb-1.3.1.tar.gz
+[2024-05-20 02:29:03] INFO root fetch - processPackages [glue-utils]: executing diffoscope
+[2024-05-20 02:29:03] INFO root fetch - processPackages [glue-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glue_utils-0.4.0rc0.tar.gz tmp/glue_utils-0.5.0.tar.gz --markdown 20240520/g/glue-utils/0.4.0rc0-0.5.0/README.md --exclude *.pyd
+[2024-05-20 02:29:03] INFO root fetch - processPackages [bbpb]: executing diffoscope
+[2024-05-20 02:29:03] INFO root fetch - processPackages [bbpb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbpb-1.2.0.tar.gz tmp/bbpb-1.3.1.tar.gz --markdown 20240520/b/bbpb/1.2.0-1.3.1/README.md --exclude *.pyd
+[2024-05-20 02:29:04] INFO root fetch - processPackages [matprops]: Remove: archive file [/home/abi/fetcher/tmp/matprops-1.0.3.tar.gz]
+[2024-05-20 02:29:04] INFO root fetch - processPackages [matprops]: Remove: archive file [/home/abi/fetcher/tmp/matprops-1.0.4.tar.gz]
+[2024-05-20 02:29:04] INFO root fetch - main [MainThread]: End processing [matprops]: success
+[2024-05-20 02:29:04] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-20 02:29:04] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-20 02:29:04] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-20 02:29:04] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-20 02:29:04] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-20 02:29:04] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-20 02:29:04] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-20 02:29:04] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-20 02:29:04] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-20 02:29:04] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.4.0rc0.tar.gz]
+[2024-05-20 02:29:04] INFO root fetch - processPackages [glue-utils]: Remove: archive file [/home/abi/fetcher/tmp/glue_utils-0.5.0.tar.gz]
+[2024-05-20 02:29:04] INFO root fetch - main [MainThread]: End processing [glue-utils]: success
+[2024-05-20 02:29:04] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev8.tar.gz]
+[2024-05-20 02:29:04] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev9.tar.gz]
+[2024-05-20 02:29:04] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
+[2024-05-20 02:29:04] INFO root fetch - processPackages [bbpb]: Remove: archive file [/home/abi/fetcher/tmp/bbpb-1.2.0.tar.gz]
+[2024-05-20 02:29:04] INFO root fetch - processPackages [bbpb]: Remove: archive file [/home/abi/fetcher/tmp/bbpb-1.3.1.tar.gz]
+[2024-05-20 02:29:04] INFO root fetch - main [MainThread]: End processing [bbpb]: success
+[2024-05-20 02:29:04] INFO root fetch - main [MainThread]: Store serial: [23282816]

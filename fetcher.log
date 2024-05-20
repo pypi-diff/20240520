@@ -9258,3 +9258,14 @@
 [2024-05-20 09:14:12] INFO root fetch - processPackages [trilium-py]: Remove: archive file [/home/abi/fetcher/tmp/trilium_py-0.9.0-py3-none-any.whl.zip]
 [2024-05-20 09:14:12] INFO root fetch - main [MainThread]: End processing [trilium-py]: success
 [2024-05-20 09:14:12] INFO root fetch - main [MainThread]: Store serial: [23286186]
+[2024-05-20 09:16:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286186]
+[2024-05-20 09:16:20] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 09:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taririnicz
+[2024-05-20 09:16:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: guanin
+[2024-05-20 09:16:20] WARNING root fetch - processPackages [taririnicz]: Skipping, unable to determine old version
+[2024-05-20 09:16:20] INFO root fetch - main [MainThread]: End processing [taririnicz] error
+[2024-05-20 09:16:20] INFO root fetch - processPackages [guanin]: New version: [1.2.9.4] Old Version: [1.2.9.3]
+[2024-05-20 09:16:21] INFO root fetch - processPackages [guanin]: Downloading https://files.pythonhosted.org/packages/8d/dc/4bb394b34ce2244011bdfec6b0f594f2161b1a961dec9f724d8112a0bcc9/guanin-1.2.9.3.tar.gz
+[2024-05-20 09:16:22] WARNING root fetch - processPackages [guanin]: Skipping package: exceeds size limit 11005880>=10485760
+[2024-05-20 09:16:22] INFO root fetch - main [MainThread]: End processing [guanin] error
+[2024-05-20 09:16:22] INFO root fetch - main [MainThread]: Store serial: [23286194]

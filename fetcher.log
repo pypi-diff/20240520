@@ -5138,3 +5138,48 @@
 [2024-05-20 04:42:57] WARNING root fetch - processPackages [tike]: Skipping package: exceeds size limit 27181953>=10485760
 [2024-05-20 04:42:57] INFO root fetch - main [MainThread]: End processing [tike] error
 [2024-05-20 04:42:57] INFO root fetch - main [MainThread]: Store serial: [23283868]
+[2024-05-20 04:45:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283868]
+[2024-05-20 04:45:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 04:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yoto-api
+[2024-05-20 04:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boiling
+[2024-05-20 04:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wwbot
+[2024-05-20 04:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: freepaths
+[2024-05-20 04:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parameterframe
+[2024-05-20 04:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: criminalisticianz
+[2024-05-20 04:45:05] INFO root fetch - processPackages [wwbot]: New version: [0.0.6a0] Old Version: [0.0.6]
+[2024-05-20 04:45:05] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-20 04:45:06] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/c3/e9/37a5f7987aad1d628c6af01492dc5402987208b266b6a980795a6766a60d/wwbot-0.0.6.tar.gz
+[2024-05-20 04:45:06] WARNING root fetch - processPackages [criminalisticianz]: Skipping, unable to determine old version
+[2024-05-20 04:45:06] INFO root fetch - main [MainThread]: End processing [criminalisticianz] error
+[2024-05-20 04:45:06] ERROR root fetch - processPackages [boiling]: Unable to get metadata: No such project 'boiling'
+[2024-05-20 04:45:06] INFO root fetch - main [MainThread]: End processing [boiling] error
+[2024-05-20 04:45:06] INFO root fetch - processPackages [freepaths]: New version: [1.9.1] Old Version: [1.9]
+[2024-05-20 04:45:06] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-20 04:45:06] INFO root fetch - processPackages [parameterframe]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-20 04:45:06] INFO root fetch - processPackages [freepaths]: Downloading https://files.pythonhosted.org/packages/96/81/b1abd46ea2ad81bd2389d8efd50d56f39aa2e200c46a2bc59b86a70a540c/freepaths-1.9.tar.gz
+[2024-05-20 04:45:06] INFO root fetch - processPackages [parameterframe]: Downloading https://files.pythonhosted.org/packages/1f/1f/4aa12e7f045514e8ae4b8f48a2f35b9a880806de001fd195b2cd55bef37b/parameterframe-0.1.4.tar.gz
+[2024-05-20 04:45:06] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-20 04:45:06] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/50/ed/b99abaa39936654b48d9de3d910214ff3c2eb2b4178a9dfd874c739c9d4f/wwbot-0.0.6a0.tar.gz
+[2024-05-20 04:45:06] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-20 04:45:06] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240520/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-20 04:45:06] INFO root fetch - processPackages [wwbot]: executing diffoscope
+[2024-05-20 04:45:06] INFO root fetch - processPackages [wwbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwbot-0.0.6.tar.gz tmp/wwbot-0.0.6a0.tar.gz --markdown 20240520/w/wwbot/0.0.6-0.0.6a0/README.md --exclude *.pyd
+[2024-05-20 04:45:06] INFO root fetch - processPackages [freepaths]: Downloading https://files.pythonhosted.org/packages/7d/fd/673ec6e5deacd9c8be9025a9e5e5f1a44f46e1e659c2afa1e2cd6a6cbd56/freepaths-1.9.1.tar.gz
+[2024-05-20 04:45:06] INFO root fetch - processPackages [parameterframe]: Downloading https://files.pythonhosted.org/packages/86/ab/941a196fe30d282bd492d9b848f8090baf3376dc91bc40b2ca0d8931e6a5/parameterframe-0.1.5.tar.gz
+[2024-05-20 04:45:06] INFO root fetch - processPackages [freepaths]: executing diffoscope
+[2024-05-20 04:45:06] INFO root fetch - processPackages [freepaths]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freepaths-1.9.tar.gz tmp/freepaths-1.9.1.tar.gz --markdown 20240520/f/freepaths/1.9-1.9.1/README.md --exclude *.pyd
+[2024-05-20 04:45:06] INFO root fetch - processPackages [parameterframe]: executing diffoscope
+[2024-05-20 04:45:06] INFO root fetch - processPackages [parameterframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parameterframe-0.1.4.tar.gz tmp/parameterframe-0.1.5.tar.gz --markdown 20240520/p/parameterframe/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-20 04:45:06] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-20 04:45:06] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-20 04:45:07] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-20 04:45:07] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.6.tar.gz]
+[2024-05-20 04:45:07] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.6a0.tar.gz]
+[2024-05-20 04:45:07] INFO root fetch - main [MainThread]: End processing [wwbot]: success
+[2024-05-20 04:45:07] INFO root fetch - processPackages [parameterframe]: Remove: archive file [/home/abi/fetcher/tmp/parameterframe-0.1.4.tar.gz]
+[2024-05-20 04:45:07] INFO root fetch - processPackages [parameterframe]: Remove: archive file [/home/abi/fetcher/tmp/parameterframe-0.1.5.tar.gz]
+[2024-05-20 04:45:07] INFO root fetch - main [MainThread]: End processing [parameterframe]: success
+[2024-05-20 04:45:07] INFO root fetch - processPackages [freepaths]: Remove: archive file [/home/abi/fetcher/tmp/freepaths-1.9.tar.gz]
+[2024-05-20 04:45:07] INFO root fetch - processPackages [freepaths]: Remove: archive file [/home/abi/fetcher/tmp/freepaths-1.9.1.tar.gz]
+[2024-05-20 04:45:07] INFO root fetch - main [MainThread]: End processing [freepaths]: success
+[2024-05-20 04:45:07] INFO root fetch - main [MainThread]: Store serial: [23283890]

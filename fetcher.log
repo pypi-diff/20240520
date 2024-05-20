@@ -12477,3 +12477,68 @@
 [2024-05-20 11:32:01] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.6.tar.gz]
 [2024-05-20 11:32:01] INFO root fetch - main [MainThread]: End processing [langchain-tools]: success
 [2024-05-20 11:32:01] INFO root fetch - main [MainThread]: Store serial: [23287571]
+[2024-05-20 11:34:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287571]
+[2024-05-20 11:34:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 11:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-sdk
+[2024-05-20 11:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybotrade
+[2024-05-20 11:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zfx
+[2024-05-20 11:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ca-vntl-helper
+[2024-05-20 11:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: validate-pyproject
+[2024-05-20 11:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: elemento-cli
+[2024-05-20 11:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cogflow
+[2024-05-20 11:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: musicologiesz
+[2024-05-20 11:34:10] INFO root fetch - processPackages [ca-vntl-helper]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-20 11:34:10] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 11:34:10] INFO root fetch - processPackages [cogflow]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-20 11:34:10] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/5a/87/f33f77f466422d91cb76dfc1270255029129993f2d86e8df0e8c8e07456d/ca_vntl_helper-1.1.3.tar.gz
+[2024-05-20 11:34:10] INFO root fetch - processPackages [elemento-cli]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-20 11:34:10] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-20 11:34:10] INFO root fetch - processPackages [validate-pyproject]: New version: [0.9] Old Version: [0.8.1]
+[2024-05-20 11:34:10] INFO root fetch - processPackages [cybotrade]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-20 11:34:10] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-20 11:34:10] WARNING root fetch - processPackages [musicologiesz]: Skipping, unable to determine old version
+[2024-05-20 11:34:10] INFO root fetch - main [MainThread]: End processing [musicologiesz] error
+[2024-05-20 11:34:10] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/3a/44/2dd887dfefc5e198a68539c2565726dced636a615597d201136d1a92a466/cogflow-1.9.8.tar.gz
+[2024-05-20 11:34:10] INFO root fetch - processPackages [elemento-cli]: Downloading https://files.pythonhosted.org/packages/ba/f7/7d406bdcb2ff4168a37734dbe10ceeea44fea2b93c91a9509d83888c0fb3/elemento-cli-0.1.6.tar.gz
+[2024-05-20 11:34:10] INFO root fetch - processPackages [validate-pyproject]: Downloading https://files.pythonhosted.org/packages/54/6b/313cedc3c061086d85b27420b8b956093b2f714189f40b8601e0d4c7e1e1/validate-pyproject-0.8.1.tar.gz
+[2024-05-20 11:34:10] INFO root fetch - processPackages [cybotrade]: Downloading https://files.pythonhosted.org/packages/a1/a3/2c43f2ee642e8025bbd50c8018c70a927bb1b605907912360d5bd6fefc02/cybotrade-1.4.3-cp312-none-win_amd64.whl
+[2024-05-20 11:34:10] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-20 11:34:11] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/15/56/0526e0499d9414b698f8c1260f8aac2e2a3209a0dc66949600aff2c28199/lusid_sdk-2.1.98.tar.gz
+[2024-05-20 11:34:11] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/23/6a/beee4f41c88ab03951172d6c857d439c8cb92c28f004e6c43aca4a186c9d/ca_vntl_helper-1.1.4.tar.gz
+[2024-05-20 11:34:11] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/0e/16/8f5f931a1aa5b5143fe0b0ad8fd8950276383f3e063a3d599473897f4af3/cogflow-1.9.9.tar.gz
+[2024-05-20 11:34:11] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-20 11:34:11] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240520/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 11:34:11] INFO root fetch - processPackages [ca-vntl-helper]: executing diffoscope
+[2024-05-20 11:34:11] INFO root fetch - processPackages [ca-vntl-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ca_vntl_helper-1.1.3.tar.gz tmp/ca_vntl_helper-1.1.4.tar.gz --markdown 20240520/c/ca-vntl-helper/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-20 11:34:11] WARNING root fetch - processPackages [cybotrade]: Skipping package: exceeds size limit 11519838>=10485760
+[2024-05-20 11:34:11] INFO root fetch - main [MainThread]: End processing [cybotrade] error
+[2024-05-20 11:34:11] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-05-20 11:34:11] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.9.8.tar.gz tmp/cogflow-1.9.9.tar.gz --markdown 20240520/c/cogflow/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-20 11:34:11] INFO root fetch - processPackages [elemento-cli]: Downloading https://files.pythonhosted.org/packages/8e/74/3e9c8079fb16043866b8b28c8d8c276d8c02fff09af3b3ff9835188eadd8/elemento-cli-0.1.7.tar.gz
+[2024-05-20 11:34:11] INFO root fetch - processPackages [validate-pyproject]: Downloading https://files.pythonhosted.org/packages/e0/00/9baa1103fa63da5ae432b0a8bf56c4ec589906ff9bd60135c415b733d5a1/validate-pyproject-0.9.tar.gz
+[2024-05-20 11:34:11] INFO root fetch - processPackages [elemento-cli]: executing diffoscope
+[2024-05-20 11:34:11] INFO root fetch - processPackages [elemento-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elemento-cli-0.1.6.tar.gz tmp/elemento-cli-0.1.7.tar.gz --markdown 20240520/e/elemento-cli/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-20 11:34:11] INFO root fetch - processPackages [validate-pyproject]: executing diffoscope
+[2024-05-20 11:34:11] INFO root fetch - processPackages [validate-pyproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validate-pyproject-0.8.1.tar.gz tmp/validate-pyproject-0.9.tar.gz --markdown 20240520/v/validate-pyproject/0.8.1-0.9/README.md --exclude *.pyd
+[2024-05-20 11:34:11] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/2c/d6/b08aeae5c238a1e7a8cd3ba4a93d6c65acd45e317b927d0f06091d65479d/lusid_sdk-2.1.99.tar.gz
+[2024-05-20 11:34:11] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-05-20 11:34:11] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.98.tar.gz tmp/lusid_sdk-2.1.99.tar.gz --markdown 20240520/l/lusid-sdk/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-20 11:34:11] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-20 11:34:11] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-20 11:34:11] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-20 11:34:11] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-1.1.3.tar.gz]
+[2024-05-20 11:34:11] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-1.1.4.tar.gz]
+[2024-05-20 11:34:11] INFO root fetch - main [MainThread]: End processing [ca-vntl-helper]: success
+[2024-05-20 11:34:11] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.8.tar.gz]
+[2024-05-20 11:34:11] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.9.tar.gz]
+[2024-05-20 11:34:11] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-05-20 11:34:12] INFO root fetch - processPackages [elemento-cli]: Remove: archive file [/home/abi/fetcher/tmp/elemento-cli-0.1.6.tar.gz]
+[2024-05-20 11:34:12] INFO root fetch - processPackages [elemento-cli]: Remove: archive file [/home/abi/fetcher/tmp/elemento-cli-0.1.7.tar.gz]
+[2024-05-20 11:34:12] INFO root fetch - main [MainThread]: End processing [elemento-cli]: success
+[2024-05-20 11:34:12] INFO root fetch - processPackages [validate-pyproject]: Remove: archive file [/home/abi/fetcher/tmp/validate-pyproject-0.8.1.tar.gz]
+[2024-05-20 11:34:12] INFO root fetch - processPackages [validate-pyproject]: Remove: archive file [/home/abi/fetcher/tmp/validate-pyproject-0.9.tar.gz]
+[2024-05-20 11:34:12] INFO root fetch - main [MainThread]: End processing [validate-pyproject]: success
+[2024-05-20 11:34:16] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.98.tar.gz]
+[2024-05-20 11:34:16] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.99.tar.gz]
+[2024-05-20 11:34:16] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-05-20 11:34:16] INFO root fetch - main [MainThread]: Store serial: [23287594]

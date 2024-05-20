@@ -23029,3 +23029,69 @@ EOFError: EOF read where object expected
 [2024-05-20 18:07:52] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240520095553.tar.gz]
 [2024-05-20 18:07:52] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-20 18:07:52] INFO root fetch - main [MainThread]: Store serial: [23292228]
+[2024-05-20 18:09:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292228]
+[2024-05-20 18:10:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 18:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-skill-local-music
+[2024-05-20 18:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: requests
+[2024-05-20 18:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unique-colorlogger
+[2024-05-20 18:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: magaziningz
+[2024-05-20 18:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maji-passport
+[2024-05-20 18:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neon-skill-support-helper
+[2024-05-20 18:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lusid-workflow-sdk
+[2024-05-20 18:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: manifestoo-core
+[2024-05-20 18:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: servicenow-api
+[2024-05-20 18:10:02] INFO root fetch - processPackages [neon-skill-local-music]: New version: [3.0.1a1] Old Version: [3.0.0]
+[2024-05-20 18:10:02] INFO root fetch - processPackages [servicenow-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-20 18:10:02] WARNING root fetch - processPackages [unique-colorlogger]: Skipping, unable to determine old version
+[2024-05-20 18:10:02] INFO root fetch - main [MainThread]: End processing [unique-colorlogger] error
+[2024-05-20 18:10:02] INFO root fetch - processPackages [requests]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-20 18:10:02] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-20 18:10:02] WARNING root fetch - processPackages [maji-passport]: Skipping, unable to determine old version
+[2024-05-20 18:10:02] INFO root fetch - main [MainThread]: End processing [maji-passport] error
+[2024-05-20 18:10:02] INFO root fetch - processPackages [neon-skill-local-music]: Downloading https://files.pythonhosted.org/packages/d5/e3/bbd0d0b3e0098cd56b910253c3bc4a160a3584a03bafff82640613f930a8/neon-skill-local_music-3.0.0.tar.gz
+[2024-05-20 18:10:02] INFO root fetch - processPackages [neon-skill-support-helper]: New version: [1.2.3a1] Old Version: [1.2.2a2]
+[2024-05-20 18:10:02] WARNING root fetch - processPackages [magaziningz]: Skipping, unable to determine old version
+[2024-05-20 18:10:02] INFO root fetch - main [MainThread]: End processing [magaziningz] error
+[2024-05-20 18:10:02] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/2a/96/cc447e9247636a3ca7fe607e05a327a7076f254221c5c20c960f2d6689fd/servicenow_api-0.8.0-py2.py3-none-any.whl
+[2024-05-20 18:10:02] INFO root fetch - processPackages [manifestoo-core]: New version: [1.6] Old Version: [1.5]
+[2024-05-20 18:10:02] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/d5/b7/0c32c08fe0b3327878c0d7b7006b46298b3dca469a326a75a439bfd0f0f1/lusid_workflow_sdk-2.1.8.tar.gz
+[2024-05-20 18:10:02] INFO root fetch - processPackages [neon-skill-support-helper]: Downloading https://files.pythonhosted.org/packages/1c/9c/02e5af93f1c8b1eaeb667e65468d912a53f4304393b4790919ed3a606e1e/neon-skill-support_helper-1.2.2a2.tar.gz
+[2024-05-20 18:10:02] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/76/cb/16788288b3e511d9ebf0b67d4e1cd59966bc918931d1953e5f137a9ff712/servicenow_api-0.9.0-py2.py3-none-any.whl
+[2024-05-20 18:10:02] INFO root fetch - processPackages [requests]: Downloading https://files.pythonhosted.org/packages/f9/6d/07c44fb1ebe04d069459a189e7dab9e4abfe9432adcd4477367c25332748/requests-2.9.1.tar.gz
+[2024-05-20 18:10:02] INFO root fetch - processPackages [neon-skill-local-music]: Downloading https://files.pythonhosted.org/packages/82/9c/2a97bb6fb155204ec44992d5079ce4c4105b8d631284caf11a3243e50d53/neon-skill-local_music-3.0.1a1.tar.gz
+[2024-05-20 18:10:02] INFO root fetch - processPackages [manifestoo-core]: Downloading https://files.pythonhosted.org/packages/ac/0b/f73deba6e88ec0f11875364990b2ffeadd12245c5909c7a25194904fce32/manifestoo_core-1.5.tar.gz
+[2024-05-20 18:10:02] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/23/c0/5f5908f038983f29f46a445ed5ff331d6086d5c6cb128e4502bf223fd90b/lusid_workflow_sdk-2.1.9.tar.gz
+[2024-05-20 18:10:02] INFO root fetch - processPackages [servicenow-api]: executing diffoscope
+[2024-05-20 18:10:02] INFO root fetch - processPackages [servicenow-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip --markdown 20240520/s/servicenow-api/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-20 18:10:02] INFO root fetch - processPackages [neon-skill-local-music]: executing diffoscope
+[2024-05-20 18:10:02] INFO root fetch - processPackages [neon-skill-local-music]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-local_music-3.0.0.tar.gz tmp/neon-skill-local_music-3.0.1a1.tar.gz --markdown 20240520/n/neon-skill-local-music/3.0.0-3.0.1a1/README.md --exclude *.pyd
+[2024-05-20 18:10:02] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-05-20 18:10:02] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.1.8.tar.gz tmp/lusid_workflow_sdk-2.1.9.tar.gz --markdown 20240520/l/lusid-workflow-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-20 18:10:02] INFO root fetch - processPackages [manifestoo-core]: Downloading https://files.pythonhosted.org/packages/e8/fa/0ca0496ac971ca79420018366e9196f6bb5e4d401f39d9690bd78a196493/manifestoo_core-1.6.tar.gz
+[2024-05-20 18:10:02] INFO root fetch - processPackages [neon-skill-support-helper]: Downloading https://files.pythonhosted.org/packages/be/1e/d595dfce416466fcb9dbac5380b5d4a60d275fa48ed4c2eeecaaf6ce9987/neon-skill-support_helper-1.2.3a1.tar.gz
+[2024-05-20 18:10:03] INFO root fetch - processPackages [requests]: Downloading https://files.pythonhosted.org/packages/64/20/2133a092a0e87d1c250fe48704974b73a1341b7e4f800edecf40462a825d/requests-2.9.2.tar.gz
+[2024-05-20 18:10:03] INFO root fetch - processPackages [neon-skill-support-helper]: executing diffoscope
+[2024-05-20 18:10:03] INFO root fetch - processPackages [neon-skill-support-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-support_helper-1.2.2a2.tar.gz tmp/neon-skill-support_helper-1.2.3a1.tar.gz --markdown 20240520/n/neon-skill-support-helper/1.2.2a2-1.2.3a1/README.md --exclude *.pyd
+[2024-05-20 18:10:03] INFO root fetch - processPackages [manifestoo-core]: executing diffoscope
+[2024-05-20 18:10:03] INFO root fetch - processPackages [manifestoo-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manifestoo_core-1.5.tar.gz tmp/manifestoo_core-1.6.tar.gz --markdown 20240520/m/manifestoo-core/1.5-1.6/README.md --exclude *.pyd
+[2024-05-20 18:10:03] INFO root fetch - processPackages [requests]: executing diffoscope
+[2024-05-20 18:10:03] INFO root fetch - processPackages [requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests-2.9.1.tar.gz tmp/requests-2.9.2.tar.gz --markdown 20240520/r/requests/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-20 18:10:03] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-20 18:10:03] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-20 18:10:03] INFO root fetch - main [MainThread]: End processing [servicenow-api]: success
+[2024-05-20 18:10:03] INFO root fetch - processPackages [neon-skill-local-music]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-local_music-3.0.0.tar.gz]
+[2024-05-20 18:10:03] INFO root fetch - processPackages [neon-skill-local-music]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-local_music-3.0.1a1.tar.gz]
+[2024-05-20 18:10:03] INFO root fetch - main [MainThread]: End processing [neon-skill-local-music]: success
+[2024-05-20 18:10:03] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.8.tar.gz]
+[2024-05-20 18:10:03] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.9.tar.gz]
+[2024-05-20 18:10:03] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-05-20 18:10:03] INFO root fetch - processPackages [neon-skill-support-helper]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-support_helper-1.2.2a2.tar.gz]
+[2024-05-20 18:10:03] INFO root fetch - processPackages [neon-skill-support-helper]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-support_helper-1.2.3a1.tar.gz]
+[2024-05-20 18:10:03] INFO root fetch - main [MainThread]: End processing [neon-skill-support-helper]: success
+[2024-05-20 18:10:03] INFO root fetch - processPackages [manifestoo-core]: Remove: archive file [/home/abi/fetcher/tmp/manifestoo_core-1.5.tar.gz]
+[2024-05-20 18:10:03] INFO root fetch - processPackages [manifestoo-core]: Remove: archive file [/home/abi/fetcher/tmp/manifestoo_core-1.6.tar.gz]
+[2024-05-20 18:10:03] INFO root fetch - main [MainThread]: End processing [manifestoo-core]: success
+[2024-05-20 18:10:04] INFO root fetch - processPackages [requests]: Remove: archive file [/home/abi/fetcher/tmp/requests-2.9.1.tar.gz]
+[2024-05-20 18:10:04] INFO root fetch - processPackages [requests]: Remove: archive file [/home/abi/fetcher/tmp/requests-2.9.2.tar.gz]
+[2024-05-20 18:10:04] INFO root fetch - main [MainThread]: End processing [requests]: success
+[2024-05-20 18:10:04] INFO root fetch - main [MainThread]: Store serial: [23292257]

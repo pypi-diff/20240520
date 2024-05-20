@@ -18151,3 +18151,147 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:14:13] INFO root fetch - processPackages [strangeworks-braket]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks_braket-1.0.9.tar.gz]
 [2024-05-20 15:14:13] INFO root fetch - main [MainThread]: End processing [strangeworks-braket]: success
 [2024-05-20 15:14:13] INFO root fetch - main [MainThread]: Store serial: [23290073]
+[2024-05-20 15:16:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290073]
+[2024-05-20 15:16:22] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-20 15:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matematikk
+[2024-05-20 15:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: githubinformer
+[2024-05-20 15:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uploadthing.py
+[2024-05-20 15:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decoutilities
+[2024-05-20 15:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fbgemm-gpu-nightly-cpu
+[2024-05-20 15:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simplebox
+[2024-05-20 15:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hugr
+[2024-05-20 15:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycgs
+[2024-05-20 15:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yeref
+[2024-05-20 15:16:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ktaga-lab
+[2024-05-20 15:16:22] INFO root fetch - processPackages [simplebox]: New version: [0.0.1a209] Old Version: [0.0.1a208]
+[2024-05-20 15:16:22] INFO root fetch - processPackages [uploadthing.py]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-20 15:16:22] INFO root fetch - processPackages [matematikk]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-20 15:16:22] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-20 15:16:22] INFO root fetch - processPackages [githubinformer]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 15:16:22] INFO root fetch - processPackages [hugr]: New version: [0.2.1] Old Version: [0.2.0a1]
+[2024-05-20 15:16:22] INFO root fetch - processPackages [pycgs]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-20 15:16:22] INFO root fetch - processPackages [decoutilities]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-20 15:16:22] WARNING root fetch - processPackages [ktaga-lab]: Skipping, unable to determine old version
+[2024-05-20 15:16:22] INFO root fetch - processPackages [ktaga-lab]: Start processing: xspace-dl
+[2024-05-20 15:16:22] INFO root fetch - main [MainThread]: End processing [ktaga-lab] error
+[2024-05-20 15:16:22] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/1d/8b/a385dadb847c441c9a4afe326ca681cc014848ce2e4b9cecbe7b98960c59/simplebox-0.0.1a208-py3-none-any.whl
+[2024-05-20 15:16:22] INFO root fetch - processPackages [uploadthing.py]: Downloading https://files.pythonhosted.org/packages/b8/b5/88b319143496f3b8a884b28cc6047341cf628aa98ab92cb7ec22fc804d85/uploadthing_py-0.2.0.tar.gz
+[2024-05-20 15:16:23] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/b9/0f/0e2ea1c838d839f658d451461a2f978947f6ab41a8f4e102104cc5b587a8/matematikk-0.0.98.tar.gz
+[2024-05-20 15:16:23] INFO root fetch - processPackages [xspace-dl]: New version: [0.1.24] Old Version: [0.1.23]
+[2024-05-20 15:16:23] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-20 15:16:23] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2024.5.20] Old Version: [2024.5.19]
+[2024-05-20 15:16:23] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/b0/c3/cf33f3c0617899dc353d65b4985219b26d00cf02d63a48d368c7b0048a26/xspace-dl-0.1.23.tar.gz
+[2024-05-20 15:16:23] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/65/ab/43a9f2bcfe7e3098ad1e6c3c199c512ba2aab8e40b4b6553719095e2addd/decoutilities-0.2.4.tar.gz
+[2024-05-20 15:16:23] INFO root fetch - processPackages [githubinformer]: Downloading https://files.pythonhosted.org/packages/b0/d6/ef41ff27299067abd9b352ad6c6a65a79149ff36a2417a07c1c2521472f5/githubinformer-0.0.2.tar.gz
+[2024-05-20 15:16:23] INFO root fetch - processPackages [hugr]: Downloading https://files.pythonhosted.org/packages/3d/6d/af987f3879c60122c1ec883fc2710e12f328485c22276b27796e9f66db98/hugr-0.2.0a1.tar.gz
+[2024-05-20 15:16:23] INFO root fetch - processPackages [matematikk]: Downloading https://files.pythonhosted.org/packages/ba/d1/907a2303ec8d0c4c2f01a0d2f9fd6e3de3387f6c25c32de3800152e437fb/matematikk-0.0.99.tar.gz
+[2024-05-20 15:16:23] INFO root fetch - processPackages [pycgs]: Downloading https://files.pythonhosted.org/packages/ec/2f/cdc4035233f7e91549135476f410fe3f45ef74619ed5a5c154cc756b0f50/pycgs-1.0.0.tar.gz
+[2024-05-20 15:16:23] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-20 15:16:23] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/85/39/caef6f0802f57fbb0728be30a561a29a45d75f5a59b9c5ab76f93ca40178/simplebox-0.0.1a209-py3-none-any.whl
+[2024-05-20 15:16:23] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/97/2d/043eb9d7fc689cb39b3262c6a02960e77b73d170dead44c2ee0d1b657b1f/fbgemm_gpu_nightly_cpu-2024.5.19-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-20 15:16:23] INFO root fetch - processPackages [matematikk]: executing diffoscope
+[2024-05-20 15:16:23] INFO root fetch - processPackages [matematikk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matematikk-0.0.98.tar.gz tmp/matematikk-0.0.99.tar.gz --markdown 20240520/m/matematikk/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-20 15:16:23] INFO root fetch - processPackages [uploadthing.py]: Downloading https://files.pythonhosted.org/packages/4b/60/1ea28070b6857058acc43b2d5fce7fcaf65b805dff564e3f0e5cdff953e5/uploadthing_py-0.2.1.tar.gz
+[2024-05-20 15:16:23] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/fc/55/c515b0262c51939567a0ad56368eb8118408592e17a67a3f0c830d71ce2f/decoutilities-0.2.5.tar.gz
+[2024-05-20 15:16:23] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-20 15:16:23] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240520/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-20 15:16:23] INFO root fetch - processPackages [simplebox]: executing diffoscope
+[2024-05-20 15:16:23] INFO root fetch - processPackages [simplebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplebox-0.0.1a208-py3-none-any.whl.zip tmp/simplebox-0.0.1a209-py3-none-any.whl.zip --markdown 20240520/s/simplebox/0.0.1a208-0.0.1a209/README.md --exclude *.pyd
+[2024-05-20 15:16:23] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/59/f6/41d39a3b9120d573cf622721000e4364c8b21f07ec7c4ec38aa51448e8a7/xspace-dl-0.1.24.tar.gz
+[2024-05-20 15:16:23] INFO root fetch - processPackages [hugr]: Downloading https://files.pythonhosted.org/packages/f6/1f/7045872ee5ca3c1225f2277db441be7d6ee44c5df98718ffd2396d2d4119/hugr-0.2.1.tar.gz
+[2024-05-20 15:16:23] INFO root fetch - processPackages [githubinformer]: Downloading https://files.pythonhosted.org/packages/88/13/70ef8e82845521d5a218eaae9e2f1aadf7a01b25a0da50db866e19bf3d15/githubinformer-0.0.3.tar.gz
+[2024-05-20 15:16:23] INFO root fetch - processPackages [uploadthing.py]: executing diffoscope
+[2024-05-20 15:16:23] INFO root fetch - processPackages [uploadthing.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uploadthing_py-0.2.0.tar.gz tmp/uploadthing_py-0.2.1.tar.gz --markdown 20240520/u/uploadthing.py/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-20 15:16:23] INFO root fetch - processPackages [pycgs]: Downloading https://files.pythonhosted.org/packages/ba/39/62a22027d77a3c9d84ac25172990cd143490cae51217a63eab65112b1268/pycgs-1.0.1.tar.gz
+[2024-05-20 15:16:23] INFO root fetch - processPackages [decoutilities]: executing diffoscope
+[2024-05-20 15:16:23] INFO root fetch - processPackages [decoutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoutilities-0.2.4.tar.gz tmp/decoutilities-0.2.5.tar.gz --markdown 20240520/d/decoutilities/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-20 15:16:23] INFO root fetch - processPackages [xspace-dl]: executing diffoscope
+[2024-05-20 15:16:23] INFO root fetch - processPackages [xspace-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspace-dl-0.1.23.tar.gz tmp/xspace-dl-0.1.24.tar.gz --markdown 20240520/x/xspace-dl/0.1.23-0.1.24/README.md --exclude *.pyd
+[2024-05-20 15:16:23] INFO root fetch - processPackages [hugr]: executing diffoscope
+[2024-05-20 15:16:23] INFO root fetch - processPackages [hugr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugr-0.2.0a1.tar.gz tmp/hugr-0.2.1.tar.gz --markdown 20240520/h/hugr/0.2.0a1-0.2.1/README.md --exclude *.pyd
+[2024-05-20 15:16:23] INFO root fetch - processPackages [githubinformer]: executing diffoscope
+[2024-05-20 15:16:23] INFO root fetch - processPackages [githubinformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/githubinformer-0.0.2.tar.gz tmp/githubinformer-0.0.3.tar.gz --markdown 20240520/g/githubinformer/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 15:16:23] INFO root fetch - processPackages [pycgs]: executing diffoscope
+[2024-05-20 15:16:23] INFO root fetch - processPackages [pycgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycgs-1.0.0.tar.gz tmp/pycgs-1.0.1.tar.gz --markdown 20240520/p/pycgs/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-20 15:16:23] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/5d/87/6591f5b4b573df354792f2b45a3b739afd170dea966330e9d52a2e49a2eb/fbgemm_gpu_nightly_cpu-2024.5.20-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-20 15:16:24] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-20 15:16:24] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-20 15:16:24] INFO root fetch - processPackages [yeref]: Start processing: th2-data-services
+[2024-05-20 15:16:24] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-20 15:16:24] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2024-05-20 15:16:24] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2024.5.19-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2024.5.20-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240520/f/fbgemm-gpu-nightly-cpu/2024.5.19-2024.5.20/README.md --exclude *.pyd
+[2024-05-20 15:16:24] INFO root fetch - processPackages [uploadthing.py]: Remove: archive file [/home/abi/fetcher/tmp/uploadthing_py-0.2.0.tar.gz]
+[2024-05-20 15:16:24] INFO root fetch - processPackages [uploadthing.py]: Remove: archive file [/home/abi/fetcher/tmp/uploadthing_py-0.2.1.tar.gz]
+[2024-05-20 15:16:24] INFO root fetch - processPackages [uploadthing.py]: Start processing: cbrkit
+[2024-05-20 15:16:24] INFO root fetch - main [MainThread]: End processing [uploadthing.py]: success
+[2024-05-20 15:16:24] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev9158118525] Old Version: [2.0.0.dev9113174303]
+[2024-05-20 15:16:24] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.1.23.tar.gz]
+[2024-05-20 15:16:24] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.1.24.tar.gz]
+[2024-05-20 15:16:24] INFO root fetch - processPackages [xspace-dl]: Start processing: Audire
+[2024-05-20 15:16:24] INFO root fetch - main [MainThread]: End processing [xspace-dl]: success
+[2024-05-20 15:16:24] WARNING root fetch - processPackages [Audire]: Skipping, unable to determine old version
+[2024-05-20 15:16:24] INFO root fetch - processPackages [Audire]: Start processing: blues-lib
+[2024-05-20 15:16:24] INFO root fetch - main [MainThread]: End processing [Audire] error
+[2024-05-20 15:16:24] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/22/16/d2fe79483fa6b0bc1089498bf1a075fc880fbcbfa084dad15a9dafb85fd2/th2_data_services-2.0.0.dev9113174303.tar.gz
+[2024-05-20 15:16:24] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.2.4.tar.gz]
+[2024-05-20 15:16:24] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.2.5.tar.gz]
+[2024-05-20 15:16:24] INFO root fetch - processPackages [decoutilities]: Start processing: Html-Flask-Install
+[2024-05-20 15:16:24] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
+[2024-05-20 15:16:24] INFO root fetch - processPackages [githubinformer]: Remove: archive file [/home/abi/fetcher/tmp/githubinformer-0.0.2.tar.gz]
+[2024-05-20 15:16:24] INFO root fetch - processPackages [githubinformer]: Remove: archive file [/home/abi/fetcher/tmp/githubinformer-0.0.3.tar.gz]
+[2024-05-20 15:16:24] INFO root fetch - processPackages [githubinformer]: Start processing: langtrace-python-sdk
+[2024-05-20 15:16:24] INFO root fetch - main [MainThread]: End processing [githubinformer]: success
+[2024-05-20 15:16:24] INFO root fetch - processPackages [blues-lib]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-20 15:16:24] INFO root fetch - processPackages [cbrkit]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 15:16:24] INFO root fetch - processPackages [Html-Flask-Install]: New version: [0.1.1] Old Version: [0.0.1]
+[2024-05-20 15:16:24] INFO root fetch - processPackages [pycgs]: Remove: archive file [/home/abi/fetcher/tmp/pycgs-1.0.0.tar.gz]
+[2024-05-20 15:16:24] INFO root fetch - processPackages [pycgs]: Remove: archive file [/home/abi/fetcher/tmp/pycgs-1.0.1.tar.gz]
+[2024-05-20 15:16:24] INFO root fetch - main [MainThread]: End processing [pycgs]: success
+[2024-05-20 15:16:24] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/50/16/975c7a30228267251fedbc0fe991e6f96f5313f614ea886ebd9848d1bfc3/blues_lib-1.1.8.tar.gz
+[2024-05-20 15:16:24] INFO root fetch - processPackages [hugr]: Remove: archive file [/home/abi/fetcher/tmp/hugr-0.2.0a1.tar.gz]
+[2024-05-20 15:16:24] INFO root fetch - processPackages [hugr]: Remove: archive file [/home/abi/fetcher/tmp/hugr-0.2.1.tar.gz]
+[2024-05-20 15:16:24] INFO root fetch - main [MainThread]: End processing [hugr]: success
+[2024-05-20 15:16:25] INFO root fetch - processPackages [langtrace-python-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-20 15:16:25] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/93/07/e6ffad28b8c90156f69661779dfd1931fef534201aa6c3de802139189682/th2_data_services-2.0.0.dev9158118525.tar.gz
+[2024-05-20 15:16:25] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.98.tar.gz]
+[2024-05-20 15:16:25] INFO root fetch - processPackages [matematikk]: Remove: archive file [/home/abi/fetcher/tmp/matematikk-0.0.99.tar.gz]
+[2024-05-20 15:16:25] INFO root fetch - main [MainThread]: End processing [matematikk]: success
+[2024-05-20 15:16:25] INFO root fetch - processPackages [cbrkit]: Downloading https://files.pythonhosted.org/packages/55/ad/9dd96a108131c3384b68b3752ffcec0deb4761273e21ef1970a37a188642/cbrkit-0.9.0.tar.gz
+[2024-05-20 15:16:25] INFO root fetch - processPackages [Html-Flask-Install]: Downloading https://files.pythonhosted.org/packages/5c/03/00f0570fec0c24f539ac644ceb299a613881f41d6525f335a63f6c583289/html_flask_install-0.0.1.tar.gz
+[2024-05-20 15:16:25] INFO root fetch - processPackages [simplebox]: Remove: archive file [/home/abi/fetcher/tmp/simplebox-0.0.1a208-py3-none-any.whl.zip]
+[2024-05-20 15:16:25] INFO root fetch - processPackages [simplebox]: Remove: archive file [/home/abi/fetcher/tmp/simplebox-0.0.1a209-py3-none-any.whl.zip]
+[2024-05-20 15:16:25] INFO root fetch - main [MainThread]: End processing [simplebox]: success
+[2024-05-20 15:16:25] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/64/4c/b37bdd30e913905227cf3085ef64b3b8382dd95843df82a7577ff36813a8/blues_lib-1.1.9.tar.gz
+[2024-05-20 15:16:25] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2024-05-20 15:16:25] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev9113174303.tar.gz tmp/th2_data_services-2.0.0.dev9158118525.tar.gz --markdown 20240520/t/th2-data-services/2.0.0.dev9113174303-2.0.0.dev9158118525/README.md --exclude *.pyd
+[2024-05-20 15:16:25] INFO root fetch - processPackages [blues-lib]: executing diffoscope
+[2024-05-20 15:16:25] INFO root fetch - processPackages [blues-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blues_lib-1.1.8.tar.gz tmp/blues_lib-1.1.9.tar.gz --markdown 20240520/b/blues-lib/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-20 15:16:25] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/2b/0d/ef4f5b082cceffea74aad992b042f07bfba16372afbf15f3314b03c2cc05/langtrace_python_sdk-2.0.8.tar.gz
+[2024-05-20 15:16:25] INFO root fetch - processPackages [Html-Flask-Install]: Downloading https://files.pythonhosted.org/packages/e1/ba/3102076b8e8b3bbc05778521bebe91d320640f4c293a91b854214439c1c6/html_flask_install-0.1.1.tar.gz
+[2024-05-20 15:16:25] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.19-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-20 15:16:25] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.20-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-20 15:16:25] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2024-05-20 15:16:25] INFO root fetch - processPackages [cbrkit]: Downloading https://files.pythonhosted.org/packages/25/b8/28463c55fed243cbfe33a4d54c06aca71fe208ce9c3bf13c9f421dbab730/cbrkit-0.9.1.tar.gz
+[2024-05-20 15:16:25] INFO root fetch - processPackages [Html-Flask-Install]: executing diffoscope
+[2024-05-20 15:16:25] INFO root fetch - processPackages [Html-Flask-Install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_flask_install-0.0.1.tar.gz tmp/html_flask_install-0.1.1.tar.gz --markdown 20240520/H/Html-Flask-Install/0.0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-20 15:16:25] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/9d/34/9d8d38f891d35ca35d5cd1e564106e48fe5785bd3f2a4283b64d8bd8d99c/langtrace_python_sdk-2.0.9.tar.gz
+[2024-05-20 15:16:25] INFO root fetch - processPackages [cbrkit]: executing diffoscope
+[2024-05-20 15:16:25] INFO root fetch - processPackages [cbrkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbrkit-0.9.0.tar.gz tmp/cbrkit-0.9.1.tar.gz --markdown 20240520/c/cbrkit/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 15:16:25] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.1.8.tar.gz]
+[2024-05-20 15:16:25] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.1.9.tar.gz]
+[2024-05-20 15:16:25] INFO root fetch - main [MainThread]: End processing [blues-lib]: success
+[2024-05-20 15:16:26] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev9113174303.tar.gz]
+[2024-05-20 15:16:26] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev9158118525.tar.gz]
+[2024-05-20 15:16:26] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2024-05-20 15:16:26] INFO root fetch - processPackages [Html-Flask-Install]: Remove: archive file [/home/abi/fetcher/tmp/html_flask_install-0.0.1.tar.gz]
+[2024-05-20 15:16:26] INFO root fetch - processPackages [Html-Flask-Install]: Remove: archive file [/home/abi/fetcher/tmp/html_flask_install-0.1.1.tar.gz]
+[2024-05-20 15:16:26] INFO root fetch - main [MainThread]: End processing [Html-Flask-Install]: success
+[2024-05-20 15:16:26] INFO root fetch - processPackages [langtrace-python-sdk]: executing diffoscope
+[2024-05-20 15:16:26] INFO root fetch - processPackages [langtrace-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langtrace_python_sdk-2.0.8.tar.gz tmp/langtrace_python_sdk-2.0.9.tar.gz --markdown 20240520/l/langtrace-python-sdk/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-20 15:16:26] INFO root fetch - processPackages [cbrkit]: Remove: archive file [/home/abi/fetcher/tmp/cbrkit-0.9.0.tar.gz]
+[2024-05-20 15:16:26] INFO root fetch - processPackages [cbrkit]: Remove: archive file [/home/abi/fetcher/tmp/cbrkit-0.9.1.tar.gz]
+[2024-05-20 15:16:26] INFO root fetch - main [MainThread]: End processing [cbrkit]: success
+[2024-05-20 15:16:27] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-2.0.8.tar.gz]
+[2024-05-20 15:16:27] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-2.0.9.tar.gz]
+[2024-05-20 15:16:27] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
+[2024-05-20 15:16:27] INFO root fetch - main [MainThread]: Store serial: [23290126]

@@ -4786,3 +4786,24 @@
 [2024-05-20 04:09:56] INFO root fetch - processPackages [shuttleasgi]: Remove: archive file [/home/abi/fetcher/tmp/shuttleasgi-3.0.5-cp312-cp312-win_amd64.whl.zip]
 [2024-05-20 04:09:56] INFO root fetch - main [MainThread]: End processing [shuttleasgi]: success
 [2024-05-20 04:09:56] INFO root fetch - main [MainThread]: Store serial: [23283692]
+[2024-05-20 04:12:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283692]
+[2024-05-20 04:12:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 04:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autora-experiment-runner-firebase-prolific
+[2024-05-20 04:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stefutils
+[2024-05-20 04:12:05] INFO root fetch - processPackages [stefutils]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-20 04:12:05] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/35/8a/1e1d14788f07a9e2f1f826ff7ed0782d942b144ca6bdd3e7aba10d88d63c/stefutils-0.8.2.tar.gz
+[2024-05-20 04:12:05] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: New version: [1.0.0b5] Old Version: [1.0.0b4]
+[2024-05-20 04:12:05] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Downloading https://files.pythonhosted.org/packages/76/b4/8ae65d3dc37486eff1a192a4735c3f407c6ac08950c09f445b2827779a34/autora_experiment_runner_firebase_prolific-1.0.0b4.tar.gz
+[2024-05-20 04:12:05] INFO root fetch - processPackages [stefutils]: Downloading https://files.pythonhosted.org/packages/97/83/18c4d714dca8e70776fec14f20e075956fd6a82321ac6df03f78534d47eb/stefutils-0.9.0.tar.gz
+[2024-05-20 04:12:05] INFO root fetch - processPackages [stefutils]: executing diffoscope
+[2024-05-20 04:12:05] INFO root fetch - processPackages [stefutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stefutils-0.8.2.tar.gz tmp/stefutils-0.9.0.tar.gz --markdown 20240520/s/stefutils/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-20 04:12:06] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Downloading https://files.pythonhosted.org/packages/09/76/0a33d9ef9cdcc30f25d59be1044222dc7e8453b965c47b0e8db23bc3714a/autora_experiment_runner_firebase_prolific-1.0.0b5.tar.gz
+[2024-05-20 04:12:06] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: executing diffoscope
+[2024-05-20 04:12:06] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora_experiment_runner_firebase_prolific-1.0.0b4.tar.gz tmp/autora_experiment_runner_firebase_prolific-1.0.0b5.tar.gz --markdown 20240520/a/autora-experiment-runner-firebase-prolific/1.0.0b4-1.0.0b5/README.md --exclude *.pyd
+[2024-05-20 04:12:06] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.8.2.tar.gz]
+[2024-05-20 04:12:06] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
+[2024-05-20 04:12:06] INFO root fetch - main [MainThread]: End processing [stefutils]: success
+[2024-05-20 04:12:06] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_firebase_prolific-1.0.0b4.tar.gz]
+[2024-05-20 04:12:06] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_firebase_prolific-1.0.0b5.tar.gz]
+[2024-05-20 04:12:06] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-firebase-prolific]: success
+[2024-05-20 04:12:06] INFO root fetch - main [MainThread]: Store serial: [23283697]

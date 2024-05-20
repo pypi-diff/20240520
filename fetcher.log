@@ -12328,3 +12328,68 @@
 [2024-05-20 11:25:28] INFO root fetch - processPackages [qase-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/qase_robotframework-3.0.0b2.tar.gz]
 [2024-05-20 11:25:28] INFO root fetch - main [MainThread]: End processing [qase-robotframework]: success
 [2024-05-20 11:25:28] INFO root fetch - main [MainThread]: Store serial: [23287498]
+[2024-05-20 11:27:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287498]
+[2024-05-20 11:27:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 11:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mad-notifications
+[2024-05-20 11:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meshlib
+[2024-05-20 11:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datatransfer-client
+[2024-05-20 11:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyslth
+[2024-05-20 11:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smev-agent-client
+[2024-05-20 11:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wow-tello
+[2024-05-20 11:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pipy-test-xiaoqiang
+[2024-05-20 11:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eralchemy2
+[2024-05-20 11:27:37] INFO root fetch - processPackages [mad-notifications]: New version: [2.2.3] Old Version: [2.2.2]
+[2024-05-20 11:27:37] INFO root fetch - processPackages [pyslth]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-20 11:27:37] INFO root fetch - processPackages [pipy-test-xiaoqiang]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-20 11:27:37] INFO root fetch - processPackages [mad-notifications]: Downloading https://files.pythonhosted.org/packages/69/b8/40fd547ee24b05215e548d2d4ac3a2021b0a49a1a0f2dca04114e3b899c6/mad_notifications-2.2.2.tar.gz
+[2024-05-20 11:27:37] INFO root fetch - processPackages [smev-agent-client]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-20 11:27:37] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/50/40/911a72c7805ab0a84b4bf4b3acc823d6c15259848526f659f9102558594a/pyslth-0.4.2.tar.gz
+[2024-05-20 11:27:37] INFO root fetch - processPackages [datatransfer-client]: New version: [2.10.9] Old Version: [2.10.8]
+[2024-05-20 11:27:37] INFO root fetch - processPackages [pipy-test-xiaoqiang]: Downloading https://files.pythonhosted.org/packages/eb/90/f7acb2ff05b44352de6cd2a41023db42d2092962cce8793cc3b65c76cb12/pipy-test-xiaoqiang-1.0.1.tar.gz
+[2024-05-20 11:27:37] INFO root fetch - processPackages [meshlib]: New version: [2.4.1.172] Old Version: [2.4.1.114]
+[2024-05-20 11:27:37] INFO root fetch - processPackages [eralchemy2]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-20 11:27:37] WARNING root fetch - processPackages [wow-tello]: Skipping, unable to determine old version
+[2024-05-20 11:27:37] INFO root fetch - main [MainThread]: End processing [wow-tello] error
+[2024-05-20 11:27:37] INFO root fetch - processPackages [datatransfer-client]: Downloading https://files.pythonhosted.org/packages/e7/37/7cea7e2ef14b9c66ed6cd4ade5c108f725c10aaf513249b15f5711ce25e3/datatransfer_client-2.10.8.tar.gz
+[2024-05-20 11:27:37] INFO root fetch - processPackages [smev-agent-client]: Downloading https://files.pythonhosted.org/packages/d7/75/ff9155d4589d1229ebfb8916ce236f27ed4137221b2ca47a72395735409f/smev-agent-client-0.2.3.tar.gz
+[2024-05-20 11:27:37] INFO root fetch - processPackages [mad-notifications]: Downloading https://files.pythonhosted.org/packages/15/4f/b2c17390ce5fd0f913ca24d584ba5314877f2799257c426fc059e99ad9f5/mad_notifications-2.2.3.tar.gz
+[2024-05-20 11:27:37] INFO root fetch - processPackages [meshlib]: Downloading https://files.pythonhosted.org/packages/91/c8/ba459753f3e2cb8d167505dc7df66a1ba6f42531912f8bbd78591b4fd41a/meshlib-2.4.1.114-cp39-none-win_amd64.whl
+[2024-05-20 11:27:37] INFO root fetch - processPackages [eralchemy2]: Downloading https://files.pythonhosted.org/packages/67/bf/164de5e0cae2cc25a43503b589542493b198471af6019755e8fed65e9a82/eralchemy2-1.4.0.tar.gz
+[2024-05-20 11:27:37] INFO root fetch - processPackages [pipy-test-xiaoqiang]: Downloading https://files.pythonhosted.org/packages/7e/68/991da0a39f5c1d7c78fb6f7739d19d9a9af70b8d860279732bc38b0e9119/pipy-test-xiaoqiang-1.1.0.tar.gz
+[2024-05-20 11:27:37] INFO root fetch - processPackages [mad-notifications]: executing diffoscope
+[2024-05-20 11:27:37] INFO root fetch - processPackages [mad-notifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mad_notifications-2.2.2.tar.gz tmp/mad_notifications-2.2.3.tar.gz --markdown 20240520/m/mad-notifications/2.2.2-2.2.3/README.md --exclude *.pyd
+[2024-05-20 11:27:38] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/9e/30/2c51c79168d1dfce4e12bcfcbf365d3e78475e18e2e8ff78184e35b73068/pyslth-0.4.3.tar.gz
+[2024-05-20 11:27:38] INFO root fetch - processPackages [pipy-test-xiaoqiang]: executing diffoscope
+[2024-05-20 11:27:38] INFO root fetch - processPackages [pipy-test-xiaoqiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipy-test-xiaoqiang-1.0.1.tar.gz tmp/pipy-test-xiaoqiang-1.1.0.tar.gz --markdown 20240520/p/pipy-test-xiaoqiang/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-20 11:27:38] INFO root fetch - processPackages [datatransfer-client]: Downloading https://files.pythonhosted.org/packages/36/17/3b6fcc3e0a475fb85594fe1e0ef1fda4dc48203d2b7f050b9c5966923b14/datatransfer_client-2.10.9.tar.gz
+[2024-05-20 11:27:38] INFO root fetch - processPackages [smev-agent-client]: Downloading https://files.pythonhosted.org/packages/3e/33/381924703b64d18b852cbd119c80f2a95b0f30a86d450603b884f3b8c15c/smev-agent-client-0.2.4.tar.gz
+[2024-05-20 11:27:38] INFO root fetch - processPackages [pyslth]: executing diffoscope
+[2024-05-20 11:27:38] INFO root fetch - processPackages [pyslth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslth-0.4.2.tar.gz tmp/pyslth-0.4.3.tar.gz --markdown 20240520/p/pyslth/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-20 11:27:38] INFO root fetch - processPackages [datatransfer-client]: executing diffoscope
+[2024-05-20 11:27:38] INFO root fetch - processPackages [datatransfer-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatransfer_client-2.10.8.tar.gz tmp/datatransfer_client-2.10.9.tar.gz --markdown 20240520/d/datatransfer-client/2.10.8-2.10.9/README.md --exclude *.pyd
+[2024-05-20 11:27:38] INFO root fetch - processPackages [eralchemy2]: Downloading https://files.pythonhosted.org/packages/29/b2/192f1f9b0eebd0169549e291bb9ca1b522636c48b530af655524e2a20896/eralchemy2-1.4.1-py3-none-any.whl
+[2024-05-20 11:27:38] WARNING root fetch - processPackages [meshlib]: Skipping package: exceeds size limit 26365150>=10485760
+[2024-05-20 11:27:38] INFO root fetch - main [MainThread]: End processing [meshlib] error
+[2024-05-20 11:27:38] INFO root fetch - processPackages [smev-agent-client]: executing diffoscope
+[2024-05-20 11:27:38] INFO root fetch - processPackages [smev-agent-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smev-agent-client-0.2.3.tar.gz tmp/smev-agent-client-0.2.4.tar.gz --markdown 20240520/s/smev-agent-client/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-20 11:27:38] INFO root fetch - processPackages [pipy-test-xiaoqiang]: Remove: archive file [/home/abi/fetcher/tmp/pipy-test-xiaoqiang-1.0.1.tar.gz]
+[2024-05-20 11:27:38] INFO root fetch - processPackages [pipy-test-xiaoqiang]: Remove: archive file [/home/abi/fetcher/tmp/pipy-test-xiaoqiang-1.1.0.tar.gz]
+[2024-05-20 11:27:38] INFO root fetch - main [MainThread]: End processing [pipy-test-xiaoqiang]: success
+[2024-05-20 11:27:38] INFO root fetch - processPackages [mad-notifications]: Remove: archive file [/home/abi/fetcher/tmp/mad_notifications-2.2.2.tar.gz]
+[2024-05-20 11:27:38] INFO root fetch - processPackages [mad-notifications]: Remove: archive file [/home/abi/fetcher/tmp/mad_notifications-2.2.3.tar.gz]
+[2024-05-20 11:27:38] INFO root fetch - main [MainThread]: End processing [mad-notifications]: success
+[2024-05-20 11:27:38] INFO root fetch - processPackages [eralchemy2]: executing diffoscope
+[2024-05-20 11:27:38] INFO root fetch - processPackages [eralchemy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eralchemy2-1.4.0.tar.gz tmp/eralchemy2-1.4.1-py3-none-any.whl.zip --markdown 20240520/e/eralchemy2/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-20 11:27:39] INFO root fetch - processPackages [smev-agent-client]: Remove: archive file [/home/abi/fetcher/tmp/smev-agent-client-0.2.3.tar.gz]
+[2024-05-20 11:27:39] INFO root fetch - processPackages [smev-agent-client]: Remove: archive file [/home/abi/fetcher/tmp/smev-agent-client-0.2.4.tar.gz]
+[2024-05-20 11:27:39] INFO root fetch - main [MainThread]: End processing [smev-agent-client]: success
+[2024-05-20 11:27:39] INFO root fetch - processPackages [datatransfer-client]: Remove: archive file [/home/abi/fetcher/tmp/datatransfer_client-2.10.8.tar.gz]
+[2024-05-20 11:27:39] INFO root fetch - processPackages [datatransfer-client]: Remove: archive file [/home/abi/fetcher/tmp/datatransfer_client-2.10.9.tar.gz]
+[2024-05-20 11:27:39] INFO root fetch - main [MainThread]: End processing [datatransfer-client]: success
+[2024-05-20 11:27:39] INFO root fetch - processPackages [eralchemy2]: Remove: archive file [/home/abi/fetcher/tmp/eralchemy2-1.4.0.tar.gz]
+[2024-05-20 11:27:39] INFO root fetch - processPackages [eralchemy2]: Remove: archive file [/home/abi/fetcher/tmp/eralchemy2-1.4.1-py3-none-any.whl.zip]
+[2024-05-20 11:27:39] INFO root fetch - main [MainThread]: End processing [eralchemy2]: success
+[2024-05-20 11:27:39] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.2.tar.gz]
+[2024-05-20 11:27:39] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.4.3.tar.gz]
+[2024-05-20 11:27:39] INFO root fetch - main [MainThread]: End processing [pyslth]: success
+[2024-05-20 11:27:39] INFO root fetch - main [MainThread]: Store serial: [23287537]

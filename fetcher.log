@@ -9703,3 +9703,59 @@
 [2024-05-20 09:41:55] INFO root fetch - processPackages [pyoomph]: Remove: archive file [/home/abi/fetcher/tmp/pyoomph-0.1.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-20 09:41:55] INFO root fetch - main [MainThread]: End processing [pyoomph]: success
 [2024-05-20 09:41:55] INFO root fetch - main [MainThread]: Store serial: [23286417]
+[2024-05-20 09:43:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286417]
+[2024-05-20 09:44:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 09:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Flask-App-Install
+[2024-05-20 09:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metar-taf-parser-mivek
+[2024-05-20 09:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zfx
+[2024-05-20 09:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: solox
+[2024-05-20 09:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jcvi
+[2024-05-20 09:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docmesh-core
+[2024-05-20 09:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2024-05-20 09:44:04] INFO root fetch - processPackages [jcvi]: New version: [1.4.5] Old Version: [1.4.2]
+[2024-05-20 09:44:04] INFO root fetch - processPackages [docmesh-core]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-20 09:44:04] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 09:44:04] INFO root fetch - processPackages [metar-taf-parser-mivek]: New version: [1.9.0] Old Version: [1.8.2]
+[2024-05-20 09:44:04] WARNING root fetch - processPackages [Flask-App-Install]: Skipping, unable to determine old version
+[2024-05-20 09:44:04] INFO root fetch - main [MainThread]: End processing [Flask-App-Install] error
+[2024-05-20 09:44:04] INFO root fetch - processPackages [solox]: New version: [2.9.0] Old Version: [2.8.9]
+[2024-05-20 09:44:04] INFO root fetch - processPackages [cg]: New version: [60.7.9] Old Version: [60.7.8]
+[2024-05-20 09:44:04] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-20 09:44:04] INFO root fetch - processPackages [jcvi]: Downloading https://files.pythonhosted.org/packages/b1/01/b730e94b778d678e7244ee6d77ca9aaa6871f2841b4263fc937cae211af6/jcvi-1.4.2.tar.gz
+[2024-05-20 09:44:04] INFO root fetch - processPackages [metar-taf-parser-mivek]: Downloading https://files.pythonhosted.org/packages/ac/53/bfbcdef82d6d3dfe611841b1732a2e422358f1e5183a327fd4675c402fa9/metar-taf-parser-mivek-1.8.2.tar.gz
+[2024-05-20 09:44:04] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/b3/48/a98c6e656ac0fc84685030b255bd447dc3cda2dec3fde235450ef5cc71c2/docmesh_core-0.0.5.tar.gz
+[2024-05-20 09:44:04] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/44/4c/2c6765cf909b3cf89d94a9f9f15ebc4762df0f315a7e114363bf0635bf61/cg-60.7.8.tar.gz
+[2024-05-20 09:44:04] INFO root fetch - processPackages [solox]: Downloading https://files.pythonhosted.org/packages/08/b6/2501126fb17899987fef82a4955176aeb3436c0212444b5edbb050f4c7ce/solox-2.8.9.tar.gz
+[2024-05-20 09:44:04] WARNING root fetch - processPackages [solox]: Skipping package: exceeds size limit 17366160>=10485760
+[2024-05-20 09:44:04] INFO root fetch - main [MainThread]: End processing [solox] error
+[2024-05-20 09:44:04] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-20 09:44:04] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/b7/b8/9ec822e449d4d2ae83cb0a25e163b1fe7f4550ae8ef73e0eb860a0cfff5d/docmesh_core-0.0.6.tar.gz
+[2024-05-20 09:44:04] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-20 09:44:04] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240520/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 09:44:04] INFO root fetch - processPackages [metar-taf-parser-mivek]: Downloading https://files.pythonhosted.org/packages/23/f8/5f1b31b1094e71af002874d8ce4955ce1fce62f4d421baf45fd587d02c34/metar_taf_parser_mivek-1.9.0.tar.gz
+[2024-05-20 09:44:04] INFO root fetch - processPackages [jcvi]: Downloading https://files.pythonhosted.org/packages/3b/c7/8f87e09c1bc53218c88e3cbd40b736a113062e49e0ba98afc3c204ac19b0/jcvi-1.4.5.tar.gz
+[2024-05-20 09:44:04] INFO root fetch - processPackages [docmesh-core]: executing diffoscope
+[2024-05-20 09:44:04] INFO root fetch - processPackages [docmesh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_core-0.0.5.tar.gz tmp/docmesh_core-0.0.6.tar.gz --markdown 20240520/d/docmesh-core/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-20 09:44:05] INFO root fetch - processPackages [metar-taf-parser-mivek]: executing diffoscope
+[2024-05-20 09:44:05] INFO root fetch - processPackages [metar-taf-parser-mivek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metar-taf-parser-mivek-1.8.2.tar.gz tmp/metar_taf_parser_mivek-1.9.0.tar.gz --markdown 20240520/m/metar-taf-parser-mivek/1.8.2-1.9.0/README.md --exclude *.pyd
+[2024-05-20 09:44:05] INFO root fetch - processPackages [jcvi]: executing diffoscope
+[2024-05-20 09:44:05] INFO root fetch - processPackages [jcvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcvi-1.4.2.tar.gz tmp/jcvi-1.4.5.tar.gz --markdown 20240520/j/jcvi/1.4.2-1.4.5/README.md --exclude *.pyd
+[2024-05-20 09:44:05] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/38/e3ff082487603f9b23877cfe7185b58a21cb7763a1d8c0ea38640ffb90ea/cg-60.7.9-py3-none-any.whl
+[2024-05-20 09:44:05] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-20 09:44:05] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-20 09:44:05] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-20 09:44:05] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.5.tar.gz]
+[2024-05-20 09:44:05] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.6.tar.gz]
+[2024-05-20 09:44:05] INFO root fetch - main [MainThread]: End processing [docmesh-core]: success
+[2024-05-20 09:44:05] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-20 09:44:05] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.8.tar.gz tmp/cg-60.7.9-py3-none-any.whl.zip --markdown 20240520/c/cg/60.7.8-60.7.9/README.md --exclude *.pyd
+[2024-05-20 09:44:05] INFO root fetch - processPackages [metar-taf-parser-mivek]: Remove: archive file [/home/abi/fetcher/tmp/metar-taf-parser-mivek-1.8.2.tar.gz]
+[2024-05-20 09:44:05] INFO root fetch - processPackages [metar-taf-parser-mivek]: Remove: archive file [/home/abi/fetcher/tmp/metar_taf_parser_mivek-1.9.0.tar.gz]
+[2024-05-20 09:44:05] INFO root fetch - main [MainThread]: End processing [metar-taf-parser-mivek]: success
+[2024-05-20 09:44:06] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.2.tar.gz]
+[2024-05-20 09:44:06] INFO root fetch - processPackages [jcvi]: Remove: archive file [/home/abi/fetcher/tmp/jcvi-1.4.5.tar.gz]
+[2024-05-20 09:44:06] INFO root fetch - main [MainThread]: End processing [jcvi]: success
+[2024-05-20 09:44:07] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.8.tar.gz]
+[2024-05-20 09:44:07] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
+[2024-05-20 09:44:07] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-20 09:44:07] INFO root fetch - main [MainThread]: Store serial: [23286443]

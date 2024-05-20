@@ -18053,3 +18053,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:09:49] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
 [2024-05-20 15:09:49] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
 [2024-05-20 15:09:49] INFO root fetch - main [MainThread]: Store serial: [23290025]
+[2024-05-20 15:11:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290025]
+[2024-05-20 15:11:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 15:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangoldp-energiepartagee
+[2024-05-20 15:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-workflow-sdk
+[2024-05-20 15:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: icm20948
+[2024-05-20 15:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2024-05-20 15:11:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onnxruntime-gpu
+[2024-05-20 15:11:59] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-20 15:11:59] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-20 15:11:59] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/d5/b7/0c32c08fe0b3327878c0d7b7006b46298b3dca469a326a75a439bfd0f0f1/lusid_workflow_sdk-2.1.8.tar.gz
+[2024-05-20 15:11:59] INFO root fetch - processPackages [icm20948]: New version: [1.0.0] Old Version: [0.0.2]
+[2024-05-20 15:11:59] INFO root fetch - processPackages [onnxruntime-gpu]: New version: [1.18.0] Old Version: [1.17.1]
+[2024-05-20 15:11:59] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-20 15:11:59] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-20 15:11:59] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/23/c0/5f5908f038983f29f46a445ed5ff331d6086d5c6cb128e4502bf223fd90b/lusid_workflow_sdk-2.1.9.tar.gz
+[2024-05-20 15:11:59] INFO root fetch - processPackages [icm20948]: Downloading https://files.pythonhosted.org/packages/5f/19/3bc3ca6003a289f1c2db9ecbcbfc655c53e9b18a404cfa069773efed3b72/icm20948-0.0.2.tar.gz
+[2024-05-20 15:11:59] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-20 15:11:59] INFO root fetch - processPackages [onnxruntime-gpu]: Downloading https://files.pythonhosted.org/packages/33/ea/a80be2fc8115b7a2098238180aef81f2fc16eee0e0b06e5691bac45fae13/onnxruntime_gpu-1.17.1-cp39-cp39-win_amd64.whl
+[2024-05-20 15:11:59] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-20 15:11:59] WARNING root fetch - processPackages [onnxruntime-gpu]: Skipping package: exceeds size limit 148639283>=10485760
+[2024-05-20 15:11:59] INFO root fetch - main [MainThread]: End processing [onnxruntime-gpu] error
+[2024-05-20 15:11:59] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-05-20 15:11:59] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.1.8.tar.gz tmp/lusid_workflow_sdk-2.1.9.tar.gz --markdown 20240520/l/lusid-workflow-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-20 15:12:00] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-20 15:12:00] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240520/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-20 15:12:00] INFO root fetch - processPackages [icm20948]: Downloading https://files.pythonhosted.org/packages/a0/ef/4a3a32fcb12f31de4fce45b449151e746d42d684939e001705c3adced725/icm20948-1.0.0.tar.gz
+[2024-05-20 15:12:00] INFO root fetch - processPackages [icm20948]: executing diffoscope
+[2024-05-20 15:12:00] INFO root fetch - processPackages [icm20948]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icm20948-0.0.2.tar.gz tmp/icm20948-1.0.0.tar.gz --markdown 20240520/i/icm20948/0.0.2-1.0.0/README.md --exclude *.pyd
+[2024-05-20 15:12:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-20 15:12:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-20 15:12:00] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240520/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-20 15:12:00] INFO root fetch - processPackages [icm20948]: Remove: archive file [/home/abi/fetcher/tmp/icm20948-0.0.2.tar.gz]
+[2024-05-20 15:12:00] INFO root fetch - processPackages [icm20948]: Remove: archive file [/home/abi/fetcher/tmp/icm20948-1.0.0.tar.gz]
+[2024-05-20 15:12:00] INFO root fetch - main [MainThread]: End processing [icm20948]: success
+[2024-05-20 15:12:00] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-20 15:12:00] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-20 15:12:00] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-20 15:12:00] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.8.tar.gz]
+[2024-05-20 15:12:00] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.9.tar.gz]
+[2024-05-20 15:12:00] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-05-20 15:12:01] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-20 15:12:01] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-20 15:12:01] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-20 15:12:01] INFO root fetch - main [MainThread]: Store serial: [23290042]

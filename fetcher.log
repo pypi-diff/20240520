@@ -12465,3 +12465,15 @@
 [2024-05-20 11:29:51] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
 [2024-05-20 11:29:51] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
 [2024-05-20 11:29:51] INFO root fetch - main [MainThread]: Store serial: [23287568]
+[2024-05-20 11:31:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287568]
+[2024-05-20 11:32:00] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 11:32:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-tools
+[2024-05-20 11:32:00] INFO root fetch - processPackages [langchain-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-20 11:32:00] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/6b/00/163bdee32da39c08882b88ee6983de813905743f23581dbfb76b13a9fe9a/langchain-tools-0.1.5.tar.gz
+[2024-05-20 11:32:00] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/cf/25/9d47cc2c84391ec2938a90838e49ede3e160adac5120144d8052428e063a/langchain-tools-0.1.6.tar.gz
+[2024-05-20 11:32:00] INFO root fetch - processPackages [langchain-tools]: executing diffoscope
+[2024-05-20 11:32:00] INFO root fetch - processPackages [langchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-tools-0.1.5.tar.gz tmp/langchain-tools-0.1.6.tar.gz --markdown 20240520/l/langchain-tools/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-20 11:32:01] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.5.tar.gz]
+[2024-05-20 11:32:01] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.6.tar.gz]
+[2024-05-20 11:32:01] INFO root fetch - main [MainThread]: End processing [langchain-tools]: success
+[2024-05-20 11:32:01] INFO root fetch - main [MainThread]: Store serial: [23287571]

@@ -9679,3 +9679,27 @@
 [2024-05-20 09:39:42] INFO root fetch - processPackages [sovereign]: Remove: archive file [/home/abi/fetcher/tmp/sovereign-0.9.7.tar.gz]
 [2024-05-20 09:39:42] INFO root fetch - main [MainThread]: End processing [sovereign]: success
 [2024-05-20 09:39:42] INFO root fetch - main [MainThread]: Store serial: [23286388]
+[2024-05-20 09:41:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286388]
+[2024-05-20 09:41:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 09:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpg-workflows
+[2024-05-20 09:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyoomph
+[2024-05-20 09:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prehesitatingz
+[2024-05-20 09:41:51] WARNING root fetch - processPackages [prehesitatingz]: Skipping, unable to determine old version
+[2024-05-20 09:41:51] INFO root fetch - main [MainThread]: End processing [prehesitatingz] error
+[2024-05-20 09:41:51] INFO root fetch - processPackages [pyoomph]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-20 09:41:51] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-20 09:41:52] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-05-20 09:41:52] INFO root fetch - processPackages [pyoomph]: Downloading https://files.pythonhosted.org/packages/31/89/46f66e15f23fa7540c42fd365b1882fd691dd5f20c9e71ad259fb8bade53/pyoomph-0.1.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-20 09:41:52] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-05-20 09:41:52] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-05-20 09:41:52] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240520/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-20 09:41:53] INFO root fetch - processPackages [pyoomph]: Downloading https://files.pythonhosted.org/packages/d1/96/993350d45a6f93f2acaee44fe23974018db580bb18be15980ee22b34d3c1/pyoomph-0.1.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-20 09:41:53] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-05-20 09:41:53] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-05-20 09:41:53] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-05-20 09:41:54] INFO root fetch - processPackages [pyoomph]: executing diffoscope
+[2024-05-20 09:41:54] INFO root fetch - processPackages [pyoomph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoomph-0.1.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyoomph-0.1.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240520/p/pyoomph/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-20 09:41:55] INFO root fetch - processPackages [pyoomph]: Remove: archive file [/home/abi/fetcher/tmp/pyoomph-0.1.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-20 09:41:55] INFO root fetch - processPackages [pyoomph]: Remove: archive file [/home/abi/fetcher/tmp/pyoomph-0.1.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-20 09:41:55] INFO root fetch - main [MainThread]: End processing [pyoomph]: success
+[2024-05-20 09:41:55] INFO root fetch - main [MainThread]: Store serial: [23286417]

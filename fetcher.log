@@ -22897,3 +22897,54 @@ EOFError: EOF read where object expected
 [2024-05-20 18:01:17] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.6.2.tar.gz]
 [2024-05-20 18:01:17] INFO root fetch - main [MainThread]: End processing [Red-Web-Dashboard]: success
 [2024-05-20 18:01:17] INFO root fetch - main [MainThread]: Store serial: [23292119]
+[2024-05-20 18:03:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292119]
+[2024-05-20 18:03:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 18:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: servicenow-api
+[2024-05-20 18:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LinguAligner
+[2024-05-20 18:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modern-colorthief
+[2024-05-20 18:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fluvio
+[2024-05-20 18:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchseal
+[2024-05-20 18:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: steedz
+[2024-05-20 18:03:26] INFO root fetch - processPackages [LinguAligner]: New version: [0.9] Old Version: [0.8]
+[2024-05-20 18:03:26] INFO root fetch - processPackages [torchseal]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-20 18:03:26] WARNING root fetch - processPackages [steedz]: Skipping, unable to determine old version
+[2024-05-20 18:03:26] INFO root fetch - main [MainThread]: End processing [steedz] error
+[2024-05-20 18:03:26] INFO root fetch - processPackages [modern-colorthief]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-20 18:03:26] INFO root fetch - processPackages [fluvio]: New version: [0.9.6b3] Old Version: [0.9.6b2]
+[2024-05-20 18:03:26] INFO root fetch - processPackages [servicenow-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-20 18:03:26] INFO root fetch - processPackages [LinguAligner]: Downloading https://files.pythonhosted.org/packages/63/1f/fc1941e3d878f8643898c07bd958b932dd36b3b074928145bb430dfe0a04/lingualigner-0.8.tar.gz
+[2024-05-20 18:03:26] INFO root fetch - processPackages [torchseal]: Downloading https://files.pythonhosted.org/packages/43/14/ec2dab75f2e7972bdbd38f0a45e14ab74e0e7c2385adb1998e20722d4ac7/torchseal-0.1.2.tar.gz
+[2024-05-20 18:03:26] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/2a/96/cc447e9247636a3ca7fe607e05a327a7076f254221c5c20c960f2d6689fd/servicenow_api-0.8.0-py2.py3-none-any.whl
+[2024-05-20 18:03:26] INFO root fetch - processPackages [modern-colorthief]: Downloading https://files.pythonhosted.org/packages/b7/17/4f68c2cfc4a55b2e6ee5067199aa0077e3ae4affe3357eb06b50299340ba/modern_colorthief-0.1.4.tar.gz
+[2024-05-20 18:03:26] INFO root fetch - processPackages [fluvio]: Downloading https://files.pythonhosted.org/packages/2c/67/bbd723943d40166391480c5995c9b6cbfa7694bb91c2f806ddc4ecf18fa5/fluvio-0.9.6b2.tar.gz
+[2024-05-20 18:03:27] INFO root fetch - processPackages [servicenow-api]: Downloading https://files.pythonhosted.org/packages/76/cb/16788288b3e511d9ebf0b67d4e1cd59966bc918931d1953e5f137a9ff712/servicenow_api-0.9.0-py2.py3-none-any.whl
+[2024-05-20 18:03:27] INFO root fetch - processPackages [servicenow-api]: executing diffoscope
+[2024-05-20 18:03:27] INFO root fetch - processPackages [servicenow-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip --markdown 20240520/s/servicenow-api/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-20 18:03:27] INFO root fetch - processPackages [LinguAligner]: Downloading https://files.pythonhosted.org/packages/73/fb/3cad932ad4847785cbae099a96fb2ae5367c5b788dac0deece75b60a9254/lingualigner-0.9.tar.gz
+[2024-05-20 18:03:27] INFO root fetch - processPackages [torchseal]: Downloading https://files.pythonhosted.org/packages/29/e9/3796c2ba59f218ef94e56b7b3352cb5c2ba6800c6942cb64fd6276476fa5/torchseal-0.2.0.tar.gz
+[2024-05-20 18:03:27] INFO root fetch - processPackages [modern-colorthief]: Downloading https://files.pythonhosted.org/packages/98/89/ee79f947899ffc6624e22091ca545eef9bff438b29e66cf42432691b2276/modern_colorthief-0.1.5-pp39-pypy39_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl
+[2024-05-20 18:03:27] INFO root fetch - processPackages [fluvio]: Downloading https://files.pythonhosted.org/packages/58/40/5f4952aa89ee08388f9802782d9c28afe1be06d726eb5e76c5c0d9f8b1a9/fluvio-0.9.6b3.tar.gz
+[2024-05-20 18:03:27] INFO root fetch - processPackages [LinguAligner]: executing diffoscope
+[2024-05-20 18:03:27] INFO root fetch - processPackages [LinguAligner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lingualigner-0.8.tar.gz tmp/lingualigner-0.9.tar.gz --markdown 20240520/L/LinguAligner/0.8-0.9/README.md --exclude *.pyd
+[2024-05-20 18:03:27] INFO root fetch - processPackages [fluvio]: executing diffoscope
+[2024-05-20 18:03:27] INFO root fetch - processPackages [fluvio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluvio-0.9.6b2.tar.gz tmp/fluvio-0.9.6b3.tar.gz --markdown 20240520/f/fluvio/0.9.6b2-0.9.6b3/README.md --exclude *.pyd
+[2024-05-20 18:03:27] INFO root fetch - processPackages [torchseal]: executing diffoscope
+[2024-05-20 18:03:27] INFO root fetch - processPackages [torchseal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchseal-0.1.2.tar.gz tmp/torchseal-0.2.0.tar.gz --markdown 20240520/t/torchseal/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-20 18:03:27] INFO root fetch - processPackages [modern-colorthief]: executing diffoscope
+[2024-05-20 18:03:27] INFO root fetch - processPackages [modern-colorthief]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modern_colorthief-0.1.4.tar.gz tmp/modern_colorthief-0.1.5-pp39-pypy39_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip --markdown 20240520/m/modern-colorthief/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-20 18:03:27] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.8.0-py2.py3-none-any.whl.zip]
+[2024-05-20 18:03:27] INFO root fetch - processPackages [servicenow-api]: Remove: archive file [/home/abi/fetcher/tmp/servicenow_api-0.9.0-py2.py3-none-any.whl.zip]
+[2024-05-20 18:03:27] INFO root fetch - main [MainThread]: End processing [servicenow-api]: success
+[2024-05-20 18:03:28] INFO root fetch - processPackages [LinguAligner]: Remove: archive file [/home/abi/fetcher/tmp/lingualigner-0.8.tar.gz]
+[2024-05-20 18:03:28] INFO root fetch - processPackages [LinguAligner]: Remove: archive file [/home/abi/fetcher/tmp/lingualigner-0.9.tar.gz]
+[2024-05-20 18:03:28] INFO root fetch - main [MainThread]: End processing [LinguAligner]: success
+[2024-05-20 18:03:28] INFO root fetch - processPackages [fluvio]: Remove: archive file [/home/abi/fetcher/tmp/fluvio-0.9.6b2.tar.gz]
+[2024-05-20 18:03:28] INFO root fetch - processPackages [fluvio]: Remove: archive file [/home/abi/fetcher/tmp/fluvio-0.9.6b3.tar.gz]
+[2024-05-20 18:03:28] INFO root fetch - main [MainThread]: End processing [fluvio]: success
+[2024-05-20 18:03:28] INFO root fetch - processPackages [torchseal]: Remove: archive file [/home/abi/fetcher/tmp/torchseal-0.1.2.tar.gz]
+[2024-05-20 18:03:28] INFO root fetch - processPackages [torchseal]: Remove: archive file [/home/abi/fetcher/tmp/torchseal-0.2.0.tar.gz]
+[2024-05-20 18:03:28] INFO root fetch - main [MainThread]: End processing [torchseal]: success
+[2024-05-20 18:03:28] INFO root fetch - processPackages [modern-colorthief]: Remove: archive file [/home/abi/fetcher/tmp/modern_colorthief-0.1.4.tar.gz]
+[2024-05-20 18:03:28] INFO root fetch - processPackages [modern-colorthief]: Remove: archive file [/home/abi/fetcher/tmp/modern_colorthief-0.1.5-pp39-pypy39_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
+[2024-05-20 18:03:28] INFO root fetch - main [MainThread]: End processing [modern-colorthief]: success
+[2024-05-20 18:03:28] INFO root fetch - main [MainThread]: Store serial: [23292172]

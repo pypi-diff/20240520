@@ -6843,3 +6843,27 @@
 [2024-05-20 06:41:10] INFO root fetch - processPackages [mlx-whisper]: Remove: archive file [/home/abi/fetcher/tmp/mlx_whisper-0.1.0.dev0.tar.gz]
 [2024-05-20 06:41:10] INFO root fetch - main [MainThread]: End processing [mlx-whisper]: success
 [2024-05-20 06:41:10] INFO root fetch - main [MainThread]: Store serial: [23284598]
+[2024-05-20 06:43:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284598]
+[2024-05-20 06:43:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 06:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: colalamo
+[2024-05-20 06:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pentetericz
+[2024-05-20 06:43:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deps-manager
+[2024-05-20 06:43:18] INFO root fetch - processPackages [colalamo]: New version: [0.1.2103] Old Version: [0.1.2102]
+[2024-05-20 06:43:18] INFO root fetch - processPackages [colalamo]: Downloading https://files.pythonhosted.org/packages/cb/d0/eb968e858c5374afb79b13cd0297cf140b9f36ef5d17b82756b2aa4139eb/colalamo-0.1.2102.tar.gz
+[2024-05-20 06:43:18] WARNING root fetch - processPackages [pentetericz]: Skipping, unable to determine old version
+[2024-05-20 06:43:18] INFO root fetch - main [MainThread]: End processing [pentetericz] error
+[2024-05-20 06:43:18] INFO root fetch - processPackages [deps-manager]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-20 06:43:18] INFO root fetch - processPackages [deps-manager]: Downloading https://files.pythonhosted.org/packages/6c/6c/18269092fe15d8a68ded765a6246c14610410dda13891df7985469fba1e6/deps-manager-1.0.6.tar.gz
+[2024-05-20 06:43:19] INFO root fetch - processPackages [colalamo]: Downloading https://files.pythonhosted.org/packages/c3/a4/d29fb843c66df312e1679130d3c89a940c0a28dab130e372bc3f70605e69/colalamo-0.1.2103.tar.gz
+[2024-05-20 06:43:19] INFO root fetch - processPackages [colalamo]: executing diffoscope
+[2024-05-20 06:43:19] INFO root fetch - processPackages [colalamo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colalamo-0.1.2102.tar.gz tmp/colalamo-0.1.2103.tar.gz --markdown 20240520/c/colalamo/0.1.2102-0.1.2103/README.md --exclude *.pyd
+[2024-05-20 06:43:19] INFO root fetch - processPackages [deps-manager]: Downloading https://files.pythonhosted.org/packages/87/27/5ca9866bdb5dd23aa2f4f3d18103ce54b521feeba5e5ca6ed7e6c6177cda/deps-manager-1.0.7.tar.gz
+[2024-05-20 06:43:19] INFO root fetch - processPackages [deps-manager]: executing diffoscope
+[2024-05-20 06:43:19] INFO root fetch - processPackages [deps-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deps-manager-1.0.6.tar.gz tmp/deps-manager-1.0.7.tar.gz --markdown 20240520/d/deps-manager/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-20 06:43:19] INFO root fetch - processPackages [colalamo]: Remove: archive file [/home/abi/fetcher/tmp/colalamo-0.1.2102.tar.gz]
+[2024-05-20 06:43:19] INFO root fetch - processPackages [colalamo]: Remove: archive file [/home/abi/fetcher/tmp/colalamo-0.1.2103.tar.gz]
+[2024-05-20 06:43:19] INFO root fetch - main [MainThread]: End processing [colalamo]: success
+[2024-05-20 06:43:19] INFO root fetch - processPackages [deps-manager]: Remove: archive file [/home/abi/fetcher/tmp/deps-manager-1.0.6.tar.gz]
+[2024-05-20 06:43:19] INFO root fetch - processPackages [deps-manager]: Remove: archive file [/home/abi/fetcher/tmp/deps-manager-1.0.7.tar.gz]
+[2024-05-20 06:43:19] INFO root fetch - main [MainThread]: End processing [deps-manager]: success
+[2024-05-20 06:43:19] INFO root fetch - main [MainThread]: Store serial: [23284608]

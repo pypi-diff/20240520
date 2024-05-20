@@ -6930,3 +6930,49 @@
 [2024-05-20 06:48:10] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.3.0rc9.tar.gz]
 [2024-05-20 06:48:10] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
 [2024-05-20 06:48:10] INFO root fetch - main [MainThread]: Store serial: [23284628]
+[2024-05-20 06:50:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284628]
+[2024-05-20 06:50:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 06:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowetl
+[2024-05-20 06:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowkit-jwt-generator
+[2024-05-20 06:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fnschool
+[2024-05-20 06:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blue-plugin
+[2024-05-20 06:50:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blue-plugin
+[2024-05-20 06:50:20] INFO root fetch - processPackages [fnschool]: New version: [20240520.81132.858] Old Version: [20240520.80901.843]
+[2024-05-20 06:50:20] INFO root fetch - processPackages [blue-plugin]: New version: [2.175.1] Old Version: [2.168.1]
+[2024-05-20 06:50:20] INFO root fetch - processPackages [blue-plugin]: New version: [2.175.1] Old Version: [2.168.1]
+[2024-05-20 06:50:20] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/66/24/5baf3e9149b642171310d403b5a683b8847c7dc6a8a555c0d9cba16f97a5/fnschool-20240520.80901.843.tar.gz
+[2024-05-20 06:50:20] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/53/8c/31437f5e80f944da289cdb21e080fa12d94dd653636caf54acf7796562a3/blue_plugin-2.168.1.tar.gz
+[2024-05-20 06:50:20] INFO root fetch - processPackages [flowkit-jwt-generator]: New version: [1.25.0.post0.dev99] Old Version: [1.25.0.post0.dev93]
+[2024-05-20 06:50:20] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/53/8c/31437f5e80f944da289cdb21e080fa12d94dd653636caf54acf7796562a3/blue_plugin-2.168.1.tar.gz
+[2024-05-20 06:50:20] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-20 06:50:20] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/bc/60/2a459e1a59e993c79a8a871ba4e72737e87c66ba3c2fe2a53431cf205b37/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl
+[2024-05-20 06:50:20] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-20 06:50:20] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/ae/2f/847b63dae81786a7699f01b27c1ff9941732cf7fe455fcf891c0b8435285/blue_plugin-2.175.1.tar.gz
+[2024-05-20 06:50:20] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/ae/2f/847b63dae81786a7699f01b27c1ff9941732cf7fe455fcf891c0b8435285/blue_plugin-2.175.1.tar.gz
+[2024-05-20 06:50:20] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/43/8e/0e8179f2985351620a39c4823a7f17d529b2cdd88997082e3b5d1b07a5e9/fnschool-20240520.81132.858.tar.gz
+[2024-05-20 06:50:20] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-20 06:50:20] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-2.168.1.tar.gz tmp/blue_plugin-2.175.1.tar.gz --markdown 20240520/b/blue-plugin/2.168.1-2.175.1/README.md --exclude *.pyd
+[2024-05-20 06:50:20] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-20 06:50:20] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-2.168.1.tar.gz tmp/blue_plugin-2.175.1.tar.gz --markdown 20240520/b/blue-plugin/2.168.1-2.175.1/README.md --exclude *.pyd
+[2024-05-20 06:50:20] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-05-20 06:50:20] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240520.80901.843.tar.gz tmp/fnschool-20240520.81132.858.tar.gz --markdown 20240520/f/fnschool/20240520.80901.843-20240520.81132.858/README.md --exclude *.pyd
+[2024-05-20 06:50:20] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/ff/58/e7691247f32599d16e885a2c995f0f3a654ab3d148c0c48a8e6a8d61c207/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl
+[2024-05-20 06:50:20] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-20 06:50:20] INFO root fetch - processPackages [flowkit-jwt-generator]: executing diffoscope
+[2024-05-20 06:50:20] INFO root fetch - processPackages [flowkit-jwt-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl.zip tmp/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl.zip --markdown 20240520/f/flowkit-jwt-generator/1.25.0.post0.dev93-1.25.0.post0.dev99/README.md --exclude *.pyd
+[2024-05-20 06:50:20] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2024-05-20 06:50:20] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240520/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-20 06:50:21] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-2.168.1.tar.gz]
+[2024-05-20 06:50:21] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-2.175.1.tar.gz]
+[2024-05-20 06:50:21] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-20 06:50:21] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-20 06:50:21] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl.zip]
+[2024-05-20 06:50:21] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl.zip]
+[2024-05-20 06:50:21] INFO root fetch - main [MainThread]: End processing [flowkit-jwt-generator]: success
+[2024-05-20 06:50:21] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-20 06:50:21] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-20 06:50:21] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2024-05-20 06:50:21] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240520.80901.843.tar.gz]
+[2024-05-20 06:50:21] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240520.81132.858.tar.gz]
+[2024-05-20 06:50:21] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-05-20 06:50:21] INFO root fetch - main [MainThread]: Store serial: [23284641]

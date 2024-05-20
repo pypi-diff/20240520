@@ -23158,3 +23158,45 @@ EOFError: EOF read where object expected
 [2024-05-20 18:12:15] INFO root fetch - main [MainThread]: End processing [dartmouth-langchain]: success
 [2024-05-20 18:12:15] INFO root fetch - main [MainThread]: End processing [fol_parser]: success
 [2024-05-20 18:12:15] INFO root fetch - main [MainThread]: Store serial: [23292284]
+[2024-05-20 18:14:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292284]
+[2024-05-20 18:14:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 18:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dashtable2
+[2024-05-20 18:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homoeoticz
+[2024-05-20 18:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lucina
+[2024-05-20 18:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: svsa
+[2024-05-20 18:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xspace-dl
+[2024-05-20 18:14:25] INFO root fetch - processPackages [xspace-dl]: New version: [0.3.1] Old Version: [0.2.26]
+[2024-05-20 18:14:25] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/4e/28/3a5c51c072dcf9209f9d070baa5e5f238e6f9b37046e523ce01d9029cd98/xspace-dl-0.2.26.tar.gz
+[2024-05-20 18:14:25] INFO root fetch - processPackages [lucina]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-20 18:14:25] INFO root fetch - processPackages [svsa]: New version: [0.0.8] Old Version: [0.0.6]
+[2024-05-20 18:14:25] INFO root fetch - processPackages [dashtable2]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-05-20 18:14:25] WARNING root fetch - processPackages [homoeoticz]: Skipping, unable to determine old version
+[2024-05-20 18:14:25] INFO root fetch - main [MainThread]: End processing [homoeoticz] error
+[2024-05-20 18:14:25] INFO root fetch - processPackages [lucina]: Downloading https://files.pythonhosted.org/packages/f3/6e/70a6c8f73486ac91179221d7486a9304d139154db1c0f4bf29b42c42cc25/lucina-1.0.0.tar.gz
+[2024-05-20 18:14:25] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/87/5a/11bf0f2f6fc1e4ca8e5f3c92493bcf003ea852c76177ffa9be80c937a57b/xspace-dl-0.3.1.tar.gz
+[2024-05-20 18:14:25] INFO root fetch - processPackages [dashtable2]: Downloading https://files.pythonhosted.org/packages/f7/fb/b36336b7d8cd4ba2b6d8bc0c021402b25453e237a6d2cf6be5062a30ac22/dashtable2-1.4.5.tar.gz
+[2024-05-20 18:14:25] INFO root fetch - processPackages [xspace-dl]: executing diffoscope
+[2024-05-20 18:14:25] INFO root fetch - processPackages [xspace-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspace-dl-0.2.26.tar.gz tmp/xspace-dl-0.3.1.tar.gz --markdown 20240520/x/xspace-dl/0.2.26-0.3.1/README.md --exclude *.pyd
+[2024-05-20 18:14:25] INFO root fetch - processPackages [svsa]: Downloading https://files.pythonhosted.org/packages/be/d5/d5cac030ca3cad6ed0fac5c05c5806ea1aa049741370026b5c70e756e73a/svsa-0.0.6.tar.gz
+[2024-05-20 18:14:26] INFO root fetch - processPackages [lucina]: Downloading https://files.pythonhosted.org/packages/a1/9e/4b3bdc2cdf18439fc7b48a1db376d0fcdffc821f19bfdf24f742dd911bad/lucina-1.0.1.tar.gz
+[2024-05-20 18:14:26] INFO root fetch - processPackages [dashtable2]: Downloading https://files.pythonhosted.org/packages/15/4d/a9e9f5a131b6bfc9bf0934e6a7c61219ff7e60780ea117b1054c34043d8b/dashtable2-1.4.6.tar.gz
+[2024-05-20 18:14:26] INFO root fetch - processPackages [lucina]: executing diffoscope
+[2024-05-20 18:14:26] INFO root fetch - processPackages [lucina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucina-1.0.0.tar.gz tmp/lucina-1.0.1.tar.gz --markdown 20240520/l/lucina/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-20 18:14:26] INFO root fetch - processPackages [dashtable2]: executing diffoscope
+[2024-05-20 18:14:26] INFO root fetch - processPackages [dashtable2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashtable2-1.4.5.tar.gz tmp/dashtable2-1.4.6.tar.gz --markdown 20240520/d/dashtable2/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-05-20 18:14:26] INFO root fetch - processPackages [svsa]: Downloading https://files.pythonhosted.org/packages/6f/89/eba0ad1ff3506a06fc8ff461a72a73e508dded1b4c131bd433a2115436cd/svsa-0.0.8.tar.gz
+[2024-05-20 18:14:26] INFO root fetch - processPackages [svsa]: executing diffoscope
+[2024-05-20 18:14:26] INFO root fetch - processPackages [svsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svsa-0.0.6.tar.gz tmp/svsa-0.0.8.tar.gz --markdown 20240520/s/svsa/0.0.6-0.0.8/README.md --exclude *.pyd
+[2024-05-20 18:14:26] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.2.26.tar.gz]
+[2024-05-20 18:14:26] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.3.1.tar.gz]
+[2024-05-20 18:14:26] INFO root fetch - main [MainThread]: End processing [xspace-dl]: success
+[2024-05-20 18:14:26] INFO root fetch - processPackages [lucina]: Remove: archive file [/home/abi/fetcher/tmp/lucina-1.0.0.tar.gz]
+[2024-05-20 18:14:26] INFO root fetch - processPackages [lucina]: Remove: archive file [/home/abi/fetcher/tmp/lucina-1.0.1.tar.gz]
+[2024-05-20 18:14:26] INFO root fetch - main [MainThread]: End processing [lucina]: success
+[2024-05-20 18:14:26] INFO root fetch - processPackages [dashtable2]: Remove: archive file [/home/abi/fetcher/tmp/dashtable2-1.4.5.tar.gz]
+[2024-05-20 18:14:26] INFO root fetch - processPackages [dashtable2]: Remove: archive file [/home/abi/fetcher/tmp/dashtable2-1.4.6.tar.gz]
+[2024-05-20 18:14:26] INFO root fetch - main [MainThread]: End processing [dashtable2]: success
+[2024-05-20 18:14:26] INFO root fetch - processPackages [svsa]: Remove: archive file [/home/abi/fetcher/tmp/svsa-0.0.6.tar.gz]
+[2024-05-20 18:14:26] INFO root fetch - processPackages [svsa]: Remove: archive file [/home/abi/fetcher/tmp/svsa-0.0.8.tar.gz]
+[2024-05-20 18:14:26] INFO root fetch - main [MainThread]: End processing [svsa]: success
+[2024-05-20 18:14:26] INFO root fetch - main [MainThread]: Store serial: [23292299]

@@ -4723,3 +4723,15 @@
 [2024-05-20 04:05:36] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b9.tar.gz]
 [2024-05-20 04:05:36] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-recruitment-manager-prolific]: success
 [2024-05-20 04:05:36] INFO root fetch - main [MainThread]: Store serial: [23283671]
+[2024-05-20 04:07:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283671]
+[2024-05-20 04:07:45] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 04:07:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmticket
+[2024-05-20 04:07:45] INFO root fetch - processPackages [tmticket]: New version: [0.2.2] Old Version: [0.2.12]
+[2024-05-20 04:07:45] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/c1/0a/b843bd05c5049fefc43f7814a5dadbd3adbf77cf76031417ec1dfa7a9408/tmticket-0.2.12.tar.gz
+[2024-05-20 04:07:45] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/14/24/d9b4e8fa75d1188e9a793c4a4910d44ca119f97ff0b3779a448274e8c3fd/tmticket-0.2.2.tar.gz
+[2024-05-20 04:07:45] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-20 04:07:45] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.2.12.tar.gz tmp/tmticket-0.2.2.tar.gz --markdown 20240520/t/tmticket/0.2.12-0.2.2/README.md --exclude *.pyd
+[2024-05-20 04:07:46] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.12.tar.gz]
+[2024-05-20 04:07:46] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.2.tar.gz]
+[2024-05-20 04:07:46] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-20 04:07:46] INFO root fetch - main [MainThread]: Store serial: [23283674]

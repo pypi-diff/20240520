@@ -7673,3 +7673,27 @@
 [2024-05-20 07:43:35] INFO root fetch - processPackages [nqrduck-spectrometer]: Remove: archive file [/home/abi/fetcher/tmp/nqrduck_spectrometer-0.0.9.tar.gz]
 [2024-05-20 07:43:35] INFO root fetch - main [MainThread]: End processing [nqrduck-spectrometer]: success
 [2024-05-20 07:43:35] INFO root fetch - main [MainThread]: Store serial: [23285102]
+[2024-05-20 07:45:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285102]
+[2024-05-20 07:45:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 07:45:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: defamationz
+[2024-05-20 07:45:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dprdp
+[2024-05-20 07:45:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nfinance
+[2024-05-20 07:45:44] INFO root fetch - processPackages [dprdp]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 07:45:44] INFO root fetch - processPackages [dprdp]: Downloading https://files.pythonhosted.org/packages/df/af/8adf7ffea922b7c338d364b4985aa711dad35065006f8bafe217cabf9e64/dprdp-0.1.0.tar.gz
+[2024-05-20 07:45:44] INFO root fetch - processPackages [nfinance]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-20 07:45:44] WARNING root fetch - processPackages [defamationz]: Skipping, unable to determine old version
+[2024-05-20 07:45:44] INFO root fetch - main [MainThread]: End processing [defamationz] error
+[2024-05-20 07:45:44] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/f5/44/c4489b0eb0a85e7f5f9912039adbd947487adf8db2c336d27ca5b4a25b74/nfinance-0.2.0-py3-none-any.whl
+[2024-05-20 07:45:44] INFO root fetch - processPackages [dprdp]: Downloading https://files.pythonhosted.org/packages/d5/ad/dae9e320fd3f3f38ca32e89ea7b49a8d037ccd402a194876ca7a51059691/dprdp-0.1.1.tar.gz
+[2024-05-20 07:45:44] INFO root fetch - processPackages [dprdp]: executing diffoscope
+[2024-05-20 07:45:44] INFO root fetch - processPackages [dprdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dprdp-0.1.0.tar.gz tmp/dprdp-0.1.1.tar.gz --markdown 20240520/d/dprdp/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 07:45:44] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/93/bc/83f0f652e8673abb6ad96bff429a4efa7545c379f731ca8f1a314f0c3f9d/nfinance-0.3.0-py3-none-any.whl
+[2024-05-20 07:45:44] INFO root fetch - processPackages [nfinance]: executing diffoscope
+[2024-05-20 07:45:44] INFO root fetch - processPackages [nfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfinance-0.2.0-py3-none-any.whl.zip tmp/nfinance-0.3.0-py3-none-any.whl.zip --markdown 20240520/n/nfinance/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-20 07:45:45] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.2.0-py3-none-any.whl.zip]
+[2024-05-20 07:45:45] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.3.0-py3-none-any.whl.zip]
+[2024-05-20 07:45:45] INFO root fetch - main [MainThread]: End processing [nfinance]: success
+[2024-05-20 07:45:45] INFO root fetch - processPackages [dprdp]: Remove: archive file [/home/abi/fetcher/tmp/dprdp-0.1.0.tar.gz]
+[2024-05-20 07:45:45] INFO root fetch - processPackages [dprdp]: Remove: archive file [/home/abi/fetcher/tmp/dprdp-0.1.1.tar.gz]
+[2024-05-20 07:45:45] INFO root fetch - main [MainThread]: End processing [dprdp]: success
+[2024-05-20 07:45:45] INFO root fetch - main [MainThread]: Store serial: [23285111]

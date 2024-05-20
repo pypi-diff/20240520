@@ -4418,3 +4418,36 @@
 [2024-05-20 03:47:24] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev9.tar.gz]
 [2024-05-20 03:47:24] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
 [2024-05-20 03:47:24] INFO root fetch - main [MainThread]: Store serial: [23283460]
+[2024-05-20 03:49:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283460]
+[2024-05-20 03:49:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 03:49:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opentldr
+[2024-05-20 03:49:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmticket
+[2024-05-20 03:49:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: platitudinalz
+[2024-05-20 03:49:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypomes-logging
+[2024-05-20 03:49:32] WARNING root fetch - processPackages [platitudinalz]: Skipping, unable to determine old version
+[2024-05-20 03:49:32] INFO root fetch - main [MainThread]: End processing [platitudinalz] error
+[2024-05-20 03:49:32] INFO root fetch - processPackages [pypomes-logging]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 03:49:32] INFO root fetch - processPackages [tmticket]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-20 03:49:32] INFO root fetch - processPackages [opentldr]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-20 03:49:32] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/4d/ad/10176fb37696e1e436dbd0d92278ddec176d2dc1124bea268a90a58aa4ba/tmticket-0.2.8.tar.gz
+[2024-05-20 03:49:32] INFO root fetch - processPackages [opentldr]: Downloading https://files.pythonhosted.org/packages/3f/ab/526d8332eecd7ac243511f5ed3b97de94fa7e6219331fcc10102f362c17c/opentldr-0.5.1.tar.gz
+[2024-05-20 03:49:32] INFO root fetch - processPackages [pypomes-logging]: Downloading https://files.pythonhosted.org/packages/4a/3a/3123008b6622de2c2aae04760214e981eb807100a6bf147e01357e19601f/pypomes_logging-0.0.8.tar.gz
+[2024-05-20 03:49:32] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/66/8d/6f4ea244439ac0838b19f1b5060e62d11e2eb2b49ca201ec27acca4a8a6c/tmticket-0.2.9.tar.gz
+[2024-05-20 03:49:32] INFO root fetch - processPackages [pypomes-logging]: Downloading https://files.pythonhosted.org/packages/27/3d/b5dc55190871f2bef9c0989014e12a443d245068b38e4569d5f8432bad98/pypomes_logging-0.0.9.tar.gz
+[2024-05-20 03:49:33] INFO root fetch - processPackages [opentldr]: Downloading https://files.pythonhosted.org/packages/8a/11/de905b5d76b14fd944d99a2f425ac55c99854ed7a9ca3a9f2af2373351a4/opentldr-0.5.2.tar.gz
+[2024-05-20 03:49:33] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-20 03:49:33] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.2.8.tar.gz tmp/tmticket-0.2.9.tar.gz --markdown 20240520/t/tmticket/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-20 03:49:33] INFO root fetch - processPackages [pypomes-logging]: executing diffoscope
+[2024-05-20 03:49:33] INFO root fetch - processPackages [pypomes-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_logging-0.0.8.tar.gz tmp/pypomes_logging-0.0.9.tar.gz --markdown 20240520/p/pypomes-logging/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 03:49:33] INFO root fetch - processPackages [opentldr]: executing diffoscope
+[2024-05-20 03:49:33] INFO root fetch - processPackages [opentldr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentldr-0.5.1.tar.gz tmp/opentldr-0.5.2.tar.gz --markdown 20240520/o/opentldr/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-20 03:49:33] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.8.tar.gz]
+[2024-05-20 03:49:33] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.9.tar.gz]
+[2024-05-20 03:49:33] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-20 03:49:33] INFO root fetch - processPackages [pypomes-logging]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_logging-0.0.8.tar.gz]
+[2024-05-20 03:49:33] INFO root fetch - processPackages [pypomes-logging]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_logging-0.0.9.tar.gz]
+[2024-05-20 03:49:33] INFO root fetch - main [MainThread]: End processing [pypomes-logging]: success
+[2024-05-20 03:49:33] INFO root fetch - processPackages [opentldr]: Remove: archive file [/home/abi/fetcher/tmp/opentldr-0.5.1.tar.gz]
+[2024-05-20 03:49:33] INFO root fetch - processPackages [opentldr]: Remove: archive file [/home/abi/fetcher/tmp/opentldr-0.5.2.tar.gz]
+[2024-05-20 03:49:33] INFO root fetch - main [MainThread]: End processing [opentldr]: success
+[2024-05-20 03:49:33] INFO root fetch - main [MainThread]: Store serial: [23283473]

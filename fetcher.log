@@ -10484,3 +10484,50 @@
 [2024-05-20 10:21:29] INFO root fetch - processPackages [luigi]: Remove: archive file [/home/abi/fetcher/tmp/luigi-3.5.1.tar.gz]
 [2024-05-20 10:21:29] INFO root fetch - main [MainThread]: End processing [luigi]: success
 [2024-05-20 10:21:29] INFO root fetch - main [MainThread]: Store serial: [23286720]
+[2024-05-20 10:23:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286720]
+[2024-05-20 10:23:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-superapp
+[2024-05-20 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logos-sdk
+[2024-05-20 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatllm
+[2024-05-20 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unhorizontallyz
+[2024-05-20 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jzai
+[2024-05-20 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama-cpp-conv
+[2024-05-20 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Flask-App-Install
+[2024-05-20 10:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kohlrahbi
+[2024-05-20 10:23:38] WARNING root fetch - processPackages [logos-sdk]: Skipping, unable to determine old version
+[2024-05-20 10:23:38] INFO root fetch - main [MainThread]: End processing [logos-sdk] error
+[2024-05-20 10:23:38] WARNING root fetch - processPackages [django-superapp]: Skipping, unable to determine old version
+[2024-05-20 10:23:38] INFO root fetch - main [MainThread]: End processing [django-superapp] error
+[2024-05-20 10:23:38] INFO root fetch - processPackages [jzai]: New version: [59.83.43] Old Version: [59.83.42]
+[2024-05-20 10:23:38] WARNING root fetch - processPackages [Flask-App-Install]: Skipping, unable to determine old version
+[2024-05-20 10:23:38] INFO root fetch - main [MainThread]: End processing [Flask-App-Install] error
+[2024-05-20 10:23:38] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-20 10:23:38] WARNING root fetch - processPackages [unhorizontallyz]: Skipping, unable to determine old version
+[2024-05-20 10:23:38] INFO root fetch - main [MainThread]: End processing [unhorizontallyz] error
+[2024-05-20 10:23:38] INFO root fetch - processPackages [llama-cpp-conv]: New version: [0.2.75] Old Version: [0.2.68a1]
+[2024-05-20 10:23:38] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/e5/4a/8fe85aed9d678c42331abf4785581b49245d4d4a15f5170d0fb03a8baa4f/jzai-59.83.42.tar.gz
+[2024-05-20 10:23:38] INFO root fetch - processPackages [kohlrahbi]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-20 10:23:38] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-20 10:23:38] INFO root fetch - processPackages [kohlrahbi]: Downloading https://files.pythonhosted.org/packages/a1/d2/fea14fcf95bbbf2354758a1eed2f0359c39fba8da599bf768c430ad0ac85/kohlrahbi-1.0.0.tar.gz
+[2024-05-20 10:23:38] INFO root fetch - processPackages [llama-cpp-conv]: Downloading https://files.pythonhosted.org/packages/09/c7/321e08076e312409de93d45738689fb33270f48a890daf2cd489c92454a8/llama_cpp_conv-0.2.68a1.tar.gz
+[2024-05-20 10:23:38] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-20 10:23:38] WARNING root fetch - processPackages [llama-cpp-conv]: Skipping package: exceeds size limit 43433068>=10485760
+[2024-05-20 10:23:38] INFO root fetch - main [MainThread]: End processing [llama-cpp-conv] error
+[2024-05-20 10:23:38] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/79/93/11a32c5103f5af5a738dfc2363cf35a12156292f7942602d2ee397d5fefa/jzai-59.83.43.tar.gz
+[2024-05-20 10:23:39] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-20 10:23:39] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240520/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-20 10:23:39] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-20 10:23:39] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.42.tar.gz tmp/jzai-59.83.43.tar.gz --markdown 20240520/j/jzai/59.83.42-59.83.43/README.md --exclude *.pyd
+[2024-05-20 10:23:39] INFO root fetch - processPackages [kohlrahbi]: Downloading https://files.pythonhosted.org/packages/a8/d8/b3a3882c4174c87a5f1e526f29dd6085e07f5c026198fe6453a7fda65dbb/kohlrahbi-1.1.0.tar.gz
+[2024-05-20 10:23:39] INFO root fetch - processPackages [kohlrahbi]: executing diffoscope
+[2024-05-20 10:23:39] INFO root fetch - processPackages [kohlrahbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kohlrahbi-1.0.0.tar.gz tmp/kohlrahbi-1.1.0.tar.gz --markdown 20240520/k/kohlrahbi/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-20 10:23:39] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.42.tar.gz]
+[2024-05-20 10:23:39] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.43.tar.gz]
+[2024-05-20 10:23:39] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-20 10:23:40] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-20 10:23:40] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-20 10:23:40] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-20 10:23:40] INFO root fetch - processPackages [kohlrahbi]: Remove: archive file [/home/abi/fetcher/tmp/kohlrahbi-1.0.0.tar.gz]
+[2024-05-20 10:23:40] INFO root fetch - processPackages [kohlrahbi]: Remove: archive file [/home/abi/fetcher/tmp/kohlrahbi-1.1.0.tar.gz]
+[2024-05-20 10:23:40] INFO root fetch - main [MainThread]: End processing [kohlrahbi]: success
+[2024-05-20 10:23:40] INFO root fetch - main [MainThread]: Store serial: [23286753]

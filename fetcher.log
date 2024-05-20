@@ -21445,3 +21445,66 @@ EOFError: EOF read where object expected
 [2024-05-20 17:09:34] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240520-py3-none-win_amd64.whl.zip]
 [2024-05-20 17:09:34] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
 [2024-05-20 17:09:34] INFO root fetch - main [MainThread]: Store serial: [23291526]
+[2024-05-20 17:11:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291526]
+[2024-05-20 17:11:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 17:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-bigstitcher
+[2024-05-20 17:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docassemble.ALDashboard
+[2024-05-20 17:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: energyplus-service
+[2024-05-20 17:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flatpack
+[2024-05-20 17:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TreeSAK
+[2024-05-20 17:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Simba-UW-tf-dev
+[2024-05-20 17:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plyball
+[2024-05-20 17:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: basialveolarz
+[2024-05-20 17:11:48] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-20 17:11:48] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.93.4] Old Version: [1.93.3]
+[2024-05-20 17:11:48] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.87]
+[2024-05-20 17:11:48] WARNING root fetch - processPackages [energyplus-service]: Skipping, unable to determine old version
+[2024-05-20 17:11:48] INFO root fetch - main [MainThread]: End processing [energyplus-service] error
+[2024-05-20 17:11:48] INFO root fetch - processPackages [plyball]: New version: [2.2.67] Old Version: [2.2.65]
+[2024-05-20 17:11:48] WARNING root fetch - processPackages [basialveolarz]: Skipping, unable to determine old version
+[2024-05-20 17:11:48] INFO root fetch - main [MainThread]: End processing [basialveolarz] error
+[2024-05-20 17:11:48] INFO root fetch - processPackages [pydantic-bigstitcher]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 17:11:48] INFO root fetch - processPackages [docassemble.ALDashboard]: New version: [0.9.0] Old Version: [0.24.0.1]
+[2024-05-20 17:11:48] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-05-20 17:11:48] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/34/96/07f18bb5182d42ce4df022cc23c7a2f3deacfb04b63a7e1337e180d493f6/Simba-UW-tf-dev-1.93.3.tar.gz
+[2024-05-20 17:11:48] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/76/6d/11377ca41b690023dbee81ac35a41b37f3d62c4a95325f17ac0eacc57951/flatpack-3.4.87.tar.gz
+[2024-05-20 17:11:49] INFO root fetch - processPackages [docassemble.ALDashboard]: Downloading https://files.pythonhosted.org/packages/a4/94/8340eaa75afc18388f87834366d6f8db8b6c552366229558f8a51d1c50b9/docassemble_aldashboard-0.24.0.1.tar.gz
+[2024-05-20 17:11:49] INFO root fetch - processPackages [plyball]: Downloading https://files.pythonhosted.org/packages/ec/d5/42dedabb5065909dd53520602680b6aabb7b5cd131c23134961a8036d701/plyball-2.2.65.tar.gz
+[2024-05-20 17:11:49] INFO root fetch - processPackages [pydantic-bigstitcher]: Downloading https://files.pythonhosted.org/packages/68/05/0b5ba9501ae4bdb2f95c919138a545cbaaf92ae0101b8fa400245b0df395/pydantic_bigstitcher-0.0.2.tar.gz
+[2024-05-20 17:11:49] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-05-20 17:11:49] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/5f/a6/f2531b2c62bece797778630dd4483aa6ddd77e1ea3a69917b1d620de8b81/Simba-UW-tf-dev-1.93.4.tar.gz
+[2024-05-20 17:11:49] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-20 17:11:49] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-20 17:11:49] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.87.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240520/f/flatpack/3.4.87-3.4.9/README.md --exclude *.pyd
+[2024-05-20 17:11:49] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-05-20 17:11:49] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240520/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-20 17:11:49] INFO root fetch - processPackages [plyball]: Downloading https://files.pythonhosted.org/packages/f3/45/a99d53b024d2d9b715a2a599a42c25df438eeaf874a4f9adfbc9b117d990/plyball-2.2.67.tar.gz
+[2024-05-20 17:11:49] INFO root fetch - processPackages [pydantic-bigstitcher]: Downloading https://files.pythonhosted.org/packages/87/10/244a4e65afedcd06f8b432a0056be066d12c2419e2f3130227bc116f3688/pydantic_bigstitcher-0.0.3.tar.gz
+[2024-05-20 17:11:49] INFO root fetch - processPackages [docassemble.ALDashboard]: Downloading https://files.pythonhosted.org/packages/f9/58/6147d5e8576b6e494c87c867cb586dc7c81667493716abd1469e2c5d6d30/docassemble.ALDashboard-0.9.0.tar.gz
+[2024-05-20 17:11:49] INFO root fetch - processPackages [docassemble.ALDashboard]: executing diffoscope
+[2024-05-20 17:11:49] INFO root fetch - processPackages [docassemble.ALDashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble_aldashboard-0.24.0.1.tar.gz tmp/docassemble.ALDashboard-0.9.0.tar.gz --markdown 20240520/d/docassemble.ALDashboard/0.24.0.1-0.9.0/README.md --exclude *.pyd
+[2024-05-20 17:11:49] INFO root fetch - processPackages [pydantic-bigstitcher]: executing diffoscope
+[2024-05-20 17:11:49] INFO root fetch - processPackages [pydantic-bigstitcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_bigstitcher-0.0.2.tar.gz tmp/pydantic_bigstitcher-0.0.3.tar.gz --markdown 20240520/p/pydantic-bigstitcher/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 17:11:49] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2024-05-20 17:11:49] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.93.3.tar.gz tmp/Simba-UW-tf-dev-1.93.4.tar.gz --markdown 20240520/S/Simba-UW-tf-dev/1.93.3-1.93.4/README.md --exclude *.pyd
+[2024-05-20 17:11:49] INFO root fetch - processPackages [plyball]: executing diffoscope
+[2024-05-20 17:11:49] INFO root fetch - processPackages [plyball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plyball-2.2.65.tar.gz tmp/plyball-2.2.67.tar.gz --markdown 20240520/p/plyball/2.2.65-2.2.67/README.md --exclude *.pyd
+[2024-05-20 17:11:50] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.87.tar.gz]
+[2024-05-20 17:11:50] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-20 17:11:50] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-20 17:11:50] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-05-20 17:11:50] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-05-20 17:11:50] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-05-20 17:11:50] INFO root fetch - processPackages [docassemble.ALDashboard]: Remove: archive file [/home/abi/fetcher/tmp/docassemble_aldashboard-0.24.0.1.tar.gz]
+[2024-05-20 17:11:50] INFO root fetch - processPackages [docassemble.ALDashboard]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.ALDashboard-0.9.0.tar.gz]
+[2024-05-20 17:11:50] INFO root fetch - main [MainThread]: End processing [docassemble.ALDashboard]: success
+[2024-05-20 17:11:50] INFO root fetch - processPackages [plyball]: Remove: archive file [/home/abi/fetcher/tmp/plyball-2.2.65.tar.gz]
+[2024-05-20 17:11:50] INFO root fetch - processPackages [plyball]: Remove: archive file [/home/abi/fetcher/tmp/plyball-2.2.67.tar.gz]
+[2024-05-20 17:11:50] INFO root fetch - main [MainThread]: End processing [plyball]: success
+[2024-05-20 17:11:50] INFO root fetch - processPackages [pydantic-bigstitcher]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_bigstitcher-0.0.2.tar.gz]
+[2024-05-20 17:11:50] INFO root fetch - processPackages [pydantic-bigstitcher]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_bigstitcher-0.0.3.tar.gz]
+[2024-05-20 17:11:50] INFO root fetch - main [MainThread]: End processing [pydantic-bigstitcher]: success
+[2024-05-20 17:11:52] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.93.3.tar.gz]
+[2024-05-20 17:11:52] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.93.4.tar.gz]
+[2024-05-20 17:11:52] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2024-05-20 17:11:52] INFO root fetch - main [MainThread]: Store serial: [23291553]

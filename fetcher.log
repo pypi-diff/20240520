@@ -16009,3 +16009,42 @@ EOFError: EOF read where object expected
 [2024-05-20 13:54:29] INFO root fetch - processPackages [helm-hawk]: Remove: archive file [/home/abi/fetcher/tmp/helm_hawk-0.0.4.tar.gz]
 [2024-05-20 13:54:29] INFO root fetch - main [MainThread]: End processing [helm-hawk]: success
 [2024-05-20 13:54:29] INFO root fetch - main [MainThread]: Store serial: [23289050]
+[2024-05-20 13:56:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289050]
+[2024-05-20 13:56:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 13:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Solverz
+[2024-05-20 13:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rdatapp
+[2024-05-20 13:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: burial-mounds
+[2024-05-20 13:56:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spiderYdb
+[2024-05-20 13:56:38] INFO root fetch - processPackages [Solverz]: New version: [0.0.1rc2] Old Version: [0.0.1rc1]
+[2024-05-20 13:56:38] INFO root fetch - processPackages [burial-mounds]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-20 13:56:38] INFO root fetch - processPackages [rdatapp]: New version: [0.7a0] Old Version: [0.6a0]
+[2024-05-20 13:56:38] INFO root fetch - processPackages [Solverz]: Downloading https://files.pythonhosted.org/packages/c1/c1/e580d84adf92d8d50604ed8a2b2fad78903464ff680eea4c85eabcc5a1dc/solverz-0.0.1rc1.tar.gz
+[2024-05-20 13:56:38] INFO root fetch - processPackages [rdatapp]: Downloading https://files.pythonhosted.org/packages/8d/ac/304f12664f2cbce2a4609e40de95592fbb3bba421f11a6504c69e17c037c/rdatapp-0.6a0.tar.gz
+[2024-05-20 13:56:38] INFO root fetch - processPackages [spiderYdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 13:56:38] INFO root fetch - processPackages [burial-mounds]: Downloading https://files.pythonhosted.org/packages/d7/d4/a2bf01f84739200e1c2f13988fdf62acdc4a9aed6f020b7e162656d1f315/burial_mounds-0.1.1.tar.gz
+[2024-05-20 13:56:38] INFO root fetch - processPackages [spiderYdb]: Downloading https://files.pythonhosted.org/packages/e0/4a/96e1c84e7b452d0ae6bba0f4ed6f342d601205bd48989be284d7e541abcf/spiderYdb-0.1.8-py3-none-any.whl
+[2024-05-20 13:56:38] INFO root fetch - processPackages [burial-mounds]: Downloading https://files.pythonhosted.org/packages/2e/be/843b773cd5d7544dd8c936d580d245126c9fa95df85553a47427d5a59cb7/burial_mounds-0.1.2.tar.gz
+[2024-05-20 13:56:38] INFO root fetch - processPackages [rdatapp]: Downloading https://files.pythonhosted.org/packages/d6/e4/d8383c9c9004de402777669648b37ee624dfa243c33a395dfa9a222cfe27/rdatapp-0.7a0.tar.gz
+[2024-05-20 13:56:39] INFO root fetch - processPackages [burial-mounds]: executing diffoscope
+[2024-05-20 13:56:39] INFO root fetch - processPackages [burial-mounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burial_mounds-0.1.1.tar.gz tmp/burial_mounds-0.1.2.tar.gz --markdown 20240520/b/burial-mounds/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-20 13:56:39] INFO root fetch - processPackages [Solverz]: Downloading https://files.pythonhosted.org/packages/c6/a3/344ef81d65d4594f2193897f2aeeecd45fc84e5d82ab50fbc15125437e1b/solverz-0.0.1rc2.tar.gz
+[2024-05-20 13:56:39] INFO root fetch - processPackages [rdatapp]: executing diffoscope
+[2024-05-20 13:56:39] INFO root fetch - processPackages [rdatapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdatapp-0.6a0.tar.gz tmp/rdatapp-0.7a0.tar.gz --markdown 20240520/r/rdatapp/0.6a0-0.7a0/README.md --exclude *.pyd
+[2024-05-20 13:56:39] INFO root fetch - processPackages [spiderYdb]: Downloading https://files.pythonhosted.org/packages/12/6b/82bc6b375e7acfe2112d16b6666a5e336ce876131a289c4456d0dfb79a18/spiderYdb-0.1.9-py3-none-any.whl
+[2024-05-20 13:56:39] INFO root fetch - processPackages [Solverz]: executing diffoscope
+[2024-05-20 13:56:39] INFO root fetch - processPackages [Solverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solverz-0.0.1rc1.tar.gz tmp/solverz-0.0.1rc2.tar.gz --markdown 20240520/S/Solverz/0.0.1rc1-0.0.1rc2/README.md --exclude *.pyd
+[2024-05-20 13:56:39] INFO root fetch - processPackages [spiderYdb]: executing diffoscope
+[2024-05-20 13:56:39] INFO root fetch - processPackages [spiderYdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderYdb-0.1.8-py3-none-any.whl.zip tmp/spiderYdb-0.1.9-py3-none-any.whl.zip --markdown 20240520/s/spiderYdb/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 13:56:39] INFO root fetch - processPackages [burial-mounds]: Remove: archive file [/home/abi/fetcher/tmp/burial_mounds-0.1.1.tar.gz]
+[2024-05-20 13:56:39] INFO root fetch - processPackages [burial-mounds]: Remove: archive file [/home/abi/fetcher/tmp/burial_mounds-0.1.2.tar.gz]
+[2024-05-20 13:56:39] INFO root fetch - main [MainThread]: End processing [burial-mounds]: success
+[2024-05-20 13:56:39] INFO root fetch - processPackages [rdatapp]: Remove: archive file [/home/abi/fetcher/tmp/rdatapp-0.6a0.tar.gz]
+[2024-05-20 13:56:39] INFO root fetch - processPackages [rdatapp]: Remove: archive file [/home/abi/fetcher/tmp/rdatapp-0.7a0.tar.gz]
+[2024-05-20 13:56:39] INFO root fetch - main [MainThread]: End processing [rdatapp]: success
+[2024-05-20 13:56:40] INFO root fetch - processPackages [spiderYdb]: Remove: archive file [/home/abi/fetcher/tmp/spiderYdb-0.1.8-py3-none-any.whl.zip]
+[2024-05-20 13:56:40] INFO root fetch - processPackages [spiderYdb]: Remove: archive file [/home/abi/fetcher/tmp/spiderYdb-0.1.9-py3-none-any.whl.zip]
+[2024-05-20 13:56:40] INFO root fetch - main [MainThread]: End processing [spiderYdb]: success
+[2024-05-20 13:56:40] INFO root fetch - processPackages [Solverz]: Remove: archive file [/home/abi/fetcher/tmp/solverz-0.0.1rc1.tar.gz]
+[2024-05-20 13:56:40] INFO root fetch - processPackages [Solverz]: Remove: archive file [/home/abi/fetcher/tmp/solverz-0.0.1rc2.tar.gz]
+[2024-05-20 13:56:40] INFO root fetch - main [MainThread]: End processing [Solverz]: success
+[2024-05-20 13:56:40] INFO root fetch - main [MainThread]: Store serial: [23289063]

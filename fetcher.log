@@ -9359,3 +9359,21 @@
 [2024-05-20 09:23:00] INFO root fetch - processPackages [pylint]: Remove: archive file [/home/abi/fetcher/tmp/pylint-3.2.1.tar.gz]
 [2024-05-20 09:23:00] INFO root fetch - main [MainThread]: End processing [pylint]: success
 [2024-05-20 09:23:00] INFO root fetch - main [MainThread]: Store serial: [23286232]
+[2024-05-20 09:25:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286232]
+[2024-05-20 09:25:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 09:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ShockFinder
+[2024-05-20 09:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: visdatcompy
+[2024-05-20 09:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-tree-select2
+[2024-05-20 09:25:09] INFO root fetch - processPackages [ShockFinder]: New version: [7.4.7] Old Version: [7.4.6]
+[2024-05-20 09:25:09] WARNING root fetch - processPackages [visdatcompy]: Skipping, unable to determine old version
+[2024-05-20 09:25:09] INFO root fetch - main [MainThread]: End processing [visdatcompy] error
+[2024-05-20 09:25:09] WARNING root fetch - processPackages [streamlit-tree-select2]: Skipping, unable to determine old version
+[2024-05-20 09:25:09] INFO root fetch - main [MainThread]: End processing [streamlit-tree-select2] error
+[2024-05-20 09:25:09] INFO root fetch - processPackages [ShockFinder]: Downloading https://files.pythonhosted.org/packages/6a/6d/339eadc13066494b086f02fc03d2698daa76676993f33dc3fbc97c36f958/ShockFinder-7.4.6.tar.gz
+[2024-05-20 09:25:09] INFO root fetch - processPackages [ShockFinder]: Downloading https://files.pythonhosted.org/packages/d3/e5/54fa33a3f8477aea78bfe809ac96aea9296dfa08e8fd38709e642455254c/ShockFinder-7.4.7.tar.gz
+[2024-05-20 09:25:10] INFO root fetch - processPackages [ShockFinder]: executing diffoscope
+[2024-05-20 09:25:10] INFO root fetch - processPackages [ShockFinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ShockFinder-7.4.6.tar.gz tmp/ShockFinder-7.4.7.tar.gz --markdown 20240520/S/ShockFinder/7.4.6-7.4.7/README.md --exclude *.pyd
+[2024-05-20 09:25:10] INFO root fetch - processPackages [ShockFinder]: Remove: archive file [/home/abi/fetcher/tmp/ShockFinder-7.4.6.tar.gz]
+[2024-05-20 09:25:10] INFO root fetch - processPackages [ShockFinder]: Remove: archive file [/home/abi/fetcher/tmp/ShockFinder-7.4.7.tar.gz]
+[2024-05-20 09:25:10] INFO root fetch - main [MainThread]: End processing [ShockFinder]: success
+[2024-05-20 09:25:10] INFO root fetch - main [MainThread]: Store serial: [23286255]

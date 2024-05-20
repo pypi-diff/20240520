@@ -8940,3 +8940,66 @@
 [2024-05-20 08:56:23] INFO root fetch - processPackages [azure-mgmt-sql]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-sql-4.0.0b9.zip]
 [2024-05-20 08:56:23] INFO root fetch - main [MainThread]: End processing [azure-mgmt-sql]: success
 [2024-05-20 08:56:23] INFO root fetch - main [MainThread]: Store serial: [23285870]
+[2024-05-20 08:58:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285870]
+[2024-05-20 08:58:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 08:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sdkms-cli
+[2024-05-20 08:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartkey-cli
+[2024-05-20 08:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mcapy
+[2024-05-20 08:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openi
+[2024-05-20 08:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: techgram
+[2024-05-20 08:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qtmodel
+[2024-05-20 08:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: asterisk-task
+[2024-05-20 08:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: asterisk-task
+[2024-05-20 08:58:33] INFO root fetch - processPackages [openi]: New version: [1.3.1b1] Old Version: [1.3.1b0]
+[2024-05-20 08:58:33] WARNING root fetch - processPackages [mcapy]: Skipping, unable to determine old version
+[2024-05-20 08:58:33] INFO root fetch - main [MainThread]: End processing [mcapy] error
+[2024-05-20 08:58:33] INFO root fetch - processPackages [qtmodel]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-20 08:58:33] INFO root fetch - processPackages [sdkms-cli]: New version: [4.9.2084] Old Version: [4.8.2070]
+[2024-05-20 08:58:33] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/4c/45/0e9b44f789731beda9c4e49ff0f5ea12c54fcc865f2f34f160f562430994/openi-1.3.1b0.tar.gz
+[2024-05-20 08:58:33] INFO root fetch - processPackages [smartkey-cli]: New version: [4.9.2084] Old Version: [4.8.2070]
+[2024-05-20 08:58:33] INFO root fetch - processPackages [asterisk-task]: New version: [2.0.23.520.1456] Old Version: [2.0.23.520.1455]
+[2024-05-20 08:58:33] INFO root fetch - processPackages [asterisk-task]: New version: [2.0.23.520.1456] Old Version: [2.0.23.520.1455]
+[2024-05-20 08:58:33] INFO root fetch - processPackages [techgram]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 08:58:33] INFO root fetch - processPackages [sdkms-cli]: Downloading https://files.pythonhosted.org/packages/ce/df/888a73dc14736bafe467cac490c2a231c34270ef4a248dc7e95c23a21cc6/sdkms_cli-4.8.2070-py2.py3-none-any.whl
+[2024-05-20 08:58:33] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/ac/50/4d8986090b4d46f7f7ad2d5bf0de9f3e18679bb0a5ca8fa583033c7f4ee9/qtmodel-0.3.4.tar.gz
+[2024-05-20 08:58:33] INFO root fetch - processPackages [techgram]: Downloading https://files.pythonhosted.org/packages/bb/6a/8f42ce2261917180e04383db934b3337df0e0e91cb53fa81e5c1a25f8e52/techgram-1.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-20 08:58:33] WARNING root fetch - processPackages [techgram]: Skipping package: exceeds size limit 11235555>=10485760
+[2024-05-20 08:58:33] INFO root fetch - main [MainThread]: End processing [techgram] error
+[2024-05-20 08:58:33] INFO root fetch - processPackages [asterisk-task]: Downloading https://files.pythonhosted.org/packages/55/65/da2bc3cce39c98a76fb3daa38ac8f32280c30ac5c6ff5731bd1f813d3a66/asterisk_task-2.0.23.520.1455.tar.gz
+[2024-05-20 08:58:33] INFO root fetch - processPackages [asterisk-task]: Downloading https://files.pythonhosted.org/packages/55/65/da2bc3cce39c98a76fb3daa38ac8f32280c30ac5c6ff5731bd1f813d3a66/asterisk_task-2.0.23.520.1455.tar.gz
+[2024-05-20 08:58:33] INFO root fetch - processPackages [smartkey-cli]: Downloading https://files.pythonhosted.org/packages/ce/7f/001d24ce2bc35bcbc60039e7661442bdee657d5407a35f7c20b13c28eedf/smartkey_cli-4.8.2070-py2.py3-none-any.whl
+[2024-05-20 08:58:33] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/6e/41/6b47bf5f45bcb75dac2012bd1feceb824b2b206a468f8f99befaf7fa2f5b/openi-1.3.1b1.tar.gz
+[2024-05-20 08:58:33] INFO root fetch - processPackages [sdkms-cli]: Downloading https://files.pythonhosted.org/packages/1d/ab/2ce96f7ea033e0563c2cf90b1912ff4248926a3362c7af09515ba3b6c790/sdkms_cli-4.9.2084-py3-none-any.whl
+[2024-05-20 08:58:33] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/61/b6/e6331acab0dfe1f792a67950c04ac1b0757bb48efa4aa90a4c16fc4453a2/qtmodel-0.3.5.tar.gz
+[2024-05-20 08:58:33] INFO root fetch - processPackages [openi]: executing diffoscope
+[2024-05-20 08:58:33] INFO root fetch - processPackages [openi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-1.3.1b0.tar.gz tmp/openi-1.3.1b1.tar.gz --markdown 20240520/o/openi/1.3.1b0-1.3.1b1/README.md --exclude *.pyd
+[2024-05-20 08:58:33] INFO root fetch - processPackages [sdkms-cli]: executing diffoscope
+[2024-05-20 08:58:33] INFO root fetch - processPackages [sdkms-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkms_cli-4.8.2070-py2.py3-none-any.whl.zip tmp/sdkms_cli-4.9.2084-py3-none-any.whl.zip --markdown 20240520/s/sdkms-cli/4.8.2070-4.9.2084/README.md --exclude *.pyd
+[2024-05-20 08:58:33] INFO root fetch - processPackages [qtmodel]: executing diffoscope
+[2024-05-20 08:58:33] INFO root fetch - processPackages [qtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmodel-0.3.4.tar.gz tmp/qtmodel-0.3.5.tar.gz --markdown 20240520/q/qtmodel/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-20 08:58:33] INFO root fetch - processPackages [asterisk-task]: Downloading https://files.pythonhosted.org/packages/58/ea/aebbe5afb5b08b30afca299f44e4b6b47465863e958aea722c62002df46c/asterisk_task-2.0.23.520.1456-py3-none-any.whl
+[2024-05-20 08:58:33] INFO root fetch - processPackages [asterisk-task]: Downloading https://files.pythonhosted.org/packages/58/ea/aebbe5afb5b08b30afca299f44e4b6b47465863e958aea722c62002df46c/asterisk_task-2.0.23.520.1456-py3-none-any.whl
+[2024-05-20 08:58:33] INFO root fetch - processPackages [smartkey-cli]: Downloading https://files.pythonhosted.org/packages/37/13/b20a475fdb812f59d94fa3522bb4a8625fa1b85c10b0daac1e9eaf549d60/smartkey_cli-4.9.2084-py3-none-any.whl
+[2024-05-20 08:58:33] INFO root fetch - processPackages [asterisk-task]: executing diffoscope
+[2024-05-20 08:58:33] INFO root fetch - processPackages [asterisk-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asterisk_task-2.0.23.520.1455.tar.gz tmp/asterisk_task-2.0.23.520.1456-py3-none-any.whl.zip --markdown 20240520/a/asterisk-task/2.0.23.520.1455-2.0.23.520.1456/README.md --exclude *.pyd
+[2024-05-20 08:58:33] INFO root fetch - processPackages [asterisk-task]: executing diffoscope
+[2024-05-20 08:58:33] INFO root fetch - processPackages [asterisk-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asterisk_task-2.0.23.520.1455.tar.gz tmp/asterisk_task-2.0.23.520.1456-py3-none-any.whl.zip --markdown 20240520/a/asterisk-task/2.0.23.520.1455-2.0.23.520.1456/README.md --exclude *.pyd
+[2024-05-20 08:58:33] INFO root fetch - processPackages [smartkey-cli]: executing diffoscope
+[2024-05-20 08:58:33] INFO root fetch - processPackages [smartkey-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartkey_cli-4.8.2070-py2.py3-none-any.whl.zip tmp/smartkey_cli-4.9.2084-py3-none-any.whl.zip --markdown 20240520/s/smartkey-cli/4.8.2070-4.9.2084/README.md --exclude *.pyd
+[2024-05-20 08:58:34] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-1.3.1b0.tar.gz]
+[2024-05-20 08:58:34] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-1.3.1b1.tar.gz]
+[2024-05-20 08:58:34] INFO root fetch - main [MainThread]: End processing [openi]: success
+[2024-05-20 08:58:34] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.4.tar.gz]
+[2024-05-20 08:58:34] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.3.5.tar.gz]
+[2024-05-20 08:58:34] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
+[2024-05-20 08:58:34] INFO root fetch - processPackages [sdkms-cli]: Remove: archive file [/home/abi/fetcher/tmp/sdkms_cli-4.8.2070-py2.py3-none-any.whl.zip]
+[2024-05-20 08:58:34] INFO root fetch - processPackages [sdkms-cli]: Remove: archive file [/home/abi/fetcher/tmp/sdkms_cli-4.9.2084-py3-none-any.whl.zip]
+[2024-05-20 08:58:34] INFO root fetch - main [MainThread]: End processing [sdkms-cli]: success
+[2024-05-20 08:58:34] INFO root fetch - processPackages [asterisk-task]: Remove: archive file [/home/abi/fetcher/tmp/asterisk_task-2.0.23.520.1455.tar.gz]
+[2024-05-20 08:58:34] INFO root fetch - processPackages [asterisk-task]: Remove: archive file [/home/abi/fetcher/tmp/asterisk_task-2.0.23.520.1456-py3-none-any.whl.zip]
+[2024-05-20 08:58:34] INFO root fetch - main [MainThread]: End processing [asterisk-task]: success
+[2024-05-20 08:58:34] INFO root fetch - main [MainThread]: End processing [asterisk-task]: success
+[2024-05-20 08:58:34] INFO root fetch - processPackages [smartkey-cli]: Remove: archive file [/home/abi/fetcher/tmp/smartkey_cli-4.8.2070-py2.py3-none-any.whl.zip]
+[2024-05-20 08:58:34] INFO root fetch - processPackages [smartkey-cli]: Remove: archive file [/home/abi/fetcher/tmp/smartkey_cli-4.9.2084-py3-none-any.whl.zip]
+[2024-05-20 08:58:34] INFO root fetch - main [MainThread]: End processing [smartkey-cli]: success
+[2024-05-20 08:58:34] INFO root fetch - main [MainThread]: Store serial: [23285897]

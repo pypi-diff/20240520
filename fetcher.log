@@ -2015,3 +2015,27 @@
 [2024-05-20 01:59:46] INFO root fetch - processPackages [toc-trade-pb-v2]: Remove: archive file [/home/abi/fetcher/tmp/toc_trade_pb_v2-0.1.9.tar.gz]
 [2024-05-20 01:59:46] INFO root fetch - main [MainThread]: End processing [toc-trade-pb-v2]: success
 [2024-05-20 01:59:46] INFO root fetch - main [MainThread]: Store serial: [23282436]
+[2024-05-20 02:01:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23282436]
+[2024-05-20 02:01:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 02:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eras
+[2024-05-20 02:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maidenhairz
+[2024-05-20 02:01:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clone-org
+[2024-05-20 02:01:55] INFO root fetch - processPackages [eras]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-20 02:01:55] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/66/a8/d01709ce4524e95c6fa8042bf2b86ce720eb986a6db0abdfd38878686b1b/eras-0.2.2.tar.gz
+[2024-05-20 02:01:55] INFO root fetch - processPackages [clone-org]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-20 02:01:55] WARNING root fetch - processPackages [maidenhairz]: Skipping, unable to determine old version
+[2024-05-20 02:01:55] INFO root fetch - main [MainThread]: End processing [maidenhairz] error
+[2024-05-20 02:01:55] INFO root fetch - processPackages [clone-org]: Downloading https://files.pythonhosted.org/packages/4f/3a/b98c53c2d643de438b1222e3997e727844150d98d8721e2cf6a254acbedd/clone_org-1.0.3.tar.gz
+[2024-05-20 02:01:55] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/0c/9a/d898ca55820d1b6b220412f794113116ee97bbddddae82d2fb69335450f0/eras-0.2.3.tar.gz
+[2024-05-20 02:01:55] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-20 02:01:55] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.2.2.tar.gz tmp/eras-0.2.3.tar.gz --markdown 20240520/e/eras/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-20 02:01:55] INFO root fetch - processPackages [clone-org]: Downloading https://files.pythonhosted.org/packages/be/02/abc8884d422de551b570dee896718846c5e3ef894effd482aa505fb7a7e1/clone_org-1.0.4.tar.gz
+[2024-05-20 02:01:56] INFO root fetch - processPackages [clone-org]: executing diffoscope
+[2024-05-20 02:01:56] INFO root fetch - processPackages [clone-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clone_org-1.0.3.tar.gz tmp/clone_org-1.0.4.tar.gz --markdown 20240520/c/clone-org/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-20 02:01:56] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.2.2.tar.gz]
+[2024-05-20 02:01:56] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.2.3.tar.gz]
+[2024-05-20 02:01:56] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-20 02:01:56] INFO root fetch - processPackages [clone-org]: Remove: archive file [/home/abi/fetcher/tmp/clone_org-1.0.3.tar.gz]
+[2024-05-20 02:01:56] INFO root fetch - processPackages [clone-org]: Remove: archive file [/home/abi/fetcher/tmp/clone_org-1.0.4.tar.gz]
+[2024-05-20 02:01:56] INFO root fetch - main [MainThread]: End processing [clone-org]: success
+[2024-05-20 02:01:56] INFO root fetch - main [MainThread]: Store serial: [23282447]

@@ -3831,3 +3831,51 @@
 [2024-05-20 03:08:06] INFO root fetch - processPackages [catfish-sim]: Remove: archive file [/home/abi/fetcher/tmp/catfish_sim-0.2.0-py3-none-any.whl.zip]
 [2024-05-20 03:08:06] INFO root fetch - main [MainThread]: End processing [catfish-sim]: success
 [2024-05-20 03:08:06] INFO root fetch - main [MainThread]: Store serial: [23283200]
+[2024-05-20 03:10:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283200]
+[2024-05-20 03:10:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 03:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catfish-sim
+[2024-05-20 03:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dismo
+[2024-05-20 03:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelbase2
+[2024-05-20 03:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastcore
+[2024-05-20 03:10:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatllm
+[2024-05-20 03:10:20] INFO root fetch - processPackages [catfish-sim]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-20 03:10:20] INFO root fetch - processPackages [dismo]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 03:10:20] INFO root fetch - processPackages [modelbase2]: New version: [0.1.8] Old Version: [0.1.74]
+[2024-05-20 03:10:20] INFO root fetch - processPackages [catfish-sim]: Downloading https://files.pythonhosted.org/packages/72/5e/29a9f21d1bec26f123f6a6c9640aa3f906b99f73d75be79f9cf5339803cd/catfish_sim-0.1.1.tar.gz
+[2024-05-20 03:10:20] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-20 03:10:20] INFO root fetch - processPackages [fastcore]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-20 03:10:21] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/b8/e3/b30f865a5ffa6ba5b38d48b5563d6ffaf04c7d879d9f2f78ceeccee42536/modelbase2-0.1.74.tar.gz
+[2024-05-20 03:10:21] INFO root fetch - processPackages [dismo]: Downloading https://files.pythonhosted.org/packages/e9/d8/33ec1926582882ec91e543cb167d590ea8473e0c8fdc328d9b16cf94dc2e/dismo-1.0.8.tar.gz
+[2024-05-20 03:10:21] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-20 03:10:21] INFO root fetch - processPackages [fastcore]: Downloading https://files.pythonhosted.org/packages/bd/a7/11687db0e0993cf3f28cbe4f087decfde90959b1ede6fa37acbf83c875d8/fastcore-1.5.8.tar.gz
+[2024-05-20 03:10:21] INFO root fetch - processPackages [catfish-sim]: Downloading https://files.pythonhosted.org/packages/0b/77/630a783b6fcb24b52d61fe76e6c5586ebc364f8379802392707d0aa0018a/catfish_sim-0.2.0-py3-none-any.whl
+[2024-05-20 03:10:21] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/c7/a5/defd22a8fa0611c0f23090b874a5fec8cad7478e893dcd17bc4edea068d4/modelbase2-0.1.8.tar.gz
+[2024-05-20 03:10:21] INFO root fetch - processPackages [catfish-sim]: executing diffoscope
+[2024-05-20 03:10:21] INFO root fetch - processPackages [catfish-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catfish_sim-0.1.1.tar.gz tmp/catfish_sim-0.2.0-py3-none-any.whl.zip --markdown 20240520/c/catfish-sim/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-20 03:10:21] INFO root fetch - processPackages [dismo]: Downloading https://files.pythonhosted.org/packages/46/ea/aca21eb7dddb69cc86666a35b07fe59fd6139a8b65bae53f8052ace4d4ec/dismo-1.0.9.tar.gz
+[2024-05-20 03:10:21] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-20 03:10:21] INFO root fetch - processPackages [modelbase2]: executing diffoscope
+[2024-05-20 03:10:21] INFO root fetch - processPackages [modelbase2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase2-0.1.74.tar.gz tmp/modelbase2-0.1.8.tar.gz --markdown 20240520/m/modelbase2/0.1.74-0.1.8/README.md --exclude *.pyd
+[2024-05-20 03:10:21] INFO root fetch - processPackages [fastcore]: Downloading https://files.pythonhosted.org/packages/e7/ca/756f70aa0a53475a198acbda3b9edb61b363c4b51ece542b7a7e3d890bcd/fastcore-1.5.9.tar.gz
+[2024-05-20 03:10:21] INFO root fetch - processPackages [dismo]: executing diffoscope
+[2024-05-20 03:10:21] INFO root fetch - processPackages [dismo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dismo-1.0.8.tar.gz tmp/dismo-1.0.9.tar.gz --markdown 20240520/d/dismo/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 03:10:21] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-20 03:10:21] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240520/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-20 03:10:21] INFO root fetch - processPackages [fastcore]: executing diffoscope
+[2024-05-20 03:10:21] INFO root fetch - processPackages [fastcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastcore-1.5.8.tar.gz tmp/fastcore-1.5.9.tar.gz --markdown 20240520/f/fastcore/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-20 03:10:22] INFO root fetch - processPackages [dismo]: Remove: archive file [/home/abi/fetcher/tmp/dismo-1.0.8.tar.gz]
+[2024-05-20 03:10:22] INFO root fetch - processPackages [dismo]: Remove: archive file [/home/abi/fetcher/tmp/dismo-1.0.9.tar.gz]
+[2024-05-20 03:10:22] INFO root fetch - main [MainThread]: End processing [dismo]: success
+[2024-05-20 03:10:22] INFO root fetch - processPackages [modelbase2]: Remove: archive file [/home/abi/fetcher/tmp/modelbase2-0.1.74.tar.gz]
+[2024-05-20 03:10:22] INFO root fetch - processPackages [modelbase2]: Remove: archive file [/home/abi/fetcher/tmp/modelbase2-0.1.8.tar.gz]
+[2024-05-20 03:10:22] INFO root fetch - main [MainThread]: End processing [modelbase2]: success
+[2024-05-20 03:10:22] INFO root fetch - processPackages [fastcore]: Remove: archive file [/home/abi/fetcher/tmp/fastcore-1.5.8.tar.gz]
+[2024-05-20 03:10:22] INFO root fetch - processPackages [fastcore]: Remove: archive file [/home/abi/fetcher/tmp/fastcore-1.5.9.tar.gz]
+[2024-05-20 03:10:22] INFO root fetch - main [MainThread]: End processing [fastcore]: success
+[2024-05-20 03:10:22] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-20 03:10:22] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-20 03:10:22] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-20 03:10:26] INFO root fetch - processPackages [catfish-sim]: Remove: archive file [/home/abi/fetcher/tmp/catfish_sim-0.1.1.tar.gz]
+[2024-05-20 03:10:26] INFO root fetch - processPackages [catfish-sim]: Remove: archive file [/home/abi/fetcher/tmp/catfish_sim-0.2.0-py3-none-any.whl.zip]
+[2024-05-20 03:10:26] INFO root fetch - main [MainThread]: End processing [catfish-sim]: success
+[2024-05-20 03:10:26] INFO root fetch - main [MainThread]: Store serial: [23283215]

@@ -7545,3 +7545,38 @@
 [2024-05-20 07:30:27] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.423.tar.gz]
 [2024-05-20 07:30:27] INFO root fetch - main [MainThread]: End processing [jemma]: success
 [2024-05-20 07:30:27] INFO root fetch - main [MainThread]: Store serial: [23285009]
+[2024-05-20 07:32:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285009]
+[2024-05-20 07:32:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 07:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s5learn
+[2024-05-20 07:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymobiledevice3
+[2024-05-20 07:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2024-05-20 07:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: examon-core
+[2024-05-20 07:32:36] INFO root fetch - processPackages [s5learn]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-20 07:32:36] INFO root fetch - processPackages [examon-core]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-20 07:32:36] INFO root fetch - processPackages [pymobiledevice3]: New version: [4.7.1] Old Version: [4.7.0]
+[2024-05-20 07:32:36] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.9.1] Old Version: [2024.5.9.0]
+[2024-05-20 07:32:36] INFO root fetch - processPackages [s5learn]: Downloading https://files.pythonhosted.org/packages/90/69/ff8190abc84a253d89680c986f1aefaffda83dc9705f8ce1126c10f0d277/s5learn-0.8.1.tar.gz
+[2024-05-20 07:32:36] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/fe/85/265c04b5c745695a99f177215783d98e1b77261a637c68846d1de8ff0229/examon_core-2.0.0.tar.gz
+[2024-05-20 07:32:36] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/3f/0a/108e3af749c5757158be48151418c2bbea49bff2269af8811bade316080a/crazy_thursday-2024.5.9.0.tar.gz
+[2024-05-20 07:32:36] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/58/86/5ee4183dcb84c1da9be0d4bbca3e171db60e67412d0fc9122cfbd97041d1/pymobiledevice3-4.7.0.tar.gz
+[2024-05-20 07:32:36] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31547534>=10485760
+[2024-05-20 07:32:36] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-05-20 07:32:36] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/20/70/a719fb059f910b10790f6a51b1c5c3ff943f1349c91c46142f1911323575/crazy_thursday-2024.5.9.1.tar.gz
+[2024-05-20 07:32:36] INFO root fetch - processPackages [s5learn]: Downloading https://files.pythonhosted.org/packages/48/50/d18e63c4c09a51926dddcb91aa05e562dc43dea77ffb90c6998ea29390ea/s5learn-0.8.2.tar.gz
+[2024-05-20 07:32:36] INFO root fetch - processPackages [examon-core]: Downloading https://files.pythonhosted.org/packages/0f/06/f51feb4cd0a89845bdb4189056715b11930f01d13fdd7996043bc8291c2c/examon_core-2.0.1.tar.gz
+[2024-05-20 07:32:36] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-20 07:32:36] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.9.0.tar.gz tmp/crazy_thursday-2024.5.9.1.tar.gz --markdown 20240520/c/crazy-thursday/2024.5.9.0-2024.5.9.1/README.md --exclude *.pyd
+[2024-05-20 07:32:36] INFO root fetch - processPackages [s5learn]: executing diffoscope
+[2024-05-20 07:32:36] INFO root fetch - processPackages [s5learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s5learn-0.8.1.tar.gz tmp/s5learn-0.8.2.tar.gz --markdown 20240520/s/s5learn/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-20 07:32:36] INFO root fetch - processPackages [examon-core]: executing diffoscope
+[2024-05-20 07:32:36] INFO root fetch - processPackages [examon-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_core-2.0.0.tar.gz tmp/examon_core-2.0.1.tar.gz --markdown 20240520/e/examon-core/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-20 07:32:37] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.0.tar.gz]
+[2024-05-20 07:32:37] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.1.tar.gz]
+[2024-05-20 07:32:37] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-20 07:32:37] INFO root fetch - processPackages [s5learn]: Remove: archive file [/home/abi/fetcher/tmp/s5learn-0.8.1.tar.gz]
+[2024-05-20 07:32:37] INFO root fetch - processPackages [s5learn]: Remove: archive file [/home/abi/fetcher/tmp/s5learn-0.8.2.tar.gz]
+[2024-05-20 07:32:37] INFO root fetch - main [MainThread]: End processing [s5learn]: success
+[2024-05-20 07:32:37] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-2.0.0.tar.gz]
+[2024-05-20 07:32:37] INFO root fetch - processPackages [examon-core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-2.0.1.tar.gz]
+[2024-05-20 07:32:37] INFO root fetch - main [MainThread]: End processing [examon-core]: success
+[2024-05-20 07:32:37] INFO root fetch - main [MainThread]: Store serial: [23285023]

@@ -8824,3 +8824,78 @@
 [2024-05-20 08:51:55] INFO root fetch - processPackages [pyubx2]: Remove: archive file [/home/abi/fetcher/tmp/pyubx2-1.2.9.tar.gz]
 [2024-05-20 08:51:55] INFO root fetch - main [MainThread]: End processing [pyubx2]: success
 [2024-05-20 08:51:55] INFO root fetch - main [MainThread]: Store serial: [23285802]
+[2024-05-20 08:53:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285802]
+[2024-05-20 08:54:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 08:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: costa2019
+[2024-05-20 08:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: monicapf
+[2024-05-20 08:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickscraper-sdk
+[2024-05-20 08:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rime-sdk
+[2024-05-20 08:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sleipnirgroup-jormungandr
+[2024-05-20 08:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alita-sdk
+[2024-05-20 08:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-mgmt-maintenance
+[2024-05-20 08:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: htag
+[2024-05-20 08:54:04] INFO root fetch - processPackages [monicapf]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-20 08:54:04] INFO root fetch - processPackages [rime-sdk]: New version: [2.8.0rc9] Old Version: [2.8.0rc8]
+[2024-05-20 08:54:04] INFO root fetch - processPackages [quickscraper-sdk]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-20 08:54:04] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-05-20 08:54:04] INFO root fetch - processPackages [monicapf]: Downloading https://files.pythonhosted.org/packages/b0/b2/08722d83a410ad61ce69499046de8650b6b92914d6d8a8f9bfacdec35ab7/monicapf-0.1.2.tar.gz
+[2024-05-20 08:54:04] INFO root fetch - processPackages [azure-mgmt-maintenance]: New version: [2.2.0b2] Old Version: [2.2.0b1]
+[2024-05-20 08:54:04] INFO root fetch - processPackages [alita-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-20 08:54:04] INFO root fetch - processPackages [costa2019]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-20 08:54:04] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/5f/ee/9f99cee94313fd0846bc0b261c0a705f5b9f0b87d20d6934a77d616566e0/rime_sdk-2.8.0rc8.tar.gz
+[2024-05-20 08:54:04] INFO root fetch - processPackages [htag]: New version: [0.91.1] Old Version: [0.91.0]
+[2024-05-20 08:54:04] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-05-20 08:54:04] INFO root fetch - processPackages [quickscraper-sdk]: Downloading https://files.pythonhosted.org/packages/c4/47/12986fc7a6b0e8c26c8f3c3f04868ca7a9f8885c343a11b0405b6b6977c7/quickscraper_sdk-1.1.1-py3-none-any.whl
+[2024-05-20 08:54:04] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/1d/be/29d81a7b70ac303d682a815de204eaf77bd8b5455a80529df4abc8136a54/alita_sdk-0.1.7.tar.gz
+[2024-05-20 08:54:04] INFO root fetch - processPackages [costa2019]: Downloading https://files.pythonhosted.org/packages/0b/98/2cfe886d57d362919bacb4d652b95811a29ca772ce0c250d8ec1866a5b56/costa2019-1.1.0.tar.gz
+[2024-05-20 08:54:04] INFO root fetch - processPackages [azure-mgmt-maintenance]: Downloading https://files.pythonhosted.org/packages/70/83/b1946c9a31ff1827d737d65d333dd56f69000a6199e11e186dbdea891abe/azure-mgmt-maintenance-2.2.0b1.tar.gz
+[2024-05-20 08:54:04] INFO root fetch - processPackages [htag]: Downloading https://files.pythonhosted.org/packages/69/30/41edaf3730cedd18d12e7b18a435b664bbcd7af0932f2eb1d9c568bd851d/htag-0.91.0.tar.gz
+[2024-05-20 08:54:05] INFO root fetch - processPackages [monicapf]: Downloading https://files.pythonhosted.org/packages/c8/22/6527ea7d59a376586e24bb65c9ae78bff6a5256e2fb1810f9a4b3c6775f0/monicapf-0.1.3.tar.gz
+[2024-05-20 08:54:05] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/82/d0/af2bc54a7ae81e59f924b38132b45b3fa131069dcddc38c084be863230b7/rime_sdk-2.8.0rc9.tar.gz
+[2024-05-20 08:54:05] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-05-20 08:54:05] INFO root fetch - processPackages [monicapf]: executing diffoscope
+[2024-05-20 08:54:05] INFO root fetch - processPackages [monicapf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monicapf-0.1.2.tar.gz tmp/monicapf-0.1.3.tar.gz --markdown 20240520/m/monicapf/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-20 08:54:05] INFO root fetch - processPackages [quickscraper-sdk]: Downloading https://files.pythonhosted.org/packages/b3/11/4a8b5678a5c0efa1862b1f78848ac6dc1424ad033ccf7e14d384f8e7b20d/quickscraper_sdk-1.1.2-py3-none-any.whl
+[2024-05-20 08:54:05] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2024-05-20 08:54:05] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.8.0rc8.tar.gz tmp/rime_sdk-2.8.0rc9.tar.gz --markdown 20240520/r/rime-sdk/2.8.0rc8-2.8.0rc9/README.md --exclude *.pyd
+[2024-05-20 08:54:05] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-05-20 08:54:05] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240520/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-05-20 08:54:05] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/58/77/699a43c7f5d3229ed63ff8d8eaba7999323921fbe9a94d3dd2d8b0f9b7a6/alita_sdk-0.1.8.tar.gz
+[2024-05-20 08:54:05] INFO root fetch - processPackages [azure-mgmt-maintenance]: Downloading https://files.pythonhosted.org/packages/22/6d/9a04a031b4dc48003bf92d8a4c003a1e7e72ee8a61749db5f423f35808b6/azure-mgmt-maintenance-2.2.0b2.tar.gz
+[2024-05-20 08:54:05] INFO root fetch - processPackages [htag]: Downloading https://files.pythonhosted.org/packages/54/32/acda25f04edeeea3eee048861986da83c5b857103448388398f4da37d65d/htag-0.91.1.tar.gz
+[2024-05-20 08:54:05] INFO root fetch - processPackages [costa2019]: Downloading https://files.pythonhosted.org/packages/a6/7a/fe05e69e1975559fb8758eb5f0a4fd0fc936a29faa6ea6748547ace9b4d6/costa2019-1.2.0.tar.gz
+[2024-05-20 08:54:05] INFO root fetch - processPackages [quickscraper-sdk]: executing diffoscope
+[2024-05-20 08:54:05] INFO root fetch - processPackages [quickscraper-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickscraper_sdk-1.1.1-py3-none-any.whl.zip tmp/quickscraper_sdk-1.1.2-py3-none-any.whl.zip --markdown 20240520/q/quickscraper-sdk/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-20 08:54:05] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-05-20 08:54:05] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.1.7.tar.gz tmp/alita_sdk-0.1.8.tar.gz --markdown 20240520/a/alita-sdk/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-20 08:54:05] INFO root fetch - processPackages [htag]: executing diffoscope
+[2024-05-20 08:54:05] INFO root fetch - processPackages [htag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htag-0.91.0.tar.gz tmp/htag-0.91.1.tar.gz --markdown 20240520/h/htag/0.91.0-0.91.1/README.md --exclude *.pyd
+[2024-05-20 08:54:05] INFO root fetch - processPackages [costa2019]: executing diffoscope
+[2024-05-20 08:54:05] INFO root fetch - processPackages [costa2019]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/costa2019-1.1.0.tar.gz tmp/costa2019-1.2.0.tar.gz --markdown 20240520/c/costa2019/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-20 08:54:05] INFO root fetch - processPackages [azure-mgmt-maintenance]: executing diffoscope
+[2024-05-20 08:54:05] INFO root fetch - processPackages [azure-mgmt-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-maintenance-2.2.0b1.tar.gz tmp/azure-mgmt-maintenance-2.2.0b2.tar.gz --markdown 20240520/a/azure-mgmt-maintenance/2.2.0b1-2.2.0b2/README.md --exclude *.pyd
+[2024-05-20 08:54:06] INFO root fetch - processPackages [monicapf]: Remove: archive file [/home/abi/fetcher/tmp/monicapf-0.1.2.tar.gz]
+[2024-05-20 08:54:06] INFO root fetch - processPackages [monicapf]: Remove: archive file [/home/abi/fetcher/tmp/monicapf-0.1.3.tar.gz]
+[2024-05-20 08:54:06] INFO root fetch - main [MainThread]: End processing [monicapf]: success
+[2024-05-20 08:54:06] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.7.tar.gz]
+[2024-05-20 08:54:06] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.1.8.tar.gz]
+[2024-05-20 08:54:06] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-05-20 08:54:06] INFO root fetch - processPackages [quickscraper-sdk]: Remove: archive file [/home/abi/fetcher/tmp/quickscraper_sdk-1.1.1-py3-none-any.whl.zip]
+[2024-05-20 08:54:06] INFO root fetch - processPackages [quickscraper-sdk]: Remove: archive file [/home/abi/fetcher/tmp/quickscraper_sdk-1.1.2-py3-none-any.whl.zip]
+[2024-05-20 08:54:06] INFO root fetch - main [MainThread]: End processing [quickscraper-sdk]: success
+[2024-05-20 08:54:06] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-05-20 08:54:06] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-05-20 08:54:06] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-05-20 08:54:06] INFO root fetch - processPackages [htag]: Remove: archive file [/home/abi/fetcher/tmp/htag-0.91.0.tar.gz]
+[2024-05-20 08:54:06] INFO root fetch - processPackages [htag]: Remove: archive file [/home/abi/fetcher/tmp/htag-0.91.1.tar.gz]
+[2024-05-20 08:54:06] INFO root fetch - main [MainThread]: End processing [htag]: success
+[2024-05-20 08:54:06] INFO root fetch - processPackages [costa2019]: Remove: archive file [/home/abi/fetcher/tmp/costa2019-1.1.0.tar.gz]
+[2024-05-20 08:54:06] INFO root fetch - processPackages [costa2019]: Remove: archive file [/home/abi/fetcher/tmp/costa2019-1.2.0.tar.gz]
+[2024-05-20 08:54:06] INFO root fetch - main [MainThread]: End processing [costa2019]: success
+[2024-05-20 08:54:06] INFO root fetch - processPackages [azure-mgmt-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-maintenance-2.2.0b1.tar.gz]
+[2024-05-20 08:54:06] INFO root fetch - processPackages [azure-mgmt-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-maintenance-2.2.0b2.tar.gz]
+[2024-05-20 08:54:06] INFO root fetch - main [MainThread]: End processing [azure-mgmt-maintenance]: success
+[2024-05-20 08:54:07] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc8.tar.gz]
+[2024-05-20 08:54:07] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.8.0rc9.tar.gz]
+[2024-05-20 08:54:07] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2024-05-20 08:54:07] INFO root fetch - main [MainThread]: Store serial: [23285842]

@@ -10302,3 +10302,38 @@
 [2024-05-20 10:10:35] INFO root fetch - processPackages [ganblr]: Remove: archive file [/home/abi/fetcher/tmp/ganblr-0.1.3.tar.gz]
 [2024-05-20 10:10:35] INFO root fetch - main [MainThread]: End processing [ganblr]: success
 [2024-05-20 10:10:35] INFO root fetch - main [MainThread]: Store serial: [23286645]
+[2024-05-20 10:12:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286645]
+[2024-05-20 10:12:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 10:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ayeaye-fossa
+[2024-05-20 10:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: play3slib
+[2024-05-20 10:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notdiamond
+[2024-05-20 10:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: souterrainz
+[2024-05-20 10:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wpcsys
+[2024-05-20 10:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: visdatcompy
+[2024-05-20 10:12:44] WARNING root fetch - processPackages [visdatcompy]: Skipping, unable to determine old version
+[2024-05-20 10:12:44] INFO root fetch - main [MainThread]: End processing [visdatcompy] error
+[2024-05-20 10:12:44] WARNING root fetch - processPackages [play3slib]: Skipping, unable to determine old version
+[2024-05-20 10:12:44] INFO root fetch - main [MainThread]: End processing [play3slib] error
+[2024-05-20 10:12:44] WARNING root fetch - processPackages [souterrainz]: Skipping, unable to determine old version
+[2024-05-20 10:12:44] INFO root fetch - main [MainThread]: End processing [souterrainz] error
+[2024-05-20 10:12:44] INFO root fetch - processPackages [notdiamond]: New version: [0.1.9b0] Old Version: [0.1.8b0]
+[2024-05-20 10:12:44] INFO root fetch - processPackages [ayeaye-fossa]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 10:12:44] INFO root fetch - processPackages [wpcsys]: New version: [3.0.8] Old Version: [3.0.7]
+[2024-05-20 10:12:44] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/d8/a1/912b7eb7c2ec90821727eeae723c737b6fccd8c7d43b5b88035f69062531/ayeaye-fossa-0.0.8.tar.gz
+[2024-05-20 10:12:44] INFO root fetch - processPackages [notdiamond]: Downloading https://files.pythonhosted.org/packages/6d/de/cb1c423f06ea5f830dc7054c3eb00d3d206eb6ae388c551a05a0ad13371e/notdiamond-0.1.8b0.tar.gz
+[2024-05-20 10:12:44] INFO root fetch - processPackages [wpcsys]: Downloading https://files.pythonhosted.org/packages/57/67/4dabf7f8b6c003edc3cb214143af79042c1f2b15f9682f59b6079ca4d33a/wpcsys-3.0.7.tar.gz
+[2024-05-20 10:12:45] WARNING root fetch - processPackages [wpcsys]: Skipping package: exceeds size limit 10979465>=10485760
+[2024-05-20 10:12:45] INFO root fetch - main [MainThread]: End processing [wpcsys] error
+[2024-05-20 10:12:45] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/3f/3a/f0d0d26d68a1d713e3a4fd112bc9c5730bf2ffb87570f006537da13a4e41/ayeaye-fossa-0.0.9.tar.gz
+[2024-05-20 10:12:45] INFO root fetch - processPackages [notdiamond]: Downloading https://files.pythonhosted.org/packages/ca/a2/0af46e6cc03ef4f28da6e149a8e8f12458a7285f90b855a006e0726be24d/notdiamond-0.1.9b0.tar.gz
+[2024-05-20 10:12:45] INFO root fetch - processPackages [ayeaye-fossa]: executing diffoscope
+[2024-05-20 10:12:45] INFO root fetch - processPackages [ayeaye-fossa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayeaye-fossa-0.0.8.tar.gz tmp/ayeaye-fossa-0.0.9.tar.gz --markdown 20240520/a/ayeaye-fossa/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 10:12:45] INFO root fetch - processPackages [notdiamond]: executing diffoscope
+[2024-05-20 10:12:45] INFO root fetch - processPackages [notdiamond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notdiamond-0.1.8b0.tar.gz tmp/notdiamond-0.1.9b0.tar.gz --markdown 20240520/n/notdiamond/0.1.8b0-0.1.9b0/README.md --exclude *.pyd
+[2024-05-20 10:12:46] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.8.tar.gz]
+[2024-05-20 10:12:46] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.9.tar.gz]
+[2024-05-20 10:12:46] INFO root fetch - main [MainThread]: End processing [ayeaye-fossa]: success
+[2024-05-20 10:12:46] INFO root fetch - processPackages [notdiamond]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond-0.1.8b0.tar.gz]
+[2024-05-20 10:12:46] INFO root fetch - processPackages [notdiamond]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond-0.1.9b0.tar.gz]
+[2024-05-20 10:12:46] INFO root fetch - main [MainThread]: End processing [notdiamond]: success
+[2024-05-20 10:12:46] INFO root fetch - main [MainThread]: Store serial: [23286667]

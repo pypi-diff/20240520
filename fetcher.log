@@ -11533,3 +11533,56 @@
 [2024-05-20 10:58:53] INFO root fetch - processPackages [TINTOlib]: Remove: archive file [/home/abi/fetcher/tmp/tintolib-0.0.9.tar.gz]
 [2024-05-20 10:58:53] INFO root fetch - main [MainThread]: End processing [TINTOlib]: success
 [2024-05-20 10:58:53] INFO root fetch - main [MainThread]: Store serial: [23287178]
+[2024-05-20 11:00:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287178]
+[2024-05-20 11:01:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 11:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sais-notify-test
+[2024-05-20 11:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: git-gud
+[2024-05-20 11:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: glabel
+[2024-05-20 11:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: twinlib
+[2024-05-20 11:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: markdown-include-bd
+[2024-05-20 11:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mountain-chicken
+[2024-05-20 11:01:02] INFO root fetch - processPackages [mountain-chicken]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-20 11:01:02] INFO root fetch - processPackages [mountain-chicken]: Downloading https://files.pythonhosted.org/packages/fb/e9/5f6bab6a3f282ee5723e4517c015f254555151c5409d377990aa48f6befa/mountain_chicken-0.1.4.tar.gz
+[2024-05-20 11:01:02] INFO root fetch - processPackages [sais-notify-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 11:01:02] INFO root fetch - processPackages [glabel]: New version: [1.1.4b1] Old Version: [1.1.3b1]
+[2024-05-20 11:01:02] INFO root fetch - processPackages [git-gud]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-20 11:01:02] INFO root fetch - processPackages [markdown-include-bd]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-20 11:01:02] INFO root fetch - processPackages [twinlib]: New version: [0.2.0] Old Version: [0.1.7]
+[2024-05-20 11:01:02] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/94/42/07c0e25844ffdc6494e7447658dc084d6435c7343816264387d435ddb98d/sais_notify_test-0.0.8.tar.gz
+[2024-05-20 11:01:02] INFO root fetch - processPackages [git-gud]: Downloading https://files.pythonhosted.org/packages/8d/6c/19d4a2394f0dd3cfd8377bc634d2eaa87b570edb7f992074ff9f81606cbf/git-gud-0.4.3.tar.gz
+[2024-05-20 11:01:02] INFO root fetch - processPackages [glabel]: Downloading https://files.pythonhosted.org/packages/68/b9/449bfe931be2dce9b7ab5846de8f9c361bd041b5063ea02972d0708f64e9/glabel-1.1.3b1-py3-none-any.whl
+[2024-05-20 11:01:02] INFO root fetch - processPackages [markdown-include-bd]: Downloading https://files.pythonhosted.org/packages/38/42/c49c53215b1ef6bb3bb028e53cba32b1e61169dc3b3e18de94072e36362e/markdown_include_bd-0.0.3.tar.gz
+[2024-05-20 11:01:02] INFO root fetch - processPackages [twinlib]: Downloading https://files.pythonhosted.org/packages/60/48/6cdc6500bf6fffacc6c66d22adfc5b14cb9779ac2f47d374bbedf975ec79/twinlib-0.1.7.tar.gz
+[2024-05-20 11:01:02] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/af/7a/ac17f0daa7ab738fe2f5e638d62f2cb8c0c1f86f8cadd5913ea740c174aa/sais_notify_test-0.0.9.tar.gz
+[2024-05-20 11:01:02] INFO root fetch - processPackages [mountain-chicken]: Downloading https://files.pythonhosted.org/packages/66/74/097b53b0254d401970092c0dba4b2de088a566fb24f34130eb065db784c9/mountain_chicken-0.1.5.tar.gz
+[2024-05-20 11:01:02] INFO root fetch - processPackages [sais-notify-test]: executing diffoscope
+[2024-05-20 11:01:02] INFO root fetch - processPackages [sais-notify-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify_test-0.0.8.tar.gz tmp/sais_notify_test-0.0.9.tar.gz --markdown 20240520/s/sais-notify-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 11:01:02] INFO root fetch - processPackages [mountain-chicken]: executing diffoscope
+[2024-05-20 11:01:02] INFO root fetch - processPackages [mountain-chicken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mountain_chicken-0.1.4.tar.gz tmp/mountain_chicken-0.1.5.tar.gz --markdown 20240520/m/mountain-chicken/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-20 11:01:02] INFO root fetch - processPackages [glabel]: Downloading https://files.pythonhosted.org/packages/4c/25/6c4d457c8821d881b76a801dfd2e4a754b4b15f140f91a598943e7168a99/glabel-1.1.4b1.tar.gz
+[2024-05-20 11:01:02] INFO root fetch - processPackages [git-gud]: Downloading https://files.pythonhosted.org/packages/ea/48/d3104a514c50694d5656355c99fe9bcb174d56d287d7f53c16436ba5cd01/git_gud-0.4.4.tar.gz
+[2024-05-20 11:01:02] INFO root fetch - processPackages [twinlib]: Downloading https://files.pythonhosted.org/packages/af/26/22861c5792c2704e809e765e172d1b14e8de407a5efe7d4800dd74f084bf/twinlib-0.2.0.tar.gz
+[2024-05-20 11:01:02] INFO root fetch - processPackages [glabel]: executing diffoscope
+[2024-05-20 11:01:02] INFO root fetch - processPackages [glabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glabel-1.1.3b1-py3-none-any.whl.zip tmp/glabel-1.1.4b1.tar.gz --markdown 20240520/g/glabel/1.1.3b1-1.1.4b1/README.md --exclude *.pyd
+[2024-05-20 11:01:02] INFO root fetch - processPackages [git-gud]: executing diffoscope
+[2024-05-20 11:01:02] INFO root fetch - processPackages [git-gud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-gud-0.4.3.tar.gz tmp/git_gud-0.4.4.tar.gz --markdown 20240520/g/git-gud/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-20 11:01:02] WARNING root fetch - processPackages [markdown-include-bd]: Skipping package: exceeds size limit 23978802>=10485760
+[2024-05-20 11:01:02] INFO root fetch - main [MainThread]: End processing [markdown-include-bd] error
+[2024-05-20 11:01:03] INFO root fetch - processPackages [twinlib]: executing diffoscope
+[2024-05-20 11:01:03] INFO root fetch - processPackages [twinlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twinlib-0.1.7.tar.gz tmp/twinlib-0.2.0.tar.gz --markdown 20240520/t/twinlib/0.1.7-0.2.0/README.md --exclude *.pyd
+[2024-05-20 11:01:03] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.8.tar.gz]
+[2024-05-20 11:01:03] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.9.tar.gz]
+[2024-05-20 11:01:03] INFO root fetch - main [MainThread]: End processing [sais-notify-test]: success
+[2024-05-20 11:01:03] INFO root fetch - processPackages [mountain-chicken]: Remove: archive file [/home/abi/fetcher/tmp/mountain_chicken-0.1.4.tar.gz]
+[2024-05-20 11:01:03] INFO root fetch - processPackages [mountain-chicken]: Remove: archive file [/home/abi/fetcher/tmp/mountain_chicken-0.1.5.tar.gz]
+[2024-05-20 11:01:03] INFO root fetch - main [MainThread]: End processing [mountain-chicken]: success
+[2024-05-20 11:01:03] INFO root fetch - processPackages [glabel]: Remove: archive file [/home/abi/fetcher/tmp/glabel-1.1.3b1-py3-none-any.whl.zip]
+[2024-05-20 11:01:03] INFO root fetch - processPackages [glabel]: Remove: archive file [/home/abi/fetcher/tmp/glabel-1.1.4b1.tar.gz]
+[2024-05-20 11:01:03] INFO root fetch - main [MainThread]: End processing [glabel]: success
+[2024-05-20 11:01:03] INFO root fetch - processPackages [git-gud]: Remove: archive file [/home/abi/fetcher/tmp/git-gud-0.4.3.tar.gz]
+[2024-05-20 11:01:03] INFO root fetch - processPackages [git-gud]: Remove: archive file [/home/abi/fetcher/tmp/git_gud-0.4.4.tar.gz]
+[2024-05-20 11:01:03] INFO root fetch - main [MainThread]: End processing [git-gud]: success
+[2024-05-20 11:01:03] INFO root fetch - processPackages [twinlib]: Remove: archive file [/home/abi/fetcher/tmp/twinlib-0.1.7.tar.gz]
+[2024-05-20 11:01:03] INFO root fetch - processPackages [twinlib]: Remove: archive file [/home/abi/fetcher/tmp/twinlib-0.2.0.tar.gz]
+[2024-05-20 11:01:03] INFO root fetch - main [MainThread]: End processing [twinlib]: success
+[2024-05-20 11:01:03] INFO root fetch - main [MainThread]: Store serial: [23287194]

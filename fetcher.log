@@ -11417,3 +11417,81 @@
 [2024-05-20 10:54:23] INFO root fetch - processPackages [pyepggrab]: Remove: archive file [/home/abi/fetcher/tmp/pyepggrab-0.1.dev1.tar.gz]
 [2024-05-20 10:54:23] INFO root fetch - main [MainThread]: End processing [pyepggrab]: success
 [2024-05-20 10:54:23] INFO root fetch - main [MainThread]: Store serial: [23287138]
+[2024-05-20 10:56:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287138]
+[2024-05-20 10:56:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 10:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastblocks
+[2024-05-20 10:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pacroller
+[2024-05-20 10:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elastic-apm
+[2024-05-20 10:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DreamCreator
+[2024-05-20 10:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mountain-chicken
+[2024-05-20 10:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sais-notify-test
+[2024-05-20 10:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imsciences
+[2024-05-20 10:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ccs-digitalmarketplace-frontend-jinja
+[2024-05-20 10:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rnavirhost
+[2024-05-20 10:56:32] INFO root fetch - processPackages [mountain-chicken]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-20 10:56:32] INFO root fetch - processPackages [fastblocks]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-20 10:56:32] WARNING root fetch - processPackages [rnavirhost]: Skipping, unable to determine old version
+[2024-05-20 10:56:32] INFO root fetch - main [MainThread]: End processing [rnavirhost] error
+[2024-05-20 10:56:32] INFO root fetch - processPackages [sais-notify-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 10:56:32] INFO root fetch - processPackages [DreamCreator]: New version: [0.0.3] Old Version: [0.0.21]
+[2024-05-20 10:56:32] INFO root fetch - processPackages [elastic-apm]: New version: [6.9.1] Old Version: [6.9.0]
+[2024-05-20 10:56:32] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/79/e5/d94a019224461027af3334b903f593f912fdf18a69e835c75999bece0f50/DreamCreator-0.0.21.tar.gz
+[2024-05-20 10:56:32] INFO root fetch - processPackages [mountain-chicken]: Downloading https://files.pythonhosted.org/packages/59/79/ae5ea22920aa887c4f53210b207fdfcb57aa4021929c2f77cbdbd7c79fc2/mountain_chicken-0.1.3.tar.gz
+[2024-05-20 10:56:32] INFO root fetch - processPackages [fastblocks]: Downloading https://files.pythonhosted.org/packages/e1/6c/e6e9400ab6ce6851417eeb694cc53161e828738f390f720ec01e9ba5d843/fastblocks-0.4.0.tar.gz
+[2024-05-20 10:56:32] INFO root fetch - processPackages [pacroller]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 10:56:32] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-05-20 10:56:32] INFO root fetch - processPackages [imsciences]: New version: [0.5.7.2] Old Version: [0.5.7.1]
+[2024-05-20 10:56:32] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/94/42/07c0e25844ffdc6494e7447658dc084d6435c7343816264387d435ddb98d/sais_notify_test-0.0.8.tar.gz
+[2024-05-20 10:56:32] INFO root fetch - processPackages [elastic-apm]: Downloading https://files.pythonhosted.org/packages/ef/65/e78bd18a8362e68fcb6f9090380e7e17423e2bea884e3779dceccb425634/elastic-apm-6.9.0.tar.gz
+[2024-05-20 10:56:32] INFO root fetch - processPackages [pacroller]: Downloading https://files.pythonhosted.org/packages/59/71/92b209040679367452b3da31a1857973ad9c8cd1b636bbe676509ac8fb15/pacroller-0.1.8.tar.gz
+[2024-05-20 10:56:32] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/d3/b7/06697bbc2e3e08fbdf3b00d58677188bc47910a3d0d4e3ca16c6c7410562/ccs-digitalmarketplace-frontend-jinja-2.5.0.tar.gz
+[2024-05-20 10:56:32] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/31/94/ffe8a81002633bcb9dfb7e180d4301f1cf4b93baa1261de8b10369af5daf/imsciences-0.5.7.1.tar.gz
+[2024-05-20 10:56:32] INFO root fetch - processPackages [mountain-chicken]: Downloading https://files.pythonhosted.org/packages/fb/e9/5f6bab6a3f282ee5723e4517c015f254555151c5409d377990aa48f6befa/mountain_chicken-0.1.4.tar.gz
+[2024-05-20 10:56:32] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/ce/5b/787c1affed15428a245198f913e10c9c9549e15cba1ac2612165fbc490b9/DreamCreator-0.0.3.tar.gz
+[2024-05-20 10:56:32] INFO root fetch - processPackages [fastblocks]: Downloading https://files.pythonhosted.org/packages/d5/89/efa0cb558a4caf7022c54d8c922bac1be6e2b561d11c567bfd586a0971da/fastblocks-0.4.1.tar.gz
+[2024-05-20 10:56:32] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/af/7a/ac17f0daa7ab738fe2f5e638d62f2cb8c0c1f86f8cadd5913ea740c174aa/sais_notify_test-0.0.9.tar.gz
+[2024-05-20 10:56:32] INFO root fetch - processPackages [mountain-chicken]: executing diffoscope
+[2024-05-20 10:56:32] INFO root fetch - processPackages [mountain-chicken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mountain_chicken-0.1.3.tar.gz tmp/mountain_chicken-0.1.4.tar.gz --markdown 20240520/m/mountain-chicken/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-20 10:56:32] INFO root fetch - processPackages [DreamCreator]: executing diffoscope
+[2024-05-20 10:56:32] INFO root fetch - processPackages [DreamCreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DreamCreator-0.0.21.tar.gz tmp/DreamCreator-0.0.3.tar.gz --markdown 20240520/D/DreamCreator/0.0.21-0.0.3/README.md --exclude *.pyd
+[2024-05-20 10:56:32] INFO root fetch - processPackages [fastblocks]: executing diffoscope
+[2024-05-20 10:56:32] INFO root fetch - processPackages [fastblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastblocks-0.4.0.tar.gz tmp/fastblocks-0.4.1.tar.gz --markdown 20240520/f/fastblocks/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-20 10:56:32] INFO root fetch - processPackages [sais-notify-test]: executing diffoscope
+[2024-05-20 10:56:32] INFO root fetch - processPackages [sais-notify-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify_test-0.0.8.tar.gz tmp/sais_notify_test-0.0.9.tar.gz --markdown 20240520/s/sais-notify-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 10:56:32] INFO root fetch - processPackages [elastic-apm]: Downloading https://files.pythonhosted.org/packages/60/0d/4372d19289be610189bb041001dd097ffa933e5955b03232b88b8630a03f/elastic-apm-6.9.1.tar.gz
+[2024-05-20 10:56:32] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/70/41/ea1ce7d316d7bb9007369184e00c94b8c463b0aa525d782908f848c1a400/ccs-digitalmarketplace-frontend-jinja-2.6.0.tar.gz
+[2024-05-20 10:56:32] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/fc/0d/118ded909f0e7699d14f255939b9e75a4bfa1a5cb397b85e74f5605b3d46/imsciences-0.5.7.2.tar.gz
+[2024-05-20 10:56:32] INFO root fetch - processPackages [pacroller]: Downloading https://files.pythonhosted.org/packages/bc/32/4a387b2b52071b720833efdb48044940d6964828870d259d9615cbf2cec3/pacroller-0.1.9.tar.gz
+[2024-05-20 10:56:32] INFO root fetch - processPackages [elastic-apm]: executing diffoscope
+[2024-05-20 10:56:32] INFO root fetch - processPackages [elastic-apm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elastic-apm-6.9.0.tar.gz tmp/elastic-apm-6.9.1.tar.gz --markdown 20240520/e/elastic-apm/6.9.0-6.9.1/README.md --exclude *.pyd
+[2024-05-20 10:56:33] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-20 10:56:33] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.7.1.tar.gz tmp/imsciences-0.5.7.2.tar.gz --markdown 20240520/i/imsciences/0.5.7.1-0.5.7.2/README.md --exclude *.pyd
+[2024-05-20 10:56:33] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: executing diffoscope
+[2024-05-20 10:56:33] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-frontend-jinja-2.5.0.tar.gz tmp/ccs-digitalmarketplace-frontend-jinja-2.6.0.tar.gz --markdown 20240520/c/ccs-digitalmarketplace-frontend-jinja/2.5.0-2.6.0/README.md --exclude *.pyd
+[2024-05-20 10:56:33] INFO root fetch - processPackages [pacroller]: executing diffoscope
+[2024-05-20 10:56:33] INFO root fetch - processPackages [pacroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pacroller-0.1.8.tar.gz tmp/pacroller-0.1.9.tar.gz --markdown 20240520/p/pacroller/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 10:56:33] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.8.tar.gz]
+[2024-05-20 10:56:33] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.9.tar.gz]
+[2024-05-20 10:56:33] INFO root fetch - main [MainThread]: End processing [sais-notify-test]: success
+[2024-05-20 10:56:33] INFO root fetch - processPackages [mountain-chicken]: Remove: archive file [/home/abi/fetcher/tmp/mountain_chicken-0.1.3.tar.gz]
+[2024-05-20 10:56:33] INFO root fetch - processPackages [mountain-chicken]: Remove: archive file [/home/abi/fetcher/tmp/mountain_chicken-0.1.4.tar.gz]
+[2024-05-20 10:56:33] INFO root fetch - main [MainThread]: End processing [mountain-chicken]: success
+[2024-05-20 10:56:33] INFO root fetch - processPackages [fastblocks]: Remove: archive file [/home/abi/fetcher/tmp/fastblocks-0.4.0.tar.gz]
+[2024-05-20 10:56:33] INFO root fetch - processPackages [fastblocks]: Remove: archive file [/home/abi/fetcher/tmp/fastblocks-0.4.1.tar.gz]
+[2024-05-20 10:56:33] INFO root fetch - main [MainThread]: End processing [fastblocks]: success
+[2024-05-20 10:56:33] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.21.tar.gz]
+[2024-05-20 10:56:33] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.3.tar.gz]
+[2024-05-20 10:56:33] INFO root fetch - main [MainThread]: End processing [DreamCreator]: success
+[2024-05-20 10:56:33] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.1.tar.gz]
+[2024-05-20 10:56:33] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.2.tar.gz]
+[2024-05-20 10:56:33] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-20 10:56:33] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-frontend-jinja-2.5.0.tar.gz]
+[2024-05-20 10:56:33] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-frontend-jinja-2.6.0.tar.gz]
+[2024-05-20 10:56:33] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-frontend-jinja]: success
+[2024-05-20 10:56:33] INFO root fetch - processPackages [pacroller]: Remove: archive file [/home/abi/fetcher/tmp/pacroller-0.1.8.tar.gz]
+[2024-05-20 10:56:33] INFO root fetch - processPackages [pacroller]: Remove: archive file [/home/abi/fetcher/tmp/pacroller-0.1.9.tar.gz]
+[2024-05-20 10:56:33] INFO root fetch - main [MainThread]: End processing [pacroller]: success
+[2024-05-20 10:56:34] INFO root fetch - processPackages [elastic-apm]: Remove: archive file [/home/abi/fetcher/tmp/elastic-apm-6.9.0.tar.gz]
+[2024-05-20 10:56:34] INFO root fetch - processPackages [elastic-apm]: Remove: archive file [/home/abi/fetcher/tmp/elastic-apm-6.9.1.tar.gz]
+[2024-05-20 10:56:34] INFO root fetch - main [MainThread]: End processing [elastic-apm]: success
+[2024-05-20 10:56:34] INFO root fetch - main [MainThread]: Store serial: [23287162]

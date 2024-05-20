@@ -4301,3 +4301,18 @@
 [2024-05-20 03:38:42] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.6.tar.gz]
 [2024-05-20 03:38:42] INFO root fetch - main [MainThread]: End processing [tmticket]: success
 [2024-05-20 03:38:42] INFO root fetch - main [MainThread]: Store serial: [23283401]
+[2024-05-20 03:40:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283401]
+[2024-05-20 03:40:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 03:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyAgrum-nightly
+[2024-05-20 03:40:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reverse-life
+[2024-05-20 03:40:51] WARNING root fetch - processPackages [reverse-life]: Skipping, unable to determine old version
+[2024-05-20 03:40:51] INFO root fetch - main [MainThread]: End processing [reverse-life] error
+[2024-05-20 03:40:51] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-20 03:40:51] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-20 03:40:52] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-20 03:40:52] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-20 03:40:52] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240520/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-20 03:40:53] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 03:40:53] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 03:40:53] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-20 03:40:53] INFO root fetch - main [MainThread]: Store serial: [23283414]

@@ -6142,3 +6142,24 @@
 [2024-05-20 05:58:53] INFO root fetch - processPackages [py50]: Remove: archive file [/home/abi/fetcher/tmp/py50-1.0.5.tar.gz]
 [2024-05-20 05:58:53] INFO root fetch - main [MainThread]: End processing [py50]: success
 [2024-05-20 05:58:53] INFO root fetch - main [MainThread]: Store serial: [23284305]
+[2024-05-20 06:00:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284305]
+[2024-05-20 06:01:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 06:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdbmongo
+[2024-05-20 06:01:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polymind
+[2024-05-20 06:01:02] INFO root fetch - processPackages [gdbmongo]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-20 06:01:02] INFO root fetch - processPackages [polymind]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-20 06:01:02] INFO root fetch - processPackages [gdbmongo]: Downloading https://files.pythonhosted.org/packages/9c/0d/d98f6389996f3adb896962864268da20cc6bbb98987dd757006ac11f3331/gdbmongo-0.8.1.tar.gz
+[2024-05-20 06:01:02] INFO root fetch - processPackages [polymind]: Downloading https://files.pythonhosted.org/packages/0e/aa/52a8f77530064a4a31bc4aa8116debc14a08e851bf5d42cd670dc896ca1c/polymind-0.0.6.tar.gz
+[2024-05-20 06:01:02] INFO root fetch - processPackages [gdbmongo]: Downloading https://files.pythonhosted.org/packages/08/28/662d356edc67c5b359a3f16681f1bf885a454f1598f9bac4157280d7c674/gdbmongo-0.9.0.tar.gz
+[2024-05-20 06:01:02] INFO root fetch - processPackages [gdbmongo]: executing diffoscope
+[2024-05-20 06:01:02] INFO root fetch - processPackages [gdbmongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdbmongo-0.8.1.tar.gz tmp/gdbmongo-0.9.0.tar.gz --markdown 20240520/g/gdbmongo/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-20 06:01:03] INFO root fetch - processPackages [gdbmongo]: Remove: archive file [/home/abi/fetcher/tmp/gdbmongo-0.8.1.tar.gz]
+[2024-05-20 06:01:03] INFO root fetch - processPackages [gdbmongo]: Remove: archive file [/home/abi/fetcher/tmp/gdbmongo-0.9.0.tar.gz]
+[2024-05-20 06:01:03] INFO root fetch - main [MainThread]: End processing [gdbmongo]: success
+[2024-05-20 06:01:03] INFO root fetch - processPackages [polymind]: Downloading https://files.pythonhosted.org/packages/6b/5d/85efcce46e16627c7bdb1ca311cf5e79cf132fa11e00070c1ef96f3e1aab/polymind-0.0.7.tar.gz
+[2024-05-20 06:01:03] INFO root fetch - processPackages [polymind]: executing diffoscope
+[2024-05-20 06:01:03] INFO root fetch - processPackages [polymind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymind-0.0.6.tar.gz tmp/polymind-0.0.7.tar.gz --markdown 20240520/p/polymind/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-20 06:01:04] INFO root fetch - processPackages [polymind]: Remove: archive file [/home/abi/fetcher/tmp/polymind-0.0.6.tar.gz]
+[2024-05-20 06:01:04] INFO root fetch - processPackages [polymind]: Remove: archive file [/home/abi/fetcher/tmp/polymind-0.0.7.tar.gz]
+[2024-05-20 06:01:04] INFO root fetch - main [MainThread]: End processing [polymind]: success
+[2024-05-20 06:01:04] INFO root fetch - main [MainThread]: Store serial: [23284311]

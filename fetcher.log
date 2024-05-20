@@ -18351,3 +18351,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:18:41] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.9.tar.gz]
 [2024-05-20 15:18:41] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2024-05-20 15:18:41] INFO root fetch - main [MainThread]: Store serial: [23290151]
+[2024-05-20 15:20:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290151]
+[2024-05-20 15:20:50] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radprompter
+[2024-05-20 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onion-clustering
+[2024-05-20 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: karyogamyz
+[2024-05-20 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyihm
+[2024-05-20 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumiverse-harbor
+[2024-05-20 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mm-wlan
+[2024-05-20 15:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvidia-dali-nightly-cuda110
+[2024-05-20 15:20:50] INFO root fetch - processPackages [radprompter]: New version: [1.1.2] Old Version: [1.1.0]
+[2024-05-20 15:20:50] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: New version: [1.39.0.dev20240517] Old Version: [1.39.0.dev20240516]
+[2024-05-20 15:20:50] INFO root fetch - processPackages [onion-clustering]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-20 15:20:50] INFO root fetch - processPackages [radprompter]: Downloading https://files.pythonhosted.org/packages/b6/1a/f26c6ea4adc0e4d81c53e9f46b0d49355e8c646cd7dbe88dcf7876c57fe7/radprompter-1.1.0.tar.gz
+[2024-05-20 15:20:50] WARNING root fetch - processPackages [karyogamyz]: Skipping, unable to determine old version
+[2024-05-20 15:20:50] INFO root fetch - main [MainThread]: End processing [karyogamyz] error
+[2024-05-20 15:20:50] INFO root fetch - processPackages [pyihm]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-20 15:20:50] INFO root fetch - processPackages [mm-wlan]: New version: [0.4] Old Version: [0.3]
+[2024-05-20 15:20:50] INFO root fetch - processPackages [pulumiverse-harbor]: New version: [3.9.4] Old Version: [3.9.3]
+[2024-05-20 15:20:50] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/4c/b8/b4c363a34d8e1074b505b14b33fc8980e4b4e77bd2f7f8acb3ca6601f072/nvidia_dali_nightly_cuda110-1.39.0.dev20240516.tar.gz
+[2024-05-20 15:20:51] INFO root fetch - processPackages [onion-clustering]: Downloading https://files.pythonhosted.org/packages/e5/d6/82ed99778f9d0a359152bfd04c7dcd3142fd2ac450552d39739f8c2fe9c7/onion_clustering-0.2.4.tar.gz
+[2024-05-20 15:20:51] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/9f/38/0cd086a3083feae382d2a470a79d0d2ce742b32f8da68b60957f0439f501/nvidia_dali_nightly_cuda110-1.39.0.dev20240517.tar.gz
+[2024-05-20 15:20:51] INFO root fetch - processPackages [mm-wlan]: Downloading https://files.pythonhosted.org/packages/7c/b9/9cddd75a0e0058cf28e052d82fae0da5d228aee437e898161fa5e40ad931/mm_wlan-0.3.tar.gz
+[2024-05-20 15:20:51] INFO root fetch - processPackages [pyihm]: Downloading https://files.pythonhosted.org/packages/15/93/2f564e6d079fc853e46ee8551acf855a9564cee1a38999b782dae0b0b7fa/pyihm-1.0.0.tar.gz
+[2024-05-20 15:20:51] INFO root fetch - processPackages [pulumiverse-harbor]: Downloading https://files.pythonhosted.org/packages/0e/5b/3e41f40cbc2d71d40c7bba0c1a36f718d30456041df03071f1609383f028/pulumiverse_harbor-3.9.3.tar.gz
+[2024-05-20 15:20:51] INFO root fetch - processPackages [radprompter]: Downloading https://files.pythonhosted.org/packages/b7/28/5dff2eb9ca33505e66c58008fe0ec27088475680f8998fbaa8f2b3900e79/radprompter-1.1.2.tar.gz
+[2024-05-20 15:20:51] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: executing diffoscope
+[2024-05-20 15:20:51] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda110-1.39.0.dev20240516.tar.gz tmp/nvidia_dali_nightly_cuda110-1.39.0.dev20240517.tar.gz --markdown 20240520/n/nvidia-dali-nightly-cuda110/1.39.0.dev20240516-1.39.0.dev20240517/README.md --exclude *.pyd
+[2024-05-20 15:20:51] INFO root fetch - processPackages [radprompter]: executing diffoscope
+[2024-05-20 15:20:51] INFO root fetch - processPackages [radprompter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radprompter-1.1.0.tar.gz tmp/radprompter-1.1.2.tar.gz --markdown 20240520/r/radprompter/1.1.0-1.1.2/README.md --exclude *.pyd
+[2024-05-20 15:20:51] INFO root fetch - processPackages [onion-clustering]: Downloading https://files.pythonhosted.org/packages/a3/4f/25d8b386fabe24e54e363cb6fe55f541f81a9aaae4173ba511e95211b165/onion_clustering-0.2.5.tar.gz
+[2024-05-20 15:20:51] INFO root fetch - processPackages [mm-wlan]: Downloading https://files.pythonhosted.org/packages/28/80/aac4bc1ec0a8d661f9683b1e70473b94dce76b91f476768b18c28bf2ce26/mm_wlan-0.4.tar.gz
+[2024-05-20 15:20:51] INFO root fetch - processPackages [onion-clustering]: executing diffoscope
+[2024-05-20 15:20:51] INFO root fetch - processPackages [onion-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onion_clustering-0.2.4.tar.gz tmp/onion_clustering-0.2.5.tar.gz --markdown 20240520/o/onion-clustering/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-20 15:20:51] INFO root fetch - processPackages [mm-wlan]: executing diffoscope
+[2024-05-20 15:20:51] INFO root fetch - processPackages [mm-wlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mm_wlan-0.3.tar.gz tmp/mm_wlan-0.4.tar.gz --markdown 20240520/m/mm-wlan/0.3-0.4/README.md --exclude *.pyd
+[2024-05-20 15:20:51] INFO root fetch - processPackages [pulumiverse-harbor]: Downloading https://files.pythonhosted.org/packages/0d/30/3573c4e1a5e6f8418353731b79bfeacf99e560ba0bf3e0ba53e9ba62d2be/pulumiverse_harbor-3.9.4.tar.gz
+[2024-05-20 15:20:51] INFO root fetch - processPackages [pyihm]: Downloading https://files.pythonhosted.org/packages/47/4c/5ab3744740937dc71d5d52b3accdb84366c53e4ab274df3b3b7a780d3243/pyihm-1.1.0.tar.gz
+[2024-05-20 15:20:51] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.39.0.dev20240516.tar.gz]
+[2024-05-20 15:20:51] INFO root fetch - processPackages [nvidia-dali-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda110-1.39.0.dev20240517.tar.gz]
+[2024-05-20 15:20:51] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda110]: success
+[2024-05-20 15:20:51] INFO root fetch - processPackages [pulumiverse-harbor]: executing diffoscope
+[2024-05-20 15:20:51] INFO root fetch - processPackages [pulumiverse-harbor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_harbor-3.9.3.tar.gz tmp/pulumiverse_harbor-3.9.4.tar.gz --markdown 20240520/p/pulumiverse-harbor/3.9.3-3.9.4/README.md --exclude *.pyd
+[2024-05-20 15:20:52] INFO root fetch - processPackages [pyihm]: executing diffoscope
+[2024-05-20 15:20:52] INFO root fetch - processPackages [pyihm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyihm-1.0.0.tar.gz tmp/pyihm-1.1.0.tar.gz --markdown 20240520/p/pyihm/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-20 15:20:52] INFO root fetch - processPackages [mm-wlan]: Remove: archive file [/home/abi/fetcher/tmp/mm_wlan-0.3.tar.gz]
+[2024-05-20 15:20:52] INFO root fetch - processPackages [mm-wlan]: Remove: archive file [/home/abi/fetcher/tmp/mm_wlan-0.4.tar.gz]
+[2024-05-20 15:20:52] INFO root fetch - main [MainThread]: End processing [mm-wlan]: success
+[2024-05-20 15:20:52] INFO root fetch - processPackages [onion-clustering]: Remove: archive file [/home/abi/fetcher/tmp/onion_clustering-0.2.4.tar.gz]
+[2024-05-20 15:20:52] INFO root fetch - processPackages [onion-clustering]: Remove: archive file [/home/abi/fetcher/tmp/onion_clustering-0.2.5.tar.gz]
+[2024-05-20 15:20:52] INFO root fetch - main [MainThread]: End processing [onion-clustering]: success
+[2024-05-20 15:20:52] INFO root fetch - processPackages [radprompter]: Remove: archive file [/home/abi/fetcher/tmp/radprompter-1.1.0.tar.gz]
+[2024-05-20 15:20:52] INFO root fetch - processPackages [radprompter]: Remove: archive file [/home/abi/fetcher/tmp/radprompter-1.1.2.tar.gz]
+[2024-05-20 15:20:52] INFO root fetch - main [MainThread]: End processing [radprompter]: success
+[2024-05-20 15:20:52] INFO root fetch - processPackages [pulumiverse-harbor]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_harbor-3.9.3.tar.gz]
+[2024-05-20 15:20:52] INFO root fetch - processPackages [pulumiverse-harbor]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_harbor-3.9.4.tar.gz]
+[2024-05-20 15:20:52] INFO root fetch - main [MainThread]: End processing [pulumiverse-harbor]: success
+[2024-05-20 15:20:53] INFO root fetch - processPackages [pyihm]: Remove: archive file [/home/abi/fetcher/tmp/pyihm-1.0.0.tar.gz]
+[2024-05-20 15:20:53] INFO root fetch - processPackages [pyihm]: Remove: archive file [/home/abi/fetcher/tmp/pyihm-1.1.0.tar.gz]
+[2024-05-20 15:20:53] INFO root fetch - main [MainThread]: End processing [pyihm]: success
+[2024-05-20 15:20:53] INFO root fetch - main [MainThread]: Store serial: [23290172]

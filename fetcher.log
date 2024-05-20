@@ -4133,3 +4133,15 @@
 [2024-05-20 03:23:33] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
 [2024-05-20 03:23:33] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2024-05-20 03:23:33] INFO root fetch - main [MainThread]: Store serial: [23283323]
+[2024-05-20 03:25:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283323]
+[2024-05-20 03:25:42] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-20 03:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: internal
+[2024-05-20 03:25:42] INFO root fetch - processPackages [internal]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 03:25:42] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/bd/b9/8fe47ccafe5801d42242270258cf572e1cfbbc9f8c1fbb3ce2a5109464ba/internal-1.0.2.tar.gz
+[2024-05-20 03:25:42] INFO root fetch - processPackages [internal]: Downloading https://files.pythonhosted.org/packages/e7/62/f729e2f746eb52acc2016ea7df473391b17335f69465919554514e604ef6/internal-1.0.3.tar.gz
+[2024-05-20 03:25:42] INFO root fetch - processPackages [internal]: executing diffoscope
+[2024-05-20 03:25:42] INFO root fetch - processPackages [internal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal-1.0.2.tar.gz tmp/internal-1.0.3.tar.gz --markdown 20240520/i/internal/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 03:25:43] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-1.0.2.tar.gz]
+[2024-05-20 03:25:43] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-1.0.3.tar.gz]
+[2024-05-20 03:25:43] INFO root fetch - main [MainThread]: End processing [internal]: success
+[2024-05-20 03:25:43] INFO root fetch - main [MainThread]: Store serial: [23283327]

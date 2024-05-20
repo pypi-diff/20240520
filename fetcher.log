@@ -16195,3 +16195,36 @@ EOFError: EOF read where object expected
 [2024-05-20 14:05:22] INFO root fetch - processPackages [jupyterlab-new-launcher]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_new_launcher-0.3.3.tar.gz]
 [2024-05-20 14:05:22] INFO root fetch - main [MainThread]: End processing [jupyterlab-new-launcher]: success
 [2024-05-20 14:05:22] INFO root fetch - main [MainThread]: Store serial: [23289218]
+[2024-05-20 14:07:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289218]
+[2024-05-20 14:07:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 14:07:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-bulk-editing
+[2024-05-20 14:07:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc
+[2024-05-20 14:07:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctrip-app-ui
+[2024-05-20 14:07:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prophecy-libs
+[2024-05-20 14:07:31] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.7.0] Old Version: [0.6.9]
+[2024-05-20 14:07:31] WARNING root fetch - processPackages [drf-bulk-editing]: Skipping, unable to determine old version
+[2024-05-20 14:07:31] INFO root fetch - main [MainThread]: End processing [drf-bulk-editing] error
+[2024-05-20 14:07:31] INFO root fetch - processPackages [prophecy-libs]: New version: [1.9.0] Old Version: [1.8.9]
+[2024-05-20 14:07:31] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/6e/3e/59d6297d62a7be2fce0b06db92bd44c3aa19816b898d82d6c4acfeebc1ba/ctrip-app-ui-0.6.9.tar.gz
+[2024-05-20 14:07:31] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/4d/26/13eca2b0b22483c0bcc9a426ef208809d6e938fda5d639cd2122eaf7bd06/prophecy-libs-1.8.9.tar.gz
+[2024-05-20 14:07:31] INFO root fetch - processPackages [edc]: New version: [0.5.9] Old Version: [0.5.89]
+[2024-05-20 14:07:31] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/01/4c/e9cca235ea7d239d85c8400a6ae5343140d7a9b4780dc6560f59b564e83e/edc-0.5.89.tar.gz
+[2024-05-20 14:07:31] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/74/98/fdd8e4fed8976439bc2bf195c0b399547dbec73461aa7ebcd40360009825/ctrip-app-ui-0.7.0.tar.gz
+[2024-05-20 14:07:31] INFO root fetch - processPackages [prophecy-libs]: Downloading https://files.pythonhosted.org/packages/86/d4/cb82843e1f7b4c2623b6ce0914b5c3047f2272cae621d475bdac8ccebd9e/prophecy-libs-1.9.0.tar.gz
+[2024-05-20 14:07:31] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-05-20 14:07:31] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.6.9.tar.gz tmp/ctrip-app-ui-0.7.0.tar.gz --markdown 20240520/c/ctrip-app-ui/0.6.9-0.7.0/README.md --exclude *.pyd
+[2024-05-20 14:07:32] INFO root fetch - processPackages [prophecy-libs]: executing diffoscope
+[2024-05-20 14:07:32] INFO root fetch - processPackages [prophecy-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-libs-1.8.9.tar.gz tmp/prophecy-libs-1.9.0.tar.gz --markdown 20240520/p/prophecy-libs/1.8.9-1.9.0/README.md --exclude *.pyd
+[2024-05-20 14:07:32] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/c3/e1/9aff20b85318cc37cad1323d68f6b4fc9186339dd91f77988832e79670ee/edc-0.5.9.tar.gz
+[2024-05-20 14:07:32] INFO root fetch - processPackages [edc]: executing diffoscope
+[2024-05-20 14:07:32] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.5.89.tar.gz tmp/edc-0.5.9.tar.gz --markdown 20240520/e/edc/0.5.89-0.5.9/README.md --exclude *.pyd
+[2024-05-20 14:07:32] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.6.9.tar.gz]
+[2024-05-20 14:07:32] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.7.0.tar.gz]
+[2024-05-20 14:07:32] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-05-20 14:07:32] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.8.9.tar.gz]
+[2024-05-20 14:07:32] INFO root fetch - processPackages [prophecy-libs]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-libs-1.9.0.tar.gz]
+[2024-05-20 14:07:32] INFO root fetch - main [MainThread]: End processing [prophecy-libs]: success
+[2024-05-20 14:07:33] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.89.tar.gz]
+[2024-05-20 14:07:33] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.9.tar.gz]
+[2024-05-20 14:07:33] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2024-05-20 14:07:33] INFO root fetch - main [MainThread]: Store serial: [23289249]

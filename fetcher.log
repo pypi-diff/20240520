@@ -7443,3 +7443,18 @@
 [2024-05-20 07:19:32] INFO root fetch - processPackages [dprdp]: Remove: archive file [/home/abi/fetcher/tmp/dprdp-0.1.1.tar.gz]
 [2024-05-20 07:19:32] INFO root fetch - main [MainThread]: End processing [dprdp]: success
 [2024-05-20 07:19:32] INFO root fetch - main [MainThread]: Store serial: [23284961]
+[2024-05-20 07:21:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284961]
+[2024-05-20 07:21:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 07:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dash-pydantic-form
+[2024-05-20 07:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tcs34725
+[2024-05-20 07:21:42] WARNING root fetch - processPackages [tcs34725]: Skipping, unable to determine old version
+[2024-05-20 07:21:42] INFO root fetch - main [MainThread]: End processing [tcs34725] error
+[2024-05-20 07:21:42] INFO root fetch - processPackages [dash-pydantic-form]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-20 07:21:42] INFO root fetch - processPackages [dash-pydantic-form]: Downloading https://files.pythonhosted.org/packages/c2/d1/ba48fa1340fc7437f95af4f38883ef6dd62a8aa6659227d14caf169046a5/dash_pydantic_form-0.1.4.tar.gz
+[2024-05-20 07:21:42] INFO root fetch - processPackages [dash-pydantic-form]: Downloading https://files.pythonhosted.org/packages/2b/89/b6c7bcdd0ce754034defe163fb4150abd5507e771bae5f08eaca82c029ad/dash_pydantic_form-0.1.5.tar.gz
+[2024-05-20 07:21:42] INFO root fetch - processPackages [dash-pydantic-form]: executing diffoscope
+[2024-05-20 07:21:42] INFO root fetch - processPackages [dash-pydantic-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_pydantic_form-0.1.4.tar.gz tmp/dash_pydantic_form-0.1.5.tar.gz --markdown 20240520/d/dash-pydantic-form/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-20 07:21:43] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.4.tar.gz]
+[2024-05-20 07:21:43] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.5.tar.gz]
+[2024-05-20 07:21:43] INFO root fetch - main [MainThread]: End processing [dash-pydantic-form]: success
+[2024-05-20 07:21:43] INFO root fetch - main [MainThread]: Store serial: [23284971]

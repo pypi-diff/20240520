@@ -13927,3 +13927,36 @@
 [2024-05-20 12:29:29] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-05-20 12:29:29] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-05-20 12:29:29] INFO root fetch - main [MainThread]: Store serial: [23288157]
+[2024-05-20 12:31:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288157]
+[2024-05-20 12:31:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 12:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coccidiaz
+[2024-05-20 12:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jolt-docker
+[2024-05-20 12:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jolt
+[2024-05-20 12:31:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viewstate
+[2024-05-20 12:31:38] WARNING root fetch - processPackages [coccidiaz]: Skipping, unable to determine old version
+[2024-05-20 12:31:38] INFO root fetch - main [MainThread]: End processing [coccidiaz] error
+[2024-05-20 12:31:38] INFO root fetch - processPackages [viewstate]: New version: [0.6.0] Old Version: [0.5.3]
+[2024-05-20 12:31:38] INFO root fetch - processPackages [jolt-docker]: New version: [0.9.95] Old Version: [0.9.93]
+[2024-05-20 12:31:38] INFO root fetch - processPackages [jolt]: New version: [0.9.97] Old Version: [0.9.95]
+[2024-05-20 12:31:38] INFO root fetch - processPackages [viewstate]: Downloading https://files.pythonhosted.org/packages/6c/d6/efb092b77ed63d9868bd48418a844e69815d137e4c6ff378f68dab9d15bb/viewstate-0.5.3.tar.gz
+[2024-05-20 12:31:38] INFO root fetch - processPackages [jolt]: Downloading https://files.pythonhosted.org/packages/18/39/073ecb0a9c17c9b36216fa00f733a95be6171d7d71cbade0058f937ce53b/jolt-0.9.95.tar.gz
+[2024-05-20 12:31:38] INFO root fetch - processPackages [jolt-docker]: Downloading https://files.pythonhosted.org/packages/3d/4d/20e2eb0ad39991eb2d6b511721ad7bb18df2823d3f65953c13be025e1e3b/jolt_docker-0.9.93.tar.gz
+[2024-05-20 12:31:38] INFO root fetch - processPackages [viewstate]: Downloading https://files.pythonhosted.org/packages/4e/8c/f9cd70a8b5ced38e14e90d449c9bafaf751e362f3ec9c1d5517543fc6acb/viewstate-0.6.0.tar.gz
+[2024-05-20 12:31:38] INFO root fetch - processPackages [jolt-docker]: Downloading https://files.pythonhosted.org/packages/65/3b/fcaa54d80d4d38a7f457352705a6b33e69dcd69a3514df6f2b49d9fce7bd/jolt_docker-0.9.95.tar.gz
+[2024-05-20 12:31:38] INFO root fetch - processPackages [jolt]: Downloading https://files.pythonhosted.org/packages/cf/1e/068e7b8bff7d0eadf039a015bb6286f250cc8a3cf5edf54927424bb4fe1e/jolt-0.9.97.tar.gz
+[2024-05-20 12:31:38] INFO root fetch - processPackages [viewstate]: executing diffoscope
+[2024-05-20 12:31:38] INFO root fetch - processPackages [viewstate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viewstate-0.5.3.tar.gz tmp/viewstate-0.6.0.tar.gz --markdown 20240520/v/viewstate/0.5.3-0.6.0/README.md --exclude *.pyd
+[2024-05-20 12:31:38] INFO root fetch - processPackages [jolt-docker]: executing diffoscope
+[2024-05-20 12:31:38] INFO root fetch - processPackages [jolt-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolt_docker-0.9.93.tar.gz tmp/jolt_docker-0.9.95.tar.gz --markdown 20240520/j/jolt-docker/0.9.93-0.9.95/README.md --exclude *.pyd
+[2024-05-20 12:31:39] INFO root fetch - processPackages [jolt]: executing diffoscope
+[2024-05-20 12:31:39] INFO root fetch - processPackages [jolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolt-0.9.95.tar.gz tmp/jolt-0.9.97.tar.gz --markdown 20240520/j/jolt/0.9.95-0.9.97/README.md --exclude *.pyd
+[2024-05-20 12:31:39] INFO root fetch - processPackages [viewstate]: Remove: archive file [/home/abi/fetcher/tmp/viewstate-0.5.3.tar.gz]
+[2024-05-20 12:31:39] INFO root fetch - processPackages [viewstate]: Remove: archive file [/home/abi/fetcher/tmp/viewstate-0.6.0.tar.gz]
+[2024-05-20 12:31:39] INFO root fetch - main [MainThread]: End processing [viewstate]: success
+[2024-05-20 12:31:39] INFO root fetch - processPackages [jolt-docker]: Remove: archive file [/home/abi/fetcher/tmp/jolt_docker-0.9.93.tar.gz]
+[2024-05-20 12:31:39] INFO root fetch - processPackages [jolt-docker]: Remove: archive file [/home/abi/fetcher/tmp/jolt_docker-0.9.95.tar.gz]
+[2024-05-20 12:31:39] INFO root fetch - main [MainThread]: End processing [jolt-docker]: success
+[2024-05-20 12:31:39] INFO root fetch - processPackages [jolt]: Remove: archive file [/home/abi/fetcher/tmp/jolt-0.9.95.tar.gz]
+[2024-05-20 12:31:39] INFO root fetch - processPackages [jolt]: Remove: archive file [/home/abi/fetcher/tmp/jolt-0.9.97.tar.gz]
+[2024-05-20 12:31:39] INFO root fetch - main [MainThread]: End processing [jolt]: success
+[2024-05-20 12:31:39] INFO root fetch - main [MainThread]: Store serial: [23288171]

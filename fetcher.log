@@ -13206,3 +13206,54 @@
 [2024-05-20 12:03:14] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024051909.tar.gz]
 [2024-05-20 12:03:14] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-05-20 12:03:14] INFO root fetch - main [MainThread]: Store serial: [23287882]
+[2024-05-20 12:05:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287882]
+[2024-05-20 12:05:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 12:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatpack
+[2024-05-20 12:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymodins
+[2024-05-20 12:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deafrica-tools
+[2024-05-20 12:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: homraiz
+[2024-05-20 12:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vulavula
+[2024-05-20 12:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Geode-Implicit
+[2024-05-20 12:05:23] INFO root fetch - processPackages [pymodins]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-20 12:05:23] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.81]
+[2024-05-20 12:05:23] INFO root fetch - processPackages [pymodins]: Downloading https://files.pythonhosted.org/packages/c6/e8/53e9ef4844dfc9401a28e6f8368c4a171d223b3128872e4e369560cae652/pymodins-0.1.7.tar.gz
+[2024-05-20 12:05:23] INFO root fetch - processPackages [deafrica-tools]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-05-20 12:05:23] WARNING root fetch - processPackages [homraiz]: Skipping, unable to determine old version
+[2024-05-20 12:05:23] INFO root fetch - main [MainThread]: End processing [homraiz] error
+[2024-05-20 12:05:23] INFO root fetch - processPackages [vulavula]: New version: [0.3.1] Old Version: [0.2.0]
+[2024-05-20 12:05:23] INFO root fetch - processPackages [Geode-Implicit]: New version: [2.8.7rc1] Old Version: [2.8.6rc1]
+[2024-05-20 12:05:23] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/11/2c/060de288b33877bd1151ae72f7205115ef237622431525b7543bcac129b9/flatpack-3.4.81.tar.gz
+[2024-05-20 12:05:23] INFO root fetch - processPackages [pymodins]: Downloading https://files.pythonhosted.org/packages/79/e5/fd54a1ee4b3913987bdf0db0c96dd85c8d897ed1892dc1bea967daa6fb84/pymodins-0.1.8.tar.gz
+[2024-05-20 12:05:23] INFO root fetch - processPackages [vulavula]: Downloading https://files.pythonhosted.org/packages/8e/1c/086692402886abb4a4ee3fc395e21aaff1a2dedebaba5522fd6e89d2ea7d/vulavula-0.2.0.tar.gz
+[2024-05-20 12:05:23] INFO root fetch - processPackages [deafrica-tools]: Downloading https://files.pythonhosted.org/packages/20/de/24a8b37940b9d04b05be833d668a586fb60dc429b8af6094da5dfd62e6be/deafrica_tools-2.3.8.tar.gz
+[2024-05-20 12:05:23] INFO root fetch - processPackages [pymodins]: executing diffoscope
+[2024-05-20 12:05:23] INFO root fetch - processPackages [pymodins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodins-0.1.7.tar.gz tmp/pymodins-0.1.8.tar.gz --markdown 20240520/p/pymodins/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-20 12:05:23] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-20 12:05:23] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/7d/60/f125d20070dbb86a86cd6e3a71debb1a04781238df0ff0af71d6f33f6f2b/Geode_Implicit-2.8.6rc1-cp39-cp39-win_amd64.whl
+[2024-05-20 12:05:23] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-20 12:05:23] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.81.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240520/f/flatpack/3.4.81-3.4.9/README.md --exclude *.pyd
+[2024-05-20 12:05:23] INFO root fetch - processPackages [vulavula]: Downloading https://files.pythonhosted.org/packages/7a/51/f062704a3860629b98a701aefc151693a1ea163b7d65b7cb2a796946dc67/vulavula-0.3.1.tar.gz
+[2024-05-20 12:05:23] INFO root fetch - processPackages [deafrica-tools]: Downloading https://files.pythonhosted.org/packages/9b/d3/37ab32e296f79e3cdd46b033eae9d0b711af4b95c3ab4431289cbfcb708c/deafrica_tools-2.3.9.tar.gz
+[2024-05-20 12:05:23] INFO root fetch - processPackages [deafrica-tools]: executing diffoscope
+[2024-05-20 12:05:23] INFO root fetch - processPackages [deafrica-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deafrica_tools-2.3.8.tar.gz tmp/deafrica_tools-2.3.9.tar.gz --markdown 20240520/d/deafrica-tools/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-05-20 12:05:24] INFO root fetch - processPackages [vulavula]: executing diffoscope
+[2024-05-20 12:05:24] INFO root fetch - processPackages [vulavula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulavula-0.2.0.tar.gz tmp/vulavula-0.3.1.tar.gz --markdown 20240520/v/vulavula/0.2.0-0.3.1/README.md --exclude *.pyd
+[2024-05-20 12:05:24] INFO root fetch - processPackages [pymodins]: Remove: archive file [/home/abi/fetcher/tmp/pymodins-0.1.7.tar.gz]
+[2024-05-20 12:05:24] INFO root fetch - processPackages [pymodins]: Remove: archive file [/home/abi/fetcher/tmp/pymodins-0.1.8.tar.gz]
+[2024-05-20 12:05:24] INFO root fetch - main [MainThread]: End processing [pymodins]: success
+[2024-05-20 12:05:24] INFO root fetch - processPackages [Geode-Implicit]: Downloading https://files.pythonhosted.org/packages/39/47/ea13069fb77e6085bdf2b0f9e3c5ec7b64e4a6974a8881f084b919e52ce7/Geode_Implicit-2.8.7rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-20 12:05:24] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.81.tar.gz]
+[2024-05-20 12:05:24] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-20 12:05:24] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-20 12:05:24] INFO root fetch - processPackages [vulavula]: Remove: archive file [/home/abi/fetcher/tmp/vulavula-0.2.0.tar.gz]
+[2024-05-20 12:05:24] INFO root fetch - processPackages [vulavula]: Remove: archive file [/home/abi/fetcher/tmp/vulavula-0.3.1.tar.gz]
+[2024-05-20 12:05:24] INFO root fetch - main [MainThread]: End processing [vulavula]: success
+[2024-05-20 12:05:24] INFO root fetch - processPackages [deafrica-tools]: Remove: archive file [/home/abi/fetcher/tmp/deafrica_tools-2.3.8.tar.gz]
+[2024-05-20 12:05:24] INFO root fetch - processPackages [deafrica-tools]: Remove: archive file [/home/abi/fetcher/tmp/deafrica_tools-2.3.9.tar.gz]
+[2024-05-20 12:05:24] INFO root fetch - main [MainThread]: End processing [deafrica-tools]: success
+[2024-05-20 12:05:28] INFO root fetch - processPackages [Geode-Implicit]: executing diffoscope
+[2024-05-20 12:05:28] INFO root fetch - processPackages [Geode-Implicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Implicit-2.8.6rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Implicit-2.8.7rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240520/G/Geode-Implicit/2.8.6rc1-2.8.7rc1/README.md --exclude *.pyd
+[2024-05-20 12:05:29] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.6rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 12:05:29] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.7rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-20 12:05:29] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
+[2024-05-20 12:05:29] INFO root fetch - main [MainThread]: Store serial: [23287907]

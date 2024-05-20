@@ -9290,3 +9290,48 @@
 [2024-05-20 09:18:32] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.9.tar.gz]
 [2024-05-20 09:18:32] INFO root fetch - main [MainThread]: End processing [patchwork-cli]: success
 [2024-05-20 09:18:32] INFO root fetch - main [MainThread]: Store serial: [23286201]
+[2024-05-20 09:20:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286201]
+[2024-05-20 09:20:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 09:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: JS-Flask-Install
+[2024-05-20 09:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solar-registry
+[2024-05-20 09:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctrip-app-ui
+[2024-05-20 09:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tc-hivemind-backend
+[2024-05-20 09:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xcloudforlinux
+[2024-05-20 09:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evers2010
+[2024-05-20 09:20:41] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-05-20 09:20:41] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/12/89/1448a445713bb3a489d5d7d5832cfdf9711766c848587b599ed9bd78f9a8/ctrip-app-ui-0.6.7.tar.gz
+[2024-05-20 09:20:41] INFO root fetch - processPackages [tc-hivemind-backend]: New version: [1.2.0] Old Version: [1.1.6]
+[2024-05-20 09:20:41] INFO root fetch - processPackages [xcloudforlinux]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-20 09:20:41] WARNING root fetch - processPackages [JS-Flask-Install]: Skipping, unable to determine old version
+[2024-05-20 09:20:41] INFO root fetch - main [MainThread]: End processing [JS-Flask-Install] error
+[2024-05-20 09:20:41] INFO root fetch - processPackages [solar-registry]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-20 09:20:41] WARNING root fetch - processPackages [evers2010]: Skipping, unable to determine old version
+[2024-05-20 09:20:41] INFO root fetch - main [MainThread]: End processing [evers2010] error
+[2024-05-20 09:20:41] INFO root fetch - processPackages [tc-hivemind-backend]: Downloading https://files.pythonhosted.org/packages/0c/36/758576114abda398ecc2343409509ce8e78f2b95a6572731e3d5a25d2114/tc_hivemind_backend-1.1.6.tar.gz
+[2024-05-20 09:20:41] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/0e/f2/d054c6d47257d36b6862b3c6612ca69f03a2aa4b63af145d0ea8a522075a/solar_registry-0.2.8.tar.gz
+[2024-05-20 09:20:41] INFO root fetch - processPackages [xcloudforlinux]: Downloading https://files.pythonhosted.org/packages/83/64/e3cf245778061439202d6a0446e173fd9c00904ac43a4951ac849b083b43/xcloudforlinux-0.3.0.tar.gz
+[2024-05-20 09:20:41] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/50/71/a2b78b2b0b36ff2ce95a3ec4ade6b0652c14552249c4f4a7795dd0845a1e/ctrip-app-ui-0.6.8.tar.gz
+[2024-05-20 09:20:41] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-05-20 09:20:41] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.6.7.tar.gz tmp/ctrip-app-ui-0.6.8.tar.gz --markdown 20240520/c/ctrip-app-ui/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-05-20 09:20:41] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/cd/40/34eee216b08c5fa01cbb36635892aad7693c83fa5e87387b29ae05c737f0/solar_registry-0.2.9.tar.gz
+[2024-05-20 09:20:41] INFO root fetch - processPackages [tc-hivemind-backend]: Downloading https://files.pythonhosted.org/packages/05/e6/647440a213081e6114abc40782d8925565974d6dbebbd0796061dc402a4c/tc_hivemind_backend-1.2.0.tar.gz
+[2024-05-20 09:20:41] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-20 09:20:41] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.8.tar.gz tmp/solar_registry-0.2.9.tar.gz --markdown 20240520/s/solar-registry/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-20 09:20:42] INFO root fetch - processPackages [tc-hivemind-backend]: executing diffoscope
+[2024-05-20 09:20:42] INFO root fetch - processPackages [tc-hivemind-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tc_hivemind_backend-1.1.6.tar.gz tmp/tc_hivemind_backend-1.2.0.tar.gz --markdown 20240520/t/tc-hivemind-backend/1.1.6-1.2.0/README.md --exclude *.pyd
+[2024-05-20 09:20:42] INFO root fetch - processPackages [xcloudforlinux]: Downloading https://files.pythonhosted.org/packages/bc/ad/47f5a8953962359bae886906ec6206546adf638c6c2f1c9e04a08efb2399/xcloudforlinux-0.3.1.tar.gz
+[2024-05-20 09:20:42] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.6.7.tar.gz]
+[2024-05-20 09:20:42] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.6.8.tar.gz]
+[2024-05-20 09:20:42] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-05-20 09:20:42] INFO root fetch - processPackages [xcloudforlinux]: executing diffoscope
+[2024-05-20 09:20:42] INFO root fetch - processPackages [xcloudforlinux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcloudforlinux-0.3.0.tar.gz tmp/xcloudforlinux-0.3.1.tar.gz --markdown 20240520/x/xcloudforlinux/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-20 09:20:42] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.8.tar.gz]
+[2024-05-20 09:20:42] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.9.tar.gz]
+[2024-05-20 09:20:42] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-20 09:20:42] INFO root fetch - processPackages [tc-hivemind-backend]: Remove: archive file [/home/abi/fetcher/tmp/tc_hivemind_backend-1.1.6.tar.gz]
+[2024-05-20 09:20:42] INFO root fetch - processPackages [tc-hivemind-backend]: Remove: archive file [/home/abi/fetcher/tmp/tc_hivemind_backend-1.2.0.tar.gz]
+[2024-05-20 09:20:42] INFO root fetch - main [MainThread]: End processing [tc-hivemind-backend]: success
+[2024-05-20 09:20:43] INFO root fetch - processPackages [xcloudforlinux]: Remove: archive file [/home/abi/fetcher/tmp/xcloudforlinux-0.3.0.tar.gz]
+[2024-05-20 09:20:43] INFO root fetch - processPackages [xcloudforlinux]: Remove: archive file [/home/abi/fetcher/tmp/xcloudforlinux-0.3.1.tar.gz]
+[2024-05-20 09:20:43] INFO root fetch - main [MainThread]: End processing [xcloudforlinux]: success
+[2024-05-20 09:20:43] INFO root fetch - main [MainThread]: Store serial: [23286222]

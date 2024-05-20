@@ -5964,3 +5964,44 @@
 [2024-05-20 05:41:37] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.1.0.tar.gz]
 [2024-05-20 05:41:37] INFO root fetch - main [MainThread]: End processing [ventures]: success
 [2024-05-20 05:41:37] INFO root fetch - main [MainThread]: Store serial: [23284201]
+[2024-05-20 05:43:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284201]
+[2024-05-20 05:43:45] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-20 05:45:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284201]
+[2024-05-20 05:45:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 05:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mgolddepthlib
+[2024-05-20 05:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctrip-app-ui
+[2024-05-20 05:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ventures
+[2024-05-20 05:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vistudio
+[2024-05-20 05:45:51] INFO root fetch - processPackages [mgolddepthlib]: New version: [0.2.1] Old Version: [0.2]
+[2024-05-20 05:45:51] INFO root fetch - processPackages [ventures]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-20 05:45:51] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-05-20 05:45:51] INFO root fetch - processPackages [mgolddepthlib]: Downloading https://files.pythonhosted.org/packages/6d/67/e28c4152056b7ac58b1a464fe8c067822db2b2fd8e214b2782b97c95e52b/mgolddepthlib-0.2.tar.gz
+[2024-05-20 05:45:51] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/b2/af/25740f9cc2a6293ec965a05dfa41b3b6d63d3e2e2da43f894f681d4e2708/ctrip-app-ui-0.6.5.tar.gz
+[2024-05-20 05:45:51] INFO root fetch - processPackages [vistudio]: New version: [1.0.1.6] Old Version: [1.0.1.5]
+[2024-05-20 05:45:51] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/19/a3/ea2f4c7ee19abddc4f5e994d18988f265978291ef6cffa87d70d3c3882d7/ventures-1.0.0.tar.gz
+[2024-05-20 05:45:51] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/7f/55/71814ef77eb6efa2bbc6946b756175dd176ab88325be170fabcbcb39ba18/ventures-1.1.0.tar.gz
+[2024-05-20 05:45:51] INFO root fetch - processPackages [mgolddepthlib]: Downloading https://files.pythonhosted.org/packages/25/41/780be5da0450a5f3050d749d46370880ce58ccfa785f38b4567e4034e9ec/mgolddepthlib-0.2.1.tar.gz
+[2024-05-20 05:45:51] INFO root fetch - processPackages [vistudio]: Downloading https://files.pythonhosted.org/packages/50/77/3a25b18d4ba16ea7efb6f68673b93fe6d818bd2f0ab128b16c7e18b46ce2/vistudio-1.0.1.5-py3-none-any.whl
+[2024-05-20 05:45:51] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/e7/3b/7e3f41d79e8c64d065876ae67e112a180dc4d97d212a0df9296f217a7a4b/ctrip-app-ui-0.6.6.tar.gz
+[2024-05-20 05:45:51] INFO root fetch - processPackages [mgolddepthlib]: executing diffoscope
+[2024-05-20 05:45:51] INFO root fetch - processPackages [mgolddepthlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mgolddepthlib-0.2.tar.gz tmp/mgolddepthlib-0.2.1.tar.gz --markdown 20240520/m/mgolddepthlib/0.2-0.2.1/README.md --exclude *.pyd
+[2024-05-20 05:45:51] INFO root fetch - processPackages [ventures]: executing diffoscope
+[2024-05-20 05:45:51] INFO root fetch - processPackages [ventures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ventures-1.0.0.tar.gz tmp/ventures-1.1.0.tar.gz --markdown 20240520/v/ventures/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-20 05:45:51] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-05-20 05:45:51] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.6.5.tar.gz tmp/ctrip-app-ui-0.6.6.tar.gz --markdown 20240520/c/ctrip-app-ui/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-05-20 05:45:51] INFO root fetch - processPackages [vistudio]: Downloading https://files.pythonhosted.org/packages/75/48/0004194a8ff303c3c9b69e583872218499f273947b4e9b0e6aa557ee6182/vistudio-1.0.1.6-py3-none-any.whl
+[2024-05-20 05:45:52] INFO root fetch - processPackages [vistudio]: executing diffoscope
+[2024-05-20 05:45:52] INFO root fetch - processPackages [vistudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vistudio-1.0.1.5-py3-none-any.whl.zip tmp/vistudio-1.0.1.6-py3-none-any.whl.zip --markdown 20240520/v/vistudio/1.0.1.5-1.0.1.6/README.md --exclude *.pyd
+[2024-05-20 05:45:52] INFO root fetch - processPackages [mgolddepthlib]: Remove: archive file [/home/abi/fetcher/tmp/mgolddepthlib-0.2.tar.gz]
+[2024-05-20 05:45:52] INFO root fetch - processPackages [mgolddepthlib]: Remove: archive file [/home/abi/fetcher/tmp/mgolddepthlib-0.2.1.tar.gz]
+[2024-05-20 05:45:52] INFO root fetch - main [MainThread]: End processing [mgolddepthlib]: success
+[2024-05-20 05:45:52] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.6.5.tar.gz]
+[2024-05-20 05:45:52] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.6.6.tar.gz]
+[2024-05-20 05:45:52] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-05-20 05:45:52] INFO root fetch - processPackages [vistudio]: Remove: archive file [/home/abi/fetcher/tmp/vistudio-1.0.1.5-py3-none-any.whl.zip]
+[2024-05-20 05:45:52] INFO root fetch - processPackages [vistudio]: Remove: archive file [/home/abi/fetcher/tmp/vistudio-1.0.1.6-py3-none-any.whl.zip]
+[2024-05-20 05:45:52] INFO root fetch - main [MainThread]: End processing [vistudio]: success
+[2024-05-20 05:45:52] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.0.0.tar.gz]
+[2024-05-20 05:45:52] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.1.0.tar.gz]
+[2024-05-20 05:45:52] INFO root fetch - main [MainThread]: End processing [ventures]: success
+[2024-05-20 05:45:52] INFO root fetch - main [MainThread]: Store serial: [23284210]

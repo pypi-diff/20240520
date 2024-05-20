@@ -21361,3 +21361,87 @@ EOFError: EOF read where object expected
 [2024-05-20 17:06:55] INFO root fetch - processPackages [caikit]: Remove: archive file [/home/abi/fetcher/tmp/caikit-0.9.4.tar.gz]
 [2024-05-20 17:06:55] INFO root fetch - main [MainThread]: End processing [caikit]: success
 [2024-05-20 17:06:55] INFO root fetch - main [MainThread]: Store serial: [23291482]
+[2024-05-20 17:09:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291482]
+[2024-05-20 17:09:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 17:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DPRED
+[2024-05-20 17:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: warskald
+[2024-05-20 17:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ipex-llm
+[2024-05-20 17:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evmchains
+[2024-05-20 17:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bitfount
+[2024-05-20 17:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-azuredevops
+[2024-05-20 17:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flatpack
+[2024-05-20 17:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: panoptic
+[2024-05-20 17:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ale-py
+[2024-05-20 17:09:05] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.86]
+[2024-05-20 17:09:05] INFO root fetch - processPackages [DPRED]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 17:09:05] INFO root fetch - processPackages [warskald]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 17:09:05] INFO root fetch - processPackages [ipex-llm]: New version: [2.1.0b20240520] Old Version: [2.1.0b20240519]
+[2024-05-20 17:09:05] INFO root fetch - processPackages [evmchains]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-20 17:09:05] INFO root fetch - processPackages [DPRED]: Downloading https://files.pythonhosted.org/packages/a3/c2/05080b07eb0abed7b2bdc8f49cfe84568d475d6d1520706f1120891eb618/DPRED-1.0.2.tar.gz
+[2024-05-20 17:09:05] INFO root fetch - processPackages [warskald]: Downloading https://files.pythonhosted.org/packages/86/a7/fdf44f966fab4cbd9c675ff351f1f7baced1f13edd727ccf76bd7ed99d57/warskald-0.0.8-py3-none-any.whl
+[2024-05-20 17:09:05] INFO root fetch - processPackages [panoptic]: New version: [0.3.4rc2] Old Version: [0.3.4rc1]
+[2024-05-20 17:09:05] INFO root fetch - processPackages [bitfount]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-20 17:09:05] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [3.2.0a1716216578] Old Version: [3.1.0a1715967542]
+[2024-05-20 17:09:05] INFO root fetch - processPackages [ale-py]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-20 17:09:05] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/cc/97/e59f03191ed20a38693bbafe934ee65a494d4e27b1f7b2caee38d2099a47/flatpack-3.4.86.tar.gz
+[2024-05-20 17:09:05] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/e2/a2/f7e60b9b4e304090346b12017f459c95daaba250c1a805bf2065544871d5/pulumi_azuredevops-3.1.0a1715967542.tar.gz
+[2024-05-20 17:09:05] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/a3/47/07557b4d1afea782e0f52c85b41236c52d1003f3c0b371fff4e7bd167449/ipex_llm-2.1.0b20240519-py3-none-win_amd64.whl
+[2024-05-20 17:09:05] INFO root fetch - processPackages [evmchains]: Downloading https://files.pythonhosted.org/packages/17/03/9781795c2fc680cbc88787419403676bda39c45df8b732aef19450701db4/evmchains-0.0.7.tar.gz
+[2024-05-20 17:09:05] INFO root fetch - processPackages [warskald]: Downloading https://files.pythonhosted.org/packages/d7/10/c13e2047f69a69094aea1d1d44f31f8401de9e536c7a3a530050194a958e/warskald-0.0.9-py3-none-any.whl
+[2024-05-20 17:09:05] INFO root fetch - processPackages [DPRED]: Downloading https://files.pythonhosted.org/packages/92/65/6e07df7276b488e037d385e128b83575a6b7ef444c1805b1a241b0a04f81/DPRED-1.0.3.tar.gz
+[2024-05-20 17:09:05] INFO root fetch - processPackages [ale-py]: Downloading https://files.pythonhosted.org/packages/e9/32/a4b814532961cdef90704e80a8cccb8b9d3222b2201e660eb2ad2c1b0bd5/ale_py-0.8.1-cp39-cp39-win_amd64.whl
+[2024-05-20 17:09:05] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-20 17:09:05] INFO root fetch - processPackages [warskald]: executing diffoscope
+[2024-05-20 17:09:05] INFO root fetch - processPackages [warskald]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warskald-0.0.8-py3-none-any.whl.zip tmp/warskald-0.0.9-py3-none-any.whl.zip --markdown 20240520/w/warskald/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 17:09:05] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/49/e6/a3363cc729a86fd3c9ad204515ccb28c9264291f41032dc8bf833f7aa336/panoptic-0.3.4rc1.tar.gz
+[2024-05-20 17:09:05] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-20 17:09:05] INFO root fetch - processPackages [DPRED]: executing diffoscope
+[2024-05-20 17:09:05] INFO root fetch - processPackages [DPRED]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DPRED-1.0.2.tar.gz tmp/DPRED-1.0.3.tar.gz --markdown 20240520/D/DPRED/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 17:09:05] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.86.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240520/f/flatpack/3.4.86-3.4.9/README.md --exclude *.pyd
+[2024-05-20 17:09:05] INFO root fetch - processPackages [bitfount]: Downloading https://files.pythonhosted.org/packages/0e/c2/8d9c05462852fb336400415021669d2d997754f419cfa76bd5825d17af52/bitfount-0.9.4.tar.gz
+[2024-05-20 17:09:05] INFO root fetch - processPackages [evmchains]: Downloading https://files.pythonhosted.org/packages/1e/d4/211bc2bd1dbcce6296f5e07dc85cfdd391275f9f612b0d42fbd3acefde6c/evmchains-0.0.8.tar.gz
+[2024-05-20 17:09:06] INFO root fetch - processPackages [evmchains]: executing diffoscope
+[2024-05-20 17:09:06] INFO root fetch - processPackages [evmchains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evmchains-0.0.7.tar.gz tmp/evmchains-0.0.8.tar.gz --markdown 20240520/e/evmchains/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-20 17:09:06] INFO root fetch - processPackages [ale-py]: Downloading https://files.pythonhosted.org/packages/b7/1d/633dd293ff7287fa97c1b14cfb2686aa91b54e2d73e8eb06bdfc5b8222bb/ale_py-0.9.0-cp39-cp39-win_amd64.whl
+[2024-05-20 17:09:06] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/2c/e5/b8ad48d5772bc8df7619da595ff237fbc9e6a3365fc46373c6817e384346/pulumi_azuredevops-3.2.0a1716216578.tar.gz
+[2024-05-20 17:09:06] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/71/63/adbf4bd0566ef61759619bf9683b38807ece1f74ac99842c51d9836247b7/ipex_llm-2.1.0b20240520-py3-none-win_amd64.whl
+[2024-05-20 17:09:06] INFO root fetch - processPackages [panoptic]: Downloading https://files.pythonhosted.org/packages/93/bb/a66224c6c060d58c52bf79fe03b146cf1965bdbe72376bd7874983e2c1bc/panoptic-0.3.4rc2.tar.gz
+[2024-05-20 17:09:06] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2024-05-20 17:09:06] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-3.1.0a1715967542.tar.gz tmp/pulumi_azuredevops-3.2.0a1716216578.tar.gz --markdown 20240520/p/pulumi-azuredevops/3.1.0a1715967542-3.2.0a1716216578/README.md --exclude *.pyd
+[2024-05-20 17:09:06] INFO root fetch - processPackages [bitfount]: Downloading https://files.pythonhosted.org/packages/0a/ad/da8b64ae321ff6898b38ba4cbecfb952736460df00de52449e95f46d65e3/bitfount-0.9.5.tar.gz
+[2024-05-20 17:09:06] INFO root fetch - processPackages [warskald]: Remove: archive file [/home/abi/fetcher/tmp/warskald-0.0.8-py3-none-any.whl.zip]
+[2024-05-20 17:09:06] INFO root fetch - processPackages [warskald]: Remove: archive file [/home/abi/fetcher/tmp/warskald-0.0.9-py3-none-any.whl.zip]
+[2024-05-20 17:09:06] INFO root fetch - main [MainThread]: End processing [warskald]: success
+[2024-05-20 17:09:06] INFO root fetch - processPackages [panoptic]: executing diffoscope
+[2024-05-20 17:09:06] INFO root fetch - processPackages [panoptic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panoptic-0.3.4rc1.tar.gz tmp/panoptic-0.3.4rc2.tar.gz --markdown 20240520/p/panoptic/0.3.4rc1-0.3.4rc2/README.md --exclude *.pyd
+[2024-05-20 17:09:06] INFO root fetch - processPackages [ale-py]: executing diffoscope
+[2024-05-20 17:09:06] INFO root fetch - processPackages [ale-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ale_py-0.8.1-cp39-cp39-win_amd64.whl.zip tmp/ale_py-0.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20240520/a/ale-py/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-20 17:09:06] INFO root fetch - processPackages [bitfount]: executing diffoscope
+[2024-05-20 17:09:06] INFO root fetch - processPackages [bitfount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitfount-0.9.4.tar.gz tmp/bitfount-0.9.5.tar.gz --markdown 20240520/b/bitfount/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-20 17:09:06] INFO root fetch - processPackages [DPRED]: Remove: archive file [/home/abi/fetcher/tmp/DPRED-1.0.2.tar.gz]
+[2024-05-20 17:09:06] INFO root fetch - processPackages [DPRED]: Remove: archive file [/home/abi/fetcher/tmp/DPRED-1.0.3.tar.gz]
+[2024-05-20 17:09:06] INFO root fetch - main [MainThread]: End processing [DPRED]: success
+[2024-05-20 17:09:06] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.86.tar.gz]
+[2024-05-20 17:09:06] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-20 17:09:06] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-20 17:09:06] INFO root fetch - processPackages [evmchains]: Remove: archive file [/home/abi/fetcher/tmp/evmchains-0.0.7.tar.gz]
+[2024-05-20 17:09:06] INFO root fetch - processPackages [evmchains]: Remove: archive file [/home/abi/fetcher/tmp/evmchains-0.0.8.tar.gz]
+[2024-05-20 17:09:06] INFO root fetch - main [MainThread]: End processing [evmchains]: success
+[2024-05-20 17:09:06] INFO root fetch - processPackages [ipex-llm]: executing diffoscope
+[2024-05-20 17:09:06] INFO root fetch - processPackages [ipex-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipex_llm-2.1.0b20240519-py3-none-win_amd64.whl.zip tmp/ipex_llm-2.1.0b20240520-py3-none-win_amd64.whl.zip --markdown 20240520/i/ipex-llm/2.1.0b20240519-2.1.0b20240520/README.md --exclude *.pyd
+[2024-05-20 17:09:07] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.1.0a1715967542.tar.gz]
+[2024-05-20 17:09:07] INFO root fetch - processPackages [pulumi-azuredevops]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuredevops-3.2.0a1716216578.tar.gz]
+[2024-05-20 17:09:07] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2024-05-20 17:09:08] INFO root fetch - processPackages [bitfount]: Remove: archive file [/home/abi/fetcher/tmp/bitfount-0.9.4.tar.gz]
+[2024-05-20 17:09:08] INFO root fetch - processPackages [bitfount]: Remove: archive file [/home/abi/fetcher/tmp/bitfount-0.9.5.tar.gz]
+[2024-05-20 17:09:08] INFO root fetch - main [MainThread]: End processing [bitfount]: success
+[2024-05-20 17:09:12] INFO root fetch - processPackages [ale-py]: Remove: archive file [/home/abi/fetcher/tmp/ale_py-0.8.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 17:09:12] INFO root fetch - processPackages [ale-py]: Remove: archive file [/home/abi/fetcher/tmp/ale_py-0.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 17:09:12] INFO root fetch - main [MainThread]: End processing [ale-py]: success
+[2024-05-20 17:09:15] INFO root fetch - processPackages [panoptic]: Remove: archive file [/home/abi/fetcher/tmp/panoptic-0.3.4rc1.tar.gz]
+[2024-05-20 17:09:15] INFO root fetch - processPackages [panoptic]: Remove: archive file [/home/abi/fetcher/tmp/panoptic-0.3.4rc2.tar.gz]
+[2024-05-20 17:09:15] INFO root fetch - main [MainThread]: End processing [panoptic]: success
+[2024-05-20 17:09:34] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240519-py3-none-win_amd64.whl.zip]
+[2024-05-20 17:09:34] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240520-py3-none-win_amd64.whl.zip]
+[2024-05-20 17:09:34] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
+[2024-05-20 17:09:34] INFO root fetch - main [MainThread]: Store serial: [23291526]

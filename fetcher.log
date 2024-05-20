@@ -3570,3 +3570,30 @@
 [2024-05-20 02:50:19] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.22.tar.gz]
 [2024-05-20 02:50:19] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
 [2024-05-20 02:50:19] INFO root fetch - main [MainThread]: Store serial: [23283104]
+[2024-05-20 02:52:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283104]
+[2024-05-20 02:52:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 02:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easier
+[2024-05-20 02:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bioversions
+[2024-05-20 02:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swanimotez
+[2024-05-20 02:52:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RecursiveNamespace
+[2024-05-20 02:52:28] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-20 02:52:28] WARNING root fetch - processPackages [RecursiveNamespace]: Skipping, unable to determine old version
+[2024-05-20 02:52:28] INFO root fetch - main [MainThread]: End processing [RecursiveNamespace] error
+[2024-05-20 02:52:28] WARNING root fetch - processPackages [swanimotez]: Skipping, unable to determine old version
+[2024-05-20 02:52:28] INFO root fetch - main [MainThread]: End processing [swanimotez] error
+[2024-05-20 02:52:28] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-05-20 02:52:28] INFO root fetch - processPackages [easier]: New version: [1.4.0] Old Version: [1.3.9]
+[2024-05-20 02:52:28] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-05-20 02:52:28] INFO root fetch - processPackages [easier]: Downloading https://files.pythonhosted.org/packages/22/c6/702fa5426d836605d8bee6a1560f578b2b071664bce2b11bc6763dfc8c38/easier-1.3.9.tar.gz
+[2024-05-20 02:52:28] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-05-20 02:52:28] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240520/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-20 02:52:29] INFO root fetch - processPackages [easier]: Downloading https://files.pythonhosted.org/packages/2c/8f/2721b1e89f4e313104c5f5757d71fc48f832a5f3c80871e54910e1898fb2/easier-1.4.0.tar.gz
+[2024-05-20 02:52:29] INFO root fetch - processPackages [easier]: executing diffoscope
+[2024-05-20 02:52:29] INFO root fetch - processPackages [easier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easier-1.3.9.tar.gz tmp/easier-1.4.0.tar.gz --markdown 20240520/e/easier/1.3.9-1.4.0/README.md --exclude *.pyd
+[2024-05-20 02:52:29] INFO root fetch - processPackages [easier]: Remove: archive file [/home/abi/fetcher/tmp/easier-1.3.9.tar.gz]
+[2024-05-20 02:52:29] INFO root fetch - processPackages [easier]: Remove: archive file [/home/abi/fetcher/tmp/easier-1.4.0.tar.gz]
+[2024-05-20 02:52:29] INFO root fetch - main [MainThread]: End processing [easier]: success
+[2024-05-20 02:52:47] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-05-20 02:52:47] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-05-20 02:52:47] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-05-20 02:52:47] INFO root fetch - main [MainThread]: Store serial: [23283119]

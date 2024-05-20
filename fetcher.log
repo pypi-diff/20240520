@@ -6110,3 +6110,23 @@
 [2024-05-20 05:54:33] INFO root fetch - processPackages [foca]: Remove: archive file [/home/abi/fetcher/tmp/foca-0.9.0.tar.gz]
 [2024-05-20 05:54:33] INFO root fetch - main [MainThread]: End processing [foca]: success
 [2024-05-20 05:54:33] INFO root fetch - main [MainThread]: Store serial: [23284292]
+[2024-05-20 05:56:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284292]
+[2024-05-20 05:56:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 05:56:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ca-vntl-helper
+[2024-05-20 05:56:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kovilz
+[2024-05-20 05:56:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hp2p-api
+[2024-05-20 05:56:42] WARNING root fetch - processPackages [kovilz]: Skipping, unable to determine old version
+[2024-05-20 05:56:42] INFO root fetch - main [MainThread]: End processing [kovilz] error
+[2024-05-20 05:56:42] INFO root fetch - processPackages [ca-vntl-helper]: New version: [1.1.0] Old Version: [1.0.4]
+[2024-05-20 05:56:42] INFO root fetch - processPackages [hp2p-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 05:56:42] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/09/a3/d36499cc1e3ed1c7eaa2cc34ce2d9d94b6fcbe31e7f6fe8b79cf0cf14266/ca_vntl_helper-1.0.4.tar.gz
+[2024-05-20 05:56:42] INFO root fetch - processPackages [hp2p-api]: Downloading https://files.pythonhosted.org/packages/d8/72/14cf461555481d5390e202d801dd61cbdf4dc1adda8a9f558bf3494ecc9c/hp2p-api-1.0.8.tar.gz
+[2024-05-20 05:56:42] WARNING root fetch - processPackages [hp2p-api]: Skipping package: exceeds size limit 31714347>=10485760
+[2024-05-20 05:56:42] INFO root fetch - main [MainThread]: End processing [hp2p-api] error
+[2024-05-20 05:56:43] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/77/f1/061c4b7c438aea85c1c792c5a85eb5c108a48ba88199a24d28a8434db7a8/ca_vntl_helper-1.1.0.tar.gz
+[2024-05-20 05:56:43] INFO root fetch - processPackages [ca-vntl-helper]: executing diffoscope
+[2024-05-20 05:56:43] INFO root fetch - processPackages [ca-vntl-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ca_vntl_helper-1.0.4.tar.gz tmp/ca_vntl_helper-1.1.0.tar.gz --markdown 20240520/c/ca-vntl-helper/1.0.4-1.1.0/README.md --exclude *.pyd
+[2024-05-20 05:56:43] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-1.0.4.tar.gz]
+[2024-05-20 05:56:43] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-1.1.0.tar.gz]
+[2024-05-20 05:56:43] INFO root fetch - main [MainThread]: End processing [ca-vntl-helper]: success
+[2024-05-20 05:56:43] INFO root fetch - main [MainThread]: Store serial: [23284301]

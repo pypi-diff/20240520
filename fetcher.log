@@ -7714,3 +7714,42 @@
 [2024-05-20 07:47:55] INFO root fetch - processPackages [vdk-trino]: Remove: archive file [/home/abi/fetcher/tmp/vdk-trino-0.4.948436673.tar.gz]
 [2024-05-20 07:47:55] INFO root fetch - main [MainThread]: End processing [vdk-trino]: success
 [2024-05-20 07:47:55] INFO root fetch - main [MainThread]: Store serial: [23285126]
+[2024-05-20 07:49:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285126]
+[2024-05-20 07:50:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 07:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dissectingz
+[2024-05-20 07:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dzidb
+[2024-05-20 07:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbsv
+[2024-05-20 07:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiotx
+[2024-05-20 07:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-base-aiogram
+[2024-05-20 07:50:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Directory-CLI-App
+[2024-05-20 07:50:04] INFO root fetch - processPackages [sbsv]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-20 07:50:04] INFO root fetch - processPackages [aiotx]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-20 07:50:04] WARNING root fetch - processPackages [dzidb]: Skipping, unable to determine old version
+[2024-05-20 07:50:04] INFO root fetch - main [MainThread]: End processing [dzidb] error
+[2024-05-20 07:50:04] WARNING root fetch - processPackages [dissectingz]: Skipping, unable to determine old version
+[2024-05-20 07:50:04] INFO root fetch - main [MainThread]: End processing [dissectingz] error
+[2024-05-20 07:50:04] WARNING root fetch - processPackages [Directory-CLI-App]: Skipping, unable to determine old version
+[2024-05-20 07:50:04] INFO root fetch - main [MainThread]: End processing [Directory-CLI-App] error
+[2024-05-20 07:50:04] INFO root fetch - processPackages [sbsv]: Downloading https://files.pythonhosted.org/packages/7e/ca/eb0d605028e7812fb9711fdf276028d4f46cde9109cfe6ace09e9ebf3fb2/sbsv-0.0.1.tar.gz
+[2024-05-20 07:50:04] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/a5/bf/f587bf9624bcec99f862c8cd804b83161af2bf92a04e7cb95d6b9376acb5/aiotx-1.0.0.tar.gz
+[2024-05-20 07:50:04] INFO root fetch - processPackages [pydantic-base-aiogram]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-20 07:50:04] INFO root fetch - processPackages [sbsv]: Downloading https://files.pythonhosted.org/packages/2c/2a/cd8563f83a5637788510ba5dde70aba976c9345818d8e51faeda013f2f79/sbsv-0.0.2.tar.gz
+[2024-05-20 07:50:04] INFO root fetch - processPackages [pydantic-base-aiogram]: Downloading https://files.pythonhosted.org/packages/37/53/c8516a51aacb5b44adbc0ff1782064606b68a94260de6a1d6294690a1a22/pydantic_base_aiogram-1.0.98.tar.gz
+[2024-05-20 07:50:04] INFO root fetch - processPackages [sbsv]: executing diffoscope
+[2024-05-20 07:50:04] INFO root fetch - processPackages [sbsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbsv-0.0.1.tar.gz tmp/sbsv-0.0.2.tar.gz --markdown 20240520/s/sbsv/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-20 07:50:04] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/71/56/dc999bd7c2cc5b73e88f82caa33fae081bbd83fabb47f5edf4dd58b3e399/aiotx-1.1.0.tar.gz
+[2024-05-20 07:50:04] INFO root fetch - processPackages [aiotx]: executing diffoscope
+[2024-05-20 07:50:04] INFO root fetch - processPackages [aiotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotx-1.0.0.tar.gz tmp/aiotx-1.1.0.tar.gz --markdown 20240520/a/aiotx/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-20 07:50:05] INFO root fetch - processPackages [sbsv]: Remove: archive file [/home/abi/fetcher/tmp/sbsv-0.0.1.tar.gz]
+[2024-05-20 07:50:05] INFO root fetch - processPackages [sbsv]: Remove: archive file [/home/abi/fetcher/tmp/sbsv-0.0.2.tar.gz]
+[2024-05-20 07:50:05] INFO root fetch - main [MainThread]: End processing [sbsv]: success
+[2024-05-20 07:50:05] INFO root fetch - processPackages [pydantic-base-aiogram]: Downloading https://files.pythonhosted.org/packages/64/0f/ebcc5417ae265ee0ce990612e3c9d77089c5724f6bf8caeeb8498de2a287/pydantic_base_aiogram-1.0.99.tar.gz
+[2024-05-20 07:50:05] INFO root fetch - processPackages [pydantic-base-aiogram]: executing diffoscope
+[2024-05-20 07:50:05] INFO root fetch - processPackages [pydantic-base-aiogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_base_aiogram-1.0.98.tar.gz tmp/pydantic_base_aiogram-1.0.99.tar.gz --markdown 20240520/p/pydantic-base-aiogram/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-20 07:50:05] INFO root fetch - processPackages [pydantic-base-aiogram]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_base_aiogram-1.0.98.tar.gz]
+[2024-05-20 07:50:05] INFO root fetch - processPackages [pydantic-base-aiogram]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_base_aiogram-1.0.99.tar.gz]
+[2024-05-20 07:50:05] INFO root fetch - main [MainThread]: End processing [pydantic-base-aiogram]: success
+[2024-05-20 07:50:07] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-1.0.0.tar.gz]
+[2024-05-20 07:50:07] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-1.1.0.tar.gz]
+[2024-05-20 07:50:07] INFO root fetch - main [MainThread]: End processing [aiotx]: success
+[2024-05-20 07:50:07] INFO root fetch - main [MainThread]: Store serial: [23285185]

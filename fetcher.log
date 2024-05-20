@@ -18411,3 +18411,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:20:53] INFO root fetch - processPackages [pyihm]: Remove: archive file [/home/abi/fetcher/tmp/pyihm-1.1.0.tar.gz]
 [2024-05-20 15:20:53] INFO root fetch - main [MainThread]: End processing [pyihm]: success
 [2024-05-20 15:20:53] INFO root fetch - main [MainThread]: Store serial: [23290172]
+[2024-05-20 15:22:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290172]
+[2024-05-20 15:23:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 15:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ditlep
+[2024-05-20 15:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RNAformer
+[2024-05-20 15:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrevolut
+[2024-05-20 15:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strangeworks-optimization-models
+[2024-05-20 15:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AbeewayConfig
+[2024-05-20 15:23:02] INFO root fetch - processPackages [ditlep]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-05-20 15:23:02] INFO root fetch - processPackages [pyrevolut]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-20 15:23:02] INFO root fetch - processPackages [AbeewayConfig]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-20 15:23:02] INFO root fetch - processPackages [RNAformer]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-20 15:23:02] INFO root fetch - processPackages [strangeworks-optimization-models]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 15:23:02] INFO root fetch - processPackages [RNAformer]: Downloading https://files.pythonhosted.org/packages/11/f6/162d97ca73a28c843a2606a09974ead8410be8b3bc913ba7ec0f9a7960b0/rnaformer-1.3.1.tar.gz
+[2024-05-20 15:23:02] INFO root fetch - processPackages [ditlep]: Downloading https://files.pythonhosted.org/packages/ba/0d/171463fb30c96ffe5cff9b6bee169c83fdb1d9dad99cc03da90bbe14d56b/ditlep-2.0.1.tar.gz
+[2024-05-20 15:23:02] INFO root fetch - processPackages [pyrevolut]: Downloading https://files.pythonhosted.org/packages/ac/a6/c3b2a4defbe5c974e651a8f8b472806c0cf564d48ecaa9004f1df344b041/pyrevolut-0.6.1.tar.gz
+[2024-05-20 15:23:02] INFO root fetch - processPackages [AbeewayConfig]: Downloading https://files.pythonhosted.org/packages/12/24/5582e997c5a417d8135a03ca56f3d89b1c9813cfd67d85d2123a3ed2f920/abeewayconfig-0.2.1.tar.gz
+[2024-05-20 15:23:02] INFO root fetch - processPackages [strangeworks-optimization-models]: Downloading https://files.pythonhosted.org/packages/62/22/b99bec2cd1b182920934bc2f37a792ca9f84b2e03f2b5f980cc04b1d8438/strangeworks_optimization_models-0.1.8.tar.gz
+[2024-05-20 15:23:02] INFO root fetch - processPackages [RNAformer]: Downloading https://files.pythonhosted.org/packages/40/ef/c4423512ea51c052d9ffd38c011390d70e6028fcb0c5e881a4ca706dffcc/rnaformer-1.3.2.tar.gz
+[2024-05-20 15:23:02] INFO root fetch - processPackages [ditlep]: Downloading https://files.pythonhosted.org/packages/c1/bd/c423e34e80e3a333ed5becc31e03c96d10bd92c56fff5aff3e21c6425cf3/ditlep-2.1.0.tar.gz
+[2024-05-20 15:23:02] INFO root fetch - processPackages [AbeewayConfig]: Downloading https://files.pythonhosted.org/packages/ef/f5/fefbf6a6e7aa9e03ebb9deb11090807095a186037bba3fc4670dee00100f/abeewayconfig-0.2.2.tar.gz
+[2024-05-20 15:23:02] INFO root fetch - processPackages [pyrevolut]: Downloading https://files.pythonhosted.org/packages/92/49/9176de29f6da1ee9c9812da76c7ad9c9b338b273a77b05fdec4413c9a406/pyrevolut-0.6.2.tar.gz
+[2024-05-20 15:23:02] INFO root fetch - processPackages [RNAformer]: executing diffoscope
+[2024-05-20 15:23:02] INFO root fetch - processPackages [RNAformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rnaformer-1.3.1.tar.gz tmp/rnaformer-1.3.2.tar.gz --markdown 20240520/R/RNAformer/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-20 15:23:02] INFO root fetch - processPackages [ditlep]: executing diffoscope
+[2024-05-20 15:23:02] INFO root fetch - processPackages [ditlep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ditlep-2.0.1.tar.gz tmp/ditlep-2.1.0.tar.gz --markdown 20240520/d/ditlep/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-05-20 15:23:02] INFO root fetch - processPackages [AbeewayConfig]: executing diffoscope
+[2024-05-20 15:23:02] INFO root fetch - processPackages [AbeewayConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abeewayconfig-0.2.1.tar.gz tmp/abeewayconfig-0.2.2.tar.gz --markdown 20240520/A/AbeewayConfig/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-20 15:23:02] INFO root fetch - processPackages [strangeworks-optimization-models]: Downloading https://files.pythonhosted.org/packages/ca/29/1bba84bf18981c5619c348a6b64f44ec0104e8ce2affd37525e0dfd53e2f/strangeworks_optimization_models-0.1.9.tar.gz
+[2024-05-20 15:23:02] INFO root fetch - processPackages [pyrevolut]: executing diffoscope
+[2024-05-20 15:23:02] INFO root fetch - processPackages [pyrevolut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrevolut-0.6.1.tar.gz tmp/pyrevolut-0.6.2.tar.gz --markdown 20240520/p/pyrevolut/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-20 15:23:03] INFO root fetch - processPackages [strangeworks-optimization-models]: executing diffoscope
+[2024-05-20 15:23:03] INFO root fetch - processPackages [strangeworks-optimization-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks_optimization_models-0.1.8.tar.gz tmp/strangeworks_optimization_models-0.1.9.tar.gz --markdown 20240520/s/strangeworks-optimization-models/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 15:23:03] INFO root fetch - processPackages [ditlep]: Remove: archive file [/home/abi/fetcher/tmp/ditlep-2.0.1.tar.gz]
+[2024-05-20 15:23:03] INFO root fetch - processPackages [ditlep]: Remove: archive file [/home/abi/fetcher/tmp/ditlep-2.1.0.tar.gz]
+[2024-05-20 15:23:03] INFO root fetch - main [MainThread]: End processing [ditlep]: success
+[2024-05-20 15:23:03] INFO root fetch - processPackages [AbeewayConfig]: Remove: archive file [/home/abi/fetcher/tmp/abeewayconfig-0.2.1.tar.gz]
+[2024-05-20 15:23:03] INFO root fetch - processPackages [AbeewayConfig]: Remove: archive file [/home/abi/fetcher/tmp/abeewayconfig-0.2.2.tar.gz]
+[2024-05-20 15:23:03] INFO root fetch - main [MainThread]: End processing [AbeewayConfig]: success
+[2024-05-20 15:23:03] INFO root fetch - processPackages [RNAformer]: Remove: archive file [/home/abi/fetcher/tmp/rnaformer-1.3.1.tar.gz]
+[2024-05-20 15:23:03] INFO root fetch - processPackages [RNAformer]: Remove: archive file [/home/abi/fetcher/tmp/rnaformer-1.3.2.tar.gz]
+[2024-05-20 15:23:03] INFO root fetch - main [MainThread]: End processing [RNAformer]: success
+[2024-05-20 15:23:03] INFO root fetch - processPackages [strangeworks-optimization-models]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks_optimization_models-0.1.8.tar.gz]
+[2024-05-20 15:23:03] INFO root fetch - processPackages [strangeworks-optimization-models]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks_optimization_models-0.1.9.tar.gz]
+[2024-05-20 15:23:03] INFO root fetch - main [MainThread]: End processing [strangeworks-optimization-models]: success
+[2024-05-20 15:23:03] INFO root fetch - processPackages [pyrevolut]: Remove: archive file [/home/abi/fetcher/tmp/pyrevolut-0.6.1.tar.gz]
+[2024-05-20 15:23:03] INFO root fetch - processPackages [pyrevolut]: Remove: archive file [/home/abi/fetcher/tmp/pyrevolut-0.6.2.tar.gz]
+[2024-05-20 15:23:03] INFO root fetch - main [MainThread]: End processing [pyrevolut]: success
+[2024-05-20 15:23:03] INFO root fetch - main [MainThread]: Store serial: [23290189]

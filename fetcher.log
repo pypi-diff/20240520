@@ -15568,3 +15568,48 @@ EOFError: EOF read where object expected
 [2024-05-20 13:34:49] INFO root fetch - processPackages [deeploy]: Remove: archive file [/home/abi/fetcher/tmp/deeploy-1.37.3.tar.gz]
 [2024-05-20 13:34:49] INFO root fetch - main [MainThread]: End processing [deeploy]: success
 [2024-05-20 13:34:49] INFO root fetch - main [MainThread]: Store serial: [23288815]
+[2024-05-20 13:36:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288815]
+[2024-05-20 13:36:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 13:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: algokit
+[2024-05-20 13:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdo-sdk-python
+[2024-05-20 13:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-ads-api-report-fetcher
+[2024-05-20 13:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Audire
+[2024-05-20 13:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai21
+[2024-05-20 13:36:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: squilleryz
+[2024-05-20 13:36:59] INFO root fetch - processPackages [google-ads-api-report-fetcher]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-20 13:36:59] INFO root fetch - processPackages [ai21]: New version: [2.3.0] Old Version: [2.2.5]
+[2024-05-20 13:36:59] WARNING root fetch - processPackages [squilleryz]: Skipping, unable to determine old version
+[2024-05-20 13:36:59] INFO root fetch - main [MainThread]: End processing [squilleryz] error
+[2024-05-20 13:36:59] WARNING root fetch - processPackages [Audire]: Skipping, unable to determine old version
+[2024-05-20 13:36:59] INFO root fetch - main [MainThread]: End processing [Audire] error
+[2024-05-20 13:36:59] INFO root fetch - processPackages [algokit]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-20 13:36:59] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-20 13:36:59] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/ce/11/b29d095af06b2bfc1cde6fa4989fad36da533b43177d165dfbd90bf0b748/google-ads-api-report-fetcher-1.8.0.tar.gz
+[2024-05-20 13:36:59] INFO root fetch - processPackages [algokit]: Downloading https://files.pythonhosted.org/packages/67/d7/256032fbb4359ca28c9f1e1677b1d41445e108ea9a5ae7973c16da86e9f1/algokit-2.0.3-py3-none-any.whl
+[2024-05-20 13:36:59] INFO root fetch - processPackages [ai21]: Downloading https://files.pythonhosted.org/packages/b4/70/f3223f31a64da6b92f2631937c715159c27b3161d42b5be2e0332362d26f/ai21-2.2.5.tar.gz
+[2024-05-20 13:36:59] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-20 13:36:59] INFO root fetch - processPackages [ai21]: Downloading https://files.pythonhosted.org/packages/b5/cd/92112214adf11bd254f70b8a46f5fccb8c2c83b226e9ba6d2eeae8be757e/ai21-2.3.0.tar.gz
+[2024-05-20 13:36:59] INFO root fetch - processPackages [algokit]: Downloading https://files.pythonhosted.org/packages/5d/e4/c177beaae14ac07021bb94360777c487f6e76adeebfc0d20cf559bb48d5e/algokit-2.0.4-py3-none-any.whl
+[2024-05-20 13:36:59] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Downloading https://files.pythonhosted.org/packages/3e/04/56bc27d4b7dc33148c26c598b5f008d2528b1e13e0a31acd21f820539747/google-ads-api-report-fetcher-1.9.0.tar.gz
+[2024-05-20 13:36:59] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-20 13:36:59] INFO root fetch - processPackages [ai21]: executing diffoscope
+[2024-05-20 13:36:59] INFO root fetch - processPackages [ai21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai21-2.2.5.tar.gz tmp/ai21-2.3.0.tar.gz --markdown 20240520/a/ai21/2.2.5-2.3.0/README.md --exclude *.pyd
+[2024-05-20 13:36:59] INFO root fetch - processPackages [google-ads-api-report-fetcher]: executing diffoscope
+[2024-05-20 13:36:59] INFO root fetch - processPackages [google-ads-api-report-fetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ads-api-report-fetcher-1.8.0.tar.gz tmp/google-ads-api-report-fetcher-1.9.0.tar.gz --markdown 20240520/g/google-ads-api-report-fetcher/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-20 13:36:59] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-20 13:36:59] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240520/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-20 13:36:59] INFO root fetch - processPackages [algokit]: executing diffoscope
+[2024-05-20 13:36:59] INFO root fetch - processPackages [algokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit-2.0.3-py3-none-any.whl.zip tmp/algokit-2.0.4-py3-none-any.whl.zip --markdown 20240520/a/algokit/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-20 13:37:00] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.8.0.tar.gz]
+[2024-05-20 13:37:00] INFO root fetch - processPackages [google-ads-api-report-fetcher]: Remove: archive file [/home/abi/fetcher/tmp/google-ads-api-report-fetcher-1.9.0.tar.gz]
+[2024-05-20 13:37:00] INFO root fetch - main [MainThread]: End processing [google-ads-api-report-fetcher]: success
+[2024-05-20 13:37:00] INFO root fetch - processPackages [ai21]: Remove: archive file [/home/abi/fetcher/tmp/ai21-2.2.5.tar.gz]
+[2024-05-20 13:37:00] INFO root fetch - processPackages [ai21]: Remove: archive file [/home/abi/fetcher/tmp/ai21-2.3.0.tar.gz]
+[2024-05-20 13:37:00] INFO root fetch - main [MainThread]: End processing [ai21]: success
+[2024-05-20 13:37:00] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-2.0.3-py3-none-any.whl.zip]
+[2024-05-20 13:37:00] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-2.0.4-py3-none-any.whl.zip]
+[2024-05-20 13:37:00] INFO root fetch - main [MainThread]: End processing [algokit]: success
+[2024-05-20 13:37:01] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-20 13:37:01] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-20 13:37:01] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-20 13:37:01] INFO root fetch - main [MainThread]: Store serial: [23288836]

@@ -16096,3 +16096,21 @@ EOFError: EOF read where object expected
 [2024-05-20 13:58:50] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
 [2024-05-20 13:58:50] INFO root fetch - main [MainThread]: End processing [quantplay]: success
 [2024-05-20 13:58:50] INFO root fetch - main [MainThread]: Store serial: [23289093]
+[2024-05-20 14:00:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289093]
+[2024-05-20 14:00:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 14:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: connector-project-01
+[2024-05-20 14:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: microsoft-teams
+[2024-05-20 14:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-screening
+[2024-05-20 14:00:59] WARNING root fetch - processPackages [connector-project-01]: Skipping, unable to determine old version
+[2024-05-20 14:00:59] INFO root fetch - main [MainThread]: End processing [connector-project-01] error
+[2024-05-20 14:00:59] WARNING root fetch - processPackages [microsoft-teams]: Skipping, unable to determine old version
+[2024-05-20 14:00:59] INFO root fetch - main [MainThread]: End processing [microsoft-teams] error
+[2024-05-20 14:00:59] INFO root fetch - processPackages [edc-screening]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-20 14:01:00] INFO root fetch - processPackages [edc-screening]: Downloading https://files.pythonhosted.org/packages/ac/d1/4538a5856e707d30a7055d4bcc26ae878e5984cbafd2fbbf5268847b6693/edc_screening-0.3.8-py3-none-any.whl
+[2024-05-20 14:01:00] INFO root fetch - processPackages [edc-screening]: Downloading https://files.pythonhosted.org/packages/26/4f/bd2f456e4f61d3b9493a5f6b3379c55d5721d503c23ab583b9700f5d66af/edc_screening-0.3.9-py3-none-any.whl
+[2024-05-20 14:01:00] INFO root fetch - processPackages [edc-screening]: executing diffoscope
+[2024-05-20 14:01:00] INFO root fetch - processPackages [edc-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_screening-0.3.8-py3-none-any.whl.zip tmp/edc_screening-0.3.9-py3-none-any.whl.zip --markdown 20240520/e/edc-screening/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-20 14:01:01] INFO root fetch - processPackages [edc-screening]: Remove: archive file [/home/abi/fetcher/tmp/edc_screening-0.3.8-py3-none-any.whl.zip]
+[2024-05-20 14:01:01] INFO root fetch - processPackages [edc-screening]: Remove: archive file [/home/abi/fetcher/tmp/edc_screening-0.3.9-py3-none-any.whl.zip]
+[2024-05-20 14:01:01] INFO root fetch - main [MainThread]: End processing [edc-screening]: success
+[2024-05-20 14:01:01] INFO root fetch - main [MainThread]: Store serial: [23289107]

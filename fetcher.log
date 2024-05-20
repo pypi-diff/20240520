@@ -17596,3 +17596,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 14:58:46] INFO root fetch - processPackages [pikaur]: Remove: archive file [/home/abi/fetcher/tmp/pikaur-1.9.tar.gz]
 [2024-05-20 14:58:46] INFO root fetch - main [MainThread]: End processing [pikaur]: success
 [2024-05-20 14:58:46] INFO root fetch - main [MainThread]: Store serial: [23289863]
+[2024-05-20 15:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289863]
+[2024-05-20 15:00:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 15:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: itkdb-gtk
+[2024-05-20 15:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xspace-dl
+[2024-05-20 15:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dolibarrpy
+[2024-05-20 15:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yeref
+[2024-05-20 15:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plantdrppred
+[2024-05-20 15:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gigachat
+[2024-05-20 15:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sungrowinverter
+[2024-05-20 15:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: requirements-language-server
+[2024-05-20 15:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: location-local
+[2024-05-20 15:00:55] INFO root fetch - processPackages [xspace-dl]: New version: [0.1.21] Old Version: [0.1.2]
+[2024-05-20 15:00:55] WARNING root fetch - processPackages [plantdrppred]: Skipping, unable to determine old version
+[2024-05-20 15:00:55] INFO root fetch - main [MainThread]: End processing [plantdrppred] error
+[2024-05-20 15:00:55] INFO root fetch - processPackages [yeref]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-20 15:00:55] INFO root fetch - processPackages [location-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-20 15:00:55] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/1d/a9/45985579171ca0343b401a50e25982ee1d0bce0e21559dc6567dba9b8573/xspace-dl-0.1.2.tar.gz
+[2024-05-20 15:00:55] INFO root fetch - processPackages [itkdb-gtk]: New version: [0.9.1.dev1] Old Version: [0.9.0]
+[2024-05-20 15:00:55] INFO root fetch - processPackages [dolibarrpy]: New version: [0.4.2] Old Version: [0.3.9]
+[2024-05-20 15:00:55] INFO root fetch - processPackages [requirements-language-server]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 15:00:55] INFO root fetch - processPackages [gigachat]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 15:00:55] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/ec/cb/204e6fbe233bbb61cf29c1b491e8c638c8a843edc47fb4e1d8cc8c26608c/yeref-0.9.8.tar.gz
+[2024-05-20 15:00:55] INFO root fetch - processPackages [sungrowinverter]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-20 15:00:55] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/9c/f2/fcc760989d48c5e33cbe7c435b39b0a9e8eba895ccbf5832a8b83178d5ab/location_local-0.0.98.tar.gz
+[2024-05-20 15:00:55] INFO root fetch - processPackages [requirements-language-server]: Downloading https://files.pythonhosted.org/packages/6b/34/3b0907a2a6543c29b58760b851966ee4fc1fd31e27df90d9e0401d15c466/requirements-language-server-0.0.8.tar.gz
+[2024-05-20 15:00:55] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/1a/b8/7833d7c1b2daafa9d6f24f8602ffcdba3f8ef0d826aa1c272cabd5e979af/itkdb_gtk-0.9.0.tar.gz
+[2024-05-20 15:00:55] INFO root fetch - processPackages [dolibarrpy]: Downloading https://files.pythonhosted.org/packages/50/15/97e3ddff917881627e01c5dca80b4f9e382344c23746e33e3482bd7ef846/dolibarrpy-0.3.9.tar.gz
+[2024-05-20 15:00:55] INFO root fetch - processPackages [sungrowinverter]: Downloading https://files.pythonhosted.org/packages/ba/c8/7dd7c89e4ac4ec0aeff4dc90d955d34d273e05d62a641a2685146c2b481a/sungrowinverter-0.2.2.tar.gz
+[2024-05-20 15:00:55] INFO root fetch - processPackages [gigachat]: Downloading https://files.pythonhosted.org/packages/17/43/72686c3ff7a5a9dff3e8225d3d2adabd18547a099a44f444fdae75eab89e/gigachat-0.1.8.tar.gz
+[2024-05-20 15:00:55] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/2e/1e/2a1e6264292214bc558e1230d4660d51bbe681d2921a250cb4f94052fc9e/location_local-0.0.99.tar.gz
+[2024-05-20 15:00:55] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/b8/16/a0551b9efd8e562881c4ab59a72c6707f0ba2271c4d22b2f1bc71a91cd9f/xspace-dl-0.1.21.tar.gz
+[2024-05-20 15:00:55] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/01/13/0f11bb3dfb27aaf16ed48b0046f50ac65b1fde32662fbc314d53e2558b2d/yeref-0.9.9.tar.gz
+[2024-05-20 15:00:56] INFO root fetch - processPackages [location-local]: executing diffoscope
+[2024-05-20 15:00:56] INFO root fetch - processPackages [location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/location_local-0.0.98.tar.gz tmp/location_local-0.0.99.tar.gz --markdown 20240520/l/location-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-20 15:00:56] INFO root fetch - processPackages [xspace-dl]: executing diffoscope
+[2024-05-20 15:00:56] INFO root fetch - processPackages [xspace-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspace-dl-0.1.2.tar.gz tmp/xspace-dl-0.1.21.tar.gz --markdown 20240520/x/xspace-dl/0.1.2-0.1.21/README.md --exclude *.pyd
+[2024-05-20 15:00:56] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2024-05-20 15:00:56] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.9.8.tar.gz tmp/yeref-0.9.9.tar.gz --markdown 20240520/y/yeref/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-20 15:00:56] INFO root fetch - processPackages [dolibarrpy]: Downloading https://files.pythonhosted.org/packages/db/54/aa84853147c51944d676953cd1d9dadc67cf2789bdd9ad317f68dee7243f/dolibarrpy-0.4.2.tar.gz
+[2024-05-20 15:00:56] INFO root fetch - processPackages [sungrowinverter]: Downloading https://files.pythonhosted.org/packages/61/f1/7434ea8342ed5483eae4ec1395967118bc7067418548e2f49ce2621b5c45/sungrowinverter-0.2.3.tar.gz
+[2024-05-20 15:00:56] INFO root fetch - processPackages [requirements-language-server]: Downloading https://files.pythonhosted.org/packages/f0/1f/db191fc741c0d76291852e4a59c65e366874fc048146dd0547d88d0aff20/requirements-language-server-0.0.9.tar.gz
+[2024-05-20 15:00:56] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/13/a7/03d30164cba13b0c5f9cc41ec7d8e1db06d82f1e660a01ed20eaf8aa0a95/itkdb_gtk-0.9.1.dev1.tar.gz
+[2024-05-20 15:00:56] INFO root fetch - processPackages [gigachat]: Downloading https://files.pythonhosted.org/packages/66/bf/64825e2a8664391ac440af566d7e0bc086113eb9e01cc3023c46c7652c0c/gigachat-0.1.9.tar.gz
+[2024-05-20 15:00:56] INFO root fetch - processPackages [dolibarrpy]: executing diffoscope
+[2024-05-20 15:00:56] INFO root fetch - processPackages [dolibarrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolibarrpy-0.3.9.tar.gz tmp/dolibarrpy-0.4.2.tar.gz --markdown 20240520/d/dolibarrpy/0.3.9-0.4.2/README.md --exclude *.pyd
+[2024-05-20 15:00:56] INFO root fetch - processPackages [requirements-language-server]: executing diffoscope
+[2024-05-20 15:00:56] INFO root fetch - processPackages [requirements-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requirements-language-server-0.0.8.tar.gz tmp/requirements-language-server-0.0.9.tar.gz --markdown 20240520/r/requirements-language-server/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 15:00:56] INFO root fetch - processPackages [gigachat]: executing diffoscope
+[2024-05-20 15:00:56] INFO root fetch - processPackages [gigachat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachat-0.1.8.tar.gz tmp/gigachat-0.1.9.tar.gz --markdown 20240520/g/gigachat/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 15:00:56] INFO root fetch - processPackages [sungrowinverter]: executing diffoscope
+[2024-05-20 15:00:56] INFO root fetch - processPackages [sungrowinverter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sungrowinverter-0.2.2.tar.gz tmp/sungrowinverter-0.2.3.tar.gz --markdown 20240520/s/sungrowinverter/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-20 15:00:56] INFO root fetch - processPackages [itkdb-gtk]: executing diffoscope
+[2024-05-20 15:00:56] INFO root fetch - processPackages [itkdb-gtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb_gtk-0.9.0.tar.gz tmp/itkdb_gtk-0.9.1.dev1.tar.gz --markdown 20240520/i/itkdb-gtk/0.9.0-0.9.1.dev1/README.md --exclude *.pyd
+[2024-05-20 15:00:56] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location_local-0.0.98.tar.gz]
+[2024-05-20 15:00:56] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location_local-0.0.99.tar.gz]
+[2024-05-20 15:00:56] INFO root fetch - main [MainThread]: End processing [location-local]: success
+[2024-05-20 15:00:56] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.1.2.tar.gz]
+[2024-05-20 15:00:56] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.1.21.tar.gz]
+[2024-05-20 15:00:56] INFO root fetch - main [MainThread]: End processing [xspace-dl]: success
+[2024-05-20 15:00:57] INFO root fetch - processPackages [requirements-language-server]: Remove: archive file [/home/abi/fetcher/tmp/requirements-language-server-0.0.8.tar.gz]
+[2024-05-20 15:00:57] INFO root fetch - processPackages [requirements-language-server]: Remove: archive file [/home/abi/fetcher/tmp/requirements-language-server-0.0.9.tar.gz]
+[2024-05-20 15:00:57] INFO root fetch - main [MainThread]: End processing [requirements-language-server]: success
+[2024-05-20 15:00:57] INFO root fetch - processPackages [gigachat]: Remove: archive file [/home/abi/fetcher/tmp/gigachat-0.1.8.tar.gz]
+[2024-05-20 15:00:57] INFO root fetch - processPackages [gigachat]: Remove: archive file [/home/abi/fetcher/tmp/gigachat-0.1.9.tar.gz]
+[2024-05-20 15:00:57] INFO root fetch - main [MainThread]: End processing [gigachat]: success
+[2024-05-20 15:00:57] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.8.tar.gz]
+[2024-05-20 15:00:57] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.9.9.tar.gz]
+[2024-05-20 15:00:57] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2024-05-20 15:00:57] INFO root fetch - processPackages [dolibarrpy]: Remove: archive file [/home/abi/fetcher/tmp/dolibarrpy-0.3.9.tar.gz]
+[2024-05-20 15:00:57] INFO root fetch - processPackages [dolibarrpy]: Remove: archive file [/home/abi/fetcher/tmp/dolibarrpy-0.4.2.tar.gz]
+[2024-05-20 15:00:57] INFO root fetch - main [MainThread]: End processing [dolibarrpy]: success
+[2024-05-20 15:00:57] INFO root fetch - processPackages [sungrowinverter]: Remove: archive file [/home/abi/fetcher/tmp/sungrowinverter-0.2.2.tar.gz]
+[2024-05-20 15:00:57] INFO root fetch - processPackages [sungrowinverter]: Remove: archive file [/home/abi/fetcher/tmp/sungrowinverter-0.2.3.tar.gz]
+[2024-05-20 15:00:57] INFO root fetch - main [MainThread]: End processing [sungrowinverter]: success
+[2024-05-20 15:00:57] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.9.0.tar.gz]
+[2024-05-20 15:00:57] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.9.1.dev1.tar.gz]
+[2024-05-20 15:00:57] INFO root fetch - main [MainThread]: End processing [itkdb-gtk]: success
+[2024-05-20 15:00:57] INFO root fetch - main [MainThread]: Store serial: [23289890]

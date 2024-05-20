@@ -25422,3 +25422,66 @@ EOFError: EOF read where object expected
 [2024-05-20 19:29:24] INFO root fetch - processPackages [buildbot-www]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-www-v0.9.0b9.tar.gz]
 [2024-05-20 19:29:24] INFO root fetch - main [MainThread]: End processing [buildbot-www]: success
 [2024-05-20 19:29:24] INFO root fetch - main [MainThread]: Store serial: [23293451]
+[2024-05-20 19:31:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23293451]
+[2024-05-20 19:31:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 19:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comtrade-pysharp
+[2024-05-20 19:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crazy-thursday
+[2024-05-20 19:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dve-lumipy-testing
+[2024-05-20 19:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ficture
+[2024-05-20 19:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: KapoorLabs-Lightning
+[2024-05-20 19:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gen-wrappers
+[2024-05-20 19:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sys-calc
+[2024-05-20 19:31:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: roscpp
+[2024-05-20 19:31:33] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.9.1] Old Version: [2024.5.9.0]
+[2024-05-20 19:31:33] INFO root fetch - processPackages [roscpp]: New version: [1.15.11] Old Version: [0.1.0]
+[2024-05-20 19:31:33] INFO root fetch - processPackages [gen-wrappers]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-20 19:31:33] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 19:31:33] WARNING root fetch - processPackages [sys-calc]: Skipping, unable to determine old version
+[2024-05-20 19:31:33] INFO root fetch - main [MainThread]: End processing [sys-calc] error
+[2024-05-20 19:31:34] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/3f/0a/108e3af749c5757158be48151418c2bbea49bff2269af8811bade316080a/crazy_thursday-2024.5.9.0.tar.gz
+[2024-05-20 19:31:34] WARNING root fetch - processPackages [comtrade-pysharp]: Skipping, unable to determine old version
+[2024-05-20 19:31:34] INFO root fetch - processPackages [ficture]: New version: [0.0.3.1] Old Version: [0.0.3]
+[2024-05-20 19:31:34] INFO root fetch - main [MainThread]: End processing [comtrade-pysharp] error
+[2024-05-20 19:31:34] INFO root fetch - processPackages [KapoorLabs-Lightning]: New version: [5.3.8] Old Version: [5.3.7]
+[2024-05-20 19:31:34] INFO root fetch - processPackages [gen-wrappers]: Downloading https://files.pythonhosted.org/packages/13/b7/d214a89d6fad298b661381da723af6dd667b7085122e8d863c10e6ce48e7/gen_wrappers-0.4.4.tar.gz
+[2024-05-20 19:31:34] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-20 19:31:34] INFO root fetch - processPackages [roscpp]: Downloading https://files.pythonhosted.org/packages/13/23/7a8f9a91d586a98958d2345d7a60002196e8fdb1c5e70dda5c852fa0ca7b/roscpp-0.1.0.tar.gz
+[2024-05-20 19:31:34] INFO root fetch - processPackages [ficture]: Downloading https://files.pythonhosted.org/packages/82/49/ffe1cec47e6c86aa6ba1de0f125bfcb0bb922e87cd4ce8f1341f21b54646/ficture-0.0.3.tar.gz
+[2024-05-20 19:31:34] INFO root fetch - processPackages [KapoorLabs-Lightning]: Downloading https://files.pythonhosted.org/packages/22/bc/01f01be0558bde5f289ce362a82e4fe4d5fa1b56c2d5bca34be86f9bf0c5/kapoorlabs_lightning-5.3.7.tar.gz
+[2024-05-20 19:31:34] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/20/70/a719fb059f910b10790f6a51b1c5c3ff943f1349c91c46142f1911323575/crazy_thursday-2024.5.9.1.tar.gz
+[2024-05-20 19:31:34] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-20 19:31:34] INFO root fetch - processPackages [gen-wrappers]: Downloading https://files.pythonhosted.org/packages/0d/71/13ae63e53b83483e9a99b696ee45927db868fb904fafc24f366375644b26/gen_wrappers-0.4.5.tar.gz
+[2024-05-20 19:31:34] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-20 19:31:34] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.9.0.tar.gz tmp/crazy_thursday-2024.5.9.1.tar.gz --markdown 20240520/c/crazy-thursday/2024.5.9.0-2024.5.9.1/README.md --exclude *.pyd
+[2024-05-20 19:31:34] INFO root fetch - processPackages [roscpp]: Downloading https://files.pythonhosted.org/packages/1b/96/dd3e96f1274d6222f17c2eb86372c627daa519d8206a614513ab1248e6e1/roscpp-1.15.11.tar.gz
+[2024-05-20 19:31:34] INFO root fetch - processPackages [gen-wrappers]: executing diffoscope
+[2024-05-20 19:31:34] INFO root fetch - processPackages [gen-wrappers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen_wrappers-0.4.4.tar.gz tmp/gen_wrappers-0.4.5.tar.gz --markdown 20240520/g/gen-wrappers/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-20 19:31:34] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-20 19:31:34] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240520/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 19:31:34] INFO root fetch - processPackages [KapoorLabs-Lightning]: Downloading https://files.pythonhosted.org/packages/b0/3b/e87993540051ae1cd53418ce26e5a0732aafa5319064c864517a14b2aa8c/kapoorlabs_lightning-5.3.8.tar.gz
+[2024-05-20 19:31:34] INFO root fetch - processPackages [roscpp]: executing diffoscope
+[2024-05-20 19:31:34] INFO root fetch - processPackages [roscpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roscpp-0.1.0.tar.gz tmp/roscpp-1.15.11.tar.gz --markdown 20240520/r/roscpp/0.1.0-1.15.11/README.md --exclude *.pyd
+[2024-05-20 19:31:34] INFO root fetch - processPackages [KapoorLabs-Lightning]: executing diffoscope
+[2024-05-20 19:31:34] INFO root fetch - processPackages [KapoorLabs-Lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kapoorlabs_lightning-5.3.7.tar.gz tmp/kapoorlabs_lightning-5.3.8.tar.gz --markdown 20240520/K/KapoorLabs-Lightning/5.3.7-5.3.8/README.md --exclude *.pyd
+[2024-05-20 19:31:35] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.0.tar.gz]
+[2024-05-20 19:31:35] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.1.tar.gz]
+[2024-05-20 19:31:35] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-20 19:31:35] INFO root fetch - processPackages [gen-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/gen_wrappers-0.4.4.tar.gz]
+[2024-05-20 19:31:35] INFO root fetch - processPackages [gen-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/gen_wrappers-0.4.5.tar.gz]
+[2024-05-20 19:31:35] INFO root fetch - main [MainThread]: End processing [gen-wrappers]: success
+[2024-05-20 19:31:35] INFO root fetch - processPackages [roscpp]: Remove: archive file [/home/abi/fetcher/tmp/roscpp-0.1.0.tar.gz]
+[2024-05-20 19:31:35] INFO root fetch - processPackages [roscpp]: Remove: archive file [/home/abi/fetcher/tmp/roscpp-1.15.11.tar.gz]
+[2024-05-20 19:31:35] INFO root fetch - main [MainThread]: End processing [roscpp]: success
+[2024-05-20 19:31:35] INFO root fetch - processPackages [KapoorLabs-Lightning]: Remove: archive file [/home/abi/fetcher/tmp/kapoorlabs_lightning-5.3.7.tar.gz]
+[2024-05-20 19:31:35] INFO root fetch - processPackages [KapoorLabs-Lightning]: Remove: archive file [/home/abi/fetcher/tmp/kapoorlabs_lightning-5.3.8.tar.gz]
+[2024-05-20 19:31:35] INFO root fetch - main [MainThread]: End processing [KapoorLabs-Lightning]: success
+[2024-05-20 19:31:35] INFO root fetch - processPackages [ficture]: Downloading https://files.pythonhosted.org/packages/94/84/98cb05cf98917213983dbdeb9719caabc0d61f32dfe0da9bff6e40619561/ficture-0.0.3.1.tar.gz
+[2024-05-20 19:31:35] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-20 19:31:35] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-20 19:31:35] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-20 19:31:35] INFO root fetch - processPackages [ficture]: executing diffoscope
+[2024-05-20 19:31:35] INFO root fetch - processPackages [ficture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ficture-0.0.3.tar.gz tmp/ficture-0.0.3.1.tar.gz --markdown 20240520/f/ficture/0.0.3-0.0.3.1/README.md --exclude *.pyd
+[2024-05-20 19:31:36] INFO root fetch - processPackages [ficture]: Remove: archive file [/home/abi/fetcher/tmp/ficture-0.0.3.tar.gz]
+[2024-05-20 19:31:36] INFO root fetch - processPackages [ficture]: Remove: archive file [/home/abi/fetcher/tmp/ficture-0.0.3.1.tar.gz]
+[2024-05-20 19:31:36] INFO root fetch - main [MainThread]: End processing [ficture]: success
+[2024-05-20 19:31:36] INFO root fetch - main [MainThread]: Store serial: [23293479]

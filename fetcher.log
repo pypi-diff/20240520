@@ -22302,3 +22302,45 @@ EOFError: EOF read where object expected
 [2024-05-20 17:38:40] INFO root fetch - processPackages [quivr]: Remove: archive file [/home/abi/fetcher/tmp/quivr-0.7.3a1.tar.gz]
 [2024-05-20 17:38:40] INFO root fetch - main [MainThread]: End processing [quivr]: success
 [2024-05-20 17:38:40] INFO root fetch - main [MainThread]: Store serial: [23291893]
+[2024-05-20 17:40:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291893]
+[2024-05-20 17:40:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 17:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: local-lang
+[2024-05-20 17:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myaskai-py
+[2024-05-20 17:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fol_parser
+[2024-05-20 17:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vmware-reporter
+[2024-05-20 17:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nada-algebra
+[2024-05-20 17:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zfx
+[2024-05-20 17:40:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EasyDonateClient
+[2024-05-20 17:40:49] WARNING root fetch - processPackages [myaskai-py]: Skipping, unable to determine old version
+[2024-05-20 17:40:49] INFO root fetch - main [MainThread]: End processing [myaskai-py] error
+[2024-05-20 17:40:49] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 17:40:49] INFO root fetch - processPackages [local-lang]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 17:40:49] INFO root fetch - processPackages [vmware-reporter]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-20 17:40:49] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-20 17:40:49] WARNING root fetch - processPackages [fol_parser]: Skipping, unable to determine old version
+[2024-05-20 17:40:49] INFO root fetch - main [MainThread]: End processing [fol_parser] error
+[2024-05-20 17:40:49] WARNING root fetch - processPackages [nada-algebra]: Skipping, unable to determine old version
+[2024-05-20 17:40:49] INFO root fetch - main [MainThread]: End processing [nada-algebra] error
+[2024-05-20 17:40:49] WARNING root fetch - processPackages [EasyDonateClient]: Skipping, unable to determine old version
+[2024-05-20 17:40:49] INFO root fetch - main [MainThread]: End processing [EasyDonateClient] error
+[2024-05-20 17:40:49] INFO root fetch - processPackages [local-lang]: Downloading https://files.pythonhosted.org/packages/0b/bd/a2a0d22a32607a459737b10d42acf78669c09e980c467b0b3525b8bc21e4/local_lang-0.0.8.tar.gz
+[2024-05-20 17:40:49] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-20 17:40:50] INFO root fetch - processPackages [vmware-reporter]: Downloading https://files.pythonhosted.org/packages/2e/53/205e9dc2200df0c81d67693fa2ac18e8aeef61351733122ab3eb7f2742fc/vmware_reporter-0.2.0-py3-none-any.whl
+[2024-05-20 17:40:50] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-20 17:40:50] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240520/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 17:40:50] INFO root fetch - processPackages [vmware-reporter]: Downloading https://files.pythonhosted.org/packages/d6/26/610cd85f548c80eb2fdbf5090041ee17bced5b87e011eaf08991fdb7df45/vmware_reporter-0.2.1-py3-none-any.whl
+[2024-05-20 17:40:50] INFO root fetch - processPackages [vmware-reporter]: executing diffoscope
+[2024-05-20 17:40:50] INFO root fetch - processPackages [vmware-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmware_reporter-0.2.0-py3-none-any.whl.zip tmp/vmware_reporter-0.2.1-py3-none-any.whl.zip --markdown 20240520/v/vmware-reporter/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-20 17:40:50] INFO root fetch - processPackages [local-lang]: Downloading https://files.pythonhosted.org/packages/d4/0b/fff42c164c415db503bf3e1e6843c683bae157010851ba904d87332136ba/local_lang-0.0.9.tar.gz
+[2024-05-20 17:40:50] INFO root fetch - processPackages [local-lang]: executing diffoscope
+[2024-05-20 17:40:50] INFO root fetch - processPackages [local-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_lang-0.0.8.tar.gz tmp/local_lang-0.0.9.tar.gz --markdown 20240520/l/local-lang/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 17:40:50] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-20 17:40:50] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-20 17:40:50] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-20 17:40:51] INFO root fetch - processPackages [vmware-reporter]: Remove: archive file [/home/abi/fetcher/tmp/vmware_reporter-0.2.0-py3-none-any.whl.zip]
+[2024-05-20 17:40:51] INFO root fetch - processPackages [vmware-reporter]: Remove: archive file [/home/abi/fetcher/tmp/vmware_reporter-0.2.1-py3-none-any.whl.zip]
+[2024-05-20 17:40:51] INFO root fetch - main [MainThread]: End processing [vmware-reporter]: success
+[2024-05-20 17:40:52] INFO root fetch - processPackages [local-lang]: Remove: archive file [/home/abi/fetcher/tmp/local_lang-0.0.8.tar.gz]
+[2024-05-20 17:40:52] INFO root fetch - processPackages [local-lang]: Remove: archive file [/home/abi/fetcher/tmp/local_lang-0.0.9.tar.gz]
+[2024-05-20 17:40:52] INFO root fetch - main [MainThread]: End processing [local-lang]: success
+[2024-05-20 17:40:52] INFO root fetch - main [MainThread]: Store serial: [23291917]

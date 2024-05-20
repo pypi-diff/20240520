@@ -9430,3 +9430,42 @@
 [2024-05-20 09:27:22] INFO root fetch - processPackages [hazelcast-python-client]: Remove: archive file [/home/abi/fetcher/tmp/hazelcast_python_client-5.4.0.tar.gz]
 [2024-05-20 09:27:22] INFO root fetch - main [MainThread]: End processing [hazelcast-python-client]: success
 [2024-05-20 09:27:22] INFO root fetch - main [MainThread]: Store serial: [23286298]
+[2024-05-20 09:29:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286298]
+[2024-05-20 09:29:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 09:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fao56
+[2024-05-20 09:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azure-mgmt-cosmosdb
+[2024-05-20 09:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sklearn2pmml
+[2024-05-20 09:29:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grassland_production
+[2024-05-20 09:29:31] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: New version: [9.4.0] Old Version: [9.3.0]
+[2024-05-20 09:29:31] INFO root fetch - processPackages [fao56]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-20 09:29:31] INFO root fetch - processPackages [sklearn2pmml]: New version: [0.99.3] Old Version: [0.99.2]
+[2024-05-20 09:29:31] INFO root fetch - processPackages [grassland_production]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-20 09:29:31] INFO root fetch - processPackages [fao56]: Downloading https://files.pythonhosted.org/packages/3f/50/8ed37e9977dc1adf5f0369bb29257df7d53dcf12053e43a91d975994872c/fao56-1.1.0.tar.gz
+[2024-05-20 09:29:31] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: Downloading https://files.pythonhosted.org/packages/18/6b/579bc415df90f84d7a1512badabf9c35053dad198316d05e55cae646c331/azure-mgmt-cosmosdb-9.3.0.tar.gz
+[2024-05-20 09:29:31] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/21/2a/847c0af6f9d6ec00f3fa954c4c691c4311da9a8098e84de07e8d2d85107e/sklearn2pmml-0.99.2.tar.gz
+[2024-05-20 09:29:31] INFO root fetch - processPackages [grassland_production]: Downloading https://files.pythonhosted.org/packages/8e/d6/fe1cd3ff927e6b85f3a5cd9b400b4432e3acd82d3ae255d6a7da7bdc6b64/grassland_production-0.3.4.tar.gz
+[2024-05-20 09:29:31] INFO root fetch - processPackages [fao56]: Downloading https://files.pythonhosted.org/packages/15/a5/d8ea8e96318350b5e95f3451a38bb45ffd12b9f4db4058e95b05a88fb7b4/fao56-1.2.0.tar.gz
+[2024-05-20 09:29:31] INFO root fetch - processPackages [grassland_production]: Downloading https://files.pythonhosted.org/packages/de/83/eefde9135a34d62e684a5992639c794545274b66abe9515bebc909fe67b5/grassland_production-0.3.5.tar.gz
+[2024-05-20 09:29:31] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: Downloading https://files.pythonhosted.org/packages/d0/5e/f032596e09e2fb8d96684c47327111eeb90608c0d2a0f8261491f8ec61b8/azure-mgmt-cosmosdb-9.4.0.tar.gz
+[2024-05-20 09:29:31] INFO root fetch - processPackages [fao56]: executing diffoscope
+[2024-05-20 09:29:31] INFO root fetch - processPackages [fao56]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fao56-1.1.0.tar.gz tmp/fao56-1.2.0.tar.gz --markdown 20240520/f/fao56/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-20 09:29:31] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: executing diffoscope
+[2024-05-20 09:29:31] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-cosmosdb-9.3.0.tar.gz tmp/azure-mgmt-cosmosdb-9.4.0.tar.gz --markdown 20240520/a/azure-mgmt-cosmosdb/9.3.0-9.4.0/README.md --exclude *.pyd
+[2024-05-20 09:29:31] INFO root fetch - processPackages [grassland_production]: executing diffoscope
+[2024-05-20 09:29:31] INFO root fetch - processPackages [grassland_production]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassland_production-0.3.4.tar.gz tmp/grassland_production-0.3.5.tar.gz --markdown 20240520/g/grassland_production/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-20 09:29:32] INFO root fetch - processPackages [fao56]: Remove: archive file [/home/abi/fetcher/tmp/fao56-1.1.0.tar.gz]
+[2024-05-20 09:29:32] INFO root fetch - processPackages [fao56]: Remove: archive file [/home/abi/fetcher/tmp/fao56-1.2.0.tar.gz]
+[2024-05-20 09:29:32] INFO root fetch - main [MainThread]: End processing [fao56]: success
+[2024-05-20 09:29:32] INFO root fetch - processPackages [grassland_production]: Remove: archive file [/home/abi/fetcher/tmp/grassland_production-0.3.4.tar.gz]
+[2024-05-20 09:29:32] INFO root fetch - processPackages [grassland_production]: Remove: archive file [/home/abi/fetcher/tmp/grassland_production-0.3.5.tar.gz]
+[2024-05-20 09:29:32] INFO root fetch - main [MainThread]: End processing [grassland_production]: success
+[2024-05-20 09:29:33] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-cosmosdb-9.3.0.tar.gz]
+[2024-05-20 09:29:33] INFO root fetch - processPackages [azure-mgmt-cosmosdb]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-cosmosdb-9.4.0.tar.gz]
+[2024-05-20 09:29:33] INFO root fetch - main [MainThread]: End processing [azure-mgmt-cosmosdb]: success
+[2024-05-20 09:29:34] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/85/79/363259bb11041d70c9ae8a5f3258d58b4b7ccb8ceee0294b75162f882252/sklearn2pmml-0.99.3.tar.gz
+[2024-05-20 09:29:35] INFO root fetch - processPackages [sklearn2pmml]: executing diffoscope
+[2024-05-20 09:29:35] INFO root fetch - processPackages [sklearn2pmml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn2pmml-0.99.2.tar.gz tmp/sklearn2pmml-0.99.3.tar.gz --markdown 20240520/s/sklearn2pmml/0.99.2-0.99.3/README.md --exclude *.pyd
+[2024-05-20 09:30:57] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.99.2.tar.gz]
+[2024-05-20 09:30:57] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.99.3.tar.gz]
+[2024-05-20 09:30:57] INFO root fetch - main [MainThread]: End processing [sklearn2pmml]: success
+[2024-05-20 09:30:57] INFO root fetch - main [MainThread]: Store serial: [23286308]

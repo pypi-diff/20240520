@@ -4451,3 +4451,60 @@
 [2024-05-20 03:49:33] INFO root fetch - processPackages [opentldr]: Remove: archive file [/home/abi/fetcher/tmp/opentldr-0.5.2.tar.gz]
 [2024-05-20 03:49:33] INFO root fetch - main [MainThread]: End processing [opentldr]: success
 [2024-05-20 03:49:33] INFO root fetch - main [MainThread]: Store serial: [23283473]
+[2024-05-20 03:51:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283473]
+[2024-05-20 03:51:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 03:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omop2survey
+[2024-05-20 03:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: delaunay-triangulation-and-its-dual-2d
+[2024-05-20 03:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaraco.xonsh
+[2024-05-20 03:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simpleai-base
+[2024-05-20 03:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypomes-http
+[2024-05-20 03:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eras
+[2024-05-20 03:51:42] INFO root fetch - processPackages [eras]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-20 03:51:42] INFO root fetch - processPackages [omop2survey]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-20 03:51:42] INFO root fetch - processPackages [jaraco.xonsh]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-05-20 03:51:42] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/8b/fe/796025aa96ba3bb3d2fd7e46de8c74f2460be882e63b7950dc346cfa4a74/eras-0.3.0.tar.gz
+[2024-05-20 03:51:42] INFO root fetch - processPackages [delaunay-triangulation-and-its-dual-2d]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-20 03:51:42] INFO root fetch - processPackages [pypomes-http]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-20 03:51:42] INFO root fetch - processPackages [simpleai-base]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-20 03:51:42] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/32/a8/90ae319f1ee2d8a49ec5f5ab30a63de3587e1f56b3915783fd778cf25457/omop2survey-0.0.4.tar.gz
+[2024-05-20 03:51:42] INFO root fetch - processPackages [jaraco.xonsh]: Downloading https://files.pythonhosted.org/packages/c7/8a/59edfe51c802a0ce32ff70766991e885d2fea228da40e86d02716fa04b85/jaraco_xonsh-0.5.2.tar.gz
+[2024-05-20 03:51:42] INFO root fetch - processPackages [delaunay-triangulation-and-its-dual-2d]: Downloading https://files.pythonhosted.org/packages/a4/5b/896a281aba2cc114471bec72f236b058c2de52d5125dd9f735eee861251f/delaunay_triangulation_and_its_dual_2d-0.1.5.tar.gz
+[2024-05-20 03:51:42] INFO root fetch - processPackages [pypomes-http]: Downloading https://files.pythonhosted.org/packages/3e/1b/18b520d1fe5789b1da69a8deeef837d519858e71b5f6525485ebb77f350d/pypomes_http-0.1.6.tar.gz
+[2024-05-20 03:51:42] INFO root fetch - processPackages [simpleai-base]: Downloading https://files.pythonhosted.org/packages/a8/e9/4aba2250e3b4dcedb1581c52ecf9f40996a8d870c8adae53494e14220171/simpleai_base-0.3.4-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-20 03:51:42] INFO root fetch - processPackages [eras]: Downloading https://files.pythonhosted.org/packages/ce/d9/4bb6a9106604b59a46fd993fc8fcc9512e03b5bdda08aa401aa025dc2db6/eras-0.3.1.tar.gz
+[2024-05-20 03:51:43] INFO root fetch - processPackages [omop2survey]: Downloading https://files.pythonhosted.org/packages/d0/3d/a88573a96f559d123cb3e1d168e45f905a3a99a738efb65bb74f949ea018/omop2survey-0.0.5.tar.gz
+[2024-05-20 03:51:43] INFO root fetch - processPackages [eras]: executing diffoscope
+[2024-05-20 03:51:43] INFO root fetch - processPackages [eras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eras-0.3.0.tar.gz tmp/eras-0.3.1.tar.gz --markdown 20240520/e/eras/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-20 03:51:43] INFO root fetch - processPackages [jaraco.xonsh]: Downloading https://files.pythonhosted.org/packages/66/d2/e863322cb1d35f5631e68522f76ddd8068cba0e21518a9653e88949ce268/jaraco_xonsh-0.6.0.tar.gz
+[2024-05-20 03:51:43] INFO root fetch - processPackages [delaunay-triangulation-and-its-dual-2d]: Downloading https://files.pythonhosted.org/packages/b0/34/e61c3615dc15b707faa2ad1d0edc417a4816a70f6cb85d76dccae0d43fd8/delaunay_triangulation_and_its_dual_2d-0.1.6.tar.gz
+[2024-05-20 03:51:43] INFO root fetch - processPackages [pypomes-http]: Downloading https://files.pythonhosted.org/packages/15/86/e2c7cb5a6dd98b5ea4cfb4d647af45a98204b2ba82efc3cb6e85b5ed23f5/pypomes_http-0.1.7.tar.gz
+[2024-05-20 03:51:43] INFO root fetch - processPackages [omop2survey]: executing diffoscope
+[2024-05-20 03:51:43] INFO root fetch - processPackages [omop2survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omop2survey-0.0.4.tar.gz tmp/omop2survey-0.0.5.tar.gz --markdown 20240520/o/omop2survey/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-20 03:51:43] INFO root fetch - processPackages [jaraco.xonsh]: executing diffoscope
+[2024-05-20 03:51:43] INFO root fetch - processPackages [jaraco.xonsh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco_xonsh-0.5.2.tar.gz tmp/jaraco_xonsh-0.6.0.tar.gz --markdown 20240520/j/jaraco.xonsh/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-05-20 03:51:43] INFO root fetch - processPackages [delaunay-triangulation-and-its-dual-2d]: executing diffoscope
+[2024-05-20 03:51:43] INFO root fetch - processPackages [delaunay-triangulation-and-its-dual-2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delaunay_triangulation_and_its_dual_2d-0.1.5.tar.gz tmp/delaunay_triangulation_and_its_dual_2d-0.1.6.tar.gz --markdown 20240520/d/delaunay-triangulation-and-its-dual-2d/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-20 03:51:43] INFO root fetch - processPackages [pypomes-http]: executing diffoscope
+[2024-05-20 03:51:43] INFO root fetch - processPackages [pypomes-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_http-0.1.6.tar.gz tmp/pypomes_http-0.1.7.tar.gz --markdown 20240520/p/pypomes-http/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-20 03:51:43] INFO root fetch - processPackages [simpleai-base]: Downloading https://files.pythonhosted.org/packages/1e/87/89b6b8e0110598a1f48a824528e7ba833db73a7a37124bdec89cd39de262/simpleai_base-0.3.5-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-20 03:51:43] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.3.0.tar.gz]
+[2024-05-20 03:51:43] INFO root fetch - processPackages [eras]: Remove: archive file [/home/abi/fetcher/tmp/eras-0.3.1.tar.gz]
+[2024-05-20 03:51:43] INFO root fetch - main [MainThread]: End processing [eras]: success
+[2024-05-20 03:51:44] INFO root fetch - processPackages [jaraco.xonsh]: Remove: archive file [/home/abi/fetcher/tmp/jaraco_xonsh-0.5.2.tar.gz]
+[2024-05-20 03:51:44] INFO root fetch - processPackages [jaraco.xonsh]: Remove: archive file [/home/abi/fetcher/tmp/jaraco_xonsh-0.6.0.tar.gz]
+[2024-05-20 03:51:44] INFO root fetch - main [MainThread]: End processing [jaraco.xonsh]: success
+[2024-05-20 03:51:44] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.4.tar.gz]
+[2024-05-20 03:51:44] INFO root fetch - processPackages [omop2survey]: Remove: archive file [/home/abi/fetcher/tmp/omop2survey-0.0.5.tar.gz]
+[2024-05-20 03:51:44] INFO root fetch - main [MainThread]: End processing [omop2survey]: success
+[2024-05-20 03:51:44] INFO root fetch - processPackages [pypomes-http]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_http-0.1.6.tar.gz]
+[2024-05-20 03:51:44] INFO root fetch - processPackages [pypomes-http]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_http-0.1.7.tar.gz]
+[2024-05-20 03:51:44] INFO root fetch - main [MainThread]: End processing [pypomes-http]: success
+[2024-05-20 03:51:44] INFO root fetch - processPackages [delaunay-triangulation-and-its-dual-2d]: Remove: archive file [/home/abi/fetcher/tmp/delaunay_triangulation_and_its_dual_2d-0.1.5.tar.gz]
+[2024-05-20 03:51:44] INFO root fetch - processPackages [delaunay-triangulation-and-its-dual-2d]: Remove: archive file [/home/abi/fetcher/tmp/delaunay_triangulation_and_its_dual_2d-0.1.6.tar.gz]
+[2024-05-20 03:51:44] INFO root fetch - main [MainThread]: End processing [delaunay-triangulation-and-its-dual-2d]: success
+[2024-05-20 03:51:44] INFO root fetch - processPackages [simpleai-base]: executing diffoscope
+[2024-05-20 03:51:44] INFO root fetch - processPackages [simpleai-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleai_base-0.3.4-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/simpleai_base-0.3.5-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240520/s/simpleai-base/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-20 03:52:21] INFO root fetch - processPackages [simpleai-base]: Remove: archive file [/home/abi/fetcher/tmp/simpleai_base-0.3.4-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-20 03:52:21] INFO root fetch - processPackages [simpleai-base]: Remove: archive file [/home/abi/fetcher/tmp/simpleai_base-0.3.5-pp310-pypy310_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-20 03:52:21] INFO root fetch - main [MainThread]: End processing [simpleai-base]: success
+[2024-05-20 03:52:21] INFO root fetch - main [MainThread]: Store serial: [23283501]

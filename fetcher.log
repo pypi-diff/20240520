@@ -8428,3 +8428,42 @@
 [2024-05-20 08:31:52] INFO root fetch - processPackages [pr-agent]: Remove: archive file [/home/abi/fetcher/tmp/pr_agent-0.2.2.tar.gz]
 [2024-05-20 08:31:52] INFO root fetch - main [MainThread]: End processing [pr-agent]: success
 [2024-05-20 08:31:52] INFO root fetch - main [MainThread]: Store serial: [23285487]
+[2024-05-20 08:33:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285487]
+[2024-05-20 08:34:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 08:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easytl
+[2024-05-20 08:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: htt
+[2024-05-20 08:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: why-tools
+[2024-05-20 08:34:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nz-seqtech
+[2024-05-20 08:34:01] INFO root fetch - processPackages [easytl]: New version: [0.4.0a0] Old Version: [0.3.3]
+[2024-05-20 08:34:01] INFO root fetch - processPackages [nz-seqtech]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-20 08:34:01] INFO root fetch - processPackages [why-tools]: New version: [0.0.2b9] Old Version: [0.0.2b8]
+[2024-05-20 08:34:01] INFO root fetch - processPackages [htt]: New version: [0.9] Old Version: [0.8]
+[2024-05-20 08:34:01] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/fc/6d/2124819feed36f89427cdda87454e9a27d2126434ed4e791887019edb667/easytl-0.3.3.tar.gz
+[2024-05-20 08:34:01] INFO root fetch - processPackages [nz-seqtech]: Downloading https://files.pythonhosted.org/packages/ed/9c/c21e7556d4066757db959dfdee685b1a6c45bb1f079b8ef5fb90478b7a5e/nz_seqtech-0.2.8.tar.gz
+[2024-05-20 08:34:01] INFO root fetch - processPackages [why-tools]: Downloading https://files.pythonhosted.org/packages/26/41/0a4c14de71ef08daa69fb8efe27b5d0a1bae4b5bd2be13cbb8dbd71c1b44/why-tools-0.0.2b8.tar.gz
+[2024-05-20 08:34:01] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/44/9f/4e24bd8cc850dd610afb0047bea11fbc8885507fe8ecf1f06b0486d45c93/htt-0.8.tar.gz
+[2024-05-20 08:34:01] INFO root fetch - processPackages [why-tools]: Downloading https://files.pythonhosted.org/packages/7e/90/f8c3b43451c5bdbcb89f4973d10d742000829e74fc2f754dedede3c1bf43/why-tools-0.0.2b9.tar.gz
+[2024-05-20 08:34:01] INFO root fetch - processPackages [nz-seqtech]: Downloading https://files.pythonhosted.org/packages/96/fb/5aea416a157c21c78e1d00677e360d0b3642e503b32fcdf2ef4de51b34ea/nz_seqtech-0.2.9.tar.gz
+[2024-05-20 08:34:01] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/5b/2c/1a6e130951dae071decd630bf52aacd127eb4aa3dbc779d8ed92ddfa1c8c/easytl-0.4.0a0.tar.gz
+[2024-05-20 08:34:01] INFO root fetch - processPackages [why-tools]: executing diffoscope
+[2024-05-20 08:34:01] INFO root fetch - processPackages [why-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/why-tools-0.0.2b8.tar.gz tmp/why-tools-0.0.2b9.tar.gz --markdown 20240520/w/why-tools/0.0.2b8-0.0.2b9/README.md --exclude *.pyd
+[2024-05-20 08:34:01] INFO root fetch - processPackages [nz-seqtech]: executing diffoscope
+[2024-05-20 08:34:01] INFO root fetch - processPackages [nz-seqtech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nz_seqtech-0.2.8.tar.gz tmp/nz_seqtech-0.2.9.tar.gz --markdown 20240520/n/nz-seqtech/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-20 08:34:01] INFO root fetch - processPackages [easytl]: executing diffoscope
+[2024-05-20 08:34:01] INFO root fetch - processPackages [easytl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easytl-0.3.3.tar.gz tmp/easytl-0.4.0a0.tar.gz --markdown 20240520/e/easytl/0.3.3-0.4.0a0/README.md --exclude *.pyd
+[2024-05-20 08:34:02] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/87/6a/ca73587d0d0b4fffad8f8daad555cb2903ae583af0db8bd1e235267f8122/htt-0.9.tar.gz
+[2024-05-20 08:34:02] INFO root fetch - processPackages [htt]: executing diffoscope
+[2024-05-20 08:34:02] INFO root fetch - processPackages [htt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htt-0.8.tar.gz tmp/htt-0.9.tar.gz --markdown 20240520/h/htt/0.8-0.9/README.md --exclude *.pyd
+[2024-05-20 08:34:02] INFO root fetch - processPackages [nz-seqtech]: Remove: archive file [/home/abi/fetcher/tmp/nz_seqtech-0.2.8.tar.gz]
+[2024-05-20 08:34:02] INFO root fetch - processPackages [nz-seqtech]: Remove: archive file [/home/abi/fetcher/tmp/nz_seqtech-0.2.9.tar.gz]
+[2024-05-20 08:34:02] INFO root fetch - main [MainThread]: End processing [nz-seqtech]: success
+[2024-05-20 08:34:02] INFO root fetch - processPackages [why-tools]: Remove: archive file [/home/abi/fetcher/tmp/why-tools-0.0.2b8.tar.gz]
+[2024-05-20 08:34:02] INFO root fetch - processPackages [why-tools]: Remove: archive file [/home/abi/fetcher/tmp/why-tools-0.0.2b9.tar.gz]
+[2024-05-20 08:34:02] INFO root fetch - main [MainThread]: End processing [why-tools]: success
+[2024-05-20 08:34:02] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.3.3.tar.gz]
+[2024-05-20 08:34:02] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.4.0a0.tar.gz]
+[2024-05-20 08:34:02] INFO root fetch - main [MainThread]: End processing [easytl]: success
+[2024-05-20 08:34:02] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.8.tar.gz]
+[2024-05-20 08:34:02] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.9.tar.gz]
+[2024-05-20 08:34:02] INFO root fetch - main [MainThread]: End processing [htt]: success
+[2024-05-20 08:34:02] INFO root fetch - main [MainThread]: Store serial: [23285500]

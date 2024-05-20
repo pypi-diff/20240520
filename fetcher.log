@@ -20035,3 +20035,48 @@ EOFError: EOF read where object expected
 [2024-05-20 16:15:21] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-05-20 16:15:21] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-05-20 16:15:21] INFO root fetch - main [MainThread]: Store serial: [23290947]
+[2024-05-20 16:17:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290947]
+[2024-05-20 16:17:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 16:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alphafold3-pytorch
+[2024-05-20 16:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: illaqueablez
+[2024-05-20 16:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: solarium
+[2024-05-20 16:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: segline
+[2024-05-20 16:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volcengine-python-sdk
+[2024-05-20 16:17:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: icp10125
+[2024-05-20 16:17:39] INFO root fetch - processPackages [alphafold3-pytorch]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-20 16:17:39] INFO root fetch - processPackages [solarium]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-20 16:17:39] INFO root fetch - processPackages [solarium]: Downloading https://files.pythonhosted.org/packages/d6/90/2130b222093520fdde9e7e2036b1882eb9fc4a3d6e5b8376ef94555f891a/solarium-0.4.0.tar.gz
+[2024-05-20 16:17:39] WARNING root fetch - processPackages [segline]: Skipping, unable to determine old version
+[2024-05-20 16:17:39] INFO root fetch - main [MainThread]: End processing [segline] error
+[2024-05-20 16:17:39] INFO root fetch - processPackages [icp10125]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-05-20 16:17:39] WARNING root fetch - processPackages [illaqueablez]: Skipping, unable to determine old version
+[2024-05-20 16:17:39] INFO root fetch - main [MainThread]: End processing [illaqueablez] error
+[2024-05-20 16:17:39] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.81]
+[2024-05-20 16:17:39] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/47/30/f1442451c7ba880b95a780067f463ee16116e38005fd7d9bdbbe8552224c/alphafold3_pytorch-0.0.1.tar.gz
+[2024-05-20 16:17:40] INFO root fetch - processPackages [icp10125]: Downloading https://files.pythonhosted.org/packages/27/a6/5db0b4fb273c674974a382e9065f62bd232508251df010d35e59b231265a/icp10125-0.0.1.tar.gz
+[2024-05-20 16:17:40] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/fb/d3/dc805c0ea8255ae805eaf7076a0b59d4404863a1ef5af373e55968cca94a/volcengine-python-sdk-1.0.81.tar.gz
+[2024-05-20 16:17:40] INFO root fetch - processPackages [solarium]: Downloading https://files.pythonhosted.org/packages/4e/4f/744f8a9a17478bb61492f629cc351a8ec42178808ee0993388f498edf382/solarium-0.4.1.tar.gz
+[2024-05-20 16:17:40] INFO root fetch - processPackages [solarium]: executing diffoscope
+[2024-05-20 16:17:40] INFO root fetch - processPackages [solarium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solarium-0.4.0.tar.gz tmp/solarium-0.4.1.tar.gz --markdown 20240520/s/solarium/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-20 16:17:40] INFO root fetch - processPackages [icp10125]: Downloading https://files.pythonhosted.org/packages/cb/51/704b41ff46fdae024bf5f8acf7f826fe7df833018d8ef687adbd0cea97ab/icp10125-1.0.0.tar.gz
+[2024-05-20 16:17:40] INFO root fetch - processPackages [alphafold3-pytorch]: Downloading https://files.pythonhosted.org/packages/63/75/81fc87cd5413c35705cc34769c2ac03e8dfef3977db2a630e2181f167c7a/alphafold3_pytorch-0.0.2.tar.gz
+[2024-05-20 16:17:40] INFO root fetch - processPackages [icp10125]: executing diffoscope
+[2024-05-20 16:17:40] INFO root fetch - processPackages [icp10125]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icp10125-0.0.1.tar.gz tmp/icp10125-1.0.0.tar.gz --markdown 20240520/i/icp10125/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-05-20 16:17:40] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2024-05-20 16:17:40] INFO root fetch - processPackages [alphafold3-pytorch]: executing diffoscope
+[2024-05-20 16:17:40] INFO root fetch - processPackages [alphafold3-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphafold3_pytorch-0.0.1.tar.gz tmp/alphafold3_pytorch-0.0.2.tar.gz --markdown 20240520/a/alphafold3-pytorch/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-20 16:17:40] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2024-05-20 16:17:40] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.81.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20240520/v/volcengine-python-sdk/1.0.81-1.0.9/README.md --exclude *.pyd
+[2024-05-20 16:17:40] INFO root fetch - processPackages [solarium]: Remove: archive file [/home/abi/fetcher/tmp/solarium-0.4.0.tar.gz]
+[2024-05-20 16:17:40] INFO root fetch - processPackages [solarium]: Remove: archive file [/home/abi/fetcher/tmp/solarium-0.4.1.tar.gz]
+[2024-05-20 16:17:40] INFO root fetch - main [MainThread]: End processing [solarium]: success
+[2024-05-20 16:17:41] INFO root fetch - processPackages [icp10125]: Remove: archive file [/home/abi/fetcher/tmp/icp10125-0.0.1.tar.gz]
+[2024-05-20 16:17:41] INFO root fetch - processPackages [icp10125]: Remove: archive file [/home/abi/fetcher/tmp/icp10125-1.0.0.tar.gz]
+[2024-05-20 16:17:41] INFO root fetch - main [MainThread]: End processing [icp10125]: success
+[2024-05-20 16:17:41] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.1.tar.gz]
+[2024-05-20 16:17:41] INFO root fetch - processPackages [alphafold3-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/alphafold3_pytorch-0.0.2.tar.gz]
+[2024-05-20 16:17:41] INFO root fetch - main [MainThread]: End processing [alphafold3-pytorch]: success
+[2024-05-20 16:17:56] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.81.tar.gz]
+[2024-05-20 16:17:56] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2024-05-20 16:17:56] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2024-05-20 16:17:56] INFO root fetch - main [MainThread]: Store serial: [23290969]

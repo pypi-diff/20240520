@@ -9003,3 +9003,27 @@
 [2024-05-20 08:58:34] INFO root fetch - processPackages [smartkey-cli]: Remove: archive file [/home/abi/fetcher/tmp/smartkey_cli-4.9.2084-py3-none-any.whl.zip]
 [2024-05-20 08:58:34] INFO root fetch - main [MainThread]: End processing [smartkey-cli]: success
 [2024-05-20 08:58:34] INFO root fetch - main [MainThread]: Store serial: [23285897]
+[2024-05-20 09:00:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285897]
+[2024-05-20 09:00:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 09:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emoji
+[2024-05-20 09:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plivo
+[2024-05-20 09:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: overnessz
+[2024-05-20 09:00:43] INFO root fetch - processPackages [emoji]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-20 09:00:43] WARNING root fetch - processPackages [overnessz]: Skipping, unable to determine old version
+[2024-05-20 09:00:43] INFO root fetch - main [MainThread]: End processing [overnessz] error
+[2024-05-20 09:00:43] INFO root fetch - processPackages [plivo]: New version: [4.9.0] Old Version: [4.8.1]
+[2024-05-20 09:00:43] INFO root fetch - processPackages [plivo]: Downloading https://files.pythonhosted.org/packages/0a/98/99826a7c72ddaccf707946547e62379085f668142ac0d12ee8ce5976e8db/plivo-4.8.1.tar.gz
+[2024-05-20 09:00:43] INFO root fetch - processPackages [emoji]: Downloading https://files.pythonhosted.org/packages/73/eb/335ac266110ecc112c28d0360012c863fe3781c5555be52eb69790037751/emoji-2.8.0.tar.gz
+[2024-05-20 09:00:43] INFO root fetch - processPackages [plivo]: Downloading https://files.pythonhosted.org/packages/44/fb/2b8994c1e34a8038dd5d9053ab3ae690961311ff4ff8296765c93f34d440/plivo-4.9.0.tar.gz
+[2024-05-20 09:00:44] INFO root fetch - processPackages [emoji]: Downloading https://files.pythonhosted.org/packages/3e/29/8a183335d6a4bad794aaf6d0ea9116a751c6df471a6b8e8f1e9bb9f00aae/emoji-2.9.0.tar.gz
+[2024-05-20 09:00:44] INFO root fetch - processPackages [plivo]: executing diffoscope
+[2024-05-20 09:00:44] INFO root fetch - processPackages [plivo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plivo-4.8.1.tar.gz tmp/plivo-4.9.0.tar.gz --markdown 20240520/p/plivo/4.8.1-4.9.0/README.md --exclude *.pyd
+[2024-05-20 09:00:44] INFO root fetch - processPackages [emoji]: executing diffoscope
+[2024-05-20 09:00:44] INFO root fetch - processPackages [emoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emoji-2.8.0.tar.gz tmp/emoji-2.9.0.tar.gz --markdown 20240520/e/emoji/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-20 09:00:44] INFO root fetch - processPackages [plivo]: Remove: archive file [/home/abi/fetcher/tmp/plivo-4.8.1.tar.gz]
+[2024-05-20 09:00:44] INFO root fetch - processPackages [plivo]: Remove: archive file [/home/abi/fetcher/tmp/plivo-4.9.0.tar.gz]
+[2024-05-20 09:00:44] INFO root fetch - main [MainThread]: End processing [plivo]: success
+[2024-05-20 09:00:45] INFO root fetch - processPackages [emoji]: Remove: archive file [/home/abi/fetcher/tmp/emoji-2.8.0.tar.gz]
+[2024-05-20 09:00:45] INFO root fetch - processPackages [emoji]: Remove: archive file [/home/abi/fetcher/tmp/emoji-2.9.0.tar.gz]
+[2024-05-20 09:00:45] INFO root fetch - main [MainThread]: End processing [emoji]: success
+[2024-05-20 09:00:45] INFO root fetch - main [MainThread]: Store serial: [23285907]

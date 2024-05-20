@@ -16228,3 +16228,54 @@ EOFError: EOF read where object expected
 [2024-05-20 14:07:33] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.9.tar.gz]
 [2024-05-20 14:07:33] INFO root fetch - main [MainThread]: End processing [edc]: success
 [2024-05-20 14:07:33] INFO root fetch - main [MainThread]: Store serial: [23289249]
+[2024-05-20 14:09:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289249]
+[2024-05-20 14:09:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 14:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: group-local
+[2024-05-20 14:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-store-connector
+[2024-05-20 14:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adri-client
+[2024-05-20 14:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: berryworld
+[2024-05-20 14:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: catnekaise.actions-constructs
+[2024-05-20 14:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torcheval-nightly
+[2024-05-20 14:09:41] INFO root fetch - processPackages [group-local]: New version: [0.0.27] Old Version: [0.0.26]
+[2024-05-20 14:09:41] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-20 14:09:41] INFO root fetch - processPackages [catnekaise.actions-constructs]: New version: [0.2.23] Old Version: [0.2.22]
+[2024-05-20 14:09:41] INFO root fetch - processPackages [group-local]: Downloading https://files.pythonhosted.org/packages/5d/4b/63c9e0418ee24c491c04553bae4e0f47385bb46e65829c0852cb75477860/group_local-0.0.26.tar.gz
+[2024-05-20 14:09:41] INFO root fetch - processPackages [adri-client]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-20 14:09:41] WARNING root fetch - processPackages [data-store-connector]: Skipping, unable to determine old version
+[2024-05-20 14:09:41] INFO root fetch - main [MainThread]: End processing [data-store-connector] error
+[2024-05-20 14:09:41] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/98/c1/96a1c122528ea0121ecc29466d1a6b26c68b8a6036aae6bdb121ddcfdbff/torcheval_nightly-2024.5.8.tar.gz
+[2024-05-20 14:09:41] INFO root fetch - processPackages [berryworld]: New version: [1.0.0.99947] Old Version: [1.0.0.98128]
+[2024-05-20 14:09:42] INFO root fetch - processPackages [adri-client]: Downloading https://files.pythonhosted.org/packages/b5/da/78996f1bc1625773532dc706a12f69a3a1966c2822bde1a4c1267d482946/adri_client-0.0.1.tar.gz
+[2024-05-20 14:09:42] INFO root fetch - processPackages [catnekaise.actions-constructs]: Downloading https://files.pythonhosted.org/packages/f2/f2/77d9a8eee0349ea2c04ee8d29b9ea97ba601d248463b93388fb9a2fa0d3f/catnekaise.actions-constructs-0.2.22.tar.gz
+[2024-05-20 14:09:42] INFO root fetch - processPackages [group-local]: Downloading https://files.pythonhosted.org/packages/15/7c/fbc5829a68a0a78780b52fb034105299ed0d22425d82d6151d6928df6a22/group_local-0.0.27.tar.gz
+[2024-05-20 14:09:42] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/60/c3/da56bee236b598ba0c7ed2929a00a2cf4f41f79676194a22cd34a85b00eb/torcheval_nightly-2024.5.9.tar.gz
+[2024-05-20 14:09:42] INFO root fetch - processPackages [berryworld]: Downloading https://files.pythonhosted.org/packages/e3/b2/e55890bb3cd86b626b9431be7088976207c2c6ff2156111af7683a4d1d19/berryworld-1.0.0.98128-py3-none-any.whl
+[2024-05-20 14:09:42] INFO root fetch - processPackages [group-local]: executing diffoscope
+[2024-05-20 14:09:42] INFO root fetch - processPackages [group-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/group_local-0.0.26.tar.gz tmp/group_local-0.0.27.tar.gz --markdown 20240520/g/group-local/0.0.26-0.0.27/README.md --exclude *.pyd
+[2024-05-20 14:09:42] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-05-20 14:09:42] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval_nightly-2024.5.8.tar.gz tmp/torcheval_nightly-2024.5.9.tar.gz --markdown 20240520/t/torcheval-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-20 14:09:42] INFO root fetch - processPackages [adri-client]: Downloading https://files.pythonhosted.org/packages/72/05/cf0b9f9a1b4b1a12791c9919f09376d100bca3be4bdc3a62061a158650fe/adri_client-0.0.2.tar.gz
+[2024-05-20 14:09:42] INFO root fetch - processPackages [catnekaise.actions-constructs]: Downloading https://files.pythonhosted.org/packages/a0/23/00d63597e3be7250b5c15fbb89630b05fd77e479b4de0d268ed0667befe5/catnekaise.actions-constructs-0.2.23.tar.gz
+[2024-05-20 14:09:42] INFO root fetch - processPackages [berryworld]: Downloading https://files.pythonhosted.org/packages/76/7a/85e422f997ed11ae867d7de50d34dc4f96e9070f2fb630606a5c033fb214/berryworld-1.0.0.99947-py3-none-any.whl
+[2024-05-20 14:09:42] INFO root fetch - processPackages [adri-client]: executing diffoscope
+[2024-05-20 14:09:42] INFO root fetch - processPackages [adri-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adri_client-0.0.1.tar.gz tmp/adri_client-0.0.2.tar.gz --markdown 20240520/a/adri-client/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-20 14:09:42] INFO root fetch - processPackages [berryworld]: executing diffoscope
+[2024-05-20 14:09:42] INFO root fetch - processPackages [berryworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berryworld-1.0.0.98128-py3-none-any.whl.zip tmp/berryworld-1.0.0.99947-py3-none-any.whl.zip --markdown 20240520/b/berryworld/1.0.0.98128-1.0.0.99947/README.md --exclude *.pyd
+[2024-05-20 14:09:42] INFO root fetch - processPackages [catnekaise.actions-constructs]: executing diffoscope
+[2024-05-20 14:09:42] INFO root fetch - processPackages [catnekaise.actions-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catnekaise.actions-constructs-0.2.22.tar.gz tmp/catnekaise.actions-constructs-0.2.23.tar.gz --markdown 20240520/c/catnekaise.actions-constructs/0.2.22-0.2.23/README.md --exclude *.pyd
+[2024-05-20 14:09:42] INFO root fetch - processPackages [group-local]: Remove: archive file [/home/abi/fetcher/tmp/group_local-0.0.26.tar.gz]
+[2024-05-20 14:09:42] INFO root fetch - processPackages [group-local]: Remove: archive file [/home/abi/fetcher/tmp/group_local-0.0.27.tar.gz]
+[2024-05-20 14:09:42] INFO root fetch - main [MainThread]: End processing [group-local]: success
+[2024-05-20 14:09:43] INFO root fetch - processPackages [adri-client]: Remove: archive file [/home/abi/fetcher/tmp/adri_client-0.0.1.tar.gz]
+[2024-05-20 14:09:43] INFO root fetch - processPackages [adri-client]: Remove: archive file [/home/abi/fetcher/tmp/adri_client-0.0.2.tar.gz]
+[2024-05-20 14:09:43] INFO root fetch - main [MainThread]: End processing [adri-client]: success
+[2024-05-20 14:09:43] INFO root fetch - processPackages [berryworld]: Remove: archive file [/home/abi/fetcher/tmp/berryworld-1.0.0.98128-py3-none-any.whl.zip]
+[2024-05-20 14:09:43] INFO root fetch - processPackages [berryworld]: Remove: archive file [/home/abi/fetcher/tmp/berryworld-1.0.0.99947-py3-none-any.whl.zip]
+[2024-05-20 14:09:43] INFO root fetch - main [MainThread]: End processing [berryworld]: success
+[2024-05-20 14:09:43] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval_nightly-2024.5.8.tar.gz]
+[2024-05-20 14:09:43] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval_nightly-2024.5.9.tar.gz]
+[2024-05-20 14:09:43] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-05-20 14:09:43] INFO root fetch - processPackages [catnekaise.actions-constructs]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.actions-constructs-0.2.22.tar.gz]
+[2024-05-20 14:09:43] INFO root fetch - processPackages [catnekaise.actions-constructs]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.actions-constructs-0.2.23.tar.gz]
+[2024-05-20 14:09:43] INFO root fetch - main [MainThread]: End processing [catnekaise.actions-constructs]: success
+[2024-05-20 14:09:43] INFO root fetch - main [MainThread]: Store serial: [23289274]

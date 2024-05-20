@@ -20554,3 +20554,27 @@ EOFError: EOF read where object expected
 [2024-05-20 16:32:51] INFO root fetch - processPackages [tc-etl-lib]: Remove: archive file [/home/abi/fetcher/tmp/tc_etl_lib-0.9.0.tar.gz]
 [2024-05-20 16:32:51] INFO root fetch - main [MainThread]: End processing [tc-etl-lib]: success
 [2024-05-20 16:32:51] INFO root fetch - main [MainThread]: Store serial: [23291154]
+[2024-05-20 16:34:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291154]
+[2024-05-20 16:35:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 16:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyter-server-globbing
+[2024-05-20 16:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-id-python
+[2024-05-20 16:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hcs-core
+[2024-05-20 16:35:00] WARNING root fetch - processPackages [jupyter-server-globbing]: Skipping, unable to determine old version
+[2024-05-20 16:35:00] INFO root fetch - main [MainThread]: End processing [jupyter-server-globbing] error
+[2024-05-20 16:35:00] INFO root fetch - processPackages [hcs-core]: New version: [0.1.234] Old Version: [0.1.233]
+[2024-05-20 16:35:00] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-20 16:35:00] INFO root fetch - processPackages [hcs-core]: Downloading https://files.pythonhosted.org/packages/72/28/ac30525140ee91b87556a6451e0cb23d03a9af1597d50303bf1a8f1576d3/hcs_core-0.1.233.tar.gz
+[2024-05-20 16:35:00] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-05-20 16:35:01] INFO root fetch - processPackages [hcs-core]: Downloading https://files.pythonhosted.org/packages/e0/73/23d650ac814442c067b9861a339927f678d2725bf082d1b0fc43ce47bd07/hcs_core-0.1.234.tar.gz
+[2024-05-20 16:35:01] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-05-20 16:35:01] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-05-20 16:35:01] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240520/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-20 16:35:01] INFO root fetch - processPackages [hcs-core]: executing diffoscope
+[2024-05-20 16:35:01] INFO root fetch - processPackages [hcs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs_core-0.1.233.tar.gz tmp/hcs_core-0.1.234.tar.gz --markdown 20240520/h/hcs-core/0.1.233-0.1.234/README.md --exclude *.pyd
+[2024-05-20 16:35:02] INFO root fetch - processPackages [hcs-core]: Remove: archive file [/home/abi/fetcher/tmp/hcs_core-0.1.233.tar.gz]
+[2024-05-20 16:35:02] INFO root fetch - processPackages [hcs-core]: Remove: archive file [/home/abi/fetcher/tmp/hcs_core-0.1.234.tar.gz]
+[2024-05-20 16:35:02] INFO root fetch - main [MainThread]: End processing [hcs-core]: success
+[2024-05-20 16:35:02] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-05-20 16:35:02] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-05-20 16:35:02] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-05-20 16:35:02] INFO root fetch - main [MainThread]: Store serial: [23291164]

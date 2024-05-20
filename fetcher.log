@@ -24487,3 +24487,53 @@ EOFError: EOF read where object expected
 [2024-05-20 19:01:40] INFO root fetch - processPackages [psat-server-web]: Remove: archive file [/home/abi/fetcher/tmp/psat-server-web-0.3.9.tar.gz]
 [2024-05-20 19:01:40] INFO root fetch - main [MainThread]: End processing [psat-server-web]: success
 [2024-05-20 19:01:40] INFO root fetch - main [MainThread]: Store serial: [23292938]
+[2024-05-20 19:03:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292938]
+[2024-05-20 19:03:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 19:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zur-ecu-client
+[2024-05-20 19:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skforecast
+[2024-05-20 19:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ha-s3-tool
+[2024-05-20 19:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Simba-UW-tf-dev
+[2024-05-20 19:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-mixpanel
+[2024-05-20 19:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amphi-etl
+[2024-05-20 19:03:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gitsint
+[2024-05-20 19:03:49] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.93.5] Old Version: [1.93.4]
+[2024-05-20 19:03:49] INFO root fetch - processPackages [airbyte-source-mixpanel]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-05-20 19:03:49] WARNING root fetch - processPackages [gitsint]: Skipping, unable to determine old version
+[2024-05-20 19:03:49] INFO root fetch - main [MainThread]: End processing [gitsint] error
+[2024-05-20 19:03:49] INFO root fetch - processPackages [amphi-etl]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-20 19:03:49] WARNING root fetch - processPackages [ha-s3-tool]: Skipping, unable to determine old version
+[2024-05-20 19:03:49] INFO root fetch - main [MainThread]: End processing [ha-s3-tool] error
+[2024-05-20 19:03:49] INFO root fetch - processPackages [zur-ecu-client]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-05-20 19:03:49] INFO root fetch - processPackages [skforecast]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 19:03:49] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/5f/a6/f2531b2c62bece797778630dd4483aa6ddd77e1ea3a69917b1d620de8b81/Simba-UW-tf-dev-1.93.4.tar.gz
+[2024-05-20 19:03:49] INFO root fetch - processPackages [amphi-etl]: Downloading https://files.pythonhosted.org/packages/5b/2d/dc3e23d936749dfdec6744502e43715b56536093ac0f1e6efb7f683178a4/amphi-etl-0.3.5.tar.gz
+[2024-05-20 19:03:49] INFO root fetch - processPackages [zur-ecu-client]: Downloading https://files.pythonhosted.org/packages/a8/42/0015d91cb2e07c362d7aaea9e5453bec8b6eb974a6ba478eddaa19b471d9/zur_ecu_client-0.0.4.tar.gz
+[2024-05-20 19:03:49] INFO root fetch - processPackages [skforecast]: Downloading https://files.pythonhosted.org/packages/a6/84/2beffe83f18613da698b5be7a9ba11ccaa0e42deca35a4f45253584f8e77/skforecast-0.9.0.tar.gz
+[2024-05-20 19:03:49] INFO root fetch - processPackages [airbyte-source-mixpanel]: Downloading https://files.pythonhosted.org/packages/33/cb/39be3dd26583f86950a309d853c2665692c864d61ec5542871dccc3a4f52/airbyte_source_mixpanel-2.3.0.tar.gz
+[2024-05-20 19:03:49] INFO root fetch - processPackages [amphi-etl]: Downloading https://files.pythonhosted.org/packages/ce/23/7b8c8bddbfbf31f25f852e72d63ae94ee4681cf9399f3a1b7b861ef3a96e/amphi-etl-0.3.6.tar.gz
+[2024-05-20 19:03:49] ERROR root fetch - processPackages [airbyte-source-mixpanel]: Unable to fetch info: No such project/version 'airbyte-source-mixpanel' 2.3.1
+[2024-05-20 19:03:49] INFO root fetch - main [MainThread]: End processing [airbyte-source-mixpanel] error
+[2024-05-20 19:03:49] INFO root fetch - processPackages [zur-ecu-client]: Downloading https://files.pythonhosted.org/packages/e3/b2/fcdb4f9bedbf90eb22e3870b8293edb6c2d99ea3630467e3d926db913e31/zur_ecu_client-0.0.6.tar.gz
+[2024-05-20 19:03:49] INFO root fetch - processPackages [zur-ecu-client]: executing diffoscope
+[2024-05-20 19:03:49] INFO root fetch - processPackages [zur-ecu-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zur_ecu_client-0.0.4.tar.gz tmp/zur_ecu_client-0.0.6.tar.gz --markdown 20240520/z/zur-ecu-client/0.0.4-0.0.6/README.md --exclude *.pyd
+[2024-05-20 19:03:50] INFO root fetch - processPackages [amphi-etl]: executing diffoscope
+[2024-05-20 19:03:50] INFO root fetch - processPackages [amphi-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amphi-etl-0.3.5.tar.gz tmp/amphi-etl-0.3.6.tar.gz --markdown 20240520/a/amphi-etl/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-20 19:03:50] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/30/91/a3f4a29fa96b493961bbdb31dbab567d3816f228e48b79df8eebd3e13109/Simba-UW-tf-dev-1.93.5.tar.gz
+[2024-05-20 19:03:50] INFO root fetch - processPackages [skforecast]: Downloading https://files.pythonhosted.org/packages/76/ec/33acff248e58d114c70ef9cffd3e51bafe2a705f09de50822bd84cae69ed/skforecast-0.9.1.tar.gz
+[2024-05-20 19:03:50] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2024-05-20 19:03:50] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.93.4.tar.gz tmp/Simba-UW-tf-dev-1.93.5.tar.gz --markdown 20240520/S/Simba-UW-tf-dev/1.93.4-1.93.5/README.md --exclude *.pyd
+[2024-05-20 19:03:50] INFO root fetch - processPackages [zur-ecu-client]: Remove: archive file [/home/abi/fetcher/tmp/zur_ecu_client-0.0.4.tar.gz]
+[2024-05-20 19:03:50] INFO root fetch - processPackages [zur-ecu-client]: Remove: archive file [/home/abi/fetcher/tmp/zur_ecu_client-0.0.6.tar.gz]
+[2024-05-20 19:03:50] INFO root fetch - main [MainThread]: End processing [zur-ecu-client]: success
+[2024-05-20 19:03:50] INFO root fetch - processPackages [skforecast]: executing diffoscope
+[2024-05-20 19:03:50] INFO root fetch - processPackages [skforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skforecast-0.9.0.tar.gz tmp/skforecast-0.9.1.tar.gz --markdown 20240520/s/skforecast/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 19:03:51] INFO root fetch - processPackages [amphi-etl]: Remove: archive file [/home/abi/fetcher/tmp/amphi-etl-0.3.5.tar.gz]
+[2024-05-20 19:03:51] INFO root fetch - processPackages [amphi-etl]: Remove: archive file [/home/abi/fetcher/tmp/amphi-etl-0.3.6.tar.gz]
+[2024-05-20 19:03:51] INFO root fetch - main [MainThread]: End processing [amphi-etl]: success
+[2024-05-20 19:03:51] INFO root fetch - processPackages [skforecast]: Remove: archive file [/home/abi/fetcher/tmp/skforecast-0.9.0.tar.gz]
+[2024-05-20 19:03:51] INFO root fetch - processPackages [skforecast]: Remove: archive file [/home/abi/fetcher/tmp/skforecast-0.9.1.tar.gz]
+[2024-05-20 19:03:51] INFO root fetch - main [MainThread]: End processing [skforecast]: success
+[2024-05-20 19:03:53] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.93.4.tar.gz]
+[2024-05-20 19:03:53] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.93.5.tar.gz]
+[2024-05-20 19:03:53] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2024-05-20 19:03:53] INFO root fetch - main [MainThread]: Store serial: [23292963]

@@ -7257,3 +7257,54 @@
 [2024-05-20 07:12:59] INFO root fetch - processPackages [purequransearch]: Remove: archive file [/home/abi/fetcher/tmp/purequransearch-0.0.3.tar.gz]
 [2024-05-20 07:12:59] INFO root fetch - main [MainThread]: End processing [purequransearch]: success
 [2024-05-20 07:12:59] INFO root fetch - main [MainThread]: Store serial: [23284807]
+[2024-05-20 07:15:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284807]
+[2024-05-20 07:15:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 07:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pushsource
+[2024-05-20 07:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bowlderz
+[2024-05-20 07:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appsurifyci
+[2024-05-20 07:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: colalamo
+[2024-05-20 07:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pozalabs-compose
+[2024-05-20 07:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modelmerge
+[2024-05-20 07:15:08] INFO root fetch - processPackages [colalamo]: New version: [0.1.2104] Old Version: [0.1.2103]
+[2024-05-20 07:15:08] INFO root fetch - processPackages [modelmerge]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-20 07:15:08] INFO root fetch - processPackages [colalamo]: Downloading https://files.pythonhosted.org/packages/c3/a4/d29fb843c66df312e1679130d3c89a940c0a28dab130e372bc3f70605e69/colalamo-0.1.2103.tar.gz
+[2024-05-20 07:15:08] INFO root fetch - processPackages [appsurifyci]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 07:15:08] INFO root fetch - processPackages [pushsource]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-20 07:15:08] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/73/d0/7333e1457d0654a13abad918bbd9feae7f1854c02c60ae162374b8f4a428/modelmerge-0.5.0.tar.gz
+[2024-05-20 07:15:08] WARNING root fetch - processPackages [bowlderz]: Skipping, unable to determine old version
+[2024-05-20 07:15:08] INFO root fetch - main [MainThread]: End processing [bowlderz] error
+[2024-05-20 07:15:08] INFO root fetch - processPackages [pozalabs-compose]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 07:15:08] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/be/78/e633e7cea242e900964a292a85e443de25712046c3092cb90e623f5df51f/appsurifyci-0.1.8.tar.gz
+[2024-05-20 07:15:08] INFO root fetch - processPackages [pushsource]: Downloading https://files.pythonhosted.org/packages/58/de/89de756c0eaaa15a4eb489f78c581a4fdab1206049088d6e82c204c0de2b/pushsource-2.8.0.tar.gz
+[2024-05-20 07:15:08] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/06/b4/e38f9c7412983e6cae601fa8a4496d9dd3c15fe0e6bb19019457de2bf908/pozalabs-compose-0.9.0.tar.gz
+[2024-05-20 07:15:08] INFO root fetch - processPackages [colalamo]: Downloading https://files.pythonhosted.org/packages/40/db/eb092f4b9669c5a2c126a8d8cdfeae0954df65b0213045d6890e17e82fef/colalamo-0.1.2104.tar.gz
+[2024-05-20 07:15:08] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/e9/4c/5b40640c1695e78479224a79e4fcd420d859de682fabe1341a15079132be/modelmerge-0.5.1.tar.gz
+[2024-05-20 07:15:08] INFO root fetch - processPackages [colalamo]: executing diffoscope
+[2024-05-20 07:15:08] INFO root fetch - processPackages [colalamo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colalamo-0.1.2103.tar.gz tmp/colalamo-0.1.2104.tar.gz --markdown 20240520/c/colalamo/0.1.2103-0.1.2104/README.md --exclude *.pyd
+[2024-05-20 07:15:08] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/d1/1a/83fd0a2a85db4bcfae5c7da196564233f55a65456f7d620ff4d1899e8f0c/appsurifyci-0.1.9.tar.gz
+[2024-05-20 07:15:08] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-20 07:15:08] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.5.0.tar.gz tmp/modelmerge-0.5.1.tar.gz --markdown 20240520/m/modelmerge/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-20 07:15:09] INFO root fetch - processPackages [pushsource]: Downloading https://files.pythonhosted.org/packages/b2/3c/5e5a3f952ff711fb7ae8258cfbbd02ec112b5c51cc8745d6e8fd7b8b8cbb/pushsource-2.9.0.tar.gz
+[2024-05-20 07:15:09] INFO root fetch - processPackages [appsurifyci]: executing diffoscope
+[2024-05-20 07:15:09] INFO root fetch - processPackages [appsurifyci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsurifyci-0.1.8.tar.gz tmp/appsurifyci-0.1.9.tar.gz --markdown 20240520/a/appsurifyci/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 07:15:09] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/c4/33/dc52b783559ddc423af41ab2502f9d7749e2c4231db5f0f022fea65653c7/pozalabs-compose-0.9.1.tar.gz
+[2024-05-20 07:15:09] INFO root fetch - processPackages [pozalabs-compose]: executing diffoscope
+[2024-05-20 07:15:09] INFO root fetch - processPackages [pozalabs-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozalabs-compose-0.9.0.tar.gz tmp/pozalabs-compose-0.9.1.tar.gz --markdown 20240520/p/pozalabs-compose/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 07:15:09] INFO root fetch - processPackages [colalamo]: Remove: archive file [/home/abi/fetcher/tmp/colalamo-0.1.2103.tar.gz]
+[2024-05-20 07:15:09] INFO root fetch - processPackages [colalamo]: Remove: archive file [/home/abi/fetcher/tmp/colalamo-0.1.2104.tar.gz]
+[2024-05-20 07:15:09] INFO root fetch - main [MainThread]: End processing [colalamo]: success
+[2024-05-20 07:15:09] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.5.0.tar.gz]
+[2024-05-20 07:15:09] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.5.1.tar.gz]
+[2024-05-20 07:15:09] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-20 07:15:09] INFO root fetch - processPackages [appsurifyci]: Remove: archive file [/home/abi/fetcher/tmp/appsurifyci-0.1.8.tar.gz]
+[2024-05-20 07:15:09] INFO root fetch - processPackages [appsurifyci]: Remove: archive file [/home/abi/fetcher/tmp/appsurifyci-0.1.9.tar.gz]
+[2024-05-20 07:15:09] INFO root fetch - main [MainThread]: End processing [appsurifyci]: success
+[2024-05-20 07:15:09] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.0.tar.gz]
+[2024-05-20 07:15:09] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.1.tar.gz]
+[2024-05-20 07:15:09] INFO root fetch - main [MainThread]: End processing [pozalabs-compose]: success
+[2024-05-20 07:15:10] INFO root fetch - processPackages [pushsource]: executing diffoscope
+[2024-05-20 07:15:10] INFO root fetch - processPackages [pushsource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pushsource-2.8.0.tar.gz tmp/pushsource-2.9.0.tar.gz --markdown 20240520/p/pushsource/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-20 07:15:11] INFO root fetch - processPackages [pushsource]: Remove: archive file [/home/abi/fetcher/tmp/pushsource-2.8.0.tar.gz]
+[2024-05-20 07:15:11] INFO root fetch - processPackages [pushsource]: Remove: archive file [/home/abi/fetcher/tmp/pushsource-2.9.0.tar.gz]
+[2024-05-20 07:15:11] INFO root fetch - main [MainThread]: End processing [pushsource]: success
+[2024-05-20 07:15:11] INFO root fetch - main [MainThread]: Store serial: [23284825]

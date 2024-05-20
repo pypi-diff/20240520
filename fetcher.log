@@ -11340,3 +11340,35 @@
 [2024-05-20 10:50:02] INFO root fetch - processPackages [py-ocsf-models]: Remove: archive file [/home/abi/fetcher/tmp/py_ocsf_models-0.1.1.tar.gz]
 [2024-05-20 10:50:02] INFO root fetch - main [MainThread]: End processing [py-ocsf-models]: success
 [2024-05-20 10:50:02] INFO root fetch - main [MainThread]: Store serial: [23287097]
+[2024-05-20 10:52:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287097]
+[2024-05-20 10:52:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 10:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hebing-code
+[2024-05-20 10:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyE2
+[2024-05-20 10:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-tools
+[2024-05-20 10:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: isat-sam
+[2024-05-20 10:52:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Solverz
+[2024-05-20 10:52:11] INFO root fetch - processPackages [langchain-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-20 10:52:11] WARNING root fetch - processPackages [hebing-code]: Skipping, unable to determine old version
+[2024-05-20 10:52:11] INFO root fetch - main [MainThread]: End processing [hebing-code] error
+[2024-05-20 10:52:11] INFO root fetch - processPackages [isat-sam]: New version: [1.0.0] Old Version: [0.0.4]
+[2024-05-20 10:52:11] INFO root fetch - processPackages [PyE2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-20 10:52:11] WARNING root fetch - processPackages [Solverz]: Skipping, unable to determine old version
+[2024-05-20 10:52:11] INFO root fetch - main [MainThread]: End processing [Solverz] error
+[2024-05-20 10:52:11] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/6b/00/163bdee32da39c08882b88ee6983de813905743f23581dbfb76b13a9fe9a/langchain-tools-0.1.5.tar.gz
+[2024-05-20 10:52:11] INFO root fetch - processPackages [isat-sam]: Downloading https://files.pythonhosted.org/packages/5f/4a/c57e6dca5076d00426627ad7e7cd33b3fe335fe93cc335e31ab3c7a7e138/isat-sam-0.0.4.tar.gz
+[2024-05-20 10:52:11] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/7c/1f/ddc8b7c8209074ff0d22a75a309898a450f3e9e4116be5a7194e75d33974/pye2-0.7.8.tar.gz
+[2024-05-20 10:52:11] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/cf/25/9d47cc2c84391ec2938a90838e49ede3e160adac5120144d8052428e063a/langchain-tools-0.1.6.tar.gz
+[2024-05-20 10:52:11] WARNING root fetch - processPackages [isat-sam]: Skipping package: exceeds size limit 38151344>=10485760
+[2024-05-20 10:52:11] INFO root fetch - main [MainThread]: End processing [isat-sam] error
+[2024-05-20 10:52:11] INFO root fetch - processPackages [langchain-tools]: executing diffoscope
+[2024-05-20 10:52:11] INFO root fetch - processPackages [langchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-tools-0.1.5.tar.gz tmp/langchain-tools-0.1.6.tar.gz --markdown 20240520/l/langchain-tools/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-20 10:52:12] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/e9/40/83bee283c4c5388414ec9563877eaf42c60425426715578ebc136fe413cb/pye2-0.7.9.tar.gz
+[2024-05-20 10:52:12] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-05-20 10:52:12] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.7.8.tar.gz tmp/pye2-0.7.9.tar.gz --markdown 20240520/P/PyE2/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-20 10:52:12] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.5.tar.gz]
+[2024-05-20 10:52:12] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.6.tar.gz]
+[2024-05-20 10:52:12] INFO root fetch - main [MainThread]: End processing [langchain-tools]: success
+[2024-05-20 10:52:12] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.8.tar.gz]
+[2024-05-20 10:52:12] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
+[2024-05-20 10:52:12] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-05-20 10:52:12] INFO root fetch - main [MainThread]: Store serial: [23287117]

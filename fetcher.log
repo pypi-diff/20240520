@@ -14324,3 +14324,21 @@
 [2024-05-20 12:45:10] INFO root fetch - processPackages [nbed]: Remove: archive file [/home/abi/fetcher/tmp/nbed-0.0.4.tar.gz]
 [2024-05-20 12:45:10] INFO root fetch - main [MainThread]: End processing [nbed]: success
 [2024-05-20 12:45:10] INFO root fetch - main [MainThread]: Store serial: [23288303]
+[2024-05-20 12:47:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288303]
+[2024-05-20 12:47:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 12:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evtool
+[2024-05-20 12:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marjoramz
+[2024-05-20 12:47:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: file-crusher
+[2024-05-20 12:47:19] WARNING root fetch - processPackages [file-crusher]: Skipping, unable to determine old version
+[2024-05-20 12:47:19] INFO root fetch - main [MainThread]: End processing [file-crusher] error
+[2024-05-20 12:47:19] INFO root fetch - processPackages [evtool]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 12:47:19] WARNING root fetch - processPackages [marjoramz]: Skipping, unable to determine old version
+[2024-05-20 12:47:19] INFO root fetch - main [MainThread]: End processing [marjoramz] error
+[2024-05-20 12:47:20] INFO root fetch - processPackages [evtool]: Downloading https://files.pythonhosted.org/packages/1d/11/272b67eacb54c25ab394e2f5936145717d0d76d906911fbee0aed58194a3/evtool-0.0.2.tar.gz
+[2024-05-20 12:47:20] INFO root fetch - processPackages [evtool]: Downloading https://files.pythonhosted.org/packages/24/a1/9afc65f5535b966ee5ee00a6ff4936ffed5a80f82b069c532804b342bd98/evtool-0.0.3.tar.gz
+[2024-05-20 12:47:20] INFO root fetch - processPackages [evtool]: executing diffoscope
+[2024-05-20 12:47:20] INFO root fetch - processPackages [evtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evtool-0.0.2.tar.gz tmp/evtool-0.0.3.tar.gz --markdown 20240520/e/evtool/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 12:47:21] INFO root fetch - processPackages [evtool]: Remove: archive file [/home/abi/fetcher/tmp/evtool-0.0.2.tar.gz]
+[2024-05-20 12:47:21] INFO root fetch - processPackages [evtool]: Remove: archive file [/home/abi/fetcher/tmp/evtool-0.0.3.tar.gz]
+[2024-05-20 12:47:21] INFO root fetch - main [MainThread]: End processing [evtool]: success
+[2024-05-20 12:47:21] INFO root fetch - main [MainThread]: Store serial: [23288310]

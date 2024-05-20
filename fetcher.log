@@ -21232,3 +21232,45 @@ EOFError: EOF read where object expected
 [2024-05-20 17:02:33] INFO root fetch - processPackages [my-scrcpy]: Remove: archive file [/home/abi/fetcher/tmp/my_scrcpy-0.2.tar.gz]
 [2024-05-20 17:02:33] INFO root fetch - main [MainThread]: End processing [my-scrcpy]: success
 [2024-05-20 17:02:33] INFO root fetch - main [MainThread]: Store serial: [23291430]
+[2024-05-20 17:04:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291430]
+[2024-05-20 17:04:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 17:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streaming-assistants
+[2024-05-20 17:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-celerybeat-status
+[2024-05-20 17:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyter-calendar-extension
+[2024-05-20 17:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nomic
+[2024-05-20 17:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xspace-dl
+[2024-05-20 17:04:42] INFO root fetch - processPackages [xspace-dl]: New version: [0.2.22] Old Version: [0.2.21]
+[2024-05-20 17:04:42] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/1f/2b/0e660be4b277c9c47879ec9b1dd121ddc104acff082e585f2748639ef2e1/xspace-dl-0.2.21.tar.gz
+[2024-05-20 17:04:42] WARNING root fetch - processPackages [jupyter-calendar-extension]: Skipping, unable to determine old version
+[2024-05-20 17:04:42] INFO root fetch - main [MainThread]: End processing [jupyter-calendar-extension] error
+[2024-05-20 17:04:42] INFO root fetch - processPackages [django-celerybeat-status]: New version: [1.0.0] Old Version: [0.0.9]
+[2024-05-20 17:04:42] INFO root fetch - processPackages [streaming-assistants]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-20 17:04:42] INFO root fetch - processPackages [nomic]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-20 17:04:42] INFO root fetch - processPackages [django-celerybeat-status]: Downloading https://files.pythonhosted.org/packages/88/bc/e88a77a11866c07f29a703aab2a74265a2ce69bac89e821e59e8413777ed/django-celerybeat-status-0.0.9.tar.gz
+[2024-05-20 17:04:42] INFO root fetch - processPackages [nomic]: Downloading https://files.pythonhosted.org/packages/c9/ad/6e9b14cebcae04b4cb15b2551331bb210543f022d567d5eef4ba79832928/nomic-3.0.8.tar.gz
+[2024-05-20 17:04:42] INFO root fetch - processPackages [streaming-assistants]: Downloading https://files.pythonhosted.org/packages/af/3d/dc293cdb4c429406a79b61362e9e426095eccd198212a0cdd2f44174114f/streaming_assistants-0.8.0.tar.gz
+[2024-05-20 17:04:43] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/d2/b0/97e3e7cc9b90c4fe56792b56a91d753a1c0a3661d549a57e9571faf27c61/xspace-dl-0.2.22.tar.gz
+[2024-05-20 17:04:43] INFO root fetch - processPackages [xspace-dl]: executing diffoscope
+[2024-05-20 17:04:43] INFO root fetch - processPackages [xspace-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspace-dl-0.2.21.tar.gz tmp/xspace-dl-0.2.22.tar.gz --markdown 20240520/x/xspace-dl/0.2.21-0.2.22/README.md --exclude *.pyd
+[2024-05-20 17:04:43] INFO root fetch - processPackages [django-celerybeat-status]: Downloading https://files.pythonhosted.org/packages/33/24/dd598470bff08c92a2bd2af3bcfe16fb105baa94b239619d9e7987b73068/django_celerybeat_status-1.0.0.tar.gz
+[2024-05-20 17:04:43] INFO root fetch - processPackages [nomic]: Downloading https://files.pythonhosted.org/packages/27/fc/fe32416170225a513fe244d14e87004d298fbe1afbfc18367a2f9cb99f23/nomic-3.0.9.tar.gz
+[2024-05-20 17:04:43] INFO root fetch - processPackages [streaming-assistants]: Downloading https://files.pythonhosted.org/packages/2f/a1/d98bc2e51aa7ddc249766325c12aca7c66d084cae0413a47250126f98e95/streaming_assistants-0.9.0.tar.gz
+[2024-05-20 17:04:43] INFO root fetch - processPackages [django-celerybeat-status]: executing diffoscope
+[2024-05-20 17:04:43] INFO root fetch - processPackages [django-celerybeat-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-celerybeat-status-0.0.9.tar.gz tmp/django_celerybeat_status-1.0.0.tar.gz --markdown 20240520/d/django-celerybeat-status/0.0.9-1.0.0/README.md --exclude *.pyd
+[2024-05-20 17:04:43] INFO root fetch - processPackages [nomic]: executing diffoscope
+[2024-05-20 17:04:43] INFO root fetch - processPackages [nomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomic-3.0.8.tar.gz tmp/nomic-3.0.9.tar.gz --markdown 20240520/n/nomic/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-20 17:04:43] INFO root fetch - processPackages [streaming-assistants]: executing diffoscope
+[2024-05-20 17:04:43] INFO root fetch - processPackages [streaming-assistants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streaming_assistants-0.8.0.tar.gz tmp/streaming_assistants-0.9.0.tar.gz --markdown 20240520/s/streaming-assistants/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-20 17:04:43] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.2.21.tar.gz]
+[2024-05-20 17:04:43] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.2.22.tar.gz]
+[2024-05-20 17:04:43] INFO root fetch - main [MainThread]: End processing [xspace-dl]: success
+[2024-05-20 17:04:43] INFO root fetch - processPackages [django-celerybeat-status]: Remove: archive file [/home/abi/fetcher/tmp/django-celerybeat-status-0.0.9.tar.gz]
+[2024-05-20 17:04:43] INFO root fetch - processPackages [django-celerybeat-status]: Remove: archive file [/home/abi/fetcher/tmp/django_celerybeat_status-1.0.0.tar.gz]
+[2024-05-20 17:04:43] INFO root fetch - main [MainThread]: End processing [django-celerybeat-status]: success
+[2024-05-20 17:04:44] INFO root fetch - processPackages [streaming-assistants]: Remove: archive file [/home/abi/fetcher/tmp/streaming_assistants-0.8.0.tar.gz]
+[2024-05-20 17:04:44] INFO root fetch - processPackages [streaming-assistants]: Remove: archive file [/home/abi/fetcher/tmp/streaming_assistants-0.9.0.tar.gz]
+[2024-05-20 17:04:44] INFO root fetch - main [MainThread]: End processing [streaming-assistants]: success
+[2024-05-20 17:04:44] INFO root fetch - processPackages [nomic]: Remove: archive file [/home/abi/fetcher/tmp/nomic-3.0.8.tar.gz]
+[2024-05-20 17:04:44] INFO root fetch - processPackages [nomic]: Remove: archive file [/home/abi/fetcher/tmp/nomic-3.0.9.tar.gz]
+[2024-05-20 17:04:44] INFO root fetch - main [MainThread]: End processing [nomic]: success
+[2024-05-20 17:04:44] INFO root fetch - main [MainThread]: Store serial: [23291449]

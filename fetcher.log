@@ -4145,3 +4145,36 @@
 [2024-05-20 03:25:43] INFO root fetch - processPackages [internal]: Remove: archive file [/home/abi/fetcher/tmp/internal-1.0.3.tar.gz]
 [2024-05-20 03:25:43] INFO root fetch - main [MainThread]: End processing [internal]: success
 [2024-05-20 03:25:43] INFO root fetch - main [MainThread]: Store serial: [23283327]
+[2024-05-20 03:27:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283327]
+[2024-05-20 03:27:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 03:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ioxplugin
+[2024-05-20 03:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: argus-alm
+[2024-05-20 03:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scoutbook_parser
+[2024-05-20 03:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abadpour
+[2024-05-20 03:27:51] INFO root fetch - processPackages [ioxplugin]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-20 03:27:51] INFO root fetch - processPackages [scoutbook_parser]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 03:27:51] INFO root fetch - processPackages [ioxplugin]: Downloading https://files.pythonhosted.org/packages/e9/3e/c4017df80bc0c334d8aebbb2fa2bc410558d6c35dd519857568148795886/ioxplugin-1.1.0.tar.gz
+[2024-05-20 03:27:51] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/cb/af/8cefee227997b6e3fe30da0ae2c31049cc60b92d76e910b4beca5fc29702/scoutbook_parser-0.9.0.tar.gz
+[2024-05-20 03:27:51] INFO root fetch - processPackages [argus-alm]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-20 03:27:51] WARNING root fetch - processPackages [abadpour]: Skipping, unable to determine old version
+[2024-05-20 03:27:51] INFO root fetch - main [MainThread]: End processing [abadpour] error
+[2024-05-20 03:27:52] INFO root fetch - processPackages [argus-alm]: Downloading https://files.pythonhosted.org/packages/4d/a3/3f25b094093c62caa6e89fbb2d797e6583443d3030f8dfdb18fd11bc9cd0/argus-alm-0.8.0.tar.gz
+[2024-05-20 03:27:52] INFO root fetch - processPackages [ioxplugin]: Downloading https://files.pythonhosted.org/packages/b9/7a/6bb276bcc4e6fc737f3b9ee9d4115dafdcc4226caea568c76cf693e52c51/ioxplugin-1.1.1.tar.gz
+[2024-05-20 03:27:52] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/a8/b3/755d2ce577e69aa85bd7c4589be4f7a8f4e54f64a3f1c5e0dd3aef5db4d8/scoutbook_parser-0.9.1.tar.gz
+[2024-05-20 03:27:52] INFO root fetch - processPackages [ioxplugin]: executing diffoscope
+[2024-05-20 03:27:52] INFO root fetch - processPackages [ioxplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ioxplugin-1.1.0.tar.gz tmp/ioxplugin-1.1.1.tar.gz --markdown 20240520/i/ioxplugin/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-20 03:27:52] INFO root fetch - processPackages [scoutbook_parser]: executing diffoscope
+[2024-05-20 03:27:52] INFO root fetch - processPackages [scoutbook_parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoutbook_parser-0.9.0.tar.gz tmp/scoutbook_parser-0.9.1.tar.gz --markdown 20240520/s/scoutbook_parser/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 03:27:52] INFO root fetch - processPackages [argus-alm]: Downloading https://files.pythonhosted.org/packages/f5/52/98ae593640563903d88e0b566dc2965de18d2223faba5652a0d0fbbf748a/argus-alm-0.8.1.tar.gz
+[2024-05-20 03:27:52] INFO root fetch - processPackages [argus-alm]: executing diffoscope
+[2024-05-20 03:27:52] INFO root fetch - processPackages [argus-alm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus-alm-0.8.0.tar.gz tmp/argus-alm-0.8.1.tar.gz --markdown 20240520/a/argus-alm/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-20 03:27:52] INFO root fetch - processPackages [ioxplugin]: Remove: archive file [/home/abi/fetcher/tmp/ioxplugin-1.1.0.tar.gz]
+[2024-05-20 03:27:52] INFO root fetch - processPackages [ioxplugin]: Remove: archive file [/home/abi/fetcher/tmp/ioxplugin-1.1.1.tar.gz]
+[2024-05-20 03:27:52] INFO root fetch - main [MainThread]: End processing [ioxplugin]: success
+[2024-05-20 03:27:52] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.0.tar.gz]
+[2024-05-20 03:27:52] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.1.tar.gz]
+[2024-05-20 03:27:52] INFO root fetch - main [MainThread]: End processing [scoutbook_parser]: success
+[2024-05-20 03:27:53] INFO root fetch - processPackages [argus-alm]: Remove: archive file [/home/abi/fetcher/tmp/argus-alm-0.8.0.tar.gz]
+[2024-05-20 03:27:53] INFO root fetch - processPackages [argus-alm]: Remove: archive file [/home/abi/fetcher/tmp/argus-alm-0.8.1.tar.gz]
+[2024-05-20 03:27:53] INFO root fetch - main [MainThread]: End processing [argus-alm]: success
+[2024-05-20 03:27:53] INFO root fetch - main [MainThread]: Store serial: [23283342]

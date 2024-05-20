@@ -4844,3 +4844,24 @@
 [2024-05-20 04:16:26] INFO root fetch - processPackages [pyTelegramWalletApi]: Remove: archive file [/home/abi/fetcher/tmp/pyTelegramWalletApi-0.2.3.tar.gz]
 [2024-05-20 04:16:26] INFO root fetch - main [MainThread]: End processing [pyTelegramWalletApi]: success
 [2024-05-20 04:16:26] INFO root fetch - main [MainThread]: Store serial: [23283718]
+[2024-05-20 04:18:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283718]
+[2024-05-20 04:18:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 04:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragdaemon
+[2024-05-20 04:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autora-experiment-runner-recruitment-manager-prolific
+[2024-05-20 04:18:34] INFO root fetch - processPackages [ragdaemon]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-20 04:18:34] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2024-05-20 04:18:34] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/88/54/65fbae012175a60897665b6fdc03c5724acb2c5aa70cc5687d782cc3cb86/ragdaemon-0.5.3.tar.gz
+[2024-05-20 04:18:34] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Downloading https://files.pythonhosted.org/packages/fb/25/1d59b86b3c4be58f91bf80c18f80ab9595397d91b88a3ad4888d3ae69a10/autora_experiment_runner_recruitment_manager_prolific-1.0.0b8.tar.gz
+[2024-05-20 04:18:35] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Downloading https://files.pythonhosted.org/packages/aa/17/7487bff781dcc7adbd7c5e78c7ebc67776d10768a27b9f4e79abcc9091f7/autora_experiment_runner_recruitment_manager_prolific-1.0.0b9.tar.gz
+[2024-05-20 04:18:35] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/77/38/06722f2c8e0b8e7486f423951b4479da06063ad885af3ee1cacab9d16cd3/ragdaemon-0.5.4.tar.gz
+[2024-05-20 04:18:35] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: executing diffoscope
+[2024-05-20 04:18:35] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b8.tar.gz tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b9.tar.gz --markdown 20240520/a/autora-experiment-runner-recruitment-manager-prolific/1.0.0b8-1.0.0b9/README.md --exclude *.pyd
+[2024-05-20 04:18:35] INFO root fetch - processPackages [ragdaemon]: executing diffoscope
+[2024-05-20 04:18:35] INFO root fetch - processPackages [ragdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdaemon-0.5.3.tar.gz tmp/ragdaemon-0.5.4.tar.gz --markdown 20240520/r/ragdaemon/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-20 04:18:35] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b8.tar.gz]
+[2024-05-20 04:18:35] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b9.tar.gz]
+[2024-05-20 04:18:35] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-recruitment-manager-prolific]: success
+[2024-05-20 04:18:36] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.5.3.tar.gz]
+[2024-05-20 04:18:36] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.5.4.tar.gz]
+[2024-05-20 04:18:36] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
+[2024-05-20 04:18:36] INFO root fetch - main [MainThread]: Store serial: [23283724]

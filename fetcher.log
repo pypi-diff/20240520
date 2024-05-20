@@ -18807,3 +18807,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:34:32] INFO root fetch - processPackages [stepup-reprep]: Remove: archive file [/home/abi/fetcher/tmp/stepup_reprep-1.2.0.tar.gz]
 [2024-05-20 15:34:32] INFO root fetch - main [MainThread]: End processing [stepup-reprep]: success
 [2024-05-20 15:34:32] INFO root fetch - main [MainThread]: Store serial: [23290364]
+[2024-05-20 15:36:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290364]
+[2024-05-20 15:36:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 15:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: speedtab
+[2024-05-20 15:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: a9x-webstatistics
+[2024-05-20 15:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spiderYdb
+[2024-05-20 15:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: makolator
+[2024-05-20 15:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foo-metta-motto
+[2024-05-20 15:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: batchstats
+[2024-05-20 15:36:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aecdata
+[2024-05-20 15:36:42] INFO root fetch - processPackages [speedtab]: New version: [0.2.2] Old Version: [0.2.1.9]
+[2024-05-20 15:36:42] INFO root fetch - processPackages [makolator]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-05-20 15:36:42] INFO root fetch - processPackages [spiderYdb]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 15:36:42] INFO root fetch - processPackages [a9x-webstatistics]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 15:36:42] WARNING root fetch - processPackages [foo-metta-motto]: Skipping, unable to determine old version
+[2024-05-20 15:36:42] INFO root fetch - processPackages [batchstats]: New version: [0.3.1] Old Version: [0.3]
+[2024-05-20 15:36:42] INFO root fetch - main [MainThread]: End processing [foo-metta-motto] error
+[2024-05-20 15:36:42] INFO root fetch - processPackages [aecdata]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-20 15:36:42] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/f0/58/587cc691da0423e547e6961926996118297d48068f8088a154d8992c2fe1/speedtab-0.2.1.9.tar.gz
+[2024-05-20 15:36:42] INFO root fetch - processPackages [spiderYdb]: Downloading https://files.pythonhosted.org/packages/e0/4a/96e1c84e7b452d0ae6bba0f4ed6f342d601205bd48989be284d7e541abcf/spiderYdb-0.1.8-py3-none-any.whl
+[2024-05-20 15:36:42] INFO root fetch - processPackages [makolator]: Downloading https://files.pythonhosted.org/packages/d2/0b/f9689116200fabc5c248ce46ebe55805b23f009822820f5ad7e7a10091f9/makolator-2.5.0.tar.gz
+[2024-05-20 15:36:43] INFO root fetch - processPackages [a9x-webstatistics]: Downloading https://files.pythonhosted.org/packages/34/1d/74a658d3b12d45754cb6a28db75b8a8f9c722cf135e6532226e90e8ed560/a9x_webstatistics-0.1.8.tar.gz
+[2024-05-20 15:36:43] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/f7/22/55bc7e51428287fd3a49c73ffb0193a3429a01533a4db8d127fce3e7caba/speedtab-0.2.2.tar.gz
+[2024-05-20 15:36:43] INFO root fetch - processPackages [aecdata]: Downloading https://files.pythonhosted.org/packages/fb/68/0c148b5dd11c54d812de0c10f940c2c154f8dc5a79068d99c4bd0f7127a1/aecdata-0.0.3.tar.gz
+[2024-05-20 15:36:43] INFO root fetch - processPackages [batchstats]: Downloading https://files.pythonhosted.org/packages/7e/d2/60772a4507e6fd9ad3c3e4ebae78bf5f9e03b7e2b9c1254ea10fda408cd9/batchstats-0.3.tar.gz
+[2024-05-20 15:36:43] INFO root fetch - processPackages [speedtab]: executing diffoscope
+[2024-05-20 15:36:43] INFO root fetch - processPackages [speedtab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtab-0.2.1.9.tar.gz tmp/speedtab-0.2.2.tar.gz --markdown 20240520/s/speedtab/0.2.1.9-0.2.2/README.md --exclude *.pyd
+[2024-05-20 15:36:43] INFO root fetch - processPackages [makolator]: Downloading https://files.pythonhosted.org/packages/f0/22/54800b35fef172f0fb0ea3cc6e9d8f07b6f83c4c478203c9e979c71ec845/makolator-2.6.0.tar.gz
+[2024-05-20 15:36:43] INFO root fetch - processPackages [batchstats]: Downloading https://files.pythonhosted.org/packages/e7/35/4796c72bb4b30fdd5a32a65fbd5307ce5958b1160d2cfc43830febe80002/batchstats-0.3.1.tar.gz
+[2024-05-20 15:36:43] INFO root fetch - processPackages [aecdata]: Downloading https://files.pythonhosted.org/packages/16/a3/c72c14be73990ffcba8c78d3160b23b6eaaf2550a6fd7a3c685432381c45/aecdata-0.0.4.tar.gz
+[2024-05-20 15:36:43] INFO root fetch - processPackages [spiderYdb]: Downloading https://files.pythonhosted.org/packages/12/6b/82bc6b375e7acfe2112d16b6666a5e336ce876131a289c4456d0dfb79a18/spiderYdb-0.1.9-py3-none-any.whl
+[2024-05-20 15:36:43] INFO root fetch - processPackages [makolator]: executing diffoscope
+[2024-05-20 15:36:43] INFO root fetch - processPackages [makolator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makolator-2.5.0.tar.gz tmp/makolator-2.6.0.tar.gz --markdown 20240520/m/makolator/2.5.0-2.6.0/README.md --exclude *.pyd
+[2024-05-20 15:36:43] INFO root fetch - processPackages [a9x-webstatistics]: Downloading https://files.pythonhosted.org/packages/d1/48/63cfa492e91c19c869faebe4e00f9d747847692a56cffb3154cd9e2e41ef/a9x_webstatistics-0.1.9.tar.gz
+[2024-05-20 15:36:43] INFO root fetch - processPackages [spiderYdb]: executing diffoscope
+[2024-05-20 15:36:43] INFO root fetch - processPackages [spiderYdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderYdb-0.1.8-py3-none-any.whl.zip tmp/spiderYdb-0.1.9-py3-none-any.whl.zip --markdown 20240520/s/spiderYdb/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 15:36:43] INFO root fetch - processPackages [batchstats]: executing diffoscope
+[2024-05-20 15:36:43] INFO root fetch - processPackages [batchstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batchstats-0.3.tar.gz tmp/batchstats-0.3.1.tar.gz --markdown 20240520/b/batchstats/0.3-0.3.1/README.md --exclude *.pyd
+[2024-05-20 15:36:43] INFO root fetch - processPackages [aecdata]: executing diffoscope
+[2024-05-20 15:36:43] INFO root fetch - processPackages [aecdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aecdata-0.0.3.tar.gz tmp/aecdata-0.0.4.tar.gz --markdown 20240520/a/aecdata/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-20 15:36:43] INFO root fetch - processPackages [a9x-webstatistics]: executing diffoscope
+[2024-05-20 15:36:43] INFO root fetch - processPackages [a9x-webstatistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a9x_webstatistics-0.1.8.tar.gz tmp/a9x_webstatistics-0.1.9.tar.gz --markdown 20240520/a/a9x-webstatistics/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 15:36:43] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.1.9.tar.gz]
+[2024-05-20 15:36:43] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.2.tar.gz]
+[2024-05-20 15:36:43] INFO root fetch - main [MainThread]: End processing [speedtab]: success
+[2024-05-20 15:36:44] INFO root fetch - processPackages [makolator]: Remove: archive file [/home/abi/fetcher/tmp/makolator-2.5.0.tar.gz]
+[2024-05-20 15:36:44] INFO root fetch - processPackages [makolator]: Remove: archive file [/home/abi/fetcher/tmp/makolator-2.6.0.tar.gz]
+[2024-05-20 15:36:44] INFO root fetch - main [MainThread]: End processing [makolator]: success
+[2024-05-20 15:36:44] INFO root fetch - processPackages [spiderYdb]: Remove: archive file [/home/abi/fetcher/tmp/spiderYdb-0.1.8-py3-none-any.whl.zip]
+[2024-05-20 15:36:44] INFO root fetch - processPackages [spiderYdb]: Remove: archive file [/home/abi/fetcher/tmp/spiderYdb-0.1.9-py3-none-any.whl.zip]
+[2024-05-20 15:36:44] INFO root fetch - main [MainThread]: End processing [spiderYdb]: success
+[2024-05-20 15:36:44] INFO root fetch - processPackages [batchstats]: Remove: archive file [/home/abi/fetcher/tmp/batchstats-0.3.tar.gz]
+[2024-05-20 15:36:44] INFO root fetch - processPackages [batchstats]: Remove: archive file [/home/abi/fetcher/tmp/batchstats-0.3.1.tar.gz]
+[2024-05-20 15:36:44] INFO root fetch - main [MainThread]: End processing [batchstats]: success
+[2024-05-20 15:36:44] INFO root fetch - processPackages [aecdata]: Remove: archive file [/home/abi/fetcher/tmp/aecdata-0.0.3.tar.gz]
+[2024-05-20 15:36:44] INFO root fetch - processPackages [aecdata]: Remove: archive file [/home/abi/fetcher/tmp/aecdata-0.0.4.tar.gz]
+[2024-05-20 15:36:44] INFO root fetch - main [MainThread]: End processing [aecdata]: success
+[2024-05-20 15:36:44] INFO root fetch - processPackages [a9x-webstatistics]: Remove: archive file [/home/abi/fetcher/tmp/a9x_webstatistics-0.1.8.tar.gz]
+[2024-05-20 15:36:44] INFO root fetch - processPackages [a9x-webstatistics]: Remove: archive file [/home/abi/fetcher/tmp/a9x_webstatistics-0.1.9.tar.gz]
+[2024-05-20 15:36:44] INFO root fetch - main [MainThread]: End processing [a9x-webstatistics]: success
+[2024-05-20 15:36:44] INFO root fetch - main [MainThread]: Store serial: [23290387]

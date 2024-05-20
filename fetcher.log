@@ -19571,3 +19571,18 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:59:05] INFO root fetch - processPackages [tk-lint]: Remove: archive file [/home/abi/fetcher/tmp/tk_lint-0.1.1.tar.gz]
 [2024-05-20 15:59:05] INFO root fetch - main [MainThread]: End processing [tk-lint]: success
 [2024-05-20 15:59:05] INFO root fetch - main [MainThread]: Store serial: [23290759]
+[2024-05-20 16:01:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290759]
+[2024-05-20 16:01:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 16:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: freedownload
+[2024-05-20 16:01:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aeneusz
+[2024-05-20 16:01:16] INFO root fetch - processPackages [freedownload]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-20 16:01:16] WARNING root fetch - processPackages [aeneusz]: Skipping, unable to determine old version
+[2024-05-20 16:01:16] INFO root fetch - main [MainThread]: End processing [aeneusz] error
+[2024-05-20 16:01:16] INFO root fetch - processPackages [freedownload]: Downloading https://files.pythonhosted.org/packages/e3/2b/a38302f338fd3347cd14161a8069e76758bd6b08d6810f025e9caec1d721/freedownload-2.0.2.tar.gz
+[2024-05-20 16:01:17] INFO root fetch - processPackages [freedownload]: Downloading https://files.pythonhosted.org/packages/8a/b4/dd17d72062b7dd7b955061d967c11f98ed96c0a189698f832b441a334d76/freedownload-2.0.3.tar.gz
+[2024-05-20 16:01:17] INFO root fetch - processPackages [freedownload]: executing diffoscope
+[2024-05-20 16:01:17] INFO root fetch - processPackages [freedownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freedownload-2.0.2.tar.gz tmp/freedownload-2.0.3.tar.gz --markdown 20240520/f/freedownload/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-20 16:01:17] INFO root fetch - processPackages [freedownload]: Remove: archive file [/home/abi/fetcher/tmp/freedownload-2.0.2.tar.gz]
+[2024-05-20 16:01:17] INFO root fetch - processPackages [freedownload]: Remove: archive file [/home/abi/fetcher/tmp/freedownload-2.0.3.tar.gz]
+[2024-05-20 16:01:17] INFO root fetch - main [MainThread]: End processing [freedownload]: success
+[2024-05-20 16:01:17] INFO root fetch - main [MainThread]: Store serial: [23290767]

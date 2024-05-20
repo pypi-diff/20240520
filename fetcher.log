@@ -3723,3 +3723,27 @@
 [2024-05-20 03:01:28] INFO root fetch - processPackages [meteva]: Remove: archive file [/home/abi/fetcher/tmp/meteva-1.8.3.1.tar.gz]
 [2024-05-20 03:01:28] INFO root fetch - main [MainThread]: End processing [meteva]: success
 [2024-05-20 03:01:28] INFO root fetch - main [MainThread]: Store serial: [23283164]
+[2024-05-20 03:03:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283164]
+[2024-05-20 03:03:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 03:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fnschool
+[2024-05-20 03:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: characinidaez
+[2024-05-20 03:03:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yoto-api
+[2024-05-20 03:03:37] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-20 03:03:37] INFO root fetch - processPackages [fnschool]: New version: [20240519.81611.835] Old Version: [20240519.80822.833]
+[2024-05-20 03:03:37] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-20 03:03:37] WARNING root fetch - processPackages [characinidaez]: Skipping, unable to determine old version
+[2024-05-20 03:03:37] INFO root fetch - main [MainThread]: End processing [characinidaez] error
+[2024-05-20 03:03:37] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/ea/18/a92615bcb9e5ea8b1fff0330680a3821dc36f8c60fb44803cfc3dd9b593c/fnschool-20240519.80822.833.tar.gz
+[2024-05-20 03:03:37] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-20 03:03:37] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-20 03:03:37] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240520/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-20 03:03:37] INFO root fetch - processPackages [fnschool]: Downloading https://files.pythonhosted.org/packages/ad/ff/fdfa5d66a769f2c256cf1a03fc2de6fc31f64ecbd777786bb09be9e4b602/fnschool-20240519.81611.835.tar.gz
+[2024-05-20 03:03:37] INFO root fetch - processPackages [fnschool]: executing diffoscope
+[2024-05-20 03:03:37] INFO root fetch - processPackages [fnschool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnschool-20240519.80822.833.tar.gz tmp/fnschool-20240519.81611.835.tar.gz --markdown 20240520/f/fnschool/20240519.80822.833-20240519.81611.835/README.md --exclude *.pyd
+[2024-05-20 03:03:38] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-20 03:03:38] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-20 03:03:38] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-20 03:03:38] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240519.80822.833.tar.gz]
+[2024-05-20 03:03:38] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240519.81611.835.tar.gz]
+[2024-05-20 03:03:38] INFO root fetch - main [MainThread]: End processing [fnschool]: success
+[2024-05-20 03:03:38] INFO root fetch - main [MainThread]: Store serial: [23283174]

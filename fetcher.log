@@ -16336,3 +16336,78 @@ EOFError: EOF read where object expected
 [2024-05-20 14:11:54] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.9.tar.gz]
 [2024-05-20 14:11:54] INFO root fetch - main [MainThread]: End processing [jgtpy]: success
 [2024-05-20 14:11:54] INFO root fetch - main [MainThread]: Store serial: [23289290]
+[2024-05-20 14:13:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289290]
+[2024-05-20 14:14:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-20 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MainShortcuts
+[2024-05-20 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: surrogates_interface
+[2024-05-20 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: avelongez
+[2024-05-20 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s
+[2024-05-20 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imsciences
+[2024-05-20 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymodins
+[2024-05-20 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2024-05-20 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data-store-connector
+[2024-05-20 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flask-Captchaify
+[2024-05-20 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk8s
+[2024-05-20 14:14:04] WARNING root fetch - processPackages [data-store-connector]: Skipping, unable to determine old version
+[2024-05-20 14:14:04] INFO root fetch - main [MainThread]: End processing [data-store-connector] error
+[2024-05-20 14:14:04] INFO root fetch - processPackages [imsciences]: New version: [0.5.7.7] Old Version: [0.5.7.6]
+[2024-05-20 14:14:04] INFO root fetch - processPackages [pymodins]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 14:14:04] INFO root fetch - processPackages [cg]: New version: [60.7.9] Old Version: [60.7.8]
+[2024-05-20 14:14:04] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/93/ef/a33a759b33956e631167ed0cbb83b4aa21c4502f6a56a09756af24daf393/imsciences-0.5.7.6.tar.gz
+[2024-05-20 14:14:04] INFO root fetch - processPackages [MainShortcuts]: New version: [1.6.95] Old Version: [1.6.94]
+[2024-05-20 14:14:04] INFO root fetch - processPackages [surrogates_interface]: New version: [4.0.2] Old Version: [4.0.1]
+[2024-05-20 14:14:04] WARNING root fetch - processPackages [avelongez]: Skipping, unable to determine old version
+[2024-05-20 14:14:04] INFO root fetch - main [MainThread]: End processing [avelongez] error
+[2024-05-20 14:14:04] INFO root fetch - processPackages [flask-Captchaify]: New version: [1.6.9.5] Old Version: [1.6.9.4.1]
+[2024-05-20 14:14:04] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-20 14:14:04] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-20 14:14:04] INFO root fetch - processPackages [pymodins]: Downloading https://files.pythonhosted.org/packages/79/e5/fd54a1ee4b3913987bdf0db0c96dd85c8d897ed1892dc1bea967daa6fb84/pymodins-0.1.8.tar.gz
+[2024-05-20 14:14:04] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/44/4c/2c6765cf909b3cf89d94a9f9f15ebc4762df0f315a7e114363bf0635bf61/cg-60.7.8.tar.gz
+[2024-05-20 14:14:04] INFO root fetch - processPackages [MainShortcuts]: Downloading https://files.pythonhosted.org/packages/b5/d5/3744ca8a522ca158675ed7a9dbfce1cf96ddc31dca0dc08ecde3b4e8a60f/mainshortcuts-1.6.94.tar.gz
+[2024-05-20 14:14:04] INFO root fetch - processPackages [surrogates_interface]: Downloading https://files.pythonhosted.org/packages/01/34/efc94a7eecbe6cebb5ac2b282c8c8cf27e0f724eb30cf7fea7c56c57c8fd/surrogates_interface-4.0.1.tar.gz
+[2024-05-20 14:14:04] INFO root fetch - processPackages [flask-Captchaify]: Downloading https://files.pythonhosted.org/packages/ca/63/d08d9b329adc46ab42aaf08eb209cb987eeb207e681991c15a9ae71ef098/flask_captchaify-1.6.9.4.1.tar.gz
+[2024-05-20 14:14:04] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-05-20 14:14:04] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-05-20 14:14:04] WARNING root fetch - processPackages [flask-Captchaify]: Skipping package: exceeds size limit 43904194>=10485760
+[2024-05-20 14:14:04] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/e7/1c/18833515939f229a4b88d942e5bdc5943247c235ef607969521d039871bb/imsciences-0.5.7.7.tar.gz
+[2024-05-20 14:14:04] INFO root fetch - main [MainThread]: End processing [flask-Captchaify] error
+[2024-05-20 14:14:04] INFO root fetch - processPackages [pymodins]: Downloading https://files.pythonhosted.org/packages/94/b1/46b2672dc0032d63f199298f40c54b63d8804ad447b4b87213bac4b6711f/pymodins-0.1.9.tar.gz
+[2024-05-20 14:14:04] INFO root fetch - processPackages [MainShortcuts]: Downloading https://files.pythonhosted.org/packages/47/f2/8838214991f3fef021df3f26486080789140406b959d00c7b2215cd1986d/mainshortcuts-1.6.95.tar.gz
+[2024-05-20 14:14:04] INFO root fetch - processPackages [surrogates_interface]: Downloading https://files.pythonhosted.org/packages/3f/96/381057616d4a88d9a65de5735d97fde15ad094ec3c9787e11ebe68eddf5b/surrogates_interface-4.0.2.tar.gz
+[2024-05-20 14:14:04] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-20 14:14:04] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.7.6.tar.gz tmp/imsciences-0.5.7.7.tar.gz --markdown 20240520/i/imsciences/0.5.7.6-0.5.7.7/README.md --exclude *.pyd
+[2024-05-20 14:14:04] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/38/e3ff082487603f9b23877cfe7185b58a21cb7763a1d8c0ea38640ffb90ea/cg-60.7.9-py3-none-any.whl
+[2024-05-20 14:14:04] INFO root fetch - processPackages [pymodins]: executing diffoscope
+[2024-05-20 14:14:04] INFO root fetch - processPackages [pymodins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodins-0.1.8.tar.gz tmp/pymodins-0.1.9.tar.gz --markdown 20240520/p/pymodins/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 14:14:04] INFO root fetch - processPackages [MainShortcuts]: executing diffoscope
+[2024-05-20 14:14:04] INFO root fetch - processPackages [MainShortcuts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainshortcuts-1.6.94.tar.gz tmp/mainshortcuts-1.6.95.tar.gz --markdown 20240520/M/MainShortcuts/1.6.94-1.6.95/README.md --exclude *.pyd
+[2024-05-20 14:14:04] INFO root fetch - processPackages [surrogates_interface]: executing diffoscope
+[2024-05-20 14:14:04] INFO root fetch - processPackages [surrogates_interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surrogates_interface-4.0.1.tar.gz tmp/surrogates_interface-4.0.2.tar.gz --markdown 20240520/s/surrogates_interface/4.0.1-4.0.2/README.md --exclude *.pyd
+[2024-05-20 14:14:05] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-05-20 14:14:05] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-05-20 14:14:05] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-20 14:14:05] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.8.tar.gz tmp/cg-60.7.9-py3-none-any.whl.zip --markdown 20240520/c/cg/60.7.8-60.7.9/README.md --exclude *.pyd
+[2024-05-20 14:14:05] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-05-20 14:14:05] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240520/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-20 14:14:05] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-05-20 14:14:05] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240520/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-20 14:14:05] INFO root fetch - processPackages [surrogates_interface]: Remove: archive file [/home/abi/fetcher/tmp/surrogates_interface-4.0.1.tar.gz]
+[2024-05-20 14:14:05] INFO root fetch - processPackages [surrogates_interface]: Remove: archive file [/home/abi/fetcher/tmp/surrogates_interface-4.0.2.tar.gz]
+[2024-05-20 14:14:05] INFO root fetch - main [MainThread]: End processing [surrogates_interface]: success
+[2024-05-20 14:14:05] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.6.tar.gz]
+[2024-05-20 14:14:05] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.7.7.tar.gz]
+[2024-05-20 14:14:05] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-20 14:14:05] INFO root fetch - processPackages [pymodins]: Remove: archive file [/home/abi/fetcher/tmp/pymodins-0.1.8.tar.gz]
+[2024-05-20 14:14:05] INFO root fetch - processPackages [pymodins]: Remove: archive file [/home/abi/fetcher/tmp/pymodins-0.1.9.tar.gz]
+[2024-05-20 14:14:05] INFO root fetch - main [MainThread]: End processing [pymodins]: success
+[2024-05-20 14:14:05] INFO root fetch - processPackages [MainShortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.94.tar.gz]
+[2024-05-20 14:14:05] INFO root fetch - processPackages [MainShortcuts]: Remove: archive file [/home/abi/fetcher/tmp/mainshortcuts-1.6.95.tar.gz]
+[2024-05-20 14:14:05] INFO root fetch - main [MainThread]: End processing [MainShortcuts]: success
+[2024-05-20 14:14:05] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-05-20 14:14:05] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-05-20 14:14:05] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-05-20 14:14:05] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-05-20 14:14:06] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.8.tar.gz]
+[2024-05-20 14:14:06] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
+[2024-05-20 14:14:06] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-20 14:14:06] INFO root fetch - main [MainThread]: Store serial: [23289321]

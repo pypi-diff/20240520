@@ -6051,3 +6051,27 @@
 [2024-05-20 05:50:13] INFO root fetch - processPackages [llm-taxi]: Remove: archive file [/home/abi/fetcher/tmp/llm_taxi-0.3.1.tar.gz]
 [2024-05-20 05:50:13] INFO root fetch - main [MainThread]: End processing [llm-taxi]: success
 [2024-05-20 05:50:13] INFO root fetch - main [MainThread]: Store serial: [23284274]
+[2024-05-20 05:52:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284274]
+[2024-05-20 05:52:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 05:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mirabolic
+[2024-05-20 05:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: episternalz
+[2024-05-20 05:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aio-client
+[2024-05-20 05:52:22] WARNING root fetch - processPackages [episternalz]: Skipping, unable to determine old version
+[2024-05-20 05:52:22] INFO root fetch - processPackages [aio-client]: New version: [1.8.6] Old Version: [1.8.5]
+[2024-05-20 05:52:22] INFO root fetch - processPackages [mirabolic]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-05-20 05:52:22] INFO root fetch - main [MainThread]: End processing [episternalz] error
+[2024-05-20 05:52:22] INFO root fetch - processPackages [mirabolic]: Downloading https://files.pythonhosted.org/packages/2a/35/8770ae991376d72c3c0122b3c07c0e248fa2ee0180d22a5c6703a158cfe3/mirabolic-0.1.3.tar.gz
+[2024-05-20 05:52:22] INFO root fetch - processPackages [aio-client]: Downloading https://files.pythonhosted.org/packages/29/cb/491a5a9c69ef5935fbc89ee776e1e883d30e96847ea0d61ae14ea9204dbd/aio-client-1.8.5.tar.gz
+[2024-05-20 05:52:22] INFO root fetch - processPackages [aio-client]: Downloading https://files.pythonhosted.org/packages/73/70/9dd5f2c201a479f50fbbccfe0f5533472a2961cd45e3c54b1c583a966141/aio-client-1.8.6.tar.gz
+[2024-05-20 05:52:22] INFO root fetch - processPackages [mirabolic]: Downloading https://files.pythonhosted.org/packages/96/66/a898eb799abac6a202aa6bcf9bc4582e083b2f724fcdeaeea5d865529a4e/mirabolic-0.2.0.tar.gz
+[2024-05-20 05:52:22] INFO root fetch - processPackages [mirabolic]: executing diffoscope
+[2024-05-20 05:52:22] INFO root fetch - processPackages [mirabolic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirabolic-0.1.3.tar.gz tmp/mirabolic-0.2.0.tar.gz --markdown 20240520/m/mirabolic/0.1.3-0.2.0/README.md --exclude *.pyd
+[2024-05-20 05:52:22] INFO root fetch - processPackages [aio-client]: executing diffoscope
+[2024-05-20 05:52:22] INFO root fetch - processPackages [aio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio-client-1.8.5.tar.gz tmp/aio-client-1.8.6.tar.gz --markdown 20240520/a/aio-client/1.8.5-1.8.6/README.md --exclude *.pyd
+[2024-05-20 05:52:23] INFO root fetch - processPackages [mirabolic]: Remove: archive file [/home/abi/fetcher/tmp/mirabolic-0.1.3.tar.gz]
+[2024-05-20 05:52:23] INFO root fetch - processPackages [mirabolic]: Remove: archive file [/home/abi/fetcher/tmp/mirabolic-0.2.0.tar.gz]
+[2024-05-20 05:52:23] INFO root fetch - main [MainThread]: End processing [mirabolic]: success
+[2024-05-20 05:52:23] INFO root fetch - processPackages [aio-client]: Remove: archive file [/home/abi/fetcher/tmp/aio-client-1.8.5.tar.gz]
+[2024-05-20 05:52:23] INFO root fetch - processPackages [aio-client]: Remove: archive file [/home/abi/fetcher/tmp/aio-client-1.8.6.tar.gz]
+[2024-05-20 05:52:23] INFO root fetch - main [MainThread]: End processing [aio-client]: success
+[2024-05-20 05:52:23] INFO root fetch - main [MainThread]: Store serial: [23284284]

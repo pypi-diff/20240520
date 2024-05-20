@@ -10212,3 +10212,72 @@
 [2024-05-20 10:06:14] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240519.tar.gz]
 [2024-05-20 10:06:14] INFO root fetch - main [MainThread]: End processing [langfun]: success
 [2024-05-20 10:06:14] INFO root fetch - main [MainThread]: Store serial: [23286615]
+[2024-05-20 10:08:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286615]
+[2024-05-20 10:08:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 10:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imgori
+[2024-05-20 10:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mad-notifications
+[2024-05-20 10:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cbrython-execution
+[2024-05-20 10:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: infrahub
+[2024-05-20 10:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invisionz
+[2024-05-20 10:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simple-generation
+[2024-05-20 10:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hpp2plantuml
+[2024-05-20 10:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyglove
+[2024-05-20 10:08:23] INFO root fetch - processPackages [hpp2plantuml]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-20 10:08:23] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240519] Old Version: [0.4.5.dev20240518]
+[2024-05-20 10:08:23] INFO root fetch - processPackages [cbrython-execution]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-20 10:08:23] INFO root fetch - processPackages [imgori]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-20 10:08:23] INFO root fetch - processPackages [hpp2plantuml]: Downloading https://files.pythonhosted.org/packages/11/9e/215737dc411a9339ed4105e82b92461661774f324049398a190710c8ca2b/hpp2plantuml-0.8.3-py2.py3-none-any.whl
+[2024-05-20 10:08:23] INFO root fetch - processPackages [simple-generation]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-20 10:08:23] INFO root fetch - processPackages [infrahub]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-20 10:08:23] WARNING root fetch - processPackages [invisionz]: Skipping, unable to determine old version
+[2024-05-20 10:08:23] INFO root fetch - main [MainThread]: End processing [invisionz] error
+[2024-05-20 10:08:23] INFO root fetch - processPackages [mad-notifications]: New version: [2.2.0] Old Version: [2.1.2]
+[2024-05-20 10:08:23] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/6a/b6/8512d1b8627d3531644315c445d9513156e86093d257641101d41ae20607/pyglove-0.4.5.dev20240518.tar.gz
+[2024-05-20 10:08:23] INFO root fetch - processPackages [cbrython-execution]: Downloading https://files.pythonhosted.org/packages/ab/6e/16088a043175fe1975e897f63d349532df2c2c3dc21f9331a557ea98eca3/cbrython_execution-0.1.1.tar.gz
+[2024-05-20 10:08:23] INFO root fetch - processPackages [hpp2plantuml]: Downloading https://files.pythonhosted.org/packages/1e/a1/40ec006cd49ab0ba6772af29bbafbb807f278cac5328bb9d68dc4352f002/hpp2plantuml-0.8.4-py2.py3-none-any.whl
+[2024-05-20 10:08:23] INFO root fetch - processPackages [imgori]: Downloading https://files.pythonhosted.org/packages/6e/d1/c2a34f70c6d12918b4c497ea452e2f391820f68525d65f710cf3d262808f/imgori-0.2.9-py3-none-any.whl
+[2024-05-20 10:08:23] INFO root fetch - processPackages [infrahub]: Downloading https://files.pythonhosted.org/packages/29/33/68648aeed3757cb051c5dd92bbe3d2d081f0cb5ec9f235e02f6ac0631d27/infrahub-0.1.1.tar.gz
+[2024-05-20 10:08:23] INFO root fetch - processPackages [mad-notifications]: Downloading https://files.pythonhosted.org/packages/7a/2d/e4f56a7158b1437cf80b22f6089f186284bed07ca0fd076d72c89e21e259/mad_notifications-2.1.2.tar.gz
+[2024-05-20 10:08:23] INFO root fetch - processPackages [simple-generation]: Downloading https://files.pythonhosted.org/packages/ba/73/78c88b184576cc7b0d2964a4d8a47b1ac7daaa85f4ef29fb248506c3e1f1/simple_generation-0.4.2.tar.gz
+[2024-05-20 10:08:24] INFO root fetch - processPackages [hpp2plantuml]: executing diffoscope
+[2024-05-20 10:08:24] INFO root fetch - processPackages [hpp2plantuml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpp2plantuml-0.8.3-py2.py3-none-any.whl.zip tmp/hpp2plantuml-0.8.4-py2.py3-none-any.whl.zip --markdown 20240520/h/hpp2plantuml/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-20 10:08:24] INFO root fetch - processPackages [cbrython-execution]: Downloading https://files.pythonhosted.org/packages/40/a4/1cd2889a55d5cdc18806f2f0b34df50a262c7d71dee3df1dd6bd56ff2101/cbrython_execution-0.1.2.tar.gz
+[2024-05-20 10:08:24] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/26/b8/426a8074f4ef02aaff3c2d5300d4fd02400b739b73a67017882282fa6132/pyglove-0.4.5.dev20240519.tar.gz
+[2024-05-20 10:08:24] INFO root fetch - processPackages [infrahub]: Downloading https://files.pythonhosted.org/packages/82/20/a1371949273eaf646fb601aa3753e3a97b935153e63590fc024d95717c2a/infrahub-0.1.2.tar.gz
+[2024-05-20 10:08:24] INFO root fetch - processPackages [mad-notifications]: Downloading https://files.pythonhosted.org/packages/30/86/cd8b3bc57ad0af2b8cb2019918c62c749979aeebe787a015fa2d9d675a19/mad_notifications-2.2.0.tar.gz
+[2024-05-20 10:08:24] INFO root fetch - processPackages [imgori]: Downloading https://files.pythonhosted.org/packages/a1/73/a62484d6832ada7ecd80ba9be199922f27c597c0db3a6eb5aac6be3eb4ff/imgori-0.3.0-py3-none-any.whl
+[2024-05-20 10:08:24] INFO root fetch - processPackages [cbrython-execution]: executing diffoscope
+[2024-05-20 10:08:24] INFO root fetch - processPackages [cbrython-execution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbrython_execution-0.1.1.tar.gz tmp/cbrython_execution-0.1.2.tar.gz --markdown 20240520/c/cbrython-execution/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-20 10:08:24] INFO root fetch - processPackages [simple-generation]: Downloading https://files.pythonhosted.org/packages/30/6c/598436788a855dd3b6fc8d1794323d9580f2f2cedbee096c49299e260b98/simple_generation-0.4.3.tar.gz
+[2024-05-20 10:08:24] INFO root fetch - processPackages [infrahub]: executing diffoscope
+[2024-05-20 10:08:24] INFO root fetch - processPackages [infrahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrahub-0.1.1.tar.gz tmp/infrahub-0.1.2.tar.gz --markdown 20240520/i/infrahub/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-20 10:08:24] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-05-20 10:08:24] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240518.tar.gz tmp/pyglove-0.4.5.dev20240519.tar.gz --markdown 20240520/p/pyglove/0.4.5.dev20240518-0.4.5.dev20240519/README.md --exclude *.pyd
+[2024-05-20 10:08:24] INFO root fetch - processPackages [mad-notifications]: executing diffoscope
+[2024-05-20 10:08:24] INFO root fetch - processPackages [mad-notifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mad_notifications-2.1.2.tar.gz tmp/mad_notifications-2.2.0.tar.gz --markdown 20240520/m/mad-notifications/2.1.2-2.2.0/README.md --exclude *.pyd
+[2024-05-20 10:08:24] INFO root fetch - processPackages [imgori]: executing diffoscope
+[2024-05-20 10:08:24] INFO root fetch - processPackages [imgori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgori-0.2.9-py3-none-any.whl.zip tmp/imgori-0.3.0-py3-none-any.whl.zip --markdown 20240520/i/imgori/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-20 10:08:24] INFO root fetch - processPackages [simple-generation]: executing diffoscope
+[2024-05-20 10:08:24] INFO root fetch - processPackages [simple-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_generation-0.4.2.tar.gz tmp/simple_generation-0.4.3.tar.gz --markdown 20240520/s/simple-generation/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-20 10:08:24] INFO root fetch - processPackages [hpp2plantuml]: Remove: archive file [/home/abi/fetcher/tmp/hpp2plantuml-0.8.3-py2.py3-none-any.whl.zip]
+[2024-05-20 10:08:24] INFO root fetch - processPackages [hpp2plantuml]: Remove: archive file [/home/abi/fetcher/tmp/hpp2plantuml-0.8.4-py2.py3-none-any.whl.zip]
+[2024-05-20 10:08:24] INFO root fetch - main [MainThread]: End processing [hpp2plantuml]: success
+[2024-05-20 10:08:24] INFO root fetch - processPackages [cbrython-execution]: Remove: archive file [/home/abi/fetcher/tmp/cbrython_execution-0.1.1.tar.gz]
+[2024-05-20 10:08:24] INFO root fetch - processPackages [cbrython-execution]: Remove: archive file [/home/abi/fetcher/tmp/cbrython_execution-0.1.2.tar.gz]
+[2024-05-20 10:08:24] INFO root fetch - main [MainThread]: End processing [cbrython-execution]: success
+[2024-05-20 10:08:25] INFO root fetch - processPackages [infrahub]: Remove: archive file [/home/abi/fetcher/tmp/infrahub-0.1.1.tar.gz]
+[2024-05-20 10:08:25] INFO root fetch - processPackages [infrahub]: Remove: archive file [/home/abi/fetcher/tmp/infrahub-0.1.2.tar.gz]
+[2024-05-20 10:08:25] INFO root fetch - main [MainThread]: End processing [infrahub]: success
+[2024-05-20 10:08:25] INFO root fetch - processPackages [simple-generation]: Remove: archive file [/home/abi/fetcher/tmp/simple_generation-0.4.2.tar.gz]
+[2024-05-20 10:08:25] INFO root fetch - processPackages [simple-generation]: Remove: archive file [/home/abi/fetcher/tmp/simple_generation-0.4.3.tar.gz]
+[2024-05-20 10:08:25] INFO root fetch - main [MainThread]: End processing [simple-generation]: success
+[2024-05-20 10:08:25] INFO root fetch - processPackages [imgori]: Remove: archive file [/home/abi/fetcher/tmp/imgori-0.2.9-py3-none-any.whl.zip]
+[2024-05-20 10:08:25] INFO root fetch - processPackages [imgori]: Remove: archive file [/home/abi/fetcher/tmp/imgori-0.3.0-py3-none-any.whl.zip]
+[2024-05-20 10:08:25] INFO root fetch - main [MainThread]: End processing [imgori]: success
+[2024-05-20 10:08:25] INFO root fetch - processPackages [mad-notifications]: Remove: archive file [/home/abi/fetcher/tmp/mad_notifications-2.1.2.tar.gz]
+[2024-05-20 10:08:25] INFO root fetch - processPackages [mad-notifications]: Remove: archive file [/home/abi/fetcher/tmp/mad_notifications-2.2.0.tar.gz]
+[2024-05-20 10:08:25] INFO root fetch - main [MainThread]: End processing [mad-notifications]: success
+[2024-05-20 10:08:25] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240518.tar.gz]
+[2024-05-20 10:08:25] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240519.tar.gz]
+[2024-05-20 10:08:25] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-05-20 10:08:25] INFO root fetch - main [MainThread]: Store serial: [23286637]

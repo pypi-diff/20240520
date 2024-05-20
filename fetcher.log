@@ -11163,3 +11163,33 @@
 [2024-05-20 10:43:29] INFO root fetch - processPackages [pycaching]: Remove: archive file [/home/abi/fetcher/tmp/pycaching-4.4.2.tar.gz]
 [2024-05-20 10:43:29] INFO root fetch - main [MainThread]: End processing [pycaching]: success
 [2024-05-20 10:43:29] INFO root fetch - main [MainThread]: Store serial: [23287027]
+[2024-05-20 10:45:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287027]
+[2024-05-20 10:45:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 10:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmplib
+[2024-05-20 10:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-cpu
+[2024-05-20 10:45:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ambit-fe
+[2024-05-20 10:45:38] INFO root fetch - processPackages [cmplib]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-20 10:45:38] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240520] Old Version: [2.17.0.dev20240519]
+[2024-05-20 10:45:38] INFO root fetch - processPackages [ambit-fe]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-20 10:45:38] INFO root fetch - processPackages [cmplib]: Downloading https://files.pythonhosted.org/packages/54/99/514193fbd43853421c00bc2b09f3df013330cb978135adbb903c20985981/cmplib-1.0.0.tar.gz
+[2024-05-20 10:45:38] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/4e/64/ee4df5c5c2517f27c393204d6c02e4b648d70231b67d3ed016835451d601/tf_nightly_cpu-2.17.0.dev20240519-cp39-cp39-win_amd64.whl
+[2024-05-20 10:45:38] INFO root fetch - processPackages [ambit-fe]: Downloading https://files.pythonhosted.org/packages/0d/15/ad29923e4c018910fad198b394906f97dbd11591e0a5a7a5e123a4e4e27e/ambit_fe-1.2.6.tar.gz
+[2024-05-20 10:45:38] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/16/8b/0df183a20d411768f38ec1c34b6b6fc09403811fd9669af4c47010c3ca58/tf_nightly_cpu-2.17.0.dev20240520-cp39-cp39-win_amd64.whl
+[2024-05-20 10:45:38] INFO root fetch - processPackages [cmplib]: Downloading https://files.pythonhosted.org/packages/88/09/07a8bff4b1cba1155faac00009861ac23ed6500ee508ba1296c4c8ebb71a/cmplib-1.1.0.tar.gz
+[2024-05-20 10:45:38] INFO root fetch - processPackages [ambit-fe]: Downloading https://files.pythonhosted.org/packages/a2/9a/68c0dae69884db940a451d0a92fb6ce1a252e05dde76eddcbb5ff1522295/ambit_fe-1.2.7-py3-none-any.whl
+[2024-05-20 10:45:38] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-20 10:45:38] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240519-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240520-cp39-cp39-win_amd64.whl.zip --markdown 20240520/t/tf-nightly-cpu/2.17.0.dev20240519-2.17.0.dev20240520/README.md --exclude *.pyd
+[2024-05-20 10:45:38] INFO root fetch - processPackages [cmplib]: executing diffoscope
+[2024-05-20 10:45:38] INFO root fetch - processPackages [cmplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmplib-1.0.0.tar.gz tmp/cmplib-1.1.0.tar.gz --markdown 20240520/c/cmplib/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-20 10:45:39] INFO root fetch - processPackages [ambit-fe]: executing diffoscope
+[2024-05-20 10:45:39] INFO root fetch - processPackages [ambit-fe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambit_fe-1.2.6.tar.gz tmp/ambit_fe-1.2.7-py3-none-any.whl.zip --markdown 20240520/a/ambit-fe/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-20 10:45:39] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240519-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 10:45:39] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240520-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 10:45:39] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-20 10:45:39] INFO root fetch - processPackages [cmplib]: Remove: archive file [/home/abi/fetcher/tmp/cmplib-1.0.0.tar.gz]
+[2024-05-20 10:45:39] INFO root fetch - processPackages [cmplib]: Remove: archive file [/home/abi/fetcher/tmp/cmplib-1.1.0.tar.gz]
+[2024-05-20 10:45:39] INFO root fetch - main [MainThread]: End processing [cmplib]: success
+[2024-05-20 10:45:39] INFO root fetch - processPackages [ambit-fe]: Remove: archive file [/home/abi/fetcher/tmp/ambit_fe-1.2.6.tar.gz]
+[2024-05-20 10:45:39] INFO root fetch - processPackages [ambit-fe]: Remove: archive file [/home/abi/fetcher/tmp/ambit_fe-1.2.7-py3-none-any.whl.zip]
+[2024-05-20 10:45:39] INFO root fetch - main [MainThread]: End processing [ambit-fe]: success
+[2024-05-20 10:45:39] INFO root fetch - main [MainThread]: Store serial: [23287043]

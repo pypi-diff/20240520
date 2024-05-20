@@ -15097,3 +15097,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 13:17:12] INFO root fetch - processPackages [anydi]: Remove: archive file [/home/abi/fetcher/tmp/anydi-0.25.2.tar.gz]
 [2024-05-20 13:17:12] INFO root fetch - main [MainThread]: End processing [anydi]: success
 [2024-05-20 13:17:12] INFO root fetch - main [MainThread]: Store serial: [23288629]
+[2024-05-20 13:19:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288629]
+[2024-05-20 13:19:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 13:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastmqtt
+[2024-05-20 13:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bvg-python
+[2024-05-20 13:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HomeDirectory
+[2024-05-20 13:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: knvheatpumplib
+[2024-05-20 13:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: IconMatch
+[2024-05-20 13:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: database-mysql-local
+[2024-05-20 13:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkdocs-table-reader-plugin
+[2024-05-20 13:19:21] WARNING root fetch - processPackages [bvg-python]: Skipping, unable to determine old version
+[2024-05-20 13:19:21] INFO root fetch - main [MainThread]: End processing [bvg-python] error
+[2024-05-20 13:19:21] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.307] Old Version: [0.0.306]
+[2024-05-20 13:19:21] INFO root fetch - processPackages [knvheatpumplib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 13:19:21] WARNING root fetch - processPackages [IconMatch]: Skipping, unable to determine old version
+[2024-05-20 13:19:21] INFO root fetch - main [MainThread]: End processing [IconMatch] error
+[2024-05-20 13:19:21] INFO root fetch - processPackages [knvheatpumplib]: Downloading https://files.pythonhosted.org/packages/c6/48/c9fc64c1c822fd5e9196aa507584cd386c5e88facb7acf69558dbca78078/knvheatpumplib-0.0.8.tar.gz
+[2024-05-20 13:19:21] WARNING root fetch - processPackages [HomeDirectory]: Skipping, unable to determine old version
+[2024-05-20 13:19:21] INFO root fetch - main [MainThread]: End processing [HomeDirectory] error
+[2024-05-20 13:19:21] INFO root fetch - processPackages [fastmqtt]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-20 13:19:21] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/e5/1d/87c7548e666143cf517e40a5a86ab8f724538c7de0714063821d4a280aea/database_mysql_local-0.0.306.tar.gz
+[2024-05-20 13:19:21] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-20 13:19:22] INFO root fetch - processPackages [fastmqtt]: Downloading https://files.pythonhosted.org/packages/04/7a/3c68f12a13e6c51b2424d16077fca5b2336e7709213e44b703bde3e92866/fastmqtt-0.1.4.tar.gz
+[2024-05-20 13:19:22] INFO root fetch - processPackages [knvheatpumplib]: Downloading https://files.pythonhosted.org/packages/74/24/7eec549c15c7a44c0467b594131a2d0c01eca918ac7848cff39d8862c99b/knvheatpumplib-0.0.9.tar.gz
+[2024-05-20 13:19:22] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: Downloading https://files.pythonhosted.org/packages/2e/7f/d88dc4313c0abc3d9168d6018c830737bf08693ce45f87ab20a7ee799cb9/mkdocs_table_reader_plugin-2.2.1.tar.gz
+[2024-05-20 13:19:22] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/6d/d5/6d6564f441872105f53e09c7a1eb181e1528d8dcfa21fdad00689ea159f7/database_mysql_local-0.0.307.tar.gz
+[2024-05-20 13:19:22] INFO root fetch - processPackages [knvheatpumplib]: executing diffoscope
+[2024-05-20 13:19:22] INFO root fetch - processPackages [knvheatpumplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knvheatpumplib-0.0.8.tar.gz tmp/knvheatpumplib-0.0.9.tar.gz --markdown 20240520/k/knvheatpumplib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 13:19:22] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-20 13:19:22] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.306.tar.gz tmp/database_mysql_local-0.0.307.tar.gz --markdown 20240520/d/database-mysql-local/0.0.306-0.0.307/README.md --exclude *.pyd
+[2024-05-20 13:19:22] INFO root fetch - processPackages [fastmqtt]: Downloading https://files.pythonhosted.org/packages/cf/e0/b7c8bf29dddaf12a5d3b163b0b76dfba0662eb52ab095f1fa500e9472822/fastmqtt-0.1.5.tar.gz
+[2024-05-20 13:19:22] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: Downloading https://files.pythonhosted.org/packages/8a/4a/3aa751547c4332370f93ec0041c68f9c91f26084288cb60f8001e2187922/mkdocs_table_reader_plugin-2.2.2.tar.gz
+[2024-05-20 13:19:22] INFO root fetch - processPackages [fastmqtt]: executing diffoscope
+[2024-05-20 13:19:22] INFO root fetch - processPackages [fastmqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmqtt-0.1.4.tar.gz tmp/fastmqtt-0.1.5.tar.gz --markdown 20240520/f/fastmqtt/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-20 13:19:22] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: executing diffoscope
+[2024-05-20 13:19:22] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_table_reader_plugin-2.2.1.tar.gz tmp/mkdocs_table_reader_plugin-2.2.2.tar.gz --markdown 20240520/m/mkdocs-table-reader-plugin/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-20 13:19:22] INFO root fetch - processPackages [knvheatpumplib]: Remove: archive file [/home/abi/fetcher/tmp/knvheatpumplib-0.0.8.tar.gz]
+[2024-05-20 13:19:22] INFO root fetch - processPackages [knvheatpumplib]: Remove: archive file [/home/abi/fetcher/tmp/knvheatpumplib-0.0.9.tar.gz]
+[2024-05-20 13:19:22] INFO root fetch - main [MainThread]: End processing [knvheatpumplib]: success
+[2024-05-20 13:19:23] INFO root fetch - processPackages [fastmqtt]: Remove: archive file [/home/abi/fetcher/tmp/fastmqtt-0.1.4.tar.gz]
+[2024-05-20 13:19:23] INFO root fetch - processPackages [fastmqtt]: Remove: archive file [/home/abi/fetcher/tmp/fastmqtt-0.1.5.tar.gz]
+[2024-05-20 13:19:23] INFO root fetch - main [MainThread]: End processing [fastmqtt]: success
+[2024-05-20 13:19:23] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.306.tar.gz]
+[2024-05-20 13:19:23] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.307.tar.gz]
+[2024-05-20 13:19:23] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-20 13:19:23] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_table_reader_plugin-2.2.1.tar.gz]
+[2024-05-20 13:19:23] INFO root fetch - processPackages [mkdocs-table-reader-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_table_reader_plugin-2.2.2.tar.gz]
+[2024-05-20 13:19:23] INFO root fetch - main [MainThread]: End processing [mkdocs-table-reader-plugin]: success
+[2024-05-20 13:19:23] INFO root fetch - main [MainThread]: Store serial: [23288650]

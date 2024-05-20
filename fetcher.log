@@ -8217,3 +8217,45 @@
 [2024-05-20 08:23:08] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.9.9.tar.gz]
 [2024-05-20 08:23:08] INFO root fetch - main [MainThread]: End processing [cogflow]: success
 [2024-05-20 08:23:08] INFO root fetch - main [MainThread]: Store serial: [23285414]
+[2024-05-20 08:25:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285414]
+[2024-05-20 08:25:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 08:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protein-turnover-website
+[2024-05-20 08:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: why-tools
+[2024-05-20 08:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appellationsz
+[2024-05-20 08:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LINEBOOP
+[2024-05-20 08:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchsense
+[2024-05-20 08:25:17] INFO root fetch - processPackages [why-tools]: New version: [0.0.2b9] Old Version: [0.0.2b8]
+[2024-05-20 08:25:17] INFO root fetch - processPackages [LINEBOOP]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 08:25:17] WARNING root fetch - processPackages [appellationsz]: Skipping, unable to determine old version
+[2024-05-20 08:25:17] INFO root fetch - main [MainThread]: End processing [appellationsz] error
+[2024-05-20 08:25:17] INFO root fetch - processPackages [protein-turnover-website]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-20 08:25:17] INFO root fetch - processPackages [torchsense]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-20 08:25:17] INFO root fetch - processPackages [why-tools]: Downloading https://files.pythonhosted.org/packages/26/41/0a4c14de71ef08daa69fb8efe27b5d0a1bae4b5bd2be13cbb8dbd71c1b44/why-tools-0.0.2b8.tar.gz
+[2024-05-20 08:25:17] INFO root fetch - processPackages [protein-turnover-website]: Downloading https://files.pythonhosted.org/packages/fb/2e/44df293ae2792c3fecba1e40cafff27cd73edb183d88db214ccebe997352/protein_turnover_website-0.4.0.tar.gz
+[2024-05-20 08:25:17] INFO root fetch - processPackages [LINEBOOP]: Downloading https://files.pythonhosted.org/packages/45/a8/e8274daa780bd7cfc0c64f56d7c16bd2b9152900a5a8172744d7dbf2e10e/LINEBOOP-1.0.2.tar.gz
+[2024-05-20 08:25:17] INFO root fetch - processPackages [torchsense]: Downloading https://files.pythonhosted.org/packages/88/57/e7fb35704c858b251cc421606696541f641c38da94db08d3bfd7cf4606dc/torchsense-0.0.7.tar.gz
+[2024-05-20 08:25:17] INFO root fetch - processPackages [why-tools]: Downloading https://files.pythonhosted.org/packages/7e/90/f8c3b43451c5bdbcb89f4973d10d742000829e74fc2f754dedede3c1bf43/why-tools-0.0.2b9.tar.gz
+[2024-05-20 08:25:17] INFO root fetch - processPackages [protein-turnover-website]: Downloading https://files.pythonhosted.org/packages/22/d0/b21797e304ad327f5430bc3c3e19b31f6e68a5a28fab7985163eb429b5aa/protein_turnover_website-0.4.1.tar.gz
+[2024-05-20 08:25:17] INFO root fetch - processPackages [why-tools]: executing diffoscope
+[2024-05-20 08:25:17] INFO root fetch - processPackages [why-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/why-tools-0.0.2b8.tar.gz tmp/why-tools-0.0.2b9.tar.gz --markdown 20240520/w/why-tools/0.0.2b8-0.0.2b9/README.md --exclude *.pyd
+[2024-05-20 08:25:17] INFO root fetch - processPackages [LINEBOOP]: Downloading https://files.pythonhosted.org/packages/a8/34/062ce4225b512616bec069d0e5bd7b96bd9295c7033589c6029dd53d2d3d/LINEBOOP-1.0.3.tar.gz
+[2024-05-20 08:25:18] INFO root fetch - processPackages [protein-turnover-website]: executing diffoscope
+[2024-05-20 08:25:18] INFO root fetch - processPackages [protein-turnover-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_turnover_website-0.4.0.tar.gz tmp/protein_turnover_website-0.4.1.tar.gz --markdown 20240520/p/protein-turnover-website/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-20 08:25:18] INFO root fetch - processPackages [LINEBOOP]: executing diffoscope
+[2024-05-20 08:25:18] INFO root fetch - processPackages [LINEBOOP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LINEBOOP-1.0.2.tar.gz tmp/LINEBOOP-1.0.3.tar.gz --markdown 20240520/L/LINEBOOP/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 08:25:18] INFO root fetch - processPackages [torchsense]: Downloading https://files.pythonhosted.org/packages/49/93/ed78d29908fe0d6d49e458727d953d1ff1061782e768499477a2b5de0893/torchsense-0.0.8-py3-none-any.whl
+[2024-05-20 08:25:18] INFO root fetch - processPackages [why-tools]: Remove: archive file [/home/abi/fetcher/tmp/why-tools-0.0.2b8.tar.gz]
+[2024-05-20 08:25:18] INFO root fetch - processPackages [why-tools]: Remove: archive file [/home/abi/fetcher/tmp/why-tools-0.0.2b9.tar.gz]
+[2024-05-20 08:25:18] INFO root fetch - main [MainThread]: End processing [why-tools]: success
+[2024-05-20 08:25:18] INFO root fetch - processPackages [protein-turnover-website]: Remove: archive file [/home/abi/fetcher/tmp/protein_turnover_website-0.4.0.tar.gz]
+[2024-05-20 08:25:18] INFO root fetch - processPackages [protein-turnover-website]: Remove: archive file [/home/abi/fetcher/tmp/protein_turnover_website-0.4.1.tar.gz]
+[2024-05-20 08:25:18] INFO root fetch - main [MainThread]: End processing [protein-turnover-website]: success
+[2024-05-20 08:25:19] INFO root fetch - processPackages [LINEBOOP]: Remove: archive file [/home/abi/fetcher/tmp/LINEBOOP-1.0.2.tar.gz]
+[2024-05-20 08:25:19] INFO root fetch - processPackages [LINEBOOP]: Remove: archive file [/home/abi/fetcher/tmp/LINEBOOP-1.0.3.tar.gz]
+[2024-05-20 08:25:19] INFO root fetch - main [MainThread]: End processing [LINEBOOP]: success
+[2024-05-20 08:25:19] INFO root fetch - processPackages [torchsense]: executing diffoscope
+[2024-05-20 08:25:19] INFO root fetch - processPackages [torchsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchsense-0.0.7.tar.gz tmp/torchsense-0.0.8-py3-none-any.whl.zip --markdown 20240520/t/torchsense/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-20 08:25:19] INFO root fetch - processPackages [torchsense]: Remove: archive file [/home/abi/fetcher/tmp/torchsense-0.0.7.tar.gz]
+[2024-05-20 08:25:19] INFO root fetch - processPackages [torchsense]: Remove: archive file [/home/abi/fetcher/tmp/torchsense-0.0.8-py3-none-any.whl.zip]
+[2024-05-20 08:25:19] INFO root fetch - main [MainThread]: End processing [torchsense]: success
+[2024-05-20 08:25:19] INFO root fetch - main [MainThread]: Store serial: [23285429]

@@ -13063,3 +13063,69 @@
 [2024-05-20 11:56:39] INFO root fetch - processPackages [gm]: Remove: archive file [/home/abi/fetcher/tmp/gm-3.0.166-cp39-cp39-win_amd64.whl.zip]
 [2024-05-20 11:56:39] INFO root fetch - main [MainThread]: End processing [gm]: success
 [2024-05-20 11:56:39] INFO root fetch - main [MainThread]: Store serial: [23287814]
+[2024-05-20 11:58:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287814]
+[2024-05-20 11:58:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 11:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fireducks
+[2024-05-20 11:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xrpld-netgen
+[2024-05-20 11:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Geode-Conversion
+[2024-05-20 11:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: firefw
+[2024-05-20 11:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2024-05-20 11:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codedepot-git-ai
+[2024-05-20 11:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sais-notify-test
+[2024-05-20 11:58:59] INFO root fetch - processPackages [sais-notify-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 11:58:59] INFO root fetch - processPackages [firefw]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-20 11:58:59] INFO root fetch - processPackages [fireducks]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-20 11:58:59] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/94/42/07c0e25844ffdc6494e7447658dc084d6435c7343816264387d435ddb98d/sais_notify_test-0.0.8.tar.gz
+[2024-05-20 11:58:59] INFO root fetch - processPackages [Geode-Conversion]: New version: [5.2.9rc1] Old Version: [5.2.8rc1]
+[2024-05-20 11:58:59] INFO root fetch - processPackages [codedepot-git-ai]: New version: [0.1.0] Old Version: [0.0.25]
+[2024-05-20 11:58:59] INFO root fetch - processPackages [xrpld-netgen]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-20 11:58:59] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240520095553] Old Version: [3.4.1.dev20240517161438]
+[2024-05-20 11:59:00] INFO root fetch - processPackages [fireducks]: Downloading https://files.pythonhosted.org/packages/78/0f/a290b2d62d096a4ab73149c01539d5df72bfbc19489f06fb7b655ca43850/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-05-20 11:59:00] INFO root fetch - processPackages [firefw]: Downloading https://files.pythonhosted.org/packages/f9/48/d01a2249d8e2c6f24d4bfcc92d3d861c0612b9cd68284190260c62212aca/firefw-0.9.7-py3-none-any.whl
+[2024-05-20 11:59:00] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/af/7a/ac17f0daa7ab738fe2f5e638d62f2cb8c0c1f86f8cadd5913ea740c174aa/sais_notify_test-0.0.9.tar.gz
+[2024-05-20 11:59:00] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/ab/f0/759a4b7905a382ec77dd8a2e9ddae0eb725b7e56cff54f74a8acf4e9c015/Geode_Conversion-5.2.8rc1-cp39-cp39-win_amd64.whl
+[2024-05-20 11:59:00] INFO root fetch - processPackages [xrpld-netgen]: Downloading https://files.pythonhosted.org/packages/09/50/d6a001646ac586b3d8bfd43f9e5aecb69ee7717cadadb9dabbb5e15ab0dc/xrpld_netgen-1.8.0.tar.gz
+[2024-05-20 11:59:00] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/23/9e/7811c6c6a2f7dbb4f8cebabf66c491b531a050f4f8bdd8f7984d90562de0/localstack_core-3.4.1.dev20240517161438.tar.gz
+[2024-05-20 11:59:00] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/2b/a0/4d3fd6889ea7f9c018c1653900d63f2c9b7a79a2bd46210839676c227552/codedepot_git_ai-0.0.25.tar.gz
+[2024-05-20 11:59:00] INFO root fetch - processPackages [sais-notify-test]: executing diffoscope
+[2024-05-20 11:59:00] INFO root fetch - processPackages [sais-notify-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify_test-0.0.8.tar.gz tmp/sais_notify_test-0.0.9.tar.gz --markdown 20240520/s/sais-notify-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 11:59:00] INFO root fetch - processPackages [firefw]: Downloading https://files.pythonhosted.org/packages/00/25/db8bd3c578ec6621a079f24b4b88efc3bc29f92bed8453db00cb5ea05799/firefw-0.9.8-py3-none-any.whl
+[2024-05-20 11:59:00] INFO root fetch - processPackages [firefw]: executing diffoscope
+[2024-05-20 11:59:00] INFO root fetch - processPackages [firefw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firefw-0.9.7-py3-none-any.whl.zip tmp/firefw-0.9.8-py3-none-any.whl.zip --markdown 20240520/f/firefw/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-20 11:59:00] INFO root fetch - processPackages [xrpld-netgen]: Downloading https://files.pythonhosted.org/packages/c0/c8/e94661f027d5aa127f13ec42bdaac82ed44929fd7306cf429b42cb3ab14a/xrpld_netgen-1.9.0.tar.gz
+[2024-05-20 11:59:00] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/ea/87/7da8bbe5295befd07ad10da75c685ddbdc9e7c982e66a2895c2f4f47b466/localstack_core-3.4.1.dev20240520095553.tar.gz
+[2024-05-20 11:59:00] INFO root fetch - processPackages [codedepot-git-ai]: Downloading https://files.pythonhosted.org/packages/54/3b/8a751cc4e4ce212ac4d3970efdf4fb31f10378b23bbea82a48541d993166/codedepot_git_ai-0.1.0.tar.gz
+[2024-05-20 11:59:00] INFO root fetch - processPackages [Geode-Conversion]: Downloading https://files.pythonhosted.org/packages/03/46/e812ca34f8bc99c989c94842945c5ed26be09b12e18cacd8f453cff00f85/Geode_Conversion-5.2.9rc1-cp39-cp39-win_amd64.whl
+[2024-05-20 11:59:00] INFO root fetch - processPackages [codedepot-git-ai]: executing diffoscope
+[2024-05-20 11:59:00] INFO root fetch - processPackages [codedepot-git-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_git_ai-0.0.25.tar.gz tmp/codedepot_git_ai-0.1.0.tar.gz --markdown 20240520/c/codedepot-git-ai/0.0.25-0.1.0/README.md --exclude *.pyd
+[2024-05-20 11:59:00] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.8.tar.gz]
+[2024-05-20 11:59:00] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.9.tar.gz]
+[2024-05-20 11:59:00] INFO root fetch - main [MainThread]: End processing [sais-notify-test]: success
+[2024-05-20 11:59:01] INFO root fetch - processPackages [xrpld-netgen]: executing diffoscope
+[2024-05-20 11:59:01] INFO root fetch - processPackages [xrpld-netgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xrpld_netgen-1.8.0.tar.gz tmp/xrpld_netgen-1.9.0.tar.gz --markdown 20240520/x/xrpld-netgen/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-20 11:59:01] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-20 11:59:01] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240517161438.tar.gz tmp/localstack_core-3.4.1.dev20240520095553.tar.gz --markdown 20240520/l/localstack-core/3.4.1.dev20240517161438-3.4.1.dev20240520095553/README.md --exclude *.pyd
+[2024-05-20 11:59:01] INFO root fetch - processPackages [Geode-Conversion]: executing diffoscope
+[2024-05-20 11:59:01] INFO root fetch - processPackages [Geode-Conversion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Conversion-5.2.8rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Conversion-5.2.9rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240520/G/Geode-Conversion/5.2.8rc1-5.2.9rc1/README.md --exclude *.pyd
+[2024-05-20 11:59:01] INFO root fetch - processPackages [firefw]: Remove: archive file [/home/abi/fetcher/tmp/firefw-0.9.7-py3-none-any.whl.zip]
+[2024-05-20 11:59:01] INFO root fetch - processPackages [firefw]: Remove: archive file [/home/abi/fetcher/tmp/firefw-0.9.8-py3-none-any.whl.zip]
+[2024-05-20 11:59:01] INFO root fetch - main [MainThread]: End processing [firefw]: success
+[2024-05-20 11:59:01] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.0.25.tar.gz]
+[2024-05-20 11:59:01] INFO root fetch - processPackages [codedepot-git-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_git_ai-0.1.0.tar.gz]
+[2024-05-20 11:59:01] INFO root fetch - main [MainThread]: End processing [codedepot-git-ai]: success
+[2024-05-20 11:59:01] INFO root fetch - processPackages [xrpld-netgen]: Remove: archive file [/home/abi/fetcher/tmp/xrpld_netgen-1.8.0.tar.gz]
+[2024-05-20 11:59:01] INFO root fetch - processPackages [xrpld-netgen]: Remove: archive file [/home/abi/fetcher/tmp/xrpld_netgen-1.9.0.tar.gz]
+[2024-05-20 11:59:01] INFO root fetch - main [MainThread]: End processing [xrpld-netgen]: success
+[2024-05-20 11:59:01] INFO root fetch - processPackages [fireducks]: Downloading https://files.pythonhosted.org/packages/4e/b6/63f73d339120931c81ab9c435df1d08feaef965848223c3d32c513accc54/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-05-20 11:59:02] INFO root fetch - processPackages [fireducks]: executing diffoscope
+[2024-05-20 11:59:02] INFO root fetch - processPackages [fireducks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20240520/f/fireducks/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-20 11:59:05] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240517161438.tar.gz]
+[2024-05-20 11:59:05] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240520095553.tar.gz]
+[2024-05-20 11:59:05] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-20 11:59:15] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.2.8rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 11:59:15] INFO root fetch - processPackages [Geode-Conversion]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Conversion-5.2.9rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 11:59:15] INFO root fetch - main [MainThread]: End processing [Geode-Conversion]: success
+[2024-05-20 12:00:43] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-05-20 12:00:43] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-05-20 12:00:43] INFO root fetch - main [MainThread]: End processing [fireducks]: success
+[2024-05-20 12:00:43] INFO root fetch - main [MainThread]: Store serial: [23287846]

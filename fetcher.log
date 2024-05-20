@@ -4865,3 +4865,34 @@
 [2024-05-20 04:18:36] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.5.4.tar.gz]
 [2024-05-20 04:18:36] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
 [2024-05-20 04:18:36] INFO root fetch - main [MainThread]: Store serial: [23283724]
+[2024-05-20 04:20:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283724]
+[2024-05-20 04:20:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 04:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinfulz
+[2024-05-20 04:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langflow-base
+[2024-05-20 04:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sop-deutils
+[2024-05-20 04:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sop-deutils
+[2024-05-20 04:20:44] INFO root fetch - processPackages [sop-deutils]: New version: [1.0.0.dev0] Old Version: [0.9.9]
+[2024-05-20 04:20:44] INFO root fetch - processPackages [sop-deutils]: New version: [1.0.0.dev0] Old Version: [0.9.9]
+[2024-05-20 04:20:44] INFO root fetch - processPackages [sop-deutils]: Downloading https://files.pythonhosted.org/packages/72/95/95da46c4d54440e29e58711f950067fb490f12e5d5cd23f645102a47e372/sop_deutils-0.9.9.tar.gz
+[2024-05-20 04:20:44] INFO root fetch - processPackages [langflow-base]: New version: [0.0.45] Old Version: [0.0.44]
+[2024-05-20 04:20:44] WARNING root fetch - processPackages [tinfulz]: Skipping, unable to determine old version
+[2024-05-20 04:20:44] INFO root fetch - main [MainThread]: End processing [tinfulz] error
+[2024-05-20 04:20:44] INFO root fetch - processPackages [sop-deutils]: Downloading https://files.pythonhosted.org/packages/72/95/95da46c4d54440e29e58711f950067fb490f12e5d5cd23f645102a47e372/sop_deutils-0.9.9.tar.gz
+[2024-05-20 04:20:44] INFO root fetch - processPackages [langflow-base]: Downloading https://files.pythonhosted.org/packages/89/0b/14956124a2f8c7d79866bb1e695ad0b670fd0b7755dbde180016b9a75a37/langflow_base-0.0.44.tar.gz
+[2024-05-20 04:20:44] INFO root fetch - processPackages [sop-deutils]: Downloading https://files.pythonhosted.org/packages/1e/7d/a24d6106d3208e983bd72200daaa4953eec16b81e21b6442f20fbedff845/sop_deutils-1.0.0.dev0.tar.gz
+[2024-05-20 04:20:44] INFO root fetch - processPackages [sop-deutils]: Downloading https://files.pythonhosted.org/packages/1e/7d/a24d6106d3208e983bd72200daaa4953eec16b81e21b6442f20fbedff845/sop_deutils-1.0.0.dev0.tar.gz
+[2024-05-20 04:20:45] INFO root fetch - processPackages [sop-deutils]: executing diffoscope
+[2024-05-20 04:20:45] INFO root fetch - processPackages [sop-deutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sop_deutils-0.9.9.tar.gz tmp/sop_deutils-1.0.0.dev0.tar.gz --markdown 20240520/s/sop-deutils/0.9.9-1.0.0.dev0/README.md --exclude *.pyd
+[2024-05-20 04:20:45] INFO root fetch - processPackages [sop-deutils]: executing diffoscope
+[2024-05-20 04:20:45] INFO root fetch - processPackages [sop-deutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sop_deutils-0.9.9.tar.gz tmp/sop_deutils-1.0.0.dev0.tar.gz --markdown 20240520/s/sop-deutils/0.9.9-1.0.0.dev0/README.md --exclude *.pyd
+[2024-05-20 04:20:45] INFO root fetch - processPackages [langflow-base]: Downloading https://files.pythonhosted.org/packages/04/35/110898d577c24e921eb28cc0cd872b994285f24ec3562bc2541bb224f108/langflow_base-0.0.45.tar.gz
+[2024-05-20 04:20:45] INFO root fetch - processPackages [langflow-base]: executing diffoscope
+[2024-05-20 04:20:45] INFO root fetch - processPackages [langflow-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow_base-0.0.44.tar.gz tmp/langflow_base-0.0.45.tar.gz --markdown 20240520/l/langflow-base/0.0.44-0.0.45/README.md --exclude *.pyd
+[2024-05-20 04:20:45] INFO root fetch - processPackages [sop-deutils]: Remove: archive file [/home/abi/fetcher/tmp/sop_deutils-0.9.9.tar.gz]
+[2024-05-20 04:20:45] INFO root fetch - processPackages [sop-deutils]: Remove: archive file [/home/abi/fetcher/tmp/sop_deutils-1.0.0.dev0.tar.gz]
+[2024-05-20 04:20:45] INFO root fetch - main [MainThread]: End processing [sop-deutils]: success
+[2024-05-20 04:20:45] INFO root fetch - main [MainThread]: End processing [sop-deutils]: success
+[2024-05-20 04:22:36] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.44.tar.gz]
+[2024-05-20 04:22:36] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.45.tar.gz]
+[2024-05-20 04:22:36] INFO root fetch - main [MainThread]: End processing [langflow-base]: success
+[2024-05-20 04:22:36] INFO root fetch - main [MainThread]: Store serial: [23283737]

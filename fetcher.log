@@ -20656,3 +20656,69 @@ EOFError: EOF read where object expected
 [2024-05-20 16:37:15] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
 [2024-05-20 16:37:15] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2024-05-20 16:37:15] INFO root fetch - main [MainThread]: Store serial: [23291194]
+[2024-05-20 16:39:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291194]
+[2024-05-20 16:39:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 16:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gen-wrappers
+[2024-05-20 16:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agenta
+[2024-05-20 16:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hahomematic
+[2024-05-20 16:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fsrs
+[2024-05-20 16:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: func2stream
+[2024-05-20 16:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codefly-cli
+[2024-05-20 16:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: comun-va
+[2024-05-20 16:39:24] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-05-20 16:39:24] INFO root fetch - processPackages [func2stream]: New version: [0.0.1.dev2405201431] Old Version: [0.0.1.dev2405191630]
+[2024-05-20 16:39:24] INFO root fetch - processPackages [gen-wrappers]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-20 16:39:24] INFO root fetch - processPackages [codefly-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 16:39:24] INFO root fetch - processPackages [func2stream]: Downloading https://files.pythonhosted.org/packages/7a/68/75916a782af41dddadb829ecf89ca75b65487714016239690c9e1df3b9cc/func2stream-0.0.1.dev2405191630.tar.gz
+[2024-05-20 16:39:24] INFO root fetch - processPackages [fsrs]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-20 16:39:24] INFO root fetch - processPackages [comun-va]: New version: [3.7] Old Version: [3.6]
+[2024-05-20 16:39:24] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-05-20 16:39:24] INFO root fetch - processPackages [gen-wrappers]: Downloading https://files.pythonhosted.org/packages/da/d2/cea6eb359ae796407af265388a7c76b05bef5c9351f6a64fb2a47e1928c8/gen_wrappers-0.3.9.tar.gz
+[2024-05-20 16:39:24] INFO root fetch - processPackages [hahomematic]: New version: [2024.5.3] Old Version: [2024.5.2]
+[2024-05-20 16:39:24] INFO root fetch - processPackages [codefly-cli]: Downloading https://files.pythonhosted.org/packages/36/88/a4cdf056e806da138740bfcf679d267a5d255895be921b4c96a398cbf957/codefly_cli-0.0.8.tar.gz
+[2024-05-20 16:39:25] INFO root fetch - processPackages [fsrs]: Downloading https://files.pythonhosted.org/packages/ad/a6/4c1e07f1a7b6d38d11abcb025d9768689fa1b162df9ebc565875ab85d033/fsrs-2.1.0.tar.gz
+[2024-05-20 16:39:25] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/70/84/34d9b67693cf8afaeeba24735823ec69821ad47ab1c2389772a28d1f6ad8/comun_va-3.6.tar.gz
+[2024-05-20 16:39:25] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/c1/a4/99d0e43c19bf96ee0e8d281da09db873c32848e2e69b9f31f0006aaf6261/hahomematic-2024.5.2.tar.gz
+[2024-05-20 16:39:25] INFO root fetch - processPackages [gen-wrappers]: Downloading https://files.pythonhosted.org/packages/db/dd/ce52820c0eb0a130f78a2d00c55f6931485487667fb26f6d44c5b4cb4a72/gen_wrappers-0.4.0.tar.gz
+[2024-05-20 16:39:25] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-05-20 16:39:25] INFO root fetch - processPackages [func2stream]: Downloading https://files.pythonhosted.org/packages/47/09/46998541b64a2a1829e85103a6697519118f37c2ac218aa255c88df230b4/func2stream-0.0.1.dev2405201431.tar.gz
+[2024-05-20 16:39:25] INFO root fetch - processPackages [codefly-cli]: Downloading https://files.pythonhosted.org/packages/4b/4d/74ad623dfe330b40c41cfe0db88331862a6c0dcbf87ac0393f50f7691ae7/codefly_cli-0.0.9.tar.gz
+[2024-05-20 16:39:25] INFO root fetch - processPackages [gen-wrappers]: executing diffoscope
+[2024-05-20 16:39:25] INFO root fetch - processPackages [gen-wrappers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen_wrappers-0.3.9.tar.gz tmp/gen_wrappers-0.4.0.tar.gz --markdown 20240520/g/gen-wrappers/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-05-20 16:39:25] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-05-20 16:39:25] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240520/a/agenta/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-05-20 16:39:25] INFO root fetch - processPackages [func2stream]: executing diffoscope
+[2024-05-20 16:39:25] INFO root fetch - processPackages [func2stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/func2stream-0.0.1.dev2405191630.tar.gz tmp/func2stream-0.0.1.dev2405201431.tar.gz --markdown 20240520/f/func2stream/0.0.1.dev2405191630-0.0.1.dev2405201431/README.md --exclude *.pyd
+[2024-05-20 16:39:25] INFO root fetch - processPackages [codefly-cli]: executing diffoscope
+[2024-05-20 16:39:25] INFO root fetch - processPackages [codefly-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codefly_cli-0.0.8.tar.gz tmp/codefly_cli-0.0.9.tar.gz --markdown 20240520/c/codefly-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 16:39:25] INFO root fetch - processPackages [fsrs]: Downloading https://files.pythonhosted.org/packages/23/7b/07b35f2fe565653477381947790b7e45bc9c7ef60c996730bdaeadd6a08f/fsrs-2.1.1.tar.gz
+[2024-05-20 16:39:25] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/71/dc/bcec85b3c9cde708879799abdfcd5c11466ace50a0c89c65dbfb68c77c20/comun_va-3.7.tar.gz
+[2024-05-20 16:39:25] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/8e/f4/2b4f7ef1ac883092b1cb8ab87302f4a88a167777906559ed3e1b84405fdd/hahomematic-2024.5.3.tar.gz
+[2024-05-20 16:39:25] INFO root fetch - processPackages [fsrs]: executing diffoscope
+[2024-05-20 16:39:25] INFO root fetch - processPackages [fsrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs-2.1.0.tar.gz tmp/fsrs-2.1.1.tar.gz --markdown 20240520/f/fsrs/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-20 16:39:25] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2024-05-20 16:39:25] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2024.5.2.tar.gz tmp/hahomematic-2024.5.3.tar.gz --markdown 20240520/h/hahomematic/2024.5.2-2024.5.3/README.md --exclude *.pyd
+[2024-05-20 16:39:25] INFO root fetch - processPackages [comun-va]: executing diffoscope
+[2024-05-20 16:39:25] INFO root fetch - processPackages [comun-va]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comun_va-3.6.tar.gz tmp/comun_va-3.7.tar.gz --markdown 20240520/c/comun-va/3.6-3.7/README.md --exclude *.pyd
+[2024-05-20 16:39:25] INFO root fetch - processPackages [gen-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/gen_wrappers-0.3.9.tar.gz]
+[2024-05-20 16:39:25] INFO root fetch - processPackages [gen-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/gen_wrappers-0.4.0.tar.gz]
+[2024-05-20 16:39:25] INFO root fetch - main [MainThread]: End processing [gen-wrappers]: success
+[2024-05-20 16:39:26] INFO root fetch - processPackages [func2stream]: Remove: archive file [/home/abi/fetcher/tmp/func2stream-0.0.1.dev2405191630.tar.gz]
+[2024-05-20 16:39:26] INFO root fetch - processPackages [func2stream]: Remove: archive file [/home/abi/fetcher/tmp/func2stream-0.0.1.dev2405201431.tar.gz]
+[2024-05-20 16:39:26] INFO root fetch - main [MainThread]: End processing [func2stream]: success
+[2024-05-20 16:39:26] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-05-20 16:39:26] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-05-20 16:39:26] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-05-20 16:39:26] INFO root fetch - processPackages [fsrs]: Remove: archive file [/home/abi/fetcher/tmp/fsrs-2.1.0.tar.gz]
+[2024-05-20 16:39:26] INFO root fetch - processPackages [fsrs]: Remove: archive file [/home/abi/fetcher/tmp/fsrs-2.1.1.tar.gz]
+[2024-05-20 16:39:26] INFO root fetch - main [MainThread]: End processing [fsrs]: success
+[2024-05-20 16:39:26] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-3.6.tar.gz]
+[2024-05-20 16:39:26] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-3.7.tar.gz]
+[2024-05-20 16:39:26] INFO root fetch - main [MainThread]: End processing [comun-va]: success
+[2024-05-20 16:39:26] INFO root fetch - processPackages [codefly-cli]: Remove: archive file [/home/abi/fetcher/tmp/codefly_cli-0.0.8.tar.gz]
+[2024-05-20 16:39:26] INFO root fetch - processPackages [codefly-cli]: Remove: archive file [/home/abi/fetcher/tmp/codefly_cli-0.0.9.tar.gz]
+[2024-05-20 16:39:26] INFO root fetch - main [MainThread]: End processing [codefly-cli]: success
+[2024-05-20 16:39:26] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.5.2.tar.gz]
+[2024-05-20 16:39:26] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.5.3.tar.gz]
+[2024-05-20 16:39:26] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2024-05-20 16:39:26] INFO root fetch - main [MainThread]: Store serial: [23291215]

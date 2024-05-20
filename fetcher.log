@@ -9120,3 +9120,24 @@
 [2024-05-20 09:07:38] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.4.dev1.tar.gz]
 [2024-05-20 09:07:38] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
 [2024-05-20 09:07:38] INFO root fetch - main [MainThread]: Store serial: [23286072]
+[2024-05-20 09:09:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286072]
+[2024-05-20 09:09:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 09:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-hub-nightly
+[2024-05-20 09:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tgqSim
+[2024-05-20 09:09:46] INFO root fetch - processPackages [tgqSim]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-20 09:09:46] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-20 09:09:46] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/84/d4/8fb7cec4c82deba8a79ef1a5978827549e7d42b8004619b0e781591f6c1f/tgqSim-0.2.6.tar.gz
+[2024-05-20 09:09:46] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-20 09:09:46] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/67/fe/f52a1f28eace2394ab5f5ca73804270d770a8c14ed2ab2364c786152be35/tgqSim-0.2.7.tar.gz
+[2024-05-20 09:09:46] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-20 09:09:47] INFO root fetch - processPackages [tgqSim]: executing diffoscope
+[2024-05-20 09:09:47] INFO root fetch - processPackages [tgqSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgqSim-0.2.6.tar.gz tmp/tgqSim-0.2.7.tar.gz --markdown 20240520/t/tgqSim/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-20 09:09:47] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-20 09:09:47] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240520/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-20 09:09:47] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-20 09:09:47] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-20 09:09:47] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-20 09:09:48] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.2.6.tar.gz]
+[2024-05-20 09:09:48] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.2.7.tar.gz]
+[2024-05-20 09:09:48] INFO root fetch - main [MainThread]: End processing [tgqSim]: success
+[2024-05-20 09:09:48] INFO root fetch - main [MainThread]: Store serial: [23286118]

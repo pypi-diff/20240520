@@ -8536,3 +8536,63 @@
 [2024-05-20 08:36:38] INFO root fetch - processPackages [dataforseo-client]: Remove: archive file [/home/abi/fetcher/tmp/dataforseo-client-1.0.9.tar.gz]
 [2024-05-20 08:36:38] INFO root fetch - main [MainThread]: End processing [dataforseo-client]: success
 [2024-05-20 08:36:38] INFO root fetch - main [MainThread]: Store serial: [23285526]
+[2024-05-20 08:38:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285526]
+[2024-05-20 08:38:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enchante
+[2024-05-20 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heflwr
+[2024-05-20 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydra-afni
+[2024-05-20 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfunvice
+[2024-05-20 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mns-common
+[2024-05-20 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydglab-ws
+[2024-05-20 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyqqq
+[2024-05-20 08:38:47] INFO root fetch - processPackages [pyqqq]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-20 08:38:47] INFO root fetch - processPackages [mns-common]: New version: [1.1.1.5] Old Version: [1.1.1.4]
+[2024-05-20 08:38:47] WARNING root fetch - processPackages [enchante]: Skipping, unable to determine old version
+[2024-05-20 08:38:47] INFO root fetch - main [MainThread]: End processing [enchante] error
+[2024-05-20 08:38:47] INFO root fetch - processPackages [pydglab-ws]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-20 08:38:47] INFO root fetch - processPackages [heflwr]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-20 08:38:47] INFO root fetch - processPackages [pyfunvice]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-20 08:38:47] INFO root fetch - processPackages [pydra-afni]: New version: [0.3.2] Old Version: [0.2.2.post186034]
+[2024-05-20 08:38:47] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/96/27/924b59eac85aad2fc913e1a6e57ddfe954ff8d3a73d8370259e26751340c/pyqqq-0.9.8.tar.gz
+[2024-05-20 08:38:47] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/41/24/fb82228c6ba0d8a4cba396c56e3c371a84cd63bab24104a7abf46c7432d4/mns_common-1.1.1.4.tar.gz
+[2024-05-20 08:38:48] INFO root fetch - processPackages [pydglab-ws]: Downloading https://files.pythonhosted.org/packages/70/dd/61e60e95ada8fd947aea5c224875dc005bb8ac8d0062cd33e0319faf9266/pydglab_ws-1.0.1.tar.gz
+[2024-05-20 08:38:48] INFO root fetch - processPackages [heflwr]: Downloading https://files.pythonhosted.org/packages/03/d3/ae1c111541a4eb974e9404d0f34b56ff54f955bcea9efa17c380a9c8690a/heflwr-0.1.3.tar.gz
+[2024-05-20 08:38:48] INFO root fetch - processPackages [pyfunvice]: Downloading https://files.pythonhosted.org/packages/c5/30/274461846abec2e2c7360d7a890fc105d4403d8ba0079d946575b857821f/pyfunvice-0.1.5.tar.gz
+[2024-05-20 08:38:48] INFO root fetch - processPackages [pydra-afni]: Downloading https://files.pythonhosted.org/packages/a2/71/61b0f68efff8a0f9762af5715a93ef2a6b819397a09e5fdfc17ad2bba775/pydra_afni-0.2.2.post186034.tar.gz
+[2024-05-20 08:38:48] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/c9/e6/77157308314e75e79bf672822dd46be31a65c58c39b8881680c3edc2ab5d/mns_common-1.1.1.5.tar.gz
+[2024-05-20 08:38:48] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/55/e3/5119cecbdcf7969a494d1d075a49d3c9451653fd110f7a4d7b25d1fb4c48/pyqqq-0.9.9.tar.gz
+[2024-05-20 08:38:48] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-20 08:38:48] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.1.4.tar.gz tmp/mns_common-1.1.1.5.tar.gz --markdown 20240520/m/mns-common/1.1.1.4-1.1.1.5/README.md --exclude *.pyd
+[2024-05-20 08:38:48] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-05-20 08:38:48] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.9.8.tar.gz tmp/pyqqq-0.9.9.tar.gz --markdown 20240520/p/pyqqq/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-20 08:38:48] INFO root fetch - processPackages [pydglab-ws]: Downloading https://files.pythonhosted.org/packages/f4/35/7947c06b6911e74eb16461a02a0eb9fa862da763c9ca0f9efbe8c10f458b/pydglab_ws-1.0.2.tar.gz
+[2024-05-20 08:38:48] INFO root fetch - processPackages [heflwr]: Downloading https://files.pythonhosted.org/packages/10/38/24284abd04abe2db4c385e2aaa2a544658b76c1bcb417dbf085bb697bf75/heflwr-0.1.4.tar.gz
+[2024-05-20 08:38:48] INFO root fetch - processPackages [pyfunvice]: Downloading https://files.pythonhosted.org/packages/14/fa/9a1b420d08ee2a2f2e43a2666568b166c67d13e84455f8a2908055e150ed/pyfunvice-0.1.6.tar.gz
+[2024-05-20 08:38:48] INFO root fetch - processPackages [pydra-afni]: Downloading https://files.pythonhosted.org/packages/dc/12/4e86cd7d5ebc9c72f05233ce6902683b8ca78d897195fd6ac2b47e13fb1b/pydra_afni-0.3.2.tar.gz
+[2024-05-20 08:38:48] INFO root fetch - processPackages [pydglab-ws]: executing diffoscope
+[2024-05-20 08:38:48] INFO root fetch - processPackages [pydglab-ws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydglab_ws-1.0.1.tar.gz tmp/pydglab_ws-1.0.2.tar.gz --markdown 20240520/p/pydglab-ws/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-20 08:38:48] INFO root fetch - processPackages [pyfunvice]: executing diffoscope
+[2024-05-20 08:38:48] INFO root fetch - processPackages [pyfunvice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfunvice-0.1.5.tar.gz tmp/pyfunvice-0.1.6.tar.gz --markdown 20240520/p/pyfunvice/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-20 08:38:48] INFO root fetch - processPackages [heflwr]: executing diffoscope
+[2024-05-20 08:38:48] INFO root fetch - processPackages [heflwr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heflwr-0.1.3.tar.gz tmp/heflwr-0.1.4.tar.gz --markdown 20240520/h/heflwr/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-20 08:38:48] INFO root fetch - processPackages [pydra-afni]: executing diffoscope
+[2024-05-20 08:38:48] INFO root fetch - processPackages [pydra-afni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydra_afni-0.2.2.post186034.tar.gz tmp/pydra_afni-0.3.2.tar.gz --markdown 20240520/p/pydra-afni/0.2.2.post186034-0.3.2/README.md --exclude *.pyd
+[2024-05-20 08:38:49] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.8.tar.gz]
+[2024-05-20 08:38:49] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.9.tar.gz]
+[2024-05-20 08:38:49] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-05-20 08:38:49] INFO root fetch - processPackages [pyfunvice]: Remove: archive file [/home/abi/fetcher/tmp/pyfunvice-0.1.5.tar.gz]
+[2024-05-20 08:38:49] INFO root fetch - processPackages [pyfunvice]: Remove: archive file [/home/abi/fetcher/tmp/pyfunvice-0.1.6.tar.gz]
+[2024-05-20 08:38:49] INFO root fetch - main [MainThread]: End processing [pyfunvice]: success
+[2024-05-20 08:38:49] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.1.4.tar.gz]
+[2024-05-20 08:38:49] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.1.5.tar.gz]
+[2024-05-20 08:38:49] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-20 08:38:49] INFO root fetch - processPackages [pydglab-ws]: Remove: archive file [/home/abi/fetcher/tmp/pydglab_ws-1.0.1.tar.gz]
+[2024-05-20 08:38:49] INFO root fetch - processPackages [pydglab-ws]: Remove: archive file [/home/abi/fetcher/tmp/pydglab_ws-1.0.2.tar.gz]
+[2024-05-20 08:38:49] INFO root fetch - main [MainThread]: End processing [pydglab-ws]: success
+[2024-05-20 08:38:49] INFO root fetch - processPackages [heflwr]: Remove: archive file [/home/abi/fetcher/tmp/heflwr-0.1.3.tar.gz]
+[2024-05-20 08:38:49] INFO root fetch - processPackages [heflwr]: Remove: archive file [/home/abi/fetcher/tmp/heflwr-0.1.4.tar.gz]
+[2024-05-20 08:38:49] INFO root fetch - main [MainThread]: End processing [heflwr]: success
+[2024-05-20 08:38:52] INFO root fetch - processPackages [pydra-afni]: Remove: archive file [/home/abi/fetcher/tmp/pydra_afni-0.2.2.post186034.tar.gz]
+[2024-05-20 08:38:52] INFO root fetch - processPackages [pydra-afni]: Remove: archive file [/home/abi/fetcher/tmp/pydra_afni-0.3.2.tar.gz]
+[2024-05-20 08:38:52] INFO root fetch - main [MainThread]: End processing [pydra-afni]: success
+[2024-05-20 08:38:52] INFO root fetch - main [MainThread]: Store serial: [23285552]

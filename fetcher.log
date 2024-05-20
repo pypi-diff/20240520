@@ -5471,3 +5471,27 @@
 [2024-05-20 05:06:58] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
 [2024-05-20 05:06:58] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
 [2024-05-20 05:06:58] INFO root fetch - main [MainThread]: Store serial: [23284006]
+[2024-05-20 05:09:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284006]
+[2024-05-20 05:09:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 05:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-emrstudio20240430
+[2024-05-20 05:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gypsum-client
+[2024-05-20 05:09:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: examon_core
+[2024-05-20 05:09:07] INFO root fetch - processPackages [examon_core]: New version: [2.0.0] Old Version: [1.5.0]
+[2024-05-20 05:09:07] INFO root fetch - processPackages [gypsum-client]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-20 05:09:07] INFO root fetch - processPackages [gypsum-client]: Downloading https://files.pythonhosted.org/packages/7d/1c/68616c94ac3e5dfaca4593429a70e8ffb6ae6b375e52490c355aad721518/gypsum_client-0.0.1.tar.gz
+[2024-05-20 05:09:07] INFO root fetch - processPackages [examon_core]: Downloading https://files.pythonhosted.org/packages/ca/f9/454ca16c575c3e9d97aae2ef84abfd8dcdb6618accde3dacff6d5c9149c9/examon_core-1.5.0.tar.gz
+[2024-05-20 05:09:07] WARNING root fetch - processPackages [alibabacloud-emrstudio20240430]: Skipping, unable to determine old version
+[2024-05-20 05:09:07] INFO root fetch - main [MainThread]: End processing [alibabacloud-emrstudio20240430] error
+[2024-05-20 05:09:07] INFO root fetch - processPackages [examon_core]: Downloading https://files.pythonhosted.org/packages/fe/85/265c04b5c745695a99f177215783d98e1b77261a637c68846d1de8ff0229/examon_core-2.0.0.tar.gz
+[2024-05-20 05:09:07] INFO root fetch - processPackages [gypsum-client]: Downloading https://files.pythonhosted.org/packages/dc/0e/363d3ec76bb72d9f584df923106612dee4ad161dc100244a637a77fff123/gypsum_client-0.1.0.tar.gz
+[2024-05-20 05:09:07] INFO root fetch - processPackages [examon_core]: executing diffoscope
+[2024-05-20 05:09:07] INFO root fetch - processPackages [examon_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_core-1.5.0.tar.gz tmp/examon_core-2.0.0.tar.gz --markdown 20240520/e/examon_core/1.5.0-2.0.0/README.md --exclude *.pyd
+[2024-05-20 05:09:07] INFO root fetch - processPackages [gypsum-client]: executing diffoscope
+[2024-05-20 05:09:07] INFO root fetch - processPackages [gypsum-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gypsum_client-0.0.1.tar.gz tmp/gypsum_client-0.1.0.tar.gz --markdown 20240520/g/gypsum-client/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-20 05:09:08] INFO root fetch - processPackages [examon_core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.5.0.tar.gz]
+[2024-05-20 05:09:08] INFO root fetch - processPackages [examon_core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-2.0.0.tar.gz]
+[2024-05-20 05:09:08] INFO root fetch - main [MainThread]: End processing [examon_core]: success
+[2024-05-20 05:09:08] INFO root fetch - processPackages [gypsum-client]: Remove: archive file [/home/abi/fetcher/tmp/gypsum_client-0.0.1.tar.gz]
+[2024-05-20 05:09:08] INFO root fetch - processPackages [gypsum-client]: Remove: archive file [/home/abi/fetcher/tmp/gypsum_client-0.1.0.tar.gz]
+[2024-05-20 05:09:08] INFO root fetch - main [MainThread]: End processing [gypsum-client]: success
+[2024-05-20 05:09:08] INFO root fetch - main [MainThread]: Store serial: [23284028]

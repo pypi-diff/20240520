@@ -7616,3 +7616,18 @@
 [2024-05-20 07:34:47] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240519-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
 [2024-05-20 07:34:47] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2024-05-20 07:34:47] INFO root fetch - main [MainThread]: Store serial: [23285052]
+[2024-05-20 07:36:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285052]
+[2024-05-20 07:36:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 07:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Html-Flask-Install
+[2024-05-20 07:36:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomic-bomb-engine
+[2024-05-20 07:36:57] WARNING root fetch - processPackages [Html-Flask-Install]: Skipping, unable to determine old version
+[2024-05-20 07:36:57] INFO root fetch - main [MainThread]: End processing [Html-Flask-Install] error
+[2024-05-20 07:36:57] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 07:36:57] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-05-20 07:36:57] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-05-20 07:36:57] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-05-20 07:36:57] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240520/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 07:36:58] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-05-20 07:36:58] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-05-20 07:36:58] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-05-20 07:36:58] INFO root fetch - main [MainThread]: Store serial: [23285064]

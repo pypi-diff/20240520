@@ -16279,3 +16279,60 @@ EOFError: EOF read where object expected
 [2024-05-20 14:09:43] INFO root fetch - processPackages [catnekaise.actions-constructs]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.actions-constructs-0.2.23.tar.gz]
 [2024-05-20 14:09:43] INFO root fetch - main [MainThread]: End processing [catnekaise.actions-constructs]: success
 [2024-05-20 14:09:43] INFO root fetch - main [MainThread]: Store serial: [23289274]
+[2024-05-20 14:11:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289274]
+[2024-05-20 14:11:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 14:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-awscdk-resolver
+[2024-05-20 14:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ucam-observe
+[2024-05-20 14:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf-bulk-editing
+[2024-05-20 14:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctrip-app-ui
+[2024-05-20 14:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testplans
+[2024-05-20 14:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jgtpy
+[2024-05-20 14:11:52] INFO root fetch - processPackages [testplans]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-20 14:11:52] INFO root fetch - processPackages [drf-bulk-editing]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-20 14:11:52] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-20 14:11:52] INFO root fetch - processPackages [ucam-observe]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-20 14:11:52] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/9a/de/3389d80b149db1ae4c29994170b455dd6c32ea87a26ff9991a62f9762737/testplans-0.2.8.tar.gz
+[2024-05-20 14:11:52] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-20 14:11:52] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/74/98/fdd8e4fed8976439bc2bf195c0b399547dbec73461aa7ebcd40360009825/ctrip-app-ui-0.7.0.tar.gz
+[2024-05-20 14:11:52] INFO root fetch - processPackages [jgtpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-20 14:11:52] INFO root fetch - processPackages [drf-bulk-editing]: Downloading https://files.pythonhosted.org/packages/ff/03/a5334b73a7cc4dad6a685e1418e43f3a5f902a25432bde1624b765b6ec58/drf-bulk-editing-0.1.1.tar.gz
+[2024-05-20 14:11:52] INFO root fetch - processPackages [ucam-observe]: Downloading https://files.pythonhosted.org/packages/08/ab/e1c495ad946e73fd872d09b67bd4083325652ee44d365a29daf7307d2231/ucam_observe-0.1.4.tar.gz
+[2024-05-20 14:11:52] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/07/20/19ec9266389742d2a3c04ab3687b33ce4fbc2bbb57bfcec31da1a9bcbd23/cdk8s-awscdk-resolver-0.0.98.tar.gz
+[2024-05-20 14:11:53] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/60/b5/888f160495ee80ba1657e52a606a803f54fbfa062fe5a4d1d58fd9dc9141/jgtpy-0.4.8.tar.gz
+[2024-05-20 14:11:53] INFO root fetch - processPackages [testplans]: Downloading https://files.pythonhosted.org/packages/f6/cd/f3b75623bc341c15c15958d03d1b67397d070e6149583dd0afce21a893f9/testplans-0.2.9.tar.gz
+[2024-05-20 14:11:53] INFO root fetch - processPackages [ucam-observe]: Downloading https://files.pythonhosted.org/packages/8d/30/612add4d1a5871457174843072000d1db82c3e9b8acd58d7cf6db3d4539e/ucam_observe-0.2.0.tar.gz
+[2024-05-20 14:11:53] INFO root fetch - processPackages [drf-bulk-editing]: Downloading https://files.pythonhosted.org/packages/6d/93/75b81e31900fad9b239054ad706a340154bde87e8f8a642868e09176ed16/drf-bulk-editing-0.1.2.tar.gz
+[2024-05-20 14:11:53] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/80/b4/4ae11366f37427ce7660f2bdb9131f242b66aea4a0372d9ae7325a0a96d3/ctrip-app-ui-0.7.1.tar.gz
+[2024-05-20 14:11:53] INFO root fetch - processPackages [testplans]: executing diffoscope
+[2024-05-20 14:11:53] INFO root fetch - processPackages [testplans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testplans-0.2.8.tar.gz tmp/testplans-0.2.9.tar.gz --markdown 20240520/t/testplans/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-20 14:11:53] INFO root fetch - processPackages [jgtpy]: Downloading https://files.pythonhosted.org/packages/c1/94/79cdcc286ed1c9578cc3d3b4b47d9da3326a5fdfa94ebc3ad80acf17eafa/jgtpy-0.4.9.tar.gz
+[2024-05-20 14:11:53] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/c7/b2/54a44e3f76d560a3b27d6d369382450e19f3b34970ec7c2ee462c06c50c0/cdk8s-awscdk-resolver-0.0.99.tar.gz
+[2024-05-20 14:11:53] INFO root fetch - processPackages [ucam-observe]: executing diffoscope
+[2024-05-20 14:11:53] INFO root fetch - processPackages [ucam-observe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucam_observe-0.1.4.tar.gz tmp/ucam_observe-0.2.0.tar.gz --markdown 20240520/u/ucam-observe/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-20 14:11:53] INFO root fetch - processPackages [drf-bulk-editing]: executing diffoscope
+[2024-05-20 14:11:53] INFO root fetch - processPackages [drf-bulk-editing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-bulk-editing-0.1.1.tar.gz tmp/drf-bulk-editing-0.1.2.tar.gz --markdown 20240520/d/drf-bulk-editing/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-20 14:11:53] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-05-20 14:11:53] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.7.0.tar.gz tmp/ctrip-app-ui-0.7.1.tar.gz --markdown 20240520/c/ctrip-app-ui/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-20 14:11:54] INFO root fetch - processPackages [jgtpy]: executing diffoscope
+[2024-05-20 14:11:54] INFO root fetch - processPackages [jgtpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgtpy-0.4.8.tar.gz tmp/jgtpy-0.4.9.tar.gz --markdown 20240520/j/jgtpy/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-20 14:11:54] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-05-20 14:11:54] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.98.tar.gz tmp/cdk8s-awscdk-resolver-0.0.99.tar.gz --markdown 20240520/c/cdk8s-awscdk-resolver/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-20 14:11:54] INFO root fetch - processPackages [ucam-observe]: Remove: archive file [/home/abi/fetcher/tmp/ucam_observe-0.1.4.tar.gz]
+[2024-05-20 14:11:54] INFO root fetch - processPackages [ucam-observe]: Remove: archive file [/home/abi/fetcher/tmp/ucam_observe-0.2.0.tar.gz]
+[2024-05-20 14:11:54] INFO root fetch - main [MainThread]: End processing [ucam-observe]: success
+[2024-05-20 14:11:54] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.7.0.tar.gz]
+[2024-05-20 14:11:54] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.7.1.tar.gz]
+[2024-05-20 14:11:54] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-05-20 14:11:54] INFO root fetch - processPackages [drf-bulk-editing]: Remove: archive file [/home/abi/fetcher/tmp/drf-bulk-editing-0.1.1.tar.gz]
+[2024-05-20 14:11:54] INFO root fetch - processPackages [drf-bulk-editing]: Remove: archive file [/home/abi/fetcher/tmp/drf-bulk-editing-0.1.2.tar.gz]
+[2024-05-20 14:11:54] INFO root fetch - main [MainThread]: End processing [drf-bulk-editing]: success
+[2024-05-20 14:11:54] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.8.tar.gz]
+[2024-05-20 14:11:54] INFO root fetch - processPackages [testplans]: Remove: archive file [/home/abi/fetcher/tmp/testplans-0.2.9.tar.gz]
+[2024-05-20 14:11:54] INFO root fetch - main [MainThread]: End processing [testplans]: success
+[2024-05-20 14:11:54] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.98.tar.gz]
+[2024-05-20 14:11:54] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.99.tar.gz]
+[2024-05-20 14:11:54] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-05-20 14:11:54] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.8.tar.gz]
+[2024-05-20 14:11:54] INFO root fetch - processPackages [jgtpy]: Remove: archive file [/home/abi/fetcher/tmp/jgtpy-0.4.9.tar.gz]
+[2024-05-20 14:11:54] INFO root fetch - main [MainThread]: End processing [jgtpy]: success
+[2024-05-20 14:11:54] INFO root fetch - main [MainThread]: Store serial: [23289290]

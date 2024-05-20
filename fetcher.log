@@ -3944,3 +3944,42 @@
 [2024-05-20 03:12:40] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
 [2024-05-20 03:12:40] INFO root fetch - main [MainThread]: End processing [modelbase]: success
 [2024-05-20 03:12:40] INFO root fetch - main [MainThread]: Store serial: [23283240]
+[2024-05-20 03:14:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283240]
+[2024-05-20 03:14:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 03:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scoutbook_parser
+[2024-05-20 03:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-20 03:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atl
+[2024-05-20 03:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kent
+[2024-05-20 03:14:49] INFO root fetch - processPackages [scoutbook_parser]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 03:14:49] INFO root fetch - processPackages [atl]: New version: [0.4] Old Version: [0.2]
+[2024-05-20 03:14:49] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.23a1716165280] Old Version: [0.0.22]
+[2024-05-20 03:14:49] INFO root fetch - processPackages [kent]: New version: [2.0.0] Old Version: [1.2.0]
+[2024-05-20 03:14:49] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/cb/af/8cefee227997b6e3fe30da0ae2c31049cc60b92d76e910b4beca5fc29702/scoutbook_parser-0.9.0.tar.gz
+[2024-05-20 03:14:49] INFO root fetch - processPackages [atl]: Downloading https://files.pythonhosted.org/packages/d9/62/434ac37a18f047ecaa64d9721e6ad43edda279103c200b5003f2834d84c3/atl-0.2.tar.gz
+[2024-05-20 03:14:49] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/ce/83/84c0bdd80b9f8db727d0ecb18a3523c009af950970f5a793ea42431cbc4f/pulumi_kubernetes_the_hard_way-0.0.22.tar.gz
+[2024-05-20 03:14:49] INFO root fetch - processPackages [kent]: Downloading https://files.pythonhosted.org/packages/52/bc/ad6b41721c7d4a229b0cbe86f0fce31e5e9376b4b11928d99a9958d9eeb6/kent-1.2.0.tar.gz
+[2024-05-20 03:14:49] INFO root fetch - processPackages [atl]: Downloading https://files.pythonhosted.org/packages/c9/2e/9c76da5e51b62dc29e13b9861983a699aeffd83f26b3130b73b14eb060bd/atl-0.4.tar.gz
+[2024-05-20 03:14:49] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/a8/b3/755d2ce577e69aa85bd7c4589be4f7a8f4e54f64a3f1c5e0dd3aef5db4d8/scoutbook_parser-0.9.1.tar.gz
+[2024-05-20 03:14:49] INFO root fetch - processPackages [atl]: executing diffoscope
+[2024-05-20 03:14:49] INFO root fetch - processPackages [atl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atl-0.2.tar.gz tmp/atl-0.4.tar.gz --markdown 20240520/a/atl/0.2-0.4/README.md --exclude *.pyd
+[2024-05-20 03:14:49] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/15/52/81d6b372a771ad01b635e5638a9e4acc76e0905037ad3ba0308feab67e13/pulumi_kubernetes_the_hard_way-0.0.23a1716165280.tar.gz
+[2024-05-20 03:14:49] INFO root fetch - processPackages [scoutbook_parser]: executing diffoscope
+[2024-05-20 03:14:49] INFO root fetch - processPackages [scoutbook_parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoutbook_parser-0.9.0.tar.gz tmp/scoutbook_parser-0.9.1.tar.gz --markdown 20240520/s/scoutbook_parser/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 03:14:49] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-20 03:14:49] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.22.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.23a1716165280.tar.gz --markdown 20240520/p/pulumi-kubernetes-the-hard-way/0.0.22-0.0.23a1716165280/README.md --exclude *.pyd
+[2024-05-20 03:14:49] INFO root fetch - processPackages [kent]: Downloading https://files.pythonhosted.org/packages/35/0c/ed2e6a33dc0f6d89eb6b01a05d42ea7a1be83bd0136fff68698fac31cec0/kent-2.0.0.tar.gz
+[2024-05-20 03:14:50] INFO root fetch - processPackages [kent]: executing diffoscope
+[2024-05-20 03:14:50] INFO root fetch - processPackages [kent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kent-1.2.0.tar.gz tmp/kent-2.0.0.tar.gz --markdown 20240520/k/kent/1.2.0-2.0.0/README.md --exclude *.pyd
+[2024-05-20 03:14:50] INFO root fetch - processPackages [atl]: Remove: archive file [/home/abi/fetcher/tmp/atl-0.2.tar.gz]
+[2024-05-20 03:14:50] INFO root fetch - processPackages [atl]: Remove: archive file [/home/abi/fetcher/tmp/atl-0.4.tar.gz]
+[2024-05-20 03:14:50] INFO root fetch - main [MainThread]: End processing [atl]: success
+[2024-05-20 03:14:50] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.0.tar.gz]
+[2024-05-20 03:14:50] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.1.tar.gz]
+[2024-05-20 03:14:50] INFO root fetch - main [MainThread]: End processing [scoutbook_parser]: success
+[2024-05-20 03:14:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.22.tar.gz]
+[2024-05-20 03:14:50] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.23a1716165280.tar.gz]
+[2024-05-20 03:14:50] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-20 03:14:50] INFO root fetch - processPackages [kent]: Remove: archive file [/home/abi/fetcher/tmp/kent-1.2.0.tar.gz]
+[2024-05-20 03:14:50] INFO root fetch - processPackages [kent]: Remove: archive file [/home/abi/fetcher/tmp/kent-2.0.0.tar.gz]
+[2024-05-20 03:14:50] INFO root fetch - main [MainThread]: End processing [kent]: success
+[2024-05-20 03:14:50] INFO root fetch - main [MainThread]: Store serial: [23283254]

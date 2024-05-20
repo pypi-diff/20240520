@@ -23578,3 +23578,78 @@ EOFError: EOF read where object expected
 [2024-05-20 18:29:47] INFO root fetch - processPackages [persona_ai]: Remove: archive file [/home/abi/fetcher/tmp/persona_ai-0.1.9.tar.gz]
 [2024-05-20 18:29:47] INFO root fetch - main [MainThread]: End processing [persona_ai]: success
 [2024-05-20 18:29:47] INFO root fetch - main [MainThread]: Store serial: [23292457]
+[2024-05-20 18:31:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292457]
+[2024-05-20 18:31:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 18:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plover-uinput
+[2024-05-20 18:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: malwoverview
+[2024-05-20 18:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2024-05-20 18:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gflabel
+[2024-05-20 18:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pz-rail-base
+[2024-05-20 18:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scenvi
+[2024-05-20 18:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfastexcel
+[2024-05-20 18:31:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flatpack
+[2024-05-20 18:31:56] INFO root fetch - processPackages [malwoverview]: New version: [5.4.3] Old Version: [5.4.2]
+[2024-05-20 18:31:56] INFO root fetch - processPackages [scenvi]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-20 18:31:56] INFO root fetch - processPackages [flatpack]: New version: [3.4.94] Old Version: [3.4.93]
+[2024-05-20 18:31:56] INFO root fetch - processPackages [gflabel]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-20 18:31:56] INFO root fetch - processPackages [malwoverview]: Downloading https://files.pythonhosted.org/packages/a7/07/3f267d879cd5daae7382d5dde3ae4eba4ed31b95d848928a5a67b06bbc57/malwoverview-5.4.2.tar.gz
+[2024-05-20 18:31:56] INFO root fetch - processPackages [plover-uinput]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-20 18:31:56] INFO root fetch - processPackages [pyfastexcel]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-20 18:31:56] INFO root fetch - processPackages [pz-rail-base]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-20 18:31:56] INFO root fetch - processPackages [scenvi]: Downloading https://files.pythonhosted.org/packages/25/67/aed049f52e3ffdd63ec253ec261f3123a40f192b5386de4254da87046b81/scenvi-0.3.4.tar.gz
+[2024-05-20 18:31:56] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-05-20 18:31:56] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/14/6959d0cd643d75ef604340ea3a40745abc4e31ef01967d5db0cd689203ac/flatpack-3.4.93.tar.gz
+[2024-05-20 18:31:56] INFO root fetch - processPackages [gflabel]: Downloading https://files.pythonhosted.org/packages/c6/cd/d84f6992bab74a02c6c98526680598d974542804e502ac75ce4d2e46b465/gflabel-0.1.5.tar.gz
+[2024-05-20 18:31:56] INFO root fetch - processPackages [plover-uinput]: Downloading https://files.pythonhosted.org/packages/6d/07/5cd9c73db82dccba90dcab9a07ec4ff64e7282820f6d4f65e65e7ad8bd61/plover-uinput-0.0.4.tar.gz
+[2024-05-20 18:31:57] INFO root fetch - processPackages [pz-rail-base]: Downloading https://files.pythonhosted.org/packages/e9/40/21ba04862a12eb69bd58ddf4ec989306b6c1f83223d96a6d6a72e1f31a93/pz_rail_base-1.0.0.tar.gz
+[2024-05-20 18:31:57] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-05-20 18:31:57] INFO root fetch - processPackages [pyfastexcel]: Downloading https://files.pythonhosted.org/packages/1f/06/4e4878bc06f68176366ad20da7ea72d1df57e0844845c2c777ebf972e1bd/pyfastexcel-0.0.6.tar.gz
+[2024-05-20 18:31:57] INFO root fetch - processPackages [malwoverview]: Downloading https://files.pythonhosted.org/packages/3b/2b/11a7715c3e6553891d7194242dafda655aec7763a01d53374ed0dc0215f3/malwoverview-5.4.3.tar.gz
+[2024-05-20 18:31:57] INFO root fetch - processPackages [scenvi]: Downloading https://files.pythonhosted.org/packages/dc/07/ab6a45f6f9fb7da74848577bc3f0b2faca5b066419e03c92d2df590955bc/scenvi-0.3.5.tar.gz
+[2024-05-20 18:31:57] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/e7/a3/9eff38061fac71b638dd7b5aa60630c0c17fce7627c1480916e0687e59ed/flatpack-3.4.94.tar.gz
+[2024-05-20 18:31:57] INFO root fetch - processPackages [malwoverview]: executing diffoscope
+[2024-05-20 18:31:57] INFO root fetch - processPackages [malwoverview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malwoverview-5.4.2.tar.gz tmp/malwoverview-5.4.3.tar.gz --markdown 20240520/m/malwoverview/5.4.2-5.4.3/README.md --exclude *.pyd
+[2024-05-20 18:31:57] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-20 18:31:57] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.93.tar.gz tmp/flatpack-3.4.94.tar.gz --markdown 20240520/f/flatpack/3.4.93-3.4.94/README.md --exclude *.pyd
+[2024-05-20 18:31:57] INFO root fetch - processPackages [scenvi]: executing diffoscope
+[2024-05-20 18:31:57] INFO root fetch - processPackages [scenvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scenvi-0.3.4.tar.gz tmp/scenvi-0.3.5.tar.gz --markdown 20240520/s/scenvi/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-20 18:31:57] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-05-20 18:31:57] INFO root fetch - processPackages [gflabel]: Downloading https://files.pythonhosted.org/packages/3c/71/c0e6e53b20fb2f64ba81710533fd1faf738740b0f579561bba1ac79310a7/gflabel-0.1.6.tar.gz
+[2024-05-20 18:31:57] INFO root fetch - processPackages [plover-uinput]: Downloading https://files.pythonhosted.org/packages/f7/19/c8bdc1ceb39da5b16821fd26d36672c2140c953e715da0c72bf40e5a745c/plover_uinput-0.0.5.tar.gz
+[2024-05-20 18:31:57] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-05-20 18:31:57] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240520/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-05-20 18:31:57] INFO root fetch - processPackages [plover-uinput]: executing diffoscope
+[2024-05-20 18:31:57] INFO root fetch - processPackages [plover-uinput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plover-uinput-0.0.4.tar.gz tmp/plover_uinput-0.0.5.tar.gz --markdown 20240520/p/plover-uinput/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-20 18:31:57] INFO root fetch - processPackages [gflabel]: executing diffoscope
+[2024-05-20 18:31:57] INFO root fetch - processPackages [gflabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gflabel-0.1.5.tar.gz tmp/gflabel-0.1.6.tar.gz --markdown 20240520/g/gflabel/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-20 18:31:58] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.93.tar.gz]
+[2024-05-20 18:31:58] INFO root fetch - processPackages [pz-rail-base]: Downloading https://files.pythonhosted.org/packages/43/33/c0690abcc6378df393060f56bad7f81c07ec70bc52af35627574ec8ff8bc/pz_rail_base-1.0.1.tar.gz
+[2024-05-20 18:31:58] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.94.tar.gz]
+[2024-05-20 18:31:58] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-20 18:31:58] INFO root fetch - processPackages [scenvi]: Remove: archive file [/home/abi/fetcher/tmp/scenvi-0.3.4.tar.gz]
+[2024-05-20 18:31:58] INFO root fetch - processPackages [scenvi]: Remove: archive file [/home/abi/fetcher/tmp/scenvi-0.3.5.tar.gz]
+[2024-05-20 18:31:58] INFO root fetch - main [MainThread]: End processing [scenvi]: success
+[2024-05-20 18:31:58] INFO root fetch - processPackages [malwoverview]: Remove: archive file [/home/abi/fetcher/tmp/malwoverview-5.4.2.tar.gz]
+[2024-05-20 18:31:58] INFO root fetch - processPackages [pyfastexcel]: Downloading https://files.pythonhosted.org/packages/23/e6/7c422078bb957708efb26a30b0daf69e0d42fc2fa80f07a9683e8de84fd8/pyfastexcel-0.0.7.tar.gz
+[2024-05-20 18:31:58] INFO root fetch - processPackages [malwoverview]: Remove: archive file [/home/abi/fetcher/tmp/malwoverview-5.4.3.tar.gz]
+[2024-05-20 18:31:58] INFO root fetch - main [MainThread]: End processing [malwoverview]: success
+[2024-05-20 18:31:58] INFO root fetch - processPackages [plover-uinput]: Remove: archive file [/home/abi/fetcher/tmp/plover-uinput-0.0.4.tar.gz]
+[2024-05-20 18:31:58] INFO root fetch - processPackages [plover-uinput]: Remove: archive file [/home/abi/fetcher/tmp/plover_uinput-0.0.5.tar.gz]
+[2024-05-20 18:31:58] INFO root fetch - main [MainThread]: End processing [plover-uinput]: success
+[2024-05-20 18:31:58] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-05-20 18:31:58] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-05-20 18:31:58] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-05-20 18:31:58] INFO root fetch - processPackages [gflabel]: Remove: archive file [/home/abi/fetcher/tmp/gflabel-0.1.5.tar.gz]
+[2024-05-20 18:31:58] INFO root fetch - processPackages [gflabel]: Remove: archive file [/home/abi/fetcher/tmp/gflabel-0.1.6.tar.gz]
+[2024-05-20 18:31:58] INFO root fetch - main [MainThread]: End processing [gflabel]: success
+[2024-05-20 18:31:59] INFO root fetch - processPackages [pz-rail-base]: executing diffoscope
+[2024-05-20 18:31:59] INFO root fetch - processPackages [pz-rail-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pz_rail_base-1.0.0.tar.gz tmp/pz_rail_base-1.0.1.tar.gz --markdown 20240520/p/pz-rail-base/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-20 18:31:59] INFO root fetch - processPackages [pyfastexcel]: executing diffoscope
+[2024-05-20 18:31:59] INFO root fetch - processPackages [pyfastexcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfastexcel-0.0.6.tar.gz tmp/pyfastexcel-0.0.7.tar.gz --markdown 20240520/p/pyfastexcel/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-20 18:32:00] INFO root fetch - processPackages [pz-rail-base]: Remove: archive file [/home/abi/fetcher/tmp/pz_rail_base-1.0.0.tar.gz]
+[2024-05-20 18:32:00] INFO root fetch - processPackages [pz-rail-base]: Remove: archive file [/home/abi/fetcher/tmp/pz_rail_base-1.0.1.tar.gz]
+[2024-05-20 18:32:00] INFO root fetch - main [MainThread]: End processing [pz-rail-base]: success
+[2024-05-20 18:34:01] INFO root fetch - processPackages [pyfastexcel]: Remove: archive file [/home/abi/fetcher/tmp/pyfastexcel-0.0.6.tar.gz]
+[2024-05-20 18:34:01] INFO root fetch - processPackages [pyfastexcel]: Remove: archive file [/home/abi/fetcher/tmp/pyfastexcel-0.0.7.tar.gz]
+[2024-05-20 18:34:01] INFO root fetch - main [MainThread]: End processing [pyfastexcel]: success
+[2024-05-20 18:34:01] INFO root fetch - main [MainThread]: Store serial: [23292481]

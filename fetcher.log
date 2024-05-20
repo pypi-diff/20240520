@@ -14273,3 +14273,54 @@
 [2024-05-20 12:43:00] INFO root fetch - processPackages [subprocess-mock]: Remove: archive file [/home/abi/fetcher/tmp/subprocess_mock-0.4.5.tar.gz]
 [2024-05-20 12:43:00] INFO root fetch - main [MainThread]: End processing [subprocess-mock]: success
 [2024-05-20 12:43:00] INFO root fetch - main [MainThread]: Store serial: [23288283]
+[2024-05-20 12:45:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288283]
+[2024-05-20 12:45:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 12:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bvg-python
+[2024-05-20 12:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gene4mVCF
+[2024-05-20 12:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbed
+[2024-05-20 12:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PepperPepper
+[2024-05-20 12:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: budgeteer
+[2024-05-20 12:45:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openmetadata-managed-apis
+[2024-05-20 12:45:09] INFO root fetch - processPackages [gene4mVCF]: New version: [1.0.6] Old Version: [1.0.4]
+[2024-05-20 12:45:09] INFO root fetch - processPackages [budgeteer]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-20 12:45:09] INFO root fetch - processPackages [PepperPepper]: New version: [0.0.7.9] Old Version: [0.0.7.8]
+[2024-05-20 12:45:09] INFO root fetch - processPackages [nbed]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-20 12:45:09] WARNING root fetch - processPackages [bvg-python]: Skipping, unable to determine old version
+[2024-05-20 12:45:09] INFO root fetch - main [MainThread]: End processing [bvg-python] error
+[2024-05-20 12:45:09] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.4.0.0rc4] Old Version: [1.4.0.0rc3]
+[2024-05-20 12:45:09] INFO root fetch - processPackages [gene4mVCF]: Downloading https://files.pythonhosted.org/packages/ea/65/35b285b33241d29af93499e8893894db2ce25848f3e4d7e815b72c7badf1/gene4mvcf-1.0.4.tar.gz
+[2024-05-20 12:45:09] INFO root fetch - processPackages [budgeteer]: Downloading https://files.pythonhosted.org/packages/0e/1f/cf06ebf5fe5883a60257d675f69d2a899fc0ac48856d505e8b14b9c062e5/budgeteer-0.1.3.tar.gz
+[2024-05-20 12:45:09] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/a2/6a/fc1e17ed8249aa662d736747b383ab6c49c7144dc000f01a9057721c3218/pepperpepper-0.0.7.8.tar.gz
+[2024-05-20 12:45:09] INFO root fetch - processPackages [nbed]: Downloading https://files.pythonhosted.org/packages/f2/e9/efc468233e7b769b9ec1ffa242c8743dbc7a6a3f78e0818ab31290b9cc20/nbed-0.0.3.tar.gz
+[2024-05-20 12:45:09] INFO root fetch - processPackages [PepperPepper]: Downloading https://files.pythonhosted.org/packages/bd/bd/74c69c2a57615281d2dab96af6ddca9210d7c0be7e2ab04c6f559e1aea99/pepperpepper-0.0.7.9.tar.gz
+[2024-05-20 12:45:09] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/fc/56/e4615f735a6ca06e52dde99052fb44f27122a824c50b61e01e167e8e895c/openmetadata_managed_apis-1.4.0.0rc3.tar.gz
+[2024-05-20 12:45:09] INFO root fetch - processPackages [PepperPepper]: executing diffoscope
+[2024-05-20 12:45:09] INFO root fetch - processPackages [PepperPepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperpepper-0.0.7.8.tar.gz tmp/pepperpepper-0.0.7.9.tar.gz --markdown 20240520/P/PepperPepper/0.0.7.8-0.0.7.9/README.md --exclude *.pyd
+[2024-05-20 12:45:09] INFO root fetch - processPackages [gene4mVCF]: Downloading https://files.pythonhosted.org/packages/87/18/63ab796518f04ba780d3e28b9c0db8dcfe849962620ef0ae7ed6c86dfc7f/gene4mvcf-1.0.6.tar.gz
+[2024-05-20 12:45:09] INFO root fetch - processPackages [budgeteer]: Downloading https://files.pythonhosted.org/packages/2b/32/8136f3abfb516470c3f5203bcda94e063ed8b585e371aadfb44a69090fb3/budgeteer-0.1.4.tar.gz
+[2024-05-20 12:45:09] INFO root fetch - processPackages [gene4mVCF]: executing diffoscope
+[2024-05-20 12:45:09] INFO root fetch - processPackages [gene4mVCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gene4mvcf-1.0.4.tar.gz tmp/gene4mvcf-1.0.6.tar.gz --markdown 20240520/g/gene4mVCF/1.0.4-1.0.6/README.md --exclude *.pyd
+[2024-05-20 12:45:09] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/68/4a/5f0569213d2fc617c3bc1a5ac85bd41239da9891c9b755c46a1cc312a99d/openmetadata_managed_apis-1.4.0.0rc4.tar.gz
+[2024-05-20 12:45:09] INFO root fetch - processPackages [nbed]: Downloading https://files.pythonhosted.org/packages/a8/f2/c202f9765adc099f25a7f20bdb39e94618d29d64d7249e6e2c32c9ac8fb9/nbed-0.0.4.tar.gz
+[2024-05-20 12:45:09] INFO root fetch - processPackages [budgeteer]: executing diffoscope
+[2024-05-20 12:45:09] INFO root fetch - processPackages [budgeteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budgeteer-0.1.3.tar.gz tmp/budgeteer-0.1.4.tar.gz --markdown 20240520/b/budgeteer/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-20 12:45:10] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2024-05-20 12:45:10] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.4.0.0rc3.tar.gz tmp/openmetadata_managed_apis-1.4.0.0rc4.tar.gz --markdown 20240520/o/openmetadata-managed-apis/1.4.0.0rc3-1.4.0.0rc4/README.md --exclude *.pyd
+[2024-05-20 12:45:10] INFO root fetch - processPackages [nbed]: executing diffoscope
+[2024-05-20 12:45:10] INFO root fetch - processPackages [nbed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbed-0.0.3.tar.gz tmp/nbed-0.0.4.tar.gz --markdown 20240520/n/nbed/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-20 12:45:10] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.8.tar.gz]
+[2024-05-20 12:45:10] INFO root fetch - processPackages [PepperPepper]: Remove: archive file [/home/abi/fetcher/tmp/pepperpepper-0.0.7.9.tar.gz]
+[2024-05-20 12:45:10] INFO root fetch - main [MainThread]: End processing [PepperPepper]: success
+[2024-05-20 12:45:10] INFO root fetch - processPackages [gene4mVCF]: Remove: archive file [/home/abi/fetcher/tmp/gene4mvcf-1.0.4.tar.gz]
+[2024-05-20 12:45:10] INFO root fetch - processPackages [gene4mVCF]: Remove: archive file [/home/abi/fetcher/tmp/gene4mvcf-1.0.6.tar.gz]
+[2024-05-20 12:45:10] INFO root fetch - main [MainThread]: End processing [gene4mVCF]: success
+[2024-05-20 12:45:10] INFO root fetch - processPackages [budgeteer]: Remove: archive file [/home/abi/fetcher/tmp/budgeteer-0.1.3.tar.gz]
+[2024-05-20 12:45:10] INFO root fetch - processPackages [budgeteer]: Remove: archive file [/home/abi/fetcher/tmp/budgeteer-0.1.4.tar.gz]
+[2024-05-20 12:45:10] INFO root fetch - main [MainThread]: End processing [budgeteer]: success
+[2024-05-20 12:45:10] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.4.0.0rc3.tar.gz]
+[2024-05-20 12:45:10] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.4.0.0rc4.tar.gz]
+[2024-05-20 12:45:10] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2024-05-20 12:45:10] INFO root fetch - processPackages [nbed]: Remove: archive file [/home/abi/fetcher/tmp/nbed-0.0.3.tar.gz]
+[2024-05-20 12:45:10] INFO root fetch - processPackages [nbed]: Remove: archive file [/home/abi/fetcher/tmp/nbed-0.0.4.tar.gz]
+[2024-05-20 12:45:10] INFO root fetch - main [MainThread]: End processing [nbed]: success
+[2024-05-20 12:45:10] INFO root fetch - main [MainThread]: Store serial: [23288303]

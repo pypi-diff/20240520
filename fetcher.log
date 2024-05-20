@@ -25237,3 +25237,188 @@ EOFError: EOF read where object expected
 [2024-05-20 19:26:59] INFO root fetch - processPackages [hugedict]: Remove: archive file [/home/abi/fetcher/tmp/hugedict-2.9.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-20 19:26:59] INFO root fetch - main [MainThread]: End processing [hugedict]: success
 [2024-05-20 19:26:59] INFO root fetch - main [MainThread]: Store serial: [23293373]
+[2024-05-20 19:29:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23293373]
+[2024-05-20 19:29:19] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2024-05-20 19:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: buildbot-pkg
+[2024-05-20 19:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: buildbot-react-console-view
+[2024-05-20 19:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: buildbot-react-grid-view
+[2024-05-20 19:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: buildbot-react-waterfall-view
+[2024-05-20 19:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: buildbot-react-wsgi-dashboards
+[2024-05-20 19:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: buildbot-waterfall-view
+[2024-05-20 19:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: buildbot-worker
+[2024-05-20 19:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: buildbot-wsgi-dashboards
+[2024-05-20 19:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: buildbot-www
+[2024-05-20 19:29:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: buildbot-www-react
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-pkg]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-pkg]: Downloading https://files.pythonhosted.org/packages/c4/99/3b8776e98c08b19eafcb685bc9e7a690d5bceec4a3f1a66072e576dfdecf/buildbot-pkg-3.9.1.tar.gz
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-react-console-view]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-react-grid-view]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-react-wsgi-dashboards]: New version: [3.11.3] Old Version: [3.11.2]
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-react-waterfall-view]: New version: [3.11.3] Old Version: [3.11.2]
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-www-react]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-wsgi-dashboards]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-worker]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-waterfall-view]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-www]: New version: [v0.9.0b9] Old Version: [3.9.2]
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-react-console-view]: Downloading https://files.pythonhosted.org/packages/d2/5f/2f48d30deefb9e504b5975081ec22244d96c879f3349000f65e8f9064770/buildbot-react-console-view-3.9.1.tar.gz
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-react-grid-view]: Downloading https://files.pythonhosted.org/packages/8c/14/bdf9ba372391d405fc2507a096057a962e70231979bfd8658273f59c8e48/buildbot-react-grid-view-3.9.1.tar.gz
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-react-wsgi-dashboards]: Downloading https://files.pythonhosted.org/packages/e3/47/e45d7fed7621d41fbbf63dcd04b6e4d02a405120ddcb7b8584a28e073527/buildbot_react_wsgi_dashboards-3.11.2.tar.gz
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-react-waterfall-view]: Downloading https://files.pythonhosted.org/packages/c9/af/8aa1c20c6c964ae40c682f6e3ae95e0263df40d5dc44be44ee194a12d125/buildbot_react_waterfall_view-3.11.2.tar.gz
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-pkg]: Downloading https://files.pythonhosted.org/packages/3e/1f/8c6672784ae3c7b2a7e964b4f072a049706710206ba9d6a048f681fee7e8/buildbot-pkg-3.9.2.tar.gz
+[2024-05-20 19:29:19] INFO root fetch - processPackages [buildbot-www-react]: Downloading https://files.pythonhosted.org/packages/49/b5/e2617c8ad91084aae7aa118a5d24f26acaa16eb1edcb2f1542d55bd69460/buildbot-www-react-3.9.1.tar.gz
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-worker]: Downloading https://files.pythonhosted.org/packages/96/81/886001515c8b67bafcbf4bbfeedccfe2571e4cec85cec140396b73312175/buildbot-worker-3.9.1.tar.gz
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-waterfall-view]: Downloading https://files.pythonhosted.org/packages/05/03/21d41d4d6cd8924d94cfe5f9172f1aed4fded2cf404041f6237124e03ae2/buildbot-waterfall-view-3.9.1.tar.gz
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-www]: Downloading https://files.pythonhosted.org/packages/76/19/3ffad8cd4ea5a9a10a6f768d074da955b079ed1aa2f672f6c40f65ad3679/buildbot-www-3.9.2.tar.gz
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-wsgi-dashboards]: Downloading https://files.pythonhosted.org/packages/2e/b5/f6e373068bf4f61c5b3a4594e3c0ea9bebd45ab20b484a8f0a806f2c99d4/buildbot-wsgi-dashboards-3.9.1.tar.gz
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-pkg]: executing diffoscope
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-pkg-3.9.1.tar.gz tmp/buildbot-pkg-3.9.2.tar.gz --markdown 20240520/b/buildbot-pkg/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-react-grid-view]: Downloading https://files.pythonhosted.org/packages/db/d0/62fe29c7a663cfd7976d86e3f4fd432c65700645a016a87778ee78caa0d2/buildbot-react-grid-view-3.9.2.tar.gz
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-react-console-view]: Downloading https://files.pythonhosted.org/packages/1f/91/1908ccff51f5bd969eca62b5745034c1286cd29b6e006abd42374d6709d1/buildbot-react-console-view-3.9.2.tar.gz
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-www-react]: Downloading https://files.pythonhosted.org/packages/5a/b3/1daa2676016c16cf799f8f4c8ff74ea7935cf07686c01898ec895d912848/buildbot-www-react-3.9.2.tar.gz
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-react-wsgi-dashboards]: Downloading https://files.pythonhosted.org/packages/c3/de/fccafeee6fdafd4aee837511e0ed84a8de62a3a9da40ef91f6671b670bd9/buildbot_react_wsgi_dashboards-3.11.3.tar.gz
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-react-waterfall-view]: Downloading https://files.pythonhosted.org/packages/a0/27/a47773bc9423f0223cf3184eed90d3378a627673de53e4d2b2b606aae0a0/buildbot_react_waterfall_view-3.11.3.tar.gz
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-worker]: Downloading https://files.pythonhosted.org/packages/02/bb/c0c257f284e2a85c710cb95aac20bf06cd17bf0e3ad071483ca1b68c85c2/buildbot-worker-3.9.2.tar.gz
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-waterfall-view]: Downloading https://files.pythonhosted.org/packages/aa/49/8a4e985d7176dae364c2a74584f92376931d0f3e05c1593ebe79702f4b60/buildbot-waterfall-view-3.9.2.tar.gz
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-react-grid-view]: executing diffoscope
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-react-grid-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-react-grid-view-3.9.1.tar.gz tmp/buildbot-react-grid-view-3.9.2.tar.gz --markdown 20240520/b/buildbot-react-grid-view/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-react-console-view]: executing diffoscope
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-react-console-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-react-console-view-3.9.1.tar.gz tmp/buildbot-react-console-view-3.9.2.tar.gz --markdown 20240520/b/buildbot-react-console-view/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-www-react]: executing diffoscope
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-www-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-www-react-3.9.1.tar.gz tmp/buildbot-www-react-3.9.2.tar.gz --markdown 20240520/b/buildbot-www-react/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-react-waterfall-view]: executing diffoscope
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-react-waterfall-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot_react_waterfall_view-3.11.2.tar.gz tmp/buildbot_react_waterfall_view-3.11.3.tar.gz --markdown 20240520/b/buildbot-react-waterfall-view/3.11.2-3.11.3/README.md --exclude *.pyd
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-waterfall-view]: executing diffoscope
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-waterfall-view]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-waterfall-view-3.9.1.tar.gz tmp/buildbot-waterfall-view-3.9.2.tar.gz --markdown 20240520/b/buildbot-waterfall-view/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-worker]: executing diffoscope
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-worker-3.9.1.tar.gz tmp/buildbot-worker-3.9.2.tar.gz --markdown 20240520/b/buildbot-worker/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-react-wsgi-dashboards]: executing diffoscope
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-react-wsgi-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot_react_wsgi_dashboards-3.11.2.tar.gz tmp/buildbot_react_wsgi_dashboards-3.11.3.tar.gz --markdown 20240520/b/buildbot-react-wsgi-dashboards/3.11.2-3.11.3/README.md --exclude *.pyd
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-wsgi-dashboards]: Downloading https://files.pythonhosted.org/packages/85/42/fdabd518532dada6324607c01ca4012ac4c0e98d8a011412bdbf15d46a01/buildbot-wsgi-dashboards-3.9.2.tar.gz
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-pkg]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-pkg-3.9.1.tar.gz]
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-wsgi-dashboards]: executing diffoscope
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-wsgi-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-wsgi-dashboards-3.9.1.tar.gz tmp/buildbot-wsgi-dashboards-3.9.2.tar.gz --markdown 20240520/b/buildbot-wsgi-dashboards/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-pkg]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-pkg-3.9.2.tar.gz]
+[2024-05-20 19:29:20] INFO root fetch - processPackages [buildbot-pkg]: Start processing: luminesce-sdk
+[2024-05-20 19:29:20] INFO root fetch - main [MainThread]: End processing [buildbot-pkg]: success
+[2024-05-20 19:29:20] INFO root fetch - processPackages [luminesce-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-20 19:29:20] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/e3/65/3696ddb18aebc5d84165e3aad87e9f8ef387ad4f28960b5404833fc6eef5/luminesce_sdk-2.1.8.tar.gz
+[2024-05-20 19:29:21] INFO root fetch - processPackages [luminesce-sdk]: Downloading https://files.pythonhosted.org/packages/a2/f8/60fd93602c8a8ca95dc7c40c70e8cd0227fcbe0dbb602c1f1f2c4d761b20/luminesce_sdk-2.1.9.tar.gz
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-www-react]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-www-react-3.9.1.tar.gz]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-www-react]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-www-react-3.9.2.tar.gz]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-www-react]: Start processing: fuel-efficiency
+[2024-05-20 19:29:21] INFO root fetch - main [MainThread]: End processing [buildbot-www-react]: success
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-react-console-view]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-react-console-view-3.9.1.tar.gz]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-react-console-view]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-react-console-view-3.9.2.tar.gz]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-react-console-view]: Start processing: aurum-hikari
+[2024-05-20 19:29:21] INFO root fetch - main [MainThread]: End processing [buildbot-react-console-view]: success
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-www]: Downloading https://files.pythonhosted.org/packages/62/20/5d2ac3982e94bf7b559a88d7397cc8a4d83e55b5ff71a1cce7081a71af43/buildbot-www-v0.9.0b9.tar.gz
+[2024-05-20 19:29:21] INFO root fetch - processPackages [luminesce-sdk]: executing diffoscope
+[2024-05-20 19:29:21] INFO root fetch - processPackages [luminesce-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce_sdk-2.1.8.tar.gz tmp/luminesce_sdk-2.1.9.tar.gz --markdown 20240520/l/luminesce-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-20 19:29:21] INFO root fetch - processPackages [fuel-efficiency]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-react-grid-view]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-react-grid-view-3.9.1.tar.gz]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-react-grid-view]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-react-grid-view-3.9.2.tar.gz]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-react-grid-view]: Start processing: cs2solutions
+[2024-05-20 19:29:21] INFO root fetch - main [MainThread]: End processing [buildbot-react-grid-view]: success
+[2024-05-20 19:29:21] INFO root fetch - processPackages [fuel-efficiency]: Downloading https://files.pythonhosted.org/packages/eb/6e/7114a33b0f34258882a872eb6e0615137abd143afdbe2fcef1f75a154f51/fuel_efficiency-0.1.3.tar.gz
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-react-waterfall-view]: Remove: archive file [/home/abi/fetcher/tmp/buildbot_react_waterfall_view-3.11.2.tar.gz]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-react-waterfall-view]: Remove: archive file [/home/abi/fetcher/tmp/buildbot_react_waterfall_view-3.11.3.tar.gz]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-react-waterfall-view]: Start processing: aac
+[2024-05-20 19:29:21] INFO root fetch - main [MainThread]: End processing [buildbot-react-waterfall-view]: success
+[2024-05-20 19:29:21] INFO root fetch - processPackages [aurum-hikari]: New version: [0.1.4.1] Old Version: [0.1.4]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [aac]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-react-wsgi-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/buildbot_react_wsgi_dashboards-3.11.2.tar.gz]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-react-wsgi-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/buildbot_react_wsgi_dashboards-3.11.3.tar.gz]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-react-wsgi-dashboards]: Start processing: weaviate-client
+[2024-05-20 19:29:21] INFO root fetch - main [MainThread]: End processing [buildbot-react-wsgi-dashboards]: success
+[2024-05-20 19:29:21] INFO root fetch - processPackages [cs2solutions]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [weaviate-client]: New version: [4.7.0a0] Old Version: [4.6.3]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-waterfall-view]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-waterfall-view-3.9.1.tar.gz]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-waterfall-view]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-waterfall-view-3.9.2.tar.gz]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-waterfall-view]: Start processing: scratchcommunication
+[2024-05-20 19:29:21] INFO root fetch - main [MainThread]: End processing [buildbot-waterfall-view]: success
+[2024-05-20 19:29:21] INFO root fetch - processPackages [aac]: Downloading https://files.pythonhosted.org/packages/e1/7d/271be6be0c8ca7eb0939a8ec71471030e5332ba8d07d4bc98c98c69a9719/aac-0.4.4-py3-none-any.whl
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-wsgi-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-wsgi-dashboards-3.9.1.tar.gz]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-wsgi-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-wsgi-dashboards-3.9.2.tar.gz]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-wsgi-dashboards]: Start processing: dve-lumipy-testing
+[2024-05-20 19:29:21] INFO root fetch - main [MainThread]: End processing [buildbot-wsgi-dashboards]: success
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-www]: executing diffoscope
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-www]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildbot-www-3.9.2.tar.gz tmp/buildbot-www-v0.9.0b9.tar.gz --markdown 20240520/b/buildbot-www/3.9.2-v0.9.0b9/README.md --exclude *.pyd
+[2024-05-20 19:29:21] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [aurum-hikari]: Downloading https://files.pythonhosted.org/packages/11/94/ce4ec06577884ccf414d69c280b2a82208592c96cf8243fdb7949d6fdc74/aurum_hikari-0.1.4.tar.gz
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-worker]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-worker-3.9.1.tar.gz]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-worker]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-worker-3.9.2.tar.gz]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [buildbot-worker]: Start processing: cisdb
+[2024-05-20 19:29:21] INFO root fetch - main [MainThread]: End processing [buildbot-worker]: success
+[2024-05-20 19:29:21] INFO root fetch - processPackages [scratchcommunication]: New version: [2.8.1] Old Version: [2.7.2]
+[2024-05-20 19:29:21] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/53/82/4b8f81f83c1bc0cb70b8e6b1d5d636fada154a6455f5e3d9c16a08e40242/weaviate_client-4.6.3.tar.gz
+[2024-05-20 19:29:21] WARNING root fetch - processPackages [cisdb]: Skipping, unable to determine old version
+[2024-05-20 19:29:21] INFO root fetch - processPackages [cisdb]: Start processing: cv-smart-house-module-motion-detection
+[2024-05-20 19:29:21] INFO root fetch - main [MainThread]: End processing [cisdb] error
+[2024-05-20 19:29:21] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-20 19:29:21] INFO root fetch - processPackages [fuel-efficiency]: Downloading https://files.pythonhosted.org/packages/25/30/9d4a69d56fb6c5c233180046cb28910e93f09520f689474def00419ac45a/fuel_efficiency-0.1.4.tar.gz
+[2024-05-20 19:29:21] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/66/14/f376d0a925d96549889ac360f879847ed504c28ab358a5b32ab669a19eb3/cs2solutions-0.8.1.tar.gz
+[2024-05-20 19:29:21] INFO root fetch - processPackages [aac]: Downloading https://files.pythonhosted.org/packages/83/37/d77b09a63ad07a603875013caee8c44a7cdb362fb809d2f03e60261d5e21/aac-0.4.5-py3-none-any.whl
+[2024-05-20 19:29:22] WARNING root fetch - processPackages [cv-smart-house-module-motion-detection]: Skipping, unable to determine old version
+[2024-05-20 19:29:22] INFO root fetch - processPackages [cv-smart-house-module-motion-detection]: Start processing: django-nets-core
+[2024-05-20 19:29:22] INFO root fetch - main [MainThread]: End processing [cv-smart-house-module-motion-detection] error
+[2024-05-20 19:29:22] INFO root fetch - processPackages [fuel-efficiency]: executing diffoscope
+[2024-05-20 19:29:22] INFO root fetch - processPackages [fuel-efficiency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuel_efficiency-0.1.3.tar.gz tmp/fuel_efficiency-0.1.4.tar.gz --markdown 20240520/f/fuel-efficiency/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-20 19:29:22] INFO root fetch - processPackages [scratchcommunication]: Downloading https://files.pythonhosted.org/packages/06/c5/7c090605324a5c246b52ebdd08d26c840aac01bf4d09562e9aefa480e6a7/scratchcommunication-2.7.2.tar.gz
+[2024-05-20 19:29:22] INFO root fetch - processPackages [django-nets-core]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-20 19:29:22] INFO root fetch - processPackages [aac]: executing diffoscope
+[2024-05-20 19:29:22] INFO root fetch - processPackages [aac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aac-0.4.4-py3-none-any.whl.zip tmp/aac-0.4.5-py3-none-any.whl.zip --markdown 20240520/a/aac/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-20 19:29:22] INFO root fetch - processPackages [aurum-hikari]: Downloading https://files.pythonhosted.org/packages/c1/66/e4f5b3219fc7f0575172bcd0f82127a2e26ae58328a3ee62972e1bb1150d/aurum_hikari-0.1.4.1.tar.gz
+[2024-05-20 19:29:22] INFO root fetch - processPackages [django-nets-core]: Downloading https://files.pythonhosted.org/packages/79/c3/cda8f33a48cc3ba33d3b6d9e2fbd7ee2b5c3361c5337b09da3d8a207b017/django_nets_core-0.1.98.tar.gz
+[2024-05-20 19:29:22] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-20 19:29:22] INFO root fetch - processPackages [aurum-hikari]: executing diffoscope
+[2024-05-20 19:29:22] INFO root fetch - processPackages [aurum-hikari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aurum_hikari-0.1.4.tar.gz tmp/aurum_hikari-0.1.4.1.tar.gz --markdown 20240520/a/aurum-hikari/0.1.4-0.1.4.1/README.md --exclude *.pyd
+[2024-05-20 19:29:22] INFO root fetch - processPackages [weaviate-client]: Downloading https://files.pythonhosted.org/packages/09/8f/c9f3bf42042ff63357daa8e8d7200ce0404944d4b491d887038a2b534f52/weaviate_client-4.7.0a0.tar.gz
+[2024-05-20 19:29:22] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-20 19:29:22] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240520/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 19:29:22] INFO root fetch - processPackages [cs2solutions]: Downloading https://files.pythonhosted.org/packages/f4/d2/172361470d03a2bfde5b54970eda7f03df7906471ece6e8b9cd97407bf13/cs2solutions-0.9.0.tar.gz
+[2024-05-20 19:29:22] INFO root fetch - processPackages [django-nets-core]: Downloading https://files.pythonhosted.org/packages/36/e9/30dde935785c504d8cae7b3855974eccdf725a0992dff1f40f413d916c8b/django_nets_core-0.1.99.tar.gz
+[2024-05-20 19:29:22] INFO root fetch - processPackages [scratchcommunication]: Downloading https://files.pythonhosted.org/packages/5b/30/f4c79e9e09eb1e412f129170702ad22b2500cc674f6020a3eaed00b63d19/scratchcommunication-2.8.1.tar.gz
+[2024-05-20 19:29:22] INFO root fetch - processPackages [weaviate-client]: executing diffoscope
+[2024-05-20 19:29:22] INFO root fetch - processPackages [weaviate-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaviate_client-4.6.3.tar.gz tmp/weaviate_client-4.7.0a0.tar.gz --markdown 20240520/w/weaviate-client/4.6.3-4.7.0a0/README.md --exclude *.pyd
+[2024-05-20 19:29:22] INFO root fetch - processPackages [cs2solutions]: executing diffoscope
+[2024-05-20 19:29:22] INFO root fetch - processPackages [cs2solutions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2solutions-0.8.1.tar.gz tmp/cs2solutions-0.9.0.tar.gz --markdown 20240520/c/cs2solutions/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-20 19:29:22] INFO root fetch - processPackages [django-nets-core]: executing diffoscope
+[2024-05-20 19:29:22] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.8.tar.gz]
+[2024-05-20 19:29:22] INFO root fetch - processPackages [django-nets-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_nets_core-0.1.98.tar.gz tmp/django_nets_core-0.1.99.tar.gz --markdown 20240520/d/django-nets-core/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-20 19:29:22] INFO root fetch - processPackages [luminesce-sdk]: Remove: archive file [/home/abi/fetcher/tmp/luminesce_sdk-2.1.9.tar.gz]
+[2024-05-20 19:29:22] INFO root fetch - processPackages [scratchcommunication]: executing diffoscope
+[2024-05-20 19:29:22] INFO root fetch - processPackages [luminesce-sdk]: Start processing: django-d1db
+[2024-05-20 19:29:22] INFO root fetch - main [MainThread]: End processing [luminesce-sdk]: success
+[2024-05-20 19:29:22] INFO root fetch - processPackages [scratchcommunication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scratchcommunication-2.7.2.tar.gz tmp/scratchcommunication-2.8.1.tar.gz --markdown 20240520/s/scratchcommunication/2.7.2-2.8.1/README.md --exclude *.pyd
+[2024-05-20 19:29:22] INFO root fetch - processPackages [django-d1db]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-20 19:29:22] INFO root fetch - processPackages [fuel-efficiency]: Remove: archive file [/home/abi/fetcher/tmp/fuel_efficiency-0.1.3.tar.gz]
+[2024-05-20 19:29:22] INFO root fetch - processPackages [fuel-efficiency]: Remove: archive file [/home/abi/fetcher/tmp/fuel_efficiency-0.1.4.tar.gz]
+[2024-05-20 19:29:22] INFO root fetch - main [MainThread]: End processing [fuel-efficiency]: success
+[2024-05-20 19:29:22] INFO root fetch - processPackages [django-d1db]: Downloading https://files.pythonhosted.org/packages/8a/d3/f8cc7a34441476ac0ce083e31ddad3f44eeae7cfd13d17b95f9bb3ecbe99/django_d1db-0.0.1.tar.gz
+[2024-05-20 19:29:23] INFO root fetch - processPackages [aurum-hikari]: Remove: archive file [/home/abi/fetcher/tmp/aurum_hikari-0.1.4.tar.gz]
+[2024-05-20 19:29:23] INFO root fetch - processPackages [aurum-hikari]: Remove: archive file [/home/abi/fetcher/tmp/aurum_hikari-0.1.4.1.tar.gz]
+[2024-05-20 19:29:23] INFO root fetch - main [MainThread]: End processing [aurum-hikari]: success
+[2024-05-20 19:29:23] ERROR root fetch - processPackages [django-d1db]: Unable to fetch info: No such project/version 'django-d1db' 0.0.2
+[2024-05-20 19:29:23] INFO root fetch - main [MainThread]: End processing [django-d1db] error
+[2024-05-20 19:29:23] INFO root fetch - processPackages [aac]: Remove: archive file [/home/abi/fetcher/tmp/aac-0.4.4-py3-none-any.whl.zip]
+[2024-05-20 19:29:23] INFO root fetch - processPackages [aac]: Remove: archive file [/home/abi/fetcher/tmp/aac-0.4.5-py3-none-any.whl.zip]
+[2024-05-20 19:29:23] INFO root fetch - main [MainThread]: End processing [aac]: success
+[2024-05-20 19:29:23] INFO root fetch - processPackages [scratchcommunication]: Remove: archive file [/home/abi/fetcher/tmp/scratchcommunication-2.7.2.tar.gz]
+[2024-05-20 19:29:23] INFO root fetch - processPackages [scratchcommunication]: Remove: archive file [/home/abi/fetcher/tmp/scratchcommunication-2.8.1.tar.gz]
+[2024-05-20 19:29:23] INFO root fetch - main [MainThread]: End processing [scratchcommunication]: success
+[2024-05-20 19:29:23] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.8.1.tar.gz]
+[2024-05-20 19:29:23] INFO root fetch - processPackages [cs2solutions]: Remove: archive file [/home/abi/fetcher/tmp/cs2solutions-0.9.0.tar.gz]
+[2024-05-20 19:29:23] INFO root fetch - main [MainThread]: End processing [cs2solutions]: success
+[2024-05-20 19:29:23] INFO root fetch - processPackages [django-nets-core]: Remove: archive file [/home/abi/fetcher/tmp/django_nets_core-0.1.98.tar.gz]
+[2024-05-20 19:29:23] INFO root fetch - processPackages [django-nets-core]: Remove: archive file [/home/abi/fetcher/tmp/django_nets_core-0.1.99.tar.gz]
+[2024-05-20 19:29:23] INFO root fetch - main [MainThread]: End processing [django-nets-core]: success
+[2024-05-20 19:29:23] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-20 19:29:23] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-20 19:29:23] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-20 19:29:24] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate_client-4.6.3.tar.gz]
+[2024-05-20 19:29:24] INFO root fetch - processPackages [weaviate-client]: Remove: archive file [/home/abi/fetcher/tmp/weaviate_client-4.7.0a0.tar.gz]
+[2024-05-20 19:29:24] INFO root fetch - main [MainThread]: End processing [weaviate-client]: success
+[2024-05-20 19:29:24] INFO root fetch - processPackages [buildbot-www]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-www-3.9.2.tar.gz]
+[2024-05-20 19:29:24] INFO root fetch - processPackages [buildbot-www]: Remove: archive file [/home/abi/fetcher/tmp/buildbot-www-v0.9.0b9.tar.gz]
+[2024-05-20 19:29:24] INFO root fetch - main [MainThread]: End processing [buildbot-www]: success
+[2024-05-20 19:29:24] INFO root fetch - main [MainThread]: Store serial: [23293451]

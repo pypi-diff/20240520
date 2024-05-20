@@ -6248,3 +6248,36 @@
 [2024-05-20 06:10:33] INFO root fetch - processPackages [mirabolic]: Remove: archive file [/home/abi/fetcher/tmp/mirabolic-0.2.0.tar.gz]
 [2024-05-20 06:10:33] INFO root fetch - main [MainThread]: End processing [mirabolic]: success
 [2024-05-20 06:10:33] INFO root fetch - main [MainThread]: Store serial: [23284343]
+[2024-05-20 06:12:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284343]
+[2024-05-20 06:12:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 06:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metalworkz
+[2024-05-20 06:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: colalamo
+[2024-05-20 06:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: classnotation
+[2024-05-20 06:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dmk-packages
+[2024-05-20 06:12:42] INFO root fetch - processPackages [colalamo]: New version: [0.1.2102] Old Version: [0.1.2101]
+[2024-05-20 06:12:42] INFO root fetch - processPackages [dmk-packages]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-20 06:12:42] INFO root fetch - processPackages [colalamo]: Downloading https://files.pythonhosted.org/packages/34/1a/dc806cf5866be47db577dc91a945592c6af2d3147b4ba3c91cdcb8eee90a/colalamo-0.1.2101.tar.gz
+[2024-05-20 06:12:42] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/5b/7c/04294135169ddef304f1bd273ba901e5923691a766f41a717fa3b8204edb/dmk_packages-0.7.4.tar.gz
+[2024-05-20 06:12:42] WARNING root fetch - processPackages [metalworkz]: Skipping, unable to determine old version
+[2024-05-20 06:12:42] INFO root fetch - main [MainThread]: End processing [metalworkz] error
+[2024-05-20 06:12:42] INFO root fetch - processPackages [classnotation]: New version: [1.2.1] Old Version: [1.2]
+[2024-05-20 06:12:42] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/4f/0e/79c7dc9d15a8cd303074aa29b008bf4b15999f4f21f8bf4bcaea103de56d/dmk_packages-0.7.5.tar.gz
+[2024-05-20 06:12:42] INFO root fetch - processPackages [classnotation]: Downloading https://files.pythonhosted.org/packages/35/e2/552fe69cdf534dc8eee52b9c49c3eb76904cf6a92f687698e60e78e2dce5/classnotation-1.2.tar.gz
+[2024-05-20 06:12:42] INFO root fetch - processPackages [colalamo]: Downloading https://files.pythonhosted.org/packages/cb/d0/eb968e858c5374afb79b13cd0297cf140b9f36ef5d17b82756b2aa4139eb/colalamo-0.1.2102.tar.gz
+[2024-05-20 06:12:42] INFO root fetch - processPackages [dmk-packages]: executing diffoscope
+[2024-05-20 06:12:42] INFO root fetch - processPackages [dmk-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmk_packages-0.7.4.tar.gz tmp/dmk_packages-0.7.5.tar.gz --markdown 20240520/d/dmk-packages/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-20 06:12:42] INFO root fetch - processPackages [colalamo]: executing diffoscope
+[2024-05-20 06:12:42] INFO root fetch - processPackages [colalamo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colalamo-0.1.2101.tar.gz tmp/colalamo-0.1.2102.tar.gz --markdown 20240520/c/colalamo/0.1.2101-0.1.2102/README.md --exclude *.pyd
+[2024-05-20 06:12:42] INFO root fetch - processPackages [classnotation]: Downloading https://files.pythonhosted.org/packages/29/ab/dbd0018880b4bc358b2081b70df5ac4a8d651474cc15ba64e0728f90e799/classnotation-1.2.1.tar.gz
+[2024-05-20 06:12:43] INFO root fetch - processPackages [classnotation]: executing diffoscope
+[2024-05-20 06:12:43] INFO root fetch - processPackages [classnotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classnotation-1.2.tar.gz tmp/classnotation-1.2.1.tar.gz --markdown 20240520/c/classnotation/1.2-1.2.1/README.md --exclude *.pyd
+[2024-05-20 06:12:43] INFO root fetch - processPackages [colalamo]: Remove: archive file [/home/abi/fetcher/tmp/colalamo-0.1.2101.tar.gz]
+[2024-05-20 06:12:43] INFO root fetch - processPackages [colalamo]: Remove: archive file [/home/abi/fetcher/tmp/colalamo-0.1.2102.tar.gz]
+[2024-05-20 06:12:43] INFO root fetch - main [MainThread]: End processing [colalamo]: success
+[2024-05-20 06:12:43] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.7.4.tar.gz]
+[2024-05-20 06:12:43] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.7.5.tar.gz]
+[2024-05-20 06:12:43] INFO root fetch - main [MainThread]: End processing [dmk-packages]: success
+[2024-05-20 06:12:43] INFO root fetch - processPackages [classnotation]: Remove: archive file [/home/abi/fetcher/tmp/classnotation-1.2.tar.gz]
+[2024-05-20 06:12:43] INFO root fetch - processPackages [classnotation]: Remove: archive file [/home/abi/fetcher/tmp/classnotation-1.2.1.tar.gz]
+[2024-05-20 06:12:43] INFO root fetch - main [MainThread]: End processing [classnotation]: success
+[2024-05-20 06:12:43] INFO root fetch - main [MainThread]: Store serial: [23284367]

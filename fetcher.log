@@ -8641,3 +8641,24 @@
 [2024-05-20 08:41:02] INFO root fetch - processPackages [antsibull-changelog]: Remove: archive file [/home/abi/fetcher/tmp/antsibull-changelog-0.9.0.tar.gz]
 [2024-05-20 08:41:02] INFO root fetch - main [MainThread]: End processing [antsibull-changelog]: success
 [2024-05-20 08:41:02] INFO root fetch - main [MainThread]: Store serial: [23285638]
+[2024-05-20 08:43:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285638]
+[2024-05-20 08:43:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 08:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autora-experiment-runner-firebase-prolific
+[2024-05-20 08:43:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdkfabric-notion
+[2024-05-20 08:43:11] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: New version: [1.0.0b6] Old Version: [1.0.0b5]
+[2024-05-20 08:43:11] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Downloading https://files.pythonhosted.org/packages/09/76/0a33d9ef9cdcc30f25d59be1044222dc7e8453b965c47b0e8db23bc3714a/autora_experiment_runner_firebase_prolific-1.0.0b5.tar.gz
+[2024-05-20 08:43:11] INFO root fetch - processPackages [sdkfabric-notion]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-05-20 08:43:11] INFO root fetch - processPackages [sdkfabric-notion]: Downloading https://files.pythonhosted.org/packages/1f/b9/771e819908a9062df29139f67aecc4b7511c29ac8ac709cf7522df67c9ae/sdkfabric_notion-0.1.0.tar.gz
+[2024-05-20 08:43:11] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Downloading https://files.pythonhosted.org/packages/09/c3/c025ade029f8cf1da7a7909cc5016914ee25d7965a14a394063184c9a433/autora_experiment_runner_firebase_prolific-1.0.0b6.tar.gz
+[2024-05-20 08:43:11] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: executing diffoscope
+[2024-05-20 08:43:11] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora_experiment_runner_firebase_prolific-1.0.0b5.tar.gz tmp/autora_experiment_runner_firebase_prolific-1.0.0b6.tar.gz --markdown 20240520/a/autora-experiment-runner-firebase-prolific/1.0.0b5-1.0.0b6/README.md --exclude *.pyd
+[2024-05-20 08:43:11] INFO root fetch - processPackages [sdkfabric-notion]: Downloading https://files.pythonhosted.org/packages/21/83/2528a395eb10009c8aca094d74a7fd65689129d2fbe378c313c0660cd3d3/sdkfabric_notion-0.1.2.tar.gz
+[2024-05-20 08:43:12] INFO root fetch - processPackages [sdkfabric-notion]: executing diffoscope
+[2024-05-20 08:43:12] INFO root fetch - processPackages [sdkfabric-notion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkfabric_notion-0.1.0.tar.gz tmp/sdkfabric_notion-0.1.2.tar.gz --markdown 20240520/s/sdkfabric-notion/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-05-20 08:43:12] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_firebase_prolific-1.0.0b5.tar.gz]
+[2024-05-20 08:43:12] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_firebase_prolific-1.0.0b6.tar.gz]
+[2024-05-20 08:43:12] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-firebase-prolific]: success
+[2024-05-20 08:43:12] INFO root fetch - processPackages [sdkfabric-notion]: Remove: archive file [/home/abi/fetcher/tmp/sdkfabric_notion-0.1.0.tar.gz]
+[2024-05-20 08:43:12] INFO root fetch - processPackages [sdkfabric-notion]: Remove: archive file [/home/abi/fetcher/tmp/sdkfabric_notion-0.1.2.tar.gz]
+[2024-05-20 08:43:12] INFO root fetch - main [MainThread]: End processing [sdkfabric-notion]: success
+[2024-05-20 08:43:12] INFO root fetch - main [MainThread]: Store serial: [23285644]

@@ -18867,3 +18867,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:36:44] INFO root fetch - processPackages [a9x-webstatistics]: Remove: archive file [/home/abi/fetcher/tmp/a9x_webstatistics-0.1.9.tar.gz]
 [2024-05-20 15:36:44] INFO root fetch - main [MainThread]: End processing [a9x-webstatistics]: success
 [2024-05-20 15:36:44] INFO root fetch - main [MainThread]: Store serial: [23290387]
+[2024-05-20 15:38:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290387]
+[2024-05-20 15:38:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 15:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mrfix
+[2024-05-20 15:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edx-enterprise
+[2024-05-20 15:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fuel-efficiency
+[2024-05-20 15:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Audire
+[2024-05-20 15:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: json-dict-diff
+[2024-05-20 15:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vmas
+[2024-05-20 15:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: momiji
+[2024-05-20 15:38:55] INFO root fetch - processPackages [mrfix]: New version: [6.0.4] Old Version: [6.0.3]
+[2024-05-20 15:38:55] INFO root fetch - processPackages [Audire]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2024-05-20 15:38:55] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/3b/99/6a5c39438aed6292f8c3dd1101455a5bc1d9808f68b1e1b2e4d4588a129f/mrfix-6.0.3.tar.gz
+[2024-05-20 15:38:55] INFO root fetch - processPackages [fuel-efficiency]: New version: [0.1.3] Old Version: [0.1.0]
+[2024-05-20 15:38:55] INFO root fetch - processPackages [vmas]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-20 15:38:55] WARNING root fetch - processPackages [momiji]: Skipping, unable to determine old version
+[2024-05-20 15:38:55] INFO root fetch - main [MainThread]: End processing [momiji] error
+[2024-05-20 15:38:55] WARNING root fetch - processPackages [json-dict-diff]: Skipping, unable to determine old version
+[2024-05-20 15:38:55] INFO root fetch - main [MainThread]: End processing [json-dict-diff] error
+[2024-05-20 15:38:55] INFO root fetch - processPackages [edx-enterprise]: New version: [4.9.5] Old Version: [4.9.2]
+[2024-05-20 15:38:55] INFO root fetch - processPackages [Audire]: Downloading https://files.pythonhosted.org/packages/99/cf/2d14e8bf59bba91b9a58c2d48a9896009fed8cb6c2448f0d70157657fb2d/audire-1.0.0b1.tar.gz
+[2024-05-20 15:38:55] INFO root fetch - processPackages [fuel-efficiency]: Downloading https://files.pythonhosted.org/packages/d0/d8/c07b5c2f7f7da93a2d48857fa50c63b478e519346d8f326e7447d468567e/fuel_efficiency-0.1.0.tar.gz
+[2024-05-20 15:38:55] INFO root fetch - processPackages [vmas]: Downloading https://files.pythonhosted.org/packages/75/d0/e6ec4e48df6fae8591d645ae8e9b52f23882c5a93e324a3199e7d88c5fcb/vmas-1.4.0.tar.gz
+[2024-05-20 15:38:55] INFO root fetch - processPackages [mrfix]: Downloading https://files.pythonhosted.org/packages/34/7d/900b7b4ea9697db6e3a96e70a7617b4e1c37d0869766e029a42b14386c6c/mrfix-6.0.4.tar.gz
+[2024-05-20 15:38:55] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/e4/b3/dc021f2c163a19997e4167718a40d80668c3f4a6aa155975e4fbc7d84bc6/edx-enterprise-4.9.2.tar.gz
+[2024-05-20 15:38:55] INFO root fetch - processPackages [mrfix]: executing diffoscope
+[2024-05-20 15:38:55] INFO root fetch - processPackages [mrfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrfix-6.0.3.tar.gz tmp/mrfix-6.0.4.tar.gz --markdown 20240520/m/mrfix/6.0.3-6.0.4/README.md --exclude *.pyd
+[2024-05-20 15:38:55] INFO root fetch - processPackages [Audire]: Downloading https://files.pythonhosted.org/packages/fc/41/60bfd8975ed9f1812a1605e46082f6f6b48e37f125a924335b10a6ebbe31/audire-1.0.0b2.tar.gz
+[2024-05-20 15:38:55] INFO root fetch - processPackages [fuel-efficiency]: Downloading https://files.pythonhosted.org/packages/eb/6e/7114a33b0f34258882a872eb6e0615137abd143afdbe2fcef1f75a154f51/fuel_efficiency-0.1.3.tar.gz
+[2024-05-20 15:38:55] INFO root fetch - processPackages [Audire]: executing diffoscope
+[2024-05-20 15:38:55] INFO root fetch - processPackages [Audire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audire-1.0.0b1.tar.gz tmp/audire-1.0.0b2.tar.gz --markdown 20240520/A/Audire/1.0.0b1-1.0.0b2/README.md --exclude *.pyd
+[2024-05-20 15:38:55] INFO root fetch - processPackages [vmas]: Downloading https://files.pythonhosted.org/packages/66/78/44e288cc7c825d01c02646ad14c772f153b4412e3879ae0b2d949b9b2e3c/vmas-1.4.1.tar.gz
+[2024-05-20 15:38:55] INFO root fetch - processPackages [fuel-efficiency]: executing diffoscope
+[2024-05-20 15:38:55] INFO root fetch - processPackages [fuel-efficiency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuel_efficiency-0.1.0.tar.gz tmp/fuel_efficiency-0.1.3.tar.gz --markdown 20240520/f/fuel-efficiency/0.1.0-0.1.3/README.md --exclude *.pyd
+[2024-05-20 15:38:55] INFO root fetch - processPackages [vmas]: executing diffoscope
+[2024-05-20 15:38:55] INFO root fetch - processPackages [vmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmas-1.4.0.tar.gz tmp/vmas-1.4.1.tar.gz --markdown 20240520/v/vmas/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-20 15:38:56] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/38/83/c01344f1866c05fe5671721941192ad2a1ab055d72d2e575ce08b970d4ef/edx-enterprise-4.9.5.tar.gz
+[2024-05-20 15:38:56] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2024-05-20 15:38:56] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-4.9.2.tar.gz tmp/edx-enterprise-4.9.5.tar.gz --markdown 20240520/e/edx-enterprise/4.9.2-4.9.5/README.md --exclude *.pyd
+[2024-05-20 15:38:56] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-6.0.3.tar.gz]
+[2024-05-20 15:38:56] INFO root fetch - processPackages [mrfix]: Remove: archive file [/home/abi/fetcher/tmp/mrfix-6.0.4.tar.gz]
+[2024-05-20 15:38:56] INFO root fetch - main [MainThread]: End processing [mrfix]: success
+[2024-05-20 15:38:56] INFO root fetch - processPackages [fuel-efficiency]: Remove: archive file [/home/abi/fetcher/tmp/fuel_efficiency-0.1.0.tar.gz]
+[2024-05-20 15:38:56] INFO root fetch - processPackages [fuel-efficiency]: Remove: archive file [/home/abi/fetcher/tmp/fuel_efficiency-0.1.3.tar.gz]
+[2024-05-20 15:38:56] INFO root fetch - main [MainThread]: End processing [fuel-efficiency]: success
+[2024-05-20 15:38:56] INFO root fetch - processPackages [Audire]: Remove: archive file [/home/abi/fetcher/tmp/audire-1.0.0b1.tar.gz]
+[2024-05-20 15:38:56] INFO root fetch - processPackages [Audire]: Remove: archive file [/home/abi/fetcher/tmp/audire-1.0.0b2.tar.gz]
+[2024-05-20 15:38:56] INFO root fetch - main [MainThread]: End processing [Audire]: success
+[2024-05-20 15:38:57] INFO root fetch - processPackages [vmas]: Remove: archive file [/home/abi/fetcher/tmp/vmas-1.4.0.tar.gz]
+[2024-05-20 15:38:57] INFO root fetch - processPackages [vmas]: Remove: archive file [/home/abi/fetcher/tmp/vmas-1.4.1.tar.gz]
+[2024-05-20 15:38:57] INFO root fetch - main [MainThread]: End processing [vmas]: success
+[2024-05-20 15:38:58] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.2.tar.gz]
+[2024-05-20 15:38:58] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.5.tar.gz]
+[2024-05-20 15:38:58] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2024-05-20 15:38:58] INFO root fetch - main [MainThread]: Store serial: [23290415]

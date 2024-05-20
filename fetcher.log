@@ -10732,3 +10732,84 @@
 [2024-05-20 10:30:15] INFO root fetch - processPackages [CTG-Utils]: Remove: archive file [/home/abi/fetcher/tmp/CTG_Utils-1.2.0.tar.gz]
 [2024-05-20 10:30:15] INFO root fetch - main [MainThread]: End processing [CTG-Utils]: success
 [2024-05-20 10:30:15] INFO root fetch - main [MainThread]: Store serial: [23286834]
+[2024-05-20 10:32:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286834]
+[2024-05-20 10:32:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-20 10:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mad-notifications
+[2024-05-20 10:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solar-registry
+[2024-05-20 10:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eliasliu
+[2024-05-20 10:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sais-notify-test
+[2024-05-20 10:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: matrix-gptbot
+[2024-05-20 10:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dash-pydantic-form
+[2024-05-20 10:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xnode
+[2024-05-20 10:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: migmose
+[2024-05-20 10:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-collect-jmeter-report-tests
+[2024-05-20 10:32:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spotinst-agent-beta
+[2024-05-20 10:32:24] INFO root fetch - processPackages [mad-notifications]: New version: [2.2.0] Old Version: [2.1.2]
+[2024-05-20 10:32:24] INFO root fetch - processPackages [dash-pydantic-form]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-20 10:32:24] WARNING root fetch - processPackages [sais-notify-test]: Skipping, unable to determine old version
+[2024-05-20 10:32:24] INFO root fetch - main [MainThread]: End processing [sais-notify-test] error
+[2024-05-20 10:32:24] INFO root fetch - processPackages [eliasliu]: New version: [0.1.56] Old Version: [0.1.55]
+[2024-05-20 10:32:24] INFO root fetch - processPackages [xnode]: New version: [1.1.0] Old Version: [1.0.0.1]
+[2024-05-20 10:32:24] INFO root fetch - processPackages [solar-registry]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-20 10:32:24] INFO root fetch - processPackages [spotinst-agent-beta]: New version: [2.2.288] Old Version: [2.2.287]
+[2024-05-20 10:32:24] INFO root fetch - processPackages [dash-pydantic-form]: Downloading https://files.pythonhosted.org/packages/2b/89/b6c7bcdd0ce754034defe163fb4150abd5507e771bae5f08eaca82c029ad/dash_pydantic_form-0.1.5.tar.gz
+[2024-05-20 10:32:24] WARNING root fetch - processPackages [pytest-collect-jmeter-report-tests]: Skipping, unable to determine old version
+[2024-05-20 10:32:24] INFO root fetch - main [MainThread]: End processing [pytest-collect-jmeter-report-tests] error
+[2024-05-20 10:32:24] INFO root fetch - processPackages [migmose]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-05-20 10:32:24] INFO root fetch - processPackages [matrix-gptbot]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-20 10:32:24] INFO root fetch - processPackages [mad-notifications]: Downloading https://files.pythonhosted.org/packages/7a/2d/e4f56a7158b1437cf80b22f6089f186284bed07ca0fd076d72c89e21e259/mad_notifications-2.1.2.tar.gz
+[2024-05-20 10:32:24] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/0e/f2/d054c6d47257d36b6862b3c6612ca69f03a2aa4b63af145d0ea8a522075a/solar_registry-0.2.8.tar.gz
+[2024-05-20 10:32:24] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/ea/fb/15ffff397d1e526ccf343871bf73e68aea2042213943375c7447e5d762f1/eliasliu-0.1.55.tar.gz
+[2024-05-20 10:32:24] INFO root fetch - processPackages [xnode]: Downloading https://files.pythonhosted.org/packages/94/c9/fd8e56c58202a0253116084284b8ca32bd3de78192ab81f02b7009d06bab/xnode-1.0.0.1.tar.gz
+[2024-05-20 10:32:24] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/5c/b7/4679f4eb032516d0298b095698989948d2b0ffd6d2fe30599b24618b8fc9/spotinst-agent-beta-2.2.287.tar.gz
+[2024-05-20 10:32:24] INFO root fetch - processPackages [migmose]: Downloading https://files.pythonhosted.org/packages/ff/2a/932cf4eb183011320c4cddd8c59a8a9870930a10d2ef463e98194def45ef/migmose-0.0.0.tar.gz
+[2024-05-20 10:32:24] INFO root fetch - processPackages [mad-notifications]: Downloading https://files.pythonhosted.org/packages/30/86/cd8b3bc57ad0af2b8cb2019918c62c749979aeebe787a015fa2d9d675a19/mad_notifications-2.2.0.tar.gz
+[2024-05-20 10:32:24] INFO root fetch - processPackages [matrix-gptbot]: Downloading https://files.pythonhosted.org/packages/d7/32/d681dfe9679a330ec33035a50c701126ddd8222d0218a7eaf134bff2583f/matrix_gptbot-0.3.8.tar.gz
+[2024-05-20 10:32:24] INFO root fetch - processPackages [xnode]: Downloading https://files.pythonhosted.org/packages/85/63/b9e628d78490ddf56f92acf5e1cf1b25f8ac1cdb9f06366655ef393554e9/xnode-1.1.0.tar.gz
+[2024-05-20 10:32:24] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/cd/40/34eee216b08c5fa01cbb36635892aad7693c83fa5e87387b29ae05c737f0/solar_registry-0.2.9.tar.gz
+[2024-05-20 10:32:24] INFO root fetch - processPackages [eliasliu]: Downloading https://files.pythonhosted.org/packages/98/5e/301bef99235d3ea8ea7fb03d13598087bb46376909ba21166703d31c635b/eliasliu-0.1.56.tar.gz
+[2024-05-20 10:32:24] INFO root fetch - processPackages [spotinst-agent-beta]: Downloading https://files.pythonhosted.org/packages/98/f6/7bd1270354a993d3ddfe332ed924a9d3ecebd742bbb24462fea6cda14541/spotinst-agent-beta-2.2.288.tar.gz
+[2024-05-20 10:32:25] INFO root fetch - processPackages [xnode]: executing diffoscope
+[2024-05-20 10:32:25] INFO root fetch - processPackages [xnode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnode-1.0.0.1.tar.gz tmp/xnode-1.1.0.tar.gz --markdown 20240520/x/xnode/1.0.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-20 10:32:25] INFO root fetch - processPackages [mad-notifications]: executing diffoscope
+[2024-05-20 10:32:25] INFO root fetch - processPackages [mad-notifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mad_notifications-2.1.2.tar.gz tmp/mad_notifications-2.2.0.tar.gz --markdown 20240520/m/mad-notifications/2.1.2-2.2.0/README.md --exclude *.pyd
+[2024-05-20 10:32:25] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-20 10:32:25] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.8.tar.gz tmp/solar_registry-0.2.9.tar.gz --markdown 20240520/s/solar-registry/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-20 10:32:25] INFO root fetch - processPackages [dash-pydantic-form]: Downloading https://files.pythonhosted.org/packages/32/18/4f31c0d4e51d49164c9a95894b9bd00c476dd532f2938d9a39a4d0e6ecb7/dash_pydantic_form-0.1.6.tar.gz
+[2024-05-20 10:32:25] INFO root fetch - processPackages [spotinst-agent-beta]: executing diffoscope
+[2024-05-20 10:32:25] INFO root fetch - processPackages [spotinst-agent-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotinst-agent-beta-2.2.287.tar.gz tmp/spotinst-agent-beta-2.2.288.tar.gz --markdown 20240520/s/spotinst-agent-beta/2.2.287-2.2.288/README.md --exclude *.pyd
+[2024-05-20 10:32:25] INFO root fetch - processPackages [eliasliu]: executing diffoscope
+[2024-05-20 10:32:25] INFO root fetch - processPackages [eliasliu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eliasliu-0.1.55.tar.gz tmp/eliasliu-0.1.56.tar.gz --markdown 20240520/e/eliasliu/0.1.55-0.1.56/README.md --exclude *.pyd
+[2024-05-20 10:32:25] INFO root fetch - processPackages [dash-pydantic-form]: executing diffoscope
+[2024-05-20 10:32:25] INFO root fetch - processPackages [dash-pydantic-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_pydantic_form-0.1.5.tar.gz tmp/dash_pydantic_form-0.1.6.tar.gz --markdown 20240520/d/dash-pydantic-form/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-20 10:32:25] INFO root fetch - processPackages [migmose]: Downloading https://files.pythonhosted.org/packages/7e/bf/310df3080cb05ac8f45e2ea9a57086dc8d9afa8d4b68c10497eb2cf46420/migmose-0.1.0.tar.gz
+[2024-05-20 10:32:25] INFO root fetch - processPackages [matrix-gptbot]: Downloading https://files.pythonhosted.org/packages/6c/4a/2439a6a79129802308a126448cca1849029134a6e490258c44e9b81d1ea5/matrix_gptbot-0.3.9.tar.gz
+[2024-05-20 10:32:25] INFO root fetch - processPackages [matrix-gptbot]: executing diffoscope
+[2024-05-20 10:32:25] INFO root fetch - processPackages [matrix-gptbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix_gptbot-0.3.8.tar.gz tmp/matrix_gptbot-0.3.9.tar.gz --markdown 20240520/m/matrix-gptbot/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-20 10:32:25] INFO root fetch - processPackages [migmose]: executing diffoscope
+[2024-05-20 10:32:25] INFO root fetch - processPackages [migmose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migmose-0.0.0.tar.gz tmp/migmose-0.1.0.tar.gz --markdown 20240520/m/migmose/0.0.0-0.1.0/README.md --exclude *.pyd
+[2024-05-20 10:32:25] INFO root fetch - processPackages [xnode]: Remove: archive file [/home/abi/fetcher/tmp/xnode-1.0.0.1.tar.gz]
+[2024-05-20 10:32:25] INFO root fetch - processPackages [xnode]: Remove: archive file [/home/abi/fetcher/tmp/xnode-1.1.0.tar.gz]
+[2024-05-20 10:32:25] INFO root fetch - main [MainThread]: End processing [xnode]: success
+[2024-05-20 10:32:25] INFO root fetch - processPackages [spotinst-agent-beta]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-agent-beta-2.2.287.tar.gz]
+[2024-05-20 10:32:25] INFO root fetch - processPackages [spotinst-agent-beta]: Remove: archive file [/home/abi/fetcher/tmp/spotinst-agent-beta-2.2.288.tar.gz]
+[2024-05-20 10:32:25] INFO root fetch - main [MainThread]: End processing [spotinst-agent-beta]: success
+[2024-05-20 10:32:26] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.8.tar.gz]
+[2024-05-20 10:32:26] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.9.tar.gz]
+[2024-05-20 10:32:26] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-20 10:32:26] INFO root fetch - processPackages [mad-notifications]: Remove: archive file [/home/abi/fetcher/tmp/mad_notifications-2.1.2.tar.gz]
+[2024-05-20 10:32:26] INFO root fetch - processPackages [mad-notifications]: Remove: archive file [/home/abi/fetcher/tmp/mad_notifications-2.2.0.tar.gz]
+[2024-05-20 10:32:26] INFO root fetch - main [MainThread]: End processing [mad-notifications]: success
+[2024-05-20 10:32:26] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.55.tar.gz]
+[2024-05-20 10:32:26] INFO root fetch - processPackages [eliasliu]: Remove: archive file [/home/abi/fetcher/tmp/eliasliu-0.1.56.tar.gz]
+[2024-05-20 10:32:26] INFO root fetch - main [MainThread]: End processing [eliasliu]: success
+[2024-05-20 10:32:26] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.5.tar.gz]
+[2024-05-20 10:32:26] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.6.tar.gz]
+[2024-05-20 10:32:26] INFO root fetch - main [MainThread]: End processing [dash-pydantic-form]: success
+[2024-05-20 10:32:26] INFO root fetch - processPackages [matrix-gptbot]: Remove: archive file [/home/abi/fetcher/tmp/matrix_gptbot-0.3.8.tar.gz]
+[2024-05-20 10:32:26] INFO root fetch - processPackages [matrix-gptbot]: Remove: archive file [/home/abi/fetcher/tmp/matrix_gptbot-0.3.9.tar.gz]
+[2024-05-20 10:32:26] INFO root fetch - main [MainThread]: End processing [matrix-gptbot]: success
+[2024-05-20 10:32:26] INFO root fetch - processPackages [migmose]: Remove: archive file [/home/abi/fetcher/tmp/migmose-0.0.0.tar.gz]
+[2024-05-20 10:32:26] INFO root fetch - processPackages [migmose]: Remove: archive file [/home/abi/fetcher/tmp/migmose-0.1.0.tar.gz]
+[2024-05-20 10:32:26] INFO root fetch - main [MainThread]: End processing [migmose]: success
+[2024-05-20 10:32:26] INFO root fetch - main [MainThread]: Store serial: [23286862]

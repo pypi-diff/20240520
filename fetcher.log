@@ -16114,3 +16114,42 @@ EOFError: EOF read where object expected
 [2024-05-20 14:01:01] INFO root fetch - processPackages [edc-screening]: Remove: archive file [/home/abi/fetcher/tmp/edc_screening-0.3.9-py3-none-any.whl.zip]
 [2024-05-20 14:01:01] INFO root fetch - main [MainThread]: End processing [edc-screening]: success
 [2024-05-20 14:01:01] INFO root fetch - main [MainThread]: Store serial: [23289107]
+[2024-05-20 14:03:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23289107]
+[2024-05-20 14:03:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 14:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-helusers
+[2024-05-20 14:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: w3tools
+[2024-05-20 14:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hydriotaphiaz
+[2024-05-20 14:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: git-trunk
+[2024-05-20 14:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drf-bulk-editing
+[2024-05-20 14:03:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DPC-Python
+[2024-05-20 14:03:10] WARNING root fetch - processPackages [drf-bulk-editing]: Skipping, unable to determine old version
+[2024-05-20 14:03:10] INFO root fetch - main [MainThread]: End processing [drf-bulk-editing] error
+[2024-05-20 14:03:10] INFO root fetch - processPackages [git-trunk]: New version: [0.7.1] Old Version: [0.6.0]
+[2024-05-20 14:03:10] WARNING root fetch - processPackages [DPC-Python]: Skipping, unable to determine old version
+[2024-05-20 14:03:10] INFO root fetch - main [MainThread]: End processing [DPC-Python] error
+[2024-05-20 14:03:10] WARNING root fetch - processPackages [hydriotaphiaz]: Skipping, unable to determine old version
+[2024-05-20 14:03:10] INFO root fetch - main [MainThread]: End processing [hydriotaphiaz] error
+[2024-05-20 14:03:10] INFO root fetch - processPackages [w3tools]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 14:03:10] INFO root fetch - processPackages [django-helusers]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-20 14:03:10] INFO root fetch - processPackages [git-trunk]: Downloading https://files.pythonhosted.org/packages/10/b8/e5f345fb83b909495a0a79bc6e23a84982b40dbc3c7a6f6ef6724fb7ddd5/git_trunk-0.6.0.tar.gz
+[2024-05-20 14:03:10] INFO root fetch - processPackages [w3tools]: Downloading https://files.pythonhosted.org/packages/6f/61/f8d9a07e6e0d9fb6f59e2b8b0d4b1914a3067d723fe05df4154326f303c0/w3tools-0.1.0.tar.gz
+[2024-05-20 14:03:10] INFO root fetch - processPackages [django-helusers]: Downloading https://files.pythonhosted.org/packages/34/01/c2b8eecec3a66ae9f0905a39c18221f177849a6b6c80b3cf72f8681a5042/django-helusers-0.8.1.tar.gz
+[2024-05-20 14:03:10] INFO root fetch - processPackages [w3tools]: Downloading https://files.pythonhosted.org/packages/79/99/d9bcf1a45b4eb873278ce2e4feafce562f14e4e0f1c0e0341a0eca89e50a/w3tools-0.1.1.tar.gz
+[2024-05-20 14:03:10] INFO root fetch - processPackages [git-trunk]: Downloading https://files.pythonhosted.org/packages/d5/4a/873602253c98c5213f5dc2a6ea77b6edbdd79a7447619a73b206463732bd/git_trunk-0.7.1.tar.gz
+[2024-05-20 14:03:10] INFO root fetch - processPackages [django-helusers]: Downloading https://files.pythonhosted.org/packages/e1/8c/276c72c9c84507cc7fbd7a055d8d350e3e4264d5f2ee2377694c407549ed/django-helusers-0.9.0.tar.gz
+[2024-05-20 14:03:11] INFO root fetch - processPackages [w3tools]: executing diffoscope
+[2024-05-20 14:03:11] INFO root fetch - processPackages [w3tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3tools-0.1.0.tar.gz tmp/w3tools-0.1.1.tar.gz --markdown 20240520/w/w3tools/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 14:03:11] INFO root fetch - processPackages [git-trunk]: executing diffoscope
+[2024-05-20 14:03:11] INFO root fetch - processPackages [git-trunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_trunk-0.6.0.tar.gz tmp/git_trunk-0.7.1.tar.gz --markdown 20240520/g/git-trunk/0.6.0-0.7.1/README.md --exclude *.pyd
+[2024-05-20 14:03:11] INFO root fetch - processPackages [django-helusers]: executing diffoscope
+[2024-05-20 14:03:11] INFO root fetch - processPackages [django-helusers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-helusers-0.8.1.tar.gz tmp/django-helusers-0.9.0.tar.gz --markdown 20240520/d/django-helusers/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-20 14:03:11] INFO root fetch - processPackages [w3tools]: Remove: archive file [/home/abi/fetcher/tmp/w3tools-0.1.0.tar.gz]
+[2024-05-20 14:03:11] INFO root fetch - processPackages [w3tools]: Remove: archive file [/home/abi/fetcher/tmp/w3tools-0.1.1.tar.gz]
+[2024-05-20 14:03:11] INFO root fetch - main [MainThread]: End processing [w3tools]: success
+[2024-05-20 14:03:11] INFO root fetch - processPackages [git-trunk]: Remove: archive file [/home/abi/fetcher/tmp/git_trunk-0.6.0.tar.gz]
+[2024-05-20 14:03:11] INFO root fetch - processPackages [git-trunk]: Remove: archive file [/home/abi/fetcher/tmp/git_trunk-0.7.1.tar.gz]
+[2024-05-20 14:03:11] INFO root fetch - main [MainThread]: End processing [git-trunk]: success
+[2024-05-20 14:03:11] INFO root fetch - processPackages [django-helusers]: Remove: archive file [/home/abi/fetcher/tmp/django-helusers-0.8.1.tar.gz]
+[2024-05-20 14:03:11] INFO root fetch - processPackages [django-helusers]: Remove: archive file [/home/abi/fetcher/tmp/django-helusers-0.9.0.tar.gz]
+[2024-05-20 14:03:11] INFO root fetch - main [MainThread]: End processing [django-helusers]: success
+[2024-05-20 14:03:11] INFO root fetch - main [MainThread]: Store serial: [23289149]

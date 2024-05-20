@@ -20851,3 +20851,75 @@ EOFError: EOF read where object expected
 [2024-05-20 16:47:08] INFO root fetch - processPackages [dara-components]: Remove: archive file [/home/abi/fetcher/tmp/dara_components-1.9.3-py3-none-any.whl.zip]
 [2024-05-20 16:47:08] INFO root fetch - main [MainThread]: End processing [dara-components]: success
 [2024-05-20 16:47:08] INFO root fetch - main [MainThread]: Store serial: [23291268]
+[2024-05-20 16:49:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291268]
+[2024-05-20 16:49:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-management
+[2024-05-20 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beignet
+[2024-05-20 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: varyz
+[2024-05-20 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lambdatest-sdk-utils
+[2024-05-20 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lambdatest-selenium-driver
+[2024-05-20 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ja-basedb
+[2024-05-20 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Audire
+[2024-05-20 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autodistill-fastvit
+[2024-05-20 16:49:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cfv
+[2024-05-20 16:49:17] INFO root fetch - processPackages [Audire]: New version: [1.0.1b1] Old Version: [1.0.0b2]
+[2024-05-20 16:49:17] INFO root fetch - processPackages [ml-management]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-20 16:49:17] INFO root fetch - processPackages [Audire]: Downloading https://files.pythonhosted.org/packages/fc/41/60bfd8975ed9f1812a1605e46082f6f6b48e37f125a924335b10a6ebbe31/audire-1.0.0b2.tar.gz
+[2024-05-20 16:49:17] INFO root fetch - processPackages [lambdatest-sdk-utils]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-20 16:49:17] WARNING root fetch - processPackages [varyz]: Skipping, unable to determine old version
+[2024-05-20 16:49:17] INFO root fetch - main [MainThread]: End processing [varyz] error
+[2024-05-20 16:49:17] WARNING root fetch - processPackages [beignet]: Skipping, unable to determine old version
+[2024-05-20 16:49:17] INFO root fetch - main [MainThread]: End processing [beignet] error
+[2024-05-20 16:49:17] INFO root fetch - processPackages [autodistill-fastvit]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-20 16:49:17] INFO root fetch - processPackages [lambdatest-selenium-driver]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-20 16:49:17] INFO root fetch - processPackages [ja-basedb]: New version: [0.0.15] Old Version: [0.0.14]
+[2024-05-20 16:49:17] INFO root fetch - processPackages [cfv]: New version: [3.1.0.dev0] Old Version: [3.0.0.dev1]
+[2024-05-20 16:49:17] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/0f/70/032271ec1677413d18df09dbd3d9276c09aa5685645702a3b513c39da974/ml-management-0.0.98.tar.gz
+[2024-05-20 16:49:17] INFO root fetch - processPackages [lambdatest-sdk-utils]: Downloading https://files.pythonhosted.org/packages/2a/13/a205a1229f0a78084daf58e5a8568fe3a9fc8f6cdd1c79bd5d85bb86f42f/lambdatest-sdk-utils-1.0.1.tar.gz
+[2024-05-20 16:49:18] INFO root fetch - processPackages [lambdatest-selenium-driver]: Downloading https://files.pythonhosted.org/packages/9d/f2/86aeb46dd45befc1edd699286dba70f50c46057e75dc02cc7bb326e72942/lambdatest-selenium-driver-1.0.3.tar.gz
+[2024-05-20 16:49:18] INFO root fetch - processPackages [ja-basedb]: Downloading https://files.pythonhosted.org/packages/b2/4b/dfd7028191b5e1e3e6c696b56973a6b86a6c760f1d606df83ad3c37e4012/ja_basedb-0.0.14.tar.gz
+[2024-05-20 16:49:18] INFO root fetch - processPackages [cfv]: Downloading https://files.pythonhosted.org/packages/a4/42/b2e8d15279a3bf80fdcac962f975cb413fd14b94e1d4f282ffed6a3f71de/cfv-3.0.0.dev1.tar.gz
+[2024-05-20 16:49:18] INFO root fetch - processPackages [autodistill-fastvit]: Downloading https://files.pythonhosted.org/packages/b7/c6/58c36b6fd9f76e939bb8c23784b606e62f25b1c7a3e98a701d8a0489d1e5/autodistill-fastvit-0.1.1.tar.gz
+[2024-05-20 16:49:18] INFO root fetch - processPackages [Audire]: Downloading https://files.pythonhosted.org/packages/f7/a5/8ac05aa8b882ada09f2ca81842c2745564c2a383fd8766de754a29e14186/audire-1.0.1b1.tar.gz
+[2024-05-20 16:49:18] INFO root fetch - processPackages [Audire]: executing diffoscope
+[2024-05-20 16:49:18] INFO root fetch - processPackages [Audire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audire-1.0.0b2.tar.gz tmp/audire-1.0.1b1.tar.gz --markdown 20240520/A/Audire/1.0.0b2-1.0.1b1/README.md --exclude *.pyd
+[2024-05-20 16:49:18] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/56/35/39bdda14e67992ce6ddc370729a71712171e07a61411d9f6f96e81e2edae/ml-management-0.0.99.tar.gz
+[2024-05-20 16:49:18] INFO root fetch - processPackages [lambdatest-sdk-utils]: Downloading https://files.pythonhosted.org/packages/de/85/1bf43ff7979644a3a1c728ba8e31aabf97a1601fc66f9003727d44b1e454/lambdatest_sdk_utils-1.0.2.tar.gz
+[2024-05-20 16:49:18] INFO root fetch - processPackages [lambdatest-selenium-driver]: Downloading https://files.pythonhosted.org/packages/a3/03/2fc151592d293a8578314a411f048b53b9d528f77cc5958ad0ad04debe19/lambdatest_selenium_driver-1.0.4.tar.gz
+[2024-05-20 16:49:18] INFO root fetch - processPackages [ja-basedb]: Downloading https://files.pythonhosted.org/packages/61/67/449840e217bda9bc97ed0e198b6ae960efd3d7e36f9b15bc24c05cbcfac3/ja_basedb-0.0.15.tar.gz
+[2024-05-20 16:49:18] INFO root fetch - processPackages [ml-management]: executing diffoscope
+[2024-05-20 16:49:18] INFO root fetch - processPackages [ml-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-management-0.0.98.tar.gz tmp/ml-management-0.0.99.tar.gz --markdown 20240520/m/ml-management/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-20 16:49:18] INFO root fetch - processPackages [cfv]: Downloading https://files.pythonhosted.org/packages/65/01/69855545932602eb5d1aa32dc72fae58d7d90f8d43b801185a77188f57ec/cfv-3.1.0.dev0.tar.gz
+[2024-05-20 16:49:18] INFO root fetch - processPackages [lambdatest-sdk-utils]: executing diffoscope
+[2024-05-20 16:49:18] INFO root fetch - processPackages [lambdatest-sdk-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambdatest-sdk-utils-1.0.1.tar.gz tmp/lambdatest_sdk_utils-1.0.2.tar.gz --markdown 20240520/l/lambdatest-sdk-utils/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-20 16:49:18] INFO root fetch - processPackages [autodistill-fastvit]: Downloading https://files.pythonhosted.org/packages/bb/0a/f21e7f0ed4379e1a74ca27dcfb0a097acb48e939408c31b5bb5c927f676d/autodistill_fastvit-0.1.2.tar.gz
+[2024-05-20 16:49:18] INFO root fetch - processPackages [ja-basedb]: executing diffoscope
+[2024-05-20 16:49:18] INFO root fetch - processPackages [ja-basedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ja_basedb-0.0.14.tar.gz tmp/ja_basedb-0.0.15.tar.gz --markdown 20240520/j/ja-basedb/0.0.14-0.0.15/README.md --exclude *.pyd
+[2024-05-20 16:49:18] INFO root fetch - processPackages [lambdatest-selenium-driver]: executing diffoscope
+[2024-05-20 16:49:18] INFO root fetch - processPackages [lambdatest-selenium-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambdatest-selenium-driver-1.0.3.tar.gz tmp/lambdatest_selenium_driver-1.0.4.tar.gz --markdown 20240520/l/lambdatest-selenium-driver/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-20 16:49:18] INFO root fetch - processPackages [autodistill-fastvit]: executing diffoscope
+[2024-05-20 16:49:18] INFO root fetch - processPackages [autodistill-fastvit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodistill-fastvit-0.1.1.tar.gz tmp/autodistill_fastvit-0.1.2.tar.gz --markdown 20240520/a/autodistill-fastvit/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-20 16:49:19] INFO root fetch - processPackages [Audire]: Remove: archive file [/home/abi/fetcher/tmp/audire-1.0.0b2.tar.gz]
+[2024-05-20 16:49:19] INFO root fetch - processPackages [Audire]: Remove: archive file [/home/abi/fetcher/tmp/audire-1.0.1b1.tar.gz]
+[2024-05-20 16:49:19] INFO root fetch - main [MainThread]: End processing [Audire]: success
+[2024-05-20 16:49:19] INFO root fetch - processPackages [lambdatest-sdk-utils]: Remove: archive file [/home/abi/fetcher/tmp/lambdatest-sdk-utils-1.0.1.tar.gz]
+[2024-05-20 16:49:19] INFO root fetch - processPackages [lambdatest-sdk-utils]: Remove: archive file [/home/abi/fetcher/tmp/lambdatest_sdk_utils-1.0.2.tar.gz]
+[2024-05-20 16:49:19] INFO root fetch - main [MainThread]: End processing [lambdatest-sdk-utils]: success
+[2024-05-20 16:49:19] INFO root fetch - processPackages [cfv]: executing diffoscope
+[2024-05-20 16:49:19] INFO root fetch - processPackages [cfv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfv-3.0.0.dev1.tar.gz tmp/cfv-3.1.0.dev0.tar.gz --markdown 20240520/c/cfv/3.0.0.dev1-3.1.0.dev0/README.md --exclude *.pyd
+[2024-05-20 16:49:19] INFO root fetch - processPackages [lambdatest-selenium-driver]: Remove: archive file [/home/abi/fetcher/tmp/lambdatest-selenium-driver-1.0.3.tar.gz]
+[2024-05-20 16:49:19] INFO root fetch - processPackages [lambdatest-selenium-driver]: Remove: archive file [/home/abi/fetcher/tmp/lambdatest_selenium_driver-1.0.4.tar.gz]
+[2024-05-20 16:49:19] INFO root fetch - main [MainThread]: End processing [lambdatest-selenium-driver]: success
+[2024-05-20 16:49:19] INFO root fetch - processPackages [ja-basedb]: Remove: archive file [/home/abi/fetcher/tmp/ja_basedb-0.0.14.tar.gz]
+[2024-05-20 16:49:19] INFO root fetch - processPackages [ja-basedb]: Remove: archive file [/home/abi/fetcher/tmp/ja_basedb-0.0.15.tar.gz]
+[2024-05-20 16:49:19] INFO root fetch - main [MainThread]: End processing [ja-basedb]: success
+[2024-05-20 16:49:19] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.98.tar.gz]
+[2024-05-20 16:49:19] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.99.tar.gz]
+[2024-05-20 16:49:19] INFO root fetch - main [MainThread]: End processing [ml-management]: success
+[2024-05-20 16:49:19] INFO root fetch - processPackages [autodistill-fastvit]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-fastvit-0.1.1.tar.gz]
+[2024-05-20 16:49:19] INFO root fetch - processPackages [autodistill-fastvit]: Remove: archive file [/home/abi/fetcher/tmp/autodistill_fastvit-0.1.2.tar.gz]
+[2024-05-20 16:49:19] INFO root fetch - main [MainThread]: End processing [autodistill-fastvit]: success
+[2024-05-20 16:49:19] INFO root fetch - processPackages [cfv]: Remove: archive file [/home/abi/fetcher/tmp/cfv-3.0.0.dev1.tar.gz]
+[2024-05-20 16:49:19] INFO root fetch - processPackages [cfv]: Remove: archive file [/home/abi/fetcher/tmp/cfv-3.1.0.dev0.tar.gz]
+[2024-05-20 16:49:19] INFO root fetch - main [MainThread]: End processing [cfv]: success
+[2024-05-20 16:49:19] INFO root fetch - main [MainThread]: Store serial: [23291298]

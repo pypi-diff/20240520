@@ -11193,3 +11193,65 @@
 [2024-05-20 10:45:39] INFO root fetch - processPackages [ambit-fe]: Remove: archive file [/home/abi/fetcher/tmp/ambit_fe-1.2.7-py3-none-any.whl.zip]
 [2024-05-20 10:45:39] INFO root fetch - main [MainThread]: End processing [ambit-fe]: success
 [2024-05-20 10:45:39] INFO root fetch - main [MainThread]: Store serial: [23287043]
+[2024-05-20 10:47:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287043]
+[2024-05-20 10:47:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 10:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ambit-fe
+[2024-05-20 10:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skloess
+[2024-05-20 10:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelscope-agent
+[2024-05-20 10:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfp-nightly
+[2024-05-20 10:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lesscode-charts
+[2024-05-20 10:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PdmContext
+[2024-05-20 10:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mountain-chicken
+[2024-05-20 10:47:48] INFO root fetch - processPackages [ambit-fe]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-20 10:47:48] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-05-20 10:47:48] INFO root fetch - processPackages [modelscope-agent]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-20 10:47:48] INFO root fetch - processPackages [lesscode-charts]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 10:47:48] INFO root fetch - processPackages [ambit-fe]: Downloading https://files.pythonhosted.org/packages/0d/15/ad29923e4c018910fad198b394906f97dbd11591e0a5a7a5e123a4e4e27e/ambit_fe-1.2.6.tar.gz
+[2024-05-20 10:47:48] INFO root fetch - processPackages [skloess]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-20 10:47:48] INFO root fetch - processPackages [mountain-chicken]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-20 10:47:48] INFO root fetch - processPackages [PdmContext]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-20 10:47:48] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-05-20 10:47:48] INFO root fetch - processPackages [modelscope-agent]: Downloading https://files.pythonhosted.org/packages/81/5c/3f0b8e754e33da7511c3d5429f655982da3dfb957324cb9fcd911f19d332/modelscope-agent-0.5.1.tar.gz
+[2024-05-20 10:47:48] INFO root fetch - processPackages [lesscode-charts]: Downloading https://files.pythonhosted.org/packages/0d/fc/69648b9790c6554e684d024a799b16231e4eb4aa70bdc980a6838d5d44b7/lesscode_charts-0.0.8.tar.gz
+[2024-05-20 10:47:48] INFO root fetch - processPackages [skloess]: Downloading https://files.pythonhosted.org/packages/d9/17/a17c62fb0cedd8ea776ae61a3ff98f9c33bc0aa03f641d9fca2dc37689fb/skloess-0.1.1.tar.gz
+[2024-05-20 10:47:48] WARNING root fetch - processPackages [modelscope-agent]: Skipping package: exceeds size limit 23379763>=10485760
+[2024-05-20 10:47:48] INFO root fetch - main [MainThread]: End processing [modelscope-agent] error
+[2024-05-20 10:47:48] INFO root fetch - processPackages [mountain-chicken]: Downloading https://files.pythonhosted.org/packages/59/79/ae5ea22920aa887c4f53210b207fdfcb57aa4021929c2f77cbdbd7c79fc2/mountain_chicken-0.1.3.tar.gz
+[2024-05-20 10:47:48] INFO root fetch - processPackages [PdmContext]: Downloading https://files.pythonhosted.org/packages/ed/89/b6b186c7ed9295a17bd23ec543cef937e25ad83ff18b0971e4111addb614/pdmcontext-0.1.4.tar.gz
+[2024-05-20 10:47:48] INFO root fetch - processPackages [ambit-fe]: Downloading https://files.pythonhosted.org/packages/a2/9a/68c0dae69884db940a451d0a92fb6ce1a252e05dde76eddcbb5ff1522295/ambit_fe-1.2.7-py3-none-any.whl
+[2024-05-20 10:47:48] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-05-20 10:47:48] INFO root fetch - processPackages [ambit-fe]: executing diffoscope
+[2024-05-20 10:47:48] INFO root fetch - processPackages [ambit-fe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambit_fe-1.2.6.tar.gz tmp/ambit_fe-1.2.7-py3-none-any.whl.zip --markdown 20240520/a/ambit-fe/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-20 10:47:48] INFO root fetch - processPackages [mountain-chicken]: Downloading https://files.pythonhosted.org/packages/fb/e9/5f6bab6a3f282ee5723e4517c015f254555151c5409d377990aa48f6befa/mountain_chicken-0.1.4.tar.gz
+[2024-05-20 10:47:48] INFO root fetch - processPackages [skloess]: Downloading https://files.pythonhosted.org/packages/d7/a1/a61ca6d682686b528c4faf4f51fc48afb94b1e785718ebee66a09b05a2ab/skloess-0.1.2.tar.gz
+[2024-05-20 10:47:48] INFO root fetch - processPackages [lesscode-charts]: Downloading https://files.pythonhosted.org/packages/3c/ff/b8a73ae58bfe99faa84533f9c7e3cfb41c4c60bb9992eedfdfd8fcb76ba5/lesscode_charts-0.0.9.tar.gz
+[2024-05-20 10:47:48] INFO root fetch - processPackages [skloess]: executing diffoscope
+[2024-05-20 10:47:48] INFO root fetch - processPackages [skloess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skloess-0.1.1.tar.gz tmp/skloess-0.1.2.tar.gz --markdown 20240520/s/skloess/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-20 10:47:48] INFO root fetch - processPackages [PdmContext]: Downloading https://files.pythonhosted.org/packages/56/96/09ac43a8ea4793d51141fbc0205b12a99979b3d012e1b710e101290623f4/pdmcontext-0.1.5.tar.gz
+[2024-05-20 10:47:48] INFO root fetch - processPackages [lesscode-charts]: executing diffoscope
+[2024-05-20 10:47:48] INFO root fetch - processPackages [lesscode-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_charts-0.0.8.tar.gz tmp/lesscode_charts-0.0.9.tar.gz --markdown 20240520/l/lesscode-charts/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 10:47:48] INFO root fetch - processPackages [mountain-chicken]: executing diffoscope
+[2024-05-20 10:47:48] INFO root fetch - processPackages [mountain-chicken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mountain_chicken-0.1.3.tar.gz tmp/mountain_chicken-0.1.4.tar.gz --markdown 20240520/m/mountain-chicken/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-20 10:47:48] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-05-20 10:47:48] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240520/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-05-20 10:47:49] INFO root fetch - processPackages [PdmContext]: executing diffoscope
+[2024-05-20 10:47:49] INFO root fetch - processPackages [PdmContext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdmcontext-0.1.4.tar.gz tmp/pdmcontext-0.1.5.tar.gz --markdown 20240520/P/PdmContext/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-20 10:47:49] INFO root fetch - processPackages [ambit-fe]: Remove: archive file [/home/abi/fetcher/tmp/ambit_fe-1.2.6.tar.gz]
+[2024-05-20 10:47:49] INFO root fetch - processPackages [ambit-fe]: Remove: archive file [/home/abi/fetcher/tmp/ambit_fe-1.2.7-py3-none-any.whl.zip]
+[2024-05-20 10:47:49] INFO root fetch - main [MainThread]: End processing [ambit-fe]: success
+[2024-05-20 10:47:49] INFO root fetch - processPackages [skloess]: Remove: archive file [/home/abi/fetcher/tmp/skloess-0.1.1.tar.gz]
+[2024-05-20 10:47:49] INFO root fetch - processPackages [skloess]: Remove: archive file [/home/abi/fetcher/tmp/skloess-0.1.2.tar.gz]
+[2024-05-20 10:47:49] INFO root fetch - main [MainThread]: End processing [skloess]: success
+[2024-05-20 10:47:49] INFO root fetch - processPackages [lesscode-charts]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_charts-0.0.8.tar.gz]
+[2024-05-20 10:47:49] INFO root fetch - processPackages [lesscode-charts]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_charts-0.0.9.tar.gz]
+[2024-05-20 10:47:49] INFO root fetch - main [MainThread]: End processing [lesscode-charts]: success
+[2024-05-20 10:47:49] INFO root fetch - processPackages [mountain-chicken]: Remove: archive file [/home/abi/fetcher/tmp/mountain_chicken-0.1.3.tar.gz]
+[2024-05-20 10:47:49] INFO root fetch - processPackages [mountain-chicken]: Remove: archive file [/home/abi/fetcher/tmp/mountain_chicken-0.1.4.tar.gz]
+[2024-05-20 10:47:49] INFO root fetch - main [MainThread]: End processing [mountain-chicken]: success
+[2024-05-20 10:47:50] INFO root fetch - processPackages [PdmContext]: Remove: archive file [/home/abi/fetcher/tmp/pdmcontext-0.1.4.tar.gz]
+[2024-05-20 10:47:50] INFO root fetch - processPackages [PdmContext]: Remove: archive file [/home/abi/fetcher/tmp/pdmcontext-0.1.5.tar.gz]
+[2024-05-20 10:47:50] INFO root fetch - main [MainThread]: End processing [PdmContext]: success
+[2024-05-20 10:47:52] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-05-20 10:47:52] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-05-20 10:47:52] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-05-20 10:47:52] INFO root fetch - main [MainThread]: Store serial: [23287066]

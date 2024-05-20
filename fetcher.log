@@ -13257,3 +13257,42 @@
 [2024-05-20 12:05:29] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.8.7rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-20 12:05:29] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
 [2024-05-20 12:05:29] INFO root fetch - main [MainThread]: Store serial: [23287907]
+[2024-05-20 12:07:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287907]
+[2024-05-20 12:07:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 12:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: direct7
+[2024-05-20 12:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiocmcapi
+[2024-05-20 12:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sais-notify-test
+[2024-05-20 12:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datasiphon
+[2024-05-20 12:07:38] INFO root fetch - processPackages [sais-notify-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 12:07:38] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/94/42/07c0e25844ffdc6494e7447658dc084d6435c7343816264387d435ddb98d/sais_notify_test-0.0.8.tar.gz
+[2024-05-20 12:07:38] INFO root fetch - processPackages [direct7]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-20 12:07:38] INFO root fetch - processPackages [datasiphon]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-20 12:07:38] INFO root fetch - processPackages [aiocmcapi]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-05-20 12:07:38] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/af/7a/ac17f0daa7ab738fe2f5e638d62f2cb8c0c1f86f8cadd5913ea740c174aa/sais_notify_test-0.0.9.tar.gz
+[2024-05-20 12:07:38] INFO root fetch - processPackages [aiocmcapi]: Downloading https://files.pythonhosted.org/packages/03/a4/81244ab0256d48d7c0aeec0888b2d8ef45df0903df099b7626112fe4d6bb/aiocmcapi-0.6.4.tar.gz
+[2024-05-20 12:07:38] INFO root fetch - processPackages [direct7]: Downloading https://files.pythonhosted.org/packages/fa/f4/7a602d8f6a9bef80a25b1031686e92a89a7174e6db738dc93c4515f307c7/direct7-0.0.7.tar.gz
+[2024-05-20 12:07:38] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/40/07/4bf5adf8fa16d834cd03c2a178f9aad625beac39345c30585d8095436ee7/datasiphon-0.2.3.tar.gz
+[2024-05-20 12:07:38] INFO root fetch - processPackages [sais-notify-test]: executing diffoscope
+[2024-05-20 12:07:38] INFO root fetch - processPackages [sais-notify-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify_test-0.0.8.tar.gz tmp/sais_notify_test-0.0.9.tar.gz --markdown 20240520/s/sais-notify-test/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 12:07:38] INFO root fetch - processPackages [direct7]: Downloading https://files.pythonhosted.org/packages/16/10/f3c94cd5fa23cb876c583d6076dd0655929ad70119af894ab7d300705b49/direct7-0.0.8.tar.gz
+[2024-05-20 12:07:38] INFO root fetch - processPackages [aiocmcapi]: Downloading https://files.pythonhosted.org/packages/6f/45/77c8893d8d98847a47e33fca061f638ffc268df4e67c7edc420a5ae50954/aiocmcapi-0.6.5.tar.gz
+[2024-05-20 12:07:38] INFO root fetch - processPackages [datasiphon]: Downloading https://files.pythonhosted.org/packages/48/60/f5be98f8c154d5d0f7c567c8f1ddd73178edec6560f7fb13893fb6552de2/datasiphon-0.2.4.tar.gz
+[2024-05-20 12:07:39] INFO root fetch - processPackages [direct7]: executing diffoscope
+[2024-05-20 12:07:39] INFO root fetch - processPackages [direct7]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direct7-0.0.7.tar.gz tmp/direct7-0.0.8.tar.gz --markdown 20240520/d/direct7/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-20 12:07:39] INFO root fetch - processPackages [aiocmcapi]: executing diffoscope
+[2024-05-20 12:07:39] INFO root fetch - processPackages [aiocmcapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiocmcapi-0.6.4.tar.gz tmp/aiocmcapi-0.6.5.tar.gz --markdown 20240520/a/aiocmcapi/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-05-20 12:07:39] INFO root fetch - processPackages [datasiphon]: executing diffoscope
+[2024-05-20 12:07:39] INFO root fetch - processPackages [datasiphon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasiphon-0.2.3.tar.gz tmp/datasiphon-0.2.4.tar.gz --markdown 20240520/d/datasiphon/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-20 12:07:39] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.8.tar.gz]
+[2024-05-20 12:07:39] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.9.tar.gz]
+[2024-05-20 12:07:39] INFO root fetch - main [MainThread]: End processing [sais-notify-test]: success
+[2024-05-20 12:07:39] INFO root fetch - processPackages [aiocmcapi]: Remove: archive file [/home/abi/fetcher/tmp/aiocmcapi-0.6.4.tar.gz]
+[2024-05-20 12:07:39] INFO root fetch - processPackages [aiocmcapi]: Remove: archive file [/home/abi/fetcher/tmp/aiocmcapi-0.6.5.tar.gz]
+[2024-05-20 12:07:39] INFO root fetch - main [MainThread]: End processing [aiocmcapi]: success
+[2024-05-20 12:07:39] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.3.tar.gz]
+[2024-05-20 12:07:39] INFO root fetch - processPackages [datasiphon]: Remove: archive file [/home/abi/fetcher/tmp/datasiphon-0.2.4.tar.gz]
+[2024-05-20 12:07:39] INFO root fetch - main [MainThread]: End processing [datasiphon]: success
+[2024-05-20 12:07:39] INFO root fetch - processPackages [direct7]: Remove: archive file [/home/abi/fetcher/tmp/direct7-0.0.7.tar.gz]
+[2024-05-20 12:07:39] INFO root fetch - processPackages [direct7]: Remove: archive file [/home/abi/fetcher/tmp/direct7-0.0.8.tar.gz]
+[2024-05-20 12:07:39] INFO root fetch - main [MainThread]: End processing [direct7]: success
+[2024-05-20 12:07:39] INFO root fetch - main [MainThread]: Store serial: [23287925]

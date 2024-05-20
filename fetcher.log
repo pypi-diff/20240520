@@ -6867,3 +6867,33 @@
 [2024-05-20 06:43:19] INFO root fetch - processPackages [deps-manager]: Remove: archive file [/home/abi/fetcher/tmp/deps-manager-1.0.7.tar.gz]
 [2024-05-20 06:43:19] INFO root fetch - main [MainThread]: End processing [deps-manager]: success
 [2024-05-20 06:43:19] INFO root fetch - main [MainThread]: Store serial: [23284608]
+[2024-05-20 06:45:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284608]
+[2024-05-20 06:45:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 06:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blue-plugin
+[2024-05-20 06:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jemma
+[2024-05-20 06:45:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ddeutil-model
+[2024-05-20 06:45:28] INFO root fetch - processPackages [blue-plugin]: New version: [2.168.1] Old Version: [2.167.1]
+[2024-05-20 06:45:28] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/9b/64/686956af03eaa49dc927479cc1ac4451a2ed6a6fe1c9f0a175799a4af59d/blue_plugin-2.167.1.tar.gz
+[2024-05-20 06:45:28] INFO root fetch - processPackages [ddeutil-model]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-20 06:45:28] INFO root fetch - processPackages [jemma]: New version: [0.1.423] Old Version: [0.1.422]
+[2024-05-20 06:45:28] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/63/6b/a863031d8cf2af2bd9d83e3bd45b62d23a37f487e591861cbdb407f6b975/jemma-0.1.422.tar.gz
+[2024-05-20 06:45:28] INFO root fetch - processPackages [ddeutil-model]: Downloading https://files.pythonhosted.org/packages/3b/9b/941b18b47514844585208802fa9d2458afb5790da19d86c599a6f451f47b/ddeutil_model-0.0.3.tar.gz
+[2024-05-20 06:45:28] INFO root fetch - processPackages [blue-plugin]: Downloading https://files.pythonhosted.org/packages/53/8c/31437f5e80f944da289cdb21e080fa12d94dd653636caf54acf7796562a3/blue_plugin-2.168.1.tar.gz
+[2024-05-20 06:45:28] INFO root fetch - processPackages [blue-plugin]: executing diffoscope
+[2024-05-20 06:45:28] INFO root fetch - processPackages [blue-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_plugin-2.167.1.tar.gz tmp/blue_plugin-2.168.1.tar.gz --markdown 20240520/b/blue-plugin/2.167.1-2.168.1/README.md --exclude *.pyd
+[2024-05-20 06:45:28] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/a7/67/fad5ee99cee7c8a2be8ed799451a79018313f3c750e845631620d851c6d0/jemma-0.1.423.tar.gz
+[2024-05-20 06:45:28] INFO root fetch - processPackages [ddeutil-model]: Downloading https://files.pythonhosted.org/packages/9e/58/b0db36dd0e65e889b4e430e8c93045311c706b1f676c09858808ed9f551d/ddeutil_model-0.0.4.tar.gz
+[2024-05-20 06:45:28] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-05-20 06:45:28] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.422.tar.gz tmp/jemma-0.1.423.tar.gz --markdown 20240520/j/jemma/0.1.422-0.1.423/README.md --exclude *.pyd
+[2024-05-20 06:45:29] INFO root fetch - processPackages [ddeutil-model]: executing diffoscope
+[2024-05-20 06:45:29] INFO root fetch - processPackages [ddeutil-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddeutil_model-0.0.3.tar.gz tmp/ddeutil_model-0.0.4.tar.gz --markdown 20240520/d/ddeutil-model/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-20 06:45:29] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-2.167.1.tar.gz]
+[2024-05-20 06:45:29] INFO root fetch - processPackages [blue-plugin]: Remove: archive file [/home/abi/fetcher/tmp/blue_plugin-2.168.1.tar.gz]
+[2024-05-20 06:45:29] INFO root fetch - main [MainThread]: End processing [blue-plugin]: success
+[2024-05-20 06:45:29] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.422.tar.gz]
+[2024-05-20 06:45:29] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.423.tar.gz]
+[2024-05-20 06:45:29] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-05-20 06:45:29] INFO root fetch - processPackages [ddeutil-model]: Remove: archive file [/home/abi/fetcher/tmp/ddeutil_model-0.0.3.tar.gz]
+[2024-05-20 06:45:29] INFO root fetch - processPackages [ddeutil-model]: Remove: archive file [/home/abi/fetcher/tmp/ddeutil_model-0.0.4.tar.gz]
+[2024-05-20 06:45:29] INFO root fetch - main [MainThread]: End processing [ddeutil-model]: success
+[2024-05-20 06:45:29] INFO root fetch - main [MainThread]: Store serial: [23284617]

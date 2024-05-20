@@ -7906,3 +7906,45 @@
 [2024-05-20 08:03:10] INFO root fetch - processPackages [streamlit-analytics2]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_analytics2-0.7.4.tar.gz]
 [2024-05-20 08:03:10] INFO root fetch - main [MainThread]: End processing [streamlit-analytics2]: success
 [2024-05-20 08:03:10] INFO root fetch - main [MainThread]: Store serial: [23285289]
+[2024-05-20 08:05:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285289]
+[2024-05-20 08:05:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 08:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edman-cli
+[2024-05-20 08:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Nara
+[2024-05-20 08:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TPE-Bot
+[2024-05-20 08:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flitchedz
+[2024-05-20 08:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aspose-words-cloud
+[2024-05-20 08:05:19] WARNING root fetch - processPackages [flitchedz]: Skipping, unable to determine old version
+[2024-05-20 08:05:19] INFO root fetch - processPackages [TPE-Bot]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-05-20 08:05:19] INFO root fetch - main [MainThread]: End processing [flitchedz] error
+[2024-05-20 08:05:19] INFO root fetch - processPackages [edman-cli]: New version: [2024.5.20] Old Version: [2024.4.9.1]
+[2024-05-20 08:05:19] INFO root fetch - processPackages [aspose-words-cloud]: New version: [24.5.0] Old Version: [24.4.0]
+[2024-05-20 08:05:19] INFO root fetch - processPackages [Nara]: New version: [0.2] Old Version: [0.1]
+[2024-05-20 08:05:19] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/c4/19/a7cdacae0c224cc02ea5e0684804edf5c37ae3a7da40033bda6432e0e2e3/TPE-Bot-6.9.1.tar.gz
+[2024-05-20 08:05:20] INFO root fetch - processPackages [edman-cli]: Downloading https://files.pythonhosted.org/packages/b8/e8/18bfca8e94b8f27c29bbe5665aeac42cdbe00d86ff057d2009864144f0e0/edman_cli-2024.4.9.1.tar.gz
+[2024-05-20 08:05:20] INFO root fetch - processPackages [Nara]: Downloading https://files.pythonhosted.org/packages/fd/87/af7d605562d50753df1fa9c53ccbf8cc03318e971f76a591d2c758e6fb2b/nara-0.1.tar.gz
+[2024-05-20 08:05:20] INFO root fetch - processPackages [aspose-words-cloud]: Downloading https://files.pythonhosted.org/packages/8d/9f/26f5842583f8cdf6022a8c7a3657d2b636289265aeb0d6c94fad4e062fc6/aspose-words-cloud-24.4.0.tar.gz
+[2024-05-20 08:05:20] INFO root fetch - processPackages [edman-cli]: Downloading https://files.pythonhosted.org/packages/16/a3/4d1eae3ebb50d72823f90b99b8fdf6c09766532bd1609148eb334cc55f42/edman_cli-2024.5.20.tar.gz
+[2024-05-20 08:05:20] INFO root fetch - processPackages [Nara]: Downloading https://files.pythonhosted.org/packages/0d/68/df65db0f216e976ae8f5ed87f4c5863868198dfea1e7e7d7463f696311ca/nara-0.2.tar.gz
+[2024-05-20 08:05:20] INFO root fetch - processPackages [edman-cli]: executing diffoscope
+[2024-05-20 08:05:20] INFO root fetch - processPackages [edman-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman_cli-2024.4.9.1.tar.gz tmp/edman_cli-2024.5.20.tar.gz --markdown 20240520/e/edman-cli/2024.4.9.1-2024.5.20/README.md --exclude *.pyd
+[2024-05-20 08:05:20] INFO root fetch - processPackages [TPE-Bot]: Downloading https://files.pythonhosted.org/packages/70/7f/575b827c491ae2bce901b106dad351e35f042fb74bc67a5e86613a1358d8/TPE-Bot-6.9.2.tar.gz
+[2024-05-20 08:05:20] INFO root fetch - processPackages [aspose-words-cloud]: Downloading https://files.pythonhosted.org/packages/d6/39/b3e63b7e0511478695e8072c084fe0081ea83d7ea6017a9ccb17639c1c10/aspose-words-cloud-24.5.0.tar.gz
+[2024-05-20 08:05:20] INFO root fetch - processPackages [Nara]: executing diffoscope
+[2024-05-20 08:05:20] INFO root fetch - processPackages [Nara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nara-0.1.tar.gz tmp/nara-0.2.tar.gz --markdown 20240520/N/Nara/0.1-0.2/README.md --exclude *.pyd
+[2024-05-20 08:05:20] INFO root fetch - processPackages [TPE-Bot]: executing diffoscope
+[2024-05-20 08:05:20] INFO root fetch - processPackages [TPE-Bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TPE-Bot-6.9.1.tar.gz tmp/TPE-Bot-6.9.2.tar.gz --markdown 20240520/T/TPE-Bot/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-05-20 08:05:20] INFO root fetch - processPackages [aspose-words-cloud]: executing diffoscope
+[2024-05-20 08:05:20] INFO root fetch - processPackages [aspose-words-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspose-words-cloud-24.4.0.tar.gz tmp/aspose-words-cloud-24.5.0.tar.gz --markdown 20240520/a/aspose-words-cloud/24.4.0-24.5.0/README.md --exclude *.pyd
+[2024-05-20 08:05:21] INFO root fetch - processPackages [edman-cli]: Remove: archive file [/home/abi/fetcher/tmp/edman_cli-2024.4.9.1.tar.gz]
+[2024-05-20 08:05:21] INFO root fetch - processPackages [edman-cli]: Remove: archive file [/home/abi/fetcher/tmp/edman_cli-2024.5.20.tar.gz]
+[2024-05-20 08:05:21] INFO root fetch - main [MainThread]: End processing [edman-cli]: success
+[2024-05-20 08:05:21] INFO root fetch - processPackages [Nara]: Remove: archive file [/home/abi/fetcher/tmp/nara-0.1.tar.gz]
+[2024-05-20 08:05:21] INFO root fetch - processPackages [Nara]: Remove: archive file [/home/abi/fetcher/tmp/nara-0.2.tar.gz]
+[2024-05-20 08:05:21] INFO root fetch - main [MainThread]: End processing [Nara]: success
+[2024-05-20 08:05:21] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.9.1.tar.gz]
+[2024-05-20 08:05:21] INFO root fetch - processPackages [TPE-Bot]: Remove: archive file [/home/abi/fetcher/tmp/TPE-Bot-6.9.2.tar.gz]
+[2024-05-20 08:05:21] INFO root fetch - main [MainThread]: End processing [TPE-Bot]: success
+[2024-05-20 08:05:23] INFO root fetch - processPackages [aspose-words-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose-words-cloud-24.4.0.tar.gz]
+[2024-05-20 08:05:23] INFO root fetch - processPackages [aspose-words-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose-words-cloud-24.5.0.tar.gz]
+[2024-05-20 08:05:23] INFO root fetch - main [MainThread]: End processing [aspose-words-cloud]: success
+[2024-05-20 08:05:23] INFO root fetch - main [MainThread]: Store serial: [23285304]

@@ -22709,3 +22709,50 @@ EOFError: EOF read where object expected
 [2024-05-20 17:51:58] INFO root fetch - processPackages [ryven]: Remove: archive file [/home/abi/fetcher/tmp/ryven-3.5.0.tar.gz]
 [2024-05-20 17:51:58] INFO root fetch - main [MainThread]: End processing [ryven]: success
 [2024-05-20 17:51:58] INFO root fetch - main [MainThread]: Store serial: [23292048]
+[2024-05-20 17:54:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292048]
+[2024-05-20 17:54:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 17:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatpack
+[2024-05-20 17:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: api-nichotined
+[2024-05-20 17:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onyx-extension
+[2024-05-20 17:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yaupingz
+[2024-05-20 17:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maya-umbrella
+[2024-05-20 17:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-datatables-net
+[2024-05-20 17:54:08] INFO root fetch - processPackages [streamlit-datatables-net]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 17:54:08] INFO root fetch - processPackages [flatpack]: New version: [3.4.93] Old Version: [3.4.92]
+[2024-05-20 17:54:08] WARNING root fetch - processPackages [yaupingz]: Skipping, unable to determine old version
+[2024-05-20 17:54:08] INFO root fetch - main [MainThread]: End processing [yaupingz] error
+[2024-05-20 17:54:08] INFO root fetch - processPackages [api-nichotined]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-20 17:54:08] INFO root fetch - processPackages [onyx-extension]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-20 17:54:08] INFO root fetch - processPackages [streamlit-datatables-net]: Downloading https://files.pythonhosted.org/packages/48/eb/9b59efe877488985985274b344ab7078d71085aedb0fac08b6c94bfb4960/streamlit_datatables_net-0.0.8-py3-none-any.whl
+[2024-05-20 17:54:08] INFO root fetch - processPackages [maya-umbrella]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-20 17:54:08] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/c4/0c/f794be88a8c3355deaf584073de5b0432b0aa9e892a3c5215617fadf1f74/flatpack-3.4.92.tar.gz
+[2024-05-20 17:54:08] INFO root fetch - processPackages [api-nichotined]: Downloading https://files.pythonhosted.org/packages/ca/e8/c87770c4f9522a18da65b9966fb4fad411aac5162e09f809c29c7831ee48/api-nichotined-0.1.7.tar.gz
+[2024-05-20 17:54:08] INFO root fetch - processPackages [onyx-extension]: Downloading https://files.pythonhosted.org/packages/cc/7a/8c3a2cc874ec0259de57d9880c3fa05117b87c629c8779e4ac199e90ee1f/onyx_extension-0.2.0.tar.gz
+[2024-05-20 17:54:08] INFO root fetch - processPackages [maya-umbrella]: Downloading https://files.pythonhosted.org/packages/ea/6b/26c26f681f5b1f45934840440691471fa200f1ccbc8578c21fae359d1fb0/maya_umbrella-0.8.0.tar.gz
+[2024-05-20 17:54:08] WARNING root fetch - processPackages [onyx-extension]: Skipping package: exceeds size limit 98107930>=10485760
+[2024-05-20 17:54:08] INFO root fetch - main [MainThread]: End processing [onyx-extension] error
+[2024-05-20 17:54:08] INFO root fetch - processPackages [streamlit-datatables-net]: Downloading https://files.pythonhosted.org/packages/38/0b/b64e0128f2c152be0bb60d76ee322bf3d5f3a46306d64203d026854b0482/streamlit_datatables_net-0.0.9-py3-none-any.whl
+[2024-05-20 17:54:08] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/14/6959d0cd643d75ef604340ea3a40745abc4e31ef01967d5db0cd689203ac/flatpack-3.4.93.tar.gz
+[2024-05-20 17:54:08] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-20 17:54:08] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.92.tar.gz tmp/flatpack-3.4.93.tar.gz --markdown 20240520/f/flatpack/3.4.92-3.4.93/README.md --exclude *.pyd
+[2024-05-20 17:54:08] INFO root fetch - processPackages [streamlit-datatables-net]: executing diffoscope
+[2024-05-20 17:54:08] INFO root fetch - processPackages [streamlit-datatables-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_datatables_net-0.0.8-py3-none-any.whl.zip tmp/streamlit_datatables_net-0.0.9-py3-none-any.whl.zip --markdown 20240520/s/streamlit-datatables-net/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 17:54:08] INFO root fetch - processPackages [api-nichotined]: Downloading https://files.pythonhosted.org/packages/ee/8e/bfc8c67bcb4cc53a79dcd796403c03165b1ec714565661a38cd524ac7ab3/api-nichotined-0.1.9.tar.gz
+[2024-05-20 17:54:08] INFO root fetch - processPackages [maya-umbrella]: Downloading https://files.pythonhosted.org/packages/ec/b1/f3d7b22945a630095c335f5ac74d05e26b4c5ba425a01e9660d169d29b99/maya_umbrella-0.9.0.tar.gz
+[2024-05-20 17:54:08] INFO root fetch - processPackages [api-nichotined]: executing diffoscope
+[2024-05-20 17:54:08] INFO root fetch - processPackages [api-nichotined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-nichotined-0.1.7.tar.gz tmp/api-nichotined-0.1.9.tar.gz --markdown 20240520/a/api-nichotined/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-20 17:54:08] INFO root fetch - processPackages [maya-umbrella]: executing diffoscope
+[2024-05-20 17:54:08] INFO root fetch - processPackages [maya-umbrella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maya_umbrella-0.8.0.tar.gz tmp/maya_umbrella-0.9.0.tar.gz --markdown 20240520/m/maya-umbrella/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-20 17:54:09] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.92.tar.gz]
+[2024-05-20 17:54:09] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.93.tar.gz]
+[2024-05-20 17:54:09] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-20 17:54:09] INFO root fetch - processPackages [api-nichotined]: Remove: archive file [/home/abi/fetcher/tmp/api-nichotined-0.1.7.tar.gz]
+[2024-05-20 17:54:09] INFO root fetch - processPackages [api-nichotined]: Remove: archive file [/home/abi/fetcher/tmp/api-nichotined-0.1.9.tar.gz]
+[2024-05-20 17:54:09] INFO root fetch - main [MainThread]: End processing [api-nichotined]: success
+[2024-05-20 17:54:09] INFO root fetch - processPackages [maya-umbrella]: Remove: archive file [/home/abi/fetcher/tmp/maya_umbrella-0.8.0.tar.gz]
+[2024-05-20 17:54:09] INFO root fetch - processPackages [maya-umbrella]: Remove: archive file [/home/abi/fetcher/tmp/maya_umbrella-0.9.0.tar.gz]
+[2024-05-20 17:54:09] INFO root fetch - main [MainThread]: End processing [maya-umbrella]: success
+[2024-05-20 17:54:34] INFO root fetch - processPackages [streamlit-datatables-net]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_datatables_net-0.0.8-py3-none-any.whl.zip]
+[2024-05-20 17:54:34] INFO root fetch - processPackages [streamlit-datatables-net]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_datatables_net-0.0.9-py3-none-any.whl.zip]
+[2024-05-20 17:54:34] INFO root fetch - main [MainThread]: End processing [streamlit-datatables-net]: success
+[2024-05-20 17:54:34] INFO root fetch - main [MainThread]: Store serial: [23292066]

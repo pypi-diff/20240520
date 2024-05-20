@@ -25034,3 +25034,101 @@ EOFError: EOF read where object expected
 [2024-05-20 19:21:32] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.48.0.1-py3-none-any.whl.zip]
 [2024-05-20 19:21:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-edi-ubl]: success
 [2024-05-20 19:21:32] INFO root fetch - main [MainThread]: Store serial: [23293242]
+[2024-05-20 19:23:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23293242]
+[2024-05-20 19:23:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-20 19:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vollseg
+[2024-05-20 19:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: windmill-api
+[2024-05-20 19:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wmill
+[2024-05-20 19:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scself
+[2024-05-20 19:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wmill-pg
+[2024-05-20 19:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: audiconnectpy
+[2024-05-20 19:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mimllearning
+[2024-05-20 19:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: baseapp-comments
+[2024-05-20 19:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: amplpy
+[2024-05-20 19:23:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: luminesce-sdk-preview
+[2024-05-20 19:23:42] INFO root fetch - processPackages [baseapp-comments]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-20 19:23:42] INFO root fetch - processPackages [audiconnectpy]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-05-20 19:23:42] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2024-05-20 19:23:42] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2024-05-20 19:23:42] INFO root fetch - processPackages [mimllearning]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-20 19:23:42] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-20 19:23:42] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-20 19:23:42] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-20 19:23:42] INFO root fetch - processPackages [scself]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-20 19:23:42] INFO root fetch - processPackages [baseapp-comments]: Downloading https://files.pythonhosted.org/packages/f7/16/3ef89b4120a2ebcbb9ca881f47cd60297569e7c9a266604f3d844d8d2610/baseapp_comments-0.1.4.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/fd/4f/ed175d9290f3837eb5c45eb04d2db59cbb02ada90d66730716ec1752cdff/mimllearning-0.5.1.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/c3/13/f1110ed1959c36ce894cefdecbd1aab772d422cbef5ed42fbb00d0d5387e/audiconnectpy-2.2.4.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [scself]: Downloading https://files.pythonhosted.org/packages/17/85/15c5f6356bd3e2439f0f8eb8cec746ef66e423f731a7fb824e92ecf399f4/scself-0.3.0.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [baseapp-comments]: Downloading https://files.pythonhosted.org/packages/b8/2f/5676a7fd757d856cc8c61b9108b4dfa1fe74f988a00174cd97e86ae01883/baseapp_comments-0.1.5.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [amplpy]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-20 19:23:42] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [audiconnectpy]: Downloading https://files.pythonhosted.org/packages/b7/61/7a0463858ee7c3f61fe5e3ce415d9c0dc9e5c921e3bfc04c14b85ef0e592/audiconnectpy-2.2.5.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [baseapp-comments]: executing diffoscope
+[2024-05-20 19:23:42] INFO root fetch - processPackages [baseapp-comments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseapp_comments-0.1.4.tar.gz tmp/baseapp_comments-0.1.5.tar.gz --markdown 20240520/b/baseapp-comments/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-20 19:23:42] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-05-20 19:23:42] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240520/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-20 19:23:42] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2024-05-20 19:23:42] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20240520/l/luminesce-sdk-preview/1.9.88-1.9.92/README.md --exclude *.pyd
+[2024-05-20 19:23:42] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-05-20 19:23:42] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240520/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-20 19:23:42] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-05-20 19:23:42] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240520/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-20 19:23:42] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/1c/48/40f4dbf0e105605605e237bae655955a2350d1635e5fb9cc648bac7bb8b2/mimllearning-0.5.2.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [scself]: Downloading https://files.pythonhosted.org/packages/d5/ec/01b39c82ab98cc21c13cf5cfe6cf557131d84af8c323b6b98fa1c8220065/scself-0.4.0.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [amplpy]: Downloading https://files.pythonhosted.org/packages/df/d0/91d8cc0bbf91db951b00a5005ee6bd85015a896b74551a7725d5152fe6a7/amplpy-0.9.2.tar.gz
+[2024-05-20 19:23:42] INFO root fetch - processPackages [audiconnectpy]: executing diffoscope
+[2024-05-20 19:23:42] INFO root fetch - processPackages [audiconnectpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiconnectpy-2.2.4.tar.gz tmp/audiconnectpy-2.2.5.tar.gz --markdown 20240520/a/audiconnectpy/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-05-20 19:23:43] INFO root fetch - processPackages [scself]: executing diffoscope
+[2024-05-20 19:23:43] INFO root fetch - processPackages [scself]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scself-0.3.0.tar.gz tmp/scself-0.4.0.tar.gz --markdown 20240520/s/scself/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-20 19:23:43] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-20 19:23:43] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.5.1.tar.gz tmp/mimllearning-0.5.2.tar.gz --markdown 20240520/m/mimllearning/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-20 19:23:43] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2024-05-20 19:23:43] INFO root fetch - processPackages [vollseg]: Start processing: carbon-python-sdk
+[2024-05-20 19:23:43] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2024-05-20 19:23:43] INFO root fetch - processPackages [carbon-python-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 19:23:43] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-05-20 19:23:43] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-05-20 19:23:43] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-05-20 19:23:43] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-05-20 19:23:43] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-05-20 19:23:43] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-05-20 19:23:43] INFO root fetch - processPackages [baseapp-comments]: Remove: archive file [/home/abi/fetcher/tmp/baseapp_comments-0.1.4.tar.gz]
+[2024-05-20 19:23:43] INFO root fetch - processPackages [baseapp-comments]: Remove: archive file [/home/abi/fetcher/tmp/baseapp_comments-0.1.5.tar.gz]
+[2024-05-20 19:23:43] INFO root fetch - main [MainThread]: End processing [baseapp-comments]: success
+[2024-05-20 19:23:43] INFO root fetch - processPackages [audiconnectpy]: Remove: archive file [/home/abi/fetcher/tmp/audiconnectpy-2.2.4.tar.gz]
+[2024-05-20 19:23:43] INFO root fetch - processPackages [audiconnectpy]: Remove: archive file [/home/abi/fetcher/tmp/audiconnectpy-2.2.5.tar.gz]
+[2024-05-20 19:23:43] INFO root fetch - main [MainThread]: End processing [audiconnectpy]: success
+[2024-05-20 19:23:43] INFO root fetch - processPackages [scself]: Remove: archive file [/home/abi/fetcher/tmp/scself-0.3.0.tar.gz]
+[2024-05-20 19:23:43] INFO root fetch - processPackages [scself]: Remove: archive file [/home/abi/fetcher/tmp/scself-0.4.0.tar.gz]
+[2024-05-20 19:23:43] INFO root fetch - main [MainThread]: End processing [scself]: success
+[2024-05-20 19:23:43] INFO root fetch - processPackages [carbon-python-sdk]: Downloading https://files.pythonhosted.org/packages/26/57/15366437f225c4db33f10eefc2dcaaeb5785566711f4dad3fdfdad41d1c5/carbon_python_sdk-0.1.8.tar.gz
+[2024-05-20 19:23:44] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2024-05-20 19:23:44] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2024-05-20 19:23:44] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2024-05-20 19:23:44] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.5.1.tar.gz]
+[2024-05-20 19:23:44] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.5.2.tar.gz]
+[2024-05-20 19:23:44] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-20 19:23:44] INFO root fetch - processPackages [carbon-python-sdk]: Downloading https://files.pythonhosted.org/packages/e1/f5/2a5b19b30b427b767c9d7c7a83eccb5295f3370ba53da57b38913bff315c/carbon_python_sdk-0.1.9.tar.gz
+[2024-05-20 19:23:44] INFO root fetch - processPackages [carbon-python-sdk]: executing diffoscope
+[2024-05-20 19:23:44] INFO root fetch - processPackages [carbon-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon_python_sdk-0.1.8.tar.gz tmp/carbon_python_sdk-0.1.9.tar.gz --markdown 20240520/c/carbon-python-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 19:23:44] INFO root fetch - processPackages [amplpy]: Downloading https://files.pythonhosted.org/packages/cf/22/5b01cf9c3cc1a70c81f3fc27901121a544a5e75eea08a20c9953565ac9d2/amplpy-0.9.3.tar.gz
+[2024-05-20 19:23:44] INFO root fetch - processPackages [amplpy]: executing diffoscope
+[2024-05-20 19:23:44] INFO root fetch - processPackages [amplpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amplpy-0.9.2.tar.gz tmp/amplpy-0.9.3.tar.gz --markdown 20240520/a/amplpy/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-20 19:23:46] INFO root fetch - processPackages [amplpy]: Remove: archive file [/home/abi/fetcher/tmp/amplpy-0.9.2.tar.gz]
+[2024-05-20 19:23:46] INFO root fetch - processPackages [amplpy]: Remove: archive file [/home/abi/fetcher/tmp/amplpy-0.9.3.tar.gz]
+[2024-05-20 19:23:46] INFO root fetch - main [MainThread]: End processing [amplpy]: success
+[2024-05-20 19:23:47] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-05-20 19:23:47] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-05-20 19:23:47] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-05-20 19:23:47] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.8.tar.gz]
+[2024-05-20 19:23:47] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.9.tar.gz]
+[2024-05-20 19:23:47] INFO root fetch - main [MainThread]: End processing [carbon-python-sdk]: success
+[2024-05-20 19:23:47] INFO root fetch - main [MainThread]: Store serial: [23293288]

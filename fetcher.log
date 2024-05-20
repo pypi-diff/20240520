@@ -6976,3 +6976,24 @@
 [2024-05-20 06:50:21] INFO root fetch - processPackages [fnschool]: Remove: archive file [/home/abi/fetcher/tmp/fnschool-20240520.81132.858.tar.gz]
 [2024-05-20 06:50:21] INFO root fetch - main [MainThread]: End processing [fnschool]: success
 [2024-05-20 06:50:21] INFO root fetch - main [MainThread]: Store serial: [23284641]
+[2024-05-20 06:52:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284641]
+[2024-05-20 06:52:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 06:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-20 06:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deps-manager
+[2024-05-20 06:52:29] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.25a1716174569] Old Version: [0.0.24]
+[2024-05-20 06:52:29] INFO root fetch - processPackages [deps-manager]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-20 06:52:30] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/42/c9/991f049a111afee95879e8db5d1da2c5a7f1a344ed8d56b5c9bef4b65e73/pulumi_kubernetes_the_hard_way-0.0.24.tar.gz
+[2024-05-20 06:52:30] INFO root fetch - processPackages [deps-manager]: Downloading https://files.pythonhosted.org/packages/6c/6c/18269092fe15d8a68ded765a6246c14610410dda13891df7985469fba1e6/deps-manager-1.0.6.tar.gz
+[2024-05-20 06:52:30] INFO root fetch - processPackages [deps-manager]: Downloading https://files.pythonhosted.org/packages/87/27/5ca9866bdb5dd23aa2f4f3d18103ce54b521feeba5e5ca6ed7e6c6177cda/deps-manager-1.0.7.tar.gz
+[2024-05-20 06:52:30] INFO root fetch - processPackages [deps-manager]: executing diffoscope
+[2024-05-20 06:52:30] INFO root fetch - processPackages [deps-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deps-manager-1.0.6.tar.gz tmp/deps-manager-1.0.7.tar.gz --markdown 20240520/d/deps-manager/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-20 06:52:30] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/f9/aa/69930206dc10607d5cb095b4efec8aa8e944f48fe5faa6016240a3ed3367/pulumi_kubernetes_the_hard_way-0.0.25a1716174569.tar.gz
+[2024-05-20 06:52:30] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-20 06:52:30] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.24.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.25a1716174569.tar.gz --markdown 20240520/p/pulumi-kubernetes-the-hard-way/0.0.24-0.0.25a1716174569/README.md --exclude *.pyd
+[2024-05-20 06:52:30] INFO root fetch - processPackages [deps-manager]: Remove: archive file [/home/abi/fetcher/tmp/deps-manager-1.0.6.tar.gz]
+[2024-05-20 06:52:30] INFO root fetch - processPackages [deps-manager]: Remove: archive file [/home/abi/fetcher/tmp/deps-manager-1.0.7.tar.gz]
+[2024-05-20 06:52:30] INFO root fetch - main [MainThread]: End processing [deps-manager]: success
+[2024-05-20 06:52:31] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.24.tar.gz]
+[2024-05-20 06:52:31] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.25a1716174569.tar.gz]
+[2024-05-20 06:52:31] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-20 06:52:31] INFO root fetch - main [MainThread]: Store serial: [23284650]

@@ -5396,3 +5396,49 @@
 [2024-05-20 05:02:36] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-2.4.0.tar.gz]
 [2024-05-20 05:02:36] INFO root fetch - main [MainThread]: End processing [PFlowC]: success
 [2024-05-20 05:02:36] INFO root fetch - main [MainThread]: Store serial: [23283973]
+[2024-05-20 05:04:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283973]
+[2024-05-20 05:04:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 05:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sop-deutils
+[2024-05-20 05:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-with-ai-agents
+[2024-05-20 05:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sop-deutils
+[2024-05-20 05:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: janim
+[2024-05-20 05:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atomic-bomb-engine
+[2024-05-20 05:04:44] INFO root fetch - processPackages [sop-deutils]: New version: [1.0.1.dev0] Old Version: [1.0.1]
+[2024-05-20 05:04:44] INFO root fetch - processPackages [sop-deutils]: New version: [1.0.1.dev0] Old Version: [1.0.1]
+[2024-05-20 05:04:45] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 05:04:45] INFO root fetch - processPackages [janim]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 05:04:45] INFO root fetch - processPackages [sop-deutils]: Downloading https://files.pythonhosted.org/packages/cd/e5/249bba6765443caf483857ce23ac321d408c0f12dc9763f431b0f07d9784/sop_deutils-1.0.1.tar.gz
+[2024-05-20 05:04:45] INFO root fetch - processPackages [sop-deutils]: Downloading https://files.pythonhosted.org/packages/cd/e5/249bba6765443caf483857ce23ac321d408c0f12dc9763f431b0f07d9784/sop_deutils-1.0.1.tar.gz
+[2024-05-20 05:04:45] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 05:04:45] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Downloading https://files.pythonhosted.org/packages/e3/3d/e2e9f5177423b198ac932e380f0690d2ca12ecaf4e02564e0ae0c86a71a8/nonebot_plugin_with_ai_agents-0.1.8.tar.gz
+[2024-05-20 05:04:45] INFO root fetch - processPackages [janim]: Downloading https://files.pythonhosted.org/packages/13/a5/a54fdc4d75e77be935187bb602afa27e5bc070b69a7696b4a0fe7e5522db/janim-1.0.2.tar.gz
+[2024-05-20 05:04:45] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-05-20 05:04:45] INFO root fetch - processPackages [sop-deutils]: Downloading https://files.pythonhosted.org/packages/02/e8/e41fea6b622b2c77a0e2c646cd80704be2fb26ead9ec51701658e9f98aa1/sop_deutils-1.0.1.dev0.tar.gz
+[2024-05-20 05:04:45] INFO root fetch - processPackages [sop-deutils]: Downloading https://files.pythonhosted.org/packages/02/e8/e41fea6b622b2c77a0e2c646cd80704be2fb26ead9ec51701658e9f98aa1/sop_deutils-1.0.1.dev0.tar.gz
+[2024-05-20 05:04:45] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Downloading https://files.pythonhosted.org/packages/f1/8a/09f5c0fa837a20273e3df7293a9e551561d761be566af12e1a3009ba1dde/nonebot_plugin_with_ai_agents-0.1.9.tar.gz
+[2024-05-20 05:04:45] INFO root fetch - processPackages [sop-deutils]: executing diffoscope
+[2024-05-20 05:04:45] INFO root fetch - processPackages [sop-deutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sop_deutils-1.0.1.tar.gz tmp/sop_deutils-1.0.1.dev0.tar.gz --markdown 20240520/s/sop-deutils/1.0.1-1.0.1.dev0/README.md --exclude *.pyd
+[2024-05-20 05:04:45] INFO root fetch - processPackages [sop-deutils]: executing diffoscope
+[2024-05-20 05:04:45] INFO root fetch - processPackages [sop-deutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sop_deutils-1.0.1.tar.gz tmp/sop_deutils-1.0.1.dev0.tar.gz --markdown 20240520/s/sop-deutils/1.0.1-1.0.1.dev0/README.md --exclude *.pyd
+[2024-05-20 05:04:45] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: executing diffoscope
+[2024-05-20 05:04:45] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_with_ai_agents-0.1.8.tar.gz tmp/nonebot_plugin_with_ai_agents-0.1.9.tar.gz --markdown 20240520/n/nonebot-plugin-with-ai-agents/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 05:04:45] INFO root fetch - processPackages [janim]: Downloading https://files.pythonhosted.org/packages/7b/19/fb6e4b1eb2a784b0d639e0c3a68a96f9f33c070092caa3e457dfb0bdd61b/janim-1.0.3.tar.gz
+[2024-05-20 05:04:46] INFO root fetch - processPackages [janim]: executing diffoscope
+[2024-05-20 05:04:46] INFO root fetch - processPackages [janim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janim-1.0.2.tar.gz tmp/janim-1.0.3.tar.gz --markdown 20240520/j/janim/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 05:04:46] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_with_ai_agents-0.1.8.tar.gz]
+[2024-05-20 05:04:46] INFO root fetch - processPackages [nonebot-plugin-with-ai-agents]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_with_ai_agents-0.1.9.tar.gz]
+[2024-05-20 05:04:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-with-ai-agents]: success
+[2024-05-20 05:04:46] INFO root fetch - processPackages [sop-deutils]: Remove: archive file [/home/abi/fetcher/tmp/sop_deutils-1.0.1.tar.gz]
+[2024-05-20 05:04:46] INFO root fetch - processPackages [sop-deutils]: Remove: archive file [/home/abi/fetcher/tmp/sop_deutils-1.0.1.dev0.tar.gz]
+[2024-05-20 05:04:46] INFO root fetch - main [MainThread]: End processing [sop-deutils]: success
+[2024-05-20 05:04:46] INFO root fetch - main [MainThread]: End processing [sop-deutils]: success
+[2024-05-20 05:04:46] INFO root fetch - processPackages [janim]: Remove: archive file [/home/abi/fetcher/tmp/janim-1.0.2.tar.gz]
+[2024-05-20 05:04:46] INFO root fetch - processPackages [janim]: Remove: archive file [/home/abi/fetcher/tmp/janim-1.0.3.tar.gz]
+[2024-05-20 05:04:46] INFO root fetch - main [MainThread]: End processing [janim]: success
+[2024-05-20 05:04:47] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-05-20 05:04:47] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-05-20 05:04:47] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240520/a/atomic-bomb-engine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 05:04:48] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-05-20 05:04:48] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-05-20 05:04:48] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-05-20 05:04:48] INFO root fetch - main [MainThread]: Store serial: [23283985]

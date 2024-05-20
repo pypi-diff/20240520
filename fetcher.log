@@ -13852,3 +13852,78 @@
 [2024-05-20 12:27:16] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.5.8.tar.gz]
 [2024-05-20 12:27:16] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
 [2024-05-20 12:27:16] INFO root fetch - main [MainThread]: Store serial: [23288135]
+[2024-05-20 12:29:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288135]
+[2024-05-20 12:29:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 12:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: setux-plus
+[2024-05-20 12:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gene4mVCF
+[2024-05-20 12:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: s3-object-storage-client
+[2024-05-20 12:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akshare
+[2024-05-20 12:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2024-05-20 12:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myjd-api
+[2024-05-20 12:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: setux-repl
+[2024-05-20 12:29:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jampy
+[2024-05-20 12:29:25] INFO root fetch - processPackages [myjd-api]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-20 12:29:25] INFO root fetch - processPackages [gene4mVCF]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-20 12:29:25] INFO root fetch - processPackages [s3-object-storage-client]: New version: [0.2.1] Old Version: [0.1.1]
+[2024-05-20 12:29:25] INFO root fetch - processPackages [cg]: New version: [60.7.9] Old Version: [60.7.8]
+[2024-05-20 12:29:25] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-20 12:29:25] INFO root fetch - processPackages [myjd-api]: Downloading https://files.pythonhosted.org/packages/a6/01/bbb32fcab87add280511806a17c99a7b1f208c95c0d2c90d6979b5721f98/myjd_api-1.2.2.tar.gz
+[2024-05-20 12:29:25] INFO root fetch - processPackages [gene4mVCF]: Downloading https://files.pythonhosted.org/packages/fb/64/30c51b7f8ae24cbc5d11417093748bff613e4e5534a667c8fe679a88da29/gene4mvcf-1.0.2.tar.gz
+[2024-05-20 12:29:25] INFO root fetch - processPackages [setux-plus]: New version: [0.2421.0] Old Version: [0.2418.0]
+[2024-05-20 12:29:25] INFO root fetch - processPackages [setux-repl]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-20 12:29:25] INFO root fetch - processPackages [s3-object-storage-client]: Downloading https://files.pythonhosted.org/packages/e3/98/ac0c23a260bc44caa2f665e750948e9a696ed51806299288ff60c7f98992/s3_object_storage_client-0.1.1.tar.gz
+[2024-05-20 12:29:25] INFO root fetch - processPackages [jampy]: New version: [7.2.5] Old Version: [7.2.4]
+[2024-05-20 12:29:26] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/44/4c/2c6765cf909b3cf89d94a9f9f15ebc4762df0f315a7e114363bf0635bf61/cg-60.7.8.tar.gz
+[2024-05-20 12:29:26] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-20 12:29:26] INFO root fetch - processPackages [setux-plus]: Downloading https://files.pythonhosted.org/packages/b6/d1/7eab7b0915e6786f0339fb028840c2231094ea680de809c1af0a76466ad2/setux_plus-0.2418.0.tar.gz
+[2024-05-20 12:29:26] INFO root fetch - processPackages [gene4mVCF]: Downloading https://files.pythonhosted.org/packages/b0/32/3fd679a626a7665a1d1c49072bc0cc698637f2cf102fe0b13c0ff9234e67/gene4mvcf-1.0.3.tar.gz
+[2024-05-20 12:29:26] INFO root fetch - processPackages [setux-repl]: Downloading https://files.pythonhosted.org/packages/5d/cd/ab20c109706b5e841ed90d69aed21311194df6c32ee366ef3c2bc2f3c3ab/setux_repl-0.4.1.tar.gz
+[2024-05-20 12:29:26] INFO root fetch - processPackages [jampy]: Downloading https://files.pythonhosted.org/packages/08/41/87d811508c8d370b81210930047a824cd538b8a7fd12e73836aa0e816561/jampy-7.2.4.tar.gz
+[2024-05-20 12:29:26] INFO root fetch - processPackages [myjd-api]: Downloading https://files.pythonhosted.org/packages/30/22/09bee3b6125c423956d0c956712e79d606e2e58ed43679d7818d6c977e6b/myjd_api-1.2.3.tar.gz
+[2024-05-20 12:29:26] INFO root fetch - processPackages [gene4mVCF]: executing diffoscope
+[2024-05-20 12:29:26] INFO root fetch - processPackages [gene4mVCF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gene4mvcf-1.0.2.tar.gz tmp/gene4mvcf-1.0.3.tar.gz --markdown 20240520/g/gene4mVCF/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-20 12:29:26] INFO root fetch - processPackages [s3-object-storage-client]: Downloading https://files.pythonhosted.org/packages/03/2a/bd3c45a6a8fbe1953ef25cac33443ad0f5a14b19b28142560045a2679e2c/s3_object_storage_client-0.2.1.tar.gz
+[2024-05-20 12:29:26] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-20 12:29:26] INFO root fetch - processPackages [myjd-api]: executing diffoscope
+[2024-05-20 12:29:26] INFO root fetch - processPackages [myjd-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myjd_api-1.2.2.tar.gz tmp/myjd_api-1.2.3.tar.gz --markdown 20240520/m/myjd-api/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-20 12:29:26] INFO root fetch - processPackages [s3-object-storage-client]: executing diffoscope
+[2024-05-20 12:29:26] INFO root fetch - processPackages [s3-object-storage-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3_object_storage_client-0.1.1.tar.gz tmp/s3_object_storage_client-0.2.1.tar.gz --markdown 20240520/s/s3-object-storage-client/0.1.1-0.2.1/README.md --exclude *.pyd
+[2024-05-20 12:29:26] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/38/e3ff082487603f9b23877cfe7185b58a21cb7763a1d8c0ea38640ffb90ea/cg-60.7.9-py3-none-any.whl
+[2024-05-20 12:29:26] INFO root fetch - processPackages [setux-plus]: Downloading https://files.pythonhosted.org/packages/a1/3a/9f2bb43350e00e27c8bb5ba87444108f738d255693e8c2b1ebb2f7828831/setux_plus-0.2421.0.tar.gz
+[2024-05-20 12:29:26] INFO root fetch - processPackages [setux-repl]: Downloading https://files.pythonhosted.org/packages/10/25/acf2c3b8d98821178c83eff6a87690bb7944b2f69490f9cddc15424a42ba/setux_repl-0.4.2.tar.gz
+[2024-05-20 12:29:26] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-20 12:29:26] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240520/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-20 12:29:26] INFO root fetch - processPackages [setux-plus]: executing diffoscope
+[2024-05-20 12:29:26] INFO root fetch - processPackages [setux-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setux_plus-0.2418.0.tar.gz tmp/setux_plus-0.2421.0.tar.gz --markdown 20240520/s/setux-plus/0.2418.0-0.2421.0/README.md --exclude *.pyd
+[2024-05-20 12:29:26] INFO root fetch - processPackages [jampy]: Downloading https://files.pythonhosted.org/packages/f3/55/9948c9742cf62270e58fbce79d22c5b589c790a9b9e47d4bf7a519c9bc47/jampy-7.2.5.tar.gz
+[2024-05-20 12:29:26] INFO root fetch - processPackages [setux-repl]: executing diffoscope
+[2024-05-20 12:29:26] INFO root fetch - processPackages [setux-repl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setux_repl-0.4.1.tar.gz tmp/setux_repl-0.4.2.tar.gz --markdown 20240520/s/setux-repl/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-20 12:29:26] INFO root fetch - processPackages [jampy]: executing diffoscope
+[2024-05-20 12:29:26] INFO root fetch - processPackages [jampy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jampy-7.2.4.tar.gz tmp/jampy-7.2.5.tar.gz --markdown 20240520/j/jampy/7.2.4-7.2.5/README.md --exclude *.pyd
+[2024-05-20 12:29:26] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-20 12:29:26] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.8.tar.gz tmp/cg-60.7.9-py3-none-any.whl.zip --markdown 20240520/c/cg/60.7.8-60.7.9/README.md --exclude *.pyd
+[2024-05-20 12:29:27] INFO root fetch - processPackages [gene4mVCF]: Remove: archive file [/home/abi/fetcher/tmp/gene4mvcf-1.0.2.tar.gz]
+[2024-05-20 12:29:27] INFO root fetch - processPackages [gene4mVCF]: Remove: archive file [/home/abi/fetcher/tmp/gene4mvcf-1.0.3.tar.gz]
+[2024-05-20 12:29:27] INFO root fetch - main [MainThread]: End processing [gene4mVCF]: success
+[2024-05-20 12:29:27] INFO root fetch - processPackages [myjd-api]: Remove: archive file [/home/abi/fetcher/tmp/myjd_api-1.2.2.tar.gz]
+[2024-05-20 12:29:27] INFO root fetch - processPackages [myjd-api]: Remove: archive file [/home/abi/fetcher/tmp/myjd_api-1.2.3.tar.gz]
+[2024-05-20 12:29:27] INFO root fetch - main [MainThread]: End processing [myjd-api]: success
+[2024-05-20 12:29:27] INFO root fetch - processPackages [s3-object-storage-client]: Remove: archive file [/home/abi/fetcher/tmp/s3_object_storage_client-0.1.1.tar.gz]
+[2024-05-20 12:29:27] INFO root fetch - processPackages [s3-object-storage-client]: Remove: archive file [/home/abi/fetcher/tmp/s3_object_storage_client-0.2.1.tar.gz]
+[2024-05-20 12:29:27] INFO root fetch - main [MainThread]: End processing [s3-object-storage-client]: success
+[2024-05-20 12:29:27] INFO root fetch - processPackages [setux-repl]: Remove: archive file [/home/abi/fetcher/tmp/setux_repl-0.4.1.tar.gz]
+[2024-05-20 12:29:27] INFO root fetch - processPackages [setux-repl]: Remove: archive file [/home/abi/fetcher/tmp/setux_repl-0.4.2.tar.gz]
+[2024-05-20 12:29:27] INFO root fetch - main [MainThread]: End processing [setux-repl]: success
+[2024-05-20 12:29:27] INFO root fetch - processPackages [setux-plus]: Remove: archive file [/home/abi/fetcher/tmp/setux_plus-0.2418.0.tar.gz]
+[2024-05-20 12:29:27] INFO root fetch - processPackages [setux-plus]: Remove: archive file [/home/abi/fetcher/tmp/setux_plus-0.2421.0.tar.gz]
+[2024-05-20 12:29:27] INFO root fetch - main [MainThread]: End processing [setux-plus]: success
+[2024-05-20 12:29:27] INFO root fetch - processPackages [jampy]: Remove: archive file [/home/abi/fetcher/tmp/jampy-7.2.4.tar.gz]
+[2024-05-20 12:29:27] INFO root fetch - processPackages [jampy]: Remove: archive file [/home/abi/fetcher/tmp/jampy-7.2.5.tar.gz]
+[2024-05-20 12:29:27] INFO root fetch - main [MainThread]: End processing [jampy]: success
+[2024-05-20 12:29:28] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.8.tar.gz]
+[2024-05-20 12:29:28] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
+[2024-05-20 12:29:28] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-20 12:29:29] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-20 12:29:29] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-20 12:29:29] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-20 12:29:29] INFO root fetch - main [MainThread]: Store serial: [23288157]

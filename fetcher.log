@@ -9807,3 +9807,36 @@
 [2024-05-20 09:46:17] INFO root fetch - processPackages [plotnineseqsuite]: Remove: archive file [/home/abi/fetcher/tmp/plotnineseqsuite-1.1.1.tar.gz]
 [2024-05-20 09:46:17] INFO root fetch - main [MainThread]: End processing [plotnineseqsuite]: success
 [2024-05-20 09:46:17] INFO root fetch - main [MainThread]: Store serial: [23286457]
+[2024-05-20 09:48:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286457]
+[2024-05-20 09:48:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 09:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: correctionz
+[2024-05-20 09:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: memvectordb-python
+[2024-05-20 09:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rdsa-utils
+[2024-05-20 09:48:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amilib
+[2024-05-20 09:48:26] INFO root fetch - processPackages [rdsa-utils]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-20 09:48:26] WARNING root fetch - processPackages [correctionz]: Skipping, unable to determine old version
+[2024-05-20 09:48:26] INFO root fetch - main [MainThread]: End processing [correctionz] error
+[2024-05-20 09:48:26] INFO root fetch - processPackages [memvectordb-python]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 09:48:26] INFO root fetch - processPackages [amilib]: New version: [0.1.1a0] Old Version: [0.1.1]
+[2024-05-20 09:48:27] INFO root fetch - processPackages [memvectordb-python]: Downloading https://files.pythonhosted.org/packages/32/d4/27ab5e26218d1dfa64ec1c7aa9b6a411bcc224bd0fdb20d3c035ae41e54f/memvectordb_python-0.0.2.tar.gz
+[2024-05-20 09:48:27] INFO root fetch - processPackages [rdsa-utils]: Downloading https://files.pythonhosted.org/packages/f4/d1/d6f87140851cd15a49b67117e4770f36c30650cca413e146127b6bee9a45/rdsa_utils-0.2.2.tar.gz
+[2024-05-20 09:48:27] INFO root fetch - processPackages [amilib]: Downloading https://files.pythonhosted.org/packages/98/d7/8432b0040f6de277c426d1d4411e8e163c3a44a4f69ea116d2ec2b5c4768/amilib-0.1.1.tar.gz
+[2024-05-20 09:48:27] INFO root fetch - processPackages [memvectordb-python]: Downloading https://files.pythonhosted.org/packages/6c/bf/2ea39f3f54aa8bd5dd6e21bc26cbdb1a202650a61dded409fc13c04f3dd5/memvectordb_python-0.0.3.tar.gz
+[2024-05-20 09:48:27] INFO root fetch - processPackages [rdsa-utils]: Downloading https://files.pythonhosted.org/packages/75/be/b806d2e9c528e07770c5e685bb33bf4b869fcd5552b7b415da954056ac6a/rdsa_utils-0.2.3.tar.gz
+[2024-05-20 09:48:27] INFO root fetch - processPackages [memvectordb-python]: executing diffoscope
+[2024-05-20 09:48:27] INFO root fetch - processPackages [memvectordb-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memvectordb_python-0.0.2.tar.gz tmp/memvectordb_python-0.0.3.tar.gz --markdown 20240520/m/memvectordb-python/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 09:48:27] INFO root fetch - processPackages [rdsa-utils]: executing diffoscope
+[2024-05-20 09:48:27] INFO root fetch - processPackages [rdsa-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdsa_utils-0.2.2.tar.gz tmp/rdsa_utils-0.2.3.tar.gz --markdown 20240520/r/rdsa-utils/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-20 09:48:27] INFO root fetch - processPackages [amilib]: Downloading https://files.pythonhosted.org/packages/3b/83/135e00c19ba9ff5e8afd1ba99052cd49e7f1493e3ca0d5f1983139068098/amilib-0.1.1a0.tar.gz
+[2024-05-20 09:48:27] INFO root fetch - processPackages [amilib]: executing diffoscope
+[2024-05-20 09:48:27] INFO root fetch - processPackages [amilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amilib-0.1.1.tar.gz tmp/amilib-0.1.1a0.tar.gz --markdown 20240520/a/amilib/0.1.1-0.1.1a0/README.md --exclude *.pyd
+[2024-05-20 09:48:27] INFO root fetch - processPackages [memvectordb-python]: Remove: archive file [/home/abi/fetcher/tmp/memvectordb_python-0.0.2.tar.gz]
+[2024-05-20 09:48:27] INFO root fetch - processPackages [memvectordb-python]: Remove: archive file [/home/abi/fetcher/tmp/memvectordb_python-0.0.3.tar.gz]
+[2024-05-20 09:48:27] INFO root fetch - main [MainThread]: End processing [memvectordb-python]: success
+[2024-05-20 09:48:28] INFO root fetch - processPackages [rdsa-utils]: Remove: archive file [/home/abi/fetcher/tmp/rdsa_utils-0.2.2.tar.gz]
+[2024-05-20 09:48:28] INFO root fetch - processPackages [rdsa-utils]: Remove: archive file [/home/abi/fetcher/tmp/rdsa_utils-0.2.3.tar.gz]
+[2024-05-20 09:48:28] INFO root fetch - main [MainThread]: End processing [rdsa-utils]: success
+[2024-05-20 09:48:28] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.1.1.tar.gz]
+[2024-05-20 09:48:28] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.1.1a0.tar.gz]
+[2024-05-20 09:48:28] INFO root fetch - main [MainThread]: End processing [amilib]: success
+[2024-05-20 09:48:28] INFO root fetch - main [MainThread]: Store serial: [23286469]

@@ -18295,3 +18295,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:16:27] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-2.0.9.tar.gz]
 [2024-05-20 15:16:27] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
 [2024-05-20 15:16:27] INFO root fetch - main [MainThread]: Store serial: [23290126]
+[2024-05-20 15:18:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290126]
+[2024-05-20 15:18:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 15:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seg_tgce
+[2024-05-20 15:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hydromodel
+[2024-05-20 15:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apify-client
+[2024-05-20 15:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simo
+[2024-05-20 15:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccxt
+[2024-05-20 15:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swc-utils
+[2024-05-20 15:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pixyverse.pixy
+[2024-05-20 15:18:36] INFO root fetch - processPackages [apify-client]: New version: [1.7.0b1] Old Version: [1.7.0]
+[2024-05-20 15:18:36] INFO root fetch - processPackages [hydromodel]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-20 15:18:36] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/e5/dc/0a16ff0269834dfdf70c2c5fb32127f81d978f40b21e12a1d2112b7b0b88/apify_client-1.7.0.tar.gz
+[2024-05-20 15:18:36] INFO root fetch - processPackages [seg_tgce]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-20 15:18:36] WARNING root fetch - processPackages [pixyverse.pixy]: Skipping, unable to determine old version
+[2024-05-20 15:18:36] INFO root fetch - main [MainThread]: End processing [pixyverse.pixy] error
+[2024-05-20 15:18:36] INFO root fetch - processPackages [swc-utils]: New version: [0.1.1] Old Version: [0.0.2]
+[2024-05-20 15:18:36] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-20 15:18:36] INFO root fetch - processPackages [ccxt]: New version: [4.3.9] Old Version: [4.3.8]
+[2024-05-20 15:18:36] INFO root fetch - processPackages [seg_tgce]: Downloading https://files.pythonhosted.org/packages/82/fd/acca8638eb756e4402e27dfd131aa33deef38be7173db5d65e0592fa7235/seg_tgce-0.1.1.tar.gz
+[2024-05-20 15:18:36] INFO root fetch - processPackages [hydromodel]: Downloading https://files.pythonhosted.org/packages/27/5a/4acda37eae964d0d7f02685edbf7f0457154a02a8e1d7e085624749aaf40/hydromodel-0.2.3.tar.gz
+[2024-05-20 15:18:36] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/bf/d3/63bc2d2ebf25a445fa0af011f3be218a480158a1d729acaa6e4c3e17dddf/apify_client-1.7.0b1.tar.gz
+[2024-05-20 15:18:36] INFO root fetch - processPackages [swc-utils]: Downloading https://files.pythonhosted.org/packages/85/0c/45a053befc12639f8961c5f29ea1a47c1611929c611e081e9c6e90466e40/swc_utils-0.0.2.tar.gz
+[2024-05-20 15:18:36] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-05-20 15:18:36] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/1c/a1/3a1a3f9672e43a2620d2ab195c398183c3594751d3a306bd022e7ceccbb7/ccxt-4.3.8.tar.gz
+[2024-05-20 15:18:36] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2024-05-20 15:18:36] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.7.0.tar.gz tmp/apify_client-1.7.0b1.tar.gz --markdown 20240520/a/apify-client/1.7.0-1.7.0b1/README.md --exclude *.pyd
+[2024-05-20 15:18:36] INFO root fetch - processPackages [seg_tgce]: Downloading https://files.pythonhosted.org/packages/1b/c1/0737887bc678e7c19f9e76555a36d61b803f6a3e1cd607e30ccc2deb7a6c/seg_tgce-0.1.2.tar.gz
+[2024-05-20 15:18:36] INFO root fetch - processPackages [hydromodel]: Downloading https://files.pythonhosted.org/packages/cf/8c/234a20c991d49b4b9915beca885ab724da3158ce7e0e82ce55e5149e09c8/hydromodel-0.2.4.tar.gz
+[2024-05-20 15:18:36] INFO root fetch - processPackages [swc-utils]: Downloading https://files.pythonhosted.org/packages/4c/51/08a76bc2a3e2b66d37a0047485ea7652115bd76917304fd240e9467b4017/swc_utils-0.1.1.tar.gz
+[2024-05-20 15:18:36] INFO root fetch - processPackages [seg_tgce]: executing diffoscope
+[2024-05-20 15:18:36] INFO root fetch - processPackages [seg_tgce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seg_tgce-0.1.1.tar.gz tmp/seg_tgce-0.1.2.tar.gz --markdown 20240520/s/seg_tgce/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-20 15:18:36] INFO root fetch - processPackages [hydromodel]: executing diffoscope
+[2024-05-20 15:18:36] INFO root fetch - processPackages [hydromodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydromodel-0.2.3.tar.gz tmp/hydromodel-0.2.4.tar.gz --markdown 20240520/h/hydromodel/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-20 15:18:36] INFO root fetch - processPackages [swc-utils]: executing diffoscope
+[2024-05-20 15:18:36] INFO root fetch - processPackages [swc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swc_utils-0.0.2.tar.gz tmp/swc_utils-0.1.1.tar.gz --markdown 20240520/s/swc-utils/0.0.2-0.1.1/README.md --exclude *.pyd
+[2024-05-20 15:18:37] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/f0/34/c7c38c5c0bec0a22183d7eed68184bef3efe315a8570460824012267cbac/ccxt-4.3.9.tar.gz
+[2024-05-20 15:18:37] INFO root fetch - processPackages [apify-client]: Remove: archive file [/home/abi/fetcher/tmp/apify_client-1.7.0.tar.gz]
+[2024-05-20 15:18:37] INFO root fetch - processPackages [apify-client]: Remove: archive file [/home/abi/fetcher/tmp/apify_client-1.7.0b1.tar.gz]
+[2024-05-20 15:18:37] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2024-05-20 15:18:37] INFO root fetch - processPackages [seg_tgce]: Remove: archive file [/home/abi/fetcher/tmp/seg_tgce-0.1.1.tar.gz]
+[2024-05-20 15:18:37] INFO root fetch - processPackages [seg_tgce]: Remove: archive file [/home/abi/fetcher/tmp/seg_tgce-0.1.2.tar.gz]
+[2024-05-20 15:18:37] INFO root fetch - main [MainThread]: End processing [seg_tgce]: success
+[2024-05-20 15:18:37] INFO root fetch - processPackages [hydromodel]: Remove: archive file [/home/abi/fetcher/tmp/hydromodel-0.2.3.tar.gz]
+[2024-05-20 15:18:37] INFO root fetch - processPackages [hydromodel]: Remove: archive file [/home/abi/fetcher/tmp/hydromodel-0.2.4.tar.gz]
+[2024-05-20 15:18:37] INFO root fetch - main [MainThread]: End processing [hydromodel]: success
+[2024-05-20 15:18:37] INFO root fetch - processPackages [swc-utils]: Remove: archive file [/home/abi/fetcher/tmp/swc_utils-0.0.2.tar.gz]
+[2024-05-20 15:18:37] INFO root fetch - processPackages [swc-utils]: Remove: archive file [/home/abi/fetcher/tmp/swc_utils-0.1.1.tar.gz]
+[2024-05-20 15:18:37] INFO root fetch - main [MainThread]: End processing [swc-utils]: success
+[2024-05-20 15:18:37] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2024-05-20 15:18:37] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.3.8.tar.gz tmp/ccxt-4.3.9.tar.gz --markdown 20240520/c/ccxt/4.3.8-4.3.9/README.md --exclude *.pyd
+[2024-05-20 15:18:38] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-05-20 15:18:38] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-05-20 15:18:41] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.8.tar.gz]
+[2024-05-20 15:18:41] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.3.9.tar.gz]
+[2024-05-20 15:18:41] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2024-05-20 15:18:41] INFO root fetch - main [MainThread]: Store serial: [23290151]

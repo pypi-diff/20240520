@@ -24188,3 +24188,33 @@ EOFError: EOF read where object expected
 [2024-05-20 18:51:58] INFO root fetch - processPackages [pybloomfiltermmap3]: Remove: archive file [/home/abi/fetcher/tmp/pybloomfiltermmap3-0.6.0.tar.gz]
 [2024-05-20 18:51:58] INFO root fetch - main [MainThread]: End processing [pybloomfiltermmap3]: success
 [2024-05-20 18:51:58] INFO root fetch - main [MainThread]: Store serial: [23292717]
+[2024-05-20 18:54:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292717]
+[2024-05-20 18:54:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 18:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LogTranslate
+[2024-05-20 18:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepeval
+[2024-05-20 18:54:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grpcio
+[2024-05-20 18:54:07] INFO root fetch - processPackages [deepeval]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-20 18:54:07] INFO root fetch - processPackages [grpcio]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2024-05-20 18:54:07] INFO root fetch - processPackages [LogTranslate]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-20 18:54:07] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/8b/4e/74892f0e4e740898d3d9bbcb8e3e22adc9d2ca430699cb8a78a8b5e2697b/deepeval-0.9.8.tar.gz
+[2024-05-20 18:54:07] INFO root fetch - processPackages [LogTranslate]: Downloading https://files.pythonhosted.org/packages/f1/2e/1702f650ff34c7eecbcfc37edc6be62940ba30f5cb69dad9370a6fd52a75/LogTranslate-1.4.0.tar.gz
+[2024-05-20 18:54:07] INFO root fetch - processPackages [grpcio]: Downloading https://files.pythonhosted.org/packages/a5/65/9a6b6049ce04f7072b169052fc70760cc10bf0aabfef8d02199470f0f296/grpcio-1.9.0rc3.tar.gz
+[2024-05-20 18:54:07] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/79/cd/f07ea4ba3fa8fae91bc1bdecc3a7fc8882146f65614215058425221ac2e8/deepeval-0.9.9.tar.gz
+[2024-05-20 18:54:08] INFO root fetch - processPackages [LogTranslate]: Downloading https://files.pythonhosted.org/packages/cd/92/8219c2b852f6418acb06644f07dff854c1eb3d6358b5ebc4481d4c318fb1/LogTranslate-1.4.1.tar.gz
+[2024-05-20 18:54:08] INFO root fetch - processPackages [deepeval]: executing diffoscope
+[2024-05-20 18:54:08] INFO root fetch - processPackages [deepeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepeval-0.9.8.tar.gz tmp/deepeval-0.9.9.tar.gz --markdown 20240520/d/deepeval/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-20 18:54:08] INFO root fetch - processPackages [LogTranslate]: executing diffoscope
+[2024-05-20 18:54:08] INFO root fetch - processPackages [LogTranslate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LogTranslate-1.4.0.tar.gz tmp/LogTranslate-1.4.1.tar.gz --markdown 20240520/L/LogTranslate/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-20 18:54:08] INFO root fetch - processPackages [LogTranslate]: Remove: archive file [/home/abi/fetcher/tmp/LogTranslate-1.4.0.tar.gz]
+[2024-05-20 18:54:08] INFO root fetch - processPackages [LogTranslate]: Remove: archive file [/home/abi/fetcher/tmp/LogTranslate-1.4.1.tar.gz]
+[2024-05-20 18:54:08] INFO root fetch - main [MainThread]: End processing [LogTranslate]: success
+[2024-05-20 18:54:08] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.8.tar.gz]
+[2024-05-20 18:54:08] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
+[2024-05-20 18:54:08] INFO root fetch - main [MainThread]: End processing [deepeval]: success
+[2024-05-20 18:54:09] INFO root fetch - processPackages [grpcio]: Downloading https://files.pythonhosted.org/packages/01/0b/7033eb8a2b8e7f8eaf849490ee27c9b121b1b5624d644c3b5b988d7386cf/grpcio-1.9.1.tar.gz
+[2024-05-20 18:54:11] INFO root fetch - processPackages [grpcio]: executing diffoscope
+[2024-05-20 18:54:11] INFO root fetch - processPackages [grpcio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-1.9.0rc3.tar.gz tmp/grpcio-1.9.1.tar.gz --markdown 20240520/g/grpcio/1.9.0rc3-1.9.1/README.md --exclude *.pyd
+[2024-05-20 18:54:41] INFO root fetch - processPackages [grpcio]: Remove: archive file [/home/abi/fetcher/tmp/grpcio-1.9.0rc3.tar.gz]
+[2024-05-20 18:54:41] INFO root fetch - processPackages [grpcio]: Remove: archive file [/home/abi/fetcher/tmp/grpcio-1.9.1.tar.gz]
+[2024-05-20 18:54:41] INFO root fetch - main [MainThread]: End processing [grpcio]: success
+[2024-05-20 18:54:41] INFO root fetch - main [MainThread]: Store serial: [23292734]

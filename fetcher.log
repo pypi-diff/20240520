@@ -20485,3 +20485,33 @@ EOFError: EOF read where object expected
 [2024-05-20 16:28:29] INFO root fetch - processPackages [DodonaCLI]: Remove: archive file [/home/abi/fetcher/tmp/dodonacli-2024.5.20.tar.gz]
 [2024-05-20 16:28:29] INFO root fetch - main [MainThread]: End processing [DodonaCLI]: success
 [2024-05-20 16:28:29] INFO root fetch - main [MainThread]: Store serial: [23291123]
+[2024-05-20 16:30:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291123]
+[2024-05-20 16:30:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 16:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-oauth-toolkit
+[2024-05-20 16:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mns-common
+[2024-05-20 16:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-prep-toolkit-kfp
+[2024-05-20 16:30:39] INFO root fetch - processPackages [mns-common]: New version: [1.1.1.8] Old Version: [1.1.1.7]
+[2024-05-20 16:30:39] INFO root fetch - processPackages [django-oauth-toolkit]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-05-20 16:30:39] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/c8/5a/9f9d8d4830712d227a572fdf66b3b3b9fd02101e0386c8274fc8d0fa307e/mns_common-1.1.1.7.tar.gz
+[2024-05-20 16:30:39] INFO root fetch - processPackages [data-prep-toolkit-kfp]: New version: [0.1.0] Old Version: [0.0.1.dev9]
+[2024-05-20 16:30:39] INFO root fetch - processPackages [django-oauth-toolkit]: Downloading https://files.pythonhosted.org/packages/22/2b/e0353101e242f1fb4e90a9bc5aa43894afd73e2e4650f40c6579e8f39389/django-oauth-toolkit-2.3.0.tar.gz
+[2024-05-20 16:30:39] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/ba/bf/e95575aad408e2aa50198d2c293f708992db973fc14a205c8aaefd64e700/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz
+[2024-05-20 16:30:39] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/c2/04/e767a87b911755bf210a020921ad36e06d1987145123c3239ec0cfca31b7/mns_common-1.1.1.8.tar.gz
+[2024-05-20 16:30:39] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-20 16:30:39] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.1.7.tar.gz tmp/mns_common-1.1.1.8.tar.gz --markdown 20240520/m/mns-common/1.1.1.7-1.1.1.8/README.md --exclude *.pyd
+[2024-05-20 16:30:39] INFO root fetch - processPackages [django-oauth-toolkit]: Downloading https://files.pythonhosted.org/packages/75/87/934fd9b320122415e408df3aa5e64ec6121071c4f2a9ff1d8cd89f440b6d/django_oauth_toolkit-2.4.0.tar.gz
+[2024-05-20 16:30:39] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/c5/c8/8d6d7be956979a103c6894ce424548dff678de6bfc85be8018d305469e67/data_prep_toolkit_kfp-0.1.0.tar.gz
+[2024-05-20 16:30:39] INFO root fetch - processPackages [django-oauth-toolkit]: executing diffoscope
+[2024-05-20 16:30:39] INFO root fetch - processPackages [django-oauth-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-oauth-toolkit-2.3.0.tar.gz tmp/django_oauth_toolkit-2.4.0.tar.gz --markdown 20240520/d/django-oauth-toolkit/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-05-20 16:30:39] INFO root fetch - processPackages [data-prep-toolkit-kfp]: executing diffoscope
+[2024-05-20 16:30:39] INFO root fetch - processPackages [data-prep-toolkit-kfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz tmp/data_prep_toolkit_kfp-0.1.0.tar.gz --markdown 20240520/d/data-prep-toolkit-kfp/0.0.1.dev9-0.1.0/README.md --exclude *.pyd
+[2024-05-20 16:30:40] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.1.7.tar.gz]
+[2024-05-20 16:30:40] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.1.8.tar.gz]
+[2024-05-20 16:30:40] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-20 16:30:40] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz]
+[2024-05-20 16:30:40] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.1.0.tar.gz]
+[2024-05-20 16:30:40] INFO root fetch - main [MainThread]: End processing [data-prep-toolkit-kfp]: success
+[2024-05-20 16:30:40] INFO root fetch - processPackages [django-oauth-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/django-oauth-toolkit-2.3.0.tar.gz]
+[2024-05-20 16:30:40] INFO root fetch - processPackages [django-oauth-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/django_oauth_toolkit-2.4.0.tar.gz]
+[2024-05-20 16:30:40] INFO root fetch - main [MainThread]: End processing [django-oauth-toolkit]: success
+[2024-05-20 16:30:40] INFO root fetch - main [MainThread]: Store serial: [23291132]

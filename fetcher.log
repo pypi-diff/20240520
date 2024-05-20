@@ -22604,3 +22604,108 @@ EOFError: EOF read where object expected
 [2024-05-20 17:49:45] INFO root fetch - processPackages [pyedifice]: Remove: archive file [/home/abi/fetcher/tmp/pyedifice-0.6.0.tar.gz]
 [2024-05-20 17:49:45] INFO root fetch - main [MainThread]: End processing [pyedifice]: success
 [2024-05-20 17:49:45] INFO root fetch - main [MainThread]: Store serial: [23292012]
+[2024-05-20 17:51:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292012]
+[2024-05-20 17:51:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-20 17:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sciveo
+[2024-05-20 17:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xspace-dl
+[2024-05-20 17:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flatpack
+[2024-05-20 17:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: divent
+[2024-05-20 17:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-repo-client
+[2024-05-20 17:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scoutbook_parser
+[2024-05-20 17:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ryvencore-qt
+[2024-05-20 17:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dve-lumipy-testing
+[2024-05-20 17:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ryven
+[2024-05-20 17:51:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finbourne-identity-sdk
+[2024-05-20 17:51:54] INFO root fetch - processPackages [flatpack]: New version: [3.4.92] Old Version: [3.4.91]
+[2024-05-20 17:51:54] INFO root fetch - processPackages [scoutbook_parser]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 17:51:54] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 17:51:54] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-20 17:51:54] INFO root fetch - processPackages [divent]: New version: [4.1.3] Old Version: [4.1.2]
+[2024-05-20 17:51:54] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/23/d4/1eb42b960a9aa866f42f721a83983ffc1093c69ccfdfbee4934a90d1f178/flatpack-3.4.91.tar.gz
+[2024-05-20 17:51:54] INFO root fetch - processPackages [xspace-dl]: New version: [0.3.1] Old Version: [0.2.26]
+[2024-05-20 17:51:54] INFO root fetch - processPackages [ryven]: New version: [3.5.0] Old Version: [3.4.3]
+[2024-05-20 17:51:54] INFO root fetch - processPackages [sciveo]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 17:51:54] INFO root fetch - processPackages [ryvencore-qt]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-05-20 17:51:54] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/2f/35/aa91d923787edb9bf5bcbfa8461c60465a9e55f7513c06e4f16d5221c3c3/dve_lumipy_testing-1.0.8-py3-none-any.whl
+[2024-05-20 17:51:54] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/cb/af/8cefee227997b6e3fe30da0ae2c31049cc60b92d76e910b4beca5fc29702/scoutbook_parser-0.9.0.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/d0/a8/58762272cf6dfc1eea4225966c3d306063c7229e76de561e55ed59ced10d/finbourne_identity_sdk-2.1.8.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [data-repo-client]: New version: [2.67.0] Old Version: [2.66.0]
+[2024-05-20 17:51:55] INFO root fetch - processPackages [ryven]: Downloading https://files.pythonhosted.org/packages/27/e5/8ce01a847d217d995354d97abf981c0f9b5feb4e66ea8ed2851a040f8e4e/ryven-3.4.3.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/4e/28/3a5c51c072dcf9209f9d070baa5e5f238e6f9b37046e523ce01d9029cd98/xspace-dl-0.2.26.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [divent]: Downloading https://files.pythonhosted.org/packages/f1/68/0942d2424565e7e1defc17ca71d4585b08c3a0e1df815256b8ea6fa795ba/divent-4.1.2.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [ryvencore-qt]: Downloading https://files.pythonhosted.org/packages/f8/96/41de97d9fccf15b3e518729e29ac4c97159b16da0dd040df5049975478db/ryvencore-qt-0.4.3.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/a8/b3/755d2ce577e69aa85bd7c4589be4f7a8f4e54f64a3f1c5e0dd3aef5db4d8/scoutbook_parser-0.9.1.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/1e/7c/e37b3c84846734e2feb285aa04bd1d2381e9cd7415aeb1a75f2cfd40fd79/dve_lumipy_testing-1.0.9-py3-none-any.whl
+[2024-05-20 17:51:55] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/26/ef/fa37ef9dbfb3c759b1fce913e76e1f6cd9e796e21b0db34a7e272c4c58d9/data-repo-client-2.66.0.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/f7/a7/9dc16764bb18b7961b267a16ee91d5cfb1aa86dae42fbe6706ba862223ec/finbourne_identity_sdk-2.1.9.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/c4/0c/f794be88a8c3355deaf584073de5b0432b0aa9e892a3c5215617fadf1f74/flatpack-3.4.92.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [sciveo]: Downloading https://files.pythonhosted.org/packages/85/99/e330c28ea35d53c91ffe35ba9a05c6574c23c196383b00ccaba7377b555d/sciveo-0.1.8.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [scoutbook_parser]: executing diffoscope
+[2024-05-20 17:51:55] INFO root fetch - processPackages [scoutbook_parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoutbook_parser-0.9.0.tar.gz tmp/scoutbook_parser-0.9.1.tar.gz --markdown 20240520/s/scoutbook_parser/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 17:51:55] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-05-20 17:51:55] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.8.tar.gz tmp/finbourne_identity_sdk-2.1.9.tar.gz --markdown 20240520/f/finbourne-identity-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-20 17:51:55] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-20 17:51:55] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.91.tar.gz tmp/flatpack-3.4.92.tar.gz --markdown 20240520/f/flatpack/3.4.91-3.4.92/README.md --exclude *.pyd
+[2024-05-20 17:51:55] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-05-20 17:51:55] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip --markdown 20240520/d/dve-lumipy-testing/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 17:51:55] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/87/5a/11bf0f2f6fc1e4ca8e5f3c92493bcf003ea852c76177ffa9be80c937a57b/xspace-dl-0.3.1.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [divent]: Downloading https://files.pythonhosted.org/packages/be/2e/419f41607fa8256b91721e6d88d88e9e07191770e830bdc0ae7221ab3319/divent-4.1.3.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [xspace-dl]: executing diffoscope
+[2024-05-20 17:51:55] INFO root fetch - processPackages [xspace-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspace-dl-0.2.26.tar.gz tmp/xspace-dl-0.3.1.tar.gz --markdown 20240520/x/xspace-dl/0.2.26-0.3.1/README.md --exclude *.pyd
+[2024-05-20 17:51:55] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/56/1f/33f08026aea6cfbfc6c7af5654f8e020c62137e3d79b657ce80ca8400b07/data-repo-client-2.67.0.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [sciveo]: Downloading https://files.pythonhosted.org/packages/55/36/a475b3eb4f39af7a51ba0625a4b0bbbafb80028cd971e233e90e7416b916/sciveo-0.1.9.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [ryven]: Downloading https://files.pythonhosted.org/packages/f7/31/54262ecf98f021bec454049b80cb496d84e535bd8eb2a5590411bfb54267/ryven-3.5.0.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [divent]: executing diffoscope
+[2024-05-20 17:51:55] INFO root fetch - processPackages [divent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/divent-4.1.2.tar.gz tmp/divent-4.1.3.tar.gz --markdown 20240520/d/divent/4.1.2-4.1.3/README.md --exclude *.pyd
+[2024-05-20 17:51:55] INFO root fetch - processPackages [ryvencore-qt]: Downloading https://files.pythonhosted.org/packages/4d/f0/4614e8fa34bcb40f44702d49cb41d151d2ec2e5b464cf993c35bed0b9073/ryvencore_qt-0.5.0.tar.gz
+[2024-05-20 17:51:55] INFO root fetch - processPackages [sciveo]: executing diffoscope
+[2024-05-20 17:51:55] INFO root fetch - processPackages [sciveo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciveo-0.1.8.tar.gz tmp/sciveo-0.1.9.tar.gz --markdown 20240520/s/sciveo/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 17:51:56] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2024-05-20 17:51:56] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-2.66.0.tar.gz tmp/data-repo-client-2.67.0.tar.gz --markdown 20240520/d/data-repo-client/2.66.0-2.67.0/README.md --exclude *.pyd
+[2024-05-20 17:51:56] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.0.tar.gz]
+[2024-05-20 17:51:56] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.1.tar.gz]
+[2024-05-20 17:51:56] INFO root fetch - processPackages [scoutbook_parser]: Start processing: clean_ioc
+[2024-05-20 17:51:56] INFO root fetch - main [MainThread]: End processing [scoutbook_parser]: success
+[2024-05-20 17:51:56] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.91.tar.gz]
+[2024-05-20 17:51:56] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.92.tar.gz]
+[2024-05-20 17:51:56] INFO root fetch - processPackages [flatpack]: Start processing: cam-manager
+[2024-05-20 17:51:56] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-20 17:51:56] INFO root fetch - processPackages [clean_ioc]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-20 17:51:56] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.2.26.tar.gz]
+[2024-05-20 17:51:56] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.3.1.tar.gz]
+[2024-05-20 17:51:56] INFO root fetch - main [MainThread]: End processing [xspace-dl]: success
+[2024-05-20 17:51:56] WARNING root fetch - processPackages [cam-manager]: Skipping, unable to determine old version
+[2024-05-20 17:51:56] INFO root fetch - main [MainThread]: End processing [cam-manager] error
+[2024-05-20 17:51:56] INFO root fetch - processPackages [clean_ioc]: Downloading https://files.pythonhosted.org/packages/28/b9/a9c52a5675b40f1ea8a3f47cf902fa6052896a8a8a349bfe4f599627990f/clean_ioc-1.2.0.tar.gz
+[2024-05-20 17:51:56] INFO root fetch - processPackages [divent]: Remove: archive file [/home/abi/fetcher/tmp/divent-4.1.2.tar.gz]
+[2024-05-20 17:51:56] INFO root fetch - processPackages [divent]: Remove: archive file [/home/abi/fetcher/tmp/divent-4.1.3.tar.gz]
+[2024-05-20 17:51:56] INFO root fetch - main [MainThread]: End processing [divent]: success
+[2024-05-20 17:51:56] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.8.tar.gz]
+[2024-05-20 17:51:56] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.9.tar.gz]
+[2024-05-20 17:51:56] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-05-20 17:51:56] INFO root fetch - processPackages [sciveo]: Remove: archive file [/home/abi/fetcher/tmp/sciveo-0.1.8.tar.gz]
+[2024-05-20 17:51:56] INFO root fetch - processPackages [sciveo]: Remove: archive file [/home/abi/fetcher/tmp/sciveo-0.1.9.tar.gz]
+[2024-05-20 17:51:56] INFO root fetch - main [MainThread]: End processing [sciveo]: success
+[2024-05-20 17:51:56] INFO root fetch - processPackages [ryvencore-qt]: executing diffoscope
+[2024-05-20 17:51:56] INFO root fetch - processPackages [ryvencore-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryvencore-qt-0.4.3.tar.gz tmp/ryvencore_qt-0.5.0.tar.gz --markdown 20240520/r/ryvencore-qt/0.4.3-0.5.0/README.md --exclude *.pyd
+[2024-05-20 17:51:57] INFO root fetch - processPackages [clean_ioc]: Downloading https://files.pythonhosted.org/packages/99/db/d83f84fb7356e7eba934b9c04cb09b5457a0830b0644346f61e0ff1420f8/clean_ioc-1.3.0.tar.gz
+[2024-05-20 17:51:57] INFO root fetch - processPackages [ryven]: executing diffoscope
+[2024-05-20 17:51:57] INFO root fetch - processPackages [ryven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryven-3.4.3.tar.gz tmp/ryven-3.5.0.tar.gz --markdown 20240520/r/ryven/3.4.3-3.5.0/README.md --exclude *.pyd
+[2024-05-20 17:51:57] INFO root fetch - processPackages [clean_ioc]: executing diffoscope
+[2024-05-20 17:51:57] INFO root fetch - processPackages [clean_ioc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean_ioc-1.2.0.tar.gz tmp/clean_ioc-1.3.0.tar.gz --markdown 20240520/c/clean_ioc/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-20 17:51:57] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.8-py3-none-any.whl.zip]
+[2024-05-20 17:51:57] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-1.0.9-py3-none-any.whl.zip]
+[2024-05-20 17:51:57] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-05-20 17:51:57] INFO root fetch - processPackages [clean_ioc]: Remove: archive file [/home/abi/fetcher/tmp/clean_ioc-1.2.0.tar.gz]
+[2024-05-20 17:51:57] INFO root fetch - processPackages [clean_ioc]: Remove: archive file [/home/abi/fetcher/tmp/clean_ioc-1.3.0.tar.gz]
+[2024-05-20 17:51:57] INFO root fetch - main [MainThread]: End processing [clean_ioc]: success
+[2024-05-20 17:51:58] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.66.0.tar.gz]
+[2024-05-20 17:51:58] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.67.0.tar.gz]
+[2024-05-20 17:51:58] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2024-05-20 17:51:58] INFO root fetch - processPackages [ryvencore-qt]: Remove: archive file [/home/abi/fetcher/tmp/ryvencore-qt-0.4.3.tar.gz]
+[2024-05-20 17:51:58] INFO root fetch - processPackages [ryvencore-qt]: Remove: archive file [/home/abi/fetcher/tmp/ryvencore_qt-0.5.0.tar.gz]
+[2024-05-20 17:51:58] INFO root fetch - main [MainThread]: End processing [ryvencore-qt]: success
+[2024-05-20 17:51:58] INFO root fetch - processPackages [ryven]: Remove: archive file [/home/abi/fetcher/tmp/ryven-3.4.3.tar.gz]
+[2024-05-20 17:51:58] INFO root fetch - processPackages [ryven]: Remove: archive file [/home/abi/fetcher/tmp/ryven-3.5.0.tar.gz]
+[2024-05-20 17:51:58] INFO root fetch - main [MainThread]: End processing [ryven]: success
+[2024-05-20 17:51:58] INFO root fetch - main [MainThread]: Store serial: [23292048]

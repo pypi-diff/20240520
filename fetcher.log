@@ -22187,3 +22187,55 @@ EOFError: EOF read where object expected
 [2024-05-20 17:34:17] INFO root fetch - processPackages [streamlit-datatables-net]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_datatables_net-0.0.9-py3-none-any.whl.zip]
 [2024-05-20 17:34:17] INFO root fetch - main [MainThread]: End processing [streamlit-datatables-net]: success
 [2024-05-20 17:34:17] INFO root fetch - main [MainThread]: Store serial: [23291841]
+[2024-05-20 17:36:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291841]
+[2024-05-20 17:36:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 17:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shtec-rlhf
+[2024-05-20 17:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfragments
+[2024-05-20 17:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myaskai-py
+[2024-05-20 17:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WrenchCL
+[2024-05-20 17:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duplicity
+[2024-05-20 17:36:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zboxapi
+[2024-05-20 17:36:26] INFO root fetch - processPackages [myaskai-py]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-20 17:36:26] INFO root fetch - processPackages [duplicity]: New version: [2.2.4rc3] Old Version: [2.2.4rc2]
+[2024-05-20 17:36:26] INFO root fetch - processPackages [pyfragments]: New version: [0.4.1] Old Version: [0.3.0]
+[2024-05-20 17:36:26] INFO root fetch - processPackages [shtec-rlhf]: New version: [0.0.3.dev0] Old Version: [0.0.2.dev0]
+[2024-05-20 17:36:27] INFO root fetch - processPackages [zboxapi]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-20 17:36:27] INFO root fetch - processPackages [WrenchCL]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-20 17:36:27] INFO root fetch - processPackages [duplicity]: Downloading https://files.pythonhosted.org/packages/81/6d/3e46c4d04f3bdc0b3a974cc3f7a57a4c9b2c11ae2652b9f48d585783929a/duplicity-2.2.4rc2.tar.gz
+[2024-05-20 17:36:27] ERROR root fetch - processPackages [myaskai-py]: Unable to fetch info: No such project/version 'myaskai-py' 1.0.1
+[2024-05-20 17:36:27] INFO root fetch - main [MainThread]: End processing [myaskai-py] error
+[2024-05-20 17:36:27] INFO root fetch - processPackages [pyfragments]: Downloading https://files.pythonhosted.org/packages/80/c6/bacae627c5816b5778bf352fe30d7fd0069a3dcc8418f7d18f2663e3fdda/pyfragments-0.3.0.tar.gz
+[2024-05-20 17:36:27] INFO root fetch - processPackages [shtec-rlhf]: Downloading https://files.pythonhosted.org/packages/99/f1/0e98476329c07f8442d08dc3da6518b22dfb7bb96efe32586783b8f80a7e/shtec-rlhf-0.0.2.dev0.tar.gz
+[2024-05-20 17:36:27] INFO root fetch - processPackages [WrenchCL]: Downloading https://files.pythonhosted.org/packages/8d/d5/b68a52790c3c3f491607f3721dfdc8890ebf716ce1ea955b158c7d22fcc6/WrenchCL-2.1.4.tar.gz
+[2024-05-20 17:36:27] INFO root fetch - processPackages [zboxapi]: Downloading https://files.pythonhosted.org/packages/4a/c0/c27fb5d8f589a0a1dc9858860fc7e532f94f5f87966b98799452cc9c8f7e/zboxapi-0.0.4.tar.gz
+[2024-05-20 17:36:27] INFO root fetch - processPackages [duplicity]: Downloading https://files.pythonhosted.org/packages/c6/b4/a8b531ee5a12681ed4164e265b78a7e0513b81e5ae37c27860829cb497c0/duplicity-2.2.4rc3.tar.gz
+[2024-05-20 17:36:27] INFO root fetch - processPackages [pyfragments]: Downloading https://files.pythonhosted.org/packages/19/35/2fe04f828508f35a80cd52004fda2a771055c164f1d68ecfd6c06350db98/pyfragments-0.4.1.tar.gz
+[2024-05-20 17:36:27] INFO root fetch - processPackages [WrenchCL]: Downloading https://files.pythonhosted.org/packages/b3/57/b410a6b68086d58cb3ed1ea7679fee320cfba12f7846fd46a7775ead3373/WrenchCL-2.1.5.tar.gz
+[2024-05-20 17:36:27] INFO root fetch - processPackages [zboxapi]: Downloading https://files.pythonhosted.org/packages/d8/64/41b296c8876be7fb61d54b64a69af452ab5ffe7b6f7c4c206148682207e9/zboxapi-0.0.5.tar.gz
+[2024-05-20 17:36:27] INFO root fetch - processPackages [shtec-rlhf]: Downloading https://files.pythonhosted.org/packages/bc/ff/5678de7787a2736f6190d959718fdb851c2c3bb85dcc396dfae93c619c73/shtec-rlhf-0.0.3.dev0.tar.gz
+[2024-05-20 17:36:27] INFO root fetch - processPackages [WrenchCL]: executing diffoscope
+[2024-05-20 17:36:27] INFO root fetch - processPackages [WrenchCL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WrenchCL-2.1.4.tar.gz tmp/WrenchCL-2.1.5.tar.gz --markdown 20240520/W/WrenchCL/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-20 17:36:27] INFO root fetch - processPackages [duplicity]: executing diffoscope
+[2024-05-20 17:36:27] INFO root fetch - processPackages [duplicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duplicity-2.2.4rc2.tar.gz tmp/duplicity-2.2.4rc3.tar.gz --markdown 20240520/d/duplicity/2.2.4rc2-2.2.4rc3/README.md --exclude *.pyd
+[2024-05-20 17:36:27] INFO root fetch - processPackages [zboxapi]: executing diffoscope
+[2024-05-20 17:36:27] INFO root fetch - processPackages [zboxapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zboxapi-0.0.4.tar.gz tmp/zboxapi-0.0.5.tar.gz --markdown 20240520/z/zboxapi/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-20 17:36:27] INFO root fetch - processPackages [pyfragments]: executing diffoscope
+[2024-05-20 17:36:27] INFO root fetch - processPackages [pyfragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfragments-0.3.0.tar.gz tmp/pyfragments-0.4.1.tar.gz --markdown 20240520/p/pyfragments/0.3.0-0.4.1/README.md --exclude *.pyd
+[2024-05-20 17:36:27] INFO root fetch - processPackages [shtec-rlhf]: executing diffoscope
+[2024-05-20 17:36:27] INFO root fetch - processPackages [shtec-rlhf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shtec-rlhf-0.0.2.dev0.tar.gz tmp/shtec-rlhf-0.0.3.dev0.tar.gz --markdown 20240520/s/shtec-rlhf/0.0.2.dev0-0.0.3.dev0/README.md --exclude *.pyd
+[2024-05-20 17:36:28] INFO root fetch - processPackages [zboxapi]: Remove: archive file [/home/abi/fetcher/tmp/zboxapi-0.0.4.tar.gz]
+[2024-05-20 17:36:28] INFO root fetch - processPackages [zboxapi]: Remove: archive file [/home/abi/fetcher/tmp/zboxapi-0.0.5.tar.gz]
+[2024-05-20 17:36:28] INFO root fetch - main [MainThread]: End processing [zboxapi]: success
+[2024-05-20 17:36:28] INFO root fetch - processPackages [pyfragments]: Remove: archive file [/home/abi/fetcher/tmp/pyfragments-0.3.0.tar.gz]
+[2024-05-20 17:36:28] INFO root fetch - processPackages [pyfragments]: Remove: archive file [/home/abi/fetcher/tmp/pyfragments-0.4.1.tar.gz]
+[2024-05-20 17:36:28] INFO root fetch - main [MainThread]: End processing [pyfragments]: success
+[2024-05-20 17:36:28] INFO root fetch - processPackages [WrenchCL]: Remove: archive file [/home/abi/fetcher/tmp/WrenchCL-2.1.4.tar.gz]
+[2024-05-20 17:36:28] INFO root fetch - processPackages [WrenchCL]: Remove: archive file [/home/abi/fetcher/tmp/WrenchCL-2.1.5.tar.gz]
+[2024-05-20 17:36:28] INFO root fetch - main [MainThread]: End processing [WrenchCL]: success
+[2024-05-20 17:36:28] INFO root fetch - processPackages [shtec-rlhf]: Remove: archive file [/home/abi/fetcher/tmp/shtec-rlhf-0.0.2.dev0.tar.gz]
+[2024-05-20 17:36:28] INFO root fetch - processPackages [shtec-rlhf]: Remove: archive file [/home/abi/fetcher/tmp/shtec-rlhf-0.0.3.dev0.tar.gz]
+[2024-05-20 17:36:28] INFO root fetch - main [MainThread]: End processing [shtec-rlhf]: success
+[2024-05-20 17:36:29] INFO root fetch - processPackages [duplicity]: Remove: archive file [/home/abi/fetcher/tmp/duplicity-2.2.4rc2.tar.gz]
+[2024-05-20 17:36:29] INFO root fetch - processPackages [duplicity]: Remove: archive file [/home/abi/fetcher/tmp/duplicity-2.2.4rc3.tar.gz]
+[2024-05-20 17:36:29] INFO root fetch - main [MainThread]: End processing [duplicity]: success
+[2024-05-20 17:36:29] INFO root fetch - main [MainThread]: Store serial: [23291862]

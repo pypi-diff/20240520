@@ -7996,3 +7996,33 @@
 [2024-05-20 08:09:44] INFO root fetch - processPackages [stefutils]: Remove: archive file [/home/abi/fetcher/tmp/stefutils-0.9.0.tar.gz]
 [2024-05-20 08:09:44] INFO root fetch - main [MainThread]: End processing [stefutils]: success
 [2024-05-20 08:09:44] INFO root fetch - main [MainThread]: Store serial: [23285321]
+[2024-05-20 08:11:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285321]
+[2024-05-20 08:11:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 08:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-netty
+[2024-05-20 08:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ahjo
+[2024-05-20 08:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BioSAK
+[2024-05-20 08:11:52] INFO root fetch - processPackages [py-netty]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-20 08:11:53] INFO root fetch - processPackages [BioSAK]: New version: [1.88.9] Old Version: [1.88.8]
+[2024-05-20 08:11:53] INFO root fetch - processPackages [ahjo]: New version: [3.8.0] Old Version: [3.7.0]
+[2024-05-20 08:11:53] INFO root fetch - processPackages [py-netty]: Downloading https://files.pythonhosted.org/packages/29/cc/6e7f469771c16a8d8940d141086b159e15b25c05f297c4f7247f61b3f786/py-netty-1.0.0.tar.gz
+[2024-05-20 08:11:53] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/76/0f/b42a5b517c7a861e4c633c5b8b2e8275a69eec86da698120e6a5a1ebf74f/BioSAK-1.88.8.tar.gz
+[2024-05-20 08:11:53] INFO root fetch - processPackages [ahjo]: Downloading https://files.pythonhosted.org/packages/a7/a9/d7aa860e76d4c6c1e968a4e4d4b0a965c756436f7b7e98509ed343201f75/ahjo-3.7.0-py3-none-any.whl
+[2024-05-20 08:11:53] INFO root fetch - processPackages [py-netty]: Downloading https://files.pythonhosted.org/packages/b1/8f/5a74f401f1e1b9a73a01fd9e206ca861bb93c380c42c230f67b33239ed65/py-netty-1.0.1.tar.gz
+[2024-05-20 08:11:53] INFO root fetch - processPackages [py-netty]: executing diffoscope
+[2024-05-20 08:11:53] INFO root fetch - processPackages [py-netty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-netty-1.0.0.tar.gz tmp/py-netty-1.0.1.tar.gz --markdown 20240520/p/py-netty/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-20 08:11:53] INFO root fetch - processPackages [ahjo]: Downloading https://files.pythonhosted.org/packages/04/5a/fce050568274e7dd9e6248abb6d1531ae2763ab7292ab757a66e90802ff1/ahjo-3.8.0-py3-none-any.whl
+[2024-05-20 08:11:53] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/62/97/bf719db985f3e78168efac2d24682565516b6a12a3997626926808793ccb/BioSAK-1.88.9.tar.gz
+[2024-05-20 08:11:54] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-05-20 08:11:54] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.88.8.tar.gz tmp/BioSAK-1.88.9.tar.gz --markdown 20240520/B/BioSAK/1.88.8-1.88.9/README.md --exclude *.pyd
+[2024-05-20 08:11:54] INFO root fetch - processPackages [ahjo]: executing diffoscope
+[2024-05-20 08:11:54] INFO root fetch - processPackages [ahjo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahjo-3.7.0-py3-none-any.whl.zip tmp/ahjo-3.8.0-py3-none-any.whl.zip --markdown 20240520/a/ahjo/3.7.0-3.8.0/README.md --exclude *.pyd
+[2024-05-20 08:11:54] INFO root fetch - processPackages [py-netty]: Remove: archive file [/home/abi/fetcher/tmp/py-netty-1.0.0.tar.gz]
+[2024-05-20 08:11:54] INFO root fetch - processPackages [py-netty]: Remove: archive file [/home/abi/fetcher/tmp/py-netty-1.0.1.tar.gz]
+[2024-05-20 08:11:54] INFO root fetch - main [MainThread]: End processing [py-netty]: success
+[2024-05-20 08:11:54] INFO root fetch - processPackages [ahjo]: Remove: archive file [/home/abi/fetcher/tmp/ahjo-3.7.0-py3-none-any.whl.zip]
+[2024-05-20 08:11:54] INFO root fetch - processPackages [ahjo]: Remove: archive file [/home/abi/fetcher/tmp/ahjo-3.8.0-py3-none-any.whl.zip]
+[2024-05-20 08:11:54] INFO root fetch - main [MainThread]: End processing [ahjo]: success
+[2024-05-20 08:11:55] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.8.tar.gz]
+[2024-05-20 08:11:55] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.88.9.tar.gz]
+[2024-05-20 08:11:55] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-05-20 08:11:55] INFO root fetch - main [MainThread]: Store serial: [23285328]

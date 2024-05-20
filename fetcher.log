@@ -6997,3 +6997,36 @@
 [2024-05-20 06:52:31] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.25a1716174569.tar.gz]
 [2024-05-20 06:52:31] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
 [2024-05-20 06:52:31] INFO root fetch - main [MainThread]: Store serial: [23284650]
+[2024-05-20 06:54:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23284650]
+[2024-05-20 06:54:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 06:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spatchcockz
+[2024-05-20 06:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notebooks-and-scripts
+[2024-05-20 06:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2024-05-20 06:54:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abcli
+[2024-05-20 06:54:39] INFO root fetch - processPackages [notebooks-and-scripts]: New version: [4.449.1] Old Version: [4.448.1]
+[2024-05-20 06:54:39] INFO root fetch - processPackages [abcli]: New version: [8.192.1] Old Version: [8.190.1]
+[2024-05-20 06:54:39] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-20 06:54:39] WARNING root fetch - processPackages [spatchcockz]: Skipping, unable to determine old version
+[2024-05-20 06:54:39] INFO root fetch - main [MainThread]: End processing [spatchcockz] error
+[2024-05-20 06:54:39] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/8a/c5/f7acf6dfcdafb6fbaac1ae7bc1665d4c3cf9ab7f3677921cfcef7983f835/abcli-8.190.1.tar.gz
+[2024-05-20 06:54:39] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/8e/ae/840d3c19656b93be2daeea1f56c486942766410d2045cd35cf0b205bceb6/notebooks_and_scripts-4.448.1.tar.gz
+[2024-05-20 06:54:39] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-20 06:54:39] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-20 06:54:39] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-20 06:54:39] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240520/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-20 06:54:40] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/1f/31/15f0d9d5f0e984c13db689fd8c163febb78ac43450cc529cc06766e702d4/notebooks_and_scripts-4.449.1.tar.gz
+[2024-05-20 06:54:40] INFO root fetch - processPackages [abcli]: Downloading https://files.pythonhosted.org/packages/eb/85/985d2734296ef810a29fa20b5a4d9af5d0f75cc873adc43ece5c988d5a39/abcli-8.192.1.tar.gz
+[2024-05-20 06:54:40] INFO root fetch - processPackages [notebooks-and-scripts]: executing diffoscope
+[2024-05-20 06:54:40] INFO root fetch - processPackages [notebooks-and-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebooks_and_scripts-4.448.1.tar.gz tmp/notebooks_and_scripts-4.449.1.tar.gz --markdown 20240520/n/notebooks-and-scripts/4.448.1-4.449.1/README.md --exclude *.pyd
+[2024-05-20 06:54:40] INFO root fetch - processPackages [abcli]: executing diffoscope
+[2024-05-20 06:54:40] INFO root fetch - processPackages [abcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abcli-8.190.1.tar.gz tmp/abcli-8.192.1.tar.gz --markdown 20240520/a/abcli/8.190.1-8.192.1/README.md --exclude *.pyd
+[2024-05-20 06:54:40] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-20 06:54:40] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-20 06:54:40] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-20 06:54:40] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.448.1.tar.gz]
+[2024-05-20 06:54:40] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.449.1.tar.gz]
+[2024-05-20 06:54:40] INFO root fetch - main [MainThread]: End processing [notebooks-and-scripts]: success
+[2024-05-20 06:54:40] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.190.1.tar.gz]
+[2024-05-20 06:54:40] INFO root fetch - processPackages [abcli]: Remove: archive file [/home/abi/fetcher/tmp/abcli-8.192.1.tar.gz]
+[2024-05-20 06:54:40] INFO root fetch - main [MainThread]: End processing [abcli]: success
+[2024-05-20 06:54:40] INFO root fetch - main [MainThread]: Store serial: [23284662]

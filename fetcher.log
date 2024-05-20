@@ -3795,3 +3795,39 @@
 [2024-05-20 03:05:51] INFO root fetch - processPackages [fortls]: Remove: archive file [/home/abi/fetcher/tmp/fortls-3.1.0.tar.gz]
 [2024-05-20 03:05:51] INFO root fetch - main [MainThread]: End processing [fortls]: success
 [2024-05-20 03:05:51] INFO root fetch - main [MainThread]: Store serial: [23283188]
+[2024-05-20 03:07:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283188]
+[2024-05-20 03:08:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 03:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hue-sunrise
+[2024-05-20 03:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kywy
+[2024-05-20 03:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pescodz
+[2024-05-20 03:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wwbot
+[2024-05-20 03:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: catfish-sim
+[2024-05-20 03:08:00] WARNING root fetch - processPackages [wwbot]: Skipping, unable to determine old version
+[2024-05-20 03:08:00] INFO root fetch - main [MainThread]: End processing [wwbot] error
+[2024-05-20 03:08:00] INFO root fetch - processPackages [kywy]: New version: [0.18.0b9] Old Version: [0.18.0b8]
+[2024-05-20 03:08:00] WARNING root fetch - processPackages [pescodz]: Skipping, unable to determine old version
+[2024-05-20 03:08:00] INFO root fetch - main [MainThread]: End processing [pescodz] error
+[2024-05-20 03:08:00] INFO root fetch - processPackages [hue-sunrise]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-20 03:08:00] INFO root fetch - processPackages [catfish-sim]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-20 03:08:00] INFO root fetch - processPackages [kywy]: Downloading https://files.pythonhosted.org/packages/5a/35/d09681ca4dba675cb340afcda2294f700aa776e80bb79d04f8b902d66c14/kywy-0.18.0b8-py3-none-any.whl
+[2024-05-20 03:08:00] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/ca/e9/540d059956f78f9c8fe289ac263b36659e46539f8aa5f3d1bed8516aceb4/hue_sunrise-0.6.8.tar.gz
+[2024-05-20 03:08:01] INFO root fetch - processPackages [catfish-sim]: Downloading https://files.pythonhosted.org/packages/72/5e/29a9f21d1bec26f123f6a6c9640aa3f906b99f73d75be79f9cf5339803cd/catfish_sim-0.1.1.tar.gz
+[2024-05-20 03:08:01] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/fa/05/26bf05e0f3613c7bb941514f32b7c545625037f03289eec39ac8cf0557c9/hue_sunrise-0.6.9.tar.gz
+[2024-05-20 03:08:01] INFO root fetch - processPackages [kywy]: Downloading https://files.pythonhosted.org/packages/9a/f8/24411333415c7d5a41eb0b9f0ad87d2cd2123835ebc09f94853b04aca91c/kywy-0.18.0b9-py3-none-any.whl
+[2024-05-20 03:08:01] INFO root fetch - processPackages [hue-sunrise]: executing diffoscope
+[2024-05-20 03:08:01] INFO root fetch - processPackages [hue-sunrise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hue_sunrise-0.6.8.tar.gz tmp/hue_sunrise-0.6.9.tar.gz --markdown 20240520/h/hue-sunrise/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-20 03:08:01] INFO root fetch - processPackages [kywy]: executing diffoscope
+[2024-05-20 03:08:01] INFO root fetch - processPackages [kywy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kywy-0.18.0b8-py3-none-any.whl.zip tmp/kywy-0.18.0b9-py3-none-any.whl.zip --markdown 20240520/k/kywy/0.18.0b8-0.18.0b9/README.md --exclude *.pyd
+[2024-05-20 03:08:01] INFO root fetch - processPackages [catfish-sim]: Downloading https://files.pythonhosted.org/packages/0b/77/630a783b6fcb24b52d61fe76e6c5586ebc364f8379802392707d0aa0018a/catfish_sim-0.2.0-py3-none-any.whl
+[2024-05-20 03:08:01] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.8.tar.gz]
+[2024-05-20 03:08:01] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.9.tar.gz]
+[2024-05-20 03:08:01] INFO root fetch - main [MainThread]: End processing [hue-sunrise]: success
+[2024-05-20 03:08:02] INFO root fetch - processPackages [kywy]: Remove: archive file [/home/abi/fetcher/tmp/kywy-0.18.0b8-py3-none-any.whl.zip]
+[2024-05-20 03:08:02] INFO root fetch - processPackages [kywy]: Remove: archive file [/home/abi/fetcher/tmp/kywy-0.18.0b9-py3-none-any.whl.zip]
+[2024-05-20 03:08:02] INFO root fetch - main [MainThread]: End processing [kywy]: success
+[2024-05-20 03:08:02] INFO root fetch - processPackages [catfish-sim]: executing diffoscope
+[2024-05-20 03:08:02] INFO root fetch - processPackages [catfish-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catfish_sim-0.1.1.tar.gz tmp/catfish_sim-0.2.0-py3-none-any.whl.zip --markdown 20240520/c/catfish-sim/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-20 03:08:06] INFO root fetch - processPackages [catfish-sim]: Remove: archive file [/home/abi/fetcher/tmp/catfish_sim-0.1.1.tar.gz]
+[2024-05-20 03:08:06] INFO root fetch - processPackages [catfish-sim]: Remove: archive file [/home/abi/fetcher/tmp/catfish_sim-0.2.0-py3-none-any.whl.zip]
+[2024-05-20 03:08:06] INFO root fetch - main [MainThread]: End processing [catfish-sim]: success
+[2024-05-20 03:08:06] INFO root fetch - main [MainThread]: Store serial: [23283200]

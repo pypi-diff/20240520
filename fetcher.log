@@ -18097,3 +18097,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:12:01] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
 [2024-05-20 15:12:01] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
 [2024-05-20 15:12:01] INFO root fetch - main [MainThread]: Store serial: [23290042]
+[2024-05-20 15:14:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290042]
+[2024-05-20 15:14:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 15:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Flask-App-Install
+[2024-05-20 15:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torture
+[2024-05-20 15:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: strangeworks-braket
+[2024-05-20 15:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyuptech
+[2024-05-20 15:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radprompter
+[2024-05-20 15:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chitinoidz
+[2024-05-20 15:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blues-lib
+[2024-05-20 15:14:12] INFO root fetch - processPackages [radprompter]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-05-20 15:14:12] INFO root fetch - processPackages [Flask-App-Install]: New version: [0.1.1] Old Version: [0.0.1]
+[2024-05-20 15:14:12] INFO root fetch - processPackages [blues-lib]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-20 15:14:12] WARNING root fetch - processPackages [chitinoidz]: Skipping, unable to determine old version
+[2024-05-20 15:14:12] INFO root fetch - main [MainThread]: End processing [chitinoidz] error
+[2024-05-20 15:14:12] INFO root fetch - processPackages [pyuptech]: New version: [0.1.5] Old Version: [0.1.4a1]
+[2024-05-20 15:14:12] INFO root fetch - processPackages [radprompter]: Downloading https://files.pythonhosted.org/packages/7c/19/bc3bff7114214df272ba92520e92eec907aecdc48324f2719b736ae9f0f0/radprompter-1.0.9.tar.gz
+[2024-05-20 15:14:12] INFO root fetch - processPackages [strangeworks-braket]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 15:14:12] WARNING root fetch - processPackages [torture]: Skipping, unable to determine old version
+[2024-05-20 15:14:12] INFO root fetch - main [MainThread]: End processing [torture] error
+[2024-05-20 15:14:12] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/50/16/975c7a30228267251fedbc0fe991e6f96f5313f614ea886ebd9848d1bfc3/blues_lib-1.1.8.tar.gz
+[2024-05-20 15:14:12] INFO root fetch - processPackages [Flask-App-Install]: Downloading https://files.pythonhosted.org/packages/1b/96/9e6dc73c1fbed4ed242c90ca4bb21352df391ea116d19769864f9ffd8e3d/flask_app_install-0.0.1.tar.gz
+[2024-05-20 15:14:12] INFO root fetch - processPackages [pyuptech]: Downloading https://files.pythonhosted.org/packages/ee/47/f5f9f942e03af830263106d61145feaca3931e3bf780cc81073e79f9a915/pyuptech-0.1.4a1.tar.gz
+[2024-05-20 15:14:12] INFO root fetch - processPackages [blues-lib]: Downloading https://files.pythonhosted.org/packages/64/4c/b37bdd30e913905227cf3085ef64b3b8382dd95843df82a7577ff36813a8/blues_lib-1.1.9.tar.gz
+[2024-05-20 15:14:12] INFO root fetch - processPackages [strangeworks-braket]: Downloading https://files.pythonhosted.org/packages/c0/91/4784006729e77771ecbe98846624c1a6af2acb56dbdb52602cc177d05c8d/strangeworks_braket-1.0.8.tar.gz
+[2024-05-20 15:14:12] INFO root fetch - processPackages [blues-lib]: executing diffoscope
+[2024-05-20 15:14:12] INFO root fetch - processPackages [blues-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blues_lib-1.1.8.tar.gz tmp/blues_lib-1.1.9.tar.gz --markdown 20240520/b/blues-lib/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-20 15:14:12] INFO root fetch - processPackages [radprompter]: Downloading https://files.pythonhosted.org/packages/b6/1a/f26c6ea4adc0e4d81c53e9f46b0d49355e8c646cd7dbe88dcf7876c57fe7/radprompter-1.1.0.tar.gz
+[2024-05-20 15:14:12] INFO root fetch - processPackages [Flask-App-Install]: Downloading https://files.pythonhosted.org/packages/4d/d7/65b4a07fa08bb9e4e9ad815d76f9557e275f2eef92503c385d8586809e97/flask_app_install-0.1.1.tar.gz
+[2024-05-20 15:14:12] INFO root fetch - processPackages [radprompter]: executing diffoscope
+[2024-05-20 15:14:12] INFO root fetch - processPackages [radprompter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radprompter-1.0.9.tar.gz tmp/radprompter-1.1.0.tar.gz --markdown 20240520/r/radprompter/1.0.9-1.1.0/README.md --exclude *.pyd
+[2024-05-20 15:14:12] INFO root fetch - processPackages [pyuptech]: Downloading https://files.pythonhosted.org/packages/11/5a/be92e4167d0837ca24d28b534906b92abddea94c217c98939be375eb1f27/pyuptech-0.1.5.tar.gz
+[2024-05-20 15:14:12] INFO root fetch - processPackages [Flask-App-Install]: executing diffoscope
+[2024-05-20 15:14:12] INFO root fetch - processPackages [Flask-App-Install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_app_install-0.0.1.tar.gz tmp/flask_app_install-0.1.1.tar.gz --markdown 20240520/F/Flask-App-Install/0.0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-20 15:14:12] INFO root fetch - processPackages [strangeworks-braket]: Downloading https://files.pythonhosted.org/packages/a2/7a/62f123428d680022bd9481953b0a47bab6f5613aaeae32a62534ced1f192/strangeworks_braket-1.0.9.tar.gz
+[2024-05-20 15:14:12] INFO root fetch - processPackages [pyuptech]: executing diffoscope
+[2024-05-20 15:14:12] INFO root fetch - processPackages [pyuptech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuptech-0.1.4a1.tar.gz tmp/pyuptech-0.1.5.tar.gz --markdown 20240520/p/pyuptech/0.1.4a1-0.1.5/README.md --exclude *.pyd
+[2024-05-20 15:14:12] INFO root fetch - processPackages [strangeworks-braket]: executing diffoscope
+[2024-05-20 15:14:12] INFO root fetch - processPackages [strangeworks-braket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks_braket-1.0.8.tar.gz tmp/strangeworks_braket-1.0.9.tar.gz --markdown 20240520/s/strangeworks-braket/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 15:14:13] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.1.8.tar.gz]
+[2024-05-20 15:14:13] INFO root fetch - processPackages [blues-lib]: Remove: archive file [/home/abi/fetcher/tmp/blues_lib-1.1.9.tar.gz]
+[2024-05-20 15:14:13] INFO root fetch - main [MainThread]: End processing [blues-lib]: success
+[2024-05-20 15:14:13] INFO root fetch - processPackages [Flask-App-Install]: Remove: archive file [/home/abi/fetcher/tmp/flask_app_install-0.0.1.tar.gz]
+[2024-05-20 15:14:13] INFO root fetch - processPackages [Flask-App-Install]: Remove: archive file [/home/abi/fetcher/tmp/flask_app_install-0.1.1.tar.gz]
+[2024-05-20 15:14:13] INFO root fetch - main [MainThread]: End processing [Flask-App-Install]: success
+[2024-05-20 15:14:13] INFO root fetch - processPackages [radprompter]: Remove: archive file [/home/abi/fetcher/tmp/radprompter-1.0.9.tar.gz]
+[2024-05-20 15:14:13] INFO root fetch - processPackages [radprompter]: Remove: archive file [/home/abi/fetcher/tmp/radprompter-1.1.0.tar.gz]
+[2024-05-20 15:14:13] INFO root fetch - main [MainThread]: End processing [radprompter]: success
+[2024-05-20 15:14:13] INFO root fetch - processPackages [pyuptech]: Remove: archive file [/home/abi/fetcher/tmp/pyuptech-0.1.4a1.tar.gz]
+[2024-05-20 15:14:13] INFO root fetch - processPackages [pyuptech]: Remove: archive file [/home/abi/fetcher/tmp/pyuptech-0.1.5.tar.gz]
+[2024-05-20 15:14:13] INFO root fetch - main [MainThread]: End processing [pyuptech]: success
+[2024-05-20 15:14:13] INFO root fetch - processPackages [strangeworks-braket]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks_braket-1.0.8.tar.gz]
+[2024-05-20 15:14:13] INFO root fetch - processPackages [strangeworks-braket]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks_braket-1.0.9.tar.gz]
+[2024-05-20 15:14:13] INFO root fetch - main [MainThread]: End processing [strangeworks-braket]: success
+[2024-05-20 15:14:13] INFO root fetch - main [MainThread]: Store serial: [23290073]

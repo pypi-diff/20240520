@@ -4645,3 +4645,45 @@
 [2024-05-20 03:59:00] INFO root fetch - processPackages [hydrobot]: Remove: archive file [/home/abi/fetcher/tmp/hydrobot-0.6.2.tar.gz]
 [2024-05-20 03:59:00] INFO root fetch - main [MainThread]: End processing [hydrobot]: success
 [2024-05-20 03:59:00] INFO root fetch - main [MainThread]: Store serial: [23283629]
+[2024-05-20 04:01:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283629]
+[2024-05-20 04:01:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 04:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytranscript
+[2024-05-20 04:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edgegraph
+[2024-05-20 04:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shuttleasgi
+[2024-05-20 04:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: toyllm
+[2024-05-20 04:01:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmticket
+[2024-05-20 04:01:09] INFO root fetch - processPackages [tmticket]: New version: [0.2.2] Old Version: [0.2.11]
+[2024-05-20 04:01:09] INFO root fetch - processPackages [shuttleasgi]: New version: [3.0.4] Old Version: [3.0.1]
+[2024-05-20 04:01:09] INFO root fetch - processPackages [pytranscript]: New version: [0.2.1] Old Version: [0.1.1]
+[2024-05-20 04:01:09] WARNING root fetch - processPackages [toyllm]: Skipping, unable to determine old version
+[2024-05-20 04:01:09] INFO root fetch - main [MainThread]: End processing [toyllm] error
+[2024-05-20 04:01:09] INFO root fetch - processPackages [shuttleasgi]: Downloading https://files.pythonhosted.org/packages/6d/9e/657b99d86a81d85c4d3613216a03ecb7b77a9082d253cd7ac64b94483199/shuttleasgi-3.0.1.tar.gz
+[2024-05-20 04:01:09] INFO root fetch - processPackages [edgegraph]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-20 04:01:09] INFO root fetch - processPackages [pytranscript]: Downloading https://files.pythonhosted.org/packages/0d/16/7d4b00ed27877f1b1f29e17a1b7960ddae723dd115eab265fdb89dacee8d/pytranscript-0.1.1.tar.gz
+[2024-05-20 04:01:09] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/d0/c3/cf7212d31e403ae57f7efc7bc85157b6c5f666db1e48961332e373bfcc88/tmticket-0.2.11-py3-none-any.whl
+[2024-05-20 04:01:09] INFO root fetch - processPackages [edgegraph]: Downloading https://files.pythonhosted.org/packages/b9/8a/5e1aac377f00745a934d702040b8c17a6ed7763d1fd7994aa892cd793bf8/edgegraph-0.2.0.tar.gz
+[2024-05-20 04:01:09] INFO root fetch - processPackages [shuttleasgi]: Downloading https://files.pythonhosted.org/packages/86/2c/30c8a986423f71fe7d4b8cf43369f737c9dcb4ca917facbc7deea0757310/shuttleasgi-3.0.4-cp312-cp312-win_amd64.whl
+[2024-05-20 04:01:09] INFO root fetch - processPackages [pytranscript]: Downloading https://files.pythonhosted.org/packages/81/71/8e37fa5d7dd7a18c398faab66350f763b0c5454fed8d5c9612000814846c/pytranscript-0.2.1.tar.gz
+[2024-05-20 04:01:09] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/14/24/d9b4e8fa75d1188e9a793c4a4910d44ca119f97ff0b3779a448274e8c3fd/tmticket-0.2.2.tar.gz
+[2024-05-20 04:01:09] INFO root fetch - processPackages [edgegraph]: Downloading https://files.pythonhosted.org/packages/99/21/57eb49a74964351e3051d5a23a601ba45ef6b71288e4876d5762b6c05a58/edgegraph-0.3.0.tar.gz
+[2024-05-20 04:01:09] INFO root fetch - processPackages [pytranscript]: executing diffoscope
+[2024-05-20 04:01:09] INFO root fetch - processPackages [pytranscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytranscript-0.1.1.tar.gz tmp/pytranscript-0.2.1.tar.gz --markdown 20240520/p/pytranscript/0.1.1-0.2.1/README.md --exclude *.pyd
+[2024-05-20 04:01:09] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-20 04:01:09] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.2.11-py3-none-any.whl.zip tmp/tmticket-0.2.2.tar.gz --markdown 20240520/t/tmticket/0.2.11-0.2.2/README.md --exclude *.pyd
+[2024-05-20 04:01:09] INFO root fetch - processPackages [shuttleasgi]: executing diffoscope
+[2024-05-20 04:01:09] INFO root fetch - processPackages [shuttleasgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shuttleasgi-3.0.1.tar.gz tmp/shuttleasgi-3.0.4-cp312-cp312-win_amd64.whl.zip --markdown 20240520/s/shuttleasgi/3.0.1-3.0.4/README.md --exclude *.pyd
+[2024-05-20 04:01:09] INFO root fetch - processPackages [edgegraph]: executing diffoscope
+[2024-05-20 04:01:09] INFO root fetch - processPackages [edgegraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgegraph-0.2.0.tar.gz tmp/edgegraph-0.3.0.tar.gz --markdown 20240520/e/edgegraph/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-20 04:01:10] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.11-py3-none-any.whl.zip]
+[2024-05-20 04:01:10] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.2.tar.gz]
+[2024-05-20 04:01:10] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-20 04:01:10] INFO root fetch - processPackages [pytranscript]: Remove: archive file [/home/abi/fetcher/tmp/pytranscript-0.1.1.tar.gz]
+[2024-05-20 04:01:10] INFO root fetch - processPackages [pytranscript]: Remove: archive file [/home/abi/fetcher/tmp/pytranscript-0.2.1.tar.gz]
+[2024-05-20 04:01:10] INFO root fetch - main [MainThread]: End processing [pytranscript]: success
+[2024-05-20 04:01:10] INFO root fetch - processPackages [edgegraph]: Remove: archive file [/home/abi/fetcher/tmp/edgegraph-0.2.0.tar.gz]
+[2024-05-20 04:01:10] INFO root fetch - processPackages [edgegraph]: Remove: archive file [/home/abi/fetcher/tmp/edgegraph-0.3.0.tar.gz]
+[2024-05-20 04:01:10] INFO root fetch - main [MainThread]: End processing [edgegraph]: success
+[2024-05-20 04:01:10] INFO root fetch - processPackages [shuttleasgi]: Remove: archive file [/home/abi/fetcher/tmp/shuttleasgi-3.0.1.tar.gz]
+[2024-05-20 04:01:10] INFO root fetch - processPackages [shuttleasgi]: Remove: archive file [/home/abi/fetcher/tmp/shuttleasgi-3.0.4-cp312-cp312-win_amd64.whl.zip]
+[2024-05-20 04:01:10] INFO root fetch - main [MainThread]: End processing [shuttleasgi]: success
+[2024-05-20 04:01:10] INFO root fetch - main [MainThread]: Store serial: [23283655]

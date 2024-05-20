@@ -10890,3 +10890,54 @@
 [2024-05-20 10:34:37] INFO root fetch - processPackages [liechains]: Remove: archive file [/home/abi/fetcher/tmp/liechains-0.3.1.tar.gz]
 [2024-05-20 10:34:37] INFO root fetch - main [MainThread]: End processing [liechains]: success
 [2024-05-20 10:34:37] INFO root fetch - main [MainThread]: Store serial: [23286889]
+[2024-05-20 10:36:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23286889]
+[2024-05-20 10:36:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 10:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: conversa
+[2024-05-20 10:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pmb-py
+[2024-05-20 10:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuzu
+[2024-05-20 10:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sais-notify-test
+[2024-05-20 10:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jzai
+[2024-05-20 10:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imgori
+[2024-05-20 10:36:46] INFO root fetch - processPackages [jzai]: New version: [59.83.47] Old Version: [59.83.46]
+[2024-05-20 10:36:46] INFO root fetch - processPackages [imgori]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-20 10:36:46] INFO root fetch - processPackages [sais-notify-test]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-20 10:36:46] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/9d/98/5d988e5c7215c5bdef67c1460d8edca42c4d17b071b8a5d4fabdc331b2a8/jzai-59.83.46.tar.gz
+[2024-05-20 10:36:46] INFO root fetch - processPackages [pmb-py]: New version: [0.4.4.0] Old Version: [0.4.3.0]
+[2024-05-20 10:36:46] WARNING root fetch - processPackages [conversa]: Skipping, unable to determine old version
+[2024-05-20 10:36:46] INFO root fetch - main [MainThread]: End processing [conversa] error
+[2024-05-20 10:36:46] INFO root fetch - processPackages [imgori]: Downloading https://files.pythonhosted.org/packages/6e/d1/c2a34f70c6d12918b4c497ea452e2f391820f68525d65f710cf3d262808f/imgori-0.2.9-py3-none-any.whl
+[2024-05-20 10:36:46] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/06/3d/0f7387006da8e5a4409cc207a54a293d2b5a2c426a3a84fcd8d214989e77/sais_notify_test-0.0.7.tar.gz
+[2024-05-20 10:36:46] INFO root fetch - processPackages [kuzu]: New version: [0.4.3.dev6] Old Version: [0.4.3.dev5]
+[2024-05-20 10:36:46] INFO root fetch - processPackages [imgori]: Downloading https://files.pythonhosted.org/packages/a1/73/a62484d6832ada7ecd80ba9be199922f27c597c0db3a6eb5aac6be3eb4ff/imgori-0.3.0-py3-none-any.whl
+[2024-05-20 10:36:46] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/55/ce/cbea1c566eb5ebaf34877534e50859cc511c668e0b0620fe154bfbe35aee/kuzu-0.4.3.dev5.tar.gz
+[2024-05-20 10:36:46] INFO root fetch - processPackages [jzai]: Downloading https://files.pythonhosted.org/packages/1a/96/e332b65971cfede11a13ff0cc6d53431b555fe1b0c21196745598773b7eb/jzai-59.83.47.tar.gz
+[2024-05-20 10:36:46] INFO root fetch - processPackages [sais-notify-test]: Downloading https://files.pythonhosted.org/packages/94/42/07c0e25844ffdc6494e7447658dc084d6435c7343816264387d435ddb98d/sais_notify_test-0.0.8.tar.gz
+[2024-05-20 10:36:46] INFO root fetch - processPackages [imgori]: executing diffoscope
+[2024-05-20 10:36:46] INFO root fetch - processPackages [imgori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgori-0.2.9-py3-none-any.whl.zip tmp/imgori-0.3.0-py3-none-any.whl.zip --markdown 20240520/i/imgori/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-20 10:36:46] INFO root fetch - processPackages [pmb-py]: Downloading https://files.pythonhosted.org/packages/74/28/d19136e487de3a780e2a3ac753565c5305ec90c9a4b142a6f9df4e74e590/pmb_py-0.4.3.0.tar.gz
+[2024-05-20 10:36:46] INFO root fetch - processPackages [sais-notify-test]: executing diffoscope
+[2024-05-20 10:36:46] INFO root fetch - processPackages [sais-notify-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sais_notify_test-0.0.7.tar.gz tmp/sais_notify_test-0.0.8.tar.gz --markdown 20240520/s/sais-notify-test/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-20 10:36:46] INFO root fetch - processPackages [jzai]: executing diffoscope
+[2024-05-20 10:36:46] INFO root fetch - processPackages [jzai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzai-59.83.46.tar.gz tmp/jzai-59.83.47.tar.gz --markdown 20240520/j/jzai/59.83.46-59.83.47/README.md --exclude *.pyd
+[2024-05-20 10:36:47] INFO root fetch - processPackages [pmb-py]: Downloading https://files.pythonhosted.org/packages/b5/b4/1a01356fefcab3eadbdab229bc74e13ba06a8b3bbb7c23586ea890dc4756/pmb_py-0.4.4.0.tar.gz
+[2024-05-20 10:36:47] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.7.tar.gz]
+[2024-05-20 10:36:47] INFO root fetch - processPackages [sais-notify-test]: Remove: archive file [/home/abi/fetcher/tmp/sais_notify_test-0.0.8.tar.gz]
+[2024-05-20 10:36:47] INFO root fetch - main [MainThread]: End processing [sais-notify-test]: success
+[2024-05-20 10:36:47] INFO root fetch - processPackages [imgori]: Remove: archive file [/home/abi/fetcher/tmp/imgori-0.2.9-py3-none-any.whl.zip]
+[2024-05-20 10:36:47] INFO root fetch - processPackages [imgori]: Remove: archive file [/home/abi/fetcher/tmp/imgori-0.3.0-py3-none-any.whl.zip]
+[2024-05-20 10:36:47] INFO root fetch - main [MainThread]: End processing [imgori]: success
+[2024-05-20 10:36:47] INFO root fetch - processPackages [pmb-py]: executing diffoscope
+[2024-05-20 10:36:47] INFO root fetch - processPackages [pmb-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmb_py-0.4.3.0.tar.gz tmp/pmb_py-0.4.4.0.tar.gz --markdown 20240520/p/pmb-py/0.4.3.0-0.4.4.0/README.md --exclude *.pyd
+[2024-05-20 10:36:47] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.46.tar.gz]
+[2024-05-20 10:36:47] INFO root fetch - processPackages [jzai]: Remove: archive file [/home/abi/fetcher/tmp/jzai-59.83.47.tar.gz]
+[2024-05-20 10:36:47] INFO root fetch - main [MainThread]: End processing [jzai]: success
+[2024-05-20 10:36:47] INFO root fetch - processPackages [pmb-py]: Remove: archive file [/home/abi/fetcher/tmp/pmb_py-0.4.3.0.tar.gz]
+[2024-05-20 10:36:47] INFO root fetch - processPackages [pmb-py]: Remove: archive file [/home/abi/fetcher/tmp/pmb_py-0.4.4.0.tar.gz]
+[2024-05-20 10:36:47] INFO root fetch - main [MainThread]: End processing [pmb-py]: success
+[2024-05-20 10:36:47] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/fd/f5/baae8217f0548053d6ab4d832ace7f30b5e7c21e5651b245253bb97d743d/kuzu-0.4.3.dev6.tar.gz
+[2024-05-20 10:36:48] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-20 10:36:48] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.4.3.dev5.tar.gz tmp/kuzu-0.4.3.dev6.tar.gz --markdown 20240520/k/kuzu/0.4.3.dev5-0.4.3.dev6/README.md --exclude *.pyd
+[2024-05-20 10:36:55] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev5.tar.gz]
+[2024-05-20 10:36:55] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev6.tar.gz]
+[2024-05-20 10:36:55] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-20 10:36:55] INFO root fetch - main [MainThread]: Store serial: [23286937]

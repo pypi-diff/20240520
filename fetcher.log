@@ -12901,3 +12901,48 @@
 [2024-05-20 11:49:30] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python_gemini_api-2.4.9.tar.gz]
 [2024-05-20 11:49:30] INFO root fetch - main [MainThread]: End processing [python-gemini-api]: success
 [2024-05-20 11:49:30] INFO root fetch - main [MainThread]: Store serial: [23287726]
+[2024-05-20 11:51:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23287726]
+[2024-05-20 11:51:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 11:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: common-tools-ai-bnq
+[2024-05-20 11:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Indox
+[2024-05-20 11:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccs-govuk-frontend-jinja
+[2024-05-20 11:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nsegpt
+[2024-05-20 11:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ppxf
+[2024-05-20 11:51:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gene4mvcf
+[2024-05-20 11:51:39] INFO root fetch - processPackages [ccs-govuk-frontend-jinja]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-20 11:51:39] INFO root fetch - processPackages [common-tools-ai-bnq]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-20 11:51:39] INFO root fetch - processPackages [ccs-govuk-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/0d/57/47012f7c1fde1b2939674794783be9e8978095fa062e4eb5c23596485b6b/ccs_govuk_frontend_jinja-1.0.0.tar.gz
+[2024-05-20 11:51:39] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/a9/c7/64c0bc8320dadc4d4edaad4fa756aa85506444e302c80e603a3318a45b21/common-tools-ai-bnq-0.2.0.tar.gz
+[2024-05-20 11:51:39] WARNING root fetch - processPackages [nsegpt]: Skipping, unable to determine old version
+[2024-05-20 11:51:39] INFO root fetch - main [MainThread]: End processing [nsegpt] error
+[2024-05-20 11:51:39] WARNING root fetch - processPackages [gene4mvcf]: Skipping, unable to determine old version
+[2024-05-20 11:51:39] INFO root fetch - main [MainThread]: End processing [gene4mvcf] error
+[2024-05-20 11:51:39] INFO root fetch - processPackages [Indox]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-20 11:51:39] INFO root fetch - processPackages [ppxf]: New version: [9.2.2] Old Version: [9.2.1]
+[2024-05-20 11:51:39] INFO root fetch - processPackages [Indox]: Downloading https://files.pythonhosted.org/packages/71/ba/64428aaf6151f6bbc58393e18379678dfd0a4f3f8d36271905f10441faad/Indox-0.1.1.tar.gz
+[2024-05-20 11:51:39] INFO root fetch - processPackages [ccs-govuk-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/81/ae/0608800cdd431d7241de987ccd9ef24ae1e68a3b63ff0316db8f189f2d5a/ccs_govuk_frontend_jinja-1.1.0.tar.gz
+[2024-05-20 11:51:39] INFO root fetch - processPackages [ppxf]: Downloading https://files.pythonhosted.org/packages/e7/ac/63ab5b13f09f358bf303fd9a28fd0248f91c9f9d55b0846cdf75b4b56c59/ppxf-9.2.1.tar.gz
+[2024-05-20 11:51:39] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/e3/80/73fe274effbccfad649bba081501fa455b1cfd8b885b79c659d9c51a4b5e/common-tools-ai-bnq-0.2.1.tar.gz
+[2024-05-20 11:51:39] INFO root fetch - processPackages [ccs-govuk-frontend-jinja]: executing diffoscope
+[2024-05-20 11:51:39] INFO root fetch - processPackages [ccs-govuk-frontend-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs_govuk_frontend_jinja-1.0.0.tar.gz tmp/ccs_govuk_frontend_jinja-1.1.0.tar.gz --markdown 20240520/c/ccs-govuk-frontend-jinja/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-20 11:51:39] INFO root fetch - processPackages [common-tools-ai-bnq]: executing diffoscope
+[2024-05-20 11:51:39] INFO root fetch - processPackages [common-tools-ai-bnq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-tools-ai-bnq-0.2.0.tar.gz tmp/common-tools-ai-bnq-0.2.1.tar.gz --markdown 20240520/c/common-tools-ai-bnq/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-20 11:51:39] INFO root fetch - processPackages [Indox]: Downloading https://files.pythonhosted.org/packages/5f/d2/dd3935009d3929ac69856bef9b1f0c3fa87110bda1a7c02a4f56d1363091/indox-0.1.2.tar.gz
+[2024-05-20 11:51:40] INFO root fetch - processPackages [Indox]: executing diffoscope
+[2024-05-20 11:51:40] INFO root fetch - processPackages [Indox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Indox-0.1.1.tar.gz tmp/indox-0.1.2.tar.gz --markdown 20240520/I/Indox/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-20 11:51:40] INFO root fetch - processPackages [ppxf]: Downloading https://files.pythonhosted.org/packages/d5/3c/90ec0d3a1df7f4bdd0d393f4951fb3c5ac6fac42599fcaf8353ef8f49e57/ppxf-9.2.2.tar.gz
+[2024-05-20 11:51:40] INFO root fetch - processPackages [ccs-govuk-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs_govuk_frontend_jinja-1.0.0.tar.gz]
+[2024-05-20 11:51:40] INFO root fetch - processPackages [ccs-govuk-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs_govuk_frontend_jinja-1.1.0.tar.gz]
+[2024-05-20 11:51:40] INFO root fetch - main [MainThread]: End processing [ccs-govuk-frontend-jinja]: success
+[2024-05-20 11:51:40] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.2.0.tar.gz]
+[2024-05-20 11:51:40] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.2.1.tar.gz]
+[2024-05-20 11:51:40] INFO root fetch - main [MainThread]: End processing [common-tools-ai-bnq]: success
+[2024-05-20 11:51:40] INFO root fetch - processPackages [ppxf]: executing diffoscope
+[2024-05-20 11:51:40] INFO root fetch - processPackages [ppxf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppxf-9.2.1.tar.gz tmp/ppxf-9.2.2.tar.gz --markdown 20240520/p/ppxf/9.2.1-9.2.2/README.md --exclude *.pyd
+[2024-05-20 11:51:40] INFO root fetch - processPackages [Indox]: Remove: archive file [/home/abi/fetcher/tmp/Indox-0.1.1.tar.gz]
+[2024-05-20 11:51:40] INFO root fetch - processPackages [Indox]: Remove: archive file [/home/abi/fetcher/tmp/indox-0.1.2.tar.gz]
+[2024-05-20 11:51:40] INFO root fetch - main [MainThread]: End processing [Indox]: success
+[2024-05-20 11:51:41] INFO root fetch - processPackages [ppxf]: Remove: archive file [/home/abi/fetcher/tmp/ppxf-9.2.1.tar.gz]
+[2024-05-20 11:51:41] INFO root fetch - processPackages [ppxf]: Remove: archive file [/home/abi/fetcher/tmp/ppxf-9.2.2.tar.gz]
+[2024-05-20 11:51:41] INFO root fetch - main [MainThread]: End processing [ppxf]: success
+[2024-05-20 11:51:41] INFO root fetch - main [MainThread]: Store serial: [23287745]

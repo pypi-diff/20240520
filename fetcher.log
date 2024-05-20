@@ -8596,3 +8596,48 @@
 [2024-05-20 08:38:52] INFO root fetch - processPackages [pydra-afni]: Remove: archive file [/home/abi/fetcher/tmp/pydra_afni-0.3.2.tar.gz]
 [2024-05-20 08:38:52] INFO root fetch - main [MainThread]: End processing [pydra-afni]: success
 [2024-05-20 08:38:52] INFO root fetch - main [MainThread]: Store serial: [23285552]
+[2024-05-20 08:40:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285552]
+[2024-05-20 08:41:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 08:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antsibull-changelog
+[2024-05-20 08:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funkai
+[2024-05-20 08:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: urethroscopyz
+[2024-05-20 08:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: m3-users
+[2024-05-20 08:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aepo
+[2024-05-20 08:41:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autora-experiment-runner-recruitment-manager-prolific
+[2024-05-20 08:41:00] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2024-05-20 08:41:01] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Downloading https://files.pythonhosted.org/packages/fb/25/1d59b86b3c4be58f91bf80c18f80ab9595397d91b88a3ad4888d3ae69a10/autora_experiment_runner_recruitment_manager_prolific-1.0.0b8.tar.gz
+[2024-05-20 08:41:01] WARNING root fetch - processPackages [aepo]: Skipping, unable to determine old version
+[2024-05-20 08:41:01] INFO root fetch - main [MainThread]: End processing [aepo] error
+[2024-05-20 08:41:01] WARNING root fetch - processPackages [urethroscopyz]: Skipping, unable to determine old version
+[2024-05-20 08:41:01] INFO root fetch - main [MainThread]: End processing [urethroscopyz] error
+[2024-05-20 08:41:01] INFO root fetch - processPackages [m3-users]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-05-20 08:41:01] INFO root fetch - processPackages [funkai]: New version: [1.1] Old Version: [1.0]
+[2024-05-20 08:41:01] INFO root fetch - processPackages [antsibull-changelog]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-20 08:41:01] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Downloading https://files.pythonhosted.org/packages/aa/17/7487bff781dcc7adbd7c5e78c7ebc67776d10768a27b9f4e79abcc9091f7/autora_experiment_runner_recruitment_manager_prolific-1.0.0b9.tar.gz
+[2024-05-20 08:41:01] INFO root fetch - processPackages [m3-users]: Downloading https://files.pythonhosted.org/packages/6e/b5/d13d82dd958a87a92278aa56a8339fc02a664484f3aee837ada82ffe6cc6/m3-users-3.0.1.tar.gz
+[2024-05-20 08:41:01] INFO root fetch - processPackages [funkai]: Downloading https://files.pythonhosted.org/packages/8e/56/24b9a676735baab58338b3b4cc97786fcbd423d5985a0c24c31633418fef/funkai-1.0.tar.gz
+[2024-05-20 08:41:01] INFO root fetch - processPackages [antsibull-changelog]: Downloading https://files.pythonhosted.org/packages/14/fe/950a5650dd6b3bf2b791ebb7b2c96d5c227149d65910436c7cf0b1bc5a5d/antsibull-changelog-0.8.1.tar.gz
+[2024-05-20 08:41:01] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: executing diffoscope
+[2024-05-20 08:41:01] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b8.tar.gz tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b9.tar.gz --markdown 20240520/a/autora-experiment-runner-recruitment-manager-prolific/1.0.0b8-1.0.0b9/README.md --exclude *.pyd
+[2024-05-20 08:41:01] INFO root fetch - processPackages [funkai]: Downloading https://files.pythonhosted.org/packages/52/69/616e5b17e80cef306b9d5e3575ea0c63403cc687dff4ddd3f89ddc6a95a4/funkai-1.1.tar.gz
+[2024-05-20 08:41:01] INFO root fetch - processPackages [antsibull-changelog]: Downloading https://files.pythonhosted.org/packages/1e/8d/da15c46573d12fe5e38a28c3a435c3e91ea977745013b67e6b6c7943c897/antsibull-changelog-0.9.0.tar.gz
+[2024-05-20 08:41:01] INFO root fetch - processPackages [m3-users]: Downloading https://files.pythonhosted.org/packages/aa/41/011ade59db49ec8ae190aaeec26bae8f23f5befcab0ee48e193bfab76d9c/m3-users-3.0.2.tar.gz
+[2024-05-20 08:41:01] INFO root fetch - processPackages [funkai]: executing diffoscope
+[2024-05-20 08:41:01] INFO root fetch - processPackages [funkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funkai-1.0.tar.gz tmp/funkai-1.1.tar.gz --markdown 20240520/f/funkai/1.0-1.1/README.md --exclude *.pyd
+[2024-05-20 08:41:01] INFO root fetch - processPackages [antsibull-changelog]: executing diffoscope
+[2024-05-20 08:41:01] INFO root fetch - processPackages [antsibull-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antsibull-changelog-0.8.1.tar.gz tmp/antsibull-changelog-0.9.0.tar.gz --markdown 20240520/a/antsibull-changelog/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-20 08:41:01] INFO root fetch - processPackages [m3-users]: executing diffoscope
+[2024-05-20 08:41:01] INFO root fetch - processPackages [m3-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3-users-3.0.1.tar.gz tmp/m3-users-3.0.2.tar.gz --markdown 20240520/m/m3-users/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-05-20 08:41:01] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b8.tar.gz]
+[2024-05-20 08:41:01] INFO root fetch - processPackages [autora-experiment-runner-recruitment-manager-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_recruitment_manager_prolific-1.0.0b9.tar.gz]
+[2024-05-20 08:41:01] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-recruitment-manager-prolific]: success
+[2024-05-20 08:41:02] INFO root fetch - processPackages [funkai]: Remove: archive file [/home/abi/fetcher/tmp/funkai-1.0.tar.gz]
+[2024-05-20 08:41:02] INFO root fetch - processPackages [funkai]: Remove: archive file [/home/abi/fetcher/tmp/funkai-1.1.tar.gz]
+[2024-05-20 08:41:02] INFO root fetch - main [MainThread]: End processing [funkai]: success
+[2024-05-20 08:41:02] INFO root fetch - processPackages [m3-users]: Remove: archive file [/home/abi/fetcher/tmp/m3-users-3.0.1.tar.gz]
+[2024-05-20 08:41:02] INFO root fetch - processPackages [m3-users]: Remove: archive file [/home/abi/fetcher/tmp/m3-users-3.0.2.tar.gz]
+[2024-05-20 08:41:02] INFO root fetch - main [MainThread]: End processing [m3-users]: success
+[2024-05-20 08:41:02] INFO root fetch - processPackages [antsibull-changelog]: Remove: archive file [/home/abi/fetcher/tmp/antsibull-changelog-0.8.1.tar.gz]
+[2024-05-20 08:41:02] INFO root fetch - processPackages [antsibull-changelog]: Remove: archive file [/home/abi/fetcher/tmp/antsibull-changelog-0.9.0.tar.gz]
+[2024-05-20 08:41:02] INFO root fetch - main [MainThread]: End processing [antsibull-changelog]: success
+[2024-05-20 08:41:02] INFO root fetch - main [MainThread]: Store serial: [23285638]

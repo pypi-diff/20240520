@@ -22344,3 +22344,51 @@ EOFError: EOF read where object expected
 [2024-05-20 17:40:52] INFO root fetch - processPackages [local-lang]: Remove: archive file [/home/abi/fetcher/tmp/local_lang-0.0.9.tar.gz]
 [2024-05-20 17:40:52] INFO root fetch - main [MainThread]: End processing [local-lang]: success
 [2024-05-20 17:40:52] INFO root fetch - main [MainThread]: Store serial: [23291917]
+[2024-05-20 17:42:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291917]
+[2024-05-20 17:43:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 17:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zfx
+[2024-05-20 17:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EasyDonateClient
+[2024-05-20 17:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xspace-dl
+[2024-05-20 17:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: contrast-agent
+[2024-05-20 17:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ruckyz
+[2024-05-20 17:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Simple-ImageAI
+[2024-05-20 17:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: substrate
+[2024-05-20 17:43:01] INFO root fetch - processPackages [xspace-dl]: New version: [0.2.24] Old Version: [0.2.23]
+[2024-05-20 17:43:01] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-20 17:43:01] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/9a/33/4c19a803b5fcb6d55c56395348f4793d6668df6fd6e84b2b4d4858768aa6/xspace-dl-0.2.23.tar.gz
+[2024-05-20 17:43:01] INFO root fetch - processPackages [contrast-agent]: New version: [8.2.0] Old Version: [8.1.0]
+[2024-05-20 17:43:01] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-20 17:43:01] WARNING root fetch - processPackages [Simple-ImageAI]: Skipping, unable to determine old version
+[2024-05-20 17:43:01] INFO root fetch - main [MainThread]: End processing [Simple-ImageAI] error
+[2024-05-20 17:43:01] INFO root fetch - processPackages [substrate]: New version: [120240502.0.3] Old Version: [120240502.0.2]
+[2024-05-20 17:43:01] WARNING root fetch - processPackages [EasyDonateClient]: Skipping, unable to determine old version
+[2024-05-20 17:43:01] INFO root fetch - main [MainThread]: End processing [EasyDonateClient] error
+[2024-05-20 17:43:01] WARNING root fetch - processPackages [ruckyz]: Skipping, unable to determine old version
+[2024-05-20 17:43:01] INFO root fetch - main [MainThread]: End processing [ruckyz] error
+[2024-05-20 17:43:01] INFO root fetch - processPackages [contrast-agent]: Downloading https://files.pythonhosted.org/packages/d7/6c/79e766a21d6ddbaefad7d2936c318fa771381b1f4f6307dfdfb5fea76c80/contrast_agent-8.1.0.tar.gz
+[2024-05-20 17:43:01] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-20 17:43:01] INFO root fetch - processPackages [substrate]: Downloading https://files.pythonhosted.org/packages/e6/cb/522a11248b9c44a8e13864608af45a798db751750d181c37f11d5ace5155/substrate-120240502.0.2.tar.gz
+[2024-05-20 17:43:02] INFO root fetch - processPackages [xspace-dl]: Downloading https://files.pythonhosted.org/packages/2d/59/886d9ab14facda4b27eb1dd3bf74bfaaf847ec7d078aadce8326d006c334/xspace-dl-0.2.24.tar.gz
+[2024-05-20 17:43:02] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-20 17:43:02] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240520/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-20 17:43:02] INFO root fetch - processPackages [xspace-dl]: executing diffoscope
+[2024-05-20 17:43:02] INFO root fetch - processPackages [xspace-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xspace-dl-0.2.23.tar.gz tmp/xspace-dl-0.2.24.tar.gz --markdown 20240520/x/xspace-dl/0.2.23-0.2.24/README.md --exclude *.pyd
+[2024-05-20 17:43:02] INFO root fetch - processPackages [contrast-agent]: Downloading https://files.pythonhosted.org/packages/c2/ff/4f5ca3c55aa5fc7301e0605b599a2dddb6dd81ff610bdfbf979a77a4410a/contrast_agent-8.2.0.tar.gz
+[2024-05-20 17:43:02] INFO root fetch - processPackages [substrate]: Downloading https://files.pythonhosted.org/packages/22/8d/fb19c05e5333304cb77ec393c54e6d396ad7824607e6107bdf975ddeab97/substrate-120240502.0.3.tar.gz
+[2024-05-20 17:43:02] INFO root fetch - processPackages [contrast-agent]: executing diffoscope
+[2024-05-20 17:43:02] INFO root fetch - processPackages [contrast-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contrast_agent-8.1.0.tar.gz tmp/contrast_agent-8.2.0.tar.gz --markdown 20240520/c/contrast-agent/8.1.0-8.2.0/README.md --exclude *.pyd
+[2024-05-20 17:43:02] INFO root fetch - processPackages [substrate]: executing diffoscope
+[2024-05-20 17:43:02] INFO root fetch - processPackages [substrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrate-120240502.0.2.tar.gz tmp/substrate-120240502.0.3.tar.gz --markdown 20240520/s/substrate/120240502.0.2-120240502.0.3/README.md --exclude *.pyd
+[2024-05-20 17:43:02] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-20 17:43:02] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-20 17:43:02] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-20 17:43:02] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.2.23.tar.gz]
+[2024-05-20 17:43:02] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.2.24.tar.gz]
+[2024-05-20 17:43:02] INFO root fetch - main [MainThread]: End processing [xspace-dl]: success
+[2024-05-20 17:43:03] INFO root fetch - processPackages [substrate]: Remove: archive file [/home/abi/fetcher/tmp/substrate-120240502.0.2.tar.gz]
+[2024-05-20 17:43:03] INFO root fetch - processPackages [substrate]: Remove: archive file [/home/abi/fetcher/tmp/substrate-120240502.0.3.tar.gz]
+[2024-05-20 17:43:03] INFO root fetch - main [MainThread]: End processing [substrate]: success
+[2024-05-20 17:43:04] INFO root fetch - processPackages [contrast-agent]: Remove: archive file [/home/abi/fetcher/tmp/contrast_agent-8.1.0.tar.gz]
+[2024-05-20 17:43:04] INFO root fetch - processPackages [contrast-agent]: Remove: archive file [/home/abi/fetcher/tmp/contrast_agent-8.2.0.tar.gz]
+[2024-05-20 17:43:04] INFO root fetch - main [MainThread]: End processing [contrast-agent]: success
+[2024-05-20 17:43:04] INFO root fetch - main [MainThread]: Store serial: [23291942]

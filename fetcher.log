@@ -24570,3 +24570,24 @@ EOFError: EOF read where object expected
 [2024-05-20 19:06:04] INFO root fetch - processPackages [xspace-dl]: Remove: archive file [/home/abi/fetcher/tmp/xspace-dl-0.3.12.tar.gz]
 [2024-05-20 19:06:04] INFO root fetch - main [MainThread]: End processing [xspace-dl]: success
 [2024-05-20 19:06:04] INFO root fetch - main [MainThread]: Store serial: [23292976]
+[2024-05-20 19:08:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292976]
+[2024-05-20 19:08:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-20 19:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyzstd
+[2024-05-20 19:08:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hoppr-security-commons
+[2024-05-20 19:08:13] INFO root fetch - processPackages [hoppr-security-commons]: New version: [0.0.9] Old Version: [0.0.87]
+[2024-05-20 19:08:13] INFO root fetch - processPackages [hoppr-security-commons]: Downloading https://files.pythonhosted.org/packages/01/b5/243b2386ca9c8d4df2fed3fab29656f8fc26542ba31c4c63ea76499ca928/hoppr_security_commons-0.0.87.tar.gz
+[2024-05-20 19:08:13] INFO root fetch - processPackages [pyzstd]: New version: [0.16.0] Old Version: [0.15.9]
+[2024-05-20 19:08:13] INFO root fetch - processPackages [hoppr-security-commons]: Downloading https://files.pythonhosted.org/packages/28/98/819d5ffab5f26c075fb2191a2d5583cd18aa8069a8fc43484d65978fe18d/hoppr_security_commons-0.0.9.tar.gz
+[2024-05-20 19:08:13] INFO root fetch - processPackages [pyzstd]: Downloading https://files.pythonhosted.org/packages/6a/6a/d739c96b260cee069642bd3e2d234619e4c650f8b31889c1e4484b8344b6/pyzstd-0.15.9.tar.gz
+[2024-05-20 19:08:13] INFO root fetch - processPackages [hoppr-security-commons]: executing diffoscope
+[2024-05-20 19:08:13] INFO root fetch - processPackages [hoppr-security-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_security_commons-0.0.87.tar.gz tmp/hoppr_security_commons-0.0.9.tar.gz --markdown 20240520/h/hoppr-security-commons/0.0.87-0.0.9/README.md --exclude *.pyd
+[2024-05-20 19:08:14] INFO root fetch - processPackages [pyzstd]: Downloading https://files.pythonhosted.org/packages/e5/cf/ab6ba7ba2b673acab496d9ea01cf8511bce12ecef9819082f1f3392790d1/pyzstd-0.16.0-cp38-cp38-musllinux_1_2_aarch64.whl
+[2024-05-20 19:08:14] INFO root fetch - processPackages [hoppr-security-commons]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_security_commons-0.0.87.tar.gz]
+[2024-05-20 19:08:14] INFO root fetch - processPackages [hoppr-security-commons]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_security_commons-0.0.9.tar.gz]
+[2024-05-20 19:08:14] INFO root fetch - main [MainThread]: End processing [hoppr-security-commons]: success
+[2024-05-20 19:08:15] INFO root fetch - processPackages [pyzstd]: executing diffoscope
+[2024-05-20 19:08:15] INFO root fetch - processPackages [pyzstd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzstd-0.15.9.tar.gz tmp/pyzstd-0.16.0-cp38-cp38-musllinux_1_2_aarch64.whl.zip --markdown 20240520/p/pyzstd/0.15.9-0.16.0/README.md --exclude *.pyd
+[2024-05-20 19:08:15] INFO root fetch - processPackages [pyzstd]: Remove: archive file [/home/abi/fetcher/tmp/pyzstd-0.15.9.tar.gz]
+[2024-05-20 19:08:15] INFO root fetch - processPackages [pyzstd]: Remove: archive file [/home/abi/fetcher/tmp/pyzstd-0.16.0-cp38-cp38-musllinux_1_2_aarch64.whl.zip]
+[2024-05-20 19:08:15] INFO root fetch - main [MainThread]: End processing [pyzstd]: success
+[2024-05-20 19:08:15] INFO root fetch - main [MainThread]: Store serial: [23293028]

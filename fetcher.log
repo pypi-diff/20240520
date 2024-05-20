@@ -14515,3 +14515,57 @@
 [2024-05-20 12:54:55] INFO root fetch - processPackages [kelvin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/kelvin_sdk-8.3.4-py3-none-any.whl.zip]
 [2024-05-20 12:54:55] INFO root fetch - main [MainThread]: End processing [kelvin-sdk]: success
 [2024-05-20 12:54:55] INFO root fetch - main [MainThread]: Store serial: [23288394]
+[2024-05-20 12:56:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288394]
+[2024-05-20 12:57:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-20 12:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-intelligentcreation20240313
+[2024-05-20 12:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idioblastz
+[2024-05-20 12:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lib-version-urlphishing
+[2024-05-20 12:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bosing
+[2024-05-20 12:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elkoep-mqtt
+[2024-05-20 12:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bp3
+[2024-05-20 12:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdm
+[2024-05-20 12:57:04] INFO root fetch - processPackages [lib-version-urlphishing]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-20 12:57:04] INFO root fetch - processPackages [elkoep-mqtt]: New version: [0.2.30] Old Version: [0.2.29]
+[2024-05-20 12:57:04] WARNING root fetch - processPackages [alibabacloud-intelligentcreation20240313]: Skipping, unable to determine old version
+[2024-05-20 12:57:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-intelligentcreation20240313] error
+[2024-05-20 12:57:04] INFO root fetch - processPackages [lib-version-urlphishing]: Downloading https://files.pythonhosted.org/packages/18/7f/3faff6bde7fd98a4b37d50d59ee81961f68e0536f176369ab67152b3f9c0/lib_version_urlphishing-2.2.8.tar.gz
+[2024-05-20 12:57:04] WARNING root fetch - processPackages [idioblastz]: Skipping, unable to determine old version
+[2024-05-20 12:57:04] INFO root fetch - main [MainThread]: End processing [idioblastz] error
+[2024-05-20 12:57:04] INFO root fetch - processPackages [bosing]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-20 12:57:04] INFO root fetch - processPackages [bp3]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 12:57:04] INFO root fetch - processPackages [pdm]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-05-20 12:57:04] INFO root fetch - processPackages [elkoep-mqtt]: Downloading https://files.pythonhosted.org/packages/a4/e4/989e45884b4928f7e432ac3cea7886225fa370c3a80a826549184c4f7cbf/elkoep_mqtt-0.2.29.tar.gz
+[2024-05-20 12:57:04] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/2d/16/f5af81786f1a63f1460bd4f19933619779bd1658ad4c4654ea676240e431/bosing-2.0.1.tar.gz
+[2024-05-20 12:57:04] INFO root fetch - processPackages [bp3]: Downloading https://files.pythonhosted.org/packages/bd/64/54701e84d50946eea7d30df7e282663f7709ed6dbd20cde3d322d50330b4/bp3-0.0.8.tar.gz
+[2024-05-20 12:57:05] INFO root fetch - processPackages [lib-version-urlphishing]: Downloading https://files.pythonhosted.org/packages/c2/ac/b3abb431768c8da77518fa9c70821347653825a34cf8889e7af365a179db/lib_version_urlphishing-2.2.9.tar.gz
+[2024-05-20 12:57:05] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/0c/1a/5475da7e816fa32e8a94e4df657d8ccb44643257d1d0c307e8e6d420a583/pdm-2.9.2.tar.gz
+[2024-05-20 12:57:05] INFO root fetch - processPackages [lib-version-urlphishing]: executing diffoscope
+[2024-05-20 12:57:05] INFO root fetch - processPackages [lib-version-urlphishing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_version_urlphishing-2.2.8.tar.gz tmp/lib_version_urlphishing-2.2.9.tar.gz --markdown 20240520/l/lib-version-urlphishing/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-20 12:57:05] INFO root fetch - processPackages [elkoep-mqtt]: Downloading https://files.pythonhosted.org/packages/7b/2d/2aeb7f5bf8be79cbeb398ae4ed09e1757ded4f9262261fde765d1f4f41ee/elkoep_mqtt-0.2.30.tar.gz
+[2024-05-20 12:57:05] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/44/e5/740a852dd7a513ffdec0b88ecd7bddd585bb17c0fdc2a0ea46b130447c18/bosing-2.0.2.tar.gz
+[2024-05-20 12:57:05] INFO root fetch - processPackages [elkoep-mqtt]: executing diffoscope
+[2024-05-20 12:57:05] INFO root fetch - processPackages [elkoep-mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elkoep_mqtt-0.2.29.tar.gz tmp/elkoep_mqtt-0.2.30.tar.gz --markdown 20240520/e/elkoep-mqtt/0.2.29-0.2.30/README.md --exclude *.pyd
+[2024-05-20 12:57:05] INFO root fetch - processPackages [bosing]: executing diffoscope
+[2024-05-20 12:57:05] INFO root fetch - processPackages [bosing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosing-2.0.1.tar.gz tmp/bosing-2.0.2.tar.gz --markdown 20240520/b/bosing/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-20 12:57:05] INFO root fetch - processPackages [lib-version-urlphishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-2.2.8.tar.gz]
+[2024-05-20 12:57:05] INFO root fetch - processPackages [lib-version-urlphishing]: Remove: archive file [/home/abi/fetcher/tmp/lib_version_urlphishing-2.2.9.tar.gz]
+[2024-05-20 12:57:05] INFO root fetch - main [MainThread]: End processing [lib-version-urlphishing]: success
+[2024-05-20 12:57:05] INFO root fetch - processPackages [elkoep-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/elkoep_mqtt-0.2.29.tar.gz]
+[2024-05-20 12:57:05] INFO root fetch - processPackages [elkoep-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/elkoep_mqtt-0.2.30.tar.gz]
+[2024-05-20 12:57:05] INFO root fetch - main [MainThread]: End processing [elkoep-mqtt]: success
+[2024-05-20 12:57:06] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.1.tar.gz]
+[2024-05-20 12:57:06] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.2.tar.gz]
+[2024-05-20 12:57:06] INFO root fetch - main [MainThread]: End processing [bosing]: success
+[2024-05-20 12:57:06] INFO root fetch - processPackages [bp3]: Downloading https://files.pythonhosted.org/packages/78/6b/c5dd7efd1c872bb45c539b39098f314847aeb7daa2d995764145980c95b4/bp3-0.0.9-py2.py3-none-any.whl
+[2024-05-20 12:57:07] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/58/fd/b081937c283502be42efdf7ae4d7c7f8014c57bd74dbc7f9b629f44d22a2/pdm-2.9.3.tar.gz
+[2024-05-20 12:57:08] INFO root fetch - processPackages [pdm]: executing diffoscope
+[2024-05-20 12:57:08] INFO root fetch - processPackages [pdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm-2.9.2.tar.gz tmp/pdm-2.9.3.tar.gz --markdown 20240520/p/pdm/2.9.2-2.9.3/README.md --exclude *.pyd
+[2024-05-20 12:57:09] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.9.2.tar.gz]
+[2024-05-20 12:57:09] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.9.3.tar.gz]
+[2024-05-20 12:57:09] INFO root fetch - main [MainThread]: End processing [pdm]: success
+[2024-05-20 12:57:09] INFO root fetch - processPackages [bp3]: executing diffoscope
+[2024-05-20 12:57:09] INFO root fetch - processPackages [bp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp3-0.0.8.tar.gz tmp/bp3-0.0.9-py2.py3-none-any.whl.zip --markdown 20240520/b/bp3/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 12:57:10] INFO root fetch - processPackages [bp3]: Remove: archive file [/home/abi/fetcher/tmp/bp3-0.0.8.tar.gz]
+[2024-05-20 12:57:10] INFO root fetch - processPackages [bp3]: Remove: archive file [/home/abi/fetcher/tmp/bp3-0.0.9-py2.py3-none-any.whl.zip]
+[2024-05-20 12:57:10] INFO root fetch - main [MainThread]: End processing [bp3]: success
+[2024-05-20 12:57:10] INFO root fetch - main [MainThread]: Store serial: [23288443]

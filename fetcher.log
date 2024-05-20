@@ -4807,3 +4807,28 @@
 [2024-05-20 04:12:06] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_firebase_prolific-1.0.0b5.tar.gz]
 [2024-05-20 04:12:06] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-firebase-prolific]: success
 [2024-05-20 04:12:06] INFO root fetch - main [MainThread]: Store serial: [23283697]
+[2024-05-20 04:14:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283697]
+[2024-05-20 04:14:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 04:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypomes-s3
+[2024-05-20 04:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypomes-s3
+[2024-05-20 04:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easyoanda
+[2024-05-20 04:14:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unterminationalz
+[2024-05-20 04:14:15] INFO root fetch - processPackages [pypomes-s3]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-20 04:14:15] INFO root fetch - processPackages [pypomes-s3]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-20 04:14:15] INFO root fetch - processPackages [pypomes-s3]: Downloading https://files.pythonhosted.org/packages/79/3e/d0ce54e683678b723eaf905e9e183f5ce544441a9bc6d11e93cc37b6228f/pypomes_s3-0.3.5.tar.gz
+[2024-05-20 04:14:15] WARNING root fetch - processPackages [unterminationalz]: Skipping, unable to determine old version
+[2024-05-20 04:14:15] INFO root fetch - main [MainThread]: End processing [unterminationalz] error
+[2024-05-20 04:14:15] INFO root fetch - processPackages [pypomes-s3]: Downloading https://files.pythonhosted.org/packages/79/3e/d0ce54e683678b723eaf905e9e183f5ce544441a9bc6d11e93cc37b6228f/pypomes_s3-0.3.5.tar.gz
+[2024-05-20 04:14:15] WARNING root fetch - processPackages [easyoanda]: Skipping, unable to determine old version
+[2024-05-20 04:14:15] INFO root fetch - main [MainThread]: End processing [easyoanda] error
+[2024-05-20 04:14:15] INFO root fetch - processPackages [pypomes-s3]: Downloading https://files.pythonhosted.org/packages/e2/59/71aa2b82e844a3ba3df5d197d0b2e7155940230e0ad1532a56183ea0f518/pypomes_s3-0.3.6.tar.gz
+[2024-05-20 04:14:15] INFO root fetch - processPackages [pypomes-s3]: Downloading https://files.pythonhosted.org/packages/e2/59/71aa2b82e844a3ba3df5d197d0b2e7155940230e0ad1532a56183ea0f518/pypomes_s3-0.3.6.tar.gz
+[2024-05-20 04:14:16] INFO root fetch - processPackages [pypomes-s3]: executing diffoscope
+[2024-05-20 04:14:16] INFO root fetch - processPackages [pypomes-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_s3-0.3.5.tar.gz tmp/pypomes_s3-0.3.6.tar.gz --markdown 20240520/p/pypomes-s3/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-20 04:14:16] INFO root fetch - processPackages [pypomes-s3]: executing diffoscope
+[2024-05-20 04:14:16] INFO root fetch - processPackages [pypomes-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_s3-0.3.5.tar.gz tmp/pypomes_s3-0.3.6.tar.gz --markdown 20240520/p/pypomes-s3/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-20 04:14:16] INFO root fetch - processPackages [pypomes-s3]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_s3-0.3.5.tar.gz]
+[2024-05-20 04:14:16] INFO root fetch - processPackages [pypomes-s3]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_s3-0.3.6.tar.gz]
+[2024-05-20 04:14:16] INFO root fetch - main [MainThread]: End processing [pypomes-s3]: success
+[2024-05-20 04:14:16] INFO root fetch - main [MainThread]: End processing [pypomes-s3]: success
+[2024-05-20 04:14:16] INFO root fetch - main [MainThread]: Store serial: [23283713]

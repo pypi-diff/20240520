@@ -8044,3 +8044,39 @@
 [2024-05-20 08:14:05] INFO root fetch - processPackages [simple-proxy]: Remove: archive file [/home/abi/fetcher/tmp/simple-proxy-0.0.9.tar.gz]
 [2024-05-20 08:14:05] INFO root fetch - main [MainThread]: End processing [simple-proxy]: success
 [2024-05-20 08:14:05] INFO root fetch - main [MainThread]: Store serial: [23285342]
+[2024-05-20 08:16:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285342]
+[2024-05-20 08:16:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-20 08:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: groundednessz
+[2024-05-20 08:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-dynamic-raw-id
+[2024-05-20 08:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmdline-provenance
+[2024-05-20 08:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edman-web
+[2024-05-20 08:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cli-app-dir
+[2024-05-20 08:16:14] INFO root fetch - processPackages [cmdline-provenance]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-20 08:16:14] WARNING root fetch - processPackages [groundednessz]: Skipping, unable to determine old version
+[2024-05-20 08:16:14] INFO root fetch - main [MainThread]: End processing [groundednessz] error
+[2024-05-20 08:16:14] INFO root fetch - processPackages [edman-web]: New version: [2024.5.20] Old Version: [2024.4.9.1]
+[2024-05-20 08:16:14] WARNING root fetch - processPackages [cli-app-dir]: Skipping, unable to determine old version
+[2024-05-20 08:16:14] INFO root fetch - main [MainThread]: End processing [cli-app-dir] error
+[2024-05-20 08:16:14] INFO root fetch - processPackages [django-dynamic-raw-id]: New version: [4.1] Old Version: [4.0]
+[2024-05-20 08:16:14] INFO root fetch - processPackages [cmdline-provenance]: Downloading https://files.pythonhosted.org/packages/69/54/152912ef184ac3739edb3f91a5bf27911d6775dd9bbcd96106fd826ef62f/cmdline_provenance-1.0.0.tar.gz
+[2024-05-20 08:16:14] INFO root fetch - processPackages [django-dynamic-raw-id]: Downloading https://files.pythonhosted.org/packages/1d/a2/ce1823a9b10e9d588e0094380b63fd534a3c7aa411142043bac96d9aa625/django_dynamic_raw_id-4.0.tar.gz
+[2024-05-20 08:16:14] INFO root fetch - processPackages [edman-web]: Downloading https://files.pythonhosted.org/packages/e5/7c/423b4cf20fc3939f4c2f45b4a2eb6c3f1a10e0a7907603feb9288c2552a3/edman_web-2024.4.9.1.tar.gz
+[2024-05-20 08:16:14] INFO root fetch - processPackages [cmdline-provenance]: Downloading https://files.pythonhosted.org/packages/33/7b/55edb87403c5a8cf318a5fa1fa87a811a451e6b6ceb26e53a172e663d46f/cmdline_provenance-1.1.0.tar.gz
+[2024-05-20 08:16:14] INFO root fetch - processPackages [django-dynamic-raw-id]: Downloading https://files.pythonhosted.org/packages/3c/81/c6f8d35f29cba673510b2030f4fcce5e99369ccbaecfc9bc58a252a909db/django_dynamic_raw_id-4.1.tar.gz
+[2024-05-20 08:16:14] INFO root fetch - processPackages [edman-web]: Downloading https://files.pythonhosted.org/packages/5e/69/4fd32d92951a5e2a117f662b4843ccde0a1353e3f9932c234e5c1456756d/edman_web-2024.5.20.tar.gz
+[2024-05-20 08:16:14] INFO root fetch - processPackages [cmdline-provenance]: executing diffoscope
+[2024-05-20 08:16:14] INFO root fetch - processPackages [cmdline-provenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdline_provenance-1.0.0.tar.gz tmp/cmdline_provenance-1.1.0.tar.gz --markdown 20240520/c/cmdline-provenance/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-20 08:16:14] INFO root fetch - processPackages [django-dynamic-raw-id]: executing diffoscope
+[2024-05-20 08:16:14] INFO root fetch - processPackages [django-dynamic-raw-id]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_dynamic_raw_id-4.0.tar.gz tmp/django_dynamic_raw_id-4.1.tar.gz --markdown 20240520/d/django-dynamic-raw-id/4.0-4.1/README.md --exclude *.pyd
+[2024-05-20 08:16:15] INFO root fetch - processPackages [edman-web]: executing diffoscope
+[2024-05-20 08:16:15] INFO root fetch - processPackages [edman-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman_web-2024.4.9.1.tar.gz tmp/edman_web-2024.5.20.tar.gz --markdown 20240520/e/edman-web/2024.4.9.1-2024.5.20/README.md --exclude *.pyd
+[2024-05-20 08:16:15] INFO root fetch - processPackages [cmdline-provenance]: Remove: archive file [/home/abi/fetcher/tmp/cmdline_provenance-1.0.0.tar.gz]
+[2024-05-20 08:16:15] INFO root fetch - processPackages [cmdline-provenance]: Remove: archive file [/home/abi/fetcher/tmp/cmdline_provenance-1.1.0.tar.gz]
+[2024-05-20 08:16:15] INFO root fetch - main [MainThread]: End processing [cmdline-provenance]: success
+[2024-05-20 08:16:15] INFO root fetch - processPackages [edman-web]: Remove: archive file [/home/abi/fetcher/tmp/edman_web-2024.4.9.1.tar.gz]
+[2024-05-20 08:16:15] INFO root fetch - processPackages [edman-web]: Remove: archive file [/home/abi/fetcher/tmp/edman_web-2024.5.20.tar.gz]
+[2024-05-20 08:16:15] INFO root fetch - main [MainThread]: End processing [edman-web]: success
+[2024-05-20 08:16:15] INFO root fetch - processPackages [django-dynamic-raw-id]: Remove: archive file [/home/abi/fetcher/tmp/django_dynamic_raw_id-4.0.tar.gz]
+[2024-05-20 08:16:15] INFO root fetch - processPackages [django-dynamic-raw-id]: Remove: archive file [/home/abi/fetcher/tmp/django_dynamic_raw_id-4.1.tar.gz]
+[2024-05-20 08:16:15] INFO root fetch - main [MainThread]: End processing [django-dynamic-raw-id]: success
+[2024-05-20 08:16:15] INFO root fetch - main [MainThread]: Store serial: [23285360]

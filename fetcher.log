@@ -24218,3 +24218,122 @@ EOFError: EOF read where object expected
 [2024-05-20 18:54:41] INFO root fetch - processPackages [grpcio]: Remove: archive file [/home/abi/fetcher/tmp/grpcio-1.9.1.tar.gz]
 [2024-05-20 18:54:41] INFO root fetch - main [MainThread]: End processing [grpcio]: success
 [2024-05-20 18:54:41] INFO root fetch - main [MainThread]: Store serial: [23292734]
+[2024-05-20 18:56:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23292734]
+[2024-05-20 18:56:50] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-20 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NikGapps
+[2024-05-20 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dora-rs
+[2024-05-20 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imas-tools
+[2024-05-20 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiotx
+[2024-05-20 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kthcloud
+[2024-05-20 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pbf
+[2024-05-20 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-d1db
+[2024-05-20 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grpcio-admin
+[2024-05-20 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grpcio-channelz
+[2024-05-20 18:56:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: grpcio-csds
+[2024-05-20 18:56:50] INFO root fetch - processPackages [aiotx]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-20 18:56:50] INFO root fetch - processPackages [imas-tools]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-20 18:56:50] INFO root fetch - processPackages [pbf]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-20 18:56:50] INFO root fetch - processPackages [NikGapps]: New version: [2.64] Old Version: [2.63]
+[2024-05-20 18:56:50] INFO root fetch - processPackages [imas-tools]: Downloading https://files.pythonhosted.org/packages/9c/42/b6336f72710e7bfc35b26d102b0806c00d23d8c8f17b18f7f3e36e192028/imas_tools-0.3.0.tar.gz
+[2024-05-20 18:56:50] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/71/56/dc999bd7c2cc5b73e88f82caa33fae081bbd83fabb47f5edf4dd58b3e399/aiotx-1.1.0.tar.gz
+[2024-05-20 18:56:50] INFO root fetch - processPackages [kthcloud]: New version: [0.4.0a0] Old Version: [0.3.0a0]
+[2024-05-20 18:56:50] INFO root fetch - processPackages [grpcio-admin]: New version: [1.64.0rc1] Old Version: [1.64.0]
+[2024-05-20 18:56:50] WARNING root fetch - processPackages [django-d1db]: Skipping, unable to determine old version
+[2024-05-20 18:56:50] INFO root fetch - processPackages [django-d1db]: Start processing: grpcio-health-checking
+[2024-05-20 18:56:50] INFO root fetch - main [MainThread]: End processing [django-d1db] error
+[2024-05-20 18:56:50] INFO root fetch - processPackages [grpcio-csds]: New version: [1.64.0rc1] Old Version: [1.64.0]
+[2024-05-20 18:56:50] INFO root fetch - processPackages [grpcio-channelz]: New version: [1.64.0rc1] Old Version: [1.64.0]
+[2024-05-20 18:56:50] INFO root fetch - processPackages [dora-rs]: New version: [0.3.4rc2] Old Version: [0.3.4]
+[2024-05-20 18:56:50] INFO root fetch - processPackages [pbf]: Downloading https://files.pythonhosted.org/packages/5b/ff/b603df439f670e712221d4082f920665fb2f37469d7ea1d19b2e7333ad03/pbf-0.0.1.tar.gz
+[2024-05-20 18:56:50] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/3d/ab/ff45170306de664c3853ed21f4950a61b95872de53496a6303a603e765f7/nikgapps-2.63.tar.gz
+[2024-05-20 18:56:50] INFO root fetch - processPackages [kthcloud]: Downloading https://files.pythonhosted.org/packages/03/92/1181f9d3867fb664b205b377811c7b10fdafc010283c1947d500cff9c1d9/kthcloud-0.3.0a0.tar.gz
+[2024-05-20 18:56:50] INFO root fetch - processPackages [grpcio-health-checking]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2024-05-20 18:56:50] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 44661389>=10485760
+[2024-05-20 18:56:50] INFO root fetch - processPackages [NikGapps]: Start processing: domdf-python-tools
+[2024-05-20 18:56:50] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2024-05-20 18:56:50] INFO root fetch - processPackages [imas-tools]: Downloading https://files.pythonhosted.org/packages/84/fc/1b9eb32e1f3764422ee783a0bc50c8e57574107985580bb8dac9108459af/imas_tools-0.4.0.tar.gz
+[2024-05-20 18:56:50] INFO root fetch - processPackages [grpcio-csds]: Downloading https://files.pythonhosted.org/packages/ea/4d/b6c754355a5820bef5b808a7dd4ca43263bc133b317d7fc2359c8b264889/grpcio_csds-1.64.0-py3-none-any.whl
+[2024-05-20 18:56:50] INFO root fetch - processPackages [grpcio-channelz]: Downloading https://files.pythonhosted.org/packages/52/ca/ac47e83e4035f4a1e984c0b65eed6522b5f914465c5eabb9f36136621da3/grpcio_channelz-1.64.0-py3-none-any.whl
+[2024-05-20 18:56:50] INFO root fetch - processPackages [dora-rs]: Downloading https://files.pythonhosted.org/packages/e9/0f/e022b8253d131720fa4eeef96d906f77807dbc2cca2e9126cc6a0d0f6785/dora_rs-0.3.4.tar.gz
+[2024-05-20 18:56:50] INFO root fetch - processPackages [grpcio-admin]: Downloading https://files.pythonhosted.org/packages/69/0b/4dd6139061d40b076bbc4b3d9432c60e36f2a0141a13f1c8f929073c44da/grpcio_admin-1.64.0-py3-none-any.whl
+[2024-05-20 18:56:50] INFO root fetch - processPackages [domdf-python-tools]: New version: [3.8.1] Old Version: [3.8.0.post2]
+[2024-05-20 18:56:50] INFO root fetch - processPackages [imas-tools]: executing diffoscope
+[2024-05-20 18:56:50] INFO root fetch - processPackages [imas-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imas_tools-0.3.0.tar.gz tmp/imas_tools-0.4.0.tar.gz --markdown 20240520/i/imas-tools/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-20 18:56:50] INFO root fetch - processPackages [grpcio-health-checking]: Downloading https://files.pythonhosted.org/packages/ea/52/37ac14cc90867f55f80ce8b7d903f219c75e05c741b5d82cff4440e3e159/grpcio-health-checking-1.9.0rc3.tar.gz
+[2024-05-20 18:56:50] INFO root fetch - processPackages [pbf]: Downloading https://files.pythonhosted.org/packages/2a/aa/0c1300b36762daf7314d10c242e31429fa7d43b3c6ef35138799b8992a66/pbf-0.0.2.tar.gz
+[2024-05-20 18:56:51] INFO root fetch - processPackages [aiotx]: Downloading https://files.pythonhosted.org/packages/16/9c/549e36a8b1e6142ff097daa532f93b2eb668da55f5f975b7f499afc956da/aiotx-1.2.0.tar.gz
+[2024-05-20 18:56:51] INFO root fetch - processPackages [kthcloud]: Downloading https://files.pythonhosted.org/packages/df/62/bcba7f3ccee18c29c27f1c8b34a1a8c9b1eb17220f81a2a808ef6a25e2f2/kthcloud-0.4.0a0.tar.gz
+[2024-05-20 18:56:51] INFO root fetch - processPackages [grpcio-csds]: Downloading https://files.pythonhosted.org/packages/71/53/c47fc1510cd66cbb976d5cc5ab5f02c66b13eefbd608436752c3ba1b3529/grpcio_csds-1.64.0rc1.tar.gz
+[2024-05-20 18:56:51] INFO root fetch - processPackages [grpcio-channelz]: Downloading https://files.pythonhosted.org/packages/50/0c/3c7af6553240faf8835c0add615847a22ae1dbd45022dfad67d77b3471b8/grpcio_channelz-1.64.0rc1.tar.gz
+[2024-05-20 18:56:51] INFO root fetch - processPackages [grpcio-admin]: Downloading https://files.pythonhosted.org/packages/20/e2/14f667f82362951ccd0227c1f757ae66cf00de71786dbf4032dd944f206a/grpcio_admin-1.64.0rc1.tar.gz
+[2024-05-20 18:56:51] INFO root fetch - processPackages [pbf]: executing diffoscope
+[2024-05-20 18:56:51] INFO root fetch - processPackages [pbf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbf-0.0.1.tar.gz tmp/pbf-0.0.2.tar.gz --markdown 20240520/p/pbf/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-20 18:56:51] INFO root fetch - processPackages [grpcio-csds]: executing diffoscope
+[2024-05-20 18:56:51] INFO root fetch - processPackages [grpcio-csds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio_csds-1.64.0-py3-none-any.whl.zip tmp/grpcio_csds-1.64.0rc1.tar.gz --markdown 20240520/g/grpcio-csds/1.64.0-1.64.0rc1/README.md --exclude *.pyd
+[2024-05-20 18:56:51] INFO root fetch - processPackages [grpcio-health-checking]: Downloading https://files.pythonhosted.org/packages/64/b7/1a150f6c068a235ac47628bf0cdaa0bf74044a58548b9cbd624532e6d478/grpcio-health-checking-1.9.1.tar.gz
+[2024-05-20 18:56:51] INFO root fetch - processPackages [aiotx]: executing diffoscope
+[2024-05-20 18:56:51] INFO root fetch - processPackages [aiotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotx-1.1.0.tar.gz tmp/aiotx-1.2.0.tar.gz --markdown 20240520/a/aiotx/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-20 18:56:51] INFO root fetch - processPackages [dora-rs]: Downloading https://files.pythonhosted.org/packages/e2/2f/3cbc8cb25e7b297a30eaea305181d3fdc814e80e40ccaca138fd7b59ad69/dora_rs-0.3.4rc2.tar.gz
+[2024-05-20 18:56:51] INFO root fetch - processPackages [grpcio-channelz]: executing diffoscope
+[2024-05-20 18:56:51] INFO root fetch - processPackages [grpcio-channelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio_channelz-1.64.0-py3-none-any.whl.zip tmp/grpcio_channelz-1.64.0rc1.tar.gz --markdown 20240520/g/grpcio-channelz/1.64.0-1.64.0rc1/README.md --exclude *.pyd
+[2024-05-20 18:56:51] INFO root fetch - processPackages [kthcloud]: executing diffoscope
+[2024-05-20 18:56:51] INFO root fetch - processPackages [kthcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kthcloud-0.3.0a0.tar.gz tmp/kthcloud-0.4.0a0.tar.gz --markdown 20240520/k/kthcloud/0.3.0a0-0.4.0a0/README.md --exclude *.pyd
+[2024-05-20 18:56:51] INFO root fetch - processPackages [grpcio-admin]: executing diffoscope
+[2024-05-20 18:56:51] INFO root fetch - processPackages [grpcio-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio_admin-1.64.0-py3-none-any.whl.zip tmp/grpcio_admin-1.64.0rc1.tar.gz --markdown 20240520/g/grpcio-admin/1.64.0-1.64.0rc1/README.md --exclude *.pyd
+[2024-05-20 18:56:51] INFO root fetch - processPackages [domdf-python-tools]: Downloading https://files.pythonhosted.org/packages/43/d8/1a67f6a788b229f30780df92a0139242896b415a6e3a49d8eb88ce39fe4a/domdf_python_tools-3.8.0.post2.tar.gz
+[2024-05-20 18:56:51] INFO root fetch - processPackages [grpcio-health-checking]: executing diffoscope
+[2024-05-20 18:56:51] INFO root fetch - processPackages [grpcio-health-checking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-health-checking-1.9.0rc3.tar.gz tmp/grpcio-health-checking-1.9.1.tar.gz --markdown 20240520/g/grpcio-health-checking/1.9.0rc3-1.9.1/README.md --exclude *.pyd
+[2024-05-20 18:56:51] INFO root fetch - processPackages [dora-rs]: executing diffoscope
+[2024-05-20 18:56:51] INFO root fetch - processPackages [dora-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dora_rs-0.3.4.tar.gz tmp/dora_rs-0.3.4rc2.tar.gz --markdown 20240520/d/dora-rs/0.3.4-0.3.4rc2/README.md --exclude *.pyd
+[2024-05-20 18:56:51] INFO root fetch - processPackages [imas-tools]: Remove: archive file [/home/abi/fetcher/tmp/imas_tools-0.3.0.tar.gz]
+[2024-05-20 18:56:51] INFO root fetch - processPackages [imas-tools]: Remove: archive file [/home/abi/fetcher/tmp/imas_tools-0.4.0.tar.gz]
+[2024-05-20 18:56:51] INFO root fetch - processPackages [imas-tools]: Start processing: grpcio-observability
+[2024-05-20 18:56:51] INFO root fetch - main [MainThread]: End processing [imas-tools]: success
+[2024-05-20 18:56:51] INFO root fetch - processPackages [grpcio-observability]: New version: [1.64.0rc1] Old Version: [1.64.0]
+[2024-05-20 18:56:51] INFO root fetch - processPackages [domdf-python-tools]: Downloading https://files.pythonhosted.org/packages/64/20/719d5fb6b1d647b0250e59d8458bf8cf9e4a3711679b819c3afa8308aecc/domdf_python_tools-3.8.1.tar.gz
+[2024-05-20 18:56:51] INFO root fetch - processPackages [grpcio-observability]: Downloading https://files.pythonhosted.org/packages/53/30/12cc7d4b8241a288c3fdf5e4fd05757c34c01a00b471b24610956da2c48e/grpcio_observability-1.64.0-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-05-20 18:56:51] INFO root fetch - processPackages [domdf-python-tools]: executing diffoscope
+[2024-05-20 18:56:51] INFO root fetch - processPackages [domdf-python-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domdf_python_tools-3.8.0.post2.tar.gz tmp/domdf_python_tools-3.8.1.tar.gz --markdown 20240520/d/domdf-python-tools/3.8.0.post2-3.8.1/README.md --exclude *.pyd
+[2024-05-20 18:56:52] INFO root fetch - processPackages [grpcio-admin]: Remove: archive file [/home/abi/fetcher/tmp/grpcio_admin-1.64.0-py3-none-any.whl.zip]
+[2024-05-20 18:56:52] INFO root fetch - processPackages [grpcio-admin]: Remove: archive file [/home/abi/fetcher/tmp/grpcio_admin-1.64.0rc1.tar.gz]
+[2024-05-20 18:56:52] INFO root fetch - processPackages [grpcio-admin]: Start processing: swc-utils
+[2024-05-20 18:56:52] INFO root fetch - main [MainThread]: End processing [grpcio-admin]: success
+[2024-05-20 18:56:52] INFO root fetch - processPackages [grpcio-channelz]: Remove: archive file [/home/abi/fetcher/tmp/grpcio_channelz-1.64.0-py3-none-any.whl.zip]
+[2024-05-20 18:56:52] INFO root fetch - processPackages [grpcio-channelz]: Remove: archive file [/home/abi/fetcher/tmp/grpcio_channelz-1.64.0rc1.tar.gz]
+[2024-05-20 18:56:52] INFO root fetch - main [MainThread]: End processing [grpcio-channelz]: success
+[2024-05-20 18:56:52] INFO root fetch - processPackages [swc-utils]: New version: [0.1.1] Old Version: [0.0.2]
+[2024-05-20 18:56:52] INFO root fetch - processPackages [grpcio-csds]: Remove: archive file [/home/abi/fetcher/tmp/grpcio_csds-1.64.0-py3-none-any.whl.zip]
+[2024-05-20 18:56:52] INFO root fetch - processPackages [grpcio-csds]: Remove: archive file [/home/abi/fetcher/tmp/grpcio_csds-1.64.0rc1.tar.gz]
+[2024-05-20 18:56:52] INFO root fetch - main [MainThread]: End processing [grpcio-csds]: success
+[2024-05-20 18:56:52] INFO root fetch - processPackages [grpcio-health-checking]: Remove: archive file [/home/abi/fetcher/tmp/grpcio-health-checking-1.9.0rc3.tar.gz]
+[2024-05-20 18:56:52] INFO root fetch - processPackages [grpcio-health-checking]: Remove: archive file [/home/abi/fetcher/tmp/grpcio-health-checking-1.9.1.tar.gz]
+[2024-05-20 18:56:52] INFO root fetch - main [MainThread]: End processing [grpcio-health-checking]: success
+[2024-05-20 18:56:52] INFO root fetch - processPackages [swc-utils]: Downloading https://files.pythonhosted.org/packages/85/0c/45a053befc12639f8961c5f29ea1a47c1611929c611e081e9c6e90466e40/swc_utils-0.0.2.tar.gz
+[2024-05-20 18:56:52] INFO root fetch - processPackages [kthcloud]: Remove: archive file [/home/abi/fetcher/tmp/kthcloud-0.3.0a0.tar.gz]
+[2024-05-20 18:56:52] INFO root fetch - processPackages [kthcloud]: Remove: archive file [/home/abi/fetcher/tmp/kthcloud-0.4.0a0.tar.gz]
+[2024-05-20 18:56:52] INFO root fetch - main [MainThread]: End processing [kthcloud]: success
+[2024-05-20 18:56:52] INFO root fetch - processPackages [swc-utils]: Downloading https://files.pythonhosted.org/packages/4c/51/08a76bc2a3e2b66d37a0047485ea7652115bd76917304fd240e9467b4017/swc_utils-0.1.1.tar.gz
+[2024-05-20 18:56:52] INFO root fetch - processPackages [swc-utils]: executing diffoscope
+[2024-05-20 18:56:52] INFO root fetch - processPackages [swc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swc_utils-0.0.2.tar.gz tmp/swc_utils-0.1.1.tar.gz --markdown 20240520/s/swc-utils/0.0.2-0.1.1/README.md --exclude *.pyd
+[2024-05-20 18:56:52] INFO root fetch - processPackages [domdf-python-tools]: Remove: archive file [/home/abi/fetcher/tmp/domdf_python_tools-3.8.0.post2.tar.gz]
+[2024-05-20 18:56:52] INFO root fetch - processPackages [domdf-python-tools]: Remove: archive file [/home/abi/fetcher/tmp/domdf_python_tools-3.8.1.tar.gz]
+[2024-05-20 18:56:52] INFO root fetch - main [MainThread]: End processing [domdf-python-tools]: success
+[2024-05-20 18:56:52] INFO root fetch - processPackages [dora-rs]: Remove: archive file [/home/abi/fetcher/tmp/dora_rs-0.3.4.tar.gz]
+[2024-05-20 18:56:52] INFO root fetch - processPackages [dora-rs]: Remove: archive file [/home/abi/fetcher/tmp/dora_rs-0.3.4rc2.tar.gz]
+[2024-05-20 18:56:52] INFO root fetch - main [MainThread]: End processing [dora-rs]: success
+[2024-05-20 18:56:53] INFO root fetch - processPackages [grpcio-observability]: Downloading https://files.pythonhosted.org/packages/a6/ca/7bc2a2559cd1c8fd5ce591005325326e89a9993e24c7a2605d8739a085ae/grpcio_observability-1.64.0rc1.tar.gz
+[2024-05-20 18:56:53] INFO root fetch - processPackages [swc-utils]: Remove: archive file [/home/abi/fetcher/tmp/swc_utils-0.0.2.tar.gz]
+[2024-05-20 18:56:53] INFO root fetch - processPackages [swc-utils]: Remove: archive file [/home/abi/fetcher/tmp/swc_utils-0.1.1.tar.gz]
+[2024-05-20 18:56:53] INFO root fetch - main [MainThread]: End processing [swc-utils]: success
+[2024-05-20 18:56:53] INFO root fetch - processPackages [grpcio-observability]: executing diffoscope
+[2024-05-20 18:56:53] INFO root fetch - processPackages [grpcio-observability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio_observability-1.64.0-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl.zip tmp/grpcio_observability-1.64.0rc1.tar.gz --markdown 20240520/g/grpcio-observability/1.64.0-1.64.0rc1/README.md --exclude *.pyd
+[2024-05-20 18:56:54] INFO root fetch - processPackages [pbf]: Remove: archive file [/home/abi/fetcher/tmp/pbf-0.0.1.tar.gz]
+[2024-05-20 18:56:54] INFO root fetch - processPackages [pbf]: Remove: archive file [/home/abi/fetcher/tmp/pbf-0.0.2.tar.gz]
+[2024-05-20 18:56:54] INFO root fetch - main [MainThread]: End processing [pbf]: success
+[2024-05-20 18:56:54] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-1.1.0.tar.gz]
+[2024-05-20 18:56:54] INFO root fetch - processPackages [aiotx]: Remove: archive file [/home/abi/fetcher/tmp/aiotx-1.2.0.tar.gz]
+[2024-05-20 18:56:54] INFO root fetch - main [MainThread]: End processing [aiotx]: success
+[2024-05-20 18:56:57] INFO root fetch - processPackages [grpcio-observability]: Remove: archive file [/home/abi/fetcher/tmp/grpcio_observability-1.64.0-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-05-20 18:56:57] INFO root fetch - processPackages [grpcio-observability]: Remove: archive file [/home/abi/fetcher/tmp/grpcio_observability-1.64.0rc1.tar.gz]
+[2024-05-20 18:56:57] INFO root fetch - main [MainThread]: End processing [grpcio-observability]: success
+[2024-05-20 18:56:57] INFO root fetch - main [MainThread]: Store serial: [23292832]

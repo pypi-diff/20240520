@@ -14674,3 +14674,81 @@
 [2024-05-20 13:03:46] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
 [2024-05-20 13:03:46] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
 [2024-05-20 13:03:46] INFO root fetch - main [MainThread]: Store serial: [23288492]
+[2024-05-20 13:05:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23288492]
+[2024-05-20 13:05:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kwal-agents
+[2024-05-20 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openbb-agents
+[2024-05-20 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: schemaorg-lite
+[2024-05-20 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bp3
+[2024-05-20 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agi-med-utils
+[2024-05-20 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: speedtab
+[2024-05-20 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agi-med-metrics
+[2024-05-20 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lakefs
+[2024-05-20 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: infolab-common-lib
+[2024-05-20 13:05:55] INFO root fetch - processPackages [infolab-common-lib]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-20 13:05:55] INFO root fetch - processPackages [bp3]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 13:05:55] WARNING root fetch - processPackages [kwal-agents]: Skipping, unable to determine old version
+[2024-05-20 13:05:55] INFO root fetch - processPackages [infolab-common-lib]: Downloading https://files.pythonhosted.org/packages/ae/9c/143c3b3034bde9ec79db5251815ecf46cc0b9ede571ccf7fb7cbda6d5ece/infolab_common_lib-1.0.1.tar.gz
+[2024-05-20 13:05:55] INFO root fetch - main [MainThread]: End processing [kwal-agents] error
+[2024-05-20 13:05:55] INFO root fetch - processPackages [openbb-agents]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 13:05:55] INFO root fetch - processPackages [schemaorg-lite]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 13:05:55] INFO root fetch - processPackages [agi-med-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 13:05:55] INFO root fetch - processPackages [lakefs]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-20 13:05:55] INFO root fetch - processPackages [agi-med-metrics]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-20 13:05:55] INFO root fetch - processPackages [speedtab]: New version: [0.2.2] Old Version: [0.2.1.9]
+[2024-05-20 13:05:55] INFO root fetch - processPackages [bp3]: Downloading https://files.pythonhosted.org/packages/bd/64/54701e84d50946eea7d30df7e282663f7709ed6dbd20cde3d322d50330b4/bp3-0.0.8.tar.gz
+[2024-05-20 13:05:55] INFO root fetch - processPackages [agi-med-metrics]: Downloading https://files.pythonhosted.org/packages/0e/e9/7353f60ce4457ec486c8a2a8bf17b7f5b3969e3f9c1ef701360eb0f6dc82/agi_med_metrics-0.0.2.tar.gz
+[2024-05-20 13:05:55] INFO root fetch - processPackages [openbb-agents]: Downloading https://files.pythonhosted.org/packages/f5/39/f0d65d76ef7edaecb1ae10ea20a69c35e58a3e5ac7b5ad975bcdc562aac6/openbb_agents-0.0.2.tar.gz
+[2024-05-20 13:05:55] INFO root fetch - processPackages [schemaorg-lite]: Downloading https://files.pythonhosted.org/packages/76/ea/f8da322ad9c463fb3674baa7f3cede2984ff76804d617531f29706753fe2/schemaorg_lite-0.1.8.tar.gz
+[2024-05-20 13:05:55] INFO root fetch - processPackages [agi-med-utils]: Downloading https://files.pythonhosted.org/packages/8b/51/ac73089aea944e2243b1d6145ab29366bb244eba023e865372e30ada0dfd/agi_med_utils-0.0.2.tar.gz
+[2024-05-20 13:05:55] INFO root fetch - processPackages [lakefs]: Downloading https://files.pythonhosted.org/packages/6f/46/1b6a34d3f197ae01cce0b867726fc3990b4e186af4890321ff7925cc1268/lakefs-0.6.0.tar.gz
+[2024-05-20 13:05:55] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/f0/58/587cc691da0423e547e6961926996118297d48068f8088a154d8992c2fe1/speedtab-0.2.1.9.tar.gz
+[2024-05-20 13:05:55] INFO root fetch - processPackages [infolab-common-lib]: Downloading https://files.pythonhosted.org/packages/74/81/10495d3d12ad76f7258adb609b056dd1225086ebe4be6ef712827666fb5b/infolab_common_lib-1.0.2.tar.gz
+[2024-05-20 13:05:55] INFO root fetch - processPackages [infolab-common-lib]: executing diffoscope
+[2024-05-20 13:05:55] INFO root fetch - processPackages [infolab-common-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infolab_common_lib-1.0.1.tar.gz tmp/infolab_common_lib-1.0.2.tar.gz --markdown 20240520/i/infolab-common-lib/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-20 13:05:55] INFO root fetch - processPackages [agi-med-metrics]: Downloading https://files.pythonhosted.org/packages/f3/f4/15e98216479c6f84f8db80eb6c22947f7c23679ddf32e7e2f875e4293db7/agi_med_metrics-0.0.3.tar.gz
+[2024-05-20 13:05:55] INFO root fetch - processPackages [agi-med-utils]: Downloading https://files.pythonhosted.org/packages/7b/a1/bd98810f754c52b14dc6884bea3a67269387cc21d61fd1c811af924b376c/agi_med_utils-0.0.3.tar.gz
+[2024-05-20 13:05:55] INFO root fetch - processPackages [openbb-agents]: Downloading https://files.pythonhosted.org/packages/87/07/90731879327208b648e20ed4f7539a3c5f08661de01e80036a654f4ed7e6/openbb_agents-0.0.3.tar.gz
+[2024-05-20 13:05:55] INFO root fetch - processPackages [lakefs]: Downloading https://files.pythonhosted.org/packages/54/3f/312a7887d14a692aec0badcd477d5031fbf05295e8c954562f0faa005616/lakefs-0.6.1.tar.gz
+[2024-05-20 13:05:56] INFO root fetch - processPackages [agi-med-utils]: executing diffoscope
+[2024-05-20 13:05:56] INFO root fetch - processPackages [agi-med-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agi_med_utils-0.0.2.tar.gz tmp/agi_med_utils-0.0.3.tar.gz --markdown 20240520/a/agi-med-utils/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 13:05:56] INFO root fetch - processPackages [openbb-agents]: executing diffoscope
+[2024-05-20 13:05:56] INFO root fetch - processPackages [openbb-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_agents-0.0.2.tar.gz tmp/openbb_agents-0.0.3.tar.gz --markdown 20240520/o/openbb-agents/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 13:05:56] INFO root fetch - processPackages [agi-med-metrics]: executing diffoscope
+[2024-05-20 13:05:56] INFO root fetch - processPackages [agi-med-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agi_med_metrics-0.0.2.tar.gz tmp/agi_med_metrics-0.0.3.tar.gz --markdown 20240520/a/agi-med-metrics/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-20 13:05:56] INFO root fetch - processPackages [lakefs]: executing diffoscope
+[2024-05-20 13:05:56] INFO root fetch - processPackages [lakefs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-0.6.0.tar.gz tmp/lakefs-0.6.1.tar.gz --markdown 20240520/l/lakefs/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-20 13:05:56] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/f7/22/55bc7e51428287fd3a49c73ffb0193a3429a01533a4db8d127fce3e7caba/speedtab-0.2.2.tar.gz
+[2024-05-20 13:05:56] INFO root fetch - processPackages [speedtab]: executing diffoscope
+[2024-05-20 13:05:56] INFO root fetch - processPackages [speedtab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtab-0.2.1.9.tar.gz tmp/speedtab-0.2.2.tar.gz --markdown 20240520/s/speedtab/0.2.1.9-0.2.2/README.md --exclude *.pyd
+[2024-05-20 13:05:56] INFO root fetch - processPackages [bp3]: Downloading https://files.pythonhosted.org/packages/78/6b/c5dd7efd1c872bb45c539b39098f314847aeb7daa2d995764145980c95b4/bp3-0.0.9-py2.py3-none-any.whl
+[2024-05-20 13:05:56] INFO root fetch - processPackages [schemaorg-lite]: Downloading https://files.pythonhosted.org/packages/26/94/c9402d0a4004df79d009c2847989dbac719d94a77abfe79f8e1798c3f40a/schemaorg_lite-0.1.9.tar.gz
+[2024-05-20 13:05:56] INFO root fetch - processPackages [infolab-common-lib]: Remove: archive file [/home/abi/fetcher/tmp/infolab_common_lib-1.0.1.tar.gz]
+[2024-05-20 13:05:56] INFO root fetch - processPackages [infolab-common-lib]: Remove: archive file [/home/abi/fetcher/tmp/infolab_common_lib-1.0.2.tar.gz]
+[2024-05-20 13:05:56] INFO root fetch - main [MainThread]: End processing [infolab-common-lib]: success
+[2024-05-20 13:05:56] INFO root fetch - processPackages [schemaorg-lite]: executing diffoscope
+[2024-05-20 13:05:56] INFO root fetch - processPackages [schemaorg-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemaorg_lite-0.1.8.tar.gz tmp/schemaorg_lite-0.1.9.tar.gz --markdown 20240520/s/schemaorg-lite/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 13:05:56] INFO root fetch - processPackages [agi-med-metrics]: Remove: archive file [/home/abi/fetcher/tmp/agi_med_metrics-0.0.2.tar.gz]
+[2024-05-20 13:05:56] INFO root fetch - processPackages [agi-med-metrics]: Remove: archive file [/home/abi/fetcher/tmp/agi_med_metrics-0.0.3.tar.gz]
+[2024-05-20 13:05:56] INFO root fetch - main [MainThread]: End processing [agi-med-metrics]: success
+[2024-05-20 13:05:56] INFO root fetch - processPackages [bp3]: executing diffoscope
+[2024-05-20 13:05:56] INFO root fetch - processPackages [bp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp3-0.0.8.tar.gz tmp/bp3-0.0.9-py2.py3-none-any.whl.zip --markdown 20240520/b/bp3/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 13:05:56] INFO root fetch - processPackages [openbb-agents]: Remove: archive file [/home/abi/fetcher/tmp/openbb_agents-0.0.2.tar.gz]
+[2024-05-20 13:05:56] INFO root fetch - processPackages [openbb-agents]: Remove: archive file [/home/abi/fetcher/tmp/openbb_agents-0.0.3.tar.gz]
+[2024-05-20 13:05:56] INFO root fetch - main [MainThread]: End processing [openbb-agents]: success
+[2024-05-20 13:05:56] INFO root fetch - processPackages [agi-med-utils]: Remove: archive file [/home/abi/fetcher/tmp/agi_med_utils-0.0.2.tar.gz]
+[2024-05-20 13:05:56] INFO root fetch - processPackages [agi-med-utils]: Remove: archive file [/home/abi/fetcher/tmp/agi_med_utils-0.0.3.tar.gz]
+[2024-05-20 13:05:56] INFO root fetch - main [MainThread]: End processing [agi-med-utils]: success
+[2024-05-20 13:05:56] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.1.9.tar.gz]
+[2024-05-20 13:05:56] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.2.tar.gz]
+[2024-05-20 13:05:56] INFO root fetch - main [MainThread]: End processing [speedtab]: success
+[2024-05-20 13:05:57] INFO root fetch - processPackages [lakefs]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-0.6.0.tar.gz]
+[2024-05-20 13:05:57] INFO root fetch - processPackages [lakefs]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-0.6.1.tar.gz]
+[2024-05-20 13:05:57] INFO root fetch - main [MainThread]: End processing [lakefs]: success
+[2024-05-20 13:05:57] INFO root fetch - processPackages [bp3]: Remove: archive file [/home/abi/fetcher/tmp/bp3-0.0.8.tar.gz]
+[2024-05-20 13:05:57] INFO root fetch - processPackages [bp3]: Remove: archive file [/home/abi/fetcher/tmp/bp3-0.0.9-py2.py3-none-any.whl.zip]
+[2024-05-20 13:05:57] INFO root fetch - main [MainThread]: End processing [bp3]: success
+[2024-05-20 13:06:04] INFO root fetch - processPackages [schemaorg-lite]: Remove: archive file [/home/abi/fetcher/tmp/schemaorg_lite-0.1.8.tar.gz]
+[2024-05-20 13:06:04] INFO root fetch - processPackages [schemaorg-lite]: Remove: archive file [/home/abi/fetcher/tmp/schemaorg_lite-0.1.9.tar.gz]
+[2024-05-20 13:06:04] INFO root fetch - main [MainThread]: End processing [schemaorg-lite]: success
+[2024-05-20 13:06:04] INFO root fetch - main [MainThread]: Store serial: [23288526]

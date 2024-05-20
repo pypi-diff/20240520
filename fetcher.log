@@ -4735,3 +4735,54 @@
 [2024-05-20 04:07:46] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.2.tar.gz]
 [2024-05-20 04:07:46] INFO root fetch - main [MainThread]: End processing [tmticket]: success
 [2024-05-20 04:07:46] INFO root fetch - main [MainThread]: Store serial: [23283674]
+[2024-05-20 04:09:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283674]
+[2024-05-20 04:09:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-20 04:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nanopb
+[2024-05-20 04:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shuttleasgi
+[2024-05-20 04:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raffez
+[2024-05-20 04:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: examon_core
+[2024-05-20 04:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autora-experiment-runner-firebase-prolific
+[2024-05-20 04:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcicutils
+[2024-05-20 04:09:55] INFO root fetch - processPackages [shuttleasgi]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-05-20 04:09:55] INFO root fetch - processPackages [dcicutils]: New version: [8.9.0.0b0] Old Version: [8.8.4.1b9]
+[2024-05-20 04:09:55] INFO root fetch - processPackages [shuttleasgi]: Downloading https://files.pythonhosted.org/packages/86/2c/30c8a986423f71fe7d4b8cf43369f737c9dcb4ca917facbc7deea0757310/shuttleasgi-3.0.4-cp312-cp312-win_amd64.whl
+[2024-05-20 04:09:55] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: New version: [1.0.0b4] Old Version: [1.0.0b3]
+[2024-05-20 04:09:55] INFO root fetch - processPackages [nanopb]: New version: [0.4.9.dev1473] Old Version: [0.4.9.dev1472]
+[2024-05-20 04:09:55] WARNING root fetch - processPackages [raffez]: Skipping, unable to determine old version
+[2024-05-20 04:09:55] INFO root fetch - main [MainThread]: End processing [raffez] error
+[2024-05-20 04:09:55] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/ab/80/64152621f2e387ed0dff6f4fbf31f5b2e11f4dfe300d598bbfb27dfd25b5/dcicutils-8.8.4.1b9.tar.gz
+[2024-05-20 04:09:55] INFO root fetch - processPackages [examon_core]: New version: [2.0.0] Old Version: [1.5.0]
+[2024-05-20 04:09:55] INFO root fetch - processPackages [nanopb]: Downloading https://files.pythonhosted.org/packages/35/3f/bd3ab20418f67ad9d847f856732d853114eb5a25cad6a8cf46f38ed1d4a7/nanopb-0.4.9.dev1472.tar.gz
+[2024-05-20 04:09:55] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Downloading https://files.pythonhosted.org/packages/80/df/8ccae607c0c6ca70d712edae81ae5b2ea25ff1290a09ce6cfd4e7fe1f1dc/autora_experiment_runner_firebase_prolific-1.0.0b3.tar.gz
+[2024-05-20 04:09:55] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/5b/de/ac87d1c9583f507046be7724343035a3e363814633eea93612ca13f3adba/dcicutils-8.9.0.0b0.tar.gz
+[2024-05-20 04:09:55] INFO root fetch - processPackages [examon_core]: Downloading https://files.pythonhosted.org/packages/ca/f9/454ca16c575c3e9d97aae2ef84abfd8dcdb6618accde3dacff6d5c9149c9/examon_core-1.5.0.tar.gz
+[2024-05-20 04:09:55] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-05-20 04:09:55] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.4.1b9.tar.gz tmp/dcicutils-8.9.0.0b0.tar.gz --markdown 20240520/d/dcicutils/8.8.4.1b9-8.9.0.0b0/README.md --exclude *.pyd
+[2024-05-20 04:09:55] INFO root fetch - processPackages [shuttleasgi]: Downloading https://files.pythonhosted.org/packages/0a/76/5ef4d887b31749b6f7c5b3e124977b05b0b8397aa293e5cba3b834681fa6/shuttleasgi-3.0.5-cp312-cp312-win_amd64.whl
+[2024-05-20 04:09:55] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Downloading https://files.pythonhosted.org/packages/76/b4/8ae65d3dc37486eff1a192a4735c3f407c6ac08950c09f445b2827779a34/autora_experiment_runner_firebase_prolific-1.0.0b4.tar.gz
+[2024-05-20 04:09:55] INFO root fetch - processPackages [nanopb]: Downloading https://files.pythonhosted.org/packages/0b/31/fccef3565b791e3dde36db673be2696e205510c564eee9f082a45274e95e/nanopb-0.4.9.dev1473.tar.gz
+[2024-05-20 04:09:55] INFO root fetch - processPackages [nanopb]: executing diffoscope
+[2024-05-20 04:09:55] INFO root fetch - processPackages [nanopb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanopb-0.4.9.dev1472.tar.gz tmp/nanopb-0.4.9.dev1473.tar.gz --markdown 20240520/n/nanopb/0.4.9.dev1472-0.4.9.dev1473/README.md --exclude *.pyd
+[2024-05-20 04:09:55] INFO root fetch - processPackages [examon_core]: Downloading https://files.pythonhosted.org/packages/fe/85/265c04b5c745695a99f177215783d98e1b77261a637c68846d1de8ff0229/examon_core-2.0.0.tar.gz
+[2024-05-20 04:09:55] INFO root fetch - processPackages [shuttleasgi]: executing diffoscope
+[2024-05-20 04:09:55] INFO root fetch - processPackages [shuttleasgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shuttleasgi-3.0.4-cp312-cp312-win_amd64.whl.zip tmp/shuttleasgi-3.0.5-cp312-cp312-win_amd64.whl.zip --markdown 20240520/s/shuttleasgi/3.0.4-3.0.5/README.md --exclude *.pyd
+[2024-05-20 04:09:55] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: executing diffoscope
+[2024-05-20 04:09:55] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autora_experiment_runner_firebase_prolific-1.0.0b3.tar.gz tmp/autora_experiment_runner_firebase_prolific-1.0.0b4.tar.gz --markdown 20240520/a/autora-experiment-runner-firebase-prolific/1.0.0b3-1.0.0b4/README.md --exclude *.pyd
+[2024-05-20 04:09:55] INFO root fetch - processPackages [examon_core]: executing diffoscope
+[2024-05-20 04:09:55] INFO root fetch - processPackages [examon_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/examon_core-1.5.0.tar.gz tmp/examon_core-2.0.0.tar.gz --markdown 20240520/e/examon_core/1.5.0-2.0.0/README.md --exclude *.pyd
+[2024-05-20 04:09:56] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_firebase_prolific-1.0.0b3.tar.gz]
+[2024-05-20 04:09:56] INFO root fetch - processPackages [autora-experiment-runner-firebase-prolific]: Remove: archive file [/home/abi/fetcher/tmp/autora_experiment_runner_firebase_prolific-1.0.0b4.tar.gz]
+[2024-05-20 04:09:56] INFO root fetch - main [MainThread]: End processing [autora-experiment-runner-firebase-prolific]: success
+[2024-05-20 04:09:56] INFO root fetch - processPackages [examon_core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-1.5.0.tar.gz]
+[2024-05-20 04:09:56] INFO root fetch - processPackages [examon_core]: Remove: archive file [/home/abi/fetcher/tmp/examon_core-2.0.0.tar.gz]
+[2024-05-20 04:09:56] INFO root fetch - main [MainThread]: End processing [examon_core]: success
+[2024-05-20 04:09:56] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.4.1b9.tar.gz]
+[2024-05-20 04:09:56] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.9.0.0b0.tar.gz]
+[2024-05-20 04:09:56] INFO root fetch - processPackages [nanopb]: Remove: archive file [/home/abi/fetcher/tmp/nanopb-0.4.9.dev1472.tar.gz]
+[2024-05-20 04:09:56] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-05-20 04:09:56] INFO root fetch - processPackages [nanopb]: Remove: archive file [/home/abi/fetcher/tmp/nanopb-0.4.9.dev1473.tar.gz]
+[2024-05-20 04:09:56] INFO root fetch - main [MainThread]: End processing [nanopb]: success
+[2024-05-20 04:09:56] INFO root fetch - processPackages [shuttleasgi]: Remove: archive file [/home/abi/fetcher/tmp/shuttleasgi-3.0.4-cp312-cp312-win_amd64.whl.zip]
+[2024-05-20 04:09:56] INFO root fetch - processPackages [shuttleasgi]: Remove: archive file [/home/abi/fetcher/tmp/shuttleasgi-3.0.5-cp312-cp312-win_amd64.whl.zip]
+[2024-05-20 04:09:56] INFO root fetch - main [MainThread]: End processing [shuttleasgi]: success
+[2024-05-20 04:09:56] INFO root fetch - main [MainThread]: Store serial: [23283692]

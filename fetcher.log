@@ -7765,3 +7765,27 @@
 [2024-05-20 07:52:17] INFO root fetch - processPackages [modern-colorthief]: Remove: archive file [/home/abi/fetcher/tmp/modern_colorthief-0.1.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-20 07:52:17] INFO root fetch - main [MainThread]: End processing [modern-colorthief]: success
 [2024-05-20 07:52:17] INFO root fetch - main [MainThread]: Store serial: [23285224]
+[2024-05-20 07:54:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23285224]
+[2024-05-20 07:54:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-20 07:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: equivalent_llm
+[2024-05-20 07:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hjnwtx
+[2024-05-20 07:54:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: impactsz
+[2024-05-20 07:54:26] INFO root fetch - processPackages [equivalent_llm]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-20 07:54:26] WARNING root fetch - processPackages [impactsz]: Skipping, unable to determine old version
+[2024-05-20 07:54:26] INFO root fetch - main [MainThread]: End processing [impactsz] error
+[2024-05-20 07:54:26] INFO root fetch - processPackages [hjnwtx]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-20 07:54:27] INFO root fetch - processPackages [equivalent_llm]: Downloading https://files.pythonhosted.org/packages/dd/59/9103d1368c40b31a2b2a9ba410b59508fe552955c896e063fdadf16be2c3/equivalent_llm-0.2.0.tar.gz
+[2024-05-20 07:54:27] INFO root fetch - processPackages [hjnwtx]: Downloading https://files.pythonhosted.org/packages/0d/03/5318e26dff216cd1b0fbcb47d883f79881aab3bc35f71556258fe94e4f53/hjnwtx-0.1.7.tar.gz
+[2024-05-20 07:54:27] INFO root fetch - processPackages [equivalent_llm]: Downloading https://files.pythonhosted.org/packages/b9/8e/4edb12ca74e4801c120678bdb909c1d9a73ef509fcb2e7b6e3bf86fabe2b/equivalent_llm-0.3.0.tar.gz
+[2024-05-20 07:54:27] INFO root fetch - processPackages [hjnwtx]: Downloading https://files.pythonhosted.org/packages/96/3c/7783a03f453b403a5001e9d59b2b0c5906c2471026f5f150096f298bbc88/hjnwtx-0.1.8.tar.gz
+[2024-05-20 07:54:27] INFO root fetch - processPackages [equivalent_llm]: executing diffoscope
+[2024-05-20 07:54:27] INFO root fetch - processPackages [equivalent_llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equivalent_llm-0.2.0.tar.gz tmp/equivalent_llm-0.3.0.tar.gz --markdown 20240520/e/equivalent_llm/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-20 07:54:27] INFO root fetch - processPackages [hjnwtx]: executing diffoscope
+[2024-05-20 07:54:27] INFO root fetch - processPackages [hjnwtx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hjnwtx-0.1.7.tar.gz tmp/hjnwtx-0.1.8.tar.gz --markdown 20240520/h/hjnwtx/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-20 07:54:28] INFO root fetch - processPackages [hjnwtx]: Remove: archive file [/home/abi/fetcher/tmp/hjnwtx-0.1.7.tar.gz]
+[2024-05-20 07:54:28] INFO root fetch - processPackages [hjnwtx]: Remove: archive file [/home/abi/fetcher/tmp/hjnwtx-0.1.8.tar.gz]
+[2024-05-20 07:54:28] INFO root fetch - main [MainThread]: End processing [hjnwtx]: success
+[2024-05-20 07:54:28] INFO root fetch - processPackages [equivalent_llm]: Remove: archive file [/home/abi/fetcher/tmp/equivalent_llm-0.2.0.tar.gz]
+[2024-05-20 07:54:28] INFO root fetch - processPackages [equivalent_llm]: Remove: archive file [/home/abi/fetcher/tmp/equivalent_llm-0.3.0.tar.gz]
+[2024-05-20 07:54:28] INFO root fetch - main [MainThread]: End processing [equivalent_llm]: success
+[2024-05-20 07:54:28] INFO root fetch - main [MainThread]: Store serial: [23285248]

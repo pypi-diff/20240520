@@ -21274,3 +21274,90 @@ EOFError: EOF read where object expected
 [2024-05-20 17:04:44] INFO root fetch - processPackages [nomic]: Remove: archive file [/home/abi/fetcher/tmp/nomic-3.0.9.tar.gz]
 [2024-05-20 17:04:44] INFO root fetch - main [MainThread]: End processing [nomic]: success
 [2024-05-20 17:04:44] INFO root fetch - main [MainThread]: Store serial: [23291449]
+[2024-05-20 17:06:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291449]
+[2024-05-20 17:06:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-20 17:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osm-rawdata
+[2024-05-20 17:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ku-of-fuzzy
+[2024-05-20 17:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lindi
+[2024-05-20 17:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rodrigo-test-library
+[2024-05-20 17:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lakehouse-engine
+[2024-05-20 17:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: caikit
+[2024-05-20 17:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smo_rejection
+[2024-05-20 17:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yoto-api
+[2024-05-20 17:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: streaming-assistants
+[2024-05-20 17:06:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cuproiodargyritez
+[2024-05-20 17:06:53] INFO root fetch - processPackages [rodrigo-test-library]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 17:06:53] INFO root fetch - processPackages [smo_rejection]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-20 17:06:53] INFO root fetch - processPackages [streaming-assistants]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-20 17:06:53] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-20 17:06:53] INFO root fetch - processPackages [lindi]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-20 17:06:53] INFO root fetch - processPackages [lakehouse-engine]: New version: [1.20.0] Old Version: [1.19.0]
+[2024-05-20 17:06:53] WARNING root fetch - processPackages [cuproiodargyritez]: Skipping, unable to determine old version
+[2024-05-20 17:06:53] INFO root fetch - main [MainThread]: End processing [cuproiodargyritez] error
+[2024-05-20 17:06:53] INFO root fetch - processPackages [osm-rawdata]: New version: [0.3.0] Old Version: [0.2.4]
+[2024-05-20 17:06:53] INFO root fetch - processPackages [caikit]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-20 17:06:53] INFO root fetch - processPackages [ku-of-fuzzy]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-20 17:06:53] INFO root fetch - processPackages [smo_rejection]: Downloading https://files.pythonhosted.org/packages/ee/b4/794066d5d6d707b81e04d66d83066a8c579c754b7ec90c636deef1d95a6f/smo_rejection-0.4.1.tar.gz
+[2024-05-20 17:06:53] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-20 17:06:53] INFO root fetch - processPackages [streaming-assistants]: Downloading https://files.pythonhosted.org/packages/af/3d/dc293cdb4c429406a79b61362e9e426095eccd198212a0cdd2f44174114f/streaming_assistants-0.8.0.tar.gz
+[2024-05-20 17:06:53] INFO root fetch - processPackages [rodrigo-test-library]: Downloading https://files.pythonhosted.org/packages/3b/0f/3db09dd76518faba1fc65f2717919aa28c01b4e00d940203dfe820b8c553/rodrigo_test_library-0.1.0.tar.gz
+[2024-05-20 17:06:53] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/0f/e4/bf0494c17b2f1f7788c9c56dee34e8a593a76452aaab41e35d541fc6e363/lindi-0.3.5.tar.gz
+[2024-05-20 17:06:53] INFO root fetch - processPackages [osm-rawdata]: Downloading https://files.pythonhosted.org/packages/8b/c8/dfa2c5824e75b3be45a1a1cb4135d2777165e08763eec5991e7b17aecf02/osm-rawdata-0.2.4.tar.gz
+[2024-05-20 17:06:53] INFO root fetch - processPackages [lakehouse-engine]: Downloading https://files.pythonhosted.org/packages/c4/69/0c1d441c9fb43f3341ef025547d7682fd73dd7a35ab5e75ace03f28a5584/lakehouse_engine-1.19.0-py3-none-any.whl
+[2024-05-20 17:06:53] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/e2/64/eb5a4e4c43b7c18533482debb3623aa0d86cc59d03ae98e99c75208feaa4/caikit-0.9.3.tar.gz
+[2024-05-20 17:06:53] INFO root fetch - processPackages [ku-of-fuzzy]: Downloading https://files.pythonhosted.org/packages/38/5b/dd8b88290992e8e8b8325880f91e4cb2ed29e221dc0369c4f3952b9cbb16/ku_of_fuzzy-0.1.5.tar.gz
+[2024-05-20 17:06:53] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-20 17:06:53] INFO root fetch - processPackages [streaming-assistants]: Downloading https://files.pythonhosted.org/packages/2f/a1/d98bc2e51aa7ddc249766325c12aca7c66d084cae0413a47250126f98e95/streaming_assistants-0.9.0.tar.gz
+[2024-05-20 17:06:53] INFO root fetch - processPackages [smo_rejection]: Downloading https://files.pythonhosted.org/packages/5f/e0/89aa7666298d653987e6efa501e7a71464abcca4db5a29b82cd495152342/smo_rejection-0.4.2.tar.gz
+[2024-05-20 17:06:53] INFO root fetch - processPackages [rodrigo-test-library]: Downloading https://files.pythonhosted.org/packages/71/4e/594ae5f95994b8c7685a88ca193c1497d66c2f806f1f6522a153caf1edff/rodrigo_test_library-0.1.1.tar.gz
+[2024-05-20 17:06:53] INFO root fetch - processPackages [streaming-assistants]: executing diffoscope
+[2024-05-20 17:06:53] INFO root fetch - processPackages [streaming-assistants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streaming_assistants-0.8.0.tar.gz tmp/streaming_assistants-0.9.0.tar.gz --markdown 20240520/s/streaming-assistants/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-20 17:06:53] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-20 17:06:53] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240520/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-20 17:06:53] INFO root fetch - processPackages [smo_rejection]: executing diffoscope
+[2024-05-20 17:06:53] INFO root fetch - processPackages [smo_rejection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smo_rejection-0.4.1.tar.gz tmp/smo_rejection-0.4.2.tar.gz --markdown 20240520/s/smo_rejection/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-20 17:06:53] INFO root fetch - processPackages [lindi]: Downloading https://files.pythonhosted.org/packages/33/41/9c65a55e474acefaeb5879fa8ed31e29bf2e72b8596b14da951cd652aec3/lindi-0.3.6.tar.gz
+[2024-05-20 17:06:53] INFO root fetch - processPackages [rodrigo-test-library]: executing diffoscope
+[2024-05-20 17:06:53] INFO root fetch - processPackages [rodrigo-test-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rodrigo_test_library-0.1.0.tar.gz tmp/rodrigo_test_library-0.1.1.tar.gz --markdown 20240520/r/rodrigo-test-library/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 17:06:53] INFO root fetch - processPackages [osm-rawdata]: Downloading https://files.pythonhosted.org/packages/71/7c/62dec6aada73cf12f939edff1b5a3c540531b3cf1aa52ab0d1c1e3e772b1/osm-rawdata-0.3.0.tar.gz
+[2024-05-20 17:06:53] INFO root fetch - processPackages [lakehouse-engine]: Downloading https://files.pythonhosted.org/packages/82/cd/e8269dfa6160f879317e6d381f1fd9c4614aefad5fb10cc506d46e710d71/lakehouse_engine-1.20.0-py3-none-any.whl
+[2024-05-20 17:06:53] INFO root fetch - processPackages [lindi]: executing diffoscope
+[2024-05-20 17:06:53] INFO root fetch - processPackages [lindi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lindi-0.3.5.tar.gz tmp/lindi-0.3.6.tar.gz --markdown 20240520/l/lindi/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-20 17:06:53] INFO root fetch - processPackages [ku-of-fuzzy]: Downloading https://files.pythonhosted.org/packages/b5/15/62329ea8c3c39fa5182b3397b66fd1247c4d2bbd4b51b6ca1f76a8e404cb/ku_of_fuzzy-0.1.6.tar.gz
+[2024-05-20 17:06:54] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/1d/9c/5ee666bbd25d2499e43903b58fd64c37feba1404ab96c754cb4d50439bee/caikit-0.9.4.tar.gz
+[2024-05-20 17:06:54] INFO root fetch - processPackages [osm-rawdata]: executing diffoscope
+[2024-05-20 17:06:54] INFO root fetch - processPackages [osm-rawdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osm-rawdata-0.2.4.tar.gz tmp/osm-rawdata-0.3.0.tar.gz --markdown 20240520/o/osm-rawdata/0.2.4-0.3.0/README.md --exclude *.pyd
+[2024-05-20 17:06:54] INFO root fetch - processPackages [lakehouse-engine]: executing diffoscope
+[2024-05-20 17:06:54] INFO root fetch - processPackages [lakehouse-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakehouse_engine-1.19.0-py3-none-any.whl.zip tmp/lakehouse_engine-1.20.0-py3-none-any.whl.zip --markdown 20240520/l/lakehouse-engine/1.19.0-1.20.0/README.md --exclude *.pyd
+[2024-05-20 17:06:54] INFO root fetch - processPackages [ku-of-fuzzy]: executing diffoscope
+[2024-05-20 17:06:54] INFO root fetch - processPackages [ku-of-fuzzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ku_of_fuzzy-0.1.5.tar.gz tmp/ku_of_fuzzy-0.1.6.tar.gz --markdown 20240520/k/ku-of-fuzzy/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-20 17:06:54] INFO root fetch - processPackages [caikit]: executing diffoscope
+[2024-05-20 17:06:54] INFO root fetch - processPackages [caikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caikit-0.9.3.tar.gz tmp/caikit-0.9.4.tar.gz --markdown 20240520/c/caikit/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-20 17:06:54] INFO root fetch - processPackages [streaming-assistants]: Remove: archive file [/home/abi/fetcher/tmp/streaming_assistants-0.8.0.tar.gz]
+[2024-05-20 17:06:54] INFO root fetch - processPackages [streaming-assistants]: Remove: archive file [/home/abi/fetcher/tmp/streaming_assistants-0.9.0.tar.gz]
+[2024-05-20 17:06:54] INFO root fetch - main [MainThread]: End processing [streaming-assistants]: success
+[2024-05-20 17:06:54] INFO root fetch - processPackages [smo_rejection]: Remove: archive file [/home/abi/fetcher/tmp/smo_rejection-0.4.1.tar.gz]
+[2024-05-20 17:06:54] INFO root fetch - processPackages [smo_rejection]: Remove: archive file [/home/abi/fetcher/tmp/smo_rejection-0.4.2.tar.gz]
+[2024-05-20 17:06:54] INFO root fetch - main [MainThread]: End processing [smo_rejection]: success
+[2024-05-20 17:06:54] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-20 17:06:54] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-20 17:06:54] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-20 17:06:54] INFO root fetch - processPackages [rodrigo-test-library]: Remove: archive file [/home/abi/fetcher/tmp/rodrigo_test_library-0.1.0.tar.gz]
+[2024-05-20 17:06:54] INFO root fetch - processPackages [rodrigo-test-library]: Remove: archive file [/home/abi/fetcher/tmp/rodrigo_test_library-0.1.1.tar.gz]
+[2024-05-20 17:06:54] INFO root fetch - main [MainThread]: End processing [rodrigo-test-library]: success
+[2024-05-20 17:06:54] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.3.5.tar.gz]
+[2024-05-20 17:06:54] INFO root fetch - processPackages [lindi]: Remove: archive file [/home/abi/fetcher/tmp/lindi-0.3.6.tar.gz]
+[2024-05-20 17:06:54] INFO root fetch - main [MainThread]: End processing [lindi]: success
+[2024-05-20 17:06:54] INFO root fetch - processPackages [osm-rawdata]: Remove: archive file [/home/abi/fetcher/tmp/osm-rawdata-0.2.4.tar.gz]
+[2024-05-20 17:06:54] INFO root fetch - processPackages [osm-rawdata]: Remove: archive file [/home/abi/fetcher/tmp/osm-rawdata-0.3.0.tar.gz]
+[2024-05-20 17:06:54] INFO root fetch - main [MainThread]: End processing [osm-rawdata]: success
+[2024-05-20 17:06:54] INFO root fetch - processPackages [ku-of-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ku_of_fuzzy-0.1.5.tar.gz]
+[2024-05-20 17:06:54] INFO root fetch - processPackages [ku-of-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ku_of_fuzzy-0.1.6.tar.gz]
+[2024-05-20 17:06:54] INFO root fetch - main [MainThread]: End processing [ku-of-fuzzy]: success
+[2024-05-20 17:06:55] INFO root fetch - processPackages [lakehouse-engine]: Remove: archive file [/home/abi/fetcher/tmp/lakehouse_engine-1.19.0-py3-none-any.whl.zip]
+[2024-05-20 17:06:55] INFO root fetch - processPackages [lakehouse-engine]: Remove: archive file [/home/abi/fetcher/tmp/lakehouse_engine-1.20.0-py3-none-any.whl.zip]
+[2024-05-20 17:06:55] INFO root fetch - main [MainThread]: End processing [lakehouse-engine]: success
+[2024-05-20 17:06:55] INFO root fetch - processPackages [caikit]: Remove: archive file [/home/abi/fetcher/tmp/caikit-0.9.3.tar.gz]
+[2024-05-20 17:06:55] INFO root fetch - processPackages [caikit]: Remove: archive file [/home/abi/fetcher/tmp/caikit-0.9.4.tar.gz]
+[2024-05-20 17:06:55] INFO root fetch - main [MainThread]: End processing [caikit]: success
+[2024-05-20 17:06:55] INFO root fetch - main [MainThread]: Store serial: [23291482]

@@ -21109,3 +21109,73 @@ EOFError: EOF read where object expected
 [2024-05-20 16:56:01] INFO root fetch - processPackages [Flask-AppBuilder]: Remove: archive file [/home/abi/fetcher/tmp/Flask-AppBuilder-4.5.0rc1.tar.gz]
 [2024-05-20 16:56:01] INFO root fetch - main [MainThread]: End processing [Flask-AppBuilder]: success
 [2024-05-20 16:56:01] INFO root fetch - main [MainThread]: Store serial: [23291379]
+[2024-05-20 16:58:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291379]
+[2024-05-20 16:58:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-20 16:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fbgemm-gpu-nightly
+[2024-05-20 16:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: batchstats
+[2024-05-20 16:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mispracticez
+[2024-05-20 16:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: specklia
+[2024-05-20 16:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zenyx
+[2024-05-20 16:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: organizations-local
+[2024-05-20 16:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tui-dsg
+[2024-05-20 16:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bitblas
+[2024-05-20 16:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: comun-va
+[2024-05-20 16:58:10] INFO root fetch - processPackages [tui-dsg]: New version: [202405200843] Old Version: [202404250955]
+[2024-05-20 16:58:10] INFO root fetch - processPackages [comun-va]: New version: [3.7] Old Version: [3.6]
+[2024-05-20 16:58:10] INFO root fetch - processPackages [bitblas]: New version: [0.0.1.dev6] Old Version: [0.0.1.dev5]
+[2024-05-20 16:58:10] INFO root fetch - processPackages [batchstats]: New version: [0.3.1] Old Version: [0.3]
+[2024-05-20 16:58:11] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/70/84/34d9b67693cf8afaeeba24735823ec69821ad47ab1c2389772a28d1f6ad8/comun_va-3.6.tar.gz
+[2024-05-20 16:58:11] INFO root fetch - processPackages [zenyx]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-05-20 16:58:11] INFO root fetch - processPackages [organizations-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 16:58:11] WARNING root fetch - processPackages [mispracticez]: Skipping, unable to determine old version
+[2024-05-20 16:58:11] INFO root fetch - main [MainThread]: End processing [mispracticez] error
+[2024-05-20 16:58:11] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2024.5.20] Old Version: [2024.5.19]
+[2024-05-20 16:58:11] INFO root fetch - processPackages [bitblas]: Downloading https://files.pythonhosted.org/packages/ff/57/b2eda3e5350ca00ab120b06ea7256299eee4c9214bb379986342a265eb3f/bitblas-0.0.1.dev5-py3-none-manylinux1_x86_64.whl
+[2024-05-20 16:58:11] INFO root fetch - processPackages [tui-dsg]: Downloading https://files.pythonhosted.org/packages/3f/9b/174f29b37028b3dc0954bc6b29eb5caecc7d04ffeeef715b94fbd4333f49/tui_dsg-202404250955.tar.gz
+[2024-05-20 16:58:11] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.80]
+[2024-05-20 16:58:11] INFO root fetch - processPackages [batchstats]: Downloading https://files.pythonhosted.org/packages/7e/d2/60772a4507e6fd9ad3c3e4ebae78bf5f9e03b7e2b9c1254ea10fda408cd9/batchstats-0.3.tar.gz
+[2024-05-20 16:58:11] WARNING root fetch - processPackages [bitblas]: Skipping package: exceeds size limit 57514089>=10485760
+[2024-05-20 16:58:11] INFO root fetch - main [MainThread]: End processing [bitblas] error
+[2024-05-20 16:58:11] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/71/dc/bcec85b3c9cde708879799abdfcd5c11466ace50a0c89c65dbfb68c77c20/comun_va-3.7.tar.gz
+[2024-05-20 16:58:11] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/6d/cb/dd2f9624527c90a4963208f76e94b816337030c2bb2dba99114d10e0b257/specklia-1.8.80.tar.gz
+[2024-05-20 16:58:11] INFO root fetch - processPackages [zenyx]: Downloading https://files.pythonhosted.org/packages/38/56/57f9031f88eb304f86b2d6fe79969520b4ef21ead4da8d132784b6c12b3c/zenyx-2.3.0.tar.gz
+[2024-05-20 16:58:11] INFO root fetch - processPackages [tui-dsg]: Downloading https://files.pythonhosted.org/packages/91/ca/355ef24c7c34d3651a85464091172597373d3a01ed69610f835a38b2e50e/tui_dsg-202405200843.tar.gz
+[2024-05-20 16:58:11] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/21/0b/182acb1783fc12da9b1769c39ac648c5761bf755f32cc2dce2d5979c8077/fbgemm_gpu_nightly-2024.5.19-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-20 16:58:11] INFO root fetch - processPackages [organizations-local]: Downloading https://files.pythonhosted.org/packages/5b/7e/09b4d410b99d4d4b3d10725e50ba481bd8741acca902b216e9368c50f4aa/organizations-local-0.0.8.tar.gz
+[2024-05-20 16:58:11] INFO root fetch - processPackages [batchstats]: Downloading https://files.pythonhosted.org/packages/e7/35/4796c72bb4b30fdd5a32a65fbd5307ce5958b1160d2cfc43830febe80002/batchstats-0.3.1.tar.gz
+[2024-05-20 16:58:11] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 223619733>=10485760
+[2024-05-20 16:58:11] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2024-05-20 16:58:11] INFO root fetch - processPackages [comun-va]: executing diffoscope
+[2024-05-20 16:58:11] INFO root fetch - processPackages [comun-va]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comun_va-3.6.tar.gz tmp/comun_va-3.7.tar.gz --markdown 20240520/c/comun-va/3.6-3.7/README.md --exclude *.pyd
+[2024-05-20 16:58:11] INFO root fetch - processPackages [tui-dsg]: executing diffoscope
+[2024-05-20 16:58:11] INFO root fetch - processPackages [tui-dsg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsg-202404250955.tar.gz tmp/tui_dsg-202405200843.tar.gz --markdown 20240520/t/tui-dsg/202404250955-202405200843/README.md --exclude *.pyd
+[2024-05-20 16:58:11] INFO root fetch - processPackages [batchstats]: executing diffoscope
+[2024-05-20 16:58:11] INFO root fetch - processPackages [batchstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batchstats-0.3.tar.gz tmp/batchstats-0.3.1.tar.gz --markdown 20240520/b/batchstats/0.3-0.3.1/README.md --exclude *.pyd
+[2024-05-20 16:58:11] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-05-20 16:58:11] INFO root fetch - processPackages [organizations-local]: Downloading https://files.pythonhosted.org/packages/fc/80/42cde22657fe954391a6e80fc840bcfd4599230f000e8eaaa14ac36177a7/organizations-local-0.0.9.tar.gz
+[2024-05-20 16:58:11] INFO root fetch - processPackages [zenyx]: Downloading https://files.pythonhosted.org/packages/1c/eb/1f6fbb5c87f3d3fd8ce837e73cc25a41ddcc060af66b447368f3a73441a6/zenyx-2.4.0.tar.gz
+[2024-05-20 16:58:11] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-05-20 16:58:11] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.80.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240520/s/specklia/1.8.80-1.8.9/README.md --exclude *.pyd
+[2024-05-20 16:58:11] INFO root fetch - processPackages [organizations-local]: executing diffoscope
+[2024-05-20 16:58:11] INFO root fetch - processPackages [organizations-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/organizations-local-0.0.8.tar.gz tmp/organizations-local-0.0.9.tar.gz --markdown 20240520/o/organizations-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 16:58:11] INFO root fetch - processPackages [zenyx]: executing diffoscope
+[2024-05-20 16:58:11] INFO root fetch - processPackages [zenyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenyx-2.3.0.tar.gz tmp/zenyx-2.4.0.tar.gz --markdown 20240520/z/zenyx/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-05-20 16:58:11] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-3.6.tar.gz]
+[2024-05-20 16:58:11] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-3.7.tar.gz]
+[2024-05-20 16:58:12] INFO root fetch - main [MainThread]: End processing [comun-va]: success
+[2024-05-20 16:58:12] INFO root fetch - processPackages [batchstats]: Remove: archive file [/home/abi/fetcher/tmp/batchstats-0.3.tar.gz]
+[2024-05-20 16:58:12] INFO root fetch - processPackages [batchstats]: Remove: archive file [/home/abi/fetcher/tmp/batchstats-0.3.1.tar.gz]
+[2024-05-20 16:58:12] INFO root fetch - main [MainThread]: End processing [batchstats]: success
+[2024-05-20 16:58:12] INFO root fetch - processPackages [tui-dsg]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsg-202404250955.tar.gz]
+[2024-05-20 16:58:12] INFO root fetch - processPackages [tui-dsg]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsg-202405200843.tar.gz]
+[2024-05-20 16:58:12] INFO root fetch - main [MainThread]: End processing [tui-dsg]: success
+[2024-05-20 16:58:12] INFO root fetch - processPackages [zenyx]: Remove: archive file [/home/abi/fetcher/tmp/zenyx-2.3.0.tar.gz]
+[2024-05-20 16:58:12] INFO root fetch - processPackages [zenyx]: Remove: archive file [/home/abi/fetcher/tmp/zenyx-2.4.0.tar.gz]
+[2024-05-20 16:58:12] INFO root fetch - main [MainThread]: End processing [zenyx]: success
+[2024-05-20 16:58:12] INFO root fetch - processPackages [organizations-local]: Remove: archive file [/home/abi/fetcher/tmp/organizations-local-0.0.8.tar.gz]
+[2024-05-20 16:58:12] INFO root fetch - processPackages [organizations-local]: Remove: archive file [/home/abi/fetcher/tmp/organizations-local-0.0.9.tar.gz]
+[2024-05-20 16:58:12] INFO root fetch - main [MainThread]: End processing [organizations-local]: success
+[2024-05-20 16:58:12] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.80.tar.gz]
+[2024-05-20 16:58:12] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-05-20 16:58:12] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-05-20 16:58:12] INFO root fetch - main [MainThread]: Store serial: [23291405]

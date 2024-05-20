@@ -19444,3 +19444,98 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:54:38] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2024-05-20 15:54:38] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2024-05-20 15:54:38] INFO root fetch - main [MainThread]: Store serial: [23290692]
+[2024-05-20 15:56:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290692]
+[2024-05-20 15:56:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-20 15:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vizbeauty
+[2024-05-20 15:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xai-sdk
+[2024-05-20 15:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cherubimicz
+[2024-05-20 15:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wwbot
+[2024-05-20 15:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: knvheatpumplib
+[2024-05-20 15:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jobqueues
+[2024-05-20 15:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: user-local
+[2024-05-20 15:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AbeewayConfig
+[2024-05-20 15:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imsciences
+[2024-05-20 15:56:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: buzz-client
+[2024-05-20 15:56:49] INFO root fetch - processPackages [AbeewayConfig]: New version: [0.2.2.1] Old Version: [0.2.2]
+[2024-05-20 15:56:49] INFO root fetch - processPackages [jobqueues]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-20 15:56:49] INFO root fetch - processPackages [imsciences]: New version: [0.5.8.2] Old Version: [0.5.8.1]
+[2024-05-20 15:56:49] INFO root fetch - processPackages [knvheatpumplib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 15:56:49] INFO root fetch - processPackages [wwbot]: New version: [0.0.8b0] Old Version: [0.0.8a0]
+[2024-05-20 15:56:49] INFO root fetch - processPackages [vizbeauty]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-20 15:56:49] INFO root fetch - processPackages [user-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-20 15:56:50] INFO root fetch - processPackages [AbeewayConfig]: Downloading https://files.pythonhosted.org/packages/ef/f5/fefbf6a6e7aa9e03ebb9deb11090807095a186037bba3fc4670dee00100f/abeewayconfig-0.2.2.tar.gz
+[2024-05-20 15:56:50] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/cb/2c/6825573dbddeedb9385bebe32d686f9901f7a627038919bda11aa11f88f3/imsciences-0.5.8.1.tar.gz
+[2024-05-20 15:56:50] WARNING root fetch - processPackages [cherubimicz]: Skipping, unable to determine old version
+[2024-05-20 15:56:50] INFO root fetch - processPackages [cherubimicz]: Start processing: predictions-lib-mk
+[2024-05-20 15:56:50] INFO root fetch - main [MainThread]: End processing [cherubimicz] error
+[2024-05-20 15:56:50] INFO root fetch - processPackages [xai-sdk]: New version: [0.1.0] Old Version: [0.0.5]
+[2024-05-20 15:56:50] INFO root fetch - processPackages [buzz-client]: New version: [1.0.3b0] Old Version: [1.0.3a0]
+[2024-05-20 15:56:50] INFO root fetch - processPackages [jobqueues]: Downloading https://files.pythonhosted.org/packages/28/15/40e943536553db70c498f3fb34b97808d3a0169b1f93350fb87a40ea7025/jobqueues-0.9.4.tar.gz
+[2024-05-20 15:56:50] INFO root fetch - processPackages [knvheatpumplib]: Downloading https://files.pythonhosted.org/packages/c6/48/c9fc64c1c822fd5e9196aa507584cd386c5e88facb7acf69558dbca78078/knvheatpumplib-0.0.8.tar.gz
+[2024-05-20 15:56:50] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/de/ea/7625c401904f2ef2802f0d83de520c541429b7c8bd4ba15a796cb340e85d/wwbot-0.0.8a0.tar.gz
+[2024-05-20 15:56:50] WARNING root fetch - processPackages [predictions-lib-mk]: Skipping, unable to determine old version
+[2024-05-20 15:56:50] INFO root fetch - processPackages [predictions-lib-mk]: Start processing: mera
+[2024-05-20 15:56:50] INFO root fetch - main [MainThread]: End processing [predictions-lib-mk] error
+[2024-05-20 15:56:50] INFO root fetch - processPackages [vizbeauty]: Downloading https://files.pythonhosted.org/packages/0f/18/18e0dcabd29e5f2920fe46f7124096ab6e75bd6b63e69c9447cc95dbfe53/vizbeauty-0.0.1.tar.gz
+[2024-05-20 15:56:50] INFO root fetch - processPackages [user-local]: Downloading https://files.pythonhosted.org/packages/06/d1/9b2d1e2755b0e56d71c0252a5eb8bf6a7e0d8c2fafec6659d10e559cc782/user-local-0.0.8.tar.gz
+[2024-05-20 15:56:50] INFO root fetch - processPackages [buzz-client]: Downloading https://files.pythonhosted.org/packages/cd/53/ef04eb2a502da5ff2d92ed1ed1e946190e25a95da25b52b8878fcabdd684/buzz_client-1.0.3a0.tar.gz
+[2024-05-20 15:56:50] INFO root fetch - processPackages [xai-sdk]: Downloading https://files.pythonhosted.org/packages/5a/b1/15399c05656359f37970dcbe017a1eb4ac932a6e30ed3820272703f69628/xai_sdk-0.0.5.tar.gz
+[2024-05-20 15:56:50] INFO root fetch - processPackages [knvheatpumplib]: Downloading https://files.pythonhosted.org/packages/74/24/7eec549c15c7a44c0467b594131a2d0c01eca918ac7848cff39d8862c99b/knvheatpumplib-0.0.9.tar.gz
+[2024-05-20 15:56:50] INFO root fetch - processPackages [AbeewayConfig]: Downloading https://files.pythonhosted.org/packages/0e/c4/4dbd81ccd80671d670c04d0b900c12bbc92750f6db0a50d7af9c7eb6d229/abeewayconfig-0.2.2.1.tar.gz
+[2024-05-20 15:56:50] ERROR root fetch - processPackages [jobqueues]: Unable to fetch info: No such project/version 'jobqueues' 0.9.5
+[2024-05-20 15:56:50] INFO root fetch - main [MainThread]: End processing [jobqueues] error
+[2024-05-20 15:56:50] INFO root fetch - processPackages [imsciences]: Downloading https://files.pythonhosted.org/packages/58/fe/fc833fff808f00d40c3c1ef8b2c908d3fab1547bb04048d24ccd40845230/imsciences-0.5.8.2.tar.gz
+[2024-05-20 15:56:50] INFO root fetch - processPackages [mera]: New version: [1.6.0.post1] Old Version: [1.6.0]
+[2024-05-20 15:56:50] INFO root fetch - processPackages [AbeewayConfig]: executing diffoscope
+[2024-05-20 15:56:50] INFO root fetch - processPackages [AbeewayConfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abeewayconfig-0.2.2.tar.gz tmp/abeewayconfig-0.2.2.1.tar.gz --markdown 20240520/A/AbeewayConfig/0.2.2-0.2.2.1/README.md --exclude *.pyd
+[2024-05-20 15:56:50] INFO root fetch - processPackages [knvheatpumplib]: executing diffoscope
+[2024-05-20 15:56:50] INFO root fetch - processPackages [knvheatpumplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knvheatpumplib-0.0.8.tar.gz tmp/knvheatpumplib-0.0.9.tar.gz --markdown 20240520/k/knvheatpumplib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 15:56:50] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/22/d8/386631b06495641cc5fdf70b7ddccd99da8e40e5b3f68e3cec10a45ead4e/wwbot-0.0.8b0.tar.gz
+[2024-05-20 15:56:50] INFO root fetch - processPackages [imsciences]: executing diffoscope
+[2024-05-20 15:56:50] INFO root fetch - processPackages [imsciences]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imsciences-0.5.8.1.tar.gz tmp/imsciences-0.5.8.2.tar.gz --markdown 20240520/i/imsciences/0.5.8.1-0.5.8.2/README.md --exclude *.pyd
+[2024-05-20 15:56:50] INFO root fetch - processPackages [vizbeauty]: Downloading https://files.pythonhosted.org/packages/b3/db/44b00f073ec1a939e19653a66a219556e6fa6350551d3bb7e90b00eeb43e/vizbeauty-0.0.2.tar.gz
+[2024-05-20 15:56:50] INFO root fetch - processPackages [wwbot]: executing diffoscope
+[2024-05-20 15:56:50] INFO root fetch - processPackages [wwbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwbot-0.0.8a0.tar.gz tmp/wwbot-0.0.8b0.tar.gz --markdown 20240520/w/wwbot/0.0.8a0-0.0.8b0/README.md --exclude *.pyd
+[2024-05-20 15:56:50] INFO root fetch - processPackages [buzz-client]: Downloading https://files.pythonhosted.org/packages/32/f4/dc12adae47ac2518f6ea60c6efb81ea052e39a3404d6979efcb9962f9b62/buzz_client-1.0.3b0.tar.gz
+[2024-05-20 15:56:50] INFO root fetch - processPackages [xai-sdk]: Downloading https://files.pythonhosted.org/packages/0d/3e/cb57b4fc9dc03846a03ea78a3ed1a3afb28ad619a2428e18be33428b1538/xai_sdk-0.1.0.tar.gz
+[2024-05-20 15:56:50] INFO root fetch - processPackages [mera]: Downloading https://files.pythonhosted.org/packages/8b/be/a5e20b6d13b9ca3e5cbd3f60f283309e608cb06179790f3a57eedf79a282/mera-1.6.0-cp38-cp38-manylinux_2_27_x86_64.whl
+[2024-05-20 15:56:50] INFO root fetch - processPackages [vizbeauty]: executing diffoscope
+[2024-05-20 15:56:50] INFO root fetch - processPackages [vizbeauty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vizbeauty-0.0.1.tar.gz tmp/vizbeauty-0.0.2.tar.gz --markdown 20240520/v/vizbeauty/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-20 15:56:50] INFO root fetch - processPackages [user-local]: Downloading https://files.pythonhosted.org/packages/49/1f/bfa45e5ee88d12d2a1570c0db5cd202078362ebc9295e10c8beae0f9cb5c/user-local-0.0.9.tar.gz
+[2024-05-20 15:56:50] INFO root fetch - processPackages [buzz-client]: executing diffoscope
+[2024-05-20 15:56:50] INFO root fetch - processPackages [buzz-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buzz_client-1.0.3a0.tar.gz tmp/buzz_client-1.0.3b0.tar.gz --markdown 20240520/b/buzz-client/1.0.3a0-1.0.3b0/README.md --exclude *.pyd
+[2024-05-20 15:56:50] INFO root fetch - processPackages [xai-sdk]: executing diffoscope
+[2024-05-20 15:56:50] INFO root fetch - processPackages [xai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xai_sdk-0.0.5.tar.gz tmp/xai_sdk-0.1.0.tar.gz --markdown 20240520/x/xai-sdk/0.0.5-0.1.0/README.md --exclude *.pyd
+[2024-05-20 15:56:51] INFO root fetch - processPackages [user-local]: executing diffoscope
+[2024-05-20 15:56:51] INFO root fetch - processPackages [user-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user-local-0.0.8.tar.gz tmp/user-local-0.0.9.tar.gz --markdown 20240520/u/user-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-20 15:56:51] INFO root fetch - processPackages [mera]: Downloading https://files.pythonhosted.org/packages/56/a6/148c8ef88b076925300e92ddaa4f38a972f2705e12f94e6ad524edefa52b/mera-1.6.0.post1-cp38-cp38-manylinux_2_27_x86_64.whl
+[2024-05-20 15:56:51] INFO root fetch - processPackages [knvheatpumplib]: Remove: archive file [/home/abi/fetcher/tmp/knvheatpumplib-0.0.8.tar.gz]
+[2024-05-20 15:56:51] INFO root fetch - processPackages [knvheatpumplib]: Remove: archive file [/home/abi/fetcher/tmp/knvheatpumplib-0.0.9.tar.gz]
+[2024-05-20 15:56:51] INFO root fetch - main [MainThread]: End processing [knvheatpumplib]: success
+[2024-05-20 15:56:51] INFO root fetch - processPackages [AbeewayConfig]: Remove: archive file [/home/abi/fetcher/tmp/abeewayconfig-0.2.2.tar.gz]
+[2024-05-20 15:56:51] INFO root fetch - processPackages [AbeewayConfig]: Remove: archive file [/home/abi/fetcher/tmp/abeewayconfig-0.2.2.1.tar.gz]
+[2024-05-20 15:56:51] INFO root fetch - main [MainThread]: End processing [AbeewayConfig]: success
+[2024-05-20 15:56:51] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.8.1.tar.gz]
+[2024-05-20 15:56:51] INFO root fetch - processPackages [imsciences]: Remove: archive file [/home/abi/fetcher/tmp/imsciences-0.5.8.2.tar.gz]
+[2024-05-20 15:56:51] INFO root fetch - main [MainThread]: End processing [imsciences]: success
+[2024-05-20 15:56:51] INFO root fetch - processPackages [mera]: executing diffoscope
+[2024-05-20 15:56:51] INFO root fetch - processPackages [mera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mera-1.6.0-cp38-cp38-manylinux_2_27_x86_64.whl.zip tmp/mera-1.6.0.post1-cp38-cp38-manylinux_2_27_x86_64.whl.zip --markdown 20240520/m/mera/1.6.0-1.6.0.post1/README.md --exclude *.pyd
+[2024-05-20 15:56:51] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.8a0.tar.gz]
+[2024-05-20 15:56:51] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.8b0.tar.gz]
+[2024-05-20 15:56:51] INFO root fetch - main [MainThread]: End processing [wwbot]: success
+[2024-05-20 15:56:51] INFO root fetch - processPackages [vizbeauty]: Remove: archive file [/home/abi/fetcher/tmp/vizbeauty-0.0.1.tar.gz]
+[2024-05-20 15:56:51] INFO root fetch - processPackages [vizbeauty]: Remove: archive file [/home/abi/fetcher/tmp/vizbeauty-0.0.2.tar.gz]
+[2024-05-20 15:56:51] INFO root fetch - main [MainThread]: End processing [vizbeauty]: success
+[2024-05-20 15:56:51] INFO root fetch - processPackages [user-local]: Remove: archive file [/home/abi/fetcher/tmp/user-local-0.0.8.tar.gz]
+[2024-05-20 15:56:51] INFO root fetch - processPackages [user-local]: Remove: archive file [/home/abi/fetcher/tmp/user-local-0.0.9.tar.gz]
+[2024-05-20 15:56:51] INFO root fetch - main [MainThread]: End processing [user-local]: success
+[2024-05-20 15:56:51] INFO root fetch - processPackages [buzz-client]: Remove: archive file [/home/abi/fetcher/tmp/buzz_client-1.0.3a0.tar.gz]
+[2024-05-20 15:56:51] INFO root fetch - processPackages [buzz-client]: Remove: archive file [/home/abi/fetcher/tmp/buzz_client-1.0.3b0.tar.gz]
+[2024-05-20 15:56:51] INFO root fetch - main [MainThread]: End processing [buzz-client]: success
+[2024-05-20 15:56:51] INFO root fetch - processPackages [xai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xai_sdk-0.0.5.tar.gz]
+[2024-05-20 15:56:51] INFO root fetch - processPackages [xai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xai_sdk-0.1.0.tar.gz]
+[2024-05-20 15:56:51] INFO root fetch - main [MainThread]: End processing [xai-sdk]: success
+[2024-05-20 15:56:52] INFO root fetch - processPackages [mera]: Remove: archive file [/home/abi/fetcher/tmp/mera-1.6.0-cp38-cp38-manylinux_2_27_x86_64.whl.zip]
+[2024-05-20 15:56:52] INFO root fetch - processPackages [mera]: Remove: archive file [/home/abi/fetcher/tmp/mera-1.6.0.post1-cp38-cp38-manylinux_2_27_x86_64.whl.zip]
+[2024-05-20 15:56:52] INFO root fetch - main [MainThread]: End processing [mera]: success
+[2024-05-20 15:56:52] INFO root fetch - main [MainThread]: Store serial: [23290735]

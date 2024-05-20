@@ -5043,3 +5043,36 @@
 [2024-05-20 04:33:37] INFO root fetch - processPackages [vr180-convert]: Remove: archive file [/home/abi/fetcher/tmp/vr180_convert-0.3.1.tar.gz]
 [2024-05-20 04:33:37] INFO root fetch - main [MainThread]: End processing [vr180-convert]: success
 [2024-05-20 04:33:37] INFO root fetch - main [MainThread]: Store serial: [23283839]
+[2024-05-20 04:35:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23283839]
+[2024-05-20 04:35:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-20 04:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chiliasmsz
+[2024-05-20 04:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: printwizard
+[2024-05-20 04:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edman
+[2024-05-20 04:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: galah-python
+[2024-05-20 04:35:46] INFO root fetch - processPackages [printwizard]: New version: [1.0.0] Old Version: [0.1.2]
+[2024-05-20 04:35:46] INFO root fetch - processPackages [printwizard]: Downloading https://files.pythonhosted.org/packages/01/18/f01f0a7360f041a2ea5c0ee7c1c730be4f23cad5faa949adde03b48b2473/printwizard-0.1.2.tar.gz
+[2024-05-20 04:35:46] WARNING root fetch - processPackages [chiliasmsz]: Skipping, unable to determine old version
+[2024-05-20 04:35:46] INFO root fetch - main [MainThread]: End processing [chiliasmsz] error
+[2024-05-20 04:35:46] INFO root fetch - processPackages [edman]: New version: [2024.5.20] Old Version: [2024.4.9.1]
+[2024-05-20 04:35:46] INFO root fetch - processPackages [galah-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-20 04:35:46] INFO root fetch - processPackages [printwizard]: Downloading https://files.pythonhosted.org/packages/28/26/41c63e9ae3a6a22fcbc3ad9b1f8a50b8ebaadf2758af71de256ff1e2ee0a/printwizard-1.0.0.tar.gz
+[2024-05-20 04:35:46] INFO root fetch - processPackages [galah-python]: Downloading https://files.pythonhosted.org/packages/33/3e/2e3cdde537adb24797962422943b5a6aa4f173ed1645845150c2c15d8b47/galah_python-0.9.0-py3-none-any.whl
+[2024-05-20 04:35:46] INFO root fetch - processPackages [printwizard]: executing diffoscope
+[2024-05-20 04:35:46] INFO root fetch - processPackages [printwizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/printwizard-0.1.2.tar.gz tmp/printwizard-1.0.0.tar.gz --markdown 20240520/p/printwizard/0.1.2-1.0.0/README.md --exclude *.pyd
+[2024-05-20 04:35:46] INFO root fetch - processPackages [edman]: Downloading https://files.pythonhosted.org/packages/b7/8c/95ddb0f0ca174adf384bb9100f3691039b6c5432001aa2747860cd68a34e/edman-2024.4.9.1.tar.gz
+[2024-05-20 04:35:47] INFO root fetch - processPackages [galah-python]: Downloading https://files.pythonhosted.org/packages/4d/af/56c2727ce19cc6d6b931d0174532c5030ffe09f5639fecfa9b3c2ba6ada2/galah_python-0.9.1-py3-none-any.whl
+[2024-05-20 04:35:47] INFO root fetch - processPackages [edman]: Downloading https://files.pythonhosted.org/packages/38/80/9d2aedf950d6acf39948aeebaadb6aee05f02292403efa3bc04e27eb040c/edman-2024.5.20.tar.gz
+[2024-05-20 04:35:47] INFO root fetch - processPackages [edman]: executing diffoscope
+[2024-05-20 04:35:47] INFO root fetch - processPackages [edman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edman-2024.4.9.1.tar.gz tmp/edman-2024.5.20.tar.gz --markdown 20240520/e/edman/2024.4.9.1-2024.5.20/README.md --exclude *.pyd
+[2024-05-20 04:35:47] INFO root fetch - processPackages [printwizard]: Remove: archive file [/home/abi/fetcher/tmp/printwizard-0.1.2.tar.gz]
+[2024-05-20 04:35:47] INFO root fetch - processPackages [printwizard]: Remove: archive file [/home/abi/fetcher/tmp/printwizard-1.0.0.tar.gz]
+[2024-05-20 04:35:47] INFO root fetch - main [MainThread]: End processing [printwizard]: success
+[2024-05-20 04:35:47] INFO root fetch - processPackages [edman]: Remove: archive file [/home/abi/fetcher/tmp/edman-2024.4.9.1.tar.gz]
+[2024-05-20 04:35:47] INFO root fetch - processPackages [edman]: Remove: archive file [/home/abi/fetcher/tmp/edman-2024.5.20.tar.gz]
+[2024-05-20 04:35:47] INFO root fetch - main [MainThread]: End processing [edman]: success
+[2024-05-20 04:35:47] INFO root fetch - processPackages [galah-python]: executing diffoscope
+[2024-05-20 04:35:47] INFO root fetch - processPackages [galah-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galah_python-0.9.0-py3-none-any.whl.zip tmp/galah_python-0.9.1-py3-none-any.whl.zip --markdown 20240520/g/galah-python/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-20 04:35:48] INFO root fetch - processPackages [galah-python]: Remove: archive file [/home/abi/fetcher/tmp/galah_python-0.9.0-py3-none-any.whl.zip]
+[2024-05-20 04:35:48] INFO root fetch - processPackages [galah-python]: Remove: archive file [/home/abi/fetcher/tmp/galah_python-0.9.1-py3-none-any.whl.zip]
+[2024-05-20 04:35:48] INFO root fetch - main [MainThread]: End processing [galah-python]: success
+[2024-05-20 04:35:48] INFO root fetch - main [MainThread]: Store serial: [23283850]

@@ -22005,3 +22005,66 @@ EOFError: EOF read where object expected
 [2024-05-20 17:27:18] INFO root fetch - processPackages [geodezyx]: Remove: archive file [/home/abi/fetcher/tmp/geodezyx-4.4.3.tar.gz]
 [2024-05-20 17:27:18] INFO root fetch - main [MainThread]: End processing [geodezyx]: success
 [2024-05-20 17:27:18] INFO root fetch - main [MainThread]: Store serial: [23291763]
+[2024-05-20 17:29:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23291763]
+[2024-05-20 17:29:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-20 17:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geodezyx
+[2024-05-20 17:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-telegram-bot
+[2024-05-20 17:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-telegram-bot-raw
+[2024-05-20 17:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nada-algebra
+[2024-05-20 17:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdkfabric-starwars
+[2024-05-20 17:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vizbeauty
+[2024-05-20 17:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: myaskai-py
+[2024-05-20 17:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fractal-server
+[2024-05-20 17:29:27] WARNING root fetch - processPackages [myaskai-py]: Skipping, unable to determine old version
+[2024-05-20 17:29:27] INFO root fetch - main [MainThread]: End processing [myaskai-py] error
+[2024-05-20 17:29:27] INFO root fetch - processPackages [vizbeauty]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-20 17:29:27] INFO root fetch - processPackages [geodezyx]: New version: [4.4.3] Old Version: [4.4.2]
+[2024-05-20 17:29:27] INFO root fetch - processPackages [vizbeauty]: Downloading https://files.pythonhosted.org/packages/0f/18/18e0dcabd29e5f2920fe46f7124096ab6e75bd6b63e69c9447cc95dbfe53/vizbeauty-0.0.1.tar.gz
+[2024-05-20 17:29:27] INFO root fetch - processPackages [geodezyx]: Downloading https://files.pythonhosted.org/packages/95/3b/b41fbd582ebf466b91b4a000652d2fdad6e891a340824f220135e070e28e/geodezyx-4.4.2.tar.gz
+[2024-05-20 17:29:27] INFO root fetch - processPackages [python-telegram-bot-raw]: New version: [21.2] Old Version: [21.1.1]
+[2024-05-20 17:29:27] ERROR root fetch - processPackages [nada-algebra]: Unable to get metadata: No such project 'nada-algebra'
+[2024-05-20 17:29:27] INFO root fetch - main [MainThread]: End processing [nada-algebra] error
+[2024-05-20 17:29:27] INFO root fetch - processPackages [sdkfabric-starwars]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-20 17:29:27] INFO root fetch - processPackages [python-telegram-bot]: New version: [9.0.0] Old Version: [8.1.1]
+[2024-05-20 17:29:27] INFO root fetch - processPackages [fractal-server]: New version: [2.1.0] Old Version: [2.0.6]
+[2024-05-20 17:29:27] INFO root fetch - processPackages [python-telegram-bot-raw]: Downloading https://files.pythonhosted.org/packages/e4/e2/44d94f47e7ad5e379988cfe5d9dc2f338e1d2ac1a28ca6cca8b3d15bdf7b/python-telegram-bot-raw-21.1.1.tar.gz
+[2024-05-20 17:29:27] INFO root fetch - processPackages [sdkfabric-starwars]: Downloading https://files.pythonhosted.org/packages/c8/13/f8eb7a03763f5893b14ce55795d08ac3d997a246e2a93fbc5680dbc4d3d2/sdkfabric_starwars-0.1.0.tar.gz
+[2024-05-20 17:29:27] INFO root fetch - processPackages [python-telegram-bot]: Downloading https://files.pythonhosted.org/packages/b4/d4/66e153eb470179dd6346ae1f5a50c75b871c2263ab7b976427b2d9722689/python-telegram-bot-8.1.1.tar.gz
+[2024-05-20 17:29:27] INFO root fetch - processPackages [vizbeauty]: Downloading https://files.pythonhosted.org/packages/b3/db/44b00f073ec1a939e19653a66a219556e6fa6350551d3bb7e90b00eeb43e/vizbeauty-0.0.2.tar.gz
+[2024-05-20 17:29:27] INFO root fetch - processPackages [geodezyx]: Downloading https://files.pythonhosted.org/packages/54/6c/f17ec88e87f7d1e227b835ef9087e52823fa0cab8ca0eb2d779e9868ce55/geodezyx-4.4.3.tar.gz
+[2024-05-20 17:29:28] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/a1/00/aad8b8b0ff2a6aaae9124c75d83bedd91822e9444070791a3fa352d88c72/fractal_server-2.0.6.tar.gz
+[2024-05-20 17:29:28] INFO root fetch - processPackages [vizbeauty]: executing diffoscope
+[2024-05-20 17:29:28] INFO root fetch - processPackages [vizbeauty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vizbeauty-0.0.1.tar.gz tmp/vizbeauty-0.0.2.tar.gz --markdown 20240520/v/vizbeauty/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-20 17:29:28] INFO root fetch - processPackages [geodezyx]: executing diffoscope
+[2024-05-20 17:29:28] INFO root fetch - processPackages [geodezyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodezyx-4.4.2.tar.gz tmp/geodezyx-4.4.3.tar.gz --markdown 20240520/g/geodezyx/4.4.2-4.4.3/README.md --exclude *.pyd
+[2024-05-20 17:29:28] INFO root fetch - processPackages [sdkfabric-starwars]: Downloading https://files.pythonhosted.org/packages/13/08/abad0bfd6f91ceb5ea631266e3562e2718327d4b61a2f1bb1593c26ff744/sdkfabric_starwars-0.1.1.tar.gz
+[2024-05-20 17:29:28] INFO root fetch - processPackages [python-telegram-bot]: Downloading https://files.pythonhosted.org/packages/f6/bc/a63239325cc5a28c5bee06fdf0a259fc4100194c11e6d029036aa6fe7ea8/python-telegram-bot-9.0.0.tar.gz
+[2024-05-20 17:29:28] INFO root fetch - processPackages [python-telegram-bot-raw]: Downloading https://files.pythonhosted.org/packages/21/a1/5ef371ac2e674ef586181491a50861323bdf5f4464c5b425838cf827d530/python-telegram-bot-raw-21.2.tar.gz
+[2024-05-20 17:29:28] INFO root fetch - processPackages [sdkfabric-starwars]: executing diffoscope
+[2024-05-20 17:29:28] INFO root fetch - processPackages [sdkfabric-starwars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkfabric_starwars-0.1.0.tar.gz tmp/sdkfabric_starwars-0.1.1.tar.gz --markdown 20240520/s/sdkfabric-starwars/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-20 17:29:28] INFO root fetch - processPackages [fractal-server]: Downloading https://files.pythonhosted.org/packages/ea/5a/c71636a0a986c4cd83c0013d69e550cf20bad94b74b28c946f7afb870487/fractal_server-2.1.0-py3-none-any.whl
+[2024-05-20 17:29:28] INFO root fetch - processPackages [python-telegram-bot-raw]: executing diffoscope
+[2024-05-20 17:29:28] INFO root fetch - processPackages [python-telegram-bot-raw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-telegram-bot-raw-21.1.1.tar.gz tmp/python-telegram-bot-raw-21.2.tar.gz --markdown 20240520/p/python-telegram-bot-raw/21.1.1-21.2/README.md --exclude *.pyd
+[2024-05-20 17:29:28] INFO root fetch - processPackages [python-telegram-bot]: executing diffoscope
+[2024-05-20 17:29:28] INFO root fetch - processPackages [python-telegram-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-telegram-bot-8.1.1.tar.gz tmp/python-telegram-bot-9.0.0.tar.gz --markdown 20240520/p/python-telegram-bot/8.1.1-9.0.0/README.md --exclude *.pyd
+[2024-05-20 17:29:28] INFO root fetch - processPackages [vizbeauty]: Remove: archive file [/home/abi/fetcher/tmp/vizbeauty-0.0.1.tar.gz]
+[2024-05-20 17:29:28] INFO root fetch - processPackages [vizbeauty]: Remove: archive file [/home/abi/fetcher/tmp/vizbeauty-0.0.2.tar.gz]
+[2024-05-20 17:29:28] INFO root fetch - main [MainThread]: End processing [vizbeauty]: success
+[2024-05-20 17:29:28] INFO root fetch - processPackages [sdkfabric-starwars]: Remove: archive file [/home/abi/fetcher/tmp/sdkfabric_starwars-0.1.0.tar.gz]
+[2024-05-20 17:29:28] INFO root fetch - processPackages [sdkfabric-starwars]: Remove: archive file [/home/abi/fetcher/tmp/sdkfabric_starwars-0.1.1.tar.gz]
+[2024-05-20 17:29:28] INFO root fetch - main [MainThread]: End processing [sdkfabric-starwars]: success
+[2024-05-20 17:29:29] INFO root fetch - processPackages [fractal-server]: executing diffoscope
+[2024-05-20 17:29:29] INFO root fetch - processPackages [fractal-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_server-2.0.6.tar.gz tmp/fractal_server-2.1.0-py3-none-any.whl.zip --markdown 20240520/f/fractal-server/2.0.6-2.1.0/README.md --exclude *.pyd
+[2024-05-20 17:29:29] INFO root fetch - processPackages [geodezyx]: Remove: archive file [/home/abi/fetcher/tmp/geodezyx-4.4.2.tar.gz]
+[2024-05-20 17:29:29] INFO root fetch - processPackages [geodezyx]: Remove: archive file [/home/abi/fetcher/tmp/geodezyx-4.4.3.tar.gz]
+[2024-05-20 17:29:29] INFO root fetch - main [MainThread]: End processing [geodezyx]: success
+[2024-05-20 17:29:29] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.0.6.tar.gz]
+[2024-05-20 17:29:29] INFO root fetch - processPackages [fractal-server]: Remove: archive file [/home/abi/fetcher/tmp/fractal_server-2.1.0-py3-none-any.whl.zip]
+[2024-05-20 17:29:29] INFO root fetch - main [MainThread]: End processing [fractal-server]: success
+[2024-05-20 17:29:30] INFO root fetch - processPackages [python-telegram-bot-raw]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-bot-raw-21.1.1.tar.gz]
+[2024-05-20 17:29:30] INFO root fetch - processPackages [python-telegram-bot-raw]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-bot-raw-21.2.tar.gz]
+[2024-05-20 17:29:30] INFO root fetch - main [MainThread]: End processing [python-telegram-bot-raw]: success
+[2024-05-20 17:29:30] INFO root fetch - processPackages [python-telegram-bot]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-bot-8.1.1.tar.gz]
+[2024-05-20 17:29:30] INFO root fetch - processPackages [python-telegram-bot]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-bot-9.0.0.tar.gz]
+[2024-05-20 17:29:30] INFO root fetch - main [MainThread]: End processing [python-telegram-bot]: success
+[2024-05-20 17:29:30] INFO root fetch - main [MainThread]: Store serial: [23291787]

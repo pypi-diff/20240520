@@ -19334,3 +19334,113 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-20 15:52:22] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.2.6.tar.gz]
 [2024-05-20 15:52:22] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
 [2024-05-20 15:52:22] INFO root fetch - main [MainThread]: Store serial: [23290649]
+[2024-05-20 15:54:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23290649]
+[2024-05-20 15:54:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-20 15:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: large-image-source-pil
+[2024-05-20 15:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-dms
+[2024-05-20 15:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: large-image-source-rasterio
+[2024-05-20 15:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: large-image-source-test
+[2024-05-20 15:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: large-image-source-tiff
+[2024-05-20 15:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ethyca-fides
+[2024-05-20 15:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: large-image-source-tifffile
+[2024-05-20 15:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: large-image-source-vips
+[2024-05-20 15:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: data-prep-toolkit-kfp
+[2024-05-20 15:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: large-image-source-zarr
+[2024-05-20 15:54:33] INFO root fetch - processPackages [data-prep-toolkit-kfp]: New version: [0.1.0] Old Version: [0.0.1.dev9]
+[2024-05-20 15:54:33] INFO root fetch - processPackages [large-image-source-pil]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:54:33] INFO root fetch - processPackages [large-image-source-zarr]: New version: [1.28.3.dev6] Old Version: [1.28.3.dev4]
+[2024-05-20 15:54:33] INFO root fetch - processPackages [large-image-source-rasterio]: New version: [1.28.3.dev6] Old Version: [1.28.3.dev4]
+[2024-05-20 15:54:33] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-20 15:54:33] INFO root fetch - processPackages [large-image-source-vips]: New version: [1.28.3.dev6] Old Version: [1.28.3.dev4]
+[2024-05-20 15:54:33] INFO root fetch - processPackages [large-image-source-test]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:54:33] INFO root fetch - processPackages [large-image-source-tifffile]: New version: [1.28.3.dev6] Old Version: [1.28.3.dev4]
+[2024-05-20 15:54:33] INFO root fetch - processPackages [large-image-source-tiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-05-20 15:54:33] INFO root fetch - processPackages [odoo-addon-dms]: New version: [16.0.1.7.0] Old Version: [16.0.1.6.1.15]
+[2024-05-20 15:54:34] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/ba/bf/e95575aad408e2aa50198d2c293f708992db973fc14a205c8aaefd64e700/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/05/ce/81034c7419935fd746b6918780ea4bfde46e86869946fa41906267d6f2d9/large-image-source-zarr-1.28.3.dev4.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/8d/5f/0655a339ab1bb6dda15d0c4e174a5c2f0eae690a497018f912f490f67c26/large-image-source-test-1.9.1.dev6.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/c8/6c/639ce1332a92ec143e7c9da2387f456c02c39a55ba0669e8cedf16dcba13/large-image-source-rasterio-1.28.3.dev4.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-pil]: Downloading https://files.pythonhosted.org/packages/62/43/ee7dff22ed2010638ae04420c847d0eeeffd3ec95c15aef5dd78c0f9de79/large-image-source-pil-1.9.1.dev6.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/04/91/def7c15423426c151e8c3d2c2c3cc289c59d0c9991337033c210578bc83a/large-image-source-tifffile-1.28.3.dev4.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/de/d8/11a04e7da12bfb1cea85e4c0ff3b470f2d1e1b4f18bdbc908482765c9bef/large-image-source-tiff-1.9.1.dev6.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/67/1f/79a041c8d8e8d83873bf10d1da967227dad702fd3eb031b697e7dcac7644/large-image-source-vips-1.28.3.dev4.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [odoo-addon-dms]: Downloading https://files.pythonhosted.org/packages/07/a5/8265fcf392ff8887b16ea1836c0a5028c679dfa1e3d5506ce6eb36b8bb5b/odoo_addon_dms-16.0.1.6.1.15-py3-none-any.whl
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-test]: Downloading https://files.pythonhosted.org/packages/6c/52/b863313751b2cf1efc96557c639944027ef1db00dedd386ad79707764cfe/large-image-source-test-1.9.1.dev8.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/63/6f/279e4e2d015025c0244d51b0196f09b6165b22d33586bfb159c3bfaa26df/large-image-source-zarr-1.28.3.dev6.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Downloading https://files.pythonhosted.org/packages/c5/c8/8d6d7be956979a103c6894ce424548dff678de6bfc85be8018d305469e67/data_prep_toolkit_kfp-0.1.0.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-rasterio]: Downloading https://files.pythonhosted.org/packages/59/fd/85010827dcfb31a43360ecb5fc659be3439f2f1fe9ccdb0febc47aacbb5d/large-image-source-rasterio-1.28.3.dev6.tar.gz
+[2024-05-20 15:54:34] WARNING root fetch - processPackages [odoo-addon-dms]: Skipping package: exceeds size limit 15664730>=10485760
+[2024-05-20 15:54:34] INFO root fetch - processPackages [odoo-addon-dms]: Start processing: tensordict-nightly
+[2024-05-20 15:54:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms] error
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/72/b7/014ae63963299a5acef94e7ae73f1b5af8f2d642ee05a4ec2ffbe3a1ab70/large-image-source-tifffile-1.28.3.dev6.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-pil]: Downloading https://files.pythonhosted.org/packages/51/73/2b201201e4bd4d42037d602dc35d468eba8131dce691debda3e43e3817f7/large-image-source-pil-1.9.1.dev8.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/1d/e4/def78005a865fada3d6d1f1d1b45d1dc76a9ba074c2b7284b81717b67cea/large-image-source-tiff-1.9.1.dev8.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/a9/45/fc13789b55ddc7856736b65e5b4dabf6accf892c63004288c33ab32aba8c/large-image-source-vips-1.28.3.dev6.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-test]: executing diffoscope
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-test-1.9.1.dev6.tar.gz tmp/large-image-source-test-1.9.1.dev8.tar.gz --markdown 20240520/l/large-image-source-test/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-zarr]: executing diffoscope
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-zarr-1.28.3.dev4.tar.gz tmp/large-image-source-zarr-1.28.3.dev6.tar.gz --markdown 20240520/l/large-image-source-zarr/1.28.3.dev4-1.28.3.dev6/README.md --exclude *.pyd
+[2024-05-20 15:54:34] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-05-20 15:54:34] INFO root fetch - processPackages [data-prep-toolkit-kfp]: executing diffoscope
+[2024-05-20 15:54:34] INFO root fetch - processPackages [data-prep-toolkit-kfp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz tmp/data_prep_toolkit_kfp-0.1.0.tar.gz --markdown 20240520/d/data-prep-toolkit-kfp/0.0.1.dev9-0.1.0/README.md --exclude *.pyd
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-rasterio]: executing diffoscope
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-rasterio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-rasterio-1.28.3.dev4.tar.gz tmp/large-image-source-rasterio-1.28.3.dev6.tar.gz --markdown 20240520/l/large-image-source-rasterio/1.28.3.dev4-1.28.3.dev6/README.md --exclude *.pyd
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-pil]: executing diffoscope
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-pil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-pil-1.9.1.dev6.tar.gz tmp/large-image-source-pil-1.9.1.dev8.tar.gz --markdown 20240520/l/large-image-source-pil/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-tifffile]: executing diffoscope
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tifffile-1.28.3.dev4.tar.gz tmp/large-image-source-tifffile-1.28.3.dev6.tar.gz --markdown 20240520/l/large-image-source-tifffile/1.28.3.dev4-1.28.3.dev6/README.md --exclude *.pyd
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-tiff]: executing diffoscope
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tiff-1.9.1.dev6.tar.gz tmp/large-image-source-tiff-1.9.1.dev8.tar.gz --markdown 20240520/l/large-image-source-tiff/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-05-20 15:54:34] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-vips]: executing diffoscope
+[2024-05-20 15:54:34] INFO root fetch - processPackages [large-image-source-vips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-vips-1.28.3.dev4.tar.gz tmp/large-image-source-vips-1.28.3.dev6.tar.gz --markdown 20240520/l/large-image-source-vips/1.28.3.dev4-1.28.3.dev6/README.md --exclude *.pyd
+[2024-05-20 15:54:35] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/92/36/819c077c6f13e604fee257ce897f68e5860a53e54214b83dce4b4878dff6/tensordict_nightly-2024.5.8-cp39-cp39-win_amd64.whl
+[2024-05-20 15:54:35] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-05-20 15:54:35] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240520/e/ethyca-fides/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-20 15:54:35] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/b9/28/e296d4b168e87aedf19b6cf0d7e65b1474a3da33b8e5314b4a04050bda78/tensordict_nightly-2024.5.9-cp39-cp39-win_amd64.whl
+[2024-05-20 15:54:35] INFO root fetch - processPackages [large-image-source-pil]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-pil-1.9.1.dev6.tar.gz]
+[2024-05-20 15:54:35] INFO root fetch - processPackages [large-image-source-pil]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-pil-1.9.1.dev8.tar.gz]
+[2024-05-20 15:54:35] INFO root fetch - processPackages [large-image-source-pil]: Start processing: django-bootstrap5-dark-mode-switch
+[2024-05-20 15:54:35] INFO root fetch - main [MainThread]: End processing [large-image-source-pil]: success
+[2024-05-20 15:54:35] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-05-20 15:54:35] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20240520/t/tensordict-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-20 15:54:35] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.28.3.dev4.tar.gz]
+[2024-05-20 15:54:35] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.28.3.dev6.tar.gz]
+[2024-05-20 15:54:35] INFO root fetch - processPackages [large-image-source-zarr]: Start processing: effect-edc
+[2024-05-20 15:54:35] INFO root fetch - main [MainThread]: End processing [large-image-source-zarr]: success
+[2024-05-20 15:54:35] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.0.1.dev9.tar.gz]
+[2024-05-20 15:54:35] INFO root fetch - processPackages [data-prep-toolkit-kfp]: Remove: archive file [/home/abi/fetcher/tmp/data_prep_toolkit_kfp-0.1.0.tar.gz]
+[2024-05-20 15:54:35] INFO root fetch - main [MainThread]: End processing [data-prep-toolkit-kfp]: success
+[2024-05-20 15:54:35] ERROR root fetch - processPackages [django-bootstrap5-dark-mode-switch]: Unable to get metadata: No such project 'django-bootstrap5-dark-mode-switch'
+[2024-05-20 15:54:35] INFO root fetch - main [MainThread]: End processing [django-bootstrap5-dark-mode-switch] error
+[2024-05-20 15:54:35] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev6.tar.gz]
+[2024-05-20 15:54:35] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev8.tar.gz]
+[2024-05-20 15:54:35] INFO root fetch - main [MainThread]: End processing [large-image-source-tiff]: success
+[2024-05-20 15:54:35] INFO root fetch - processPackages [effect-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-20 15:54:35] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.28.3.dev4.tar.gz]
+[2024-05-20 15:54:35] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.28.3.dev6.tar.gz]
+[2024-05-20 15:54:35] INFO root fetch - main [MainThread]: End processing [large-image-source-tifffile]: success
+[2024-05-20 15:54:35] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.28.3.dev4.tar.gz]
+[2024-05-20 15:54:35] INFO root fetch - processPackages [large-image-source-rasterio]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-rasterio-1.28.3.dev6.tar.gz]
+[2024-05-20 15:54:35] INFO root fetch - main [MainThread]: End processing [large-image-source-rasterio]: success
+[2024-05-20 15:54:35] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.28.3.dev4.tar.gz]
+[2024-05-20 15:54:35] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.28.3.dev6.tar.gz]
+[2024-05-20 15:54:35] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
+[2024-05-20 15:54:35] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev6.tar.gz]
+[2024-05-20 15:54:35] INFO root fetch - processPackages [large-image-source-test]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-test-1.9.1.dev8.tar.gz]
+[2024-05-20 15:54:35] INFO root fetch - main [MainThread]: End processing [large-image-source-test]: success
+[2024-05-20 15:54:35] INFO root fetch - processPackages [effect-edc]: Downloading https://files.pythonhosted.org/packages/60/d3/fdc9151a861c28e4c2d0619159468ecb856c2e24c92b928e1ad1495dd0f2/effect-edc-0.1.8.tar.gz
+[2024-05-20 15:54:36] INFO root fetch - processPackages [effect-edc]: Downloading https://files.pythonhosted.org/packages/d4/a9/c249648fe69cf380547e0fe9146aecec08f8689d51ea9a4c1a85df9a347a/effect-edc-0.1.9.tar.gz
+[2024-05-20 15:54:36] INFO root fetch - processPackages [effect-edc]: executing diffoscope
+[2024-05-20 15:54:36] INFO root fetch - processPackages [effect-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240520:/home/abi/fetcher/20240520:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/effect-edc-0.1.8.tar.gz tmp/effect-edc-0.1.9.tar.gz --markdown 20240520/e/effect-edc/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-20 15:54:36] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 15:54:36] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-20 15:54:36] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-05-20 15:54:38] INFO root fetch - processPackages [effect-edc]: Remove: archive file [/home/abi/fetcher/tmp/effect-edc-0.1.8.tar.gz]
+[2024-05-20 15:54:38] INFO root fetch - processPackages [effect-edc]: Remove: archive file [/home/abi/fetcher/tmp/effect-edc-0.1.9.tar.gz]
+[2024-05-20 15:54:38] INFO root fetch - main [MainThread]: End processing [effect-edc]: success
+[2024-05-20 15:54:38] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-05-20 15:54:38] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-05-20 15:54:38] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-05-20 15:54:38] INFO root fetch - main [MainThread]: Store serial: [23290692]
